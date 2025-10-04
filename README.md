@@ -9,7 +9,7 @@
 - [2023.12] 中医药广东省实验室第一届学术委员会第一次会议暨首届横琴中医药科技创新大会在横琴粤澳深度合作区举行，发布**中医药横琴大模型**
 
 ## 📚 资源
-[[论文]()] [[代码]()]
+
 ### 2025
 - [*Pharmacological Research*] **TCMChat** 中药知识聊天机器人 [浙江大学] [[论文](https://www.sciencedirect.com/science/article/pii/S1043661824004754)] [[代码](https://github.com/ZJUFanLab/TCMChat)]
 - [*Tsinghua Science and Technology*] **仲景 (ZhongJing)** 中医大模型 [福耀科技大学，健康长三角研究院，复旦大学，同济大学] [[论文](https://doi.org/10.26599/TST.2025.9010046)] [[代码](https://github.com/pariskang/CMLM-ZhongJing)]
