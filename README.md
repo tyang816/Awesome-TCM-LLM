@@ -13,8 +13,10 @@
 ## 📚 资源
 
 ### 2025
+- [*Cell Discovery*] **神农Alpha** 中药大模型 [西湖大学] [[网站](https://shennongalpha.westlake.edu.cn/)] [[论文](https://www.nature.com/articles/s41421-025-00776-2)] [[代码](https://github.com/shennong-program/shennongname)]
 - [*Pharmacological Research*] **TCMChat** 中药知识聊天机器人 [浙江大学] [[论文](https://www.sciencedirect.com/science/article/pii/S1043661824004754)] [[代码](https://github.com/ZJUFanLab/TCMChat)]
 - [*Tsinghua Science and Technology*] **仲景 (ZhongJing)** 中医大模型 [福耀科技大学，健康长三角研究院，复旦大学，同济大学] [[论文](https://doi.org/10.26599/TST.2025.9010046)] [[代码](https://github.com/pariskang/CMLM-ZhongJing)]
+- **ShizhenGPT** 中医多模态大模型 [香港中文大学] [[论文](https://arxiv.org/abs/2508.14706)] [[代码](https://github.com/FreedomIntelligence/ShizhenGPT)]
 
 ### 2024
 - [*Computers in Biology and Medicine*] **MedChatZH** 中医问诊大模型 [华东理工大学] [[论文](https://www.sciencedirect.com/science/article/pii/S0010482524003743)] [[数据集](https://huggingface.co/datasets/tyang816/MedChatZH)] [[模型](https://huggingface.co/tyang816/medchatzh)] [[代码](https://github.com/tyang816/MedChatZH)]
