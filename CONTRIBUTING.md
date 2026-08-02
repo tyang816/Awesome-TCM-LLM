@@ -13,7 +13,9 @@
 python3 scripts/build_readme.py
 ```
 
-3. 提交 PR，包含 `catalog.yml`、生成的 `catalog.json` 与 `README.md`。
+会同时生成中文 [`README.md`](README.md) 与英文 [`README_EN.md`](README_EN.md)，文首可互相切换。英文摘要维护在 [`data/i18n_en.yml`](data/i18n_en.yml)（按条目 `id`），新增资源时请一并补上。
+
+3. 提交 PR，包含 `catalog.yml`、`i18n_en.yml`、生成的 `catalog.json`、`README.md` 与 `README_EN.md`。
 
 项目页 [tyang816.github.io/projects/tcm/](https://tyang816.github.io/projects/tcm/)（英文）与 [zh/projects/tcm](https://tyang816.github.io/zh/projects/tcm/)（中文）读取 `data/catalog.json`，无需单独维护第二份列表。作者站点：[中文主页](https://tyang816.github.io/zh/) · [English](https://tyang816.github.io/)。
 

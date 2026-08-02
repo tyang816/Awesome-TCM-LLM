@@ -1,0 +1,405 @@
+news-202607-15:
+  summary_en: Shanghai Seventh People's Hospital (SHUTCM) releases the **Qiyuan** TCM LLM with pretraining, domain fine-tuning,
+    and expert RL; supports generative medical records and master-physician Agent digital twins; showcased at WAIC.
+news-202607-16:
+  summary_en: Guizhou Medical University and partners launch **HuaZu BenCao**, a national ethnic-medicine AI platform built
+    on ShuZhi QiHuang + Qwen integrating multi-ethnic materia medica classics.
+news-202607-17:
+  summary_en: Andun Health debuts a **seven-diagnosis** TCM robot at WAIC 2026, integrating face/IR face/tongue/ear/auscultation/inquiry/pulse
+    sensing with TianHui pulse algorithms and a TCM clinical LLM.
+news-202607-18:
+  summary_en: Insightful Eye presents **Bianshi Cloud TCM** at WAIC 2026, built on a registered Bianshi multimodal model with
+    four-diagnosis devices and assisted-care systems.
+news-202606-00:
+  summary_en: Zhongke Wenge passes HKEX listing hearing; reports note the **DaYi JinKui** TCM LLM (with CACMS) has obtained
+    top-tier CAICT Trusted AI certification.
+news-202604-01:
+  summary_en: Beijing University of Chinese Medicine's **XinHuo ZhongGuoYao** TCM education LLM completes national generative-AI
+    service filing—the first publicly approved TCM-domain model of its kind.
+news-202604-19:
+  summary_en: Affiliated Hospital of Shandong University of TCM launches the provincial AI+ TCM scenario project **ZhiHui
+    QiHuang**.
+news-202602-20:
+  summary_en: Eight ministries issue the TCM Industry High-Quality Development Plan (2026–2030), calling for AI and knowledge
+    graphs to empower classical formulas and master physicians' prescriptions.
+news-202512-02:
+  summary_en: Jilin releases **ZhongXing·Changbai Qihuang 1.0**, an AI-native multimodal TCM LLM.
+news-202512-03:
+  summary_en: Gushengtang launches a “TCM Brain” product and AI digital twin of National TCM Master Shi Qi; 14 expert twins
+    cover eight core specialties.
+news-202512-04:
+  summary_en: '**ZMT-M1** scores 96.26 on a simulated national TCM practitioner exam and is piloted in 100+ clinics.'
+news-202511-05:
+  summary_en: Five national health ministries issue AI+ healthcare guidelines that explicitly support building TCM diagnostic
+    LLMs.
+news-202509-06:
+  summary_en: Transn's **RenDu·SuWen** passes CAICT Trusted AI TCM LLM Level 4+ evaluation.
+news-202509-07:
+  summary_en: '**ZhiFu Qihuang Tiangong** TCM AI model completes national deep-synthesis algorithm filing for four-diagnosis
+    devices and constitution assessment.'
+news-202509-21:
+  summary_en: '**YiYin** classical TCM LLM goes live in Song County, Henan, combining TCM education with AI-assisted care
+    for county clinics.'
+news-202508-08:
+  summary_en: '**Gushengtang** releases ten “National Master AI twins” trained on master clinicians'' experience, reporting
+    >86% pattern-differentiation accuracy.'
+news-202508-22:
+  summary_en: NSCC-TJ and Tianjin University of TCM release **TianHe·LingShu** 2.0 (expanded beyond acupuncture to 20+ specialties)
+    and launch a TCM intelligent-model evaluation system.
+news-202507-23:
+  summary_en: Guang'anmen Hospital forms the **GuangYi·QiZhi** LLM agent alliance with medical consortium partners for cross-institution
+    intelligent care.
+news-202506-09:
+  summary_en: '**TCM Hengqin** vertical LLM is officially released.'
+news-202505-10:
+  summary_en: China Academy of Chinese Medical Sciences releases evaluation standards for TCM large models.
+news-202504-11:
+  summary_en: Transn releases **RenDu·SuWen** TCM LLM (mixture-of-entropy architecture) for inquiry, pattern differentiation,
+    and formula recommendation.
+news-202503-12:
+  summary_en: Guang'anmen Hospital releases **GuangYi·QiZhi**, described as the first TCM hospital with integrated local compute
+    + model + application deployment.
+news-202412-24:
+  summary_en: China UnionPay Consumer Finance with Sun Yat-sen University and GZUCMS Shenzhen Hospital release vertical TCM
+    LLM **ZhongSi** for community clinic inquiry.
+news-202409-13:
+  summary_en: Zhongke Wenge releases **DaYi JinKui** TCM LLM and health platform trained on 1,500+ TCM classics.
+news-202405-25:
+  summary_en: Tasly and Huawei Cloud release **ShuZhi BenCao** (Pangu language + molecular models) covering TCM R&D; later
+    earns CAICT TCM LLM Level 4+.
+news-202403-14:
+  summary_en: ECNU, SHUTCM, ECUST, NMMU, Lingang Lab, and CR Jiangzhong jointly develop the **ShuZhi QiHuang** TCM LLM.
+news-202307-26:
+  summary_en: Nanjing Dajing TCM releases **QiHuang Wendao** LLM with large knowledge graphs and clinical data for institutional
+    beta use.
+core-acu:
+  summary_en: Acupuncture clinical decision support with structured reasoning traces and a knowledge-graph safety veto loop.
+derm-3r:
+  summary_en: Resource-constrained multimodal multi-agent framework for TCM dermatology (recognition / representation / SDT
+    agents).
+gastro-tcm:
+  summary_en: TCM gastroenterology LLM fine-tuned from Llama3-8B with RAG and agent scaffolding.
+mmir-tcm:
+  summary_en: Memory-augmented multimodal tongue diagnosis and clinical decision framework; proposes MedTCM dataset and TDEU
+    metric.
+qwen-tcm-dia:
+  summary_en: Specialty fine-tuned model for TCM diarrhea care (CPT + CoT SFT) covering symptom→pathomechanism→method→formula
+    chains.
+tcm-agent:
+  summary_en: LLM multi-agent system for network pharmacology and herbal discovery.
+tcm-diffrag:
+  summary_en: Syndrome-differentiation RAG with a general KG, a personalized KG, and chain-of-thought.
+tonguevlm:
+  summary_en: Multimodal VLM for TCM tongue diagnosis, description generation, and constitution reasoning.
+xinghe:
+  summary_en: Qwen3.5-9B reasoning TCM model grounded in the *Neijing*, with explicit CoT pattern differentiation and safety
+    boundaries.
+  name_en: Xinghe
+linglan:
+  summary_en: 'Large multi-task TCM benchmark: 5 domains, 13 subtasks, 25,624 instances.'
+  name_en: LingLan
+  orgs_en:
+  - Beijing Jiaotong University et al.
+bencao-gpt:
+  summary_en: Instruction-aligned multimodal TCM assistant (ChatGPT/GPTs Store) with tongue APIs and knowledge bases (distinct
+    from HuaTuo/BenCao).
+  name_en: BenCao
+chattcm:
+  summary_en: Fully open TCM LLM from pretraining data through released weights.
+diagx-dt:
+  summary_en: Exclusionary syndrome-differentiation reasoning with CoT and an external TCM knowledge base.
+dopi:
+  summary_en: Doctor-like proactive inquiry TCM LLM (guide + expert models); reported inquiry accuracy 84.68%.
+mcm:
+  summary_en: Multi-agent collaborative multimodal TCM diagnosis framework (IEEE ICIP 2025).
+  orgs_en:
+  - Shanghai Computer Software Technology Development Center
+mtcmb:
+  summary_en: Multi-task TCM benchmark (~12 subsets, ~7.1k samples) covering knowledge, reasoning, formulas, and safety.
+opentcm:
+  summary_en: GraphRAG TCM retrieval and diagnosis system with a gynecology classics knowledge graph.
+rag-cpmf:
+  summary_en: Multi-LLM verification + RAG for Chinese patent medicine recommendation, with a living public CPM dataset.
+shizhengpt:
+  summary_en: Multimodal TCM LLM supporting the four diagnoses (inspection, auscultation-olfaction, inquiry, palpation).
+  orgs_en:
+  - The Chinese University of Hong Kong, Shenzhen et al.
+tcm-llm-acu-eval:
+  summary_en: Real-case evaluation of 7 general LLMs vs licensed acupuncturists on SDT, point selection, needling, and herbs
+    (*npj Digital Medicine*).
+  name_en: TCM LLM acupuncture clinical evaluation
+tcm-3ceval:
+  summary_en: 'Three-axis TCM LLM evaluation: core knowledge, classics comprehension, and clinical decision-making.'
+tcm-5ceval:
+  summary_en: Five-dimension deep evaluation extending TCM-3CEval with materia medica and non-drug therapies.
+tcm-best4sdt:
+  summary_en: Case benchmark for syndrome differentiation and treatment (knowledge / ethics / safety / SDT).
+tcm-kllama:
+  summary_en: KG-fused LLM for intelligent TCM formula generation.
+tcm-ladder:
+  summary_en: First large multimodal TCM QA benchmark with 52,000+ items (NeurIPS 2025).
+tcm-r1:
+  summary_en: TCM LLM with GRPO-enhanced reasoning.
+  orgs_en:
+  - Southwest University
+tcmchat:
+  summary_en: Herbal-knowledge chatbot and recommendation system.
+  orgs_en:
+  - Zhejiang University
+vitcm-llm:
+  summary_en: Qwen2.5-VL + RAG tongue multimodal clinical framework; MedTCM dataset and TDEU metric (precursor to MMIR-TCM).
+yaoshi-rag:
+  summary_en: Uncertain-KG RAG for medicine–food homology dietary recommendation with personalization and explainability.
+  name_en: Yaoshi-RAG
+renshu-ai:
+  summary_en: FastAPI + LangGraph multi-agent TCM consultation system combining GraphRAG and DeepSeek-TCM.
+  name_en: RenShu-AI
+zhongjing:
+  summary_en: Open TCM large language model (ZhongJing).
+  name_en: ZhongJing
+  orgs_en:
+  - Fuyao University of Science and Technology
+  - Health Yangtze River Delta Research Institute
+  - Fudan University
+  - Tongji University
+tianyi:
+  summary_en: ~7B TCM LLM from NJUCM et al. with reading–clinic–apprenticeship training stages, TCMEval, and real-world validation.
+  name_en: Tianyi
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+tianhui:
+  summary_en: Domain LLM for 12 TCM scenarios (DeepSeek-R1-Distill-Qwen-14B + PT/SFT) with open code and eval scripts.
+  name_en: TianHui
+qibo:
+  summary_en: TCM LLM and Qibo Benchmark from Tianjin University et al.; CPT + SFT for SDT and QA.
+  name_en: Qibo
+  orgs_en:
+  - Tianjin University
+  - Tianjin University of Traditional Chinese Medicine
+biancang:
+  summary_en: BianCang TCM LLM series (IEEE JBHI); 14B open-weight release in Dec 2025.
+  name_en: BianCang
+  orgs_en:
+  - Qilu University of Technology
+zmt-m1:
+  summary_en: ZMT-M1 TCM LLM and the dynamic, extensible TCM-Eval benchmark platform.
+  name_en: ZMT-M1
+  orgs_en:
+  - Beihang University
+baize-tcm:
+  summary_en: ICMM Baize TCM QA models on Qwen3 (0.6B/8B) with ~157k LoRA-tuning examples.
+  name_en: Baize-TCM-LLM
+  orgs_en:
+  - Institute of Chinese Materia Medica, CACMS
+zhifangdantai:
+  summary_en: GraphRAG + LLM fine-tuning for interpretable formula generation (sovereign–minister–assistant–courier, efficacy,
+    contraindications) with open weights.
+  name_en: ZhiFangDanTai
+shennong-alpha:
+  summary_en: ShenNong Alpha herbal/materia medica foundation model.
+  name_en: ShenNong Alpha
+  orgs_en:
+  - Westlake University
+jingfang:
+  summary_en: LLM-based multi-agent TCM diagnosis/treatment system reporting large relative SDT gains under the authors' protocol.
+  name_en: Jingfang
+chinese-llava-med:
+  summary_en: Chinese medical multimodal large language model.
+medchatzh:
+  summary_en: Chinese TCM consultation dialogue LLM.
+lingdan:
+  summary_en: TCMLLM / Lingdan for TCM modeling and prescription recommendation.
+  name_en: TCMLLM / Lingdan
+  orgs_en:
+  - Beijing Jiaotong University
+bigdatatcm:
+  summary_en: Vertical TCM domain large language model.
+  name_en: BigDataTCM
+  orgs_en:
+  - Henan University of Technology
+ming:
+  summary_en: Chinese medical consultation LLM (MING).
+  name_en: MING
+  orgs_en:
+  - Shanghai Jiao Tong University
+huatuo-bencao:
+  summary_en: Instruction-tuned Chinese medical LLM (BenCao / formerly HuaTuo).
+  name_en: BenCao (formerly HuaTuo)
+  orgs_en:
+  - Harbin Institute of Technology
+chatmed:
+  summary_en: Series of Chinese medical large language models.
+xrayglm:
+  summary_en: Chinese multimodal medical LLM for chest X-ray interpretation.
+huatuogpt:
+  summary_en: Large language model trained on Chinese medical corpora (HuaTuoGPT).
+  name_en: HuaTuoGPT
+  orgs_en:
+  - The Chinese University of Hong Kong, Shenzhen
+  - Shenzhen Institute of Big Data
+qizhengpt:
+  summary_en: Chinese clinical QA model for drugs, diseases, procedures, and labs (QiZhenGPT).
+  name_en: QiZhenGPT
+  orgs_en:
+  - Zhejiang University
+sunsimiao:
+  summary_en: Chinese medical large language model (Sunsimiao).
+  name_en: Sunsimiao
+  orgs_en:
+  - East China University of Science and Technology
+bianque:
+  summary_en: Chinese proactive health LLM for everyday living spaces (BianQue).
+  name_en: BianQue
+  orgs_en:
+  - South China University of Technology
+  - Guangdong Key Laboratory of Digital Twin Humans
+shennong-tcm-llm:
+  summary_en: Open TCM-focused large language model (ShenNong-TCM-LLM).
+  name_en: ShenNong-TCM-LLM
+huangdi:
+  summary_en: QA LLM for classical TCM texts (HuangDi).
+  name_en: HuangDi
+  orgs_en:
+  - Nanjing University
+  - Zhengzhou University
+ds-cpm:
+  title_en: CPM Chinese patent medicine dataset
+  summary_en: Living large-scale public Chinese patent medicine data accompanying RAG-CPMF.
+awesome-cmed-nlp:
+  title_en: awesome_Chinese_medical_NLP
+  summary_en: Curated list of Chinese medical NLP resources.
+tcm-ancient-books:
+  title_en: TCM-Ancient-Books
+  summary_en: About 700 TCM classical book texts.
+shizhen-pretrain:
+  title_en: TCM-Pretrain-Data-ShizhenGPT
+  summary_en: ShizhenGPT pretraining corpus (~6B tokens, including interleaved image–text).
+sylvanl-pretrain:
+  title_en: Traditional-Chinese-Medicine-Dataset-Pretrain
+  summary_en: High-quality TCM pretraining data (cases, classics, encyclopedia, etc.).
+classical-tcm-canon:
+  title_en: classical-tcm-canon
+  summary_en: Full-text classical TCM corpus (Neijing / Shanghan / Jingui / Wenbing, etc.; 115 works).
+ds-linglan:
+  title_en: LingLan
+  summary_en: LingLan large multi-task TCM evaluation benchmark (2026).
+ds-tcmeval-pa:
+  title_en: TCMEval-PA
+  summary_en: 328 multiple-choice items on prescription normative quality and safety auditing.
+ds-hwtcm:
+  title_en: HWTCMBench
+  summary_en: HWTCMBench TCM capability evaluation set.
+ds-mtcmb:
+  title_en: MTCMB
+  summary_en: MTCMB multi-task TCM benchmark (knowledge / reasoning / safety).
+ds-tcm-3c:
+  title_en: TCM-3CEval
+  summary_en: 'Three-axis eval: core knowledge, classics, clinical decisions.'
+ds-tcm-5c:
+  title_en: TCM-5CEval
+  summary_en: Five-dimension deep TCM evaluation suite.
+ds-best4sdt:
+  title_en: TCM-BEST4SDT
+  summary_en: Case benchmark for syndrome differentiation and treatment.
+ds-tcm-eval:
+  title_en: TCM-Eval
+  summary_en: Dynamic, extensible TCM evaluation platform.
+ds-tcm-ladder:
+  title_en: TCM-Ladder
+  summary_en: Multimodal TCM QA benchmark (NeurIPS 2025).
+ds-tcm-tongue:
+  title_en: TCM-Tongue
+  summary_en: 6,719 standardized tongue images with 20-class multi-label pathology annotations and detection baselines.
+ds-tcm-vision:
+  title_en: TCM-Vision-Benchmark
+  summary_en: TCM vision benchmark (herb recognition / inspection, ~7k items).
+ds-tcmbench:
+  title_en: TCMBench
+  summary_en: Comprehensive TCM LLM evaluation benchmark.
+ds-tcmeval-sdt:
+  title_en: TCMEval-SDT
+  summary_en: Expert-annotated case evaluation of syndrome-differentiation thinking.
+ds-zhongjing-omni:
+  title_en: ZhongJing-OMNI
+  summary_en: ZhongJing-OMNI multimodal TCM eval (including tongue).
+ds-med-exam:
+  title_en: Medical-LLMs-Chinese-Exam
+  summary_en: Chinese medical exam evaluation for medical LLMs.
+ds-tcm-text-exams:
+  title_en: TCM-Text-Exams
+  summary_en: Recent TCM licensure / graduate-exam text benchmark.
+ds-neijing-sft:
+  title_en: neijing-sft-v1.2
+  summary_en: ~2,009 Neijing-related instruction samples for Xinghe, with thinking/output fields.
+ds-baize-corpus:
+  title_en: Baize-TCM-Corpus-V3
+  summary_en: ~157k TCM QA items covering theory, herbs, formulas, diagnosis, acupuncture, and clinic.
+ds-cmtmedqa:
+  title_en: CMtMedQA
+  summary_en: ZhongJing real multi-turn doctor–patient dialogues (~70k).
+ds-chatmed-consult:
+  title_en: ChatMed_Consult_Dataset
+  summary_en: Chinese online medical consult dataset (500k+ consults with ChatGPT replies).
+ds-medchatzh:
+  title_en: MedChatZH
+  summary_en: MedChatZH TCM consultation dataset.
+ds-shennong:
+  title_en: ShenNong_TCM_Dataset
+  summary_en: ShenNong TCM instruction dataset.
+ds-shizhen-sft:
+  title_en: TCM-Instruction-Tuning-ShizhenGPT
+  summary_en: ShizhenGPT multimodal SFT data (text/vision/speech, ~245K).
+ds-tcmchat-600k:
+  title_en: TCMChat-dataset-600k
+  summary_en: TCMChat herbal QA and recommendation instruction data (~600k).
+ds-sylvanl-sft:
+  title_en: Traditional-Chinese-Medicine-Dataset-SFT
+  summary_en: High-quality TCM supervised fine-tuning dataset.
+ds-chp-tcm:
+  title_en: ChP-TCM
+  summary_en: KnowledgeQA and PrescriptionWriting instructions built from Chinese Pharmacopoeia Vol. I.
+ds-opentcm-kg:
+  title_en: OpenTCM-KG
+  summary_en: OpenTCM gynecology classics KG (~48k entities / ~152k relations).
+ds-tcm-mkg:
+  title_en: TCM-MKG
+  summary_en: TCM multi-dimensional knowledge graph.
+ds-chatmed-kg:
+  title_en: TCM_KG
+  summary_en: ChatMed knowledge graph.
+hf-xinghe:
+  title_en: Xinghe
+  summary_en: Xinghe Neijing reasoning model weights.
+hf-biancang:
+  title_en: BianCang
+  summary_en: BianCang open-weight series.
+hf-chattcm:
+  title_en: ChatTCM
+  summary_en: ChatTCM pretrained weights.
+hf-chattcm-sft:
+  title_en: ChatTCM-7B-SFT
+  summary_en: ChatTCM full-parameter SFT checkpoint.
+hf-lingdan:
+  title_en: Lingdan
+  summary_en: Lingdan / TCMLLM weights.
+hf-shennong:
+  title_en: ShenNong-TCM-LLM
+  summary_en: ShenNong-TCM-LLM weights.
+hf-shizhengpt:
+  title_en: ShizhenGPT
+  summary_en: ShizhenGPT multimodal weight series.
+hf-tcmchat:
+  title_en: TCMChat
+  summary_en: TCMChat weights.
+hf-zhongjing:
+  title_en: ZhongJing
+  summary_en: ZhongJing GPT weights.
+hf-medchatzh:
+  title_en: medchatzh
+  summary_en: MedChatZH weights.
+hf-baize:
+  title_en: Baize
+  summary_en: Baize TCM LLM weights.
+hf-zhifangdantai:
+  title_en: ZhiFangDanTai
+  summary_en: ZhiFangDanTai formula-generation model weights.

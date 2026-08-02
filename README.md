@@ -1,12 +1,12 @@
 # 🔥 开源中文医疗大模型
 
+**语言 / Language:** [中文](README.md) | [English](README_EN.md)
+
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)
 
 本仓库收集了开源中文医疗大模型（中医/西医）相关的资源，包括新闻、论文、模型、数据集等，欢迎大家贡献更多资源。
 
-This repository curates open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs — papers, models, benchmarks, datasets, and news.
-
-**相关链接**：[项目页](https://tyang816.github.io/projects/tcm/) · [中文](https://tyang816.github.io/zh/projects/tcm/) · [作者中文主页](https://tyang816.github.io/zh/) · [Author site (EN)](https://tyang816.github.io/)
+**相关链接**：[项目页](https://tyang816.github.io/projects/tcm/) · [中文项目页](https://tyang816.github.io/zh/projects/tcm/) · [作者中文主页](https://tyang816.github.io/zh/) · [Author site (EN)](https://tyang816.github.io/)
 
 > 项目页支持标签筛选与搜索，数据与本 README 同源（`data/catalog.yml`）。
 
