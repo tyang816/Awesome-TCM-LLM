@@ -21,7 +21,8 @@ README = ROOT / "README.md"
 
 SITE_ZH = "https://tyang816.github.io/zh/"
 SITE_EN = "https://tyang816.github.io/"
-DEFAULT_PORTAL = "https://tyang816.github.io/tcm/"
+DEFAULT_PORTAL = "https://tyang816.github.io/projects/tcm/"
+PORTAL_ZH = "https://tyang816.github.io/zh/projects/tcm/"
 
 DATASET_SECTION_ORDER = [
     "公开资料整理",
@@ -71,10 +72,10 @@ def format_news_line(entry: dict) -> str:
 
 def build_site_links_block(portal: str) -> list[str]:
     return [
-        f"**相关链接**：[中医门户]({portal}) · "
+        f"**相关链接**：[项目页]({portal}) · [中文]({PORTAL_ZH}) · "
         f"[作者中文主页]({SITE_ZH}) · [Author site (EN)]({SITE_EN})",
         "",
-        f"> 门户支持标签筛选与搜索，数据与本 README 同源（`data/catalog.yml`）。",
+        f"> 项目页支持标签筛选与搜索，数据与本 README 同源（`data/catalog.yml`）。",
     ]
 
 
@@ -90,6 +91,8 @@ def build_readme(catalog: dict) -> str:
         "![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)",
         "",
         "本仓库收集了开源中文医疗大模型（中医/西医）相关的资源，包括新闻、论文、模型、数据集等，欢迎大家贡献更多资源。",
+        "",
+        "This repository curates open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs — papers, models, benchmarks, datasets, and news.",
         "",
         *build_site_links_block(portal),
         "",

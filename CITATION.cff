@@ -9,7 +9,7 @@ url: "https://github.com/tyang816/Awesome-TCM-LLM"
 repository-code: "https://github.com/tyang816/Awesome-TCM-LLM"
 related-identifiers:
   - type: url
-    value: "https://tyang816.github.io/tcm/"
+    value: "https://tyang816.github.io/projects/tcm/"
     description: "TCM resource portal (Chinese)"
   - type: url
     value: "https://tyang816.github.io/zh/"

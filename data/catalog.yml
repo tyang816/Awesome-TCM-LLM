@@ -4,10 +4,61 @@ meta:
   description_zh: 开源中文医疗大模型（中医/西医）相关新闻、论文、模型与数据集精选列表。
   description_en: Curated open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
-  portal_url: https://tyang816.github.io/tcm/
-  updated_at: '2026-07-19'
+  portal_url: https://tyang816.github.io/projects/tcm/
+  updated_at: '2026-08-02'
   catalog_version: 1
 items:
+- id: news-202607-15
+  name: 上海市第七人民医院发布岐元中医大模型，支持名老中医Agent数字孪生
+  type: news
+  year: 2026
+  date: '2026.07'
+  summary_zh: 上海中医药大学附属第七人民医院正式发布**岐元大模型**，采用预训练+领域微调+专家强化学习，支持生成式病历与名老中医Agent数字孪生，并亮相WAIC
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://dwgk.shutcm.edu.cn/2026/0725/c1890a175544/page.htm
+  status: published
+  verified_at: '2026-08-02'
+- id: news-202607-16
+  name: 贵州医大等发布华族本草民族药AI大模型
+  type: news
+  year: 2026
+  date: '2026.07'
+  summary_zh: 贵州医科大学等在中国—东盟教育交流周发布全国首个民族药创制全域智能平台**华族本草**，以数智岐黄+Qwen为底座融汇多民族医药古籍
+  tags:
+  - product
+  links:
+    链接: https://www.gmc.edu.cn/info/1058/30267.htm
+  status: published
+  verified_at: '2026-08-02'
+- id: news-202607-17
+  name: 安顿七诊合参中医机器人与天回大模型亮相WAIC 2026
+  type: news
+  year: 2026
+  date: '2026.07'
+  summary_zh: 安顿健康在WAIC 2026首发**七诊合参**中医机器人，集成面/红外面/舌/耳/闻/问/脉采集，底座含天回脉诊算法与中医诊疗大模型
+  tags:
+  - product
+  - multimodal
+  links:
+    链接: https://www.news.cn/finance/20260720/f6a8625c1be4412d9c311a232c7a35fa/c.html
+  status: published
+  verified_at: '2026-08-02'
+- id: news-202607-18
+  name: 智慧眼砭石多模态中医大模型亮相WAIC 2026
+  type: news
+  year: 2026
+  date: '2026.07'
+  summary_zh: 智慧眼携**砭石云中医**亮相WAIC 2026，以已备案砭石多模态大模型为底座，展示四诊仪与辅助诊疗系统
+  tags:
+  - product
+  - multimodal
+  links:
+    链接: http://www.eeo.com.cn/2026/0720/965556.shtml
+  status: published
+  verified_at: '2026-08-02'
 - id: news-202606-00
   name: 中科闻歌通过港交所上市聆讯；报道提及与中国中医科学院合作的大医金匮中医大模型已通
   type: news
@@ -33,6 +84,31 @@ items:
     链接: https://regional.chinadaily.com.cn/education/cn/2026-04/22/c_1177692.htm
   status: published
   verified_at: '2026-07-19'
+- id: news-202604-19
+  name: 山东启动智汇岐黄中医药大模型重点场景项目
+  type: news
+  year: 2026
+  date: '2026.04'
+  summary_zh: 山东中医药大学附属医院启动山东省卫健委「人工智能＋」中医药重点场景**智汇岐黄**大模型项目
+  tags:
+  - product
+  - policy
+  links:
+    链接: http://ccpd.china.com.cn/2026-04/17/content_43401621.html
+  status: published
+  verified_at: '2026-08-02'
+- id: news-202602-20
+  name: 八部门印发中药工业高质量发展实施方案提出AI与知识图谱赋能
+  type: news
+  year: 2026
+  date: '2026.02'
+  summary_zh: 工信部等八部门印发《中药工业高质量发展实施方案（2026—2030年）》，明确运用人工智能与知识图谱赋能经典名方与名老中医经验方研发
+  tags:
+  - policy
+  links:
+    链接: https://www.gov.cn/zhengce/zhengceku/202602/content_7057174.htm
+  status: published
+  verified_at: '2026-08-02'
 - id: news-202512-02
   name: 吉林发布众星·长白岐黄1.0 AI原生多模态中医药大模型
   type: news
@@ -106,6 +182,18 @@ items:
     链接: http://zs.scbzol.com/zs/2025/0919/328624.html
   status: published
   verified_at: '2026-07-19'
+- id: news-202509-21
+  name: 伊尹中医经典大模型在河南嵩县启用
+  type: news
+  year: 2025
+  date: '2025.09'
+  summary_zh: 中原药谷基层中医药振兴工程下，**伊尹中医经典大模型**在嵩县发布启用，融合中医教育与AI辅助诊疗服务县域基层
+  tags:
+  - product
+  links:
+    链接: http://www.ha.xinhuanet.com/20250918/a3da94037689422dbcd1fe57fa62ef94/c.html
+  status: published
+  verified_at: '2026-08-02'
 - id: news-202508-08
   name: 固生堂正式发布十大”国医AI分身”，基于国医大师及名中医临床经验构建，辨证准确性
   type: news
@@ -118,6 +206,32 @@ items:
     链接: http://sz.people.com.cn/n2/2025/0801/c202846-41310443.html
   status: published
   verified_at: '2026-07-19'
+- id: news-202508-22
+  name: 天河·灵枢中医药大模型2.0与智能模型评价体系发布
+  type: news
+  year: 2025
+  date: '2025.08'
+  summary_zh: 国家超算天津中心联合天津中医药大学等发布**天河·灵枢**2.0，由针灸专科扩展至20余科；同步启动中医药智能模型评价体系
+  tags:
+  - product
+  - benchmark
+  links:
+    链接: http://tj.people.com.cn/n2/2025/0809/c375366-41317410.html
+  status: published
+  verified_at: '2026-08-02'
+- id: news-202507-23
+  name: 广安门医院成立广医·岐智大模型智能体联盟
+  type: news
+  year: 2025
+  date: '2025.07'
+  summary_zh: 中国中医科学院广安门医院与多家医联体单位成立**广医·岐智大模型智能体联盟**，推进跨机构智能诊疗能力辐射
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.gamyy.cn/gzb/news/big/112751.html
+  status: published
+  verified_at: '2026-08-02'
 - id: news-202506-09
   name: 中医横琴垂类大模型正式发布
   type: news
@@ -166,6 +280,18 @@ items:
     链接: https://www.xinhuanet.com/tech/20250328/8b1685ad8c6f48c9bdc2add1658edac3/c.html
   status: published
   verified_at: '2026-07-19'
+- id: news-202412-24
+  name: 招联联合中山大学与广中医深圳医院发布仲思中医大模型
+  type: news
+  year: 2024
+  date: '2024.12'
+  summary_zh: 招联消费金融联合中山大学、广州中医药大学深圳医院发布中医垂直大模型**仲思**，落地深圳多家社康中心智能问诊
+  tags:
+  - product
+  links:
+    链接: https://finance.sina.com.cn/jjxw/2024-12-16/doc-inczrzsp5791684.shtml
+  status: published
+  verified_at: '2026-08-02'
 - id: news-202409-13
   name: 中科闻歌发布大医金匮中医大模型及中医智能健康管理平台，基于1500余本中医典籍训
   type: news
@@ -178,6 +304,18 @@ items:
     链接: https://36kr.com/newsflashes/2946967562099592
   status: published
   verified_at: '2026-07-19'
+- id: news-202405-25
+  name: 天士力与华为发布数智本草中医药语言与计算双模态大模型
+  type: news
+  year: 2024
+  date: '2024.05'
+  summary_zh: 天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型，覆盖中药研发全链条；后通过信通院中医药大模型4+级评估
+  tags:
+  - product
+  links:
+    链接: https://news.pharmnet.com.cn/news/2024/05/10/591622.html
+  status: published
+  verified_at: '2026-08-02'
 - id: news-202403-14
   name: 华东师范大学、上海中医药大学、华东理工大学、海军军医大学、临港实验室、华润江中现
   type: news
@@ -189,6 +327,42 @@ items:
   links: {}
   status: published
   verified_at: '2026-07-19'
+- id: news-202307-26
+  name: 大经中医发布岐黄问道中医大模型
+  type: news
+  year: 2023
+  date: '2023.07'
+  summary_zh: 南京大经中医发布**岐黄问道·大模型**，基于千万级知识图谱与临床数据，面向医疗机构开放内测
+  tags:
+  - product
+  links:
+    链接: http://js.news.cn/20230729/fa034db71a00487b819a4ad95b44673e/c.html
+  status: published
+  verified_at: '2026-08-02'
+- id: core-acu
+  name: CORE-Acu
+  year: 2026
+  summary_zh: 针灸临床决策：结构化推理轨迹与知识图谱安全否决闭环
+  tags:
+  - agent
+  - kg
+  links:
+    论文: https://arxiv.org/abs/2603.08321
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: derm-3r
+  name: DERM-3R
+  year: 2026
+  summary_zh: 资源受限下的中医皮肤病多模态多智能体框架（识别/表征/辨证论治三智能体）
+  tags:
+  - multimodal
+  - agent
+  links:
+    论文: https://arxiv.org/abs/2604.09596
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
 - id: gastro-tcm
   name: GastroTCM
   year: 2026
@@ -199,21 +373,6 @@ items:
   - agent
   links:
     论文: https://link.springer.com/article/10.1186/s13020-025-01295-8
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: tonguevlm
-  name: TongueVLM
-  year: 2026
-  venue: JMIR Medical Informatics
-  summary_zh: 中医舌诊多模态大模型，支持舌象描述生成与体质推理
-  tags:
-  - multimodal
-  - model
-  links:
-    论文: https://doi.org/10.2196/87237
-    JMIR: https://medinform.jmir.org/2026/1/e87237
-  align_note: 主链 DOI，JMIR 备选
   type: resource
   status: published
   verified_at: '2026-07-19'
@@ -229,21 +388,18 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
-- id: linglan
-  name: 灵兰秘典 (LingLan)
+- id: qwen-tcm-dia
+  name: Qwen-TCM-Dia
   year: 2026
-  summary_zh: 大规模多任务中医评测基准，覆盖 5 大域、13 子任务、25624 实例
-  orgs:
-  - 北京交通大学等
+  venue: Digital Chinese Medicine
+  summary_zh: 面向中医泄泻的专科微调模型（续训+CoT指令微调），覆盖症状→病机→治法→方药推理链
   tags:
-  - benchmark
+  - model
   links:
-    论文: https://arxiv.org/abs/2602.01779
-    代码: https://github.com/TCMAI-BJTU/LingLan
-    网站: http://tcmnlp.com
+    DOI: https://doi.org/10.1016/j.dcmed.2026.02.003
   type: resource
   status: published
-  verified_at: '2026-07-19'
+  verified_at: '2026-08-02'
 - id: tcm-agent
   name: TCM-Agent
   year: 2026
@@ -269,125 +425,157 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
-- id: core-acu
-  name: CORE-Acu
+- id: tonguevlm
+  name: TongueVLM
   year: 2026
-  summary_zh: 针灸临床决策：结构化推理轨迹与知识图谱安全否决闭环
+  venue: JMIR Medical Informatics
+  summary_zh: 中医舌诊多模态大模型，支持舌象描述生成与体质推理
   tags:
-  - agent
-  - kg
-  links:
-    论文: https://arxiv.org/abs/2603.08321
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: shennong-alpha
-  name: 神农Alpha
-  year: 2025
-  venue: Cell Discovery
-  summary_zh: 中药大模型
-  orgs:
-  - 西湖大学
-  tags:
+  - multimodal
   - model
   links:
-    网站: https://shennongalpha.westlake.edu.cn/
-    论文: https://www.nature.com/articles/s41421-025-00776-2
-    代码: https://github.com/shennong-program/shennongname
+    论文: https://doi.org/10.2196/87237
+    JMIR: https://medinform.jmir.org/2026/1/e87237
+  align_note: 主链 DOI，JMIR 备选
   type: resource
   status: published
   verified_at: '2026-07-19'
-- id: tcmchat
-  name: TCMChat
-  year: 2025
-  venue: Pharmacological Research
-  summary_zh: 中药知识聊天机器人
-  orgs:
-  - 浙江大学
+- id: xinghe
+  name: 杏核 (Xinghe)
+  year: 2026
+  summary_zh: 基于Qwen3.5-9B、扎根《黄帝内经》的推理型中医模型，显式思维链辨证并强调安全边界
   tags:
   - model
   - open-weights
   links:
-    论文: https://doi.org/10.1016/j.phrs.2024.107012
-    ScienceDirect: https://www.sciencedirect.com/science/article/pii/S1043661824004754
-    代码: https://github.com/ZJUFanLab/TCMChat
-    模型: https://huggingface.co/ZJUFanLab/TCMChat-600k
-    数据集: https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k
+    模型: https://huggingface.co/zsyjsld/Xinghe1.2-9B
+    GGUF: https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF
+    数据集: https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2
   type: resource
   status: published
-  verified_at: '2026-07-19'
-- id: zhongjing
-  name: 仲景 (ZhongJing)
-  year: 2025
-  venue: Tsinghua Science and Technology
-  summary_zh: 中医大模型
+  verified_at: '2026-08-02'
+- id: linglan
+  name: 灵兰秘典 (LingLan)
+  year: 2026
+  summary_zh: 大规模多任务中医评测基准，覆盖 5 大域、13 子任务、25624 实例
   orgs:
-  - 福耀科技大学，健康长三角研究院，复旦大学，同济大学
-  tags:
-  - model
-  - open-weights
-  links:
-    论文: https://doi.org/10.26599/TST.2025.9010046
-    代码: https://github.com/pariskang/CMLM-ZhongJing
-    模型: https://huggingface.co/CMLM/ZhongjingGPT1_13B
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: tcm-r1
-  name: TCM-R1
-  year: 2025
-  venue: APWeb-WAIM 2025
-  summary_zh: 通过GRPO增强中医推理能力的大模型
-  orgs:
-  - 西南大学
-  tags:
-  - model
-  links:
-    论文: https://link.springer.com/chapter/10.1007/978-981-95-5640-3_21
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: tcm-ladder
-  name: TCM-Ladder
-  year: 2025
-  venue: NeurIPS 2025
-  summary_zh: 首个中医多模态问答评测基准，涵盖52000+题目
+  - 北京交通大学等
   tags:
   - benchmark
+  links:
+    论文: https://arxiv.org/abs/2602.01779
+    代码: https://github.com/TCMAI-BJTU/LingLan
+    网站: http://tcmnlp.com
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: bencao-gpt
+  name: BenCao（指令微调本草助手）
+  year: 2025
+  summary_zh: 基于ChatGPT自然语言指令对齐的中医多模态助手，对接舌象API与知识库，部署于GPTs Store（区别于华驼/本草）
+  tags:
+  - model
   - multimodal
   links:
-    论文: https://arxiv.org/abs/2505.24063
-    代码: https://github.com/orangeshushu/TCM-Ladder
-    榜单: https://tcmladder.com
+    论文: https://arxiv.org/abs/2510.17415
   type: resource
   status: published
-  verified_at: '2026-07-19'
-- id: jingfang
-  name: 经方 (Jingfang)
+  verified_at: '2026-08-02'
+- id: chattcm
+  name: ChatTCM
   year: 2025
-  summary_zh: 基于LLM的中医多智能体诊疗系统，辨证精度提升124%
-  tags:
-  - agent
-  links:
-    论文: https://arxiv.org/abs/2502.04345
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: zmt-m1
-  name: 智明堂 (ZMT-M1)
-  year: 2025
-  summary_zh: 中医大模型及TCM-Eval动态可扩展评测基准
-  orgs:
-  - 北京航空航天大学
+  summary_zh: 从预训练数据到模型权重完全开源的中医大模型
   tags:
   - model
-  - benchmark
+  - open-weights
   links:
-    论文: https://arxiv.org/abs/2511.07148
-    平台: https://tcmeval.bamaidical.com
+    模型: https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain
+    预训练数据: https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain
+    SFT数据: https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-SFT
   type: resource
   status: published
   verified_at: '2026-07-19'
+- id: diagx-dt
+  name: DiagX-DT
+  year: 2025
+  venue: Journal of King Saud University Computer and Information Sciences
+  summary_zh: 辨证排除式推理框架，结合思维链与外部中医知识库迭代剔除不合理证候选项
+  tags:
+  - kg
+  - agent
+  links:
+    DOI: https://doi.org/10.1007/s44443-025-00123-1
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: dopi
+  name: DoPI
+  year: 2025
+  summary_zh: 类医生主动问诊中医大模型，引导模型+专家模型协同架构，问诊准确率84.68%
+  tags:
+  - model
+  - agent
+  links:
+    论文: https://arxiv.org/abs/2507.04877
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: mcm
+  name: MCM
+  year: 2025
+  summary_zh: 多智能体协同的中医多模态诊断框架（ICIP 2025）
+  orgs:
+  - 上海计算机软件技术开发中心
+  tags:
+  - multimodal
+  - model
+  - agent
+  links:
+    代码: https://github.com/JerryMazeyu/MCM
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+  venue: IEEE ICIP 2025
+- id: mtcmb
+  name: MTCMB
+  year: 2025
+  summary_zh: 中医多任务评测基准，12子集约7100样本，覆盖知识/推理/方剂/安全
+  tags:
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2506.01252
+    代码: https://github.com/Wayyuanyuan/MTCMB
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: opentcm
+  name: OpenTCM
+  year: 2025
+  summary_zh: 基于 GraphRAG 的中医知识检索与诊断系统，含妇科古籍知识图谱
+  tags:
+  - rag
+  - kg
+  - tool
+  links:
+    论文: https://arxiv.org/abs/2504.20118
+    代码: https://github.com/OpenTCM01/OpenTCM
+  align_note: 规范仓 OpenTCM01/OpenTCM
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: rag-cpmf
+  name: RAG-CPMF
+  year: 2025
+  venue: Pharmacological Research
+  summary_zh: 多LLM校验+RAG的中成药智能推荐框架，并发布持续更新的大规模中成药公开数据集
+  tags:
+  - rag
+  links:
+    DOI: https://doi.org/10.1016/j.phrs.2025.107883
+    数据: https://gitee.com/tcmdoc/cpm
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
 - id: shizhengpt
   name: ShizhenGPT
   year: 2025
@@ -407,30 +595,18 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
-- id: dopi
-  name: DoPI
+- id: tcm-llm-acu-eval
+  name: TCM LLM针灸诊疗能力评估
   year: 2025
-  summary_zh: 类医生主动问诊中医大模型，引导模型+专家模型协同架构，问诊准确率84.68%
-  tags:
-  - model
-  - agent
-  links:
-    论文: https://arxiv.org/abs/2507.04877
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: mtcmb
-  name: MTCMB
-  year: 2025
-  summary_zh: 中医多任务评测基准，12子集约7100样本，覆盖知识/推理/方剂/安全
+  venue: npj Digital Medicine
+  summary_zh: 7个通用LLM与执业针灸师对照的真实病例评估（辨证/选穴/针法/方药），高影响力临床测评研究
   tags:
   - benchmark
   links:
-    论文: https://arxiv.org/abs/2506.01252
-    代码: https://github.com/Wayyuanyuan/MTCMB
+    DOI: https://doi.org/10.1038/s41746-025-01845-2
   type: resource
   status: published
-  verified_at: '2026-07-19'
+  verified_at: '2026-08-02'
 - id: tcm-3ceval
   name: TCM-3CEval
   year: 2025
@@ -439,35 +615,6 @@ items:
   - benchmark
   links:
     论文: https://arxiv.org/abs/2503.07041
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: opentcm
-  name: OpenTCM
-  year: 2025
-  summary_zh: 基于 GraphRAG 的中医知识检索与诊断系统，含妇科古籍知识图谱
-  tags:
-  - rag
-  - kg
-  - tool
-  links:
-    论文: https://arxiv.org/abs/2504.20118
-    代码: https://github.com/OpenTCM01/OpenTCM
-  align_note: 规范仓 OpenTCM01/OpenTCM
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: chattcm
-  name: ChatTCM
-  year: 2025
-  summary_zh: 从预训练数据到模型权重完全开源的中医大模型
-  tags:
-  - model
-  - open-weights
-  links:
-    模型: https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain
-    预训练数据: https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain
-    SFT数据: https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-SFT
   type: resource
   status: published
   verified_at: '2026-07-19'
@@ -494,6 +641,96 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
+- id: tcm-kllama
+  name: TCM-KLLaMA
+  year: 2025
+  venue: Computers in Biology and Medicine
+  summary_zh: 知识图谱与大模型融合的中医方剂智能生成模型
+  tags:
+  - model
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.compbiomed.2025.109887
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: tcm-ladder
+  name: TCM-Ladder
+  year: 2025
+  venue: NeurIPS 2025
+  summary_zh: 首个中医多模态问答评测基准，涵盖52000+题目
+  tags:
+  - benchmark
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2505.24063
+    代码: https://github.com/orangeshushu/TCM-Ladder
+    榜单: https://tcmladder.com
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: tcm-r1
+  name: TCM-R1
+  year: 2025
+  venue: APWeb-WAIM 2025
+  summary_zh: 通过GRPO增强中医推理能力的大模型
+  orgs:
+  - 西南大学
+  tags:
+  - model
+  links:
+    论文: https://link.springer.com/chapter/10.1007/978-981-95-5640-3_21
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: tcmchat
+  name: TCMChat
+  year: 2025
+  venue: Pharmacological Research
+  summary_zh: 中药知识聊天机器人
+  orgs:
+  - 浙江大学
+  tags:
+  - model
+  - open-weights
+  links:
+    论文: https://doi.org/10.1016/j.phrs.2024.107012
+    ScienceDirect: https://www.sciencedirect.com/science/article/pii/S1043661824004754
+    代码: https://github.com/ZJUFanLab/TCMChat
+    模型: https://huggingface.co/ZJUFanLab/TCMChat-600k
+    数据集: https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: vitcm-llm
+  name: ViTCM-LLM
+  year: 2025
+  venue: IEEE BIBM 2025
+  summary_zh: Qwen2.5-VL+RAG的舌诊多模态临床决策框架，提出MedTCM数据集与TDEU指标（MMIR-TCM会议前序）
+  tags:
+  - multimodal
+  - rag
+  - model
+  links:
+    DOI: https://doi.org/10.1109/bibm66473.2025.11357113
+    代码: https://github.com/jw-chae/ViTCM_LLM
+    模型: https://huggingface.co/Mark-CHAE/ViTCM-LLM
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: yaoshi-rag
+  name: Yaoshi-RAG（药食同源RAG）
+  year: 2025
+  venue: JMIR Medical Informatics
+  summary_zh: 基于不确定知识图谱的药食同源膳食推荐RAG，提升LLM个性化与可解释性
+  tags:
+  - rag
+  - kg
+  links:
+    DOI: https://doi.org/10.2196/75279
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
 - id: renshu-ai
   name: 仁术AI (RenShu-AI)
   year: 2025
@@ -503,6 +740,172 @@ items:
   - tool
   links:
     代码: https://github.com/yanlinPeng-code/RenShu-AI
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: zhongjing
+  name: 仲景 (ZhongJing)
+  year: 2025
+  venue: Tsinghua Science and Technology
+  summary_zh: 中医大模型
+  orgs:
+  - 福耀科技大学，健康长三角研究院，复旦大学，同济大学
+  tags:
+  - model
+  - open-weights
+  links:
+    论文: https://doi.org/10.26599/TST.2025.9010046
+    代码: https://github.com/pariskang/CMLM-ZhongJing
+    模型: https://huggingface.co/CMLM/ZhongjingGPT1_13B
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: tianyi
+  name: 天医 (Tianyi)
+  year: 2025
+  venue: Information Fusion
+  summary_zh: 南京中医药大学等提出约7B参数中医大模型，按读书—临证—跟师多阶段训练，配套TCMEval评测与真实世界验证
+  orgs:
+  - 南京中医药大学
+  tags:
+  - model
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2505.13156
+    新闻: https://kjc.njucm.edu.cn/2025/0910/c3750a160492/page.htm
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: tianhui
+  name: 天惠 (TianHui)
+  year: 2025
+  summary_zh: 面向12类中医场景的领域LLM（DeepSeek-R1-Distill-Qwen-14B+PT/SFT），开源代码与评测脚本
+  tags:
+  - model
+  links:
+    论文: https://arxiv.org/abs/2509.19834
+    代码: https://github.com/JYfantast/TianHui
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: qibo
+  name: 岐伯 (Qibo)
+  year: 2025
+  venue: Expert Systems with Applications
+  summary_zh: 天津大学等提出的中医大模型与Qibo Benchmark，持续预训练+SFT提升辨证与问答能力
+  orgs:
+  - 天津大学
+  - 天津中医药大学
+  tags:
+  - model
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2403.16056
+    DOI: https://doi.org/10.1016/j.eswa.2025.127672
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: biancang
+  name: 扁仓 (BianCang)
+  year: 2025
+  summary_zh: 系列中医大模型（JBHI 正式发表）；2025.12 开源 14B 版本
+  orgs:
+  - 齐鲁工业大学
+  tags:
+  - model
+  - open-weights
+  links:
+    论文: https://arxiv.org/abs/2411.11027
+    代码: https://github.com/QLU-NLP/BianCang
+    模型: https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct
+    DOI: https://doi.org/10.1109/jbhi.2025.3612415
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+  venue: IEEE Journal of Biomedical and Health Informatics
+- id: zmt-m1
+  name: 智明堂 (ZMT-M1)
+  year: 2025
+  summary_zh: 中医大模型及TCM-Eval动态可扩展评测基准
+  orgs:
+  - 北京航空航天大学
+  tags:
+  - model
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2511.07148
+    平台: https://tcmeval.bamaidical.com
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: baize-tcm
+  name: 白泽 (Baize-TCM-LLM)
+  year: 2025
+  summary_zh: 中国中医科学院中药研究所基于Qwen3的中医问答模型系列（0.6B/8B），约15.7万条语料LoRA微调
+  orgs:
+  - 中国中医科学院中药研究所
+  tags:
+  - model
+  - open-weights
+  links:
+    模型: https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model
+    数据集: https://huggingface.co/datasets/DigitalIntelligenceCenter-of-ICMM/Baize-TCM-Corpus-for-Large-Language-Models-V3
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: zhifangdantai
+  name: 知方丹台 (ZhiFangDanTai)
+  year: 2025
+  venue: IEEE Journal of Biomedical and Health Informatics
+  summary_zh: GraphRAG+LLM微调的中医方剂生成框架，输出君臣佐使/功效/禁忌等可解释信息并开源权重
+  tags:
+  - model
+  - rag
+  - kg
+  - open-weights
+  links:
+    论文: https://arxiv.org/abs/2509.05867
+    DOI: https://doi.org/10.1109/jbhi.2025.3607819
+    模型: https://huggingface.co/tczzx6/ZhiFangDanTai1.0
+  type: resource
+  status: published
+  verified_at: '2026-08-02'
+- id: shennong-alpha
+  name: 神农Alpha
+  year: 2025
+  venue: Cell Discovery
+  summary_zh: 中药大模型
+  orgs:
+  - 西湖大学
+  tags:
+  - model
+  links:
+    网站: https://shennongalpha.westlake.edu.cn/
+    论文: https://www.nature.com/articles/s41421-025-00776-2
+    代码: https://github.com/shennong-program/shennongname
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: jingfang
+  name: 经方 (Jingfang)
+  year: 2025
+  summary_zh: 基于LLM的中医多智能体诊疗系统，辨证精度提升124%
+  tags:
+  - agent
+  links:
+    论文: https://arxiv.org/abs/2502.04345
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: chinese-llava-med
+  name: Chinese-LLaVA-Med
+  year: 2024
+  summary_zh: 中文医学多模态大模型
+  tags:
+  - multimodal
+  - general-medical
+  links:
+    代码: https://github.com/BUAADreamer/Chinese-LLaVA-Med
   type: resource
   status: published
   verified_at: '2026-07-19'
@@ -544,6 +947,19 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
+- id: bigdatatcm
+  name: 大数中医 (BigDataTCM)
+  year: 2024
+  summary_zh: 中医垂直领域大模型
+  orgs:
+  - 河南工业大学
+  tags:
+  - model
+  links:
+    代码: https://github.com/HAUT-CS/BigDataTCM
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
 - id: ming
   name: 明医 (MING)
   year: 2024
@@ -577,146 +993,6 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
-- id: biancang
-  name: 扁仓 (BianCang)
-  year: 2024
-  summary_zh: 系列中医大模型，2025.12 开源 14B 版本
-  orgs:
-  - 齐鲁工业大学
-  tags:
-  - model
-  - open-weights
-  links:
-    论文: https://arxiv.org/abs/2411.11027
-    代码: https://github.com/QLU-NLP/BianCang
-    模型: https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: bigdatatcm
-  name: 大数中医 (BigDataTCM)
-  year: 2024
-  summary_zh: 中医垂直领域大模型
-  orgs:
-  - 河南工业大学
-  tags:
-  - model
-  links:
-    代码: https://github.com/HAUT-CS/BigDataTCM
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: mcm
-  name: MCM
-  year: 2024
-  summary_zh: 多模态中医药问诊大模型
-  orgs:
-  - 上海计算机软件技术开发中心
-  tags:
-  - multimodal
-  - model
-  links:
-    代码: https://github.com/JerryMazeyu/MCM
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: chinese-llava-med
-  name: Chinese-LLaVA-Med
-  year: 2024
-  summary_zh: 中文医学多模态大模型
-  tags:
-  - multimodal
-  - general-medical
-  links:
-    代码: https://github.com/BUAADreamer/Chinese-LLaVA-Med
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: huatuogpt
-  name: 华佗GPT
-  year: 2023
-  venue: EMNLP findings
-  summary_zh: 中文医学语料训练的大型语言模型
-  orgs:
-  - 香港中文大学(深圳)，深圳市大数据研究院
-  tags:
-  - model
-  - general-medical
-  links:
-    论文: https://aclanthology.org/2023.findings-emnlp.725/
-    代码: https://github.com/FreedomIntelligence/HuatuoGPT
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: bianque
-  name: 扁鹊 (BianQue)
-  year: 2023
-  summary_zh: 中文领域生活空间主动健康大模型
-  orgs:
-  - 华南理工大学，广东省数字孪生人重点实验室
-  tags:
-  - model
-  - general-medical
-  links:
-    代码: https://github.com/scutcyr/BianQue
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: huangdi
-  name: 黄帝 (HuangDi)
-  year: 2023
-  summary_zh: 中医古籍知识问答大模型
-  orgs:
-  - 南京大学, 郑州大学
-  tags:
-  - model
-  links:
-    代码: https://github.com/Zlasejd/HuangDI
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: qizhengpt
-  name: 启真医学大模型 (QiZhenGPT)
-  year: 2023
-  summary_zh: 中文医疗场景、药品知识问答、优化疾病、手术、检验等
-  orgs:
-  - 浙江大学
-  tags:
-  - model
-  - general-medical
-  links:
-    代码: https://github.com/CMKRG/QiZhenGPT
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: shennong-tcm-llm
-  name: 神农大模型 (ShenNong-TCM-LLM)
-  year: 2023
-  summary_zh: 中医药大规模语言模型
-  tags:
-  - model
-  - open-weights
-  links:
-    代码: https://github.com/michael-wzhu/ShenNong-TCM-LLM
-    数据集: https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset
-    模型: https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
-- id: sunsimiao
-  name: 孙思邈 (Sunsimiao)
-  year: 2023
-  summary_zh: 中文医疗大模型
-  orgs:
-  - 华东理工大学
-  tags:
-  - model
-  - general-medical
-  links:
-    代码: https://github.com/X-D-Lab/Sunsimiao
-  type: resource
-  status: published
-  verified_at: '2026-07-19'
 - id: chatmed
   name: ChatMed
   year: 2023
@@ -743,6 +1019,105 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
+- id: huatuogpt
+  name: 华佗GPT
+  year: 2023
+  venue: EMNLP findings
+  summary_zh: 中文医学语料训练的大型语言模型
+  orgs:
+  - 香港中文大学(深圳)，深圳市大数据研究院
+  tags:
+  - model
+  - general-medical
+  links:
+    论文: https://aclanthology.org/2023.findings-emnlp.725/
+    代码: https://github.com/FreedomIntelligence/HuatuoGPT
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: qizhengpt
+  name: 启真医学大模型 (QiZhenGPT)
+  year: 2023
+  summary_zh: 中文医疗场景、药品知识问答、优化疾病、手术、检验等
+  orgs:
+  - 浙江大学
+  tags:
+  - model
+  - general-medical
+  links:
+    代码: https://github.com/CMKRG/QiZhenGPT
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: sunsimiao
+  name: 孙思邈 (Sunsimiao)
+  year: 2023
+  summary_zh: 中文医疗大模型
+  orgs:
+  - 华东理工大学
+  tags:
+  - model
+  - general-medical
+  links:
+    代码: https://github.com/X-D-Lab/Sunsimiao
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: bianque
+  name: 扁鹊 (BianQue)
+  year: 2023
+  summary_zh: 中文领域生活空间主动健康大模型
+  orgs:
+  - 华南理工大学，广东省数字孪生人重点实验室
+  tags:
+  - model
+  - general-medical
+  links:
+    代码: https://github.com/scutcyr/BianQue
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: shennong-tcm-llm
+  name: 神农大模型 (ShenNong-TCM-LLM)
+  year: 2023
+  summary_zh: 中医药大规模语言模型
+  tags:
+  - model
+  - open-weights
+  links:
+    代码: https://github.com/michael-wzhu/ShenNong-TCM-LLM
+    数据集: https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset
+    模型: https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: huangdi
+  name: 黄帝 (HuangDi)
+  year: 2023
+  summary_zh: 中医古籍知识问答大模型
+  orgs:
+  - 南京大学, 郑州大学
+  tags:
+  - model
+  links:
+    代码: https://github.com/Zlasejd/HuangDI
+  type: resource
+  status: published
+  verified_at: '2026-07-19'
+- id: ds-cpm
+  name: CPM中成药数据集
+  type: dataset
+  year: 2025
+  section: 公开资料整理
+  title_zh: 中成药公开数据集（RAG-CPMF）
+  summary_zh: RAG-CPMF配套的持续更新大规模中成药公开数据
+  tags:
+  - corpus
+  links:
+    数据: https://gitee.com/tcmdoc/cpm
+    论文: https://doi.org/10.1016/j.phrs.2025.107883
+  status: published
+  verified_at: '2026-08-02'
 - id: awesome-cmed-nlp
   name: awesome_Chinese_medical_NLP
   section: 公开资料整理
@@ -763,18 +1138,6 @@ items:
   - corpus
   links:
     数据集: https://github.com/xiaopangxia/TCM-Ancient-Books
-  type: dataset
-  year: 2025
-  status: published
-  verified_at: '2026-07-19'
-- id: classical-tcm-canon
-  name: classical-tcm-canon
-  section: 原始书籍 / 预训练语料
-  title_zh: 中医经典全文语料（内经/伤寒/金匮/温病等 115 部）
-  tags:
-  - corpus
-  links:
-    数据集: https://huggingface.co/datasets/wangekxy/classical-tcm-canon
   type: dataset
   year: 2025
   status: published
@@ -804,6 +1167,18 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
+- id: classical-tcm-canon
+  name: classical-tcm-canon
+  section: 原始书籍 / 预训练语料
+  title_zh: 中医经典全文语料（内经/伤寒/金匮/温病等 115 部）
+  tags:
+  - corpus
+  links:
+    数据集: https://huggingface.co/datasets/wangekxy/classical-tcm-canon
+  type: dataset
+  year: 2025
+  status: published
+  verified_at: '2026-07-19'
 - id: ds-linglan
   name: LingLan
   section: 评测基准
@@ -817,19 +1192,31 @@ items:
   type: dataset
   status: published
   verified_at: '2026-07-19'
-- id: ds-tcm-ladder
-  name: TCM-Ladder
+- id: ds-tcmeval-pa
+  name: TCMEval-PA
+  type: dataset
+  year: 2026
   section: 评测基准
-  title_zh: TCM-Ladder 中医多模态问答评测基准 (NeurIPS 2025)
-  year: 2025
+  title_zh: 中药处方审核评测基准
+  summary_zh: 328道处方规范性与合理性选择题，面向中药处方安全审核评测
   tags:
   - benchmark
-  - multimodal
   links:
-    数据集: https://github.com/orangeshushu/TCM-Ladder
-    HF: https://huggingface.co/datasets/timzzyus/TCM-Ladder
-    榜单: https://tcmladder.com
+    论文: https://doi.org/10.1038/s41597-025-06387-6
+    数据: https://doi.org/10.6084/m9.figshare.29651261.v3
+    代码: https://github.com/zhuyan166/TCMEval/tree/main/evaluation/TCMEval-PA
+  status: published
+  verified_at: '2026-08-02'
+- id: ds-hwtcm
+  name: HWTCMBench
+  section: 评测基准
+  title_zh: HWTCMBench 中医能力评测集
+  tags:
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/Monor/hwtcm
   type: dataset
+  year: 2025
   status: published
   verified_at: '2026-07-19'
 - id: ds-mtcmb
@@ -896,32 +1283,37 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
-- id: ds-tcmbench
-  name: TCMBench
+- id: ds-tcm-ladder
+  name: TCM-Ladder
   section: 评测基准
-  title_zh: TCMBench 中医药大模型全面评测基准
-  tags:
-  - benchmark
-  links:
-    数据集: https://github.com/ywjawmw/TCMBench
-    论文: https://arxiv.org/abs/2406.01126
-  type: dataset
+  title_zh: TCM-Ladder 中医多模态问答评测基准 (NeurIPS 2025)
   year: 2025
-  status: published
-  verified_at: '2026-07-19'
-- id: ds-zhongjing-omni
-  name: ZhongJing-OMNI
-  section: 评测基准
-  title_zh: ZhongJing-OMNI 中医多模态评测（含舌诊）
   tags:
   - benchmark
   - multimodal
   links:
-    数据集: https://huggingface.co/datasets/CMLM/ZhongJing-OMNI
+    数据集: https://github.com/orangeshushu/TCM-Ladder
+    HF: https://huggingface.co/datasets/timzzyus/TCM-Ladder
+    榜单: https://tcmladder.com
   type: dataset
-  year: 2025
   status: published
   verified_at: '2026-07-19'
+- id: ds-tcm-tongue
+  name: TCM-Tongue
+  type: dataset
+  year: 2025
+  section: 评测基准
+  title_zh: 标准化舌象病理标注数据集
+  summary_zh: 6719张标准化舌象、20类病理多标签公开数据集，含检测基线
+  tags:
+  - benchmark
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2507.18288
+    数据: https://doi.org/10.5061/dryad.1c59zw48r
+    代码: https://github.com/btbuIntelliSense/Intelligent-tongue-diagnosis-detection-dataset
+  status: published
+  verified_at: '2026-08-02'
 - id: ds-tcm-vision
   name: TCM-Vision-Benchmark
   section: 评测基准
@@ -931,6 +1323,19 @@ items:
   - multimodal
   links:
     数据集: https://huggingface.co/datasets/FreedomIntelligence/TCM-Vision-Benchmark
+  type: dataset
+  year: 2025
+  status: published
+  verified_at: '2026-07-19'
+- id: ds-tcmbench
+  name: TCMBench
+  section: 评测基准
+  title_zh: TCMBench 中医药大模型全面评测基准
+  tags:
+  - benchmark
+  links:
+    数据集: https://github.com/ywjawmw/TCMBench
+    论文: https://arxiv.org/abs/2406.01126
   type: dataset
   year: 2025
   status: published
@@ -948,14 +1353,15 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
-- id: ds-hwtcm
-  name: HWTCMBench
+- id: ds-zhongjing-omni
+  name: ZhongJing-OMNI
   section: 评测基准
-  title_zh: HWTCMBench 中医能力评测集
+  title_zh: ZhongJing-OMNI 中医多模态评测（含舌诊）
   tags:
   - benchmark
+  - multimodal
   links:
-    数据集: https://huggingface.co/datasets/Monor/hwtcm
+    数据集: https://huggingface.co/datasets/CMLM/ZhongJing-OMNI
   type: dataset
   year: 2025
   status: published
@@ -985,14 +1391,40 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
-- id: ds-shennong
-  name: ShenNong_TCM_Dataset
+- id: ds-neijing-sft
+  name: neijing-sft-v1.2
+  type: dataset
+  year: 2026
   section: 指令/对话数据集
-  title_zh: 中医药指令数据集 ShenNong_TCM_Dataset
+  title_zh: 黄帝内经SFT指令集
+  summary_zh: 杏核配套约2009条内经相关指令数据，含thinking/output字段
   tags:
   - sft
   links:
-    数据集: https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset
+    数据集: https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2
+  status: published
+  verified_at: '2026-08-02'
+- id: ds-baize-corpus
+  name: Baize-TCM-Corpus-V3
+  type: dataset
+  year: 2025
+  section: 指令/对话数据集
+  title_zh: 白泽中医药语料库V3
+  summary_zh: 约15.7万条中医QA，覆盖理论、中药、方剂、诊断、针灸与临床
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/DigitalIntelligenceCenter-of-ICMM/Baize-TCM-Corpus-for-Large-Language-Models-V3
+  status: published
+  verified_at: '2026-08-02'
+- id: ds-cmtmedqa
+  name: CMtMedQA
+  section: 指令/对话数据集
+  title_zh: CMtMedQA 仲景真实多轮医患对话（约 7 万条）
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/Suprit/CMtMedQA
   type: dataset
   year: 2025
   status: published
@@ -1022,26 +1454,14 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
-- id: ds-cmtmedqa
-  name: CMtMedQA
+- id: ds-shennong
+  name: ShenNong_TCM_Dataset
   section: 指令/对话数据集
-  title_zh: CMtMedQA 仲景真实多轮医患对话（约 7 万条）
+  title_zh: 中医药指令数据集 ShenNong_TCM_Dataset
   tags:
   - sft
   links:
-    数据集: https://huggingface.co/datasets/Suprit/CMtMedQA
-  type: dataset
-  year: 2025
-  status: published
-  verified_at: '2026-07-19'
-- id: ds-tcmchat-600k
-  name: TCMChat-dataset-600k
-  section: 指令/对话数据集
-  title_zh: TCMChat-dataset-600k 中药知识问答与推荐指令数据
-  tags:
-  - sft
-  links:
-    数据集: https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k
+    数据集: https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset
   type: dataset
   year: 2025
   status: published
@@ -1059,6 +1479,18 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
+- id: ds-tcmchat-600k
+  name: TCMChat-dataset-600k
+  section: 指令/对话数据集
+  title_zh: TCMChat-dataset-600k 中药知识问答与推荐指令数据
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k
+  type: dataset
+  year: 2025
+  status: published
+  verified_at: '2026-07-19'
 - id: ds-sylvanl-sft
   name: Traditional-Chinese-Medicine-Dataset-SFT
   section: 指令/对话数据集
@@ -1071,18 +1503,20 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
-- id: ds-chatmed-kg
-  name: TCM_KG
-  section: 知识图谱
-  title_zh: ChatMed 知识图谱
-  tags:
-  - kg
-  links:
-    数据集: https://github.com/ywjawmw/TCM_KG
+- id: ds-chp-tcm
+  name: ChP-TCM
   type: dataset
-  year: 2025
+  year: 2024
+  section: 指令/对话数据集
+  title_zh: 中国药典指令数据集
+  summary_zh: 基于《中国药典》一部构建的KnowledgeQA与PrescriptionWriting指令数据
+  tags:
+  - sft
+  links:
+    数据: https://github.com/QLU-NLP/BianCang/tree/main/ChP-TCM
+    论文: https://arxiv.org/abs/2411.11027
   status: published
-  verified_at: '2026-07-19'
+  verified_at: '2026-08-02'
 - id: ds-opentcm-kg
   name: OpenTCM-KG
   section: 知识图谱
@@ -1108,6 +1542,100 @@ items:
   year: 2025
   status: published
   verified_at: '2026-07-19'
+- id: ds-chatmed-kg
+  name: TCM_KG
+  section: 知识图谱
+  title_zh: ChatMed 知识图谱
+  tags:
+  - kg
+  links:
+    数据集: https://github.com/ywjawmw/TCM_KG
+  type: dataset
+  year: 2025
+  status: published
+  verified_at: '2026-07-19'
+- id: hf-xinghe
+  name: 杏核 (Xinghe)
+  type: model_hf
+  year: 2026
+  section: Hugging Face 开源模型（精选）
+  title_zh: 杏核内经推理模型
+  tags:
+  - model
+  - open-weights
+  links:
+    模型: https://huggingface.co/zsyjsld/Xinghe1.2-9B
+    GGUF: https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF
+  status: published
+  verified_at: '2026-08-02'
+- id: hf-biancang
+  name: BianCang
+  title_zh: 扁仓 (BianCang) 系列
+  links:
+    Qwen2.5-7B-Instruct: https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct
+    Qwen2.5-14B-Instruct: https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-14B-Instruct
+  type: model_hf
+  section: Hugging Face 开源模型（精选）
+  year: 2025
+  tags:
+  - open-weights
+  - model
+  status: published
+  verified_at: '2026-07-19'
+- id: hf-chattcm
+  name: ChatTCM
+  title_zh: ChatTCM
+  links:
+    ChatTCM-7B-Pretrain: https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain
+  type: model_hf
+  section: Hugging Face 开源模型（精选）
+  year: 2025
+  tags:
+  - open-weights
+  - model
+  status: published
+  verified_at: '2026-07-19'
+- id: hf-chattcm-sft
+  name: ChatTCM-7B-SFT
+  type: model_hf
+  year: 2025
+  section: Hugging Face 开源模型（精选）
+  title_zh: ChatTCM全参SFT版
+  tags:
+  - model
+  - open-weights
+  - sft
+  links:
+    模型: https://huggingface.co/SylvanL/ChatTCM-7B-SFT
+  status: published
+  verified_at: '2026-08-02'
+- id: hf-lingdan
+  name: Lingdan
+  title_zh: 灵丹
+  links:
+    Lingdan-13B-Base: https://huggingface.co/TCMLLM/Lingdan-13B-Base
+    Lingdan-13B-PR: https://huggingface.co/TCMLLM/Lingdan-13B-PR
+  type: model_hf
+  section: Hugging Face 开源模型（精选）
+  year: 2025
+  tags:
+  - open-weights
+  - model
+  status: published
+  verified_at: '2026-07-19'
+- id: hf-shennong
+  name: ShenNong-TCM-LLM
+  title_zh: 神农
+  links:
+    ShenNong-TCM-LLM: https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM
+  type: model_hf
+  section: Hugging Face 开源模型（精选）
+  year: 2025
+  tags:
+  - open-weights
+  - model
+  status: published
+  verified_at: '2026-07-19'
 - id: hf-shizhengpt
   name: ShizhenGPT
   title_zh: ShizhenGPT 系列
@@ -1117,20 +1645,6 @@ items:
     7B-Omni: https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni
     32B-LLM: https://huggingface.co/FreedomIntelligence/ShizhenGPT-32B-LLM
     32B-VL: https://huggingface.co/FreedomIntelligence/ShizhenGPT-32B-VL
-  type: model_hf
-  section: Hugging Face 开源模型（精选）
-  year: 2025
-  tags:
-  - open-weights
-  - model
-  status: published
-  verified_at: '2026-07-19'
-- id: hf-biancang
-  name: BianCang
-  title_zh: 扁仓 (BianCang) 系列
-  links:
-    Qwen2.5-7B-Instruct: https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct
-    Qwen2.5-14B-Instruct: https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-14B-Instruct
   type: model_hf
   section: Hugging Face 开源模型（精选）
   year: 2025
@@ -1166,20 +1680,6 @@ items:
   - model
   status: published
   verified_at: '2026-07-19'
-- id: hf-lingdan
-  name: Lingdan
-  title_zh: 灵丹
-  links:
-    Lingdan-13B-Base: https://huggingface.co/TCMLLM/Lingdan-13B-Base
-    Lingdan-13B-PR: https://huggingface.co/TCMLLM/Lingdan-13B-PR
-  type: model_hf
-  section: Hugging Face 开源模型（精选）
-  year: 2025
-  tags:
-  - open-weights
-  - model
-  status: published
-  verified_at: '2026-07-19'
 - id: hf-medchatzh
   name: medchatzh
   title_zh: MedChatZH
@@ -1193,29 +1693,30 @@ items:
   - model
   status: published
   verified_at: '2026-07-19'
-- id: hf-shennong
-  name: ShenNong-TCM-LLM
-  title_zh: 神农
-  links:
-    ShenNong-TCM-LLM: https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM
+- id: hf-baize
+  name: 白泽 (Baize)
   type: model_hf
-  section: Hugging Face 开源模型（精选）
   year: 2025
+  section: Hugging Face 开源模型（精选）
+  title_zh: 白泽中医大模型
   tags:
-  - open-weights
   - model
-  status: published
-  verified_at: '2026-07-19'
-- id: hf-chattcm
-  name: ChatTCM
-  title_zh: ChatTCM
+  - open-weights
   links:
-    ChatTCM-7B-Pretrain: https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain
-  type: model_hf
-  section: Hugging Face 开源模型（精选）
-  year: 2025
-  tags:
-  - open-weights
-  - model
+    模型: https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model
+    8B-16bit: https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model-V3-16bit
   status: published
-  verified_at: '2026-07-19'
+  verified_at: '2026-08-02'
+- id: hf-zhifangdantai
+  name: 知方丹台
+  type: model_hf
+  year: 2025
+  section: Hugging Face 开源模型（精选）
+  title_zh: 知方丹台方剂生成模型
+  tags:
+  - model
+  - open-weights
+  links:
+    模型: https://huggingface.co/tczzx6/ZhiFangDanTai1.0
+  status: published
+  verified_at: '2026-08-02'

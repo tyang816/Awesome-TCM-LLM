@@ -15,7 +15,7 @@ python3 scripts/build_readme.py
 
 3. 提交 PR，包含 `catalog.yml`、生成的 `catalog.json` 与 `README.md`。
 
-网页门户 [tyang816.github.io/tcm/](https://tyang816.github.io/tcm/) 会读取 `data/catalog.json`，无需单独维护第二份列表。作者站点：[中文主页](https://tyang816.github.io/zh/) · [English](https://tyang816.github.io/)。
+项目页 [tyang816.github.io/projects/tcm/](https://tyang816.github.io/projects/tcm/)（英文）与 [zh/projects/tcm](https://tyang816.github.io/zh/projects/tcm/)（中文）读取 `data/catalog.json`，无需单独维护第二份列表。作者站点：[中文主页](https://tyang816.github.io/zh/) · [English](https://tyang816.github.io/)。
 
 ## 条目字段
 

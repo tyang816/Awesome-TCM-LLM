@@ -1,0 +1,40 @@
+# Local / agent tooling
+.claude/
+.cursor/
+
+# GitHub metadata (keep local; do not publish)
+.github/
+
+# Survey working drafts (paper vs repo dual-track; not part of the catalog)
+survey/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+secrets.*
+
+# Temp / caches
+*.log
+.cache/
+tmp/
+.ipynb_checkpoints/

@@ -169,7 +169,7 @@ def main() -> None:
             "description_zh": "开源中文医疗大模型（中医/西医）相关新闻、论文、模型与数据集精选列表。",
             "description_en": "Curated open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs.",
             "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
-            "portal_url": "https://tyang816.github.io/tcm/",
+            "portal_url": "https://tyang816.github.io/projects/tcm/",
             "updated_at": VERIFIED,
             "catalog_version": 1,
         },
