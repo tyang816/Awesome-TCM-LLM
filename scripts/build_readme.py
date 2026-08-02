@@ -69,6 +69,7 @@ LINK_LABEL_EN = {
     "GGUF": "GGUF",
     "JMIR": "JMIR",
     "ScienceDirect": "ScienceDirect",
+    "正式发表": "Published",
 }
 
 
@@ -243,6 +244,16 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             continue
         lines += ["", f"### {year}"]
         lines.extend(format_resource_line(i, lang) for i in by_year[year])
+
+    surveys = [
+        localize(i)
+        for i in catalog["items"]
+        if i.get("type") == "survey" and i.get("status", "published") == "published"
+    ]
+    if surveys:
+        surveys.sort(key=lambda x: int(x.get("year") or 0), reverse=True)
+        lines += ["", "## 📑 综述" if lang == "zh" else "## 📑 Surveys"]
+        lines.extend(format_resource_line(i, lang) for i in surveys)
 
     lines += ["", data_h]
     datasets = [

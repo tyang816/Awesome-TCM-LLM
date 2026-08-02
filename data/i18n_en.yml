@@ -273,7 +273,7 @@ tcm-ancient-books:
   summary_en: About 700 TCM classical book texts.
 shizhen-pretrain:
   title_en: TCM-Pretrain-Data-ShizhenGPT
-  summary_en: ShizhenGPT pretraining corpus (~6B tokens, including interleaved image–text).
+  summary_en: ShizhenGPT pretraining corpus (15B+ tokens reported in the paper — Stage-1 text 11.92B incl. 6.3B TCM, plus Stage-2 multimodal ~3.6B).
 sylvanl-pretrain:
   title_en: Traditional-Chinese-Medicine-Dataset-Pretrain
   summary_en: High-quality TCM pretraining data (cases, classics, encyclopedia, etc.).
@@ -348,7 +348,7 @@ ds-shennong:
   summary_en: ShenNong TCM instruction dataset.
 ds-shizhen-sft:
   title_en: TCM-Instruction-Tuning-ShizhenGPT
-  summary_en: ShizhenGPT multimodal SFT data (text/vision/speech, ~245K).
+  summary_en: ShizhenGPT multimodal SFT data (text/vision/speech/ECG etc.; ~311k items total per paper Table 3).
 ds-tcmchat-600k:
   title_en: TCMChat-dataset-600k
   summary_en: TCMChat herbal QA and recommendation instruction data (~600k).
@@ -403,3 +403,366 @@ hf-baize:
 hf-zhifangdantai:
   title_en: ZhiFangDanTai
   summary_en: ZhiFangDanTai formula-generation model weights.
+atcmd-bench:
+  summary_en: First agentic TCM diagnosis benchmark, evaluating LLMs through multi-agent simulated consultations.
+  orgs_en:
+  - South China University of Technology
+tcm-e2e-bench:
+  summary_en: Benchmark for end-to-end TCM clinical support across the full LLM care pipeline.
+  name_en: End-to-end TCM clinical support benchmark
+  orgs_en:
+  - East China Normal University
+qingnangtcm:
+  summary_en: Parameter-efficient fine-tuned TCM QA and clinical reasoning model; builds the 100k-item **QnTCM_Dataset**.
+  name_en: QingNangTCM
+  orgs_en:
+  - Hebei North University
+herbwise:
+  summary_en: Domain LLM for traditional herbal medicine (THM), serving herbal modernization and standardization.
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
+med-shicheng:
+  summary_en: Lightweight master-physician experience-inheritance framework built on Tianyi; a single model internalizes
+    5 national masters' knowledge systems across 7 task types.
+  name_en: Med-Shicheng
+  orgs_en:
+  - Nanjing University of Chinese Medicine et al.
+dongyuan:
+  summary_en: Integrative spleen–stomach disease diagnosis LLM framework combining TCM pattern differentiation with Western
+    diagnostic reasoning.
+macat:
+  summary_en: Multi-agent culture-aware translation framework, evaluated on culture-loaded terms from TCM classics and the
+    Analects.
+tonguedx2:
+  summary_en: Systematic ablation of the tongue-diagnosis DL design space (20+ model variants); TongueDx2 includes 5,109
+    images / 976 expert annotations.
+med-bench-arena:
+  summary_en: Open evaluation platform for medical and TCM LLMs/Agents (HF/vLLM/LiteLLM, multimodal, TCM-specific metrics),
+    from the ZhongJing team.
+tcmbencheval:
+  summary_en: Benchmark evaluating LLMs on real clinical TCM case records (ICIC 2026).
+  orgs_en:
+  - Shantou University
+tongue-face-mllm:
+  summary_en: Tongue–face multimodal feature fusion with LLM-driven intelligent TCM diagnosis.
+  name_en: Tongue–face multimodal fusion diagnosis
+  orgs_en:
+  - Xiamen University of Technology
+tcmi-f-6d:
+  summary_en: Six-dimensional benchmark of interdisciplinary foundational competence in TCM informatics.
+  orgs_en:
+  - Anhui University of Chinese Medicine
+jinsanzhen-kg:
+  summary_en: Knowledge graph + LLM QA tool for the Jin San Zhen acupuncture school.
+  name_en: Jin San Zhen KG-QA
+  orgs_en:
+  - Guangzhou University of Chinese Medicine
+kdc-ner:
+  summary_en: Knowledge-guided data augmentation + LLM fine-tuning framework for nested NER in TCM.
+  orgs_en:
+  - Jiangxi University of Chinese Medicine
+cmm-embedcluster:
+  summary_en: LLM + medicinal-property-theory clustering framework for Chinese materia medica, with a 567-herb property
+    knowledge base.
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+tcmnet:
+  summary_en: LLM-assisted disease knowledge mining with PPI networks and binding prediction for formula optimization.
+  orgs_en:
+  - Zhejiang Academy of Traditional Chinese Medicine
+tcm-data-hub:
+  summary_en: YiYuan LLM-driven TCM data platform.
+  name_en: TCM Data Hub (YiYuan)
+  orgs_en:
+  - CAMS / Peking Union Medical College
+tcm-preconsult-eval:
+  summary_en: Tertiary-hospital clinical evaluation of an LLM intelligent pre-consultation system using a physician–AI–patient
+    triad model.
+  name_en: TCM intelligent pre-consultation clinical evaluation
+  orgs_en:
+  - Beijing Hospital of Traditional Chinese Medicine
+tcm-license-3llm:
+  summary_en: Systematic evaluation of 3 LLMs (incl. Gemini) on the national TCM medical licensing examination.
+  name_en: Three-LLM TCM licensing exam evaluation
+  orgs_en:
+  - Shanghai Jiao Tong University
+tcm-ai-tutor-eval:
+  summary_en: Multimodal LLM evaluation for TCM education across cognitive levels.
+  name_en: TCM AI-tutor evaluation
+  orgs_en:
+  - Beijing University of Chinese Medicine
+tcm-exam-llm-eval:
+  summary_en: Systematic comparison of large-scale vs lightweight LLMs on TCM exam questions.
+  name_en: Large vs lightweight LLMs on TCM exams
+  orgs_en:
+  - First Affiliated Hospital of Henan University
+plant-mllm-bench:
+  summary_en: Benchmarking multimodal LLMs for medicinal plant identification.
+  name_en: Medicinal-plant MLLM benchmark
+  orgs_en:
+  - Shaoxing University
+xuanhugpt:
+  summary_en: TCM domain LLM built with parameter-efficient fine-tuning (PEFT).
+  name_en: XuanHuGPT
+  orgs_en:
+  - Hebei North University
+tcm-ds:
+  summary_en: Domain LLM for medicine–food homology dietary-therapy recommendation.
+  orgs_en:
+  - Macau University of Science and Technology
+tcm-visresolve:
+  summary_en: Qwen2.5-VL-based TCM multimodal LLM — 163-class dried-herb recognition over 220k images plus clinical MCQs
+    with 880k candidate answers.
+  name_en: TCM-VisResolve (TCM-VR)
+  orgs_en:
+  - Minzu University of China
+chatglm-fgids-tcm:
+  summary_en: Knowledge-fused ChatGLM clinical decision-support model for functional gastrointestinal disorders (FGIDs).
+  orgs_en:
+  - CAMS / Peking Union Medical College
+tcm-misinfo-eval:
+  summary_en: Safety evaluation framework with 3,000+ TCM exam items × 4 paradigms, covering wrong-option, misleading,
+    and fabrication detection.
+  name_en: TCM misinformation detection evaluation
+  orgs_en:
+  - Tsinghua University
+tcm-tongue-icl:
+  summary_en: Few-shot in-context multitask fine-tuning of LLMs mapping tongue images directly to constitutions.
+  name_en: Few-shot tongue-diagnosis in-context multitask learning
+  orgs_en:
+  - Northeastern University
+tcm-eval-wise:
+  summary_en: Multi-dimensional TCM evaluation framework (WISE 2025); a different work from the ZMT-M1 TCM-Eval (arXiv
+    2511.07148) despite the identical name.
+  name_en: TCM-Eval (WISE 2025)
+  orgs_en:
+  - Tianjin International Joint Academy of Biomedicine
+tcmrd-kg:
+  summary_en: Innovative design of a rheumatology TCM knowledge graph from ancient literature.
+  orgs_en:
+  - Beijing University of Chinese Medicine
+tcpm-kg:
+  summary_en: Constructing a knowledge system for traditional Chinese patent medicine using LLMs and KGs.
+  name_en: Chinese patent medicine knowledge system
+tcmlcm:
+  summary_en: KG2T-based intelligent QA model for TCM lung cancer.
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+herb-drug-llm:
+  summary_en: LLM-enhanced herbal medicine–drug interaction prediction.
+  name_en: LLM herb–drug interaction prediction
+  orgs_en:
+  - Shenzhen University
+tcm-stroke-bench:
+  summary_en: Quantitative benchmark study of LLMs in the TCM stroke domain.
+  name_en: TCM stroke LLM benchmark
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
+tcm-5llm-comparison:
+  summary_en: Comparative study of 5 LLMs for TCM clinical decision-making.
+  name_en: 5-LLM TCM clinical decision comparison
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+tcm-guideline-adherence:
+  summary_en: Content-analysis evaluation of LLM adherence to clinical practice guidelines in Chinese medicine.
+  name_en: TCM guideline adherence evaluation
+  orgs_en:
+  - Lanzhou University
+tcm-formula-voting:
+  summary_en: Weighted-voting LLM approach for TCM formula classification.
+  name_en: Weighted-voting TCM formula classification
+  orgs_en:
+  - CAMS / Peking Union Medical College
+tcm-rag-jmbe:
+  summary_en: Combining LLMs with RAG for TCM inference.
+  name_en: LLM + RAG TCM inference
+  orgs_en:
+  - Taipei City Hospital
+tcm-case-qa:
+  summary_en: Case-record-driven LLM question-answering system for TCM.
+  name_en: TCM case-based QA system
+  orgs_en:
+  - Anhui University of Chinese Medicine
+tcm-kg-llm:
+  summary_en: LLM-driven construction and application of a TCM knowledge graph.
+  name_en: LLM-driven TCM KG construction
+  orgs_en:
+  - Henan University of Technology
+cam-lm-extract:
+  summary_en: Language models for data extraction and risk-of-bias assessment in complementary medicine literature.
+  name_en: LM extraction for complementary medicine
+  orgs_en:
+  - Lanzhou University
+tcm-compound-agent:
+  summary_en: AI agent-based system for retrieving TCM compound information.
+  name_en: TCM compound retrieval agent
+  orgs_en:
+  - Zhengzhou University
+mrd-rag:
+  summary_en: Multi-round diagnostic RAG simulating clinical reasoning; builds **DiagnosGraph** spanning TCM and Western
+    medicine (876 diseases / 7,997 nodes / 37,201 triples).
+ladder-base:
+  summary_en: First GRPO reinforcement-learning-aligned TCM LLM, from the TCM-Ladder team.
+  name_en: Ladder-base (GRPO-TCM)
+tcdiff:
+  summary_en: Triplet cascaded diffusion model generating high-fidelity multimodal TCM EHRs, with the **TCM-SZ1** benchmark
+    dataset.
+new-snow-tablets:
+  summary_en: Reveals systematic flaws of general and TCM-specific LLMs that guess formula ingredients from drug names.
+  name_en: New Snow Tablets
+metaphor-to-mechanism:
+  summary_en: LLMs decode TCM metaphor / imagistic-thinking language and map it to modern medical concepts.
+  name_en: From Metaphor to Mechanism
+tcm-sage:
+  summary_en: Evidence-synthesis RAG assistant for TCM practitioners (hybrid vector + knowledge graph).
+ds-chimed2:
+  title_en: ChiMed 2.0
+  summary_en: Upgraded Chinese medical pretraining dataset covering TCM corpora for LLM pretraining.
+ds-tcmnsclc:
+  title_en: TCMNSCLC
+  summary_en: Real-world NSCLC TCM reasoning dataset with fully annotated cases (pattern differentiation / treatment method
+    / decoction / patent medicine).
+eswa-acu-llm-diagnosis:
+  summary_en: Taming LLMs for acupuncture & moxibustion diagnosis, with generation quality evaluated at the semantic-similarity level.
+sdt-thinking-llm:
+  summary_en: Method-development study evaluating and improving LLMs' TCM syndrome-differentiation thinking ability.
+gen-syndi:
+  summary_en: Knowledge-guided generative-AI framework for dual education of syndrome differentiation and disease diagnosis.
+hengqin-ra:
+  summary_en: LLM and companion dataset for TCM diagnosis and treatment of rheumatoid arthritis.
+tcm-std-rag-qa:
+  summary_en: Retrieval-augmented QA system for TCM standards knowledge, built and evaluated in practice.
+  orgs_en:
+  - China Academy of Chinese Medical Sciences et al.
+dual-channel-ka-sdt:
+  summary_en: Dual-channel knowledge-attention NLP model for TCM syndrome differentiation, addressing rare characters and terminology extraction.
+gpt-tcm-tw-exam:
+  summary_en: GPT-3.5/GPT-4/GPT-4o performance on the Taiwan TCM licensing examination with reliability analysis (preprint).
+tcm-gpt:
+  summary_en: Efficient pre-training of LLMs for domain adaptation in Traditional Chinese Medicine.
+cpmi-chatglm:
+  summary_en: Parameter-efficient fine-tuning of ChatGLM with Chinese patent medicine instructions.
+tcm-ftp:
+  summary_en: Fine-tuning LLMs for herbal prescription prediction.
+acu-point-re:
+  summary_en: Relation extraction with LLMs — a case study on acupuncture point locations.
+tcm-llm-bias:
+  summary_en: Comparing LLMs developed in different countries on TCM; highlights language/cultural bias and the need for localized models.
+tcm-kg-llm-electronics:
+  summary_en: Constructing Traditional Chinese Medicine knowledge graphs based on large language models.
+tcm-domain-kgc:
+  summary_en: Domain knowledge graph completion and quality evaluation for Traditional Chinese Medicine.
+chatgpt-tcm-feasibility:
+  summary_en: Feasibility and challenges of interactive AI for TCM, using ChatGPT as an example.
+evi-bert:
+  summary_en: Automated information-extraction model (Evi-BERT) enhancing RCT evidence extraction for TCM.
+tcm-mlkg-rag:
+  summary_en: TCM intelligent diagnosis based on multi-layer knowledge graph retrieval-augmented generation.
+tcmsf-kg:
+  summary_en: Construction framework for a TCM syndrome ancient-book knowledge graph.
+chatgpt-tcm-knowledge:
+  summary_en: Evaluating ChatGPT's comprehension of Traditional Chinese Medicine knowledge.
+tcm-prompt-framework:
+  summary_en: Prompt-engineering framework for LLM intelligent understanding in TCM.
+tcm-rlaif:
+  summary_en: Enhancing LLMs' TCM capabilities through reinforcement learning from AI feedback.
+tcmd:
+  summary_en: TCMD, a TCM QA dataset for evaluating large language models.
+bsg-qa:
+  summary_en: Intelligent QA system for TCM based on a BSG deep-learning model (prescription and materia medica cases).
+acubert:
+  summary_en: ACUBERT for meridian entity recognition and classification in acupuncture indication knowledge bases.
+fcst-tcm-aug:
+  summary_en: Knowledge augmentation for TCM LLMs — a graph built from ~100k classical formulas preserving prescription structure.
+  orgs_en:
+  - Tianjin University
+njucm-tcm-eval:
+  summary_en: Standardized TCM evaluation benchmark of 29,506 questions across 13 subjects; tests 3 general and 5 Chinese medical LLMs.
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
+njucm-rag-qa:
+  summary_en: TCM QA LLM combining RAG with P-Tuning v2 fine-tuning on ChatGLM2-6B.
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+gpt4-tcm-postgrad:
+  summary_en: GPT-4 vs mainstream Chinese LLMs on a TCM postgraduate examination dataset (preprint).
+rag-tcm-confidence:
+  summary_en: Implementing retrieval-augmented generation to build LLM confidence in TCM (preprint).
+fcst-kg-llm-qa:
+  summary_en: Vertical-domain QA system deeply integrating LLMs with knowledge graphs for TCM formulas.
+  orgs_en:
+  - Tianjin University
+acu-chatgpt-edu:
+  summary_en: Comparative study of ChatGPT as a learning tool in acupuncture education.
+tcm-epidemic-qa:
+  summary_en: LLM-based QA model for TCM epidemic prevention and treatment.
+tcm-formula-llm-clf:
+  summary_en: TCM formula classification using large language models.
+tcm-prescription-gnn:
+  summary_en: TCM prescription recommendation combining large language models with graph neural networks.
+herbal-chatbot:
+  summary_en: Smarter herbal medication delivery system employing an AI-powered chatbot.
+pregenerator:
+  summary_en: TCM prescription recommendation model combining retrieval and generation.
+tcm-ner-covid-llm:
+  summary_en: Comparative study of LLMs for named entity recognition in TCM COVID-19 literature (preprint).
+tcm-hbv-kg-qa:
+  summary_en: Knowledge-graph-based QA system for TCM diagnosis and treatment of viral hepatitis B.
+tcmkg:
+  summary_en: Deep-learning-based TCM knowledge graph platform.
+tcm-clinical-ner:
+  summary_en: Fine-grained entity-recognition corpus built from TCM clinical records.
+tcm-symptom-ner:
+  summary_en: Supervised methods for symptom name recognition in free-text TCM clinical records.
+surv-han2026:
+  summary_en: PRISMA-ScR scoping review (27 studies to 2025-05) on tuning (LoRA/CPT/RAG) and clinical application of TCM LLMs.
+surv-yao2026:
+  summary_en: PRISMA scoping review (12 studies, 2022-11 to 2026-01) on integrating LLMs with evidence-based Chinese medicine.
+surv-xu2026:
+  summary_en: Review of intelligent TCM question-answering systems based on LLMs (KG-QA to LLM-QA and RAG).
+surv-chens2026:
+  summary_en: Narrative review on the next step of LLMs in TCM — multimodality, agents, and clinical translation.
+surv-guop2026:
+  summary_en: Panoramic AI review (ML/DL/KG/NLP/LLM) for TCM modernization with multimodal data integration.
+surv-wu2026:
+  summary_en: Full-stack survey of AI in TCM herbs — compounds, targets, quality control, with an LLM section.
+surv-lu2026:
+  summary_en: Systematic review and validation-gap analysis of deep learning for TCM disease diagnosis.
+surv-ren2025:
+  summary_en: Arksey-O'Malley scoping review (29 studies to 2024-04) covering knowledge management, assisted care, and exam accuracy.
+surv-chen2025:
+  summary_en: Systematic review of 10 studies (to mid-2024) on LLMs in TCM generative tasks.
+surv-guo2025:
+  summary_en: Survey plus empirical analysis of whether GPTs can accelerate intelligent TCM diagnosis and treatment.
+surv-shataer2025:
+  summary_en: State-of-the-art review scanning TCM LLM application scenarios (care, education, translation, research).
+surv-zhang2025:
+  summary_en: Short survey and outlook on TCM LLM models and tasks.
+surv-meng2025:
+  summary_en: Review of large models and virtual cells aiding modern analysis of stroke treatment with TCM formulas.
+surv-wangl2025:
+  summary_en: Systematic review of AI-driven TCM diagnostic models (four-diagnosis objectification, pattern differentiation).
+surv-yip2025:
+  summary_en: Review of LLMs in integrative medicine — progress, challenges, and opportunities.
+surv-li2024:
+  name_en: Li et al. 2024 — Research progress and prospects of LLMs in TCM (Chinese)
+  summary_en: Chinese-language review of TCM LLM pipelines, frontier techniques (prompting/RAG/RLHF), and application prospects.
+surv-su2024:
+  name_en: Su et al. 2024 — Review of AI in TCM diagnosis and treatment (Chinese)
+  summary_en: Chinese-language review of three AI stages in TCM care — expert systems, ML, and deep learning — with challenges.
+surv-song2024:
+  summary_en: Strategic-study review of key issues in AI-assisted TCM syndrome differentiation — multimodal fusion, symptom association, pattern quantification and reasoning, and TCM LLMs.
+surv-qu2024:
+  summary_en: Review of knowledge graphs in TCM — analysis, construction, applications, and prospects.
+surv-tian2024:
+  summary_en: Review of machine learning for TCM four diagnoses — inspection, auscultation-olfaction, inquiry, and palpation.
+surv-zhang2021:
+  summary_en: Literature survey of computational TCM diagnosis — symptom acquisition, pattern modeling, and systems.
+surv-chu2020:
+  summary_en: Review of quantitative knowledge representation models of TCM (ontologies, rules, statistics).
+surv-zhao2015:
+  summary_en: Review of ML-driven advances in patient classification for TCM.
+surv-gu2013:
+  summary_en: Historical review of bioinformatics meeting TCM (omics and text mining).
+surv-lukman2007:
+  summary_en: Foundational survey of computational methods for TCM (expert systems, ML, data mining).
