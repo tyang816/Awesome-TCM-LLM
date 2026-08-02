@@ -462,8 +462,7 @@ items:
   summary_zh: 大规模多任务中医评测基准，覆盖 5 大域、13 子任务、25624 实例
   orgs:
   - 北京交通大学等
-  tags:
-  - benchmark
+  tags: [benchmark, evaluation]
   links:
     论文: https://arxiv.org/abs/2602.01779
     代码: https://github.com/TCMAI-BJTU/LingLan
@@ -493,8 +492,7 @@ items:
   summary_zh: 面向端到端临床支持全链路的中医LLM评测基准
   orgs:
   - 华东师范大学
-  tags:
-  - benchmark
+  tags: [benchmark, evaluation]
   links:
     DOI: https://doi.org/10.1016/j.eswa.2026.132267
   type: resource
@@ -569,8 +567,7 @@ items:
   name: TongueDx2
   year: 2026
   summary_zh: 舌诊深度学习设计空间系统消融研究（20+模型版本），含5109图像/976专家标注
-  tags:
-  - multimodal
+  tags: [multimodal, evaluation]
   links:
     论文: https://arxiv.org/abs/2607.28148
   type: resource
@@ -608,8 +605,7 @@ items:
   summary_zh: 舌-面多模态特征融合+LLM驱动的中医智能诊断
   orgs:
   - 厦门理工学院
-  tags:
-  - multimodal
+  tags: [multimodal, model]
   links:
     DOI: https://doi.org/10.1109/ISCTIS70043.2026.11572361
   type: resource
@@ -845,8 +841,7 @@ items:
   year: 2025
   venue: Scientific Data
   summary_zh: 中医多任务评测基准，12子集约7100样本，覆盖知识/推理/方剂/安全
-  tags:
-  - benchmark
+  tags: [benchmark, evaluation]
   links:
     论文: https://arxiv.org/abs/2506.01252
     代码: https://github.com/Wayyuanyuan/MTCMB
@@ -996,7 +991,7 @@ items:
   name: TCMChat
   year: 2025
   venue: Pharmacological Research
-  summary_zh: 中药知识聊天机器人
+  summary_zh: 生成式中医药大模型，经预训练+监督微调构建，配套 60 万条中药知识对话数据 TCMChat-600k（Pharmacological Research 2024）
   orgs:
   - 浙江大学
   tags:
@@ -1056,7 +1051,7 @@ items:
   name: 仲景 (ZhongJing)
   year: 2025
   venue: Tsinghua Science and Technology
-  summary_zh: 中医大模型
+  summary_zh: 专家知识引导的中医大模型 ZhongJingGPT，融合垂直领域微调策略与认知心理学洞察，构建多场景中医知识指令数据（Tsinghua Science and Technology 2025）
   orgs:
   - 福耀科技大学，健康长三角研究院，复旦大学，同济大学
   tags:
@@ -1184,11 +1179,10 @@ items:
   name: 神农Alpha
   year: 2025
   venue: Cell Discovery
-  summary_zh: 中药大模型
+  summary_zh: 西湖大学神农 Alpha：AI 驱动的天然药物知识智能编目、获取与翻译共享协作平台（Cell Discovery 2025）
   orgs:
   - 西湖大学
-  tags:
-  - model
+  tags: [model, tool]
   links:
     网站: https://shennongalpha.westlake.edu.cn/
     论文: https://www.nature.com/articles/s41421-025-00776-2
@@ -1437,7 +1431,7 @@ items:
   name: 中医医案问答系统
   year: 2025
   venue: Frontiers in Medicine
-  summary_zh: 医案驱动的LLM中医问答系统
+  summary_zh: 融合大语言模型与知识图谱的中医医案问答系统，提升医案检索与分析效率（Frontiers in Medicine 2025）
   orgs:
   - 安徽中医药大学
   tags:
@@ -1492,12 +1486,14 @@ items:
 - id: mrd-rag
   name: MRD-RAG
   year: 2025
+  venue: IEEE BIBM 2025
   summary_zh: 模拟临床推理的多轮诊断RAG框架，并构建覆盖中西医的**DiagnosGraph**（876病/7997节点/37201三元组）
   tags:
   - rag
   - kg
   links:
     论文: https://arxiv.org/abs/2504.07724
+    正式发表: https://doi.org/10.1109/bibm66473.2025.11357107
   type: resource
   status: published
   verified_at: '2026-08-02'
@@ -1538,11 +1534,13 @@ items:
 - id: metaphor-to-mechanism
   name: From Metaphor to Mechanism
   year: 2025
+  venue: IJCNN 2025
   summary_zh: LLM解码中医隐喻/取象语言并映射现代医学概念
   tags:
   - evaluation
   links:
     论文: https://arxiv.org/abs/2503.02760
+    正式发表: https://doi.org/10.1109/ijcnn64981.2025.11228098
   type: resource
   status: published
   verified_at: '2026-08-02'
@@ -1636,6 +1634,7 @@ items:
 - id: gpt-tcm-tw-exam
   name: GPT 台湾中医执业考试评估
   year: 2025
+  venue: Preprints.org（预印本）
   summary_zh: GPT-3.5/GPT-4/GPT-4o 在台湾中医执业考试中的表现与可靠性分析（预印本）
   tags:
   - evaluation
@@ -1647,7 +1646,7 @@ items:
 - id: chinese-llava-med
   name: Chinese-LLaVA-Med
   year: 2024
-  summary_zh: 中文医学多模态大模型
+  summary_zh: 基于 LLaVA 架构的中文医学多模态大模型，支持中文医学影像问答，配套 llava-med-zh-eval 评测集与开源 7B 权重
   tags:
   - multimodal
   - general-medical
@@ -1660,7 +1659,7 @@ items:
   name: MedChatZH
   year: 2024
   venue: Computers in Biology and Medicine
-  summary_zh: 中医问诊大模型
+  summary_zh: 面向中医问诊对话的微调大语言模型 MedChatZH，开源问诊数据集与模型权重（Computers in Biology and Medicine 2024）
   orgs:
   - 华东理工大学
   tags:
@@ -1697,7 +1696,7 @@ items:
 - id: bigdatatcm
   name: 大数中医 (BigDataTCM)
   year: 2024
-  summary_zh: 中医垂直领域大模型
+  summary_zh: 河南工业大学复杂性科学研究院与阿帕斯联合研发的中医垂直领域大模型（34B），提供医疗问答、诊断支持与中医知识服务
   orgs:
   - 河南工业大学
   tags:
@@ -1710,7 +1709,7 @@ items:
 - id: ming
   name: 明医 (MING)
   year: 2024
-  summary_zh: 中文医疗问诊大模型
+  summary_zh: 中文医疗问诊大模型 MING，以稀疏 LoRA 混合专家（MING-MoE）增强医疗多任务学习能力（arXiv 2024）
   orgs:
   - 上海交通大学
   tags:
@@ -1866,7 +1865,7 @@ items:
   name: TCMSF
   year: 2024
   venue: Methods of Information in Medicine
-  summary_zh: 中医证候古籍知识图谱构建框架
+  summary_zh: 中医证候古籍知识图谱构建框架 TCMSF，将古籍中的证候知识系统化组织并语义关联，为中医信息化提供基础（Methods of Information in Medicine 2024）
   tags:
   - kg
   - ancient-books
@@ -1989,6 +1988,7 @@ items:
 - id: gpt4-tcm-postgrad
   name: GPT-4 中医研究生考试评估
   year: 2024
+  venue: Research Square（预印本）
   summary_zh: GPT-4 与国产主流大模型在中医研究生考试数据集上的表现评估（预印本）
   tags:
   - evaluation
@@ -2000,6 +2000,7 @@ items:
 - id: rag-tcm-confidence
   name: RAG 增强中医问答置信度
   year: 2024
+  venue: OSF Preprints（预印本）
   summary_zh: 检索增强生成提升大模型中医问答置信度（预印本）
   tags:
   - rag
@@ -2011,7 +2012,7 @@ items:
 - id: chatmed
   name: ChatMed
   year: 2023
-  summary_zh: 系列中文医疗大规模语言模型
+  summary_zh: ChatMed 系列中文医疗大模型，含基于 50 万+ 在线问诊数据训练的 ChatMed-Consult
   tags:
   - model
   - general-medical
@@ -2067,7 +2068,7 @@ items:
 - id: sunsimiao
   name: 孙思邈 (Sunsimiao)
   year: 2023
-  summary_zh: 中文医疗大模型
+  summary_zh: 孙思邈中文医疗大模型，Sunsimiao-7B 基于 Qwen2-7B 以高质量医疗数据微调，在 CMB-Exam 达 30B 量级 SOTA
   orgs:
   - 华东理工大学
   tags:
@@ -2087,15 +2088,17 @@ items:
   tags:
   - model
   - general-medical
+  venue: arXiv
   links:
     代码: https://github.com/scutcyr/BianQue
+    论文: https://arxiv.org/abs/2310.15896
   type: resource
   status: published
   verified_at: '2026-07-19'
 - id: shennong-tcm-llm
   name: 神农大模型 (ShenNong-TCM-LLM)
   year: 2023
-  summary_zh: 中医药大规模语言模型
+  summary_zh: 首个中医药大规模语言模型"神农"，配套 ShenNong_TCM_Dataset 指令数据与开源权重
   tags:
   - model
   - open-weights
@@ -2109,11 +2112,10 @@ items:
 - id: huangdi
   name: 黄帝 (HuangDi)
   year: 2023
-  summary_zh: 中医古籍知识问答大模型
+  summary_zh: 基于 Ziya-LLaMA-13B 的中医古籍知识问答大模型，预训练融合 22 本"十三五"中医教材与中医网站语料，古籍指令数据 SFT（图书馆论坛 2024 报道）
   orgs:
   - 南京大学, 郑州大学
-  tags:
-  - model
+  tags: [model, ancient-books]
   links:
     代码: https://github.com/Zlasejd/HuangDI
   type: resource
@@ -2161,7 +2163,7 @@ items:
   name: 中医方剂 LLM 分类
   year: 2023
   venue: IEEE BIBM
-  summary_zh: 大语言模型驱动的中医方剂分类
+  summary_zh: 微调大语言模型并结合提示模板进行中医方剂分类，数据源自中成药国家医保目录等（IEEE BIBM 2023）
   tags:
   - model
   links:
@@ -2580,6 +2582,7 @@ items:
   verified_at: '2026-08-02'
 - id: awesome-cmed-nlp
   name: awesome_Chinese_medical_NLP
+  summary_zh: 中文医学 NLP 公开资源整理：术语集、语料库、词向量、预训练模型、知识图谱、NER、QA 等（含 CBLUE 挑战榜）
   section: 公开资料整理
   title_zh: awesome_Chinese_medical_NLP
   tags:
@@ -2592,10 +2595,10 @@ items:
   verified_at: '2026-07-19'
 - id: tcm-ancient-books
   name: TCM-Ancient-Books
+  summary_zh: 中医药古籍文本语料合集，收录近 700 项古籍文本
   section: 原始书籍 / 预训练语料
   title_zh: 700 项中医药古籍文本
-  tags:
-  - corpus
+  tags: [corpus, ancient-books]
   links:
     数据集: https://github.com/xiaopangxia/TCM-Ancient-Books
   type: dataset
@@ -2617,6 +2620,7 @@ items:
   verified_at: '2026-07-19'
 - id: sylvanl-pretrain
   name: Traditional-Chinese-Medicine-Dataset-Pretrain
+  summary_zh: 非网络来源高质量中医预训练数据集（约 1GB），含临床案例、名家典籍、医学百科等，99% 简体中文
   section: 原始书籍 / 预训练语料
   title_zh: 高质量中医预训练数据集（医案/典籍/百科等）
   tags:
@@ -2629,6 +2633,7 @@ items:
   verified_at: '2026-07-19'
 - id: classical-tcm-canon
   name: classical-tcm-canon
+  summary_zh: 中医经典全文数字化语料：内经、难经、伤寒论、金匮要略及温病经典
   section: 原始书籍 / 预训练语料
   title_zh: 中医经典全文语料（内经/伤寒/金匮/温病等 115 部）
   tags:
@@ -2694,6 +2699,7 @@ items:
   verified_at: '2026-07-19'
 - id: ds-mtcmb
   name: MTCMB
+  summary_zh: 中医多任务评测基准 MTCMB 数据，覆盖知识、推理与安全维度，12 子集约 7100 样本（arXiv 2025）
   section: 评测基准
   title_zh: MTCMB 中医多任务评测基准（知识/推理/安全）
   tags:
@@ -2758,16 +2764,19 @@ items:
   verified_at: '2026-07-19'
 - id: ds-tcm-ladder
   name: TCM-Ladder
+  summary_zh: 中医多模态问答评测基准 TCM-Ladder，面向真实世界任务综合评估中医多模态大模型（arXiv 2025）
   section: 评测基准
   title_zh: TCM-Ladder 中医多模态问答评测基准 (NeurIPS 2025)
   year: 2025
   tags:
   - benchmark
   - multimodal
+  venue: arXiv
   links:
     数据集: https://github.com/orangeshushu/TCM-Ladder
     HF: https://huggingface.co/datasets/timzzyus/TCM-Ladder
     榜单: https://tcmladder.com
+    论文: https://arxiv.org/abs/2505.24063
   type: dataset
   status: published
   verified_at: '2026-07-19'
@@ -2802,6 +2811,7 @@ items:
   verified_at: '2026-07-19'
 - id: ds-tcmbench
   name: TCMBench
+  summary_zh: 面向中医领域的综合性大模型评测基准 TCMBench（arXiv 2024）
   section: 评测基准
   title_zh: TCMBench 中医药大模型全面评测基准
   tags:
@@ -2815,6 +2825,7 @@ items:
   verified_at: '2026-07-19'
 - id: ds-tcmeval-sdt
   name: TCMEval-SDT
+  summary_zh: 中医辨证思维评测基准，含 300 例证候诊断案例（来源网络、古籍与医院病案），元数据遵循 FAIR 原则（Scientific Data 2025）
   section: 评测基准
   title_zh: TCMEval-SDT 辨证思维评测（专家标注病案）
   tags:
@@ -2871,8 +2882,7 @@ items:
   section: 指令/对话数据集
   title_zh: 黄帝内经SFT指令集
   summary_zh: 杏核配套约2009条内经相关指令数据，含thinking/output字段
-  tags:
-  - sft
+  tags: [sft, ancient-books]
   links:
     数据集: https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2
   status: published
@@ -2994,6 +3004,7 @@ items:
   name: TCMNSCLC
   type: dataset
   year: 2026
+  venue: Zenodo
   section: 指令/对话数据集
   title_zh: TCMNSCLC 非小细胞肺癌中医推理真实世界数据集
   summary_zh: 真实世界医案全标注（辨证/治法/汤药/中成药）的中医推理数据集
@@ -3207,3 +3218,177 @@ items:
     模型: https://huggingface.co/tczzx6/ZhiFangDanTai1.0
   status: published
   verified_at: '2026-08-02'
+- id: pcdh-tcm
+  name: Patient-Conditioned Dual Hypergraph Reasoning
+  year: 2026
+  date: '2026.07'
+  summary_zh: 患者条件化双超图推理实现可审计的中医处方支持，将症状/舌/脉证据围绕证型与治则组织（天津大学）
+  tags: [reasoning, prescription]
+  links:
+    论文: https://arxiv.org/abs/2607.04025
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+- id: ebitv-tcm
+  name: Evidence-Based TCM Visualization Diagnosis System
+  year: 2026
+  date: '2026.06'
+  summary_zh: Neo4j知识图谱（241证型/1263症状）+四阶段症状匹配（含LLM验证）+信息增益主动问诊的中医可视化诊疗系统
+  tags: [kg, rag, dialogue]
+  links:
+    论文: https://arxiv.org/abs/2606.06869
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+- id: tcmiies
+  name: TCMIIES
+  year: 2026
+  date: '2026.05'
+  summary_zh: 浏览器端零安装的LLM学术文献结构化信息抽取系统，面向中医等专科领域研究者
+  tags: [ie, tool]
+  links:
+    论文: https://arxiv.org/abs/2605.07507
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+- id: survey-agentic-tcm-osf
+  name: Agentic and Knowledge-Grounded LLMs in TCM（预注册）
+  year: 2026
+  date: '2026.07'
+  summary_zh: 中医Agentic/知识接地LLM系统综述的OSF预注册方案（证据图谱+文本挖掘+转化就绪度），非完成版综述
+  tags: [survey, agent]
+  links:
+    预注册: https://doi.org/10.17605/osf.io/kq8jx
+  type: survey
+  status: published
+  verified_at: '2026-08-03'
+- id: ds-tcm-robustsdt
+  name: TCM-RobustSDT
+  year: 2026
+  date: '2026.07'
+  summary_zh: 中医临床推理LLM鲁棒性基准数据集（Figshare）
+  section: 评测基准
+  tags: [benchmark, robustness]
+  links:
+    数据集: https://doi.org/10.6084/m9.figshare.33054974
+  type: dataset
+  status: published
+  verified_at: '2026-08-03'
+- id: tcm-prescription-hybrid-retrieval
+  name: Hybrid Retrieval + Re-ranking TCM Prescription Generation
+  year: 2026
+  date: '2026.07'
+  summary_zh: 混合检索+重排序增强LLM的中医处方生成（Springer CCIS会议论文）
+  tags: [rag, prescription]
+  links:
+    论文: https://doi.org/10.1007/978-981-92-3563-6_21
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+  venue: Communications in Computer and Information Science (Springer)
+- id: deeptcm
+  name: DeepTCM1.0
+  year: 2026
+  date: '2026.06'
+  summary_zh: 基于通用LLM的多专家AI Agent，解析中药复方作用机制（Research Square预印本）
+  tags: [agent, herbal]
+  links:
+    预印本: https://doi.org/10.21203/rs.3.rs-9844166/v1
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+- id: survey-key-tech-tcm-llm
+  name: 中医大模型关键技术综述（IJPRAI）
+  year: 2026
+  date: '2026.06'
+  summary_zh: 系统综述中医大模型知识组织、辅助诊断与临床决策支持关键技术（World Scientific IJPRAI正式发表）
+  tags: [survey]
+  links:
+    DOI: https://doi.org/10.1142/s0218001426590263
+  type: survey
+  status: published
+  verified_at: '2026-08-03'
+  venue: International Journal of Pattern Recognition and Artificial Intelligence
+- id: gat-llm-tcm-prescription
+  name: GAT+LLM TCM Prescription Generation
+  year: 2026
+  date: '2026.05'
+  summary_zh: 图注意力网络与LLM结合的中医处方智能生成模型（KSII TIIS正式发表）
+  tags: [prescription, gnn]
+  links:
+    DOI: https://doi.org/10.3837/tiis.2026.05.006
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+  venue: KSII Transactions on Internet and Information Systems
+- id: pathogenesis-cot
+  name: 病机推理CoT监督（脾胃病）
+  year: 2026
+  date: '2026.05'
+  summary_zh: 以病机推理思维链监督替代固定标签分类，做脾胃病症候表现识别与多维评估（《生物化学与生物物理进展》）
+  tags: [cot, syndrome]
+  links:
+    DOI: https://doi.org/10.3724/j.pibb.2026.0141
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+  venue: 生物化学与生物物理进展
+- id: ds-hsq-td
+  name: HSQ-TD（健身气功指令微调数据集）
+  year: 2026
+  date: '2026.05'
+  summary_zh: 健身气功养生领域首个指令微调数据集，57,843条指令基于官方教材与专业文献蒸馏（ScienceDB）
+  section: 语料/指令
+  tags: [instruction, qigong]
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.35843
+  type: dataset
+  status: published
+  verified_at: '2026-08-03'
+- id: cpm-pediatric-influenza
+  name: 儿童流感中成药推荐系统（KG+LLM）
+  year: 2026
+  date: '2026.05'
+  summary_zh: 整合权威指南构建儿童流感中成药知识图谱并与LLM集成（JMIR Preprints预印本）
+  tags: [kg, recommendation]
+  links:
+    预印本: https://doi.org/10.2196/preprints.101648
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+- id: survey-ai-tcm-diagnosis-jtcms
+  name: AI驱动中医诊断智能化综述（JTCMS）
+  year: 2026
+  date: '2026.05'
+  summary_zh: 综述多模态融合与大模型在中医四诊智能化中的应用、挑战与展望（JTCMS正式发表）
+  tags: [survey, multimodal]
+  links:
+    DOI: https://doi.org/10.1016/j.jtcms.2026.05.002
+  type: survey
+  status: published
+  verified_at: '2026-08-03'
+  venue: Journal of Traditional Chinese Medical Sciences
+- id: ai-tcm-translation-limits
+  name: Beyond the Poetic Bard（中医AI翻译评论）
+  year: 2026
+  date: '2026.07'
+  summary_zh: 讨论生成式AI翻译中医文本的精确性、认识论与医学语境局限（Translation Review）
+  tags: [translation, perspective]
+  links:
+    DOI: https://doi.org/10.1080/07374836.2026.2679929
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+  venue: Translation Review
+- id: rag-lora-tcm-exam
+  name: RAG+LoRA 中医执照考试推理架构
+  year: 2026
+  date: '2026.05'
+  summary_zh: RAG+LoRA生成式架构，构建台湾中医师执照考试11,476题（2005–2025）数据集，准确率61.0%→89.0%+（Future Internet）
+  tags: [rag, fine-tuning, benchmark]
+  links:
+    DOI: https://doi.org/10.3390/fi18060280
+  type: resource
+  status: published
+  verified_at: '2026-08-03'
+  venue: Future Internet (MDPI)
