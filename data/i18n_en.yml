@@ -792,3 +792,35 @@ ai-tcm-translation-limits:
   summary_en: "Beyond the Poetic Bard: a perspective on accuracy, epistemology, and medical-context limits of generative-AI translation of TCM texts (Translation Review)."
 rag-lora-tcm-exam:
   summary_en: "RAG+LoRA generative architecture with an 11,476-item Taiwan TCM licensing-exam dataset (2005-2025), raising accuracy from 61.0% to 89.0%+ (Future Internet, MDPI)."
+surv-pan2026-agent:
+  summary_en: "Chinese-language systematic review organized around the LLM-to-agent transition for TCM clinical assisted diagnosis and treatment (J. Lanzhou Univ. Med. Sci. 2026;52(4):49-57)."
+surv-wang2026-shanghai:
+  summary_en: "Chinese review structured on the six-step TCM diagnosis-treatment chain (four diagnoses, pattern differentiation, prescription, outcome prediction), contrasting supervised/unsupervised/RL/deep-learning paradigms (Shanghai J. TCM 2026;60(1))."
+surv-an2026-mllm:
+  summary_en: "The only review text dedicated to multimodal-LLM-driven tongue, pulse, and facial diagnosis in TCM (Springer CCIS book chapter; weaker peer review than journals)."
+surv-he2026-herbal-mech:
+  summary_en: "Broad AI-in-TCM review arguing AI should move beyond correlational analysis toward reconstructing the biological logic of syndrome differentiation and formula compatibility (Research 2026;9:1224)."
+surv-liu2026-dl-jim:
+  summary_en: "Single-technology review of deep learning in TCM: medical imaging, herbal material research, data mining (J. Integr. Med. 2026;24(4):471-480)."
+surv-hong2025-ml-jpa:
+  summary_en: "Review of machine-learning integration into TCM along diagnostic objectification and mechanism-elucidation lines (J. Pharm. Anal. 2025;15(8):101157)."
+surv-xiang2025-kg-classics:
+  summary_en: "Challenges-and-prospects review of knowledge-graph construction over ancient TCM classics, first to frame multi-agent convergence in this area (Chin. Med. 2025;20:168)."
+surv-chen2026-ai-empowers:
+  summary_en: "Single-author perspective on AI for TCM innovation: classics mining, diagnosis standardization, drug R&D cycles (J. Integr. Med. 2026)."
+surv-chen2026-standardization:
+  summary_en: "Perspective on AI and big data for TCM standardization and internationalization (Chin. Med. Cult. 2026, ahead of print)."
+surv-duan2025-spleen-kg:
+  summary_en: "Single-disease-area (spleen-stomach) review of KG plus intelligent diagnosis/treatment with a symptom-syndrome-disease-formula framework (Curr. Med. Sci. 2025;45(6))."
+surv-wang2026-zhfyx:
+  summary_en: "Short Chinese review of AI-empowered digital TCM diagnosis: applications, data-quality, interpretability, and theory-integration challenges (bibliographic record only)."
+surv-jiao2025-sizhen:
+  summary_en: "Short Chinese review of AI-based four-diagnosis objectification: face/tongue acquisition, electronic nose, pulse sensing, and low fusion of multi-diagnosis data (bibliographic record only)."
+surv-lei2025-healthcare-qa:
+  summary_en: "Adjacent review (not TCM-specific): 2018-2025 healthcare QA survey with CiteSpace bibliometrics, explicitly covering TCM formula-development scenarios (Healthcare 2025)."
+surv-xiao2025-med-llm-zh:
+  summary_en: "Adjacent Chinese general survey of medical LLMs (training pipeline, strategies, scenarios, challenges), a superset-context reference for TCM LLM surveys."
+surv-wang2025-med-llm-sys:
+  summary_en: "Adjacent systematic review of 129 medical-domain LLMs (to 2024-06) and four clinical application categories; methodologically comparable search protocol."
+surv-yao2026-ai-hospitals:
+  summary_en: "Adjacent ACL 2026 survey of workflow-level multi-agent clinical systems with a four-layer evaluation stack; no TCM coverage but methodologically isomorphic process-evaluation claims."

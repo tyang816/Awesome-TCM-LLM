@@ -4543,6 +4543,269 @@
       "status": "published",
       "verified_at": "2026-08-03",
       "venue": "Future Internet (MDPI)"
+    },
+    {
+      "id": "surv-pan2026-agent",
+      "name": "从大语言模型到智能体（兰州大学学报医学版综述）",
+      "year": 2026,
+      "date": "2026.08",
+      "summary_zh": "以「大模型→智能体」演进为主线的中医临床辅助诊疗中文系统综述，梳理研究进展、关键问题与方向（兰州大学学报(医学版) 2026;52(4):49-57）",
+      "tags": [
+        "survey",
+        "agent"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.13885/j.issn.2097-681X.T20260032"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "兰州大学学报(医学版)"
+    },
+    {
+      "id": "surv-wang2026-shanghai",
+      "name": "人工智能驱动下的中医智能诊疗研究进展与挑战",
+      "year": 2026,
+      "date": "2026.01",
+      "summary_zh": "以中医辨治六步程式为骨架的全链路（四诊-辨证-处方-疗效预测）中文综述，对照监督/无监督/强化/深度学习范式（上海中医药杂志 2026;60(1)）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.16305/j.1007-1334.2026.z20250609004"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "上海中医药杂志"
+    },
+    {
+      "id": "surv-an2026-mllm",
+      "name": "多模态大模型驱动舌脉面诊智能化综述（Springer 书章）",
+      "year": 2026,
+      "summary_zh": "唯一以「多模态LLM×四诊感知」为题的综述性文本，覆盖舌/脉/面诊智能化（Springer CCIS 会议书章，评审强度低于期刊）",
+      "tags": [
+        "survey",
+        "multimodal"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1007/978-981-95-7299-1_15"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Communications in Computer and Information Science (Springer)"
+    },
+    {
+      "id": "surv-he2026-herbal-mech",
+      "name": "AI in TCM: Unraveling Herbal Medicine's Mechanisms（Research）",
+      "year": 2026,
+      "summary_zh": "主张AI从相关分析范式走向重建证候辨证与方剂配伍生物逻辑的药材机制中心宽口径综述（Research 2026;9:1224）",
+      "tags": [
+        "survey",
+        "herbal"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.34133/research.1224"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Research"
+    },
+    {
+      "id": "surv-liu2026-dl-jim",
+      "name": "Deep learning in TCM（J Integr Med）",
+      "year": 2026,
+      "summary_zh": "深度学习单技术线综述：医学影像、药材物质研究、数据挖掘等应用实例（J Integr Med 2026;24(4):471-480）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.joim.2026.03.001"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Journal of Integrative Medicine"
+    },
+    {
+      "id": "surv-hong2025-ml-jpa",
+      "name": "The integration of machine learning into TCM（J Pharm Anal）",
+      "year": 2025,
+      "summary_zh": "机器学习×中医整合综述：诊断客观化与机制阐释两条线（J Pharm Anal 2025;15(8):101157）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.jpha.2024.101157"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Journal of Pharmaceutical Analysis"
+    },
+    {
+      "id": "surv-xiang2025-kg-classics",
+      "name": "古籍知识图谱×多智能体融合综述（Chin Med）",
+      "year": 2025,
+      "summary_zh": "古籍KG构建（术语统一、数据标准化）挑战-展望型综述，首次把multi-agent写入中医古籍议题（Chin Med 2025;20:168）",
+      "tags": [
+        "survey",
+        "kg",
+        "agent"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1186/s13020-025-01226-7"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Chinese Medicine"
+    },
+    {
+      "id": "surv-chen2026-ai-empowers",
+      "name": "AI empowers the innovation of TCM（J Integr Med 评论）",
+      "year": 2026,
+      "summary_zh": "单作者评论性综述：古籍挖掘、诊疗标准化、药物研发周期三痛点×AI（J Integr Med 2026）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.joim.2026.05.004"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Journal of Integrative Medicine"
+    },
+    {
+      "id": "surv-chen2026-standardization",
+      "name": "AI and Big Data in TCM Standardization and Internationalization（Chin Med Cult）",
+      "year": 2026,
+      "summary_zh": "AI/大数据助力中医标准化与国际化评论（Chin Med Cult 2026, ahead of print）",
+      "tags": [
+        "survey",
+        "policy"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1097/mc9.0000000000000203"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Chinese Medicine and Culture"
+    },
+    {
+      "id": "surv-duan2025-spleen-kg",
+      "name": "AI for Spleen-Stomach Disorders in TCM（Curr Med Sci）",
+      "year": 2025,
+      "summary_zh": "单病种（脾胃病）KG+智能诊疗综述：「症状-证候-疾病-方剂」框架的知识工程化（Curr Med Sci 2025;45(6):1348-1357）",
+      "tags": [
+        "survey",
+        "kg"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1007/s11596-025-00128-x"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Current Medical Science"
+    },
+    {
+      "id": "surv-wang2026-zhfyx",
+      "name": "人工智能赋能中医数字化诊断：现状与挑战（中华中医药学刊）",
+      "year": 2026,
+      "summary_zh": "中文短篇综述：AI在海量数据处理、辅助诊断、疾病预测的应用现状与数据质量/可解释性/理论融合三挑战（北大核心，题录级）",
+      "tags": [
+        "survey"
+      ],
+      "links": {},
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "中华中医药学刊"
+    },
+    {
+      "id": "surv-jiao2025-sizhen",
+      "name": "人工智能实现中医四诊的发展现状、问题及解决路径（中华中医药学刊）",
+      "year": 2025,
+      "summary_zh": "四诊AI客观化现状-问题-路径分析：面舌采集、电子鼻、脉象传感、四诊合参融合度低（北大核心，题录级）",
+      "tags": [
+        "survey",
+        "multimodal"
+      ],
+      "links": {},
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "中华中医药学刊"
+    },
+    {
+      "id": "surv-lei2025-healthcare-qa",
+      "name": "Intelligent Question-Answering Systems in Healthcare（Healthcare，邻近）",
+      "year": 2025,
+      "summary_zh": "2018-2025医疗QA综述+CiteSpace计量，明确含中医方剂开发应用场景（邻近综述，非TCM专用）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.3390/healthcare13182269"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "Healthcare"
+    },
+    {
+      "id": "surv-xiao2025-med-llm-zh",
+      "name": "医疗领域的大型语言模型综述（智能系统学报，邻近）",
+      "year": 2025,
+      "summary_zh": "中文医疗LLM通用综述（训练流程/策略/场景/挑战），与中医LLM综述圈属母子集关系（邻近）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.11992/tis.202405003"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "智能系统学报"
+    },
+    {
+      "id": "surv-wang2025-med-llm-sys",
+      "name": "医学大语言模型的研发与应用系统综述（智能系统学报，邻近）",
+      "year": 2025,
+      "summary_zh": "系统综述129个医学专用LLM（截至2024-06）+4类临床应用研究；系统检索协议方法学可比（邻近）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.11992/tis.202410020"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "智能系统学报"
+    },
+    {
+      "id": "surv-yao2026-ai-hospitals",
+      "name": "LLM-Based Multi-Agent Systems for Clinical Workflows（ACL 2026，邻近）",
+      "year": 2026,
+      "summary_zh": "工作流级多智能体综述+四层评测栈（safety/process/outcome/operations）；无TCM交集但过程评测主张方法学同构（邻近）",
+      "tags": [
+        "survey",
+        "agent"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.18653/v1/2026.acl-long.2123"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-03",
+      "venue": "ACL 2026"
     }
   ]
 }
