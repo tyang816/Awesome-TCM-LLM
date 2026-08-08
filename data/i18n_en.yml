@@ -824,3 +824,91 @@ surv-wang2025-med-llm-sys:
   summary_en: "Adjacent systematic review of 129 medical-domain LLMs (to 2024-06) and four clinical application categories; methodologically comparable search protocol."
 surv-yao2026-ai-hospitals:
   summary_en: "Adjacent ACL 2026 survey of workflow-level multi-agent clinical systems with a four-layer evaluation stack; no TCM coverage but methodologically isomorphic process-evaluation claims."
+zhongjing-cmtmedqa:
+  summary_en: "ZhongJing (CMtMedQA line, Yang et al.): a TCM LLM distinct from the Kang-line ZhongJingGPT—full CPT+SFT+RLHF pipeline on Ziya-LLaMA-13B over ~70K real multi-turn doctor-patient dialogues (AAAI 2024)."
+race-align:
+  summary_en: "RACE-Align: retrieval-augmented, CoT-style DPO alignment of a compact Qwen3-1.7B for TCM reasoning."
+tree-organized-qa:
+  summary_en: "Tree-organized self-reflective retrieval for TCM question answering (Frontiers in Medicine 2026)."
+gpt-ernie-tcm-culture:
+  summary_en: "A culture-framed comparison of GPT versus ERNIE on TCM tasks (J. Integr. Complement. Med. 2024)."
+hist-1987-functional-structure-model-o:
+  summary_en: "Historical anchor: Functional structure model of human body and Yinyang-Wuxing equations."
+hist-1998-a-computer-model-of-the-five:
+  summary_en: "Historical anchor: A computer model of the “five elements” theory of traditional Chinese medicine."
+hist-2004-yinyang-bipolar-logic-and-bi:
+  summary_en: "Historical anchor: YinYang bipolar logic and bipolar fuzzy logic."
+hist-2009-equilibrium-and-nonequilibri:
+  summary_en: "Historical anchor: Equilibrium and nonequilibrium modeling of YinYang WuXing for diagnostic decision support ."
+hist-2014-a-disturbance-rejection-fram:
+  summary_en: "Historical anchor: A disturbance rejection framework for the study of traditional Chinese medicine."
+hist-2023-discovering-golden-ratio-in-:
+  summary_en: "Historical anchor: Discovering golden ratio in the world’s first five-agent network in ancient China."
+hist-2025-mathematical-modeling-of-chi:
+  summary_en: "Historical anchor: Mathematical modeling of Chinese medicine by complex-valued five-agent network."
+hist-1973-an-artificial-intelligence-p:
+  summary_en: "Historical anchor: An artificial intelligence program to advise physicians regarding antimicrobial therapy."
+hist-1979-:
+  summary_en: "Historical anchor: 关幼波肝病诊疗程序（肝病专家系统）."
+hist-1985-fuzzy-match-and-floating-thr:
+  summary_en: "Historical anchor: Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic."
+hist-2008-establishment-of-a-fuzzy-mat:
+  summary_en: "Historical anchor: Establishment of a fuzzy mathematical model for syndrome differentiation of gastric cancer."
+hist-2008-traditional-chinese-medical-:
+  summary_en: "Historical anchor: Traditional Chinese medical diagnosis based on fuzzy and certainty reasoning."
+hist-2009-syndrome-differentiation-in-:
+  summary_en: "Historical anchor: Syndrome Differentiation in Intelligent TCM Diagnosis System."
+hist-2023-historical-analysis-of-medic:
+  summary_en: "Historical anchor: Historical Analysis of Medical Artificial Intelligence Development in China: Research Cent."
+hist-2004-ontology-development-for-uni:
+  summary_en: "Historical anchor: Ontology development for unified traditional Chinese medical language system."
+hist-2006-knowledge-discovery-in-tradi:
+  summary_en: "Historical anchor: Knowledge discovery in traditional Chinese medicine: State of the art and perspectives."
+hist-2008-information-retrieval-and-kn:
+  summary_en: "Historical anchor: Information retrieval and knowledge discovery on the semantic web of traditional Chinese m."
+hist-2008-building-clinical-data-wareh:
+  summary_en: "Historical anchor: Building Clinical Data Warehouse for Traditional Chinese Medicine Knowledge Discovery."
+hist-2010-development-of-traditional-c:
+  summary_en: "Historical anchor: Development of traditional Chinese medicine clinical data warehouse for medical knowledge ."
+hist-2010-text-mining-for-traditional-:
+  summary_en: "Historical anchor: Text mining for traditional Chinese medical knowledge discovery: a survey."
+hist-2019-an-ontological-framework-for:
+  summary_en: "Historical anchor: An ontological framework for the formalization, organization and usage of TCM-Knowledge."
+hist-2007-a-novel-computerized-method-:
+  summary_en: "Historical anchor: A Novel Computerized Method Based on Support Vector Machine for Tongue Diagnosis."
+hist-2010-feature-extraction-and-recog:
+  summary_en: "Historical anchor: Feature extraction and recognition of traditional Chinese medicine pulse based on hemodyna."
+hist-2010-classification-of-pulse-wave:
+  summary_en: "Historical anchor: Classification of Pulse Waveforms Using Edit Distance with Real Penalty."
+hist-2012-automated-tongue-feature-ext:
+  summary_en: "Historical anchor: Automated Tongue Feature Extraction for ZHENG Classification in Traditional Chinese Medici."
+hist-2014-pulse-waveform-classificatio:
+  summary_en: "Historical anchor: Pulse Waveform Classification Using Support Vector Machine with Gaussian Time Warp Edit Di."
+hist-2017-diagnostic-method-of-diabete:
+  summary_en: "Historical anchor: Diagnostic Method of Diabetes Based on Support Vector Machine and Tongue Images."
+hist-2021-ensemble-learning-based-puls:
+  summary_en: "Historical anchor: Ensemble Learning-Based Pulse Signal Recognition: Classification Model Development Study."
+hist-2019-tooth-marked-tongue-recognit:
+  summary_en: "Historical anchor: Tooth-Marked Tongue Recognition Using Multiple Instance Learning and CNN Features."
+hist-2018-constitution-identification-:
+  summary_en: "Historical anchor: Constitution Identification of Tongue Image Based on CNN."
+hist-2020-artificial-intelligence-in-t:
+  summary_en: "Historical anchor: Artificial intelligence in tongue diagnosis: Using deep convolutional neural network for r."
+hist-2021-automatic-construction-of-ch:
+  summary_en: "Historical anchor: Automatic Construction of Chinese Herbal Prescriptions From Tongue Images Using CNNs and A."
+hist-2022-deep-learning-multi-label-to:
+  summary_en: "Historical anchor: Deep Learning Multi-label Tongue Image Analysis and Its Application in a Population Underg."
+hist-2022-research-and-application-of-:
+  summary_en: "Historical anchor: Research and application of tongue and face diagnosis based on deep learning."
+hist-2022-data-driven-based-four-exami:
+  summary_en: "Historical anchor: Data-driven based four examinations in TCM: a survey."
+hist-2013-tcmid:
+  summary_en: "Historical anchor: TCMID."
+hist-2014-tcmsp:
+  summary_en: "Historical anchor: TCMSP."
+hist-2019-etcm:
+  summary_en: "Historical anchor: ETCM."
+hist-2023-etcm-v2-0:
+  summary_en: "Historical anchor: ETCM v2.0."
+hist-2023-tcmbank:
+  summary_en: "Historical anchor: TCMBank."

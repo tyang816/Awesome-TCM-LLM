@@ -557,9 +557,9 @@
         "kg"
       ],
       "links": {
+        "正式发表": "https://doi.org/10.3389/fmed.2026.1804478",
         "论文": "https://arxiv.org/abs/2602.22828",
-        "代码": "https://github.com/LiJianmin6706/Tcm_Diff_RAG",
-        "正式发表": "https://doi.org/10.3389/fmed.2026.1804478"
+        "代码": "https://github.com/LiJianmin6706/Tcm_Diff_RAG"
       },
       "type": "resource",
       "status": "published",
@@ -1258,6 +1258,7 @@
         "benchmark"
       ],
       "links": {
+        "DOI": "https://doi.org/10.6084/m9.figshare.30615956",
         "论文": "https://arxiv.org/abs/2512.02816",
         "代码": "https://github.com/DYJG-research/TCM-BEST4SDT"
       },
@@ -1434,8 +1435,8 @@
         "benchmark"
       ],
       "links": {
-        "论文": "https://arxiv.org/abs/2505.13156",
         "正式发表": "https://doi.org/10.1016/j.inffus.2025.103663",
+        "论文": "https://arxiv.org/abs/2505.13156",
         "新闻": "https://blog.sciencenet.cn/blog-279293-1501581.html"
       },
       "type": "resource",
@@ -1473,6 +1474,7 @@
         "benchmark"
       ],
       "links": {
+        "正式发表": "https://doi.org/10.1016/j.eswa.2025.127672",
         "论文": "https://arxiv.org/abs/2403.16056",
         "DOI": "https://doi.org/10.1016/j.eswa.2025.127672"
       },
@@ -1578,6 +1580,7 @@
         "tool"
       ],
       "links": {
+        "DOI": "https://doi.org/10.1038/s41421-025-00776-2",
         "网站": "https://shennongalpha.westlake.edu.cn/",
         "论文": "https://www.nature.com/articles/s41421-025-00776-2",
         "代码": "https://github.com/shennong-program/shennongname"
@@ -1986,15 +1989,15 @@
       "id": "mrd-rag",
       "name": "MRD-RAG",
       "year": 2025,
-      "venue": "IEEE BIBM 2025",
+      "venue": "IEEE BIBM",
       "summary_zh": "模拟临床推理的多轮诊断RAG框架，并构建覆盖中西医的**DiagnosGraph**（876病/7997节点/37201三元组）",
       "tags": [
         "rag",
         "kg"
       ],
       "links": {
-        "论文": "https://arxiv.org/abs/2504.07724",
-        "正式发表": "https://doi.org/10.1109/bibm66473.2025.11357107"
+        "正式发表": "https://doi.org/10.1109/bibm66473.2025.11357107",
+        "论文": "https://arxiv.org/abs/2504.07724"
       },
       "type": "resource",
       "status": "published",
@@ -2730,6 +2733,7 @@
         "general-medical"
       ],
       "links": {
+        "DOI": "https://doi.org/10.18653/v1/2023.findings-emnlp.725",
         "论文": "https://aclanthology.org/2023.findings-emnlp.725/",
         "代码": "https://github.com/FreedomIntelligence/HuatuoGPT"
       },
@@ -3772,13 +3776,15 @@
         "benchmark"
       ],
       "links": {
+        "DOI": "https://doi.org/10.1038/s41597-025-04772-9",
         "论文": "https://www.nature.com/articles/s41597-025-04772-9",
         "代码": "https://github.com/zhuyan166/TCMEval"
       },
       "type": "dataset",
       "year": 2025,
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-07-19",
+      "venue": "Scientific Data"
     },
     {
       "id": "ds-zhongjing-omni",
@@ -4806,6 +4812,745 @@
       "status": "published",
       "verified_at": "2026-08-03",
       "venue": "ACL 2026"
+    },
+    {
+      "id": "zhongjing-cmtmedqa",
+      "name": "仲景（CMtMedQA 线，Yang et al.）",
+      "year": 2024,
+      "venue": "AAAI",
+      "summary_zh": "与 Kang 系 ZhongJingGPT 同名不同源的中医大模型：Ziya-LLaMA-13B 全流程 CPT+SFT+RLHF，基于约 7 万条真实多轮医患对话 CMtMedQA（AAAI 2024；注意与 Tsinghua Sci Technol 的 ZhongJingGPT 无作者与工件交集）",
+      "tags": [
+        "model",
+        "open-weights",
+        "dataset"
+      ],
+      "links": {
+        "论文": "https://doi.org/10.1609/aaai.v38i17.29907",
+        "arXiv": "https://arxiv.org/abs/2308.03549"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-08-08"
+    },
+    {
+      "id": "race-align",
+      "name": "RACE-Align",
+      "year": 2025,
+      "venue": "arXiv",
+      "summary_zh": "检索增强+CoT 式 DPO 的轻量中医对齐模型（Qwen3-1.7B），探索小模型对齐路线",
+      "tags": [
+        "model",
+        "rag"
+      ],
+      "links": {
+        "arXiv": "https://arxiv.org/abs/2506.02726"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-08-08"
+    },
+    {
+      "id": "tree-organized-qa",
+      "name": "树状自反思检索中医问答",
+      "year": 2026,
+      "venue": "Frontiers in Medicine",
+      "summary_zh": "树状组织语料+自反思检索的中医 QA 方法（Frontiers in Medicine 2026）",
+      "tags": [
+        "model",
+        "rag"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.3389/fmed.2026.1752778"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-08-08"
+    },
+    {
+      "id": "gpt-ernie-tcm-culture",
+      "name": "GPT vs ERNIE 中医文化背景对比研究",
+      "year": 2024,
+      "venue": "J Integr Complement Med",
+      "summary_zh": "以文化背景为框架对比 GPT 与 ERNIE 在中医任务上的表现（J Integr Complement Med 2024）",
+      "tags": [
+        "evaluation"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1089/jicm.2024.0902"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-08-08"
+    },
+    {
+      "id": "hist-1987-functional-structure-model-o",
+      "links": {
+        "DOI": "https://doi.org/10.1088/0031-8949/36/6/015"
+      },
+      "name": "Functional structure model of human body and Yinyang-Wuxing equations",
+      "status": "published",
+      "summary_zh": "早期以微分方程刻画人体五行功能子系统与经络自组织。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Physica Scripta",
+      "verified_at": "2026-08-08",
+      "year": 1987
+    },
+    {
+      "id": "hist-1998-a-computer-model-of-the-five",
+      "links": {
+        "DOI": "https://doi.org/10.1016/S0965-2299(98"
+      },
+      "name": "A computer model of the “five elements” theory of traditional Chinese medicine",
+      "status": "published",
+      "summary_zh": "布尔网络模拟五行吸引子及扰动对稳态的影响。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Complementary Therapies in Medicine*; 80005-8)",
+      "verified_at": "2026-08-08",
+      "year": 1998
+    },
+    {
+      "id": "hist-2004-yinyang-bipolar-logic-and-bi",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.ins.2003.05.010"
+      },
+      "name": "YinYang bipolar logic and bipolar fuzzy logic",
+      "status": "published",
+      "summary_zh": "阴阳双极逻辑/模糊逻辑，为后续 YYWX 代数模型奠基。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Information Sciences",
+      "verified_at": "2026-08-08",
+      "year": 2004
+    },
+    {
+      "id": "hist-2009-equilibrium-and-nonequilibri",
+      "links": {
+        "DOI": "https://doi.org/10.1142/s0219622009003521"
+      },
+      "name": "Equilibrium and nonequilibrium modeling of YinYang WuXing for diagnostic decision support ",
+      "status": "published",
+      "summary_zh": "双极线性代数刻画阴阳五行均衡/非均衡并原型化诊断 DSS。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Int. J. Information Technology & Decision Making",
+      "verified_at": "2026-08-08",
+      "year": 2009
+    },
+    {
+      "id": "hist-2014-a-disturbance-rejection-fram",
+      "links": {
+        "DOI": "https://doi.org/10.1155/2014/787529"
+      },
+      "name": "A disturbance rejection framework for the study of traditional Chinese medicine",
+      "status": "published",
+      "summary_zh": "用工程控制论“抗扰”隐喻解释五行调控与治法逻辑。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Evid. Based Complement. Alternat. Med.",
+      "verified_at": "2026-08-08",
+      "year": 2014
+    },
+    {
+      "id": "hist-2023-discovering-golden-ratio-in-",
+      "links": {
+        "DOI": "https://doi.org/10.1038/s41598-023-46071-6"
+      },
+      "name": "Discovering golden ratio in the world’s first five-agent network in ancient China",
+      "status": "published",
+      "summary_zh": "用多智能体网络理论量化五行和谐稳态，并给出电路/编队实验验证。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Scientific Reports",
+      "verified_at": "2026-08-08",
+      "year": 2023
+    },
+    {
+      "id": "hist-2025-mathematical-modeling-of-chi",
+      "links": {
+        "DOI": "https://doi.org/10.1007/s42452-025-06602-4"
+      },
+      "name": "Mathematical modeling of Chinese medicine by complex-valued five-agent network",
+      "status": "published",
+      "summary_zh": "复值五智能体网络统一阴阳互补与五行反馈的线性代数表述。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Discover Applied Sciences",
+      "verified_at": "2026-08-08",
+      "year": 2025
+    },
+    {
+      "id": "hist-1973-an-artificial-intelligence-p",
+      "links": {
+        "DOI": "https://doi.org/10.1016/0010-4809(73"
+      },
+      "name": "An artificial intelligence program to advise physicians regarding antimicrobial therapy",
+      "status": "published",
+      "summary_zh": "MYCIN 前身，规则型医学专家系统范式（中医专家系统的方法学参照）。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Computers and Biomedical Research*; 90029-3)",
+      "verified_at": "2026-08-08",
+      "year": 1973
+    },
+    {
+      "id": "hist-1979-",
+      "links": {
+        "链接": "https://www.bjzhongyi.com/gzb_mygs_detail/4656.html"
+      },
+      "name": "关幼波肝病诊疗程序（肝病专家系统）",
+      "status": "published",
+      "summary_zh": "国内公认最早投入使用的中医名老中医经验计算机诊疗程序（1979.1）。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "医院史料：",
+      "verified_at": "2026-08-08",
+      "year": 1979
+    },
+    {
+      "id": "hist-1985-fuzzy-match-and-floating-thr",
+      "links": {
+        "DOI": "https://doi.org/10.1016/0165-0114(85"
+      },
+      "name": "Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic",
+      "status": "published",
+      "summary_zh": "模糊匹配+浮动阈值，把不确定性引入中医辨证专家系统。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Fuzzy Sets and Systems*; 90052-1)",
+      "verified_at": "2026-08-08",
+      "year": 1985
+    },
+    {
+      "id": "hist-2008-establishment-of-a-fuzzy-mat",
+      "links": {
+        "链接": "http://www.jcimjournal.com/EN/10.3736/jcim20081104"
+      },
+      "name": "Establishment of a fuzzy mathematical model for syndrome differentiation of gastric cancer",
+      "status": "published",
+      "summary_zh": "基于临床大样本的胃癌证候模糊数学模型，服务辨证客观化。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Journal of Chinese Integrative Medicine",
+      "verified_at": "2026-08-08",
+      "year": 2008
+    },
+    {
+      "id": "hist-2008-traditional-chinese-medical-",
+      "links": {
+        "DOI": "https://doi.org/10.1109/itme.2008.4743874"
+      },
+      "name": "Traditional Chinese medical diagnosis based on fuzzy and certainty reasoning",
+      "status": "published",
+      "summary_zh": "多层模糊筛选+多智能体协作诊断（MADHS）原型。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "IEEE ITME",
+      "verified_at": "2026-08-08",
+      "year": 2008
+    },
+    {
+      "id": "hist-2009-syndrome-differentiation-in-",
+      "links": {
+        "DOI": "https://doi.org/10.1109/csie.2009.782"
+      },
+      "name": "Syndrome Differentiation in Intelligent TCM Diagnosis System",
+      "status": "published",
+      "summary_zh": "区间值直觉模糊集用于智能中医辨证决策。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "IEEE CSIE",
+      "verified_at": "2026-08-08",
+      "year": 2009
+    },
+    {
+      "id": "hist-2023-historical-analysis-of-medic",
+      "links": {
+        "DOI": "https://doi.org/10.18926/interdisciplinary/65464"
+      },
+      "name": "Historical Analysis of Medical Artificial Intelligence Development in China: Research Cent",
+      "status": "published",
+      "summary_zh": "以中医专家系统为中心的中国医学 AI 发展史梳理（二次文献锚点；作者以 DOI 页为准）。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Interdisciplinary",
+      "verified_at": "2026-08-08",
+      "year": 2023
+    },
+    {
+      "id": "hist-2004-ontology-development-for-uni",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.artmed.2004.01.014"
+      },
+      "name": "Ontology development for unified traditional Chinese medical language system",
+      "status": "published",
+      "summary_zh": "UTCMLS/TCMLS 本体工程奠基作，对标 UMLS 思路。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "Artificial Intelligence in Medicine",
+      "verified_at": "2026-08-08",
+      "year": 2004
+    },
+    {
+      "id": "hist-2006-knowledge-discovery-in-tradi",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.artmed.2006.07.005"
+      },
+      "name": "Knowledge discovery in traditional Chinese medicine: State of the art and perspectives",
+      "status": "published",
+      "summary_zh": "方剂/本草/证候/诊断四子域的早期 KDD 综述。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "Artificial Intelligence in Medicine",
+      "verified_at": "2026-08-08",
+      "year": 2006
+    },
+    {
+      "id": "hist-2008-information-retrieval-and-kn",
+      "links": {
+        "DOI": "https://doi.org/10.1145/1367497.1367668"
+      },
+      "name": "Information retrieval and knowledge discovery on the semantic web of traditional Chinese m",
+      "status": "published",
+      "summary_zh": "大规模中医语义网与草药—药物相互作用图谱挖掘。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "WWW* (demo/industrial)",
+      "verified_at": "2026-08-08",
+      "year": 2008
+    },
+    {
+      "id": "hist-2008-building-clinical-data-wareh",
+      "links": {
+        "DOI": "https://doi.org/10.1109/bmei.2008.83"
+      },
+      "name": "Building Clinical Data Warehouse for Traditional Chinese Medicine Knowledge Discovery",
+      "status": "published",
+      "summary_zh": "结构化病历驱动的中医临床数据仓库与 OLAP/挖掘平台。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "IEEE BMEI",
+      "verified_at": "2026-08-08",
+      "year": 2008
+    },
+    {
+      "id": "hist-2010-development-of-traditional-c",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.artmed.2009.07.012"
+      },
+      "name": "Development of traditional Chinese medicine clinical data warehouse for medical knowledge ",
+      "status": "published",
+      "summary_zh": "临床数据仓库支撑知识发现与决策支持的系统论文。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "Artificial Intelligence in Medicine",
+      "verified_at": "2026-08-08",
+      "year": 2010
+    },
+    {
+      "id": "hist-2010-text-mining-for-traditional-",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.jbi.2010.01.002"
+      },
+      "name": "Text mining for traditional Chinese medical knowledge discovery: a survey",
+      "status": "published",
+      "summary_zh": "中医文本挖掘方法与语料资源的早期系统综述。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "Journal of Biomedical Informatics",
+      "verified_at": "2026-08-08",
+      "year": 2010
+    },
+    {
+      "id": "hist-2019-an-ontological-framework-for",
+      "links": {
+        "DOI": "https://doi.org/10.1186/s12911-019-0760-9"
+      },
+      "name": "An ontological framework for the formalization, organization and usage of TCM-Knowledge",
+      "status": "published",
+      "summary_zh": "基于 GFO 的 GFO-TCM 中层本体，修正 TCMLS-SN 语义问题。",
+      "tags": [
+        "history",
+        "kg"
+      ],
+      "type": "resource",
+      "venue": "BMC Medical Informatics and Decision Making",
+      "verified_at": "2026-08-08",
+      "year": 2019
+    },
+    {
+      "id": "hist-2007-a-novel-computerized-method-",
+      "links": {
+        "DOI": "https://doi.org/10.1109/sitis.2007.115"
+      },
+      "name": "A Novel Computerized Method Based on Support Vector Machine for Tongue Diagnosis",
+      "status": "published",
+      "summary_zh": "色纹理特征+SVM/贝叶斯网络的早期计算机舌诊。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "IEEE SITIS",
+      "verified_at": "2026-08-08",
+      "year": 2007
+    },
+    {
+      "id": "hist-2010-feature-extraction-and-recog",
+      "links": {
+        "链接": "http://www.jcimjournal.com/EN/10.3736/jcim20100802"
+      },
+      "name": "Feature extraction and recognition of traditional Chinese medicine pulse based on hemodyna",
+      "status": "published",
+      "summary_zh": "以波速与反射系数作脉象特征并用 SVM 识别弦/滑/平脉。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "Journal of Chinese Integrative Medicine",
+      "verified_at": "2026-08-08",
+      "year": 2010
+    },
+    {
+      "id": "hist-2010-classification-of-pulse-wave",
+      "links": {
+        "DOI": "https://doi.org/10.1155/2010/303140"
+      },
+      "name": "Classification of Pulse Waveforms Using Edit Distance with Real Penalty",
+      "status": "published",
+      "summary_zh": "ERP 编辑距离应对脉波局部时移的经典波形分类。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "EURASIP J. Adv. Signal Process.",
+      "verified_at": "2026-08-08",
+      "year": 2010
+    },
+    {
+      "id": "hist-2012-automated-tongue-feature-ext",
+      "links": {
+        "DOI": "https://doi.org/10.1155/2012/912852"
+      },
+      "name": "Automated Tongue Feature Extraction for ZHENG Classification in Traditional Chinese Medici",
+      "status": "published",
+      "summary_zh": "舌象颜色特征学习映射寒热证（ZHENG）的代表性工作。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "Evid. Based Complement. Alternat. Med.",
+      "verified_at": "2026-08-08",
+      "year": 2012
+    },
+    {
+      "id": "hist-2014-pulse-waveform-classificatio",
+      "links": {
+        "DOI": "https://doi.org/10.1155/2014/947254"
+      },
+      "name": "Pulse Waveform Classification Using Support Vector Machine with Gaussian Time Warp Edit Di",
+      "status": "published",
+      "summary_zh": "GTWED-SVM 在 2470 条五类脉波上的弹性核分类。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "Comput. Math. Methods Med.",
+      "verified_at": "2026-08-08",
+      "year": 2014
+    },
+    {
+      "id": "hist-2017-diagnostic-method-of-diabete",
+      "links": {
+        "DOI": "https://doi.org/10.1155/2017/7961494"
+      },
+      "name": "Diagnostic Method of Diabetes Based on Support Vector Machine and Tongue Images",
+      "status": "published",
+      "summary_zh": "标准化舌象+SVM/PCA/GA 的糖尿病筛查模型。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "BioMed Research International",
+      "verified_at": "2026-08-08",
+      "year": 2017
+    },
+    {
+      "id": "hist-2021-ensemble-learning-based-puls",
+      "links": {
+        "DOI": "https://doi.org/10.2196/28039"
+      },
+      "name": "Ensemble Learning-Based Pulse Signal Recognition: Classification Model Development Study",
+      "status": "published",
+      "summary_zh": "SVM（时/频域结构特征）与 DCNN 决策级融合的脉象识别。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "JMIR Medical Informatics",
+      "verified_at": "2026-08-08",
+      "year": 2021
+    },
+    {
+      "id": "hist-2019-tooth-marked-tongue-recognit",
+      "links": {
+        "DOI": "https://doi.org/10.1109/tcyb.2017.2772289"
+      },
+      "name": "Tooth-Marked Tongue Recognition Using Multiple Instance Learning and CNN Features",
+      "status": "published",
+      "summary_zh": "CNN 特征+多示例学习识别齿痕舌，标志舌诊进入深度学习。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "IEEE Trans. Cybernetics",
+      "verified_at": "2026-08-08",
+      "year": 2019
+    },
+    {
+      "id": "hist-2018-constitution-identification-",
+      "links": {
+        "DOI": "https://doi.org/10.1109/cisp-bmei.2018.8633075"
+      },
+      "name": "Constitution Identification of Tongue Image Based on CNN",
+      "status": "published",
+      "summary_zh": "CNN 舌象体质辨识，对比传统手工特征 ML。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "CISP-BMEI",
+      "verified_at": "2026-08-08",
+      "year": 2018
+    },
+    {
+      "id": "hist-2020-artificial-intelligence-in-t",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.csbj.2020.04.002"
+      },
+      "name": "Artificial intelligence in tongue diagnosis: Using deep convolutional neural network for r",
+      "status": "published",
+      "summary_zh": "ResNet34 齿痕舌识别，强调跨设备泛化。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "Comput. Struct. Biotechnol. J.",
+      "verified_at": "2026-08-08",
+      "year": 2020
+    },
+    {
+      "id": "hist-2021-automatic-construction-of-ch",
+      "links": {
+        "DOI": "https://doi.org/10.1109/tcyb.2019.2909925"
+      },
+      "name": "Automatic Construction of Chinese Herbal Prescriptions From Tongue Images Using CNNs and A",
+      "status": "published",
+      "summary_zh": "舌象→方剂端到端生成，引入治法主题辅助损失。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "IEEE Trans. Cybernetics",
+      "verified_at": "2026-08-08",
+      "year": 2021
+    },
+    {
+      "id": "hist-2022-deep-learning-multi-label-to",
+      "links": {
+        "DOI": "https://doi.org/10.1155/2022/3384209"
+      },
+      "name": "Deep Learning Multi-label Tongue Image Analysis and Its Application in a Population Underg",
+      "status": "published",
+      "summary_zh": "Faster R-CNN 多标签舌象（裂纹/齿痕/腻苔等）及体检人群关联分析。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "Evid. Based Complement. Alternat. Med.",
+      "verified_at": "2026-08-08",
+      "year": 2022
+    },
+    {
+      "id": "hist-2022-research-and-application-of-",
+      "links": {
+        "DOI": "https://doi.org/10.1177/20552076221124436"
+      },
+      "name": "Research and application of tongue and face diagnosis based on deep learning",
+      "status": "published",
+      "summary_zh": "舌面诊深度学习预处理/分割/分类技术路线综述与验证。",
+      "tags": [
+        "history",
+        "multimodal"
+      ],
+      "type": "resource",
+      "venue": "Digital Health",
+      "verified_at": "2026-08-08",
+      "year": 2022
+    },
+    {
+      "id": "hist-2022-data-driven-based-four-exami",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.dcmed.2022.12.004"
+      },
+      "name": "Data-driven based four examinations in TCM: a survey",
+      "status": "published",
+      "summary_zh": "数据驱动四诊（含深度学习）设备—算法—数据集全景。",
+      "tags": [
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Digital Chinese Medicine",
+      "verified_at": "2026-08-08",
+      "year": 2022
+    },
+    {
+      "id": "hist-2013-tcmid",
+      "links": {
+        "DOI": "https://doi.org/10.1093/nar/gks1100"
+      },
+      "name": "TCMID",
+      "status": "published",
+      "summary_zh": "TCMID（platform阶段历史锚点）",
+      "tags": [
+        "dataset",
+        "herbal",
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Xue R et al., *Nucleic Acids Res* 41(D1):D1089-D1095",
+      "verified_at": "2026-08-08",
+      "year": 2013
+    },
+    {
+      "id": "hist-2014-tcmsp",
+      "links": {
+        "DOI": "https://doi.org/10.1186/1758-2946-6-13"
+      },
+      "name": "TCMSP",
+      "status": "published",
+      "summary_zh": "TCMSP（platform阶段历史锚点）",
+      "tags": [
+        "dataset",
+        "herbal",
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Ru J et al., *J Cheminform* 6(1):13",
+      "verified_at": "2026-08-08",
+      "year": 2014
+    },
+    {
+      "id": "hist-2019-etcm",
+      "links": {
+        "DOI": "https://doi.org/10.1093/nar/gky987"
+      },
+      "name": "ETCM",
+      "status": "published",
+      "summary_zh": "ETCM（platform阶段历史锚点）",
+      "tags": [
+        "dataset",
+        "herbal",
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Xu HY et al., *Nucleic Acids Res* 47(D1):D976-D982",
+      "verified_at": "2026-08-08",
+      "year": 2019
+    },
+    {
+      "id": "hist-2023-etcm-v2-0",
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.apsb.2023.03.012"
+      },
+      "name": "ETCM v2.0",
+      "status": "published",
+      "summary_zh": "ETCM v2.0（platform阶段历史锚点）",
+      "tags": [
+        "dataset",
+        "herbal",
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Zhang Y et al., *Acta Pharm Sin B* 13(6):2559-2571",
+      "verified_at": "2026-08-08",
+      "year": 2023
+    },
+    {
+      "id": "hist-2023-tcmbank",
+      "links": {
+        "DOI": "https://doi.org/10.1038/s41392-023-01339-1"
+      },
+      "name": "TCMBank",
+      "status": "published",
+      "summary_zh": "TCMBank（platform阶段历史锚点）",
+      "tags": [
+        "dataset",
+        "herbal",
+        "history"
+      ],
+      "type": "resource",
+      "venue": "Lv Q et al., *Signal Transduct Target Ther* 8(1):127",
+      "verified_at": "2026-08-08",
+      "year": 2023
     }
   ]
 }

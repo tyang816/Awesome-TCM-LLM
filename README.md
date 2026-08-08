@@ -48,7 +48,7 @@
 - **MMIR-TCM** 记忆增强的多模态舌诊与临床决策框架，提出 MedTCM 数据集与 TDEU 评测指标 [[论文](https://arxiv.org/abs/2607.01814)]
 - [*Digital Chinese Medicine*] **Qwen-TCM-Dia** 面向中医泄泻的专科微调模型（续训+CoT指令微调），覆盖症状→病机→治法→方药推理链 [[DOI](https://doi.org/10.1016/j.dcmed.2026.02.003)]
 - **TCM-Agent** 面向网络药理学与中药发现的 LLM 多智能体系统 [[论文](https://doi.org/10.1016/j.jpha.2026.101581)] [[代码](https://github.com/AITCM/TCM-Agent)]
-- [*Frontiers in Medicine*] **TCM-DiffRAG** 通用知识图谱 + 个性化知识图谱 + CoT 的辨证推理 RAG 框架 [[论文](https://arxiv.org/abs/2602.22828)] [[代码](https://github.com/LiJianmin6706/Tcm_Diff_RAG)] [[正式发表](https://doi.org/10.3389/fmed.2026.1804478)]
+- [*Frontiers in Medicine*] **TCM-DiffRAG** 通用知识图谱 + 个性化知识图谱 + CoT 的辨证推理 RAG 框架 [[正式发表](https://doi.org/10.3389/fmed.2026.1804478)] [[论文](https://arxiv.org/abs/2602.22828)] [[代码](https://github.com/LiJianmin6706/Tcm_Diff_RAG)]
 - [*JMIR Medical Informatics*] **TongueVLM** 中医舌诊多模态大模型，支持舌象描述生成与体质推理 [[论文](https://doi.org/10.2196/87237)] [[JMIR](https://medinform.jmir.org/2026/1/e87237)]
 - **杏核 (Xinghe)** 基于Qwen3.5-9B、扎根《黄帝内经》的推理型中医模型，显式思维链辨证并强调安全边界 [[模型](https://huggingface.co/zsyjsld/Xinghe1.2-9B)] [[GGUF](https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF)] [[数据集](https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2)]
 - **灵兰秘典 (LingLan)** 大规模多任务中医评测基准，覆盖 5 大域、13 子任务、25624 实例 [北京交通大学等] [[论文](https://arxiv.org/abs/2602.01779)] [[代码](https://github.com/TCMAI-BJTU/LingLan)] [[网站](http://tcmnlp.com)]
@@ -84,6 +84,7 @@
 - **儿童流感中成药推荐系统（KG+LLM）** 整合权威指南构建儿童流感中成药知识图谱并与LLM集成（JMIR Preprints预印本） [[预印本](https://doi.org/10.2196/preprints.101648)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** 讨论生成式AI翻译中医文本的精确性、认识论与医学语境局限（Translation Review） [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
 - [*Future Internet (MDPI)*] **RAG+LoRA 中医执照考试推理架构** RAG+LoRA生成式架构，构建台湾中医师执照考试11,476题（2005–2025）数据集，准确率61.0%→89.0%+（Future Internet） [[DOI](https://doi.org/10.3390/fi18060280)]
+- [*Frontiers in Medicine*] **树状自反思检索中医问答** 树状组织语料+自反思检索的中医 QA 方法（Frontiers in Medicine 2026） [[DOI](https://doi.org/10.3389/fmed.2026.1752778)]
 
 ### 2025
 - **BenCao（指令微调本草助手）** 基于ChatGPT自然语言指令对齐的中医多模态助手，对接舌象API与知识库，部署于GPTs Store（区别于华驼/本草） [[论文](https://arxiv.org/abs/2510.17415)]
@@ -98,7 +99,7 @@
 - [*npj Digital Medicine*] **TCM LLM针灸诊疗能力评估** 7个通用LLM与执业针灸师对照的真实病例评估（辨证/选穴/针法/方药），高影响力临床测评研究 [[DOI](https://doi.org/10.1038/s41746-025-01845-2)]
 - [*Communications Medicine*] **TCM-3CEval** 中医大模型三轴评测（核心知识、经典理解、临床决策） [[论文](https://arxiv.org/abs/2503.07041)] [[正式发表](https://doi.org/10.1038/s43856-026-01631-5)]
 - **TCM-5CEval** 在 TCM-3CEval 基础上扩展本草与非药物疗法的五维深度评测 [[论文](https://arxiv.org/abs/2511.13169)]
-- **TCM-BEST4SDT** 面向辨证论治的病例评测基准（知识/伦理/安全/SDT） [[论文](https://arxiv.org/abs/2512.02816)] [[代码](https://github.com/DYJG-research/TCM-BEST4SDT)]
+- **TCM-BEST4SDT** 面向辨证论治的病例评测基准（知识/伦理/安全/SDT） [[DOI](https://doi.org/10.6084/m9.figshare.30615956)] [[论文](https://arxiv.org/abs/2512.02816)] [[代码](https://github.com/DYJG-research/TCM-BEST4SDT)]
 - [*Computers in Biology and Medicine*] **TCM-KLLaMA** 知识图谱与大模型融合的中医方剂智能生成模型 [[DOI](https://doi.org/10.1016/j.compbiomed.2025.109887)]
 - [*NeurIPS 2025*] **TCM-Ladder** 首个中医多模态问答评测基准，涵盖52000+题目 [[论文](https://arxiv.org/abs/2505.24063)] [[代码](https://github.com/orangeshushu/TCM-Ladder)] [[HF](https://huggingface.co/datasets/timzzyus/TCM-Ladder)] [[榜单](https://tcmladder.com)]
 - [*APWeb-WAIM 2025*] **TCM-R1** 通过GRPO增强中医推理能力的大模型 [西南大学] [[论文](https://link.springer.com/chapter/10.1007/978-981-95-5640-3_21)]
@@ -107,14 +108,14 @@
 - [*JMIR Medical Informatics*] **Yaoshi-RAG（药食同源RAG）** 基于不确定知识图谱的药食同源膳食推荐RAG，提升LLM个性化与可解释性 [[DOI](https://doi.org/10.2196/75279)]
 - **仁术AI (RenShu-AI)** FastAPI + LangGraph 多智能体中医问诊系统，融合 GraphRAG 与 DeepSeek-TCM [[代码](https://github.com/yanlinPeng-code/RenShu-AI)]
 - [*Tsinghua Science and Technology*] **仲景 (ZhongJing)** 专家知识引导的中医大模型 ZhongJingGPT，融合垂直领域微调策略与认知心理学洞察，构建多场景中医知识指令数据（Tsinghua Science and Technology 2025） [福耀科技大学，健康长三角研究院，复旦大学，同济大学] [[论文](https://doi.org/10.26599/TST.2025.9010046)] [[代码](https://github.com/pariskang/CMLM-ZhongJing)] [[模型](https://huggingface.co/CMLM/ZhongjingGPT1_13B)]
-- [*Information Fusion*] **天医 (Tianyi)** 南京中医药大学等提出约7B参数中医大模型，按读书—临证—跟师多阶段训练，配套TCMEval评测与真实世界验证 [南京中医药大学] [[论文](https://arxiv.org/abs/2505.13156)] [[正式发表](https://doi.org/10.1016/j.inffus.2025.103663)] [[新闻](https://blog.sciencenet.cn/blog-279293-1501581.html)]
+- [*Information Fusion*] **天医 (Tianyi)** 南京中医药大学等提出约7B参数中医大模型，按读书—临证—跟师多阶段训练，配套TCMEval评测与真实世界验证 [南京中医药大学] [[正式发表](https://doi.org/10.1016/j.inffus.2025.103663)] [[论文](https://arxiv.org/abs/2505.13156)] [[新闻](https://blog.sciencenet.cn/blog-279293-1501581.html)]
 - **天惠 (TianHui)** 面向12类中医场景的领域LLM（DeepSeek-R1-Distill-Qwen-14B+PT/SFT），开源代码与评测脚本 [[论文](https://arxiv.org/abs/2509.19834)] [[代码](https://github.com/JYfantast/TianHui)]
-- [*Expert Systems with Applications*] **岐伯 (Qibo)** 天津大学等提出的中医大模型与Qibo Benchmark，持续预训练+SFT提升辨证与问答能力 [天津大学，天津中医药大学] [[论文](https://arxiv.org/abs/2403.16056)] [[DOI](https://doi.org/10.1016/j.eswa.2025.127672)]
+- [*Expert Systems with Applications*] **岐伯 (Qibo)** 天津大学等提出的中医大模型与Qibo Benchmark，持续预训练+SFT提升辨证与问答能力 [天津大学，天津中医药大学] [[正式发表](https://doi.org/10.1016/j.eswa.2025.127672)] [[论文](https://arxiv.org/abs/2403.16056)] [[DOI](https://doi.org/10.1016/j.eswa.2025.127672)]
 - [*IEEE Journal of Biomedical and Health Informatics*] **扁仓 (BianCang)** 系列中医大模型（JBHI 正式发表）；2025.12 开源 14B 版本 [齐鲁工业大学] [[论文](https://arxiv.org/abs/2411.11027)] [[代码](https://github.com/QLU-NLP/BianCang)] [[模型](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct)] [[DOI](https://doi.org/10.1109/jbhi.2025.3612415)]
 - **智明堂 (ZMT-M1)** 中医大模型及TCM-Eval动态可扩展评测基准 [北京航空航天大学] [[论文](https://arxiv.org/abs/2511.07148)] [[平台](https://tcmeval.bamaidical.com)]
 - **白泽 (Baize-TCM-LLM)** 中国中医科学院中药研究所基于Qwen3的中医问答模型系列（0.6B/8B），约15.7万条语料LoRA微调 [中国中医科学院中药研究所] [[模型](https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model)] [[数据集](https://huggingface.co/datasets/DigitalIntelligenceCenter-of-ICMM/Baize-TCM-Corpus-for-Large-Language-Models-V3)]
 - [*IEEE Journal of Biomedical and Health Informatics*] **知方丹台 (ZhiFangDanTai)** GraphRAG+LLM微调的中医方剂生成框架，输出君臣佐使/功效/禁忌等可解释信息并开源权重 [[论文](https://arxiv.org/abs/2509.05867)] [[DOI](https://doi.org/10.1109/jbhi.2025.3607819)] [[模型](https://huggingface.co/tczzx6/ZhiFangDanTai1.0)]
-- [*Cell Discovery*] **神农Alpha** 西湖大学神农 Alpha：AI 驱动的天然药物知识智能编目、获取与翻译共享协作平台（Cell Discovery 2025） [西湖大学] [[网站](https://shennongalpha.westlake.edu.cn/)] [[论文](https://www.nature.com/articles/s41421-025-00776-2)] [[代码](https://github.com/shennong-program/shennongname)]
+- [*Cell Discovery*] **神农Alpha** 西湖大学神农 Alpha：AI 驱动的天然药物知识智能编目、获取与翻译共享协作平台（Cell Discovery 2025） [西湖大学] [[DOI](https://doi.org/10.1038/s41421-025-00776-2)] [[网站](https://shennongalpha.westlake.edu.cn/)] [[论文](https://www.nature.com/articles/s41421-025-00776-2)] [[代码](https://github.com/shennong-program/shennongname)]
 - **经方 (Jingfang)** 基于LLM的中医多智能体诊疗系统，辨证精度提升124% [[论文](https://arxiv.org/abs/2502.04345)]
 - [*Chinese Medicine*] **悬壶 (XuanHuGPT)** 基于参数高效微调（PEFT）的中医领域大模型 [河北北方学院] [[DOI](https://doi.org/10.1186/s13020-025-01200-3)]
 - [*Chinese Medicine*] **TCM-DS** 药食同源食疗方智能推荐领域大模型 [澳门科技大学] [[DOI](https://doi.org/10.1186/s13020-025-01249-0)]
@@ -136,7 +137,7 @@
 - [*Interdisciplinary Sciences*] **LLM驱动中医知识图谱构建** LLM驱动的中医知识图谱构建与应用 [河南工业大学] [[DOI](https://doi.org/10.1007/s12539-025-00735-1)]
 - [*npj Digital Medicine*] **补充替代医学文献抽取语言模型** 用于补充替代医学文献数据抽取与偏倚风险评估的语言模型 [兰州大学] [[DOI](https://doi.org/10.1038/s41746-025-01457-w)]
 - [*Information*] **中药化合物检索智能体** 中药化合物信息检索AI智能体系统 [郑州大学] [[DOI](https://doi.org/10.3390/info16070543)]
-- [*IEEE BIBM 2025*] **MRD-RAG** 模拟临床推理的多轮诊断RAG框架，并构建覆盖中西医的**DiagnosGraph**（876病/7997节点/37201三元组） [[论文](https://arxiv.org/abs/2504.07724)] [[正式发表](https://doi.org/10.1109/bibm66473.2025.11357107)]
+- [*IEEE BIBM*] **MRD-RAG** 模拟临床推理的多轮诊断RAG框架，并构建覆盖中西医的**DiagnosGraph**（876病/7997节点/37201三元组） [[正式发表](https://doi.org/10.1109/bibm66473.2025.11357107)] [[论文](https://arxiv.org/abs/2504.07724)]
 - **Ladder-base (GRPO-TCM)** TCM-Ladder团队提出的首个GRPO强化学习对齐中医LLM [[论文](https://arxiv.org/abs/2510.17402)]
 - **TCDiff** 三联级联扩散模型生成高保真多模态中医EHR，并构建**TCM-SZ1**基准数据集 [[论文](https://arxiv.org/abs/2508.01615)]
 - **New Snow Tablets（新雪片）** 揭示通用与中医专用LLM依赖药名猜测成分的系统缺陷 [[论文](https://arxiv.org/abs/2504.03786)]
@@ -149,6 +150,8 @@
 - [*数据分析与知识发现*] **中医药标准知识问答系统** 检索增强技术构建中医药标准知识问答系统的探索与实践 [中国中医科学院等] [[DOI](https://doi.org/10.11925/infotech.2096-3467.2024.0747)]
 - [*Scientific Reports*] **双通道知识注意力辨证模型** 双通道知识注意力的中医辨证NLP模型，缓解生僻字与术语抽取难题 [[DOI](https://doi.org/10.1038/s41598-025-96404-w)]
 - [*Preprints.org（预印本）*] **GPT 台湾中医执业考试评估** GPT-3.5/GPT-4/GPT-4o 在台湾中医执业考试中的表现与可靠性分析（预印本） [[DOI](https://doi.org/10.20944/preprints202501.1787.v1)]
+- [*arXiv*] **RACE-Align** 检索增强+CoT 式 DPO 的轻量中医对齐模型（Qwen3-1.7B），探索小模型对齐路线 [[arXiv](https://arxiv.org/abs/2506.02726)]
+- [*Discover Applied Sciences*] **Mathematical modeling of Chinese medicine by complex-valued five-agent network** 复值五智能体网络统一阴阳互补与五行反馈的线性代数表述。 [[DOI](https://doi.org/10.1007/s42452-025-06602-4)]
 
 ### 2024
 - **Chinese-LLaVA-Med** 基于 LLaVA 架构的中文医学多模态大模型，支持中文医学影像问答，配套 llava-med-zh-eval 评测集与开源 7B 权重 [[代码](https://github.com/BUAADreamer/Chinese-LLaVA-Med)]
@@ -179,11 +182,13 @@
 - [*南京中医药大学学报*] **中医药问答大语言模型** RAG 结合 P-Tuning v2 微调的中医药问答大模型（ChatGLM2-6B） [南京中医药大学] [[DOI](https://doi.org/10.14148/j.issn.1672-0482.2024.1375)]
 - [*Research Square（预印本）*] **GPT-4 中医研究生考试评估** GPT-4 与国产主流大模型在中医研究生考试数据集上的表现评估（预印本） [[DOI](https://doi.org/10.21203/rs.3.rs-4392855/v1)]
 - [*OSF Preprints（预印本）*] **RAG 增强中医问答置信度** 检索增强生成提升大模型中医问答置信度（预印本） [[DOI](https://doi.org/10.31219/osf.io/ns2v3)]
+- [*AAAI*] **仲景（CMtMedQA 线，Yang et al.）** 与 Kang 系 ZhongJingGPT 同名不同源的中医大模型：Ziya-LLaMA-13B 全流程 CPT+SFT+RLHF，基于约 7 万条真实多轮医患对话 CMtMedQA（AAAI 2024；注意与 Tsinghua Sci Technol 的 ZhongJingGPT 无作者与工件交集） [[论文](https://doi.org/10.1609/aaai.v38i17.29907)] [[arXiv](https://arxiv.org/abs/2308.03549)]
+- [*J Integr Complement Med*] **GPT vs ERNIE 中医文化背景对比研究** 以文化背景为框架对比 GPT 与 ERNIE 在中医任务上的表现（J Integr Complement Med 2024） [[DOI](https://doi.org/10.1089/jicm.2024.0902)]
 
 ### 2023
 - **ChatMed** ChatMed 系列中文医疗大模型，含基于 50 万+ 在线问诊数据训练的 ChatMed-Consult [[代码](https://github.com/michael-wzhu/ChatMed)]
 - **XrayGLM** 会看胸部X光片的中文多模态医学大模型 [澳门理工大学] [[代码](https://github.com/WangRongsheng/XrayGLM)]
-- [*EMNLP findings*] **华佗GPT** 中文医学语料训练的大型语言模型 [香港中文大学(深圳)，深圳市大数据研究院] [[论文](https://aclanthology.org/2023.findings-emnlp.725/)] [[代码](https://github.com/FreedomIntelligence/HuatuoGPT)]
+- [*EMNLP findings*] **华佗GPT** 中文医学语料训练的大型语言模型 [香港中文大学(深圳)，深圳市大数据研究院] [[DOI](https://doi.org/10.18653/v1/2023.findings-emnlp.725)] [[论文](https://aclanthology.org/2023.findings-emnlp.725/)] [[代码](https://github.com/FreedomIntelligence/HuatuoGPT)]
 - **启真医学大模型 (QiZhenGPT)** 中文医疗场景、药品知识问答、优化疾病、手术、检验等 [浙江大学] [[代码](https://github.com/CMKRG/QiZhenGPT)]
 - **孙思邈 (Sunsimiao)** 孙思邈中文医疗大模型，Sunsimiao-7B 基于 Qwen2-7B 以高质量医疗数据微调，在 CMB-Exam 达 30B 量级 SOTA [华东理工大学] [[代码](https://github.com/X-D-Lab/Sunsimiao)]
 - [*arXiv*] **扁鹊 (BianQue)** 中文领域生活空间主动健康大模型 [华南理工大学，广东省数字孪生人重点实验室] [[代码](https://github.com/scutcyr/BianQue)] [[论文](https://arxiv.org/abs/2310.15896)]
@@ -197,16 +202,89 @@
 - [*IJACSA*] **草药智能配送聊天机器人** AI 聊天机器人驱动的智能草药配送系统 [[DOI](https://doi.org/10.14569/ijacsa.2023.0140358)]
 - [*IEEE Access*] **PreGenerator** 检索与生成方法结合的中医处方推荐模型 [[DOI](https://doi.org/10.1109/ACCESS.2023.3316219)]
 - **中医新冠文献 LLM 命名实体识别** 大语言模型用于中医新冠文献命名实体识别的比较研究（预印本） [[DOI](https://doi.org/10.2196/preprints.54346)]
+- [*Scientific Reports*] **Discovering golden ratio in the world’s first five-agent network in ancient China** 用多智能体网络理论量化五行和谐稳态，并给出电路/编队实验验证。 [[DOI](https://doi.org/10.1038/s41598-023-46071-6)]
+- [*Interdisciplinary*] **Historical Analysis of Medical Artificial Intelligence Development in China: Research Cent** 以中医专家系统为中心的中国医学 AI 发展史梳理（二次文献锚点；作者以 DOI 页为准）。 [[DOI](https://doi.org/10.18926/interdisciplinary/65464)]
+- [*Zhang Y et al., *Acta Pharm Sin B* 13(6):2559-2571*] **ETCM v2.0** ETCM v2.0（platform阶段历史锚点） [[DOI](https://doi.org/10.1016/j.apsb.2023.03.012)]
+- [*Lv Q et al., *Signal Transduct Target Ther* 8(1):127*] **TCMBank** TCMBank（platform阶段历史锚点） [[DOI](https://doi.org/10.1038/s41392-023-01339-1)]
 
 ### 2022
 - [*BioMed Research International*] **乙肝中医 KG 问答系统** 基于知识图谱的中医诊治病毒性乙型肝炎问答系统 [[DOI](https://doi.org/10.1155/2022/7139904)]
+- [*Evid. Based Complement. Alternat. Med.*] **Deep Learning Multi-label Tongue Image Analysis and Its Application in a Population Underg** Faster R-CNN 多标签舌象（裂纹/齿痕/腻苔等）及体检人群关联分析。 [[DOI](https://doi.org/10.1155/2022/3384209)]
+- [*Digital Health*] **Research and application of tongue and face diagnosis based on deep learning** 舌面诊深度学习预处理/分割/分类技术路线综述与验证。 [[DOI](https://doi.org/10.1177/20552076221124436)]
+- [*Digital Chinese Medicine*] **Data-driven based four examinations in TCM: a survey** 数据驱动四诊（含深度学习）设备—算法—数据集全景。 [[DOI](https://doi.org/10.1016/j.dcmed.2022.12.004)]
+
+### 2021
+- [*JMIR Medical Informatics*] **Ensemble Learning-Based Pulse Signal Recognition: Classification Model Development Study** SVM（时/频域结构特征）与 DCNN 决策级融合的脉象识别。 [[DOI](https://doi.org/10.2196/28039)]
+- [*IEEE Trans. Cybernetics*] **Automatic Construction of Chinese Herbal Prescriptions From Tongue Images Using CNNs and A** 舌象→方剂端到端生成，引入治法主题辅助损失。 [[DOI](https://doi.org/10.1109/tcyb.2019.2909925)]
 
 ### 2020
 - [*IEEE ICKG*] **TCMKG** 基于深度学习的中医知识图谱平台 [[DOI](https://doi.org/10.1109/ICBK50248.2020.00084)]
 - [*BMC Medical Informatics and Decision Making*] **中医临床细粒度 NER 语料** 基于中医临床病历构建细粒度实体识别语料 [[DOI](https://doi.org/10.1186/s12911-020-1079-2)]
+- [*Comput. Struct. Biotechnol. J.*] **Artificial intelligence in tongue diagnosis: Using deep convolutional neural network for r** ResNet34 齿痕舌识别，强调跨设备泛化。 [[DOI](https://doi.org/10.1016/j.csbj.2020.04.002)]
+
+### 2019
+- [*BMC Medical Informatics and Decision Making*] **An ontological framework for the formalization, organization and usage of TCM-Knowledge** 基于 GFO 的 GFO-TCM 中层本体，修正 TCMLS-SN 语义问题。 [[DOI](https://doi.org/10.1186/s12911-019-0760-9)]
+- [*IEEE Trans. Cybernetics*] **Tooth-Marked Tongue Recognition Using Multiple Instance Learning and CNN Features** CNN 特征+多示例学习识别齿痕舌，标志舌诊进入深度学习。 [[DOI](https://doi.org/10.1109/tcyb.2017.2772289)]
+- [*Xu HY et al., *Nucleic Acids Res* 47(D1):D976-D982*] **ETCM** ETCM（platform阶段历史锚点） [[DOI](https://doi.org/10.1093/nar/gky987)]
+
+### 2018
+- [*CISP-BMEI*] **Constitution Identification of Tongue Image Based on CNN** CNN 舌象体质辨识，对比传统手工特征 ML。 [[DOI](https://doi.org/10.1109/cisp-bmei.2018.8633075)]
+
+### 2017
+- [*BioMed Research International*] **Diagnostic Method of Diabetes Based on Support Vector Machine and Tongue Images** 标准化舌象+SVM/PCA/GA 的糖尿病筛查模型。 [[DOI](https://doi.org/10.1155/2017/7961494)]
+
+### 2014
+- [*Evid. Based Complement. Alternat. Med.*] **A disturbance rejection framework for the study of traditional Chinese medicine** 用工程控制论“抗扰”隐喻解释五行调控与治法逻辑。 [[DOI](https://doi.org/10.1155/2014/787529)]
+- [*Comput. Math. Methods Med.*] **Pulse Waveform Classification Using Support Vector Machine with Gaussian Time Warp Edit Di** GTWED-SVM 在 2470 条五类脉波上的弹性核分类。 [[DOI](https://doi.org/10.1155/2014/947254)]
+- [*Ru J et al., *J Cheminform* 6(1):13*] **TCMSP** TCMSP（platform阶段历史锚点） [[DOI](https://doi.org/10.1186/1758-2946-6-13)]
 
 ### 2013
 - [*Journal of Biomedical Informatics*] **中医症状名识别** 自由文本中医临床记录中症状名识别的监督方法 [[DOI](https://doi.org/10.1016/j.jbi.2013.09.008)]
+- [*Xue R et al., *Nucleic Acids Res* 41(D1):D1089-D1095*] **TCMID** TCMID（platform阶段历史锚点） [[DOI](https://doi.org/10.1093/nar/gks1100)]
+
+### 2012
+- [*Evid. Based Complement. Alternat. Med.*] **Automated Tongue Feature Extraction for ZHENG Classification in Traditional Chinese Medici** 舌象颜色特征学习映射寒热证（ZHENG）的代表性工作。 [[DOI](https://doi.org/10.1155/2012/912852)]
+
+### 2010
+- [*Artificial Intelligence in Medicine*] **Development of traditional Chinese medicine clinical data warehouse for medical knowledge ** 临床数据仓库支撑知识发现与决策支持的系统论文。 [[DOI](https://doi.org/10.1016/j.artmed.2009.07.012)]
+- [*Journal of Biomedical Informatics*] **Text mining for traditional Chinese medical knowledge discovery: a survey** 中医文本挖掘方法与语料资源的早期系统综述。 [[DOI](https://doi.org/10.1016/j.jbi.2010.01.002)]
+- [*Journal of Chinese Integrative Medicine*] **Feature extraction and recognition of traditional Chinese medicine pulse based on hemodyna** 以波速与反射系数作脉象特征并用 SVM 识别弦/滑/平脉。 [[链接](http://www.jcimjournal.com/EN/10.3736/jcim20100802)]
+- [*EURASIP J. Adv. Signal Process.*] **Classification of Pulse Waveforms Using Edit Distance with Real Penalty** ERP 编辑距离应对脉波局部时移的经典波形分类。 [[DOI](https://doi.org/10.1155/2010/303140)]
+
+### 2009
+- [*Int. J. Information Technology & Decision Making*] **Equilibrium and nonequilibrium modeling of YinYang WuXing for diagnostic decision support ** 双极线性代数刻画阴阳五行均衡/非均衡并原型化诊断 DSS。 [[DOI](https://doi.org/10.1142/s0219622009003521)]
+- [*IEEE CSIE*] **Syndrome Differentiation in Intelligent TCM Diagnosis System** 区间值直觉模糊集用于智能中医辨证决策。 [[DOI](https://doi.org/10.1109/csie.2009.782)]
+
+### 2008
+- [*Journal of Chinese Integrative Medicine*] **Establishment of a fuzzy mathematical model for syndrome differentiation of gastric cancer** 基于临床大样本的胃癌证候模糊数学模型，服务辨证客观化。 [[链接](http://www.jcimjournal.com/EN/10.3736/jcim20081104)]
+- [*IEEE ITME*] **Traditional Chinese medical diagnosis based on fuzzy and certainty reasoning** 多层模糊筛选+多智能体协作诊断（MADHS）原型。 [[DOI](https://doi.org/10.1109/itme.2008.4743874)]
+- [*WWW* (demo/industrial)*] **Information retrieval and knowledge discovery on the semantic web of traditional Chinese m** 大规模中医语义网与草药—药物相互作用图谱挖掘。 [[DOI](https://doi.org/10.1145/1367497.1367668)]
+- [*IEEE BMEI*] **Building Clinical Data Warehouse for Traditional Chinese Medicine Knowledge Discovery** 结构化病历驱动的中医临床数据仓库与 OLAP/挖掘平台。 [[DOI](https://doi.org/10.1109/bmei.2008.83)]
+
+### 2007
+- [*IEEE SITIS*] **A Novel Computerized Method Based on Support Vector Machine for Tongue Diagnosis** 色纹理特征+SVM/贝叶斯网络的早期计算机舌诊。 [[DOI](https://doi.org/10.1109/sitis.2007.115)]
+
+### 2006
+- [*Artificial Intelligence in Medicine*] **Knowledge discovery in traditional Chinese medicine: State of the art and perspectives** 方剂/本草/证候/诊断四子域的早期 KDD 综述。 [[DOI](https://doi.org/10.1016/j.artmed.2006.07.005)]
+
+### 2004
+- [*Information Sciences*] **YinYang bipolar logic and bipolar fuzzy logic** 阴阳双极逻辑/模糊逻辑，为后续 YYWX 代数模型奠基。 [[DOI](https://doi.org/10.1016/j.ins.2003.05.010)]
+- [*Artificial Intelligence in Medicine*] **Ontology development for unified traditional Chinese medical language system** UTCMLS/TCMLS 本体工程奠基作，对标 UMLS 思路。 [[DOI](https://doi.org/10.1016/j.artmed.2004.01.014)]
+
+### 1998
+- [*Complementary Therapies in Medicine*; 80005-8)*] **A computer model of the “five elements” theory of traditional Chinese medicine** 布尔网络模拟五行吸引子及扰动对稳态的影响。 [[DOI](https://doi.org/10.1016/S0965-2299(98)]
+
+### 1987
+- [*Physica Scripta*] **Functional structure model of human body and Yinyang-Wuxing equations** 早期以微分方程刻画人体五行功能子系统与经络自组织。 [[DOI](https://doi.org/10.1088/0031-8949/36/6/015)]
+
+### 1985
+- [*Fuzzy Sets and Systems*; 90052-1)*] **Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic** 模糊匹配+浮动阈值，把不确定性引入中医辨证专家系统。 [[DOI](https://doi.org/10.1016/0165-0114(85)]
+
+### 1979
+- [*医院史料：*] **关幼波肝病诊疗程序（肝病专家系统）** 国内公认最早投入使用的中医名老中医经验计算机诊疗程序（1979.1）。 [[链接](https://www.bjzhongyi.com/gzb_mygs_detail/4656.html)]
+
+### 1973
+- [*Computers and Biomedical Research*; 90029-3)*] **An artificial intelligence program to advise physicians regarding antimicrobial therapy** MYCIN 前身，规则型医学专家系统范式（中医专家系统的方法学参照）。 [[DOI](https://doi.org/10.1016/0010-4809(73)]
 
 ## 📑 综述
 - [*Chinese Medicine*] **Han et al. 2026: LLM 在中医中的调优与临床应用（Scoping Review）** PRISMA-ScR scoping review，纳入 27 篇（至 2025-05），聚焦 LoRA/CPT/RAG 调优配方与临床应用统计 [[DOI](https://doi.org/10.1186/s13020-026-01346-8)]
@@ -280,7 +358,7 @@
 - 标准化舌象病理标注数据集 [[论文](https://arxiv.org/abs/2507.18288)] [[数据](https://doi.org/10.5061/dryad.1c59zw48r)] [[代码](https://github.com/btbuIntelliSense/Intelligent-tongue-diagnosis-detection-dataset)]
 - TCM-Vision-Benchmark 中医视觉评测（药材识别/望诊等，约 7k 题） [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Vision-Benchmark)]
 - TCMBench 中医药大模型全面评测基准 [[数据集](https://github.com/ywjawmw/TCMBench)] [[论文](https://arxiv.org/abs/2406.01126)]
-- TCMEval-SDT 辨证思维评测（专家标注病案） [[论文](https://www.nature.com/articles/s41597-025-04772-9)] [[代码](https://github.com/zhuyan166/TCMEval)]
+- TCMEval-SDT 辨证思维评测（专家标注病案） [[DOI](https://doi.org/10.1038/s41597-025-04772-9)] [[论文](https://www.nature.com/articles/s41597-025-04772-9)] [[代码](https://github.com/zhuyan166/TCMEval)]
 - ZhongJing-OMNI 中医多模态评测（含舌诊） [[数据集](https://huggingface.co/datasets/CMLM/ZhongJing-OMNI)]
 - TCM-RobustSDT [[数据集](https://doi.org/10.6084/m9.figshare.33054974)]
 
