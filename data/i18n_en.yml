@@ -781,10 +781,13 @@ survey-key-tech-tcm-llm:
 gat-llm-tcm-prescription:
   summary_en: "Intelligent TCM prescription generation combining graph attention networks with LLMs (formally published in KSII TIIS)."
 pathogenesis-cot:
+  name_en: "Pathogenesis-reasoning CoT supervision for spleen-stomach disorders"
+  venue_en: "Progress in Biochemistry and Biophysics"
   summary_en: "Pathogenesis-reasoning chain-of-thought supervision replacing fixed-label classification for spleen-stomach disease syndrome recognition and multi-dimensional evaluation (Prog. Biochem. Biophys.)."
 ds-hsq-td:
   summary_en: "HSQ-TD: the first instruction-tuning dataset for health Qigong/wellness, with 57,843 instructions distilled from official textbooks and professional literature (ScienceDB)."
 cpm-pediatric-influenza:
+  name_en: "Pediatric influenza Chinese patent-medicine recommender (KG + LLM)"
   summary_en: "Knowledge graph of Chinese patent medicines for pediatric influenza built from authoritative guidelines and integrated with an LLM (JMIR Preprints)."
 survey-ai-tcm-diagnosis-jtcms:
   summary_en: "Survey on multimodal fusion and LLMs for intelligent four-diagnosis in TCM: applications, challenges and outlook (JTCMS)."
@@ -829,6 +832,7 @@ zhongjing-cmtmedqa:
 race-align:
   summary_en: "RACE-Align: retrieval-augmented, CoT-style DPO alignment of a compact Qwen3-1.7B for TCM reasoning."
 tree-organized-qa:
+  name_en: "Tree-organized self-reflective retrieval for TCM QA"
   summary_en: "Tree-organized self-reflective retrieval for TCM question answering (Frontiers in Medicine 2026)."
 gpt-ernie-tcm-culture:
   summary_en: "A culture-framed comparison of GPT versus ERNIE on TCM tasks (J. Integr. Complement. Med. 2024)."
@@ -849,9 +853,11 @@ hist-2025-mathematical-modeling-of-chi:
 hist-1973-an-artificial-intelligence-p:
   summary_en: "Historical anchor: An artificial intelligence program to advise physicians regarding antimicrobial therapy."
 hist-1979-:
-  summary_en: "Historical anchor: 关幼波肝病诊疗程序（肝病专家系统）."
+  name_en: "Guan Youbo liver-disease diagnosis and treatment program"
+  venue_en: "Hospital historical archive"
+  summary_en: "Historical anchor: an early computer-based expert system encoding renowned TCM physician Guan Youbo's approach to liver disease."
 hist-1985-fuzzy-match-and-floating-thr:
-  summary_en: "Historical anchor: Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic."
+  summary_en: "Historical anchor: Fuzzy match and floating threshold strategy for expert systems in traditional Chinese medicine."
 hist-2008-establishment-of-a-fuzzy-mat:
   summary_en: "Historical anchor: Establishment of a fuzzy mathematical model for syndrome differentiation of gastric cancer."
 hist-2008-traditional-chinese-medical-:

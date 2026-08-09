@@ -10,6 +10,14 @@
 
 > 项目页支持标签筛选与搜索，数据与本 README 同源（`data/catalog.yml`）。
 
+## 收录说明
+
+- 以中医药大模型、数据集、评测、知识图谱及相关研究为主；通用医疗条目使用 `general-medical` 标签标识。
+- “论文公开”“代码开源”“开放权重”和“数据开放”是不同状态；请以每个条目实际提供的链接为准。
+- 新闻和产品条目仅记录公开信息，收录不代表项目维护者对其效果、安全性或临床适用性的认可。
+
+> **医疗免责声明：** 本目录仅用于研究与信息索引，不构成医疗建议、诊断或治疗依据。临床使用须由合格专业人员独立评估。
+
 ## 📰 新闻
 - [2026.07] 上海中医药大学附属第七人民医院正式发布**岐元大模型**，采用预训练+领域微调+专家强化学习，支持生成式病历与名老中医Agent数字孪生，并亮相WAIC [[链接](https://dwgk.shutcm.edu.cn/2026/0725/c1890a175544/page.htm)]
 - [2026.07] 贵州医科大学等在中国—东盟教育交流周发布全国首个民族药创制全域智能平台**华族本草**，以数智岐黄+Qwen为底座融汇多民族医药古籍 [[链接](https://www.gmc.edu.cn/info/1058/30267.htm)]
@@ -36,7 +44,7 @@
 - [2024.12] 招联消费金融联合中山大学、广州中医药大学深圳医院发布中医垂直大模型**仲思**，落地深圳多家社康中心智能问诊 [[链接](https://finance.sina.com.cn/jjxw/2024-12-16/doc-inczrzsp5791684.shtml)]
 - [2024.09] 中科闻歌发布**大医金匮**中医大模型及中医智能健康管理平台，基于1500余本中医典籍训练 [[链接](https://36kr.com/newsflashes/2946967562099592)]
 - [2024.05] 天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型，覆盖中药研发全链条；后通过信通院中医药大模型4+级评估 [[链接](https://news.pharmnet.com.cn/news/2024/05/10/591622.html)]
-- [2024.03] 华东师范大学、上海中医药大学、华东理工大学、海军军医大学、临港实验室、华润江中现代中药全国重点实验室联合开发了**数智岐黄**中医药大模型。
+- [2024.03] 华东师范大学、上海中医药大学、华东理工大学、海军军医大学、临港实验室、华润江中现代中药全国重点实验室联合开发了**数智岐黄**中医药大模型。 [[链接](https://pharm.ecnu.edu.cn/08/27/c43775a657447/page.htm)]
 - [2023.07] 南京大经中医发布**岐黄问道·大模型**，基于千万级知识图谱与临床数据，面向医疗机构开放内测 [[链接](http://js.news.cn/20230729/fa034db71a00487b819a4ad95b44673e/c.html)]
 
 ## 📚 资源
@@ -80,7 +88,7 @@
 - [*Communications in Computer and Information Science (Springer)*] **Hybrid Retrieval + Re-ranking TCM Prescription Generation** 混合检索+重排序增强LLM的中医处方生成（Springer CCIS会议论文） [[论文](https://doi.org/10.1007/978-981-92-3563-6_21)]
 - **DeepTCM1.0** 基于通用LLM的多专家AI Agent，解析中药复方作用机制（Research Square预印本） [[预印本](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - [*KSII Transactions on Internet and Information Systems*] **GAT+LLM TCM Prescription Generation** 图注意力网络与LLM结合的中医处方智能生成模型（KSII TIIS正式发表） [[DOI](https://doi.org/10.3837/tiis.2026.05.006)]
-- [*生物化学与生物物理进展*] **病机推理CoT监督（脾胃病）** 以病机推理思维链监督替代固定标签分类，做脾胃病症候表现识别与多维评估（《生物化学与生物物理进展》） [[DOI](https://doi.org/10.3724/j.pibb.2026.0141)]
+- [*生物化学与生物物理进展*] **病机推理CoT监督（脾胃病）** 以病机推理思维链监督替代固定标签分类，做脾胃病症候表现识别与多维评估（《生物化学与生物物理进展》） [[论文](https://www.pibb.ac.cn/pibbcn/article/abstract/20260141)]
 - **儿童流感中成药推荐系统（KG+LLM）** 整合权威指南构建儿童流感中成药知识图谱并与LLM集成（JMIR Preprints预印本） [[预印本](https://doi.org/10.2196/preprints.101648)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** 讨论生成式AI翻译中医文本的精确性、认识论与医学语境局限（Translation Review） [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
 - [*Future Internet (MDPI)*] **RAG+LoRA 中医执照考试推理架构** RAG+LoRA生成式架构，构建台湾中医师执照考试11,476题（2005–2025）数据集，准确率61.0%→89.0%+（Future Internet） [[DOI](https://doi.org/10.3390/fi18060280)]
@@ -272,19 +280,19 @@
 - [*Artificial Intelligence in Medicine*] **Ontology development for unified traditional Chinese medical language system** UTCMLS/TCMLS 本体工程奠基作，对标 UMLS 思路。 [[DOI](https://doi.org/10.1016/j.artmed.2004.01.014)]
 
 ### 1998
-- [*Complementary Therapies in Medicine*; 80005-8)*] **A computer model of the “five elements” theory of traditional Chinese medicine** 布尔网络模拟五行吸引子及扰动对稳态的影响。 [[DOI](https://doi.org/10.1016/S0965-2299(98)]
+- [*Complementary Therapies in Medicine*] **A computer model of the “five elements” theory of traditional Chinese medicine** 布尔网络模拟五行吸引子及扰动对稳态的影响。 [[DOI](https://doi.org/10.1016/S0965-2299(98)80005-8)]
 
 ### 1987
 - [*Physica Scripta*] **Functional structure model of human body and Yinyang-Wuxing equations** 早期以微分方程刻画人体五行功能子系统与经络自组织。 [[DOI](https://doi.org/10.1088/0031-8949/36/6/015)]
 
 ### 1985
-- [*Fuzzy Sets and Systems*; 90052-1)*] **Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic** 模糊匹配+浮动阈值，把不确定性引入中医辨证专家系统。 [[DOI](https://doi.org/10.1016/0165-0114(85)]
+- [*Fuzzy Sets and Systems*] **Fuzzy match and floating threshold strategy for expert system in traditional Chinese medicine** 模糊匹配+浮动阈值，把不确定性引入中医辨证专家系统。 [[DOI](https://doi.org/10.1016/0165-0114(85)90052-1)]
 
 ### 1979
 - [*医院史料：*] **关幼波肝病诊疗程序（肝病专家系统）** 国内公认最早投入使用的中医名老中医经验计算机诊疗程序（1979.1）。 [[链接](https://www.bjzhongyi.com/gzb_mygs_detail/4656.html)]
 
 ### 1973
-- [*Computers and Biomedical Research*; 90029-3)*] **An artificial intelligence program to advise physicians regarding antimicrobial therapy** MYCIN 前身，规则型医学专家系统范式（中医专家系统的方法学参照）。 [[DOI](https://doi.org/10.1016/0010-4809(73)]
+- [*Computers and Biomedical Research*] **An artificial intelligence program to advise physicians regarding antimicrobial therapy** MYCIN 前身，规则型医学专家系统范式（中医专家系统的方法学参照）。 [[DOI](https://doi.org/10.1016/0010-4809(73)90029-3)]
 
 ## 📑 综述
 - [*Chinese Medicine*] **Han et al. 2026: LLM 在中医中的调优与临床应用（Scoping Review）** PRISMA-ScR scoping review，纳入 27 篇（至 2025-05），聚焦 LoRA/CPT/RAG 调优配方与临床应用统计 [[DOI](https://doi.org/10.1186/s13020-026-01346-8)]
@@ -304,7 +312,7 @@
 - [*Journal of Integrative Medicine*] **Deep learning in TCM（J Integr Med）** 深度学习单技术线综述：医学影像、药材物质研究、数据挖掘等应用实例（J Integr Med 2026;24(4):471-480） [[DOI](https://doi.org/10.1016/j.joim.2026.03.001)]
 - [*Journal of Integrative Medicine*] **AI empowers the innovation of TCM（J Integr Med 评论）** 单作者评论性综述：古籍挖掘、诊疗标准化、药物研发周期三痛点×AI（J Integr Med 2026） [[DOI](https://doi.org/10.1016/j.joim.2026.05.004)]
 - [*Chinese Medicine and Culture*] **AI and Big Data in TCM Standardization and Internationalization（Chin Med Cult）** AI/大数据助力中医标准化与国际化评论（Chin Med Cult 2026, ahead of print） [[DOI](https://doi.org/10.1097/mc9.0000000000000203)]
-- [*中华中医药学刊*] **人工智能赋能中医数字化诊断：现状与挑战（中华中医药学刊）** 中文短篇综述：AI在海量数据处理、辅助诊断、疾病预测的应用现状与数据质量/可解释性/理论融合三挑战（北大核心，题录级）
+- [*中华中医药学刊*] **人工智能赋能中医数字化诊断：现状与挑战（中华中医药学刊）** 中文短篇综述：AI在海量数据处理、辅助诊断、疾病预测的应用现状与数据质量/可解释性/理论融合三挑战（北大核心，题录级） [[DOI](https://doi.org/10.13193/j.issn.1673-7717.2026.01.004)]
 - [*ACL 2026*] **LLM-Based Multi-Agent Systems for Clinical Workflows（ACL 2026，邻近）** 工作流级多智能体综述+四层评测栈（safety/process/outcome/operations）；无TCM交集但过程评测主张方法学同构（邻近） [[DOI](https://doi.org/10.18653/v1/2026.acl-long.2123)]
 - [*Journal of Evidence-Based Medicine*] **Ren et al. 2025: 中医大语言模型（Scoping Review）** Arksey–O'Malley scoping review，纳入 29 篇（至 2024-04），覆盖知识管理、辅助诊疗与考试准确率 [[DOI](https://doi.org/10.1111/jebm.12658)]
 - [*Acupuncture and Herbal Medicine*] **Chen et al. 2025: 中医大语言模型系统综述** 系统综述，纳入 10 篇（至 2024 年中），聚焦生成任务证据 [[DOI](https://doi.org/10.1097/HM9.0000000000000143)]
@@ -317,7 +325,7 @@
 - [*Journal of Pharmaceutical Analysis*] **The integration of machine learning into TCM（J Pharm Anal）** 机器学习×中医整合综述：诊断客观化与机制阐释两条线（J Pharm Anal 2025;15(8):101157） [[DOI](https://doi.org/10.1016/j.jpha.2024.101157)]
 - [*Chinese Medicine*] **古籍知识图谱×多智能体融合综述（Chin Med）** 古籍KG构建（术语统一、数据标准化）挑战-展望型综述，首次把multi-agent写入中医古籍议题（Chin Med 2025;20:168） [[DOI](https://doi.org/10.1186/s13020-025-01226-7)]
 - [*Current Medical Science*] **AI for Spleen-Stomach Disorders in TCM（Curr Med Sci）** 单病种（脾胃病）KG+智能诊疗综述：「症状-证候-疾病-方剂」框架的知识工程化（Curr Med Sci 2025;45(6):1348-1357） [[DOI](https://doi.org/10.1007/s11596-025-00128-x)]
-- [*中华中医药学刊*] **人工智能实现中医四诊的发展现状、问题及解决路径（中华中医药学刊）** 四诊AI客观化现状-问题-路径分析：面舌采集、电子鼻、脉象传感、四诊合参融合度低（北大核心，题录级）
+- [*中华中医药学刊*] **人工智能实现中医四诊的发展现状、问题及解决路径（中华中医药学刊）** 四诊AI客观化现状-问题-路径分析：面舌采集、电子鼻、脉象传感、四诊合参融合度低（北大核心，题录级） [[论文](https://www.sinomed.ac.cn/article.do?ui=2026106036)]
 - [*Healthcare*] **Intelligent Question-Answering Systems in Healthcare（Healthcare，邻近）** 2018-2025医疗QA综述+CiteSpace计量，明确含中医方剂开发应用场景（邻近综述，非TCM专用） [[DOI](https://doi.org/10.3390/healthcare13182269)]
 - [*智能系统学报*] **医疗领域的大型语言模型综述（智能系统学报，邻近）** 中文医疗LLM通用综述（训练流程/策略/场景/挑战），与中医LLM综述圈属母子集关系（邻近） [[DOI](https://doi.org/10.11992/tis.202405003)]
 - [*智能系统学报*] **医学大语言模型的研发与应用系统综述（智能系统学报，邻近）** 系统综述129个医学专用LLM（截至2024-06）+4类临床应用研究；系统检索协议方法学可比（邻近） [[DOI](https://doi.org/10.11992/tis.202410020)]
@@ -400,3 +408,11 @@
 
 ### 语料/指令
 - HSQ-TD（健身气功指令微调数据集） [[数据集](https://doi.org/10.57760/sciencedb.35843)]
+
+## 参与贡献
+
+请阅读 [贡献指南](CONTRIBUTING.md)。新增或修改条目时只编辑 `data/catalog.yml` 与对应英文翻译，再运行生成与校验脚本。
+
+## 引用与许可
+
+引用信息见 [`CITATION.cff`](CITATION.cff)。仓库代码与整理内容采用 [MIT License](LICENSE)。第三方论文、模型和数据仍受各自许可约束。
