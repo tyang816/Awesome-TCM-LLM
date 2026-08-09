@@ -10,6 +10,14 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 
 > The project page supports search and tag filters. Data is sourced from the same `data/catalog.yml` as this README. English blurbs live in `data/i18n_en.yml`.
 
+## Inclusion and safety
+
+- The primary scope is TCM LLMs, datasets, benchmarks, knowledge graphs, and related research; broader medical entries carry the `general-medical` tag.
+- Paper availability, open-source code, open weights, and open datasets are distinct. Refer to the links attached to each entry.
+- News and product entries document public claims only; inclusion is not an endorsement of efficacy, safety, or clinical readiness.
+
+> **Medical disclaimer:** This catalog is for research and information discovery only. It is not medical advice and must not be used as a substitute for professional diagnosis or treatment.
+
 ## 📰 News
 - [2026.07] Shanghai Seventh People's Hospital (SHUTCM) releases the **Qiyuan** TCM LLM with pretraining, domain fine-tuning, and expert RL; supports generative medical records and master-physician Agent digital twins; showcased at WAIC. [[Link](https://dwgk.shutcm.edu.cn/2026/0725/c1890a175544/page.htm)]
 - [2026.07] Guizhou Medical University and partners launch **HuaZu BenCao**, a national ethnic-medicine AI platform built on ShuZhi QiHuang + Qwen integrating multi-ethnic materia medica classics. [[Link](https://www.gmc.edu.cn/info/1058/30267.htm)]
@@ -36,7 +44,7 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 - [2024.12] China UnionPay Consumer Finance with Sun Yat-sen University and GZUCMS Shenzhen Hospital release vertical TCM LLM **ZhongSi** for community clinic inquiry. [[Link](https://finance.sina.com.cn/jjxw/2024-12-16/doc-inczrzsp5791684.shtml)]
 - [2024.09] Zhongke Wenge releases **DaYi JinKui** TCM LLM and health platform trained on 1,500+ TCM classics. [[Link](https://36kr.com/newsflashes/2946967562099592)]
 - [2024.05] Tasly and Huawei Cloud release **ShuZhi BenCao** (Pangu language + molecular models) covering TCM R&D; later earns CAICT TCM LLM Level 4+. [[Link](https://news.pharmnet.com.cn/news/2024/05/10/591622.html)]
-- [2024.03] ECNU, SHUTCM, ECUST, NMMU, Lingang Lab, and CR Jiangzhong jointly develop the **ShuZhi QiHuang** TCM LLM.
+- [2024.03] ECNU, SHUTCM, ECUST, NMMU, Lingang Lab, and CR Jiangzhong jointly develop the **ShuZhi QiHuang** TCM LLM. [[Link](https://pharm.ecnu.edu.cn/08/27/c43775a657447/page.htm)]
 - [2023.07] Nanjing Dajing TCM releases **QiHuang Wendao** LLM with large knowledge graphs and clinical data for institutional beta use. [[Link](http://js.news.cn/20230729/fa034db71a00487b819a4ad95b44673e/c.html)]
 
 ## 📚 Resources
@@ -80,11 +88,11 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 - [*Communications in Computer and Information Science (Springer)*] **Hybrid Retrieval + Re-ranking TCM Prescription Generation** Hybrid retrieval with re-ranking to enhance LLM-based TCM prescription generation (Springer CCIS conference paper). [[Paper](https://doi.org/10.1007/978-981-92-3563-6_21)]
 - **DeepTCM1.0** DeepTCM1.0: a multi-expert AI agent built on general LLMs for interpreting the mechanisms of TCM compound formulas (Research Square preprint). [[Link](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - [*KSII Transactions on Internet and Information Systems*] **GAT+LLM TCM Prescription Generation** Intelligent TCM prescription generation combining graph attention networks with LLMs (formally published in KSII TIIS). [[DOI](https://doi.org/10.3837/tiis.2026.05.006)]
-- [*生物化学与生物物理进展*] **病机推理CoT监督（脾胃病）** Pathogenesis-reasoning chain-of-thought supervision replacing fixed-label classification for spleen-stomach disease syndrome recognition and multi-dimensional evaluation (Prog. Biochem. Biophys.). [[DOI](https://doi.org/10.3724/j.pibb.2026.0141)]
-- **儿童流感中成药推荐系统（KG+LLM）** Knowledge graph of Chinese patent medicines for pediatric influenza built from authoritative guidelines and integrated with an LLM (JMIR Preprints). [[Link](https://doi.org/10.2196/preprints.101648)]
+- [*Progress in Biochemistry and Biophysics*] **Pathogenesis-reasoning CoT supervision for spleen-stomach disorders** Pathogenesis-reasoning chain-of-thought supervision replacing fixed-label classification for spleen-stomach disease syndrome recognition and multi-dimensional evaluation (Prog. Biochem. Biophys.). [[Paper](https://www.pibb.ac.cn/pibbcn/article/abstract/20260141)]
+- **Pediatric influenza Chinese patent-medicine recommender (KG + LLM)** Knowledge graph of Chinese patent medicines for pediatric influenza built from authoritative guidelines and integrated with an LLM (JMIR Preprints). [[Link](https://doi.org/10.2196/preprints.101648)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** Beyond the Poetic Bard: a perspective on accuracy, epistemology, and medical-context limits of generative-AI translation of TCM texts (Translation Review). [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
 - [*Future Internet (MDPI)*] **RAG+LoRA 中医执照考试推理架构** RAG+LoRA generative architecture with an 11,476-item Taiwan TCM licensing-exam dataset (2005-2025), raising accuracy from 61.0% to 89.0%+ (Future Internet, MDPI). [[DOI](https://doi.org/10.3390/fi18060280)]
-- [*Frontiers in Medicine*] **树状自反思检索中医问答** Tree-organized self-reflective retrieval for TCM question answering (Frontiers in Medicine 2026). [[DOI](https://doi.org/10.3389/fmed.2026.1752778)]
+- [*Frontiers in Medicine*] **Tree-organized self-reflective retrieval for TCM QA** Tree-organized self-reflective retrieval for TCM question answering (Frontiers in Medicine 2026). [[DOI](https://doi.org/10.3389/fmed.2026.1752778)]
 
 ### 2025
 - **BenCao** Instruction-aligned multimodal TCM assistant (ChatGPT/GPTs Store) with tongue APIs and knowledge bases (distinct from HuaTuo/BenCao). [[Paper](https://arxiv.org/abs/2510.17415)]
@@ -272,19 +280,19 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 - [*Artificial Intelligence in Medicine*] **Ontology development for unified traditional Chinese medical language system** Historical anchor: Ontology development for unified traditional Chinese medical language system. [[DOI](https://doi.org/10.1016/j.artmed.2004.01.014)]
 
 ### 1998
-- [*Complementary Therapies in Medicine*; 80005-8)*] **A computer model of the “five elements” theory of traditional Chinese medicine** Historical anchor: A computer model of the “five elements” theory of traditional Chinese medicine. [[DOI](https://doi.org/10.1016/S0965-2299(98)]
+- [*Complementary Therapies in Medicine*] **A computer model of the “five elements” theory of traditional Chinese medicine** Historical anchor: A computer model of the “five elements” theory of traditional Chinese medicine. [[DOI](https://doi.org/10.1016/S0965-2299(98)80005-8)]
 
 ### 1987
 - [*Physica Scripta*] **Functional structure model of human body and Yinyang-Wuxing equations** Historical anchor: Functional structure model of human body and Yinyang-Wuxing equations. [[DOI](https://doi.org/10.1088/0031-8949/36/6/015)]
 
 ### 1985
-- [*Fuzzy Sets and Systems*; 90052-1)*] **Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic** Historical anchor: Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic. [[DOI](https://doi.org/10.1016/0165-0114(85)]
+- [*Fuzzy Sets and Systems*] **Fuzzy match and floating threshold strategy for expert system in traditional Chinese medicine** Historical anchor: Fuzzy match and floating threshold strategy for expert systems in traditional Chinese medicine. [[DOI](https://doi.org/10.1016/0165-0114(85)90052-1)]
 
 ### 1979
-- [*医院史料：*] **关幼波肝病诊疗程序（肝病专家系统）** Historical anchor: 关幼波肝病诊疗程序（肝病专家系统）. [[Link](https://www.bjzhongyi.com/gzb_mygs_detail/4656.html)]
+- [*Hospital historical archive*] **Guan Youbo liver-disease diagnosis and treatment program** Historical anchor: an early computer-based expert system encoding renowned TCM physician Guan Youbo's approach to liver disease. [[Link](https://www.bjzhongyi.com/gzb_mygs_detail/4656.html)]
 
 ### 1973
-- [*Computers and Biomedical Research*; 90029-3)*] **An artificial intelligence program to advise physicians regarding antimicrobial therapy** Historical anchor: An artificial intelligence program to advise physicians regarding antimicrobial therapy. [[DOI](https://doi.org/10.1016/0010-4809(73)]
+- [*Computers and Biomedical Research*] **An artificial intelligence program to advise physicians regarding antimicrobial therapy** Historical anchor: An artificial intelligence program to advise physicians regarding antimicrobial therapy. [[DOI](https://doi.org/10.1016/0010-4809(73)90029-3)]
 
 ## 📑 Surveys
 - [*Chinese Medicine*] **Han et al. 2026: LLM 在中医中的调优与临床应用（Scoping Review）** PRISMA-ScR scoping review (27 studies to 2025-05) on tuning (LoRA/CPT/RAG) and clinical application of TCM LLMs. [[DOI](https://doi.org/10.1186/s13020-026-01346-8)]
@@ -304,7 +312,7 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 - [*Journal of Integrative Medicine*] **Deep learning in TCM（J Integr Med）** Single-technology review of deep learning in TCM: medical imaging, herbal material research, data mining (J. Integr. Med. 2026;24(4):471-480). [[DOI](https://doi.org/10.1016/j.joim.2026.03.001)]
 - [*Journal of Integrative Medicine*] **AI empowers the innovation of TCM（J Integr Med 评论）** Single-author perspective on AI for TCM innovation: classics mining, diagnosis standardization, drug R&D cycles (J. Integr. Med. 2026). [[DOI](https://doi.org/10.1016/j.joim.2026.05.004)]
 - [*Chinese Medicine and Culture*] **AI and Big Data in TCM Standardization and Internationalization（Chin Med Cult）** Perspective on AI and big data for TCM standardization and internationalization (Chin. Med. Cult. 2026, ahead of print). [[DOI](https://doi.org/10.1097/mc9.0000000000000203)]
-- [*中华中医药学刊*] **人工智能赋能中医数字化诊断：现状与挑战（中华中医药学刊）** Short Chinese review of AI-empowered digital TCM diagnosis: applications, data-quality, interpretability, and theory-integration challenges (bibliographic record only).
+- [*中华中医药学刊*] **人工智能赋能中医数字化诊断：现状与挑战（中华中医药学刊）** Short Chinese review of AI-empowered digital TCM diagnosis: applications, data-quality, interpretability, and theory-integration challenges (bibliographic record only). [[DOI](https://doi.org/10.13193/j.issn.1673-7717.2026.01.004)]
 - [*ACL 2026*] **LLM-Based Multi-Agent Systems for Clinical Workflows（ACL 2026，邻近）** Adjacent ACL 2026 survey of workflow-level multi-agent clinical systems with a four-layer evaluation stack; no TCM coverage but methodologically isomorphic process-evaluation claims. [[DOI](https://doi.org/10.18653/v1/2026.acl-long.2123)]
 - [*Journal of Evidence-Based Medicine*] **Ren et al. 2025: 中医大语言模型（Scoping Review）** Arksey-O'Malley scoping review (29 studies to 2024-04) covering knowledge management, assisted care, and exam accuracy. [[DOI](https://doi.org/10.1111/jebm.12658)]
 - [*Acupuncture and Herbal Medicine*] **Chen et al. 2025: 中医大语言模型系统综述** Systematic review of 10 studies (to mid-2024) on LLMs in TCM generative tasks. [[DOI](https://doi.org/10.1097/HM9.0000000000000143)]
@@ -317,7 +325,7 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 - [*Journal of Pharmaceutical Analysis*] **The integration of machine learning into TCM（J Pharm Anal）** Review of machine-learning integration into TCM along diagnostic objectification and mechanism-elucidation lines (J. Pharm. Anal. 2025;15(8):101157). [[DOI](https://doi.org/10.1016/j.jpha.2024.101157)]
 - [*Chinese Medicine*] **古籍知识图谱×多智能体融合综述（Chin Med）** Challenges-and-prospects review of knowledge-graph construction over ancient TCM classics, first to frame multi-agent convergence in this area (Chin. Med. 2025;20:168). [[DOI](https://doi.org/10.1186/s13020-025-01226-7)]
 - [*Current Medical Science*] **AI for Spleen-Stomach Disorders in TCM（Curr Med Sci）** Single-disease-area (spleen-stomach) review of KG plus intelligent diagnosis/treatment with a symptom-syndrome-disease-formula framework (Curr. Med. Sci. 2025;45(6)). [[DOI](https://doi.org/10.1007/s11596-025-00128-x)]
-- [*中华中医药学刊*] **人工智能实现中医四诊的发展现状、问题及解决路径（中华中医药学刊）** Short Chinese review of AI-based four-diagnosis objectification: face/tongue acquisition, electronic nose, pulse sensing, and low fusion of multi-diagnosis data (bibliographic record only).
+- [*中华中医药学刊*] **人工智能实现中医四诊的发展现状、问题及解决路径（中华中医药学刊）** Short Chinese review of AI-based four-diagnosis objectification: face/tongue acquisition, electronic nose, pulse sensing, and low fusion of multi-diagnosis data (bibliographic record only). [[Paper](https://www.sinomed.ac.cn/article.do?ui=2026106036)]
 - [*Healthcare*] **Intelligent Question-Answering Systems in Healthcare（Healthcare，邻近）** Adjacent review (not TCM-specific): 2018-2025 healthcare QA survey with CiteSpace bibliometrics, explicitly covering TCM formula-development scenarios (Healthcare 2025). [[DOI](https://doi.org/10.3390/healthcare13182269)]
 - [*智能系统学报*] **医疗领域的大型语言模型综述（智能系统学报，邻近）** Adjacent Chinese general survey of medical LLMs (training pipeline, strategies, scenarios, challenges), a superset-context reference for TCM LLM surveys. [[DOI](https://doi.org/10.11992/tis.202405003)]
 - [*智能系统学报*] **医学大语言模型的研发与应用系统综述（智能系统学报，邻近）** Adjacent systematic review of 129 medical-domain LLMs (to 2024-06) and four clinical application categories; methodologically comparable search protocol. [[DOI](https://doi.org/10.11992/tis.202410020)]
@@ -398,5 +406,13 @@ Curated open resources for Traditional Chinese Medicine (and related Chinese med
 - Baize [[Model](https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model)] [[8B-16bit](https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model-V3-16bit)]
 - ZhiFangDanTai [[Model](https://huggingface.co/tczzx6/ZhiFangDanTai1.0)]
 
-### 语料/指令
+### Corpora / instructions
 - HSQ-TD（健身气功指令微调数据集） [[Dataset](https://doi.org/10.57760/sciencedb.35843)]
+
+## Contributing
+
+See the [contribution guide](CONTRIBUTING.md). Edit the catalog and matching English localization, then run the generation and validation commands before opening a PR.
+
+## Citation and license
+
+Citation metadata is available in [`CITATION.cff`](CITATION.cff). Repository code and curation are provided under the [MIT License](LICENSE); third-party papers, models, and datasets retain their own licenses.

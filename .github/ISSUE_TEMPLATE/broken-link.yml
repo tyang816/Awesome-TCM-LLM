@@ -1,0 +1,36 @@
+name: 失效链接或数据纠错
+description: 报告打不开、指向错误或条目信息不准确的问题
+title: "[Data] "
+labels: ["bug"]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: 条目名称或 ID
+      placeholder: 例如 hist-1998-a-computer-model-of-the-five
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 当前链接
+      placeholder: https://...
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请说明 HTTP 状态、错误内容或不准确的字段。
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: 建议的权威来源或修正值
+      placeholder: 官方期刊、DOI、项目仓库或机构页面
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 确认
+      options:
+        - label: 我已检查这不是临时网络错误或验证码页面
+          required: true

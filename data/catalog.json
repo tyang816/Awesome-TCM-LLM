@@ -6,10 +6,10 @@
     "description_en": "Curated open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs.",
     "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
     "portal_url": "https://tyang816.github.io/projects/tcm/",
-    "updated_at": "2026-08-02",
+    "updated_at": "2026-08-08",
     "catalog_version": 1
   },
-  "updated_at": "2026-08-02",
+  "updated_at": "2026-08-08",
   "items": [
     {
       "id": "news-202607-15",
@@ -421,7 +421,7 @@
     },
     {
       "id": "news-202403-14",
-      "name": "华东师范大学、上海中医药大学、华东理工大学、海军军医大学、临港实验室、华润江中现",
+      "name": "数智岐黄中医药大模型发布",
       "type": "news",
       "year": 2024,
       "date": "2024.03",
@@ -429,7 +429,9 @@
       "tags": [
         "product"
       ],
-      "links": {},
+      "links": {
+        "链接": "https://pharm.ecnu.edu.cn/08/27/c43775a657447/page.htm"
+      },
       "status": "published",
       "verified_at": "2026-07-19"
     },
@@ -4453,8 +4455,9 @@
         "syndrome"
       ],
       "links": {
-        "DOI": "https://doi.org/10.3724/j.pibb.2026.0141"
+        "论文": "https://www.pibb.ac.cn/pibbcn/article/abstract/20260141"
       },
+      "doi": "10.3724/j.pibb.2026.0141",
       "type": "resource",
       "status": "published",
       "verified_at": "2026-08-03",
@@ -4727,7 +4730,9 @@
       "tags": [
         "survey"
       ],
-      "links": {},
+      "links": {
+        "DOI": "https://doi.org/10.13193/j.issn.1673-7717.2026.01.004"
+      },
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
@@ -4742,7 +4747,9 @@
         "survey",
         "multimodal"
       ],
-      "links": {},
+      "links": {
+        "论文": "https://www.sinomed.ac.cn/article.do?ui=2026106036"
+      },
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
@@ -4901,7 +4908,7 @@
     {
       "id": "hist-1998-a-computer-model-of-the-five",
       "links": {
-        "DOI": "https://doi.org/10.1016/S0965-2299(98"
+        "DOI": "https://doi.org/10.1016/S0965-2299(98)80005-8"
       },
       "name": "A computer model of the “five elements” theory of traditional Chinese medicine",
       "status": "published",
@@ -4910,7 +4917,7 @@
         "history"
       ],
       "type": "resource",
-      "venue": "Complementary Therapies in Medicine*; 80005-8)",
+      "venue": "Complementary Therapies in Medicine",
       "verified_at": "2026-08-08",
       "year": 1998
     },
@@ -4997,7 +5004,7 @@
     {
       "id": "hist-1973-an-artificial-intelligence-p",
       "links": {
-        "DOI": "https://doi.org/10.1016/0010-4809(73"
+        "DOI": "https://doi.org/10.1016/0010-4809(73)90029-3"
       },
       "name": "An artificial intelligence program to advise physicians regarding antimicrobial therapy",
       "status": "published",
@@ -5006,7 +5013,7 @@
         "history"
       ],
       "type": "resource",
-      "venue": "Computers and Biomedical Research*; 90029-3)",
+      "venue": "Computers and Biomedical Research",
       "verified_at": "2026-08-08",
       "year": 1973
     },
@@ -5029,16 +5036,16 @@
     {
       "id": "hist-1985-fuzzy-match-and-floating-thr",
       "links": {
-        "DOI": "https://doi.org/10.1016/0165-0114(85"
+        "DOI": "https://doi.org/10.1016/0165-0114(85)90052-1"
       },
-      "name": "Fuzzy match and floating threshold strategy for expert system in traditional Chinese medic",
+      "name": "Fuzzy match and floating threshold strategy for expert system in traditional Chinese medicine",
       "status": "published",
       "summary_zh": "模糊匹配+浮动阈值，把不确定性引入中医辨证专家系统。",
       "tags": [
         "history"
       ],
       "type": "resource",
-      "venue": "Fuzzy Sets and Systems*; 90052-1)",
+      "venue": "Fuzzy Sets and Systems",
       "verified_at": "2026-08-08",
       "year": 1985
     },

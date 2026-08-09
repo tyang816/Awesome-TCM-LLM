@@ -2,11 +2,11 @@
 .claude/
 .cursor/
 
-# GitHub metadata (keep local; do not publish)
-.github/
-
 # Survey working drafts (paper vs repo dual-track; not part of the catalog)
 survey/
+
+# Historical seed output (not the live catalog)
+data/catalog.seed.yml
 
 # Editors / OS
 .vscode/

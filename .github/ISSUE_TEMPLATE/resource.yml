@@ -1,7 +1,7 @@
 name: 推荐资源
 description: 建议新增中医/中文医疗大模型相关新闻、论文、模型或数据集
 title: "[Resource] "
-labels: ["resource"]
+labels: ["enhancement"]
 body:
   - type: input
     id: name
@@ -53,3 +53,12 @@ body:
     attributes:
       label: 备注
       description: 与现有条目的关系、机构信息等
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已确认名称、年份与来源页面一致
+          required: true
+        - label: 我已说明论文、代码、模型权重和数据集分别开放到什么程度
+          required: true

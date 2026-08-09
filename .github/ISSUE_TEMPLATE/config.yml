@@ -1,7 +1,7 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: 浏览网页门户
-    url: https://tyang816.github.io/tcm/
+    url: https://tyang816.github.io/projects/tcm/
     about: 筛选与搜索中医大模型资源（与 README 同源）
   - name: 作者中文主页
     url: https://tyang816.github.io/zh/

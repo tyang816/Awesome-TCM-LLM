@@ -35,6 +35,7 @@ DATASET_SECTION_ORDER_ZH = [
     "指令/对话数据集",
     "知识图谱",
     "Hugging Face 开源模型（精选）",
+    "语料/指令",
 ]
 
 SECTION_EN = {
@@ -45,6 +46,7 @@ SECTION_EN = {
     "指令/对话数据集": "Instruction / dialogue datasets",
     "知识图谱": "Knowledge graphs",
     "Hugging Face 开源模型（精选）": "Hugging Face models (selected)",
+    "语料/指令": "Corpora / instructions",
     "其他": "Other",
 }
 
@@ -90,7 +92,7 @@ def apply_i18n(entry: dict, i18n: dict) -> dict:
     patch = i18n.get(entry.get("id")) or {}
     if isinstance(patch, str):
         patch = {"summary_en": patch}
-    for key in ("summary_en", "title_en", "name_en"):
+    for key in ("summary_en", "title_en", "name_en", "venue_en"):
         if patch.get(key) and not out.get(key):
             out[key] = patch[key]
     if patch.get("orgs_en"):
@@ -128,8 +130,10 @@ def entry_blurb(entry: dict, lang: str) -> str:
 
 def format_resource_line(entry: dict, lang: str) -> str:
     bits = ["-"]
-    if entry.get("venue"):
-        bits.append(f"[*{entry['venue']}*]")
+    venue = entry.get("venue_en") if lang == "en" else None
+    venue = venue or entry.get("venue")
+    if venue:
+        bits.append(f"[*{venue}*]")
     display_name = entry.get("name_en") if lang == "en" else None
     bits.append(f"**{display_name or entry['name']}**")
     blurb = entry_blurb(entry, lang)
@@ -200,6 +204,14 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             "",
             "> 项目页支持标签筛选与搜索，数据与本 README 同源（`data/catalog.yml`）。",
             "",
+            "## 收录说明",
+            "",
+            "- 以中医药大模型、数据集、评测、知识图谱及相关研究为主；通用医疗条目使用 `general-medical` 标签标识。",
+            "- “论文公开”“代码开源”“开放权重”和“数据开放”是不同状态；请以每个条目实际提供的链接为准。",
+            "- 新闻和产品条目仅记录公开信息，收录不代表项目维护者对其效果、安全性或临床适用性的认可。",
+            "",
+            "> **医疗免责声明：** 本目录仅用于研究与信息索引，不构成医疗建议、诊断或治疗依据。临床使用须由合格专业人员独立评估。",
+            "",
             "## 📰 新闻",
         ]
         res_h, data_h = "## 📚 资源", "## 📚 数据集"
@@ -217,6 +229,14 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             f"[Author site (EN)]({SITE_EN}) · [Author site (ZH)]({SITE_ZH})",
             "",
             "> The project page supports search and tag filters. Data is sourced from the same `data/catalog.yml` as this README. English blurbs live in `data/i18n_en.yml`.",
+            "",
+            "## Inclusion and safety",
+            "",
+            "- The primary scope is TCM LLMs, datasets, benchmarks, knowledge graphs, and related research; broader medical entries carry the `general-medical` tag.",
+            "- Paper availability, open-source code, open weights, and open datasets are distinct. Refer to the links attached to each entry.",
+            "- News and product entries document public claims only; inclusion is not an endorsement of efficacy, safety, or clinical readiness.",
+            "",
+            "> **Medical disclaimer:** This catalog is for research and information discovery only. It is not medical advice and must not be used as a substitute for professional diagnosis or treatment.",
             "",
             "## 📰 News",
         ]
@@ -292,6 +312,28 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
                 item_title = entry.get("title_zh") or entry["name"]
             lines.append(f"- {item_title}{format_links(entry.get('links'), lang)}")
 
+    if lang == "zh":
+        lines += [
+            "",
+            "## 参与贡献",
+            "",
+            "请阅读 [贡献指南](CONTRIBUTING.md)。新增或修改条目时只编辑 `data/catalog.yml` 与对应英文翻译，再运行生成与校验脚本。",
+            "",
+            "## 引用与许可",
+            "",
+            "引用信息见 [`CITATION.cff`](CITATION.cff)。仓库代码与整理内容采用 [MIT License](LICENSE)。第三方论文、模型和数据仍受各自许可约束。",
+        ]
+    else:
+        lines += [
+            "",
+            "## Contributing",
+            "",
+            "See the [contribution guide](CONTRIBUTING.md). Edit the catalog and matching English localization, then run the generation and validation commands before opening a PR.",
+            "",
+            "## Citation and license",
+            "",
+            "Citation metadata is available in [`CITATION.cff`](CITATION.cff). Repository code and curation are provided under the [MIT License](LICENSE); third-party papers, models, and datasets retain their own licenses.",
+        ]
     lines.append("")
     return "\n".join(lines)
 
@@ -302,9 +344,13 @@ def export_json(catalog: dict) -> dict:
         for i in catalog.get("items", [])
         if i.get("status", "published") == "published" and i.get("verified_at")
     ]
+    meta = dict(catalog.get("meta") or {})
+    latest_verified = max((str(i.get("verified_at")) for i in items), default=None)
+    if latest_verified:
+        meta["updated_at"] = latest_verified
     return {
-        "meta": catalog.get("meta", {}),
-        "updated_at": (catalog.get("meta") or {}).get("updated_at"),
+        "meta": meta,
+        "updated_at": meta.get("updated_at"),
         "items": items,
     }
 

@@ -1,0 +1,24 @@
+name: 功能或维护建议
+description: 建议改进目录结构、自动化、文档或贡献流程
+title: "[Enhancement] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题
+      description: 请说明当前行为、影响范围以及为什么值得改进。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 如有可能，请给出字段、流程或界面的具体变化。
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      placeholder: 完成后应满足哪些可验证条件？
