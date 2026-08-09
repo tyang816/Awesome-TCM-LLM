@@ -5551,6 +5551,55 @@
       "venue": "Lv Q et al., *Signal Transduct Target Ther* 8(1):127",
       "verified_at": "2026-08-08",
       "year": 2023
+    },
+    {
+      "id": "surv-mahaswetha2026-prmcm",
+      "name": "AI in TCM: multimodal data to pharmacology and clinical decision（PRMCM 综述）",
+      "year": 2026,
+      "summary_zh": "宽口径 AI×TCM 英文综述：多模态数据整合→药理研究→临床决策支持（Pharmacol Res Mod Chin Med 2026；第三轮扫描新发现，无基准矩阵/开源编目/历史谱系）",
+      "tags": [
+        "survey",
+        "multimodal"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.prmcm.2026.100842"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-08",
+      "venue": "Pharmacological Research - Modern Chinese Medicine"
+    },
+    {
+      "id": "surv-cai-osf",
+      "name": "Cai R et al. TCM×LLM scoping review（OSF 预印本）",
+      "year": 2026,
+      "summary_zh": "OSF 平台中医×LLM 范围综述预印本（未经同行评议，存档用）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.17605/osf.io/2hyeq"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-08",
+      "venue": "OSF Preprints"
+    },
+    {
+      "id": "surv-cong-osf",
+      "name": "Cong H et al. TCM×LLM 综述（OSF 预印本）",
+      "year": 2026,
+      "summary_zh": "OSF 平台中医×LLM 综述预印本（未经同行评议，存档用）",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.17605/osf.io/5z367"
+      },
+      "type": "survey",
+      "status": "published",
+      "verified_at": "2026-08-08",
+      "venue": "OSF Preprints"
     }
   ]
 }

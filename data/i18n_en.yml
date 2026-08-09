@@ -912,3 +912,9 @@ hist-2023-etcm-v2-0:
   summary_en: "Historical anchor: ETCM v2.0."
 hist-2023-tcmbank:
   summary_en: "Historical anchor: TCMBank."
+surv-mahaswetha2026-prmcm:
+  summary_en: "Broad AI-in-TCM review from multimodal data integration to pharmacological research and clinical decision support (Pharmacol. Res. Mod. Chin. Med. 2026; found in the third-round scan)."
+surv-cai-osf:
+  summary_en: "OSF-preprint scoping review of LLMs in TCM (not peer-reviewed; archival)."
+surv-cong-osf:
+  summary_en: "OSF-preprint review of LLMs in TCM (not peer-reviewed; archival)."

@@ -306,6 +306,9 @@
 - [*Chinese Medicine and Culture*] **AI and Big Data in TCM Standardization and Internationalization（Chin Med Cult）** AI/大数据助力中医标准化与国际化评论（Chin Med Cult 2026, ahead of print） [[DOI](https://doi.org/10.1097/mc9.0000000000000203)]
 - [*中华中医药学刊*] **人工智能赋能中医数字化诊断：现状与挑战（中华中医药学刊）** 中文短篇综述：AI在海量数据处理、辅助诊断、疾病预测的应用现状与数据质量/可解释性/理论融合三挑战（北大核心，题录级）
 - [*ACL 2026*] **LLM-Based Multi-Agent Systems for Clinical Workflows（ACL 2026，邻近）** 工作流级多智能体综述+四层评测栈（safety/process/outcome/operations）；无TCM交集但过程评测主张方法学同构（邻近） [[DOI](https://doi.org/10.18653/v1/2026.acl-long.2123)]
+- [*Pharmacological Research - Modern Chinese Medicine*] **AI in TCM: multimodal data to pharmacology and clinical decision（PRMCM 综述）** 宽口径 AI×TCM 英文综述：多模态数据整合→药理研究→临床决策支持（Pharmacol Res Mod Chin Med 2026；第三轮扫描新发现，无基准矩阵/开源编目/历史谱系） [[DOI](https://doi.org/10.1016/j.prmcm.2026.100842)]
+- [*OSF Preprints*] **Cai R et al. TCM×LLM scoping review（OSF 预印本）** OSF 平台中医×LLM 范围综述预印本（未经同行评议，存档用） [[DOI](https://doi.org/10.17605/osf.io/2hyeq)]
+- [*OSF Preprints*] **Cong H et al. TCM×LLM 综述（OSF 预印本）** OSF 平台中医×LLM 综述预印本（未经同行评议，存档用） [[DOI](https://doi.org/10.17605/osf.io/5z367)]
 - [*Journal of Evidence-Based Medicine*] **Ren et al. 2025: 中医大语言模型（Scoping Review）** Arksey–O'Malley scoping review，纳入 29 篇（至 2024-04），覆盖知识管理、辅助诊疗与考试准确率 [[DOI](https://doi.org/10.1111/jebm.12658)]
 - [*Acupuncture and Herbal Medicine*] **Chen et al. 2025: 中医大语言模型系统综述** 系统综述，纳入 10 篇（至 2024 年中），聚焦生成任务证据 [[DOI](https://doi.org/10.1097/HM9.0000000000000143)]
 - [*Journal of Evidence-Based Medicine*] **Guo et al. 2025: GPT 能否加速中医智能诊疗（综述+实证）** 综述+实证分析，讨论 GPT 适配中医诊疗的挑战与幻觉问题 [[DOI](https://doi.org/10.1111/jebm.70004)]
