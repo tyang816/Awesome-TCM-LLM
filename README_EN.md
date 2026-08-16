@@ -4,33 +4,34 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)
 
-Curated TCM (and related Chinese medical) LLM resources. **27** news · **82** models · **47** surveys · **39** datasets · **127** papers. [Contribute](CONTRIBUTING.md).
+Models, data, benchmarks, and papers around TCM LLMs, plus a few general Chinese medical ones. Right now: 27 news items, 82 models, 47 surveys, 39 datasets, 127 method papers. [PRs welcome](CONTRIBUTING.md).
 
-[Project page](https://tyang816.github.io/projects/tcm/) · [Wiki](wiki/Home.md) · [Author site](https://tyang816.github.io/)
+[Project page](https://tyang816.github.io/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
-## Two-minute takeaway
+## Start here
 
-1. **About 12 TCM weights are actually downloadable** (open [Open models](#open-models)). Hospital/vendor models in the news usually are not baselines.
-2. **Since 2025 the main lines are multimodal, agents, and evaluation**—not another 7B chatbot. For inquiry workflows, start from Agent/RAG, not fine-tuning alone.
-3. **Exam scores ≠ pattern differentiation / clinic.** Licensing items test recall; TCM-Ladder / LingLan / MTCMB are closer to task eval.
+Only about 12 TCM checkpoints are actually public; they are under [Open models](#open-models). Hospital and company releases in the news usually ship no weights, so they make poor experimental baselines.
 
-| Goal | Take this first | Why |
+Since 2025 the interesting work has been multimodal models, agents, and evaluation—not another 7B chatbot. Licensing-exam scores measure recall, not whether a model can do pattern differentiation. For comparisons, TCM-Ladder, LingLan, and MTCMB are a better place to start.
+
+| If you want to… | Try | Note |
 | --- | --- | --- |
-| Reproduce on one GPU | **[BianCang](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct)** or **[仲景 (ZhongJing)](https://huggingface.co/CMLM/ZhongjingGPT1_13B)** | Paper + weights + code |
-| Tongue / four diagnoses | **[ShizhenGPT](https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni)** | Open Omni + data |
-| Train from data | **[ChatTCM](https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain)** / **[神农大模型 (ShenNong-TCM-LLM)](https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM)** | Pretrain or SFT released |
-| Small local run | **[Xinghe](https://huggingface.co/zsyjsld/Xinghe1.2-9B)** | 2026, 9B + GGUF |
-| Compare models | **[TCM-Ladder](https://arxiv.org/abs/2505.24063)**, **[LingLan](https://arxiv.org/abs/2602.01779)** | Clear tasks; more under [Datasets](#datasets) |
-| Write related work | 2025–2026 scoping reviews | Open [Surveys](#surveys) first |
+| Get a model running | **[BianCang](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct)**, **[仲景 (ZhongJing)](https://huggingface.co/CMLM/ZhongjingGPT1_13B)** | Paper, weights, and code |
+| Build TCM inquiry | **[MedChatZH](https://huggingface.co/tyang816/medchatzh)** | Comes with consult dialogues |
+| Tongue / four diagnoses | **[ShizhenGPT](https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni)** | Multimodal; weights and data are public |
+| Train further | **[ChatTCM](https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain)**, **[神农大模型 (ShenNong-TCM-LLM)](https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM)** | Pretrain or instruction data is released |
+| Stay small | **[Xinghe](https://huggingface.co/zsyjsld/Xinghe1.2-9B)** | 9B, GGUF available |
+| Run a comparison | **[TCM-Ladder](https://arxiv.org/abs/2505.24063)**, **[LingLan](https://arxiv.org/abs/2602.01779)** | Tasks are spelled out; more under [Datasets](#datasets) |
+| Write related work | Recent scoping reviews | Skim [Surveys](#surveys) before individual model papers |
 
-**Don’t mix:** two “ZhongJing” lines (ZhongJingGPT vs AAAI CMtMedQA); more than one “TCM-Eval”. See [wiki/Getting-Started](wiki/Getting-Started.md).
+Same name does not mean the same project. ZhongJingGPT is not the AAAI CMtMedQA line, and more than one benchmark is called TCM-Eval. [Getting Started](wiki/Getting-Started.md) if that is confusing.
 
 ## Open models
 
-The takeaway table is the starter set. Here is the full verified-weight list, plus paper/product and general-medical models.
+The table above is a shortlist. Expand the folds for every public checkpoint, paper-only or product models, and general Chinese medical LLMs people use as bases.
 
 <details>
-<summary>All open weights (12)</summary>
+<summary>Public weights (12)</summary>
 
 | Model | Year | Focus | Links |
 | --- | :---: | --- | --- |
@@ -50,7 +51,7 @@ The takeaway table is the starter set. Here is the full verified-weight list, pl
 </details>
 
 <details>
-<summary>All TCM models · paper/product (51)</summary>
+<summary>Paper or product only, no verified weights (51)</summary>
 
 <details>
 <summary>2026 · 12</summary>
@@ -131,7 +132,7 @@ The takeaway table is the starter set. Here is the full verified-weight list, pl
 </details>
 
 <details>
-<summary>General Chinese medical models · bases/baselines (7)</summary>
+<summary>General Chinese medical models, often used as bases (7)</summary>
 
 - [*ACM Trans. Knowl. Discov. Data*] **BenCao (formerly HuaTuo)** Instruction-tuned Chinese medical LLM (BenCao / formerly HuaTuo). [Harbin Institute of Technology] [[Paper](https://arxiv.org/pdf/2309.04175.pdf)] [[Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)]
 - **明医 (MING)** MING: a Chinese medical consultation LLM using a sparse mixture of low-rank adapter experts (MING-MoE) for medical multi-task learning (arXiv 2024). [[Paper](https://arxiv.org/abs/2404.09027)] [[Related MedCare](https://aclanthology.org/2024.findings-emnlp.619/)] [[Code](https://github.com/MediaBrain-SJTU/MING)]
@@ -144,7 +145,7 @@ The takeaway table is the starter set. Here is the full verified-weight list, pl
 </details>
 
 <details>
-<summary>Hugging Face extra sizes / GGUF (12)</summary>
+<summary>Other Hugging Face sizes and GGUF (12)</summary>
 
 - Xinghe [[Model](https://huggingface.co/zsyjsld/Xinghe1.2-9B)] [[GGUF](https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF)]
 - ZhiFangDanTai [[Model](https://huggingface.co/tczzx6/ZhiFangDanTai1.0)]
@@ -164,7 +165,7 @@ The takeaway table is the starter set. Here is the full verified-weight list, pl
 ## News
 
 <details>
-<summary>Open all (27) · latest: 华族本草 · 砭石云中医 · 七诊合参</summary>
+<summary>27 items; recent: 华族本草 · 砭石云中医 · 七诊合参</summary>
 
 <details>
 <summary>2026 · 8</summary>
@@ -223,7 +224,7 @@ The takeaway table is the starter set. Here is the full verified-weight list, pl
 ## Surveys
 
 <details>
-<summary>Open all (47) · by year</summary>
+<summary>47 surveys, grouped by year</summary>
 
 <details>
 <summary>2026 · 22</summary>
@@ -325,10 +326,10 @@ The takeaway table is the starter set. Here is the full verified-weight list, pl
 
 ## Papers
 
-Models are not listed here. Open one method fold; no need to read by year.
+Models are listed above. Open one topic; you do not have to read by year.
 
 <details>
-<summary>Agents (9) · 问诊工作流、多智能体、工具调用</summary>
+<summary>Agents (9) · 问诊流程、多智能体</summary>
 
 - **DeepTCM1.0** DeepTCM1.0: a multi-expert AI agent built on general LLMs for interpreting the mechanisms of TCM compound formulas (Research Square preprint). [[Preprint](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - **TCM-Agent** LLM multi-agent system for network pharmacology and herbal discovery. [[Paper](https://doi.org/10.1016/j.jpha.2026.101581)] [[Code](https://github.com/AITCM/TCM-Agent)]
@@ -343,7 +344,7 @@ Models are not listed here. Open one method fold; no need to read by year.
 </details>
 
 <details>
-<summary>Multimodal (4) · 舌、面、脉与多模态融合</summary>
+<summary>Multimodal (4) · 舌、面、脉</summary>
 
 - [*ICASSP 2025*] **Few-shot tongue-diagnosis in-context multitask learning** Few-shot in-context multitask fine-tuning of LLMs mapping tongue images directly to constitutions. [Northeastern University] [[DOI](https://doi.org/10.1109/ICASSP49660.2025.10887764)]
 - **TCDiff** Triplet cascaded diffusion model generating high-fidelity multimodal TCM EHRs, with the **TCM-SZ1** benchmark dataset. [[Paper](https://arxiv.org/abs/2508.01615)]
@@ -353,7 +354,7 @@ Models are not listed here. Open one method fold; no need to read by year.
 </details>
 
 <details>
-<summary>RAG / KG (25) · 检索增强、医案与方剂图谱</summary>
+<summary>RAG / knowledge graphs (25) · 检索和医案、方剂图谱</summary>
 
 <details>
 <summary>2026 · 5</summary>
@@ -408,7 +409,7 @@ Models are not listed here. Open one method fold; no need to read by year.
 </details>
 
 <details>
-<summary>Evaluation papers (38) · 基准与考试评估；下载评测集走「数据集」</summary>
+<summary>Evaluation (38) · 基准和考试；要下载评测集走下面「数据集」</summary>
 
 <details>
 <summary>2026 · 14</summary>
@@ -476,7 +477,7 @@ Models are not listed here. Open one method fold; no need to read by year.
 </details>
 
 <details>
-<summary>Other methods (7) · 处方、对齐、抽取等</summary>
+<summary>Other (7) · 处方、对齐、抽取之类</summary>
 
 - **Patient-Conditioned Dual Hypergraph Reasoning** Patient-conditioned dual-hypergraph reasoning for auditable TCM prescription support, organizing symptom/tongue/pulse evidence around patterns and treatment principles (Tianjin University). [[Paper](https://arxiv.org/abs/2607.04025)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** Beyond the Poetic Bard: a perspective on accuracy, epistemology, and medical-context limits of generative-AI translation of TCM texts (Translation Review). [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
@@ -489,7 +490,7 @@ Models are not listed here. Open one method fold; no need to read by year.
 </details>
 
 <details>
-<summary>Historical anchors (44) · LLM 之前：专家系统、舌脉、本体</summary>
+<summary>Before LLMs (44) · 专家系统、舌脉、本体</summary>
 
 <details>
 <summary>2020–2022 · 14</summary>
@@ -564,7 +565,7 @@ Models are not listed here. Open one method fold; no need to read by year.
 
 ## Datasets
 
-Open by use. Notes: [wiki/Datasets](wiki/Datasets.md) / [wiki/Benchmarks](wiki/Benchmarks.md).
+Grouped by use. For a longer note on benches, see [Datasets](wiki/Datasets.md) and [Benchmarks](wiki/Benchmarks.md).
 
 <details>
 <summary>Curated lists (2)</summary>
@@ -649,5 +650,5 @@ Open by use. Notes: [wiki/Datasets](wiki/Datasets.md) / [wiki/Benchmarks](wiki/B
 
 ---
 
-Search and tag filters: [project page](https://tyang816.github.io/projects/tcm/). Wiki: [Home](wiki/Home.md) · [Getting Started](wiki/Getting-Started.md) · [Taxonomy](wiki/Taxonomy.md).
-Edit `data/catalog.yml`, then `python3 scripts/build_readme.py` (do not hand-edit this README).
+Search and filter by tag on the [project page](https://tyang816.github.io/projects/tcm/). Longer notes live in the [wiki](wiki/Home.md).
+Add entries in `data/catalog.yml` and run `python3 scripts/build_readme.py`. Do not edit this README by hand.

@@ -4,33 +4,34 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)
 
-中医（及部分中文医疗）大模型资源清单。**27** 新闻 · **82** 模型 · **47** 综述 · **39** 数据集 · **127** 论文/方法。欢迎 [贡献](CONTRIBUTING.md)。
+收集中医大模型相关的模型、数据、评测和论文，也带一点通用中文医疗。现在大概有 27 条新闻、82 个模型、47 篇综述、39 个数据集、127 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。
 
-[项目页](https://tyang816.github.io/projects/tcm/) · [中文项目页](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [作者主页](https://tyang816.github.io/zh/)
+[项目页](https://tyang816.github.io/projects/tcm/) · [中文项目页](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [主页](https://tyang816.github.io/zh/)
 
-## 两分钟带走
+## 先看这里
 
-1. **能复现的中医权重大约 12 个**（点开[开源模型](#开源模型)）。新闻里的医院/公司大模型多数下不了，不要当实验底座。
-2. **2025 之后主线是多模态、Agent、评测**，不是再训一个 7B 问答模型。问诊工作流优先看 Agent / RAG，不要只 fine-tune。
-3. **考试分 ≠ 辨证/临床。** 执业试题测回忆；TCM-Ladder / LingLan / MTCMB 才接近任务评测。
+真能下载复现的中医权重大概 12 个，都在[开源模型](#开源模型)里。新闻里医院、公司发的，多数没有公开权重，当不了实验底座。
 
-| 目标 | 先带走 | 为什么 |
+2025 年以后，多模态、Agent 和评测明显变多；再单独训一个 7B 问答，往往不够。执业考试分数测的是回忆，不能当成辨证或临床能力——要比的话看 TCM-Ladder、LingLan、MTCMB。
+
+| 你想做什么 | 可以先看 | 备注 |
 | --- | --- | --- |
-| 单卡复现 | **[扁仓 (BianCang)](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct)** 或 **[仲景 (ZhongJing)](https://huggingface.co/CMLM/ZhongjingGPT1_13B)** | 论文 + 权重 + 代码齐 |
-| 舌诊 / 四诊 | **[ShizhenGPT](https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni)** | Omni 开源，有配套数据 |
-| 从数据训起 | **[ChatTCM](https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain)** / **[神农大模型 (ShenNong-TCM-LLM)](https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM)** | 预训练或指令数据公开 |
-| 轻量本地跑 | **[杏核 (Xinghe)](https://huggingface.co/zsyjsld/Xinghe1.2-9B)** | 2026，9B + GGUF |
-| 做对比实验 | **[TCM-Ladder](https://arxiv.org/abs/2505.24063)**、**[灵兰秘典 (LingLan)](https://arxiv.org/abs/2602.01779)** | 任务定义清楚；更多在[数据集](#数据集) |
-| 写相关工作 | 2025–2026 scoping review | 先打开[综述](#综述)，不要从单篇模型论文起 |
+| 本机跑通一个模型 | **[扁仓 (BianCang)](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct)**、**[仲景 (ZhongJing)](https://huggingface.co/CMLM/ZhongjingGPT1_13B)** | 论文、权重、代码都有 |
+| 做中医问诊 | **[MedChatZH](https://huggingface.co/tyang816/medchatzh)** | 还有配套问诊数据 |
+| 舌诊、四诊 | **[ShizhenGPT](https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni)** | 多模态，数据和权重都开 |
+| 自己接着训 | **[ChatTCM](https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain)**、**[神农大模型 (ShenNong-TCM-LLM)](https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM)** | 预训练或指令数据是公开的 |
+| 电脑比较一般 | **[杏核 (Xinghe)](https://huggingface.co/zsyjsld/Xinghe1.2-9B)** | 9B，有 GGUF |
+| 做对比实验 | **[TCM-Ladder](https://arxiv.org/abs/2505.24063)**、**[灵兰秘典 (LingLan)](https://arxiv.org/abs/2602.01779)** | 任务说得比较清楚；更多在[数据集](#数据集) |
+| 写相关工作 | 近两年的 scoping review | 先翻[综述](#综述)，别从单篇模型论文起 |
 
-**别混：** 「仲景」有 ZhongJingGPT 与 AAAI CMtMedQA 两条线；名叫 TCM-Eval 的也不止一套。详解 [wiki/Getting-Started](wiki/Getting-Started.md)。
+同名不一定是同一个东西。「仲景」至少有 ZhongJingGPT 和 AAAI 那条 CMtMedQA；TCM-Eval 也不止一套。说不清时看 [Getting Started](wiki/Getting-Started.md)。
 
 ## 开源模型
 
-上表是起步选择。这里是已核验可下载权重全集，以及论文/产品向与通用医疗底座。
+上面是起步用的。要翻全部能下的权重，或只有论文/产品、以及常被拿来当底座的通用中文医疗模型，点开即可。
 
 <details>
-<summary>全部开源权重（12）</summary>
+<summary>能下载的权重，共 12 个</summary>
 
 | 模型 | 年 | 特色 | 链接 |
 | --- | :---: | --- | --- |
@@ -50,7 +51,7 @@
 </details>
 
 <details>
-<summary>全部中医模型 · 论文/产品向（51）</summary>
+<summary>只有论文或产品、没有核验权重的（51）</summary>
 
 <details>
 <summary>2026 · 12</summary>
@@ -131,7 +132,7 @@
 </details>
 
 <details>
-<summary>通用中文医疗模型 · 常作底座或对照（7）</summary>
+<summary>通用中文医疗模型，常当底座或对照（7）</summary>
 
 - [*ACM Trans. Knowl. Discov. Data*] **本草[原名：华驼(HuaTuo)]** 基于中文医学知识的大语言模型指令微调 [哈尔滨工业大学] [[论文](https://arxiv.org/pdf/2309.04175.pdf)] [[代码](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)]
 - **明医 (MING)** 中文医疗问诊大模型 MING，以稀疏 LoRA 混合专家（MING-MoE）增强医疗多任务学习能力（arXiv 2024） [上海交通大学] [[论文](https://arxiv.org/abs/2404.09027)] [[相关 MedCare](https://aclanthology.org/2024.findings-emnlp.619/)] [[代码](https://github.com/MediaBrain-SJTU/MING)]
@@ -144,7 +145,7 @@
 </details>
 
 <details>
-<summary>Hugging Face 多尺寸 / GGUF（12）</summary>
+<summary>Hugging Face 上的其他尺寸和 GGUF（12）</summary>
 
 - 杏核内经推理模型 [[模型](https://huggingface.co/zsyjsld/Xinghe1.2-9B)] [[GGUF](https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF)]
 - 知方丹台方剂生成模型 [[模型](https://huggingface.co/tczzx6/ZhiFangDanTai1.0)]
@@ -164,7 +165,7 @@
 ## 新闻
 
 <details>
-<summary>打开全部（27）· 最新：华族本草 · 砭石云中医 · 七诊合参</summary>
+<summary>27 条，最近有：华族本草 · 砭石云中医 · 七诊合参</summary>
 
 <details>
 <summary>2026 · 8</summary>
@@ -223,7 +224,7 @@
 ## 综述
 
 <details>
-<summary>打开全部（47）· 按年</summary>
+<summary>47 篇，按年收着</summary>
 
 <details>
 <summary>2026 · 22</summary>
@@ -325,10 +326,10 @@
 
 ## 论文
 
-模型不在这里。按方法点开一栏即可，不必按年份通读。
+模型已经分出去了。按题目点开一栏就行，不用按年份通读。
 
 <details>
-<summary>Agent / 智能体（9）· 问诊工作流、多智能体、工具调用</summary>
+<summary>Agent（9）· 问诊流程、多智能体</summary>
 
 - **DeepTCM1.0** 基于通用LLM的多专家AI Agent，解析中药复方作用机制（Research Square预印本） [[预印本](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - **TCM-Agent** 面向网络药理学与中药发现的 LLM 多智能体系统 [[论文](https://doi.org/10.1016/j.jpha.2026.101581)] [[代码](https://github.com/AITCM/TCM-Agent)]
@@ -343,7 +344,7 @@
 </details>
 
 <details>
-<summary>多模态 / 四诊（4）· 舌、面、脉与多模态融合</summary>
+<summary>多模态 / 四诊（4）· 舌、面、脉</summary>
 
 - [*ICASSP 2025*] **少样本舌诊上下文多任务微调** 舌象到体质直接判别的少样本上下文多任务LLM微调方法 [东北大学] [[DOI](https://doi.org/10.1109/ICASSP49660.2025.10887764)]
 - **TCDiff** 三联级联扩散模型生成高保真多模态中医EHR，并构建**TCM-SZ1**基准数据集 [[论文](https://arxiv.org/abs/2508.01615)]
@@ -353,7 +354,7 @@
 </details>
 
 <details>
-<summary>RAG / 知识图谱（25）· 检索增强、医案与方剂图谱</summary>
+<summary>RAG / 知识图谱（25）· 检索和医案、方剂图谱</summary>
 
 <details>
 <summary>2026 · 5</summary>
@@ -408,7 +409,7 @@
 </details>
 
 <details>
-<summary>评测论文（38）· 基准与考试评估；下载评测集走「数据集」</summary>
+<summary>评测论文（38）· 基准和考试；要下载评测集走下面「数据集」</summary>
 
 <details>
 <summary>2026 · 14</summary>
@@ -476,7 +477,7 @@
 </details>
 
 <details>
-<summary>其他方法（7）· 处方、对齐、抽取等</summary>
+<summary>其他（7）· 处方、对齐、抽取之类</summary>
 
 - **Patient-Conditioned Dual Hypergraph Reasoning** 患者条件化双超图推理实现可审计的中医处方支持，将症状/舌/脉证据围绕证型与治则组织（天津大学） [[论文](https://arxiv.org/abs/2607.04025)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** 讨论生成式AI翻译中医文本的精确性、认识论与医学语境局限（Translation Review） [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
@@ -489,7 +490,7 @@
 </details>
 
 <details>
-<summary>历史锚点（44）· LLM 之前：专家系统、舌脉、本体</summary>
+<summary>更早的工作（44）· 专家系统、舌脉、本体</summary>
 
 <details>
 <summary>2020–2022 · 14</summary>
@@ -564,7 +565,7 @@
 
 ## 数据集
 
-按用途点开。对照说明见 [wiki/Datasets](wiki/Datasets.md) / [wiki/Benchmarks](wiki/Benchmarks.md)。
+按用途点开。想对一下评测集，看 [Datasets](wiki/Datasets.md) 和 [Benchmarks](wiki/Benchmarks.md)。
 
 <details>
 <summary>公开资料整理（2）</summary>
@@ -649,5 +650,5 @@
 
 ---
 
-检索与标签筛选用[项目页](https://tyang816.github.io/zh/projects/tcm/)。Wiki：[Home](wiki/Home.md) · [Getting Started](wiki/Getting-Started.md) · [Taxonomy](wiki/Taxonomy.md)。
-改条目请编辑 `data/catalog.yml`，然后 `python3 scripts/build_readme.py`（不要手改本 README）。
+要搜索或按标签筛，用[项目页](https://tyang816.github.io/zh/projects/tcm/)。说明写在 [Wiki](wiki/Home.md)。
+改条目请编辑 `data/catalog.yml`，再运行 `python3 scripts/build_readme.py`，不要直接改这个 README。

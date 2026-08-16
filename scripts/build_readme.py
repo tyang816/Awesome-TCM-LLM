@@ -444,19 +444,15 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
     return buckets
 
 
-def counts_line(buckets: dict[str, list[dict]], lang: str) -> str:
-    n_models = len(buckets["model_tcm"]) + len(buckets["model_general"]) + len(buckets["model_hf"])
-    n_papers = sum(len(buckets[k]) for k in ("agent", "multimodal", "rag_kg", "eval", "method", "history"))
-    stats = [
-        (len(buckets["news"]), "新闻", "news"),
-        (n_models, "模型", "models"),
-        (len(buckets["survey"]), "综述", "surveys"),
-        (len(buckets["dataset"]), "数据集", "datasets"),
-        (n_papers, "论文/方法", "papers"),
-    ]
-    if lang == "zh":
-        return " · ".join(f"**{n}** {label}" for n, label, _ in stats)
-    return " · ".join(f"**{n}** {en}" for n, _, en in stats)
+def count_pack(buckets: dict[str, list[dict]]) -> dict[str, int]:
+    return {
+        "news": len(buckets["news"]),
+        "models": len(buckets["model_tcm"]) + len(buckets["model_general"]) + len(buckets["model_hf"]),
+        "surveys": len(buckets["survey"]),
+        "datasets": len(buckets["dataset"]),
+        "papers": sum(len(buckets[k]) for k in ("agent", "multimodal", "rag_kg", "eval", "method", "history")),
+        "open": sum(1 for e in buckets["model_tcm"] if is_open_weights(e)),
+    }
 
 
 def catalog_index(buckets: dict[str, list[dict]]) -> dict[str, dict]:
@@ -478,9 +474,10 @@ def takeaway_link(entry: dict | None, lang: str) -> str:
 
 def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
     idx = catalog_index(buckets)
-    n_open = sum(1 for e in buckets["model_tcm"] if is_open_weights(e))
+    n_open = count_pack(buckets)["open"]
     biancang = takeaway_link(idx.get("biancang"), lang)
     zhongjing = takeaway_link(idx.get("zhongjing"), lang)
+    medchatzh = takeaway_link(idx.get("medchatzh"), lang)
     shizhen = takeaway_link(idx.get("shizhengpt"), lang)
     chattcm = takeaway_link(idx.get("chattcm"), lang)
     shennong = takeaway_link(idx.get("shennong-tcm-llm"), lang)
@@ -490,41 +487,43 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
 
     if lang == "zh":
         return [
-            "## 两分钟带走",
+            "## 先看这里",
             "",
-            f"1. **能复现的中医权重大约 {n_open} 个**（点开[开源模型](#开源模型)）。新闻里的医院/公司大模型多数下不了，不要当实验底座。",
-            "2. **2025 之后主线是多模态、Agent、评测**，不是再训一个 7B 问答模型。问诊工作流优先看 Agent / RAG，不要只 fine-tune。",
-            "3. **考试分 ≠ 辨证/临床。** 执业试题测回忆；TCM-Ladder / LingLan / MTCMB 才接近任务评测。",
+            f"真能下载复现的中医权重大概 {n_open} 个，都在[开源模型](#开源模型)里。新闻里医院、公司发的，多数没有公开权重，当不了实验底座。",
             "",
-            "| 目标 | 先带走 | 为什么 |",
+            "2025 年以后，多模态、Agent 和评测明显变多；再单独训一个 7B 问答，往往不够。执业考试分数测的是回忆，不能当成辨证或临床能力——要比的话看 TCM-Ladder、LingLan、MTCMB。",
+            "",
+            "| 你想做什么 | 可以先看 | 备注 |",
             "| --- | --- | --- |",
-            f"| 单卡复现 | {biancang} 或 {zhongjing} | 论文 + 权重 + 代码齐 |",
-            f"| 舌诊 / 四诊 | {shizhen} | Omni 开源，有配套数据 |",
-            f"| 从数据训起 | {chattcm} / {shennong} | 预训练或指令数据公开 |",
-            f"| 轻量本地跑 | {xinghe} | 2026，9B + GGUF |",
-            f"| 做对比实验 | {ladder}、{linglan} | 任务定义清楚；更多在[数据集](#数据集) |",
-            "| 写相关工作 | 2025–2026 scoping review | 先打开[综述](#综述)，不要从单篇模型论文起 |",
+            f"| 本机跑通一个模型 | {biancang}、{zhongjing} | 论文、权重、代码都有 |",
+            f"| 做中医问诊 | {medchatzh} | 还有配套问诊数据 |",
+            f"| 舌诊、四诊 | {shizhen} | 多模态，数据和权重都开 |",
+            f"| 自己接着训 | {chattcm}、{shennong} | 预训练或指令数据是公开的 |",
+            f"| 电脑比较一般 | {xinghe} | 9B，有 GGUF |",
+            f"| 做对比实验 | {ladder}、{linglan} | 任务说得比较清楚；更多在[数据集](#数据集) |",
+            "| 写相关工作 | 近两年的 scoping review | 先翻[综述](#综述)，别从单篇模型论文起 |",
             "",
-            "**别混：** 「仲景」有 ZhongJingGPT 与 AAAI CMtMedQA 两条线；名叫 TCM-Eval 的也不止一套。详解 [wiki/Getting-Started](wiki/Getting-Started.md)。",
+            "同名不一定是同一个东西。「仲景」至少有 ZhongJingGPT 和 AAAI 那条 CMtMedQA；TCM-Eval 也不止一套。说不清时看 [Getting Started](wiki/Getting-Started.md)。",
             "",
         ]
     return [
-        "## Two-minute takeaway",
+        "## Start here",
         "",
-        f"1. **About {n_open} TCM weights are actually downloadable** (open [Open models](#open-models)). Hospital/vendor models in the news usually are not baselines.",
-        "2. **Since 2025 the main lines are multimodal, agents, and evaluation**—not another 7B chatbot. For inquiry workflows, start from Agent/RAG, not fine-tuning alone.",
-        "3. **Exam scores ≠ pattern differentiation / clinic.** Licensing items test recall; TCM-Ladder / LingLan / MTCMB are closer to task eval.",
+        f"Only about {n_open} TCM checkpoints are actually public; they are under [Open models](#open-models). Hospital and company releases in the news usually ship no weights, so they make poor experimental baselines.",
         "",
-        "| Goal | Take this first | Why |",
+        "Since 2025 the interesting work has been multimodal models, agents, and evaluation—not another 7B chatbot. Licensing-exam scores measure recall, not whether a model can do pattern differentiation. For comparisons, TCM-Ladder, LingLan, and MTCMB are a better place to start.",
+        "",
+        "| If you want to… | Try | Note |",
         "| --- | --- | --- |",
-        f"| Reproduce on one GPU | {biancang} or {zhongjing} | Paper + weights + code |",
-        f"| Tongue / four diagnoses | {shizhen} | Open Omni + data |",
-        f"| Train from data | {chattcm} / {shennong} | Pretrain or SFT released |",
-        f"| Small local run | {xinghe} | 2026, 9B + GGUF |",
-        f"| Compare models | {ladder}, {linglan} | Clear tasks; more under [Datasets](#datasets) |",
-        "| Write related work | 2025–2026 scoping reviews | Open [Surveys](#surveys) first |",
+        f"| Get a model running | {biancang}, {zhongjing} | Paper, weights, and code |",
+        f"| Build TCM inquiry | {medchatzh} | Comes with consult dialogues |",
+        f"| Tongue / four diagnoses | {shizhen} | Multimodal; weights and data are public |",
+        f"| Train further | {chattcm}, {shennong} | Pretrain or instruction data is released |",
+        f"| Stay small | {xinghe} | 9B, GGUF available |",
+        f"| Run a comparison | {ladder}, {linglan} | Tasks are spelled out; more under [Datasets](#datasets) |",
+        "| Write related work | Recent scoping reviews | Skim [Surveys](#surveys) before individual model papers |",
         "",
-        "**Don’t mix:** two “ZhongJing” lines (ZhongJingGPT vs AAAI CMtMedQA); more than one “TCM-Eval”. See [wiki/Getting-Started](wiki/Getting-Started.md).",
+        "Same name does not mean the same project. ZhongJingGPT is not the AAAI CMtMedQA line, and more than one benchmark is called TCM-Eval. [Getting Started](wiki/Getting-Started.md) if that is confusing.",
         "",
     ]
 
@@ -561,38 +560,38 @@ def build_model_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
 
     title = "## 开源模型" if lang == "zh" else "## Open models"
     hint = (
-        "上表是起步选择。这里是已核验可下载权重全集，以及论文/产品向与通用医疗底座。"
+        "上面是起步用的。要翻全部能下的权重，或只有论文/产品、以及常被拿来当底座的通用中文医疗模型，点开即可。"
         if lang == "zh"
-        else "The takeaway table is the starter set. Here is the full verified-weight list, plus paper/product and general-medical models."
+        else "The table above is a shortlist. Expand the folds for every public checkpoint, paper-only or product models, and general Chinese medical LLMs people use as bases."
     )
     lines = [title, "", hint, ""]
     if open_tcm:
         summary = (
-            f"全部开源权重（{len(open_tcm)}）"
+            f"能下载的权重，共 {len(open_tcm)} 个"
             if lang == "zh"
-            else f"All open weights ({len(open_tcm)})"
+            else f"Public weights ({len(open_tcm)})"
         )
         lines += fold(summary, model_table(open_tcm, lang))
 
     if paper_tcm:
         summary = (
-            f"全部中医模型 · 论文/产品向（{len(paper_tcm)}）"
+            f"只有论文或产品、没有核验权重的（{len(paper_tcm)}）"
             if lang == "zh"
-            else f"All TCM models · paper/product ({len(paper_tcm)})"
+            else f"Paper or product only, no verified weights ({len(paper_tcm)})"
         )
         lines += fold(summary, emit_list(paper_tcm, lang, format_resource_line))
     if general:
         summary = (
-            f"通用中文医疗模型 · 常作底座或对照（{len(general)}）"
+            f"通用中文医疗模型，常当底座或对照（{len(general)}）"
             if lang == "zh"
-            else f"General Chinese medical models · bases/baselines ({len(general)})"
+            else f"General Chinese medical models, often used as bases ({len(general)})"
         )
         lines += fold(summary, emit_list(general, lang, format_resource_line))
     if hf:
         summary = (
-            f"Hugging Face 多尺寸 / GGUF（{len(hf)}）"
+            f"Hugging Face 上的其他尺寸和 GGUF（{len(hf)}）"
             if lang == "zh"
-            else f"Hugging Face extra sizes / GGUF ({len(hf)})"
+            else f"Other Hugging Face sizes and GGUF ({len(hf)})"
         )
         lines += fold(summary, [format_dataset_line(e, lang) for e in hf])
     return lines
@@ -602,9 +601,9 @@ def build_news_section(news: list[dict], lang: str) -> list[str]:
     title = "## 新闻" if lang == "zh" else "## News"
     teaser = bold_teaser(news, 3)
     summary = (
-        f"打开全部（{len(news)}）· 最新：{teaser}"
+        f"{len(news)} 条，最近有：{teaser}"
         if lang == "zh"
-        else f"Open all ({len(news)}) · latest: {teaser}"
+        else f"{len(news)} items; recent: {teaser}"
     )
     return [title, ""] + fold(summary, emit_list(news, lang, format_news_line))
 
@@ -612,27 +611,27 @@ def build_news_section(news: list[dict], lang: str) -> list[str]:
 def build_survey_section(surveys: list[dict], lang: str) -> list[str]:
     title = "## 综述" if lang == "zh" else "## Surveys"
     summary = (
-        f"打开全部（{len(surveys)}）· 按年"
+        f"{len(surveys)} 篇，按年收着"
         if lang == "zh"
-        else f"Open all ({len(surveys)}) · by year"
+        else f"{len(surveys)} surveys, grouped by year"
     )
     return [title, ""] + fold(summary, emit_list(surveys, lang, format_resource_line))
 
 
 def build_paper_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
     specs = [
-        ("agent", "Agent / 智能体", "Agents", "问诊工作流、多智能体、工具调用"),
-        ("multimodal", "多模态 / 四诊", "Multimodal", "舌、面、脉与多模态融合"),
-        ("rag_kg", "RAG / 知识图谱", "RAG / KG", "检索增强、医案与方剂图谱"),
-        ("eval", "评测论文", "Evaluation papers", "基准与考试评估；下载评测集走「数据集」"),
-        ("method", "其他方法", "Other methods", "处方、对齐、抽取等"),
-        ("history", "历史锚点", "Historical anchors", "LLM 之前：专家系统、舌脉、本体"),
+        ("agent", "Agent", "Agents", "问诊流程、多智能体"),
+        ("multimodal", "多模态 / 四诊", "Multimodal", "舌、面、脉"),
+        ("rag_kg", "RAG / 知识图谱", "RAG / knowledge graphs", "检索和医案、方剂图谱"),
+        ("eval", "评测论文", "Evaluation", "基准和考试；要下载评测集走下面「数据集」"),
+        ("method", "其他", "Other", "处方、对齐、抽取之类"),
+        ("history", "更早的工作", "Before LLMs", "专家系统、舌脉、本体"),
     ]
     title = "## 论文" if lang == "zh" else "## Papers"
     intro = (
-        "模型不在这里。按方法点开一栏即可，不必按年份通读。"
+        "模型已经分出去了。按题目点开一栏就行，不用按年份通读。"
         if lang == "zh"
-        else "Models are not listed here. Open one method fold; no need to read by year."
+        else "Models are listed above. Open one topic; you do not have to read by year."
     )
     lines = [title, "", intro, ""]
     for key, zh, en, hint in specs:
@@ -640,7 +639,11 @@ def build_paper_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
         if not items:
             continue
         heading = zh if lang == "zh" else en
-        summary = f"{heading}（{len(items)}）· {hint}" if lang == "zh" else f"{heading} ({len(items)}) · {hint}"
+        summary = (
+            f"{heading}（{len(items)}）：{hint}"
+            if lang == "zh"
+            else f"{heading} ({len(items)}): {hint}"
+        )
         body = (
             emit_decades(items, lang, format_resource_line)
             if key == "history"
@@ -653,9 +656,9 @@ def build_paper_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
 def build_dataset_section(datasets: list[dict], lang: str) -> list[str]:
     title = "## 数据集" if lang == "zh" else "## Datasets"
     intro = (
-        "按用途点开。对照说明见 [wiki/Datasets](wiki/Datasets.md) / [wiki/Benchmarks](wiki/Benchmarks.md)。"
+        "按用途点开。想对一下评测集，看 [Datasets](wiki/Datasets.md) 和 [Benchmarks](wiki/Benchmarks.md)。"
         if lang == "zh"
-        else "Open by use. Notes: [wiki/Datasets](wiki/Datasets.md) / [wiki/Benchmarks](wiki/Benchmarks.md)."
+        else "Grouped by use. For a longer note on benches, see [Datasets](wiki/Datasets.md) and [Benchmarks](wiki/Benchmarks.md)."
     )
     lines = [title, "", intro, ""]
     by_section: dict[str, list[dict]] = defaultdict(list)
@@ -688,15 +691,15 @@ def footer(lang: str, portal: str) -> list[str]:
         return [
             "---",
             "",
-            f"检索与标签筛选用[项目页]({PORTAL_ZH})。Wiki：[Home](wiki/Home.md) · [Getting Started](wiki/Getting-Started.md) · [Taxonomy](wiki/Taxonomy.md)。",
-            "改条目请编辑 `data/catalog.yml`，然后 `python3 scripts/build_readme.py`（不要手改本 README）。",
+            f"要搜索或按标签筛，用[项目页]({PORTAL_ZH})。说明写在 [Wiki](wiki/Home.md)。",
+            "改条目请编辑 `data/catalog.yml`，再运行 `python3 scripts/build_readme.py`，不要直接改这个 README。",
             "",
         ]
     return [
         "---",
         "",
-        f"Search and tag filters: [project page]({portal}). Wiki: [Home](wiki/Home.md) · [Getting Started](wiki/Getting-Started.md) · [Taxonomy](wiki/Taxonomy.md).",
-        "Edit `data/catalog.yml`, then `python3 scripts/build_readme.py` (do not hand-edit this README).",
+        f"Search and filter by tag on the [project page]({portal}). Longer notes live in the [wiki](wiki/Home.md).",
+        "Add entries in `data/catalog.yml` and run `python3 scripts/build_readme.py`. Do not edit this README by hand.",
         "",
     ]
 
@@ -710,6 +713,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
     if lang == "en":
         items = [apply_i18n(i, i18n_en) for i in items]
     buckets = classify_items(items)
+    n = count_pack(buckets)
 
     if lang == "zh":
         header = [
@@ -719,9 +723,11 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             "",
             badges(),
             "",
-            f"中医（及部分中文医疗）大模型资源清单。{counts_line(buckets, 'zh')}。欢迎 [贡献](CONTRIBUTING.md)。",
+            f"收集中医大模型相关的模型、数据、评测和论文，也带一点通用中文医疗。"
+            f"现在大概有 {n['news']} 条新闻、{n['models']} 个模型、{n['surveys']} 篇综述、"
+            f"{n['datasets']} 个数据集、{n['papers']} 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。",
             "",
-            f"[项目页]({portal}) · [中文项目页]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [作者主页]({SITE_ZH})",
+            f"[项目页]({portal}) · [中文项目页]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [主页]({SITE_ZH})",
             "",
         ]
     else:
@@ -732,9 +738,11 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             "",
             badges(),
             "",
-            f"Curated TCM (and related Chinese medical) LLM resources. {counts_line(buckets, 'en')}. [Contribute](CONTRIBUTING.md).",
+            f"Models, data, benchmarks, and papers around TCM LLMs, plus a few general Chinese medical ones. "
+            f"Right now: {n['news']} news items, {n['models']} models, {n['surveys']} surveys, "
+            f"{n['datasets']} datasets, {n['papers']} method papers. [PRs welcome](CONTRIBUTING.md).",
             "",
-            f"[Project page]({portal}) · [Wiki](wiki/Home.md) · [Author site]({SITE_EN})",
+            f"[Project page]({portal}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
             "",
         ]
 
@@ -782,6 +790,7 @@ def build_wiki_models(buckets: dict[str, list[dict]]) -> str:
         "| 场景 | 优先看 |",
         "| --- | --- |",
         "| 本地推理 / 复现论文 | 开源权重 + 代码 + 配套数据 |",
+        "| 中医问诊对话 | **MedChatZH**（论文 + 权重 + 代码 + 问诊数据） |",
         "| 舌诊 / 四诊 | 标签含 `multimodal` 的模型（如 ShizhenGPT、TongueVLM） |",
         "| 问诊工作流 | `agent` 或配套 GraphRAG 系统，而不是单模型 |",
         "| 当底座继续微调 | 同系列 Base / Instruct，以及通用中文医疗模型 |",

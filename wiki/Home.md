@@ -16,7 +16,7 @@
 
 | 入口 | 适合 |
 | --- | --- |
-| [README](https://github.com/tyang816/Awesome-TCM-LLM/blob/main/README.md) | 两分钟带走 + 开源权重表，其余点标题打开 |
+| [README](https://github.com/tyang816/Awesome-TCM-LLM/blob/main/README.md) | 先看这里 + 开源权重表，其余点标题打开 |
 | [项目页](https://tyang816.github.io/zh/projects/tcm/) | 搜索、按标签筛选 |
 | 本 Wiki | 选型、分类法、贡献约定 |
 | [`survey/`](https://github.com/tyang816/Awesome-TCM-LLM/tree/main/survey) | 综述手稿工作区（不替代清单） |
