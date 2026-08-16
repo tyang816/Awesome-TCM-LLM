@@ -13,9 +13,17 @@
 python3 scripts/build_readme.py
 ```
 
-会同时生成中文 [`README.md`](README.md) 与英文 [`README_EN.md`](README_EN.md)，文首可互相切换。英文摘要维护在 [`data/i18n_en.yml`](data/i18n_en.yml)（按条目 `id`），新增资源时请一并补上。
+会同时生成：
 
-3. 提交 PR，包含 `catalog.yml`、`i18n_en.yml`、生成的 `catalog.json`、`README.md` 与 `README_EN.md`。
+- 中文 [`README.md`](README.md) 与英文 [`README_EN.md`](README_EN.md)（默认只展开开源模型表，其余栏目折叠）
+- [`data/catalog.json`](data/catalog.json)（项目页用）
+- Wiki 生成页 [`wiki/Models.md`](wiki/Models.md)、[`wiki/Datasets.md`](wiki/Datasets.md)、[`wiki/Benchmarks.md`](wiki/Benchmarks.md)
+
+英文摘要维护在 [`data/i18n_en.yml`](data/i18n_en.yml)（按条目 `id`），新增资源时请一并补上。**不要手改 README**，下次生成会被覆盖。
+
+3. 提交 PR，包含 `catalog.yml`、`i18n_en.yml`、生成的 `catalog.json`、`README.md`、`README_EN.md`，以及有变动的 `wiki/*.md`。
+
+Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发布到 GitHub Wiki 见 [`wiki/PUBLISH.md`](wiki/PUBLISH.md)。
 
 项目页 [tyang816.github.io/projects/tcm/](https://tyang816.github.io/projects/tcm/)（英文）与 [zh/projects/tcm](https://tyang816.github.io/zh/projects/tcm/)（中文）读取 `data/catalog.json`，无需单独维护第二份列表。作者站点：[中文主页](https://tyang816.github.io/zh/) · [English](https://tyang816.github.io/)。
 
@@ -25,7 +33,7 @@ python3 scripts/build_readme.py
 |------|------|
 | `id` | 稳定唯一 ID（kebab-case） |
 | `name` | 显示名 |
-| `type` | `news` / `resource` / `dataset` / `model_hf` |
+| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf`。`resource` 若带 `model` 标签会进入 README **开源模型**（有权重进表，否则进折叠栏），否则按 `agent` / `multimodal` / `rag`/`kg` / `benchmark` 分到「论文」 |
 | `year` | 年份 |
 | `summary_zh` | 一句话中文摘要 |
 | `links` | 论文/代码/模型/数据集等 URL |
