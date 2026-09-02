@@ -243,7 +243,9 @@ def badges() -> str:
         "![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  "
         "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) "
         "![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  "
-        "![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)"
+        "![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) "
+        f"[![中文门户](https://img.shields.io/badge/中医大模型-门户-blue)]({PORTAL_ZH}) "
+        f"[![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)]({DEFAULT_PORTAL})"
     )
 
 
@@ -742,7 +744,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             f"Right now: {n['news']} news items, {n['models']} models, {n['surveys']} surveys, "
             f"{n['datasets']} datasets, {n['papers']} method papers. [PRs welcome](CONTRIBUTING.md).",
             "",
-            f"[Project page]({portal}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
+            f"[Project page]({portal}) · [Chinese catalog]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
             "",
         ]
 

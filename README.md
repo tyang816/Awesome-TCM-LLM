@@ -2,7 +2,7 @@
 
 **语言 / Language:** [中文](README.md) | [English](README_EN.md)
 
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医大模型-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
 收集中医大模型相关的模型、数据、评测和论文，也带一点通用中文医疗。现在大概有 27 条新闻、82 个模型、47 篇综述、39 个数据集、127 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。
 
@@ -329,7 +329,7 @@
 模型已经分出去了。按题目点开一栏就行，不用按年份通读。
 
 <details>
-<summary>Agent（9）· 问诊流程、多智能体</summary>
+<summary>Agent（9）：问诊流程、多智能体</summary>
 
 - **DeepTCM1.0** 基于通用LLM的多专家AI Agent，解析中药复方作用机制（Research Square预印本） [[预印本](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - **TCM-Agent** 面向网络药理学与中药发现的 LLM 多智能体系统 [[论文](https://doi.org/10.1016/j.jpha.2026.101581)] [[代码](https://github.com/AITCM/TCM-Agent)]
@@ -344,7 +344,7 @@
 </details>
 
 <details>
-<summary>多模态 / 四诊（4）· 舌、面、脉</summary>
+<summary>多模态 / 四诊（4）：舌、面、脉</summary>
 
 - [*ICASSP 2025*] **少样本舌诊上下文多任务微调** 舌象到体质直接判别的少样本上下文多任务LLM微调方法 [东北大学] [[DOI](https://doi.org/10.1109/ICASSP49660.2025.10887764)]
 - **TCDiff** 三联级联扩散模型生成高保真多模态中医EHR，并构建**TCM-SZ1**基准数据集 [[论文](https://arxiv.org/abs/2508.01615)]
@@ -354,7 +354,7 @@
 </details>
 
 <details>
-<summary>RAG / 知识图谱（25）· 检索和医案、方剂图谱</summary>
+<summary>RAG / 知识图谱（25）：检索和医案、方剂图谱</summary>
 
 <details>
 <summary>2026 · 5</summary>
@@ -409,7 +409,7 @@
 </details>
 
 <details>
-<summary>评测论文（38）· 基准和考试；要下载评测集走下面「数据集」</summary>
+<summary>评测论文（38）：基准和考试；要下载评测集走下面「数据集」</summary>
 
 <details>
 <summary>2026 · 14</summary>
@@ -477,7 +477,7 @@
 </details>
 
 <details>
-<summary>其他（7）· 处方、对齐、抽取之类</summary>
+<summary>其他（7）：处方、对齐、抽取之类</summary>
 
 - **Patient-Conditioned Dual Hypergraph Reasoning** 患者条件化双超图推理实现可审计的中医处方支持，将症状/舌/脉证据围绕证型与治则组织（天津大学） [[论文](https://arxiv.org/abs/2607.04025)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** 讨论生成式AI翻译中医文本的精确性、认识论与医学语境局限（Translation Review） [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
@@ -490,7 +490,7 @@
 </details>
 
 <details>
-<summary>更早的工作（44）· 专家系统、舌脉、本体</summary>
+<summary>更早的工作（44）：专家系统、舌脉、本体</summary>
 
 <details>
 <summary>2020–2022 · 14</summary>

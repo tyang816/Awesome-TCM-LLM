@@ -2,11 +2,11 @@
 
 **Language / 语言:** [English](README_EN.md) | [中文](README.md)
 
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医大模型-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
 Models, data, benchmarks, and papers around TCM LLMs, plus a few general Chinese medical ones. Right now: 27 news items, 82 models, 47 surveys, 39 datasets, 127 method papers. [PRs welcome](CONTRIBUTING.md).
 
-[Project page](https://tyang816.github.io/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
+[Project page](https://tyang816.github.io/projects/tcm/) · [Chinese catalog](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
 ## Start here
 
@@ -329,7 +329,7 @@ The table above is a shortlist. Expand the folds for every public checkpoint, pa
 Models are listed above. Open one topic; you do not have to read by year.
 
 <details>
-<summary>Agents (9) · 问诊流程、多智能体</summary>
+<summary>Agents (9): 问诊流程、多智能体</summary>
 
 - **DeepTCM1.0** DeepTCM1.0: a multi-expert AI agent built on general LLMs for interpreting the mechanisms of TCM compound formulas (Research Square preprint). [[Preprint](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - **TCM-Agent** LLM multi-agent system for network pharmacology and herbal discovery. [[Paper](https://doi.org/10.1016/j.jpha.2026.101581)] [[Code](https://github.com/AITCM/TCM-Agent)]
@@ -344,7 +344,7 @@ Models are listed above. Open one topic; you do not have to read by year.
 </details>
 
 <details>
-<summary>Multimodal (4) · 舌、面、脉</summary>
+<summary>Multimodal (4): 舌、面、脉</summary>
 
 - [*ICASSP 2025*] **Few-shot tongue-diagnosis in-context multitask learning** Few-shot in-context multitask fine-tuning of LLMs mapping tongue images directly to constitutions. [Northeastern University] [[DOI](https://doi.org/10.1109/ICASSP49660.2025.10887764)]
 - **TCDiff** Triplet cascaded diffusion model generating high-fidelity multimodal TCM EHRs, with the **TCM-SZ1** benchmark dataset. [[Paper](https://arxiv.org/abs/2508.01615)]
@@ -354,7 +354,7 @@ Models are listed above. Open one topic; you do not have to read by year.
 </details>
 
 <details>
-<summary>RAG / knowledge graphs (25) · 检索和医案、方剂图谱</summary>
+<summary>RAG / knowledge graphs (25): 检索和医案、方剂图谱</summary>
 
 <details>
 <summary>2026 · 5</summary>
@@ -409,7 +409,7 @@ Models are listed above. Open one topic; you do not have to read by year.
 </details>
 
 <details>
-<summary>Evaluation (38) · 基准和考试；要下载评测集走下面「数据集」</summary>
+<summary>Evaluation (38): 基准和考试；要下载评测集走下面「数据集」</summary>
 
 <details>
 <summary>2026 · 14</summary>
@@ -477,7 +477,7 @@ Models are listed above. Open one topic; you do not have to read by year.
 </details>
 
 <details>
-<summary>Other (7) · 处方、对齐、抽取之类</summary>
+<summary>Other (7): 处方、对齐、抽取之类</summary>
 
 - **Patient-Conditioned Dual Hypergraph Reasoning** Patient-conditioned dual-hypergraph reasoning for auditable TCM prescription support, organizing symptom/tongue/pulse evidence around patterns and treatment principles (Tianjin University). [[Paper](https://arxiv.org/abs/2607.04025)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** Beyond the Poetic Bard: a perspective on accuracy, epistemology, and medical-context limits of generative-AI translation of TCM texts (Translation Review). [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
@@ -490,7 +490,7 @@ Models are listed above. Open one topic; you do not have to read by year.
 </details>
 
 <details>
-<summary>Before LLMs (44) · 专家系统、舌脉、本体</summary>
+<summary>Before LLMs (44): 专家系统、舌脉、本体</summary>
 
 <details>
 <summary>2020–2022 · 14</summary>
