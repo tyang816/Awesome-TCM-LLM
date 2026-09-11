@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Seed data/catalog.yml from curated entries (one-time / refresh source)."""
+"""Generate the historical seed catalog without overwriting the live catalog."""
 
 from __future__ import annotations
 
+import argparse
+import sys
 from pathlib import Path
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "catalog.yml"
+OUT = ROOT / "data" / "catalog.seed.yml"
 VERIFIED = "2026-07-19"
 
 
@@ -19,7 +21,7 @@ def item(**kwargs):
     return kwargs
 
 
-def main() -> None:
+def main(output: Path = OUT, force: bool = False) -> int:
     items = []
 
     # ---- news ----
@@ -176,13 +178,31 @@ def main() -> None:
         "items": items,
     }
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(
+    output = output.resolve()
+    live_catalog = (ROOT / "data" / "catalog.yml").resolve()
+    if output == live_catalog and not force:
+        print(
+            "Refusing to overwrite data/catalog.yml with the historical seed. "
+            "Pass --force only if this destructive replacement is intentional.",
+            file=sys.stderr,
+        )
+        return 2
+    if output.exists() and not force:
+        print(f"Refusing to overwrite existing file: {output} (use --force)", file=sys.stderr)
+        return 2
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(
         yaml.dump(catalog, allow_unicode=True, sort_keys=False, width=120),
         encoding="utf-8",
     )
-    print(f"Wrote {OUT} with {len(items)} items")
+    print(f"Wrote {output} with {len(items)} historical seed items")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=OUT)
+    parser.add_argument("--force", action="store_true")
+    args = parser.parse_args()
+    raise SystemExit(main(args.output, args.force))

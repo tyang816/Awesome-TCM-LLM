@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tyang816/Awesome-TCM-LLM/blob/main/data/catalog.schema.json",
+  "title": "Awesome-TCM-LLM catalog",
+  "type": "object",
+  "required": ["meta", "items"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title", "repo_url", "portal_url", "updated_at", "catalog_version"],
+      "properties": {
+        "updated_at": {"type": "string", "format": "date"},
+        "catalog_version": {"type": "integer", "minimum": 1}
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/item"}
+    }
+  },
+  "$defs": {
+    "links": {
+      "type": "object",
+      "additionalProperties": {"type": "string", "format": "uri", "pattern": "^https?://"}
+    },
+    "item": {
+      "type": "object",
+      "required": ["id", "name", "type", "year", "tags", "links", "status", "verified_at"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "name": {"type": "string", "minLength": 1},
+        "type": {"enum": ["news", "resource", "survey", "dataset", "model_hf"]},
+        "year": {"type": "integer", "minimum": 1900, "maximum": 2100},
+        "date": {"type": "string", "pattern": "^[0-9]{4}\\.[0-9]{2}$"},
+        "tags": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "links": {"$ref": "#/$defs/links"},
+        "status": {"enum": ["published", "draft", "archived"]},
+        "verified_at": {"type": "string", "format": "date"},
+        "section": {"type": "string"},
+        "doi": {"type": "string", "pattern": "^10\\."}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"const": "published"}}},
+          "then": {"properties": {"links": {"minProperties": 1}}}
+        },
+        {
+          "if": {"properties": {"type": {"const": "news"}}},
+          "then": {"required": ["date"]}
+        }
+      ]
+    }
+  }
+}
