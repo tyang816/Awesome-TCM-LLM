@@ -4,7 +4,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 27 news items, 82 models, 47 surveys, 22 patents, 65 datasets, 131 method papers. [PRs welcome](CONTRIBUTING.md).
+Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 27 news items, 98 models, 47 surveys, 22 patents, 65 datasets, 131 method papers. [PRs welcome](CONTRIBUTING.md).
 
 [Project page](https://tyang816.github.io/projects/tcm/) · [Chinese catalog](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
@@ -132,15 +132,49 @@ The table above is a shortlist. Expand the folds for every public checkpoint, pa
 </details>
 
 <details>
-<summary>General Chinese medical models, often used as bases (7)</summary>
+<summary>General Chinese medical models, often used as bases (23)</summary>
+
+<details>
+<summary>2025 · 2</summary>
+
+- [*arXiv*] **Baichuan-M2** Baichuan's second open medical reasoning model (32B on Qwen2.5-32B) with a large verifier system and multi-stage RL; strong open-source HealthBench results. [Baichuan Intelligence] [[Paper](https://arxiv.org/abs/2509.02208)] [[Code](https://github.com/baichuan-inc/Baichuan-M2-32B)] [[Model](https://huggingface.co/baichuan-inc/Baichuan-M2-32B)]
+- [*arXiv*] **Baichuan-M1** Baichuan's from-scratch open medical LLM (14B), trained on ~20T medical+general tokens across 20+ specialties; a common base for later TCM fine-tunes. [Baichuan Intelligence] [[Paper](https://arxiv.org/abs/2502.12671)] [[Code](https://github.com/baichuan-inc/Baichuan-M1-14B)] [[Model](https://huggingface.co/baichuan-inc/Baichuan-M1-14B-Instruct)] [[Base](https://huggingface.co/baichuan-inc/Baichuan-M1-14B-Base)]
+
+</details>
+
+<details>
+<summary>2024 · 6</summary>
 
 - [*ACM Trans. Knowl. Discov. Data*] **BenCao (formerly HuaTuo)** Instruction-tuned Chinese medical LLM (BenCao / formerly HuaTuo). [Harbin Institute of Technology] [[Paper](https://arxiv.org/pdf/2309.04175.pdf)] [[Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)]
 - **明医 (MING)** MING: a Chinese medical consultation LLM using a sparse mixture of low-rank adapter experts (MING-MoE) for medical multi-task learning (arXiv 2024). [[Paper](https://arxiv.org/abs/2404.09027)] [[Related MedCare](https://aclanthology.org/2024.findings-emnlp.619/)] [[Code](https://github.com/MediaBrain-SJTU/MING)]
+- [*JAMIA*] **Taiyi** DUTIR bilingual biomedical LLM on Qwen-7B for QA, doctor–patient dialogue, report generation, and information extraction (JAMIA 2024). [Dalian University of Technology] [[DOI](https://doi.org/10.1093/jamia/ocae037)] [[Code](https://github.com/DUTIR-BioNLP/Taiyi-LLM)] [[Model](https://huggingface.co/DUTIR-BioNLP/Taiyi-LLM)]
+- [*arXiv*] **HuatuoGPT-o1** HuatuoGPT medical complex-reasoning model trained with verifiable problems and a medical verifier; 7B/72B cover Chinese and English. [The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Big Data] [[Paper](https://arxiv.org/abs/2412.18925)] [[Code](https://github.com/FreedomIntelligence/HuatuoGPT-o1)] [[Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-7B)]
+- [*arXiv*] **HuatuoGPT-Vision** HuatuoGPT multimodal medical model that injects visual knowledge at scale; a common Chinese medical vision baseline. [The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Big Data] [[Paper](https://arxiv.org/abs/2406.19280)] [[Code](https://github.com/FreedomIntelligence/HuatuoGPT-Vision)] [[Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL)]
+- [*arXiv*] **Apollo** FreedomIntelligence multilingual medical LLM (including Chinese) with ApolloCorpus and XMedBench. [The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Big Data] [[Paper](https://arxiv.org/abs/2403.03640)] [[Code](https://github.com/FreedomIntelligence/Apollo)] [[Model](https://huggingface.co/FreedomIntelligence/Apollo-7B)]
+
+</details>
+
+<details>
+<summary>2023 · 15</summary>
+
+- [*arXiv*] **Qilin-Med** Multi-stage Chinese medical LLM (CPT+SFT+DPO on Baichuan-7B) releasing the ~3GB ChiMed corpus, optionally with RAG. [[Paper](https://arxiv.org/abs/2310.09089)] [[Code](https://github.com/williamliujl/Qilin-Med)] [[Dataset](https://huggingface.co/datasets/williamliu/ChiMed)]
 - [*arXiv*] **BianQue** Chinese proactive health LLM for everyday living spaces (BianQue). [South China University of Technology, Guangdong Key Laboratory of Digital Twin Humans] [[Code](https://github.com/scutcyr/BianQue)] [[Paper](https://arxiv.org/abs/2310.15896)]
 - **孙思邈 (Sunsimiao)** Sunsimiao Chinese medical LLM; Sunsimiao-7B fine-tuned from Qwen2-7B on curated medical data, reaching 30B-level SOTA on CMB-Exam. [[Code](https://github.com/X-D-Lab/Sunsimiao)]
 - **QiZhenGPT** Chinese clinical QA model for drugs, diseases, procedures, and labs (QiZhenGPT). [Zhejiang University] [[Code](https://github.com/CMKRG/QiZhenGPT)]
+- **WiNGPT2** Winning Health open medical LLM on Qwen for medical QA, record understanding, and multi-turn consults; 7B/14B weights are public. [Winning Health] [[Model](https://huggingface.co/winninghealth/WiNGPT2-14B-Chat)] [[7B](https://huggingface.co/winninghealth/WiNGPT2-7B-Chat)]
+- [*arXiv*] **HuatuoGPT-II** Second HuatuoGPT generation with one-stage medical adaptation; 7B/13B use Baichuan2 backbones and remain a standard Chinese medical baseline. [The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Big Data] [[Paper](https://arxiv.org/abs/2311.09774)] [[Code](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)]
 - [*EMNLP findings*] **HuaTuoGPT** Large language model trained on Chinese medical corpora (HuaTuoGPT). [The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Big Data] [[DOI](https://doi.org/10.18653/v1/2023.findings-emnlp.725)] [[Paper](https://aclanthology.org/2023.findings-emnlp.725/)] [[Code](https://github.com/FreedomIntelligence/HuatuoGPT)]
+- [*arXiv*] **SoulChat** SCUT mental-health dialogue LLM from the same lab as BianQue; a common Chinese health-conversation baseline. [South China University of Technology, Guangdong Key Laboratory of Digital Twin Humans] [[Paper](https://arxiv.org/abs/2311.00273)] [[Code](https://github.com/scutcyr/SoulChat)] [[Model](https://huggingface.co/scutcyr/SoulChat)]
+- **PULSE** OpenMEDLab Chinese medical LLM (Bloom 7B/14B) for exams, report reading, record structuring, and simulated diagnosis. [Shanghai AI Laboratory] [[Code](https://github.com/openmedlab/PULSE)] [[Model](https://huggingface.co/OpenMEDLab/PULSE-7bv5)]
+- **MedicalGPT** Open training stack for Chinese medical LLMs (pretrain/SFT/RLHF/DPO), often reused as a baseline pipeline in TCM fine-tuning. [[Code](https://github.com/shibing624/MedicalGPT)]
+- [*arXiv*] **DoctorGLM** Early open Chinese consultation model on ChatGLM-6B with LoRA/P-Tuning; a frequent 2023 Chinese medical baseline. [[Paper](https://arxiv.org/abs/2304.01097)] [[Code](https://github.com/xionghonglin/DoctorGLM)]
+- [*arXiv*] **DISC-MedLLM** Fudan DISC conversational medical LLM on Baichuan-13B, with DISC-Med-SFT built from knowledge graphs and reconstructed consultations. [Fudan University] [[Paper](https://arxiv.org/abs/2308.14346)] [[Code](https://github.com/FudanDISC/DISC-MedLLM)] [[Model](https://huggingface.co/Flmc/DISC-MedLLM)] [[Dataset](https://huggingface.co/datasets/Flmc/DISC-Med-SFT)]
+- [*arXiv*] **ChiMed-GPT** USTC Chinese medical LLM continued from Ziya-v2 with pretraining, SFT, and RLHF for extraction, QA, and multi-turn dialogue. [University of Science and Technology of China] [[Paper](https://arxiv.org/abs/2311.06025)] [[Code](https://github.com/synlp/ChiMed-GPT)] [[Model](https://huggingface.co/SYNLP/ChiMed-GPT-1.0)]
 - **ChatMed** ChatMed series of Chinese medical LLMs, including ChatMed-Consult trained on 500k+ online consultation dialogues. [[Code](https://github.com/michael-wzhu/ChatMed)]
+- **CareGPT** Open Chinese medical LLM training stack (pretrain through DPO) with accompanying weights, often used to reproduce Chinese medical fine-tunes. [[Code](https://github.com/WangRongsheng/CareGPT)]
+
+</details>
+
 
 </details>
 
