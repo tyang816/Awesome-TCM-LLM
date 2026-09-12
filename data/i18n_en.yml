@@ -258,6 +258,9 @@ classical-tcm-canon:
 ds-linglan:
   title_en: LingLan
   summary_en: LingLan large multi-task TCM evaluation benchmark (2026).
+ds-tcm-aqa61:
+  title_en: TCM-AQA61 / CME-AQA
+  summary_en: Dual-view acupuncture and Tuina action-quality videos from 61 subjects each (first- and third-person), with expert categorical and continuous ratings; paired with the CME-AQA cross-view multimodal assessment framework.
 ds-tcmeval-pa:
   title_en: TCMEval-PA
   summary_en: 328 multiple-choice items on prescription normative quality and safety auditing.
@@ -342,6 +345,12 @@ ds-tcm-mkg:
 ds-chatmed-kg:
   title_en: TCM_KG
   summary_en: ChatMed knowledge graph.
+ds-tcm-ner:
+  title_en: TCM-NER
+  summary_en: 1,997 Chinese-medicine package inserts with 59,803 entities in 13 types for building a medication knowledge graph (OpenKG / CHIP, CC BY-SA 4.0).
+ds-tcm-qg:
+  title_en: TCM-QG
+  summary_en: About 5,000 TCM documents and 13,000 question-answer pairs from CHIP2020, for knowledge-base expansion and question generation (CC BY-SA 4.0).
 hf-xinghe:
   title_en: Xinghe
   summary_en: Xinghe Neijing reasoning model weights.
@@ -682,6 +691,14 @@ tcm-hbv-kg-qa:
   summary_en: Knowledge-graph-based QA system for TCM diagnosis and treatment of viral hepatitis B.
 tcmkg:
   summary_en: Deep-learning-based TCM knowledge graph platform.
+kg-tcm-health-2017:
+  summary_en: Large TCM health-preservation knowledge graph integrating terms, literature, and databases, with retrieval, visualization, and recommendation.
+kg-tcm-rx-2018:
+  summary_en: Semantic TCM prescription knowledge graph built top-down from formula texts.
+kg-tcm-re-2016:
+  summary_en: Relation extraction from TCM journal full text to support later knowledge-graph construction.
+tcmpr-2022:
+  summary_en: Herb-symptom knowledge graph (~18k entities / ~100k relations) plus subnetwork term mapping and a CNN for prescription recommendation.
 tcm-clinical-ner:
   summary_en: Fine-grained entity-recognition corpus built from TCM clinical records.
 tcm-symptom-ner:
@@ -924,3 +941,167 @@ surv-cai-osf:
   summary_en: "OSF-preprint scoping review of LLMs in TCM (not peer-reviewed; archival)."
 surv-cong-osf:
   summary_en: "OSF-preprint review of LLMs in TCM (not peer-reviewed; archival)."
+pat-cn122529089:
+  name_en: "TCM dialogue generation with a large language model and long-term memory"
+  orgs_en:
+  - Hangzhou Wangchai Technology
+  summary_en: "Generates personalized TCM dialogue from a long-term memory bank and user portrait (published, not granted)."
+pat-cn122436154:
+  name_en: "Digital inheritance and analysis of Zhang Xichun's theory, method, formula, and herbs"
+  orgs_en:
+  - Guangzhou Zhiyun Caotang Medical Technology
+  summary_en: "Rule engine plus three-way retrieval and an LLM for Zhang Xichun school analysis (published, not granted)."
+pat-cn122050861:
+  name_en: "TCM diagnosis-and-treatment platform combining an LLM with dual-channel retrieval"
+  orgs_en:
+  - Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, SHUTCM
+  summary_en: "LLM plus TCM knowledge-graph dual-channel retrieval for inheriting master-physician experience and generating formulas (published, not granted)."
+pat-cn122117314:
+  name_en: "LLM-based intelligent acupuncture diagnosis agent"
+  orgs_en:
+  - Henan University of Technology
+  summary_en: "Acupuncture knowledge bases, graph, vector search and reranking, with an LLM agent that classifies questions and asks follow-ups (published, not granted)."
+pat-cn122091073:
+  name_en: "Multi-task joint optimization for TCM prescription generation"
+  orgs_en:
+  - Hangzhou Dianzi University
+  summary_en: "A pretrained LLM predicts herb sequences and herb sets jointly, with extra weight on rare herbs (published, not granted)."
+pat-cn122025029:
+  name_en: "Causal contrastive learning and LLM graph attention for TCM prescription recommendation"
+  orgs_en:
+  - Huzhou University
+  summary_en: "Heterogeneous and homogeneous symptom-herb graphs plus an LLM-enhanced causal mechanism (published, not granted)."
+pat-cn121862376:
+  name_en: "Knowledge-graph and LLM system for TCM syndrome-differentiation QA"
+  orgs_en:
+  - Nanjing University of Posts and Telecommunications
+  summary_en: "Chunks classics and cases, extracts a graph, then retrieves local and global keywords for syndrome-differentiation answers (published, not granted)."
+pat-cn121743505:
+  name_en: "Knowledge-enhanced generation of TCM case commentaries"
+  orgs_en:
+  - Zhejiang University
+  summary_en: "Retrieves knowledge-graph subgraphs, then writes case notes along etiology, treatment principles, formulas, and prognosis (published, not granted)."
+pat-cn121687367:
+  name_en: "Structured evidence-subgraph RAG for TCM herb recommendation"
+  orgs_en:
+  - Zhejiang Chinese Medical University
+  summary_en: "Multi-hop evidence subgraphs plus Hopfield associative retrieval for herb recommendation, with graph constraints against hallucination (published, not granted)."
+pat-cn121480736:
+  name_en: "Knowledge-distillation and RL for oncology TCM prescription recommendation"
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+  summary_en: "Distills GPT-4o into a Qwen student, then DPO, for interpretable oncology TCM prescriptions (published, not granted)."
+pat-cn121436134:
+  name_en: "Multimodal knowledge-graph construction from TCM texts and records"
+  orgs_en:
+  - Hangzhou Ganzhicao Technology
+  summary_en: "An LLM extracts triples from TCM texts, then fuses a real-world case layer into a multimodal graph (published, not granted)."
+pat-cn120690391:
+  name_en: "Knowledge-graph recommendation of classic TCM formulas"
+  orgs_en:
+  - Shunfu Technology Group
+  summary_en: "Maps colloquial symptoms to terms, filters by constitution, and recommends classic formulas (granted)."
+pat-cn120221058:
+  name_en: "Multimodal knowledge-graph and LLM system for TCM rehabilitation diagnosis"
+  orgs_en:
+  - Zhejiang Chinese Medical University
+  summary_en: "Aligns tongue, pulse, and inquiry features with knowledge-graph embeddings before a rehabilitation expert LLM (published, not granted)."
+pat-cn120067279:
+  name_en: "AI-LLM method and system for intelligent TCM inquiry"
+  orgs_en:
+  - Yi Mai Artificial Intelligence Medical Technology (Tianjin)
+  summary_en: "Multimodal inquiry fusing face/body/tongue images, speech prosody, and a disease library (granted)."
+pat-cn120108694:
+  name_en: "Knowledge-graph and case-enhanced RAG for intelligent TCM inquiry"
+  orgs_en:
+  - Jiangsu University
+  summary_en: "Leiden subgraph search plus hybrid global/local recall, then a single LLM response (published, not granted)."
+pat-cn119763764:
+  name_en: "LLM-based Chinese-medicine prescription recommendation with soft prompts"
+  orgs_en:
+  - Hangzhou Ganzhicao Technology
+  summary_en: "Soft prompts and cross-attention feed patient text into an LLM for controllable herb recommendations (published, not granted)."
+pat-cn119416782:
+  name_en: "LLM method for learning famous-physician TCM formulas"
+  orgs_en:
+  - Chengdu Byte Stream Technology
+  summary_en: "Aligns classical-Chinese case terms with vernacular text using models such as Qwen (published, not granted)."
+pat-cn119092157:
+  name_en: "LLM-based Chinese-materia-medica question answering"
+  orgs_en:
+  - Zhejiang University
+  - Yangtze River Delta Wisdom Oasis Innovation Center
+  summary_en: "Chinese-materia-medica QA fine-tuned from Baichuan2-7B-Chat (granted February 2025)."
+pat-cn119149754:
+  name_en: "LLM and knowledge-graph method for TCM formula compatibility"
+  orgs_en:
+  - Tianjin University
+  - Tianda Zhitu (Tianjin) Technology
+  summary_en: "Pairs a TCM LLM with a knowledge graph for formula compatibility (published, not granted)."
+pat-cn118838996:
+  name_en: "Building a TCM QA system from a large language model and a knowledge graph"
+  orgs_en:
+  - Beijing Institute of Technology
+  - BIT Tangshan Research Institute
+  summary_en: "Closed loop of LLM generation and knowledge-graph completion for TCM QA (published, not granted)."
+pat-cn118230893:
+  name_en: "AI-large-model system for intelligent TCM prescription recommendation"
+  orgs_en:
+  - Hangzhou Ganzhicao Technology
+  summary_en: "Trains an AI large model on medical records to recommend personalized TCM prescriptions, wired into a hospital IS (published, not granted)."
+pat-cn117828050:
+  name_en: "Long-document retrieval-augmented generation for TCM question answering"
+  orgs_en:
+  - Beijing Zhipu Huazhang Technology
+  summary_en: "Long-document RAG (expansion, recall, reranking, source citations) for TCM QA (granted July 2024)."
+ds-tcmsp:
+  title_en: TCMSP
+  summary_en: Herb–ingredient–target–disease networks with ADME parameters; public site is TCMSP 2.3 with downloadable relationship tables.
+ds-tcmid:
+  title_en: TCMID 2.0
+  summary_en: Integrative formula–herb–ingredient–target database (distinct from NUS TCM-ID). Original megabionet site is down; verify via Zenodo extract and the NAR paper.
+ds-tcm-id:
+  title_en: TCM-ID
+  summary_en: NUS BIDD formula–herb–ingredient–target resource covering pharmacopoeia, classical, and CFDA-approved prescriptions; not the same database as TCMID 2.0.
+ds-etcm:
+  title_en: ETCM 2.0
+  summary_en: Encyclopedia of TCM formulas, patent drugs, materia medica, and ingredients with target prediction and multi-scale networks; v1 site remains online.
+ds-herb:
+  title_en: HERB 2.0
+  summary_en: Evidence-centered TCM resource integrating clinical trials, meta-analyses, high-throughput experiments, literature, and a knowledge graph.
+ds-symmap:
+  title_en: SymMap 2.0
+  summary_en: Herb–TCM symptom–modern symptom–ingredient–target–disease maps, expanded with newer pharmacopoeia records and downloadable relationship tables.
+ds-batman-tcm:
+  title_en: BATMAN-TCM 2.0
+  summary_en: Known and predicted TCM ingredient–target protein interactions, with greatly expanded TTI coverage and target-to-ingredient search.
+ds-tcm-taiwan:
+  title_en: TCM Database@Taiwan
+  summary_en: About 20k isolated-compound 2D/3D structures from 453 TCM materials for virtual screening. Original tcm.cmu.edu.tw is unreachable; verify via the PLOS paper.
+ds-hit:
+  title_en: HIT 2.0
+  summary_en: Manually curated herbal-ingredient–target activity pairs (~1,237 ingredients / 2,208 targets, 2000–2020 literature). Portal opens; the analysis backend port is currently down.
+ds-ltm-tcm:
+  title_en: LTM-TCM
+  summary_en: Symptom–prescription–plant–ingredient–target platform linking 14 source databases plus clinical and classical records (~48k formulas). Official Tasly cloud timed out; verify via the paper DOI.
+ds-tcmio:
+  title_en: TCMIO
+  summary_en: Immuno-oncology TCM database of prescriptions, herbs, ingredients, targets, and pathways, with downloads and a REST API.
+ds-cemtdd:
+  title_en: CEMTDD
+  summary_en: Ethnic-minority herbal–compound–target–disease resource (~621 herbs, mainly Uygur/Kazakh). Original domain no longer hosts the database; verify via the PMC paper.
+ds-yatcm:
+  title_en: YaTCM
+  summary_en: About 1,813 prescriptions, 6,220 herbs, and 47k natural products with target/pathway tools. Nankai site currently returns 403; verify via the open-access paper.
+ds-tcmbank:
+  title_en: TCMBank
+  summary_en: Large downloadable herb–ingredient–target–disease resource with literature-mining updates after manual checks.
+ds-itcm:
+  title_en: ITCM
+  summary_en: Integrated formula/herb/ingredient/target platform plus 1,488 pharmacotranscriptomic profiles for 496 TCM ingredients (expression data also on Synapse).
+ds-dcabm-tcm:
+  title_en: DCABM-TCM
+  summary_en: Literature-mined blood constituents and metabolites of TCM prescriptions and herbs, with experimental detection conditions (~1,816 structured absorbed constituents).
+ds-cmaup:
+  title_en: CMAUP
+  summary_en: BIDD landscape of multi-target activities, pathways, and diseases for useful plants including TCM herbs; 2024 update, downloadable from the official site.
