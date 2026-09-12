@@ -67,6 +67,7 @@ LINK_LABEL_EN = {
     "SFT数据": "SFT data",
     "指令数据": "Instruction data",
     "网站": "Website",
+    "原网站": "Original site",
     "新闻": "News",
     "数据": "Data",
     "资料": "Resources",
@@ -107,6 +108,8 @@ SEMANTIC_TAGS = {
     "reasoning",
     "prescription",
     "patent",
+    "dead-site",
+    "site-issue",
 }
 
 # First match wins for non-model leftover papers.
@@ -196,6 +199,15 @@ def entry_blurb(entry: dict, lang: str) -> str:
     return entry.get("summary_zh") or entry.get("title_zh") or entry.get("name", "")
 
 
+def issue_mark(entry: dict, lang: str) -> str:
+    tags = tags_of(entry)
+    if "dead-site" in tags:
+        return "（官网已挂）" if lang == "zh" else " (site down)"
+    if "site-issue" in tags:
+        return "（服务异常）" if lang == "zh" else " (site issue)"
+    return ""
+
+
 def display_name(entry: dict, lang: str) -> str:
     if lang == "en":
         return entry.get("name_en") or entry.get("title_en") or entry.get("name", "")
@@ -206,7 +218,7 @@ def format_resource_line(entry: dict, lang: str) -> str:
     bits = ["-"]
     if entry.get("venue"):
         bits.append(f"[*{entry['venue']}*]")
-    bits.append(f"**{display_name(entry, lang)}**")
+    bits.append(f"**{display_name(entry, lang)}**{issue_mark(entry, lang)}")
     blurb = entry_blurb(entry, lang)
     if blurb:
         bits.append(blurb)
@@ -239,7 +251,7 @@ def format_news_line(entry: dict, lang: str) -> str:
 
 def format_dataset_line(entry: dict, lang: str) -> str:
     title = display_name(entry, lang)
-    return f"- {title}{format_links(entry.get('links'), lang)}"
+    return f"- {title}{issue_mark(entry, lang)}{format_links(entry.get('links'), lang)}"
 
 
 def lang_switcher(lang: str) -> str:
@@ -698,9 +710,9 @@ def build_paper_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
 def build_dataset_section(datasets: list[dict], lang: str) -> list[str]:
     title = "## 数据集" if lang == "zh" else "## Datasets"
     intro = (
-        "按用途点开。想对一下评测集，看 [Datasets](wiki/Datasets.md) 和 [Benchmarks](wiki/Benchmarks.md)。"
+        "按用途点开。官网挂了的标「官网已挂」，门户在但核心功能不通的标「服务异常」，都仍收论文/镜像；想对一下评测集，看 [Datasets](wiki/Datasets.md) 和 [Benchmarks](wiki/Benchmarks.md)。"
         if lang == "zh"
-        else "Grouped by use. For a longer note on benches, see [Datasets](wiki/Datasets.md) and [Benchmarks](wiki/Benchmarks.md)."
+        else "Grouped by use. Official sites that are down are marked “site down”; portals that are up but broken are marked “site issue”. Both stay listed with the paper or a mirror. For a longer note on benches, see [Datasets](wiki/Datasets.md) and [Benchmarks](wiki/Benchmarks.md)."
     )
     lines = [title, "", intro, ""]
     by_section: dict[str, list[dict]] = defaultdict(list)
@@ -867,7 +879,7 @@ def build_wiki_datasets(buckets: dict[str, list[dict]]) -> str:
     lines = [
         "# Datasets",
         "",
-        "数据集按用途分栏，与 README [数据集](../README.md#数据集) 同源。评测基准的任务对照见 [[Benchmarks]]。",
+        "数据集按用途分栏，与 README [数据集](../README.md#数据集) 同源。评测基准的任务对照见 [[Benchmarks]]。官网挂了的标「官网已挂」，门户在但核心功能不通的标「服务异常」。",
         "",
     ]
     for section in DATASET_SECTION_ORDER_ZH:

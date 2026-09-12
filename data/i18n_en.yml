@@ -1080,16 +1080,16 @@ ds-tcm-taiwan:
   summary_en: About 20k isolated-compound 2D/3D structures from 453 TCM materials for virtual screening. Original tcm.cmu.edu.tw is unreachable; verify via the PLOS paper.
 ds-hit:
   title_en: HIT 2.0
-  summary_en: Manually curated herbal-ingredient–target activity pairs (~1,237 ingredients / 2,208 targets, 2000–2020 literature). Portal opens; the analysis backend port is currently down.
+  summary_en: Manually curated herbal-ingredient–target activity pairs (~1,237 ingredients / 2,208 targets, 2000–2020 literature). Portal opens; the analysis backend port is currently down (marked site issue).
 ds-ltm-tcm:
   title_en: LTM-TCM
-  summary_en: Symptom–prescription–plant–ingredient–target platform linking 14 source databases plus clinical and classical records (~48k formulas). Official Tasly cloud timed out; verify via the paper DOI.
+  summary_en: Symptom–prescription–plant–ingredient–target platform linking 14 source databases plus clinical and classical records (~48k formulas). Official Tasly cloud no longer resolves; verify via the paper DOI.
 ds-tcmio:
   title_en: TCMIO
   summary_en: Immuno-oncology TCM database of prescriptions, herbs, ingredients, targets, and pathways, with downloads and a REST API.
 ds-cemtdd:
   title_en: CEMTDD
-  summary_en: Ethnic-minority herbal–compound–target–disease resource (~621 herbs, mainly Uygur/Kazakh). Original domain no longer hosts the database; verify via the PMC paper.
+  summary_en: Ethnic-minority herbal–compound–target–disease resource (~621 herbs, mainly Uygur/Kazakh). Original cemtdd.com now hosts something else; verify via the PMC paper.
 ds-yatcm:
   title_en: YaTCM
   summary_en: About 1,813 prescriptions, 6,220 herbs, and 47k natural products with target/pathway tools. Nankai site currently returns 403; verify via the open-access paper.
@@ -1105,3 +1105,21 @@ ds-dcabm-tcm:
 ds-cmaup:
   title_en: CMAUP
   summary_en: BIDD landscape of multi-target activities, pathways, and diseases for useful plants including TCM herbs; 2024 update, downloadable from the official site.
+ds-supertcm:
+  title_en: SuperTCM
+  summary_en: Charité biocultural TCM resource linking drugs, botanical species, ingredients, targets, KEGG pathways, and diseases (~6,516 drugs). Official tcm.charite.de no longer resolves.
+ds-tcmanalyzer:
+  title_en: TCMAnalyzer
+  summary_en: RCDD chemo-/bioinformatics service for formula/herb/ingredient networks and scaffold search (~1,493 formulas, 618 herbs). Official rcdd.org.cn currently times out.
+ds-tcm-mesh:
+  title_en: TCM-Mesh
+  summary_en: Herb–compound–gene–disease network with toxicity/side-effect records (~6,235 herbs). Official portal currently returns 403; verify via the open paper.
+ds-tcmgenedit:
+  title_en: TCMGeneDIT
+  summary_en: Text-mined associations among TCM, genes, diseases, effects, and ingredients, with pathway and PPI links. Official NTU site no longer resolves.
+ds-cvdhd:
+  title_en: CVDHD
+  summary_en: Cardiovascular herbal database of 3D compound structures, targets, and pathways for virtual screening and network pharmacology. Original Peking University site currently times out.
+ds-tm-mc:
+  title_en: TM-MC
+  summary_en: KIOM literature-derived medicinal-material–compound database (~536 materials, 14k compounds) with PubMed/PubChem provenance. Official site currently times out.

@@ -38,7 +38,7 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 | `summary_zh` | 一句话中文摘要 |
 | `links` | 论文/代码/模型/数据集等 URL |
 | `section` | 数据集分栏。组方/提取物公开库用 `中药组方 / 提取物`，不要放进中医大模型语料栏 |
-| `tags` | 如 `multimodal`, `benchmark`, `open-weights`, `agent`, `general-medical` |
+| `tags` | 如 `multimodal`, `benchmark`, `open-weights`, `agent`, `general-medical`。官网不可达加 `dead-site`（标「官网已挂」）；门户在但核心功能不通加 `site-issue`（标「服务异常」）。有问题也要收、也要标 |
 | `verified_at` | 链接核验日期 `YYYY-MM-DD` |
 | `status` | 默认 `published` |
 
@@ -46,7 +46,7 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 
 ## 链接要求
 
-- 优先 DOI / 官方仓库 / Hugging Face 规范 URL。专利用 Google Patents（CN / US / EP / WO / JP / KR 等），`venue` 写公开号（授权件优先 `…B`）。全球补漏可用 `python3 scripts/search_patents_bq.py`（需 `gcloud auth login`，查 `patents-public-data`）。
+- 优先 DOI / 官方仓库 / Hugging Face 规范 URL。官网挂了仍应收：`tags` 加 `dead-site`，历史入口用 `原网站`；门户在但核心功能不通加 `site-issue`。核验链用论文 / DOI / 镜像。专利用 Google Patents（CN / US / EP / WO / JP / KR 等），`venue` 写公开号（授权件优先 `…B`）。全球补漏可用 `python3 scripts/search_patents_bq.py`（需 `gcloud auth login`，查 `patents-public-data`）。
 - 提交前可用 `python3 scripts/check_links.py` 抽检。
 - 标题与链接内容须对齐（避免挂错论文）。
 

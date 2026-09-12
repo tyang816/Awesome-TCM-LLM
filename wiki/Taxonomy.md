@@ -39,6 +39,8 @@
 | `tool` | 平台、系统、可运行工具 |
 | `patent` | 发明专利 / 发明公布 |
 | `ancient-books` / `herbal` | 古籍或本草专项 |
+| `dead-site` | 成果已发表，但官网不可达或已改作他用；README 标「官网已挂」，仍收论文/镜像 |
+| `site-issue` | 官网还能打开，但检索/下载等核心功能不通；README 标「服务异常」 |
 
 ## dataset.section
 
