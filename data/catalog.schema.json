@@ -29,7 +29,7 @@
       "properties": {
         "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
         "name": {"type": "string", "minLength": 1},
-        "type": {"enum": ["news", "resource", "survey", "dataset", "model_hf"]},
+        "type": {"enum": ["news", "resource", "survey", "dataset", "model_hf", "patent"]},
         "year": {"type": "integer", "minimum": 1900, "maximum": 2100},
         "date": {"type": "string", "pattern": "^[0-9]{4}\\.[0-9]{2}$"},
         "tags": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},

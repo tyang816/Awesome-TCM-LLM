@@ -87,7 +87,7 @@ def main(output: Path = OUT, force: bool = False) -> int:
         dict(id="tcm-best4sdt", name="TCM-BEST4SDT", year=2025, summary_zh="面向辨证论治的病例评测基准（知识/伦理/安全/SDT）", tags=["benchmark"], links={"论文": "https://arxiv.org/abs/2512.02816", "代码": "https://github.com/DYJG-research/TCM-BEST4SDT"}),
         dict(id="renshu-ai", name="仁术AI (RenShu-AI)", year=2025, summary_zh="FastAPI + LangGraph 多智能体中医问诊系统，融合 GraphRAG 与 DeepSeek-TCM", tags=["agent", "tool"], links={"代码": "https://github.com/yanlinPeng-code/RenShu-AI"}),
         # 2024
-        dict(id="medchatzh", name="MedChatZH", year=2024, venue="Computers in Biology and Medicine", summary_zh="中医问诊大模型", orgs=["华东理工大学"], tags=["model", "open-weights"], links={"论文": "https://doi.org/10.1016/j.compbiomed.2024.108290", "ScienceDirect": "https://www.sciencedirect.com/science/article/pii/S0010482524003743", "数据集": "https://huggingface.co/datasets/tyang816/MedChatZH", "模型": "https://huggingface.co/tyang816/medchatzh", "代码": "https://github.com/tyang816/MedChatZH"}),
+        dict(id="medchatzh", name="MedChatZH", year=2024, venue="Computers in Biology and Medicine", summary_zh="中医问诊大模型", orgs=["华东理工大学"], tags=["model", "open-weights"], links={"代码": "https://github.com/tyang816/MedChatZH", "论文": "https://doi.org/10.1016/j.compbiomed.2024.108290", "ScienceDirect": "https://www.sciencedirect.com/science/article/pii/S0010482524003743", "数据集": "https://huggingface.co/datasets/tyang816/MedChatZH", "模型": "https://huggingface.co/tyang816/medchatzh"}),
         dict(id="lingdan", name="TCMLLM / 灵丹 (Lingdan)", year=2024, venue="Digital Chinese Medicine", summary_zh="中医药大模型与处方推荐", orgs=["北京交通大学"], tags=["model", "open-weights"], links={"论文": "https://doi.org/10.1016/j.dcmed.2025.01.007", "ScienceDirect": "https://www.sciencedirect.com/science/article/pii/S2589377725000072", "代码": "https://github.com/2020MEAI/TCMLLM", "灵丹代码": "https://github.com/TCMAI-BJTU/LingdanLLM", "模型": "https://huggingface.co/TCMLLM/Lingdan-13B-Base"}),
         dict(id="ming", name="明医 (MING)", year=2024, summary_zh="中文医疗问诊大模型", orgs=["上海交通大学"], tags=["model", "general-medical"], links={"论文": "https://arxiv.org/abs/2404.09027", "相关 MedCare": "https://aclanthology.org/2024.findings-emnlp.619/", "代码": "https://github.com/MediaBrain-SJTU/MING"}, align_note="ACL anthology 619 为 MedCare，明医主论文改 arXiv"),
         dict(id="huatuo-bencao", name="本草[原名：华驼(HuaTuo)]", year=2024, venue="ACM Trans. Knowl. Discov. Data", summary_zh="基于中文医学知识的大语言模型指令微调", orgs=["哈尔滨工业大学"], tags=["model", "general-medical"], links={"论文": "https://arxiv.org/pdf/2309.04175.pdf", "代码": "https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese"}),
@@ -117,6 +117,7 @@ def main(output: Path = OUT, force: bool = False) -> int:
         dict(id="shizhen-pretrain", name="TCM-Pretrain-Data-ShizhenGPT", section="原始书籍 / 预训练语料", title_zh="ShizhenGPT 中医预训练语料（约 6B tokens，含图文交错数据）", tags=["corpus", "multimodal"], links={"数据集": "https://huggingface.co/datasets/FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT"}),
         dict(id="sylvanl-pretrain", name="Traditional-Chinese-Medicine-Dataset-Pretrain", section="原始书籍 / 预训练语料", title_zh="高质量中医预训练数据集（医案/典籍/百科等）", tags=["corpus"], links={"数据集": "https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain"}),
         dict(id="ds-linglan", name="LingLan", section="评测基准", title_zh="LingLan（灵兰秘典）大规模多任务中医评测基准 (2026)", year=2026, tags=["benchmark"], links={"数据集": "https://github.com/TCMAI-BJTU/LingLan", "论文": "https://arxiv.org/abs/2602.01779"}),
+        dict(id="ds-tcm-aqa61", name="TCM-AQA61", section="评测基准", title_zh="TCM-AQA61 / CME-AQA 针灸推拿动作质量评估", year=2026, tags=["benchmark", "multimodal"], links={"论文": "https://arxiv.org/abs/2606.28104", "DOI": "https://doi.org/10.1109/TNSRE.2026.3705649", "代码": "https://github.com/FrancisXZhang/cme-aqa", "数据": "https://researchdata.durham.ac.uk/collections/r1jm214p229"}),
         dict(id="ds-tcm-ladder", name="TCM-Ladder", section="评测基准", title_zh="TCM-Ladder 中医多模态问答评测基准 (NeurIPS 2025)", year=2025, tags=["benchmark", "multimodal"], links={"数据集": "https://github.com/orangeshushu/TCM-Ladder", "HF": "https://huggingface.co/datasets/timzzyus/TCM-Ladder", "榜单": "https://tcmladder.com"}),
         dict(id="ds-mtcmb", name="MTCMB", section="评测基准", title_zh="MTCMB 中医多任务评测基准（知识/推理/安全）", tags=["benchmark"], links={"数据集": "https://github.com/Wayyuanyuan/MTCMB", "论文": "https://arxiv.org/abs/2506.01252"}),
         dict(id="ds-tcm-3c", name="TCM-3CEval", section="评测基准", title_zh="TCM-3CEval 核心知识·经典理解·临床决策三轴评测", tags=["benchmark"], links={"论文": "https://arxiv.org/abs/2503.07041"}),
@@ -132,7 +133,7 @@ def main(output: Path = OUT, force: bool = False) -> int:
         dict(id="ds-tcm-text-exams", name="TCM-Text-Exams", section="考试数据集", title_zh="TCM-Text-Exams 近年中医执业/考研真题文本基准", tags=["benchmark"], links={"数据集": "https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams"}),
         dict(id="ds-shennong", name="ShenNong_TCM_Dataset", section="指令/对话数据集", title_zh="中医药指令数据集 ShenNong_TCM_Dataset", tags=["sft"], links={"数据集": "https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset"}),
         dict(id="ds-chatmed-consult", name="ChatMed_Consult_Dataset", section="指令/对话数据集", title_zh="中文医疗在线问诊数据集 ChatMed_Consult_Dataset（50w+在线问诊+ChatGPT回复）", tags=["sft", "general-medical"], links={"数据集": "https://huggingface.co/datasets/michaelwzhu/ChatMed_Consult_Dataset"}),
-        dict(id="ds-medchatzh", name="MedChatZH", section="指令/对话数据集", title_zh="MedChatZH 中医问诊数据集", tags=["sft"], links={"数据集": "https://huggingface.co/datasets/tyang816/MedChatZH"}),
+        dict(id="ds-medchatzh", name="MedChatZH", section="指令/对话数据集", title_zh="MedChatZH 中医问诊数据集", tags=["sft"], links={"代码": "https://github.com/tyang816/MedChatZH", "数据集": "https://huggingface.co/datasets/tyang816/MedChatZH"}),
         dict(id="ds-cmtmedqa", name="CMtMedQA", section="指令/对话数据集", title_zh="CMtMedQA 仲景真实多轮医患对话（约 7 万条）", tags=["sft"], links={"数据集": "https://huggingface.co/datasets/Suprit/CMtMedQA"}),
         dict(id="ds-tcmchat-600k", name="TCMChat-dataset-600k", section="指令/对话数据集", title_zh="TCMChat-dataset-600k 中药知识问答与推荐指令数据", tags=["sft"], links={"数据集": "https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k"}),
         dict(id="ds-shizhen-sft", name="TCM-Instruction-Tuning-ShizhenGPT", section="指令/对话数据集", title_zh="ShizhenGPT 多模态指令微调数据（文本/视觉/语音，约 245K）", tags=["sft", "multimodal"], links={"数据集": "https://huggingface.co/datasets/FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT"}),
@@ -167,9 +168,9 @@ def main(output: Path = OUT, force: bool = False) -> int:
     catalog = {
         "meta": {
             "title": "Awesome-TCM-LLM",
-            "title_zh": "中医大模型资源",
-            "description_zh": "开源中文医疗大模型（中医/西医）相关新闻、论文、模型与数据集精选列表。",
-            "description_en": "Curated open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs.",
+            "title_zh": "开源中医模型、数据、论文、专利",
+            "description_zh": "开源中医模型、数据、论文、专利精选，也带一点相关中文医疗资源。",
+            "description_en": "Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.",
             "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
             "portal_url": "https://tyang816.github.io/projects/tcm/",
             "updated_at": VERIFIED,

@@ -31,6 +31,7 @@ WIKI_HOME = "https://github.com/tyang816/Awesome-TCM-LLM/wiki"
 
 DATASET_SECTION_ORDER_ZH = [
     "公开资料整理",
+    "中药组方 / 提取物",
     "原始书籍 / 预训练语料",
     "评测基准",
     "考试数据集",
@@ -43,6 +44,7 @@ HF_SECTION = "Hugging Face 开源模型（精选）"
 
 SECTION_EN = {
     "公开资料整理": "Curated lists",
+    "中药组方 / 提取物": "Formula / extract databases",
     "原始书籍 / 预训练语料": "Books / pretraining corpora",
     "评测基准": "Benchmarks",
     "考试数据集": "Exam datasets",
@@ -77,6 +79,9 @@ LINK_LABEL_EN = {
     "正式发表": "Published",
     "arXiv": "arXiv",
     "预印本": "Preprint",
+    "专利": "Patent",
+    "公开": "Publication",
+    "授权": "Grant",
 }
 
 SEMANTIC_TAGS = {
@@ -101,6 +106,7 @@ SEMANTIC_TAGS = {
     "survey",
     "reasoning",
     "prescription",
+    "patent",
 }
 
 # First match wins for non-model leftover papers.
@@ -136,9 +142,13 @@ def apply_i18n(entry: dict, i18n: dict) -> dict:
     patch = i18n.get(entry.get("id")) or {}
     if isinstance(patch, str):
         patch = {"summary_en": patch}
-    for key in ("summary_en", "title_en", "name_en"):
+    for key in ("summary_en", "title_en", "name_en", "venue_en"):
         if patch.get(key) and not out.get(key):
             out[key] = patch[key]
+    if patch.get("venue_en") and not out.get("venue"):
+        out["venue"] = patch["venue_en"]
+    elif patch.get("venue_en") and out.get("venue") and re.search(r"[\u4e00-\u9fff]", str(out["venue"])):
+        out["venue"] = patch["venue_en"]
     if patch.get("orgs_en"):
         out["orgs"] = list(patch["orgs_en"])
     return out
@@ -244,7 +254,7 @@ def badges() -> str:
         "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) "
         "![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  "
         "![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) "
-        f"[![中文门户](https://img.shields.io/badge/中医大模型-门户-blue)]({PORTAL_ZH}) "
+        f"[![中文门户](https://img.shields.io/badge/中医资源-门户-blue)]({PORTAL_ZH}) "
         f"[![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)]({DEFAULT_PORTAL})"
     )
 
@@ -402,8 +412,13 @@ def compact_model_links(entry: dict, lang: str) -> str:
         "zh": ("论文", "权重", "代码", "数据"),
         "en": ("Paper", "Weights", "Code", "Data"),
     }[lang]
+    ordered = (
+        ((paper, labels[0]), (code, labels[2]), (weight, labels[1]), (data, labels[3]))
+        if entry.get("id") == "medchatzh"
+        else ((paper, labels[0]), (weight, labels[1]), (code, labels[2]), (data, labels[3]))
+    )
     parts = []
-    for url, label in ((paper, labels[0]), (weight, labels[1]), (code, labels[2]), (data, labels[3])):
+    for url, label in ordered:
         if url:
             parts.append(f"[{label}]({url})")
     return " · ".join(parts) if parts else "—"
@@ -419,6 +434,8 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
             buckets["news"].append(entry)
         elif kind == "survey":
             buckets["survey"].append(entry)
+        elif kind == "patent":
+            buckets["patent"].append(entry)
         elif kind == "dataset":
             buckets["dataset"].append(entry)
         elif kind == "model_hf":
@@ -451,6 +468,7 @@ def count_pack(buckets: dict[str, list[dict]]) -> dict[str, int]:
         "news": len(buckets["news"]),
         "models": len(buckets["model_tcm"]) + len(buckets["model_general"]) + len(buckets["model_hf"]),
         "surveys": len(buckets["survey"]),
+        "patents": len(buckets["patent"]),
         "datasets": len(buckets["dataset"]),
         "papers": sum(len(buckets[k]) for k in ("agent", "multimodal", "rag_kg", "eval", "method", "history")),
         "open": sum(1 for e in buckets["model_tcm"] if is_open_weights(e)),
@@ -470,7 +488,14 @@ def takeaway_link(entry: dict | None, lang: str) -> str:
     if not entry:
         return "—"
     name = display_name(entry, lang)
-    url = weight_url(entry) or first_link(entry.get("links") or {}, PAPER_LINK_KEYS + CODE_LINK_KEYS)
+    links = entry.get("links") or {}
+    # MedChatZH: prefer the GitHub repo over Hugging Face weights.
+    if entry.get("id") == "medchatzh":
+        url = first_link(links, CODE_LINK_KEYS) or weight_url(entry) or first_link(
+            links, PAPER_LINK_KEYS
+        )
+    else:
+        url = weight_url(entry) or first_link(links, PAPER_LINK_KEYS + CODE_LINK_KEYS)
     return f"**[{name}]({url})**" if url else f"**{name}**"
 
 
@@ -620,6 +645,21 @@ def build_survey_section(surveys: list[dict], lang: str) -> list[str]:
     return [title, ""] + fold(summary, emit_list(surveys, lang, format_resource_line))
 
 
+def build_patent_section(patents: list[dict], lang: str) -> list[str]:
+    title = "## 专利" if lang == "zh" else "## Patents"
+    intro = (
+        "收中医大模型、知识图谱、RAG、智能问诊与处方推荐等系统专利，不限中国；不收中药组方、制剂专利全集。"
+        if lang == "zh"
+        else "TCM LLM, knowledge-graph, RAG, inquiry, and prescription-recommendation system patents worldwide—not a dump of herbal-formula patents."
+    )
+    summary = (
+        f"{len(patents)} 件，按公开年收着"
+        if lang == "zh"
+        else f"{len(patents)} patents, grouped by publication year"
+    )
+    return [title, "", intro, ""] + fold(summary, emit_list(patents, lang, format_resource_line))
+
+
 def build_paper_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
     specs = [
         ("agent", "Agent", "Agents", "问诊流程、多智能体"),
@@ -719,30 +759,30 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
 
     if lang == "zh":
         header = [
-            "# 🔥 开源中文医疗大模型",
+            "# 🔥 开源中医模型、数据、论文、专利",
             "",
             lang_switcher("zh"),
             "",
             badges(),
             "",
-            f"收集中医大模型相关的模型、数据、评测和论文，也带一点通用中文医疗。"
+            f"开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。"
             f"现在大概有 {n['news']} 条新闻、{n['models']} 个模型、{n['surveys']} 篇综述、"
-            f"{n['datasets']} 个数据集、{n['papers']} 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。",
+            f"{n['patents']} 件专利、{n['datasets']} 个数据集、{n['papers']} 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。",
             "",
             f"[项目页]({portal}) · [中文项目页]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [主页]({SITE_ZH})",
             "",
         ]
     else:
         header = [
-            "# 🔥 Awesome TCM / Chinese Medical LLMs",
+            "# 🔥 Open TCM Models, Data, Papers, and Patents",
             "",
             lang_switcher("en"),
             "",
             badges(),
             "",
-            f"Models, data, benchmarks, and papers around TCM LLMs, plus a few general Chinese medical ones. "
+            f"Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. "
             f"Right now: {n['news']} news items, {n['models']} models, {n['surveys']} surveys, "
-            f"{n['datasets']} datasets, {n['papers']} method papers. [PRs welcome](CONTRIBUTING.md).",
+            f"{n['patents']} patents, {n['datasets']} datasets, {n['papers']} method papers. [PRs welcome](CONTRIBUTING.md).",
             "",
             f"[Project page]({portal}) · [Chinese catalog]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
             "",
@@ -753,6 +793,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
     lines += build_model_section(buckets, lang)
     lines += build_news_section(buckets["news"], lang)
     lines += build_survey_section(buckets["survey"], lang)
+    lines += build_patent_section(buckets["patent"], lang)
     lines += build_paper_section(buckets, lang)
     lines += build_dataset_section(buckets["dataset"], lang)
     lines += footer(lang, portal)
