@@ -16,9 +16,11 @@
 ## 决定 resource 落点的顺序
 
 1. `history` 或 `year < 2023`，且没有 `model` → **历史锚点**
-2. 含 `model` + `general-medical` → **通用中文医疗模型**
-3. 含 `model` → **中医专用模型**
-4. 否则按第一个命中的方法标签：`agent` → `multimodal` → `rag`/`kg` → `benchmark`/`evaluation` → **其他方法**
+2. 含 `model` + `east-asian-tm` → **日韩汉方 / 韩医**
+3. 含 `model` + `product` → **闭源中文医疗产品**
+4. 含 `model` + `general-medical` → **通用中文医疗模型**
+5. 含 `model` → **中医专用模型**
+6. 否则按第一个命中的方法标签：`agent` → `multimodal` → `rag`/`kg` → `benchmark`/`evaluation` → **其他方法**
 
 一条只进一个论文子栏，避免同一项刷屏。模型不再重复出现在「论文与方法」里。
 
@@ -34,8 +36,9 @@
 | `benchmark` / `evaluation` | 基准或评估研究 |
 | `dataset` / `sft` / `corpus` | 数据资产 |
 | `general-medical` | 中文医疗但非中医主线 |
+| `east-asian-tm` | 日韩汉方 / 韩医等东亚传统医学 |
 | `history` | LLM 之前的计算中医锚点 |
-| `product` / `policy` | 产业或政策新闻 |
+| `product` / `policy` | 产业或政策新闻；模型条目加 `product` 进闭源产品栏 |
 | `tool` | 平台、系统、可运行工具 |
 | `patent` | 发明专利 / 发明公布 |
 | `ancient-books` / `herbal` | 古籍或本草专项 |
@@ -48,6 +51,8 @@
 | --- | --- |
 | `公开资料整理` | 索引类列表 |
 | `中药组方 / 提取物` | 方剂组成、中药提取物/成分–靶点等计算向公开库（不与中医大模型语料混排；不收制剂专利全集） |
+| `通用中文医疗` | CMB / CMExam / Huatuo-26M / CMeKG / CBLUE 等常被中医实验当对照的开源中文医疗数据与评测（加 `general-medical`） |
+| `东亚传统医学` | 汉方 / 韩医公开库与门户（加 `east-asian-tm`） |
 | `原始书籍 / 预训练语料` | 古籍与 CPT 语料 |
 | `评测基准` | 可下载或可引用的 bench |
 | `考试数据集` | 执业 / 考研等 |

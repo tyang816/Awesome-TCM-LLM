@@ -32,6 +32,8 @@ WIKI_HOME = "https://github.com/tyang816/Awesome-TCM-LLM/wiki"
 DATASET_SECTION_ORDER_ZH = [
     "公开资料整理",
     "中药组方 / 提取物",
+    "通用中文医疗",
+    "东亚传统医学",
     "原始书籍 / 预训练语料",
     "评测基准",
     "考试数据集",
@@ -45,6 +47,8 @@ HF_SECTION = "Hugging Face 开源模型（精选）"
 SECTION_EN = {
     "公开资料整理": "Curated lists",
     "中药组方 / 提取物": "Formula / extract databases",
+    "通用中文医疗": "General Chinese medical data",
+    "东亚传统医学": "East Asian traditional medicine",
     "原始书籍 / 预训练语料": "Books / pretraining corpora",
     "评测基准": "Benchmarks",
     "考试数据集": "Exam datasets",
@@ -85,6 +89,11 @@ LINK_LABEL_EN = {
     "授权": "Grant",
     "Base": "Base",
     "7B": "7B",
+    "官网": "Website",
+    "ModelScope": "ModelScope",
+    "新闻稿": "Press",
+    "2.0论文": "2.0 paper",
+    "CBLUE任务": "CBLUE tasks",
 }
 
 SEMANTIC_TAGS = {
@@ -112,6 +121,7 @@ SEMANTIC_TAGS = {
     "patent",
     "dead-site",
     "site-issue",
+    "east-asian-tm",
 }
 
 # First match wins for non-model leftover papers.
@@ -459,7 +469,11 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
             if historical:
                 buckets["history"].append(entry)
             elif "model" in tags:
-                if "general-medical" in tags:
+                if "east-asian-tm" in tags:
+                    buckets["model_east_asian"].append(entry)
+                elif "product" in tags:
+                    buckets["model_product"].append(entry)
+                elif "general-medical" in tags:
                     buckets["model_general"].append(entry)
                 else:
                     buckets["model_tcm"].append(entry)
@@ -480,7 +494,13 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
 def count_pack(buckets: dict[str, list[dict]]) -> dict[str, int]:
     return {
         "news": len(buckets["news"]),
-        "models": len(buckets["model_tcm"]) + len(buckets["model_general"]) + len(buckets["model_hf"]),
+        "models": (
+            len(buckets["model_tcm"])
+            + len(buckets["model_general"])
+            + len(buckets["model_product"])
+            + len(buckets["model_east_asian"])
+            + len(buckets["model_hf"])
+        ),
         "surveys": len(buckets["survey"]),
         "patents": len(buckets["patent"]),
         "datasets": len(buckets["dataset"]),
@@ -595,15 +615,17 @@ def model_table(entries: list[dict], lang: str) -> list[str]:
 def build_model_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
     tcm = buckets["model_tcm"]
     general = buckets["model_general"]
+    products = buckets["model_product"]
+    east_asian = buckets["model_east_asian"]
     hf = buckets["model_hf"]
     open_tcm = [e for e in tcm if is_open_weights(e)]
     paper_tcm = [e for e in tcm if not is_open_weights(e)]
 
     title = "## 开源模型" if lang == "zh" else "## Open models"
     hint = (
-        "上面是起步用的。要翻全部能下的权重，或只有论文/产品、以及常被拿来当底座的通用中文医疗模型，点开即可。"
+        "上面是起步用的。要翻全部能下的权重，或只有论文/产品、通用中文医疗底座、闭源产品和日韩汉方/韩医，点开即可。"
         if lang == "zh"
-        else "The table above is a shortlist. Expand the folds for every public checkpoint, paper-only or product models, and general Chinese medical LLMs people use as bases."
+        else "The table above is a shortlist. Expand the folds for public checkpoints, paper-only models, general Chinese medical bases, closed products, and Kampo/Korean-medicine work."
     )
     lines = [title, "", hint, ""]
     if open_tcm:
@@ -628,6 +650,20 @@ def build_model_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
             else f"General Chinese medical models, often used as bases ({len(general)})"
         )
         lines += fold(summary, emit_list(general, lang, format_resource_line))
+    if products:
+        summary = (
+            f"闭源中文医疗产品，无核验权重（{len(products)}）"
+            if lang == "zh"
+            else f"Closed Chinese medical products, no verified weights ({len(products)})"
+        )
+        lines += fold(summary, emit_list(products, lang, format_resource_line))
+    if east_asian:
+        summary = (
+            f"日韩汉方 / 韩医模型与系统（{len(east_asian)}）"
+            if lang == "zh"
+            else f"Kampo / Korean-medicine models and systems ({len(east_asian)})"
+        )
+        lines += fold(summary, emit_list(east_asian, lang, format_resource_line))
     if hf:
         summary = (
             f"Hugging Face 上的其他尺寸和 GGUF（{len(hf)}）"
@@ -834,6 +870,8 @@ def _wiki_list(entries: list[dict], lang: str = "zh") -> list[str]:
 def build_wiki_models(buckets: dict[str, list[dict]]) -> str:
     tcm = buckets["model_tcm"]
     general = buckets["model_general"]
+    products = buckets["model_product"]
+    east_asian = buckets["model_east_asian"]
     hf = buckets["model_hf"]
     open_tcm = [e for e in tcm if is_open_weights(e)]
     paper_tcm = [e for e in tcm if not is_open_weights(e)]
@@ -853,7 +891,7 @@ def build_wiki_models(buckets: dict[str, list[dict]]) -> str:
         "| 当底座继续微调 | 同系列 Base / Instruct，以及通用中文医疗模型 |",
         "| 只做对照实验 | 通用中文医疗栏（华佗、孙思邈等） |",
         "",
-        f"中医专用 {len(tcm)} · 其中开源权重 {len(open_tcm)} · 通用医疗 {len(general)} · HF 精选 {len(hf)}。",
+        f"中医专用 {len(tcm)} · 其中开源权重 {len(open_tcm)} · 通用医疗 {len(general)} · 闭源产品 {len(products)} · 日韩 {len(east_asian)} · HF 精选 {len(hf)}。",
         "",
         "## 开源权重",
         "",
@@ -863,6 +901,10 @@ def build_wiki_models(buckets: dict[str, list[dict]]) -> str:
     lines += _wiki_list(paper_tcm) or ["（无）"]
     lines += ["", "## 通用中文医疗模型", ""]
     lines += _wiki_list(general)
+    lines += ["", "## 闭源中文医疗产品", ""]
+    lines += _wiki_list(products) or ["（无）"]
+    lines += ["", "## 日韩汉方 / 韩医", ""]
+    lines += _wiki_list(east_asian) or ["（无）"]
     lines += ["", "## Hugging Face 精选", ""]
     for entry in hf:
         lines.append(format_dataset_line(entry, "zh"))

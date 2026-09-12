@@ -37,12 +37,12 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 | `year` | 年份 |
 | `summary_zh` | 一句话中文摘要 |
 | `links` | 论文/代码/模型/数据集等 URL |
-| `section` | 数据集分栏。组方/提取物公开库用 `中药组方 / 提取物`，不要放进中医大模型语料栏 |
-| `tags` | 如 `multimodal`, `benchmark`, `open-weights`, `agent`, `general-medical`。官网不可达加 `dead-site`（标「官网已挂」）；门户在但核心功能不通加 `site-issue`（标「服务异常」）。有问题也要收、也要标 |
+| `section` | 数据集分栏。组方/提取物公开库用 `中药组方 / 提取物`；CMB / Huatuo-26M / CMExam 等通用中文医疗数据用 `通用中文医疗`；汉方/韩医公开库用 `东亚传统医学`，都不要和中医大模型语料混栏 |
+| `tags` | 如 `multimodal`, `benchmark`, `open-weights`, `agent`, `general-medical`, `product`, `east-asian-tm`。官网不可达加 `dead-site`（标「官网已挂」）；门户在但核心功能不通加 `site-issue`（标「服务异常」）。有问题也要收、也要标 |
 | `verified_at` | 链接核验日期 `YYYY-MM-DD` |
 | `status` | 默认 `published` |
 
-通用医疗（非中医主线）请加标签 `general-medical`；门户默认可隐藏此类条目。
+通用医疗（非中医主线）请加标签 `general-medical`；闭源产品加 `product`（不要标 `open-weights`）；汉方/韩医加 `east-asian-tm`。门户默认可隐藏 `general-medical`。
 
 ## 链接要求
 

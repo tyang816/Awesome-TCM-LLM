@@ -29,6 +29,8 @@ python3 scripts/build_readme.py
 方法：`agent` / `rag` / `kg` / `multimodal` 选最能代表主贡献的。  
 评测：数据集用 `type: dataset` + `section: 评测基准`；论文用 `resource` + `benchmark` 或 `evaluation`。  
 组方/提取物公开库：`type: dataset` + `section: 中药组方 / 提取物`，不要和中医大模型语料混栏，也不收制剂专利全集。  
+通用中文医疗数据/评测（CMB、Huatuo-26M、CMExam、CBLUE 等）：`type: dataset` + `section: 通用中文医疗` + `general-medical`。  
+汉方/韩医公开库：`type: dataset` + `section: 东亚传统医学` + `east-asian-tm`。闭源中文医疗产品：`resource` + `model` + `product`（不要标 `open-weights`）。  
 官网挂了但仍有论文或镜像：加 `dead-site`，链接里留 `原网站`。门户在但检索/下载不通：加 `site-issue`。有问题也要收、也要标。  
 专利：`type: patent`，`venue` 写公开号，链接用 Google Patents；只收中医大模型 / KG-QA / RAG 问诊等相关件，不限中国。全球补漏可跑 `scripts/search_patents_bq.py`。
 

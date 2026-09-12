@@ -245,6 +245,12 @@ baichuan-m2:
   summary_en: Baichuan's second open medical reasoning model (32B on Qwen2.5-32B) with a large verifier system and multi-stage RL; strong open-source HealthBench results.
   orgs_en:
   - Baichuan Intelligence
+baichuan-m3:
+  title_en: Baichuan-M3
+  name_en: Baichuan-M3
+  summary_en: Baichuan's third open medical reasoning model (235B on Qwen3) with SPAR staged RL and fact-aware RL for active inquiry and hallucination control; strong HealthBench and SCAN-bench results.
+  orgs_en:
+  - Baichuan Intelligence
 huatuogpt-ii:
   title_en: HuatuoGPT-II
   name_en: HuatuoGPT-II
@@ -284,10 +290,22 @@ wingpt2:
   summary_en: Winning Health open medical LLM on Qwen for medical QA, record understanding, and multi-turn consults; 7B/14B weights are public.
   orgs_en:
   - Winning Health
+wingpt3:
+  title_en: WiNGPT3
+  name_en: WiNGPT3
+  summary_en: Winning Health's third medical reasoning model (32B on Qwen2.5) with multi-stage SFT+RL and WiNEX hospital integration; tech report and code are public, weights are not verified as downloadable.
+  orgs_en:
+  - Winning Health
 taiyi:
   title_en: Taiyi
   name_en: Taiyi
   summary_en: DUTIR bilingual biomedical LLM on Qwen-7B for QA, doctor–patient dialogue, report generation, and information extraction (JAMIA 2024).
+  orgs_en:
+  - Dalian University of Technology
+taiyi-2:
+  title_en: Taiyi-2
+  name_en: Taiyi-2
+  summary_en: Second Taiyi open biomedical model, moving from Qwen-7B to GLM4-9B with tighter data filters and task instructions; the official replacement for Taiyi-1.
   orgs_en:
   - Dalian University of Technology
 qilin-med:
@@ -326,6 +344,122 @@ caregpt:
   title_en: CareGPT
   name_en: CareGPT
   summary_en: Open Chinese medical LLM training stack (pretrain through DPO) with accompanying weights, often used to reproduce Chinese medical fine-tunes.
+bianque-2:
+  title_en: BianQue-2
+  name_en: BianQue-2
+  summary_en: Second BianQue open consultation model with stronger multi-turn questioning; a common CMB baseline.
+  orgs_en:
+  - South China University of Technology
+  - Guangdong Key Laboratory of Digital Twin Humans
+ivygpt:
+  title_en: IvyGPT
+  name_en: IvyGPT
+  summary_en: LLaMA-based Chinese medical QA model fine-tuned with curated clinical QA and RLHF; listed as an open baseline in the CMB paper.
+chatglm-med:
+  title_en: ChatGLM-Med
+  name_en: ChatGLM-Med
+  summary_en: HIT-SCIR ChatGLM-6B instruction-tuned on Chinese medical KGs, sharing data lineage with BenCao/HuaTuo; a frequent CMB baseline.
+  orgs_en:
+  - Harbin Institute of Technology
+ds-cmb:
+  title_en: CMB
+  summary_en: FreedomIntelligence comprehensive Chinese medical benchmark (CMB-Exam ~280k items plus CMB-Clin cases); the most common non-TCM comparison board in TCM LLM papers.
+ds-cmexam:
+  title_en: CMExam
+  summary_en: Chinese medical licensing-exam set (~68k annotated items) used as a knowledge-recall baseline by Chinese medical and TCM LLMs.
+ds-huatuo-26m:
+  title_en: Huatuo-26M
+  summary_en: Largest open Chinese medical QA resource (~26M pairs from encyclopedias, KGs, and consults); Huatuo-Lite is the usual SFT/RAG subset.
+ds-promptcblue:
+  title_en: PromptCBLUE
+  summary_en: CBLUE's 16 Chinese medical NLP tasks rewritten as generative instructions; an early unified Chinese medical LLM leaderboard (CCKS 2023).
+ds-disc-med-sft:
+  title_en: DISC-Med-SFT
+  summary_en: Fudan DISC medical-dialogue SFT set (~470k examples from KG triples and reconstructed consults; no preference data).
+ds-qilin-chimed:
+  title_en: ChiMed (Qilin)
+  summary_en: Qilin-Med's ~3GB Chinese medical corpus (CPT/SFT/DPO); not the same resource as the ChiMed 2.0 pretraining set.
+ds-cmedqa2:
+  title_en: cMedQA2
+  summary_en: Chinese community medical QA (~108k questions / 200k answers), a common source for BianQue-style SFT mixtures.
+ds-meddialog:
+  title_en: MedDialog
+  summary_en: Large doctor–patient dialogue corpus (about 1.1M Chinese encounters) used for multi-turn Chinese medical fine-tuning.
+ds-cmekg:
+  title_en: CMeKG
+  summary_en: Chinese medical knowledge graph of diseases, drugs, and symptoms; main source for BenCao/HuaTuo and ChatGLM-Med instruction data. Official portal is unstable; verify via the tools repo.
+ds-cblue:
+  title_en: CBLUE
+  summary_en: Chinese biomedical NLU benchmark (NER, relations, diagnosis normalization, classification); the source-task suite behind PromptCBLUE, with a Tianchi submission portal.
+ds-imcs21:
+  title_en: IMCS-21
+  summary_en: About 4,116 pediatric online consults annotated for entities, intents, symptoms, and reports; later wired into four CBLUE dialogue tasks.
+ds-webmedqa:
+  title_en: webMedQA
+  summary_en: Early Chinese non-factoid medical QA from health-consult sites (~63k questions, one positive and four negative answers each).
+ds-knapsack-kampo:
+  title_en: KNApSAcK KAMPO
+  summary_en: NAIST Kampo public database (~1,581 formulas, 278 crude drugs), downloadable from the NBDC life-science archive.
+ds-km-embedding:
+  title_en: Korean Medicine Embedding Dataset
+  summary_en: Query–positive–negatives (~113k pairs) built from Korean-medicine terms and an ontology, for embedding fine-tunes such as BGE-M3.
+ds-oasis-kiom:
+  title_en: OASIS (KIOM)
+  summary_en: KIOM traditional-medicine literature portal for Korean-medicine papers and herbal resources.
+clinicalgpt:
+  title_en: ClinicalGPT
+  name_en: ClinicalGPT
+  summary_en: BUPT clinical Chinese medical model (BLOOM-7B) fine-tuned on records, knowledge, exams, and multi-turn consults; a common CMB-era baseline. HF hosts a medicalai snapshot.
+  orgs_en:
+  - Beijing University of Posts and Telecommunications
+iflytek-spark-med:
+  title_en: iFlytek Spark Medical
+  name_en: iFlytek Spark Medical
+  summary_en: Closed iFlytek medical LLM (Spark Medical X1/X2) behind Zhiyi Assistant and Xiaoyi; no public weights, listed as an industry baseline.
+  orgs_en:
+  - iFlytek
+hunyuan-med:
+  title_en: Tencent Hunyuan Medical
+  name_en: Tencent Hunyuan Medical
+  summary_en: Closed Tencent Health medical LLM on Hunyuan for QA, triage, records, and imaging; announced by Tencent Jarvis Lab, no public weights.
+  orgs_en:
+  - Tencent
+pangu-drug:
+  title_en: PanGu Drug Model
+  name_en: PanGu Drug Model
+  summary_en: Closed Huawei Cloud / SIMM molecule foundation model (~1.7B small molecules) for property prediction, generation, and optimization; later used under Shuzhi Bencao.
+  orgs_en:
+  - Huawei Cloud
+  - Shanghai Institute of Materia Medica, CAS
+ant-afu:
+  title_en: Ant Afu / Ant Medical LLM
+  name_en: Ant Afu
+  summary_en: Closed Ant multimodal medical LLM, first shipped as Alipay AQ and later rebranded Afu for consults, report and pill-box reading; announced at WAIC 2024, no public weights.
+  orgs_en:
+  - Ant Group
+kampo-llm:
+  title_en: KAMPO LLM
+  name_en: KAMPO LLM
+  summary_en: Closed Japanese Kampo medical API from VARYTEX with the Japan Society for Oriental Medicine, scored on 471 specialist-training items; no public weights.
+  orgs_en:
+  - VARYTEX
+km-agent:
+  title_en: KM-Agent
+  name_en: KM-Agent
+  summary_en: Tool-augmented agent for Korean / East Asian traditional medicine over 4,780 herb–syndrome–acupoint metadata records, evaluated on TCMBench-style sets.
+lingdan-v2:
+  title_en: Lingdan-V2
+  name_en: Lingdan-V2
+  summary_en: BJTU's second Lingdan TCM reasoning family (Qwen3 4B/8B/14B with CPT, SFT, and prescription GRPO). ModelScope checkpoints exist but require access requests, so they are not marked freely downloadable.
+  orgs_en:
+  - Beijing Jiaotong University
+dfglm-tcm:
+  title_en: DFGLM-TCM
+  name_en: DFGLM-TCM
+  summary_en: Dongfang Hospital / Zhipu TCM clinical system that models textbook knowledge and practitioner experience in separate modules; paper is out, weights are not.
+  orgs_en:
+  - Beijing University of Chinese Medicine
+  - Zhipu AI
 shennong-tcm-llm:
   summary_en: ShenNong-TCM-LLM, the first TCM large language model, released with the ShenNong_TCM_Dataset and open weights.
 huangdi:
@@ -1215,4 +1349,4 @@ ds-cvdhd:
   summary_en: Cardiovascular herbal database of 3D compound structures, targets, and pathways for virtual screening and network pharmacology. Original Peking University site currently times out.
 ds-tm-mc:
   title_en: TM-MC
-  summary_en: KIOM literature-derived medicinal-material–compound database (~536 materials, 14k compounds) with PubMed/PubChem provenance. Official site currently times out.
+  summary_en: KIOM literature-derived Northeast Asian medicinal-material–compound database; the 2015 release covers ~536 materials, and the 2024 2.0 paper expands to ~34k compounds. Official site currently times out.
