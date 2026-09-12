@@ -369,6 +369,7 @@ items:
 - id: core-acu
   name: CORE-Acu
   year: 2026
+  venue: arXiv
   summary_zh: 针灸临床决策：结构化推理轨迹与知识图谱安全否决闭环
   tags:
   - agent
@@ -381,6 +382,7 @@ items:
 - id: derm-3r
   name: DERM-3R
   year: 2026
+  venue: arXiv
   summary_zh: 资源受限下的中医皮肤病多模态多智能体框架（识别/表征/辨证论治三智能体）
   tags:
   - multimodal
@@ -406,6 +408,7 @@ items:
 - id: mmir-tcm
   name: MMIR-TCM
   year: 2026
+  venue: arXiv
   summary_zh: 记忆增强的多模态舌诊与临床决策框架，提出 MedTCM 数据集与 TDEU 评测指标
   tags:
   - multimodal
@@ -430,6 +433,7 @@ items:
 - id: tcm-agent
   name: TCM-Agent
   year: 2026
+  venue: Journal of Pharmaceutical Analysis
   summary_zh: 面向网络药理学与中药发现的 LLM 多智能体系统
   tags:
   - agent
@@ -443,6 +447,10 @@ items:
   name: TCM-DiffRAG
   year: 2026
   venue: Frontiers in Medicine
+  orgs:
+  - "Guangdong Institute of Intelligence Science and Technology, Zhuhai"
+  - "Hangzhou Ganzhicao Technology Co., Ltd"
+  - BoardWare Information System Limited
   summary_zh: 通用知识图谱 + 个性化知识图谱 + CoT 的辨证推理 RAG 框架
   tags:
   - rag
@@ -489,6 +497,7 @@ items:
 - id: linglan
   name: 灵兰秘典 (LingLan)
   year: 2026
+  venue: arXiv
   summary_zh: 大规模多任务中医评测基准，覆盖 5 大域、13 子任务、25624 实例
   orgs:
   - 北京交通大学等
@@ -559,6 +568,7 @@ items:
 - id: med-shicheng
   name: Med-Shicheng（师承）
   year: 2026
+  venue: arXiv
   summary_zh: 基于天医 (Tianyi) 的轻量级名老中医经验传承框架，单模型内化5位国医大师知识系统、覆盖7类任务
   orgs:
   - 南京中医药大学等
@@ -573,6 +583,7 @@ items:
 - id: dongyuan
   name: DongYuan
   year: 2026
+  venue: arXiv
   summary_zh: 中西医结合脾胃病诊断LLM框架，融合中医辨证与西医诊断推理
   tags:
   - model
@@ -584,6 +595,7 @@ items:
 - id: macat
   name: MACAT
   year: 2026
+  venue: arXiv
   summary_zh: 多智能体文化感知翻译框架，实验覆盖中医经典与《论语》文化负载词英译
   tags:
   - agent
@@ -596,6 +608,7 @@ items:
 - id: tonguedx2
   name: TongueDx2
   year: 2026
+  venue: arXiv
   summary_zh: 舌诊深度学习设计空间系统消融研究（20+模型版本），含5109图像/976专家标注
   tags: [multimodal, evaluation]
   links:
@@ -798,6 +811,7 @@ items:
 - id: bencao-gpt
   name: BenCao（指令微调本草助手）
   year: 2025
+  venue: arXiv
   summary_zh: 基于ChatGPT自然语言指令对齐的中医多模态助手，对接舌象API与知识库，部署于GPTs Store（区别于华驼/本草）
   tags:
   - model
@@ -837,6 +851,7 @@ items:
 - id: dopi
   name: DoPI
   year: 2025
+  venue: arXiv
   summary_zh: 类医生主动问诊中医大模型，引导模型+专家模型协同架构，问诊准确率84.68%
   tags:
   - model
@@ -879,6 +894,7 @@ items:
 - id: opentcm
   name: OpenTCM
   year: 2025
+  venue: arXiv
   summary_zh: 基于 GraphRAG 的中医知识检索与诊断系统，含妇科古籍知识图谱
   tags:
   - rag
@@ -907,6 +923,7 @@ items:
 - id: shizhengpt
   name: ShizhenGPT
   year: 2025
+  venue: arXiv
   summary_zh: 中医多模态大模型，支持望闻问切
   orgs:
   - 香港中文大学(深圳)等
@@ -951,6 +968,7 @@ items:
 - id: tcm-5ceval
   name: TCM-5CEval
   year: 2025
+  venue: arXiv
   summary_zh: 在 TCM-3CEval 基础上扩展本草与非药物疗法的五维深度评测
   tags:
   - benchmark
@@ -962,6 +980,7 @@ items:
 - id: tcm-best4sdt
   name: TCM-BEST4SDT
   year: 2025
+  venue: arXiv
   summary_zh: 面向辨证论治的病例评测基准（知识/伦理/安全/SDT）
   tags:
   - benchmark
@@ -1038,6 +1057,11 @@ items:
   name: ViTCM-LLM
   year: 2025
   venue: IEEE BIBM 2025
+  orgs:
+  - "Tsinghua Shenzhen International Graduate School,Shenzhen,China"
+  - "University of Belgrade,Belgrade,Serbia"
+  - 上海中医药大学
+  - "XiaoMing TCM Hospital,Shenzhen,China"
   summary_zh: Qwen2.5-VL+RAG的舌诊多模态临床决策框架，提出MedTCM数据集与TDEU指标（MMIR-TCM会议前序）
   tags:
   - multimodal
@@ -1113,6 +1137,7 @@ items:
 - id: tianhui
   name: 天惠 (TianHui)
   year: 2025
+  venue: arXiv
   summary_zh: 面向12类中医场景的领域LLM（DeepSeek-R1-Distill-Qwen-14B+PT/SFT），开源代码与评测脚本
   tags:
   - model
@@ -1161,6 +1186,7 @@ items:
 - id: zmt-m1
   name: 智明堂 (ZMT-M1)
   year: 2025
+  venue: arXiv
   summary_zh: 中医大模型及TCM-Eval动态可扩展评测基准
   orgs:
   - 北京航空航天大学
@@ -1224,6 +1250,7 @@ items:
 - id: jingfang
   name: 经方 (Jingfang)
   year: 2025
+  venue: arXiv
   summary_zh: 基于LLM的中医多智能体诊疗系统，辨证精度提升124%
   tags:
   - agent
@@ -1515,6 +1542,8 @@ items:
   name: MRD-RAG
   year: 2025
   venue: IEEE BIBM
+  orgs:
+  - 香港科技大学
   summary_zh: 模拟临床推理的多轮诊断RAG框架，并构建覆盖中西医的**DiagnosGraph**（876病/7997节点/37201三元组）
   tags:
   - rag
@@ -1529,6 +1558,7 @@ items:
 - id: ladder-base
   name: Ladder-base (GRPO-TCM)
   year: 2025
+  venue: arXiv
   summary_zh: TCM-Ladder团队提出的首个GRPO强化学习对齐中医LLM
   tags:
   - model
@@ -1540,6 +1570,7 @@ items:
 - id: tcdiff
   name: TCDiff
   year: 2025
+  venue: arXiv
   summary_zh: 三联级联扩散模型生成高保真多模态中医EHR，并构建**TCM-SZ1**基准数据集
   tags:
   - dataset
@@ -1552,6 +1583,7 @@ items:
 - id: new-snow-tablets
   name: New Snow Tablets（新雪片）
   year: 2025
+  venue: arXiv
   summary_zh: 揭示通用与中医专用LLM依赖药名猜测成分的系统缺陷
   tags:
   - evaluation
@@ -1564,6 +1596,11 @@ items:
   name: From Metaphor to Mechanism
   year: 2025
   venue: IJCNN 2025
+  orgs:
+  - "Shandong Normal University,Jinan,China"
+  - "China Pharmaceutical University,Nanjing,China"
+  - "The University of Tokyo,Tokyo,Japan"
+  - "Universiti Tunku Abdul Rahman,Perak,Malaysia"
   summary_zh: LLM解码中医隐喻/取象语言并映射现代医学概念
   tags:
   - evaluation
@@ -1612,6 +1649,11 @@ items:
   name: Gen-SynDi
   year: 2025
   venue: Applied Sciences
+  orgs:
+  - "College of Korean Medicine, Wonkwang University, Iksan 54538, Republic of Korea"
+  - "College of Korean Medicine, Woosuk University, Jeon-Ju 54987, Republic of Korea"
+  - "Dongje Medical Co., Ltd., Daegu 42187, Republic of Korea"
+  - "College of Medicine, Yeungnam University, Daegu 42415, Republic of Korea"
   summary_zh: 知识引导的生成式AI框架，用于辨证与疾病诊断的双向教学
   tags:
   - model
@@ -1624,6 +1666,7 @@ items:
 - id: hengqin-ra
   name: Hengqin-RA-v1
   year: 2025
+  venue: arXiv
   summary_zh: 类风湿关节炎中医诊疗大模型及配套数据集
   tags:
   - model
@@ -1762,6 +1805,7 @@ items:
 - id: ming
   name: 明医 (MING)
   year: 2024
+  venue: arXiv
   summary_zh: 中文医疗问诊大模型 MING，以稀疏 LoRA 混合专家（MING-MoE）增强医疗多任务学习能力（arXiv 2024）
   orgs:
   - 上海交通大学
@@ -1821,6 +1865,11 @@ items:
   name: TCM-FTP
   year: 2024
   venue: IEEE BIBM
+  orgs:
+  - 香港科技大学
+  - 北京交通大学
+  - 中国中医科学院
+  - 河南中医药大学
   summary_zh: 面向中药处方预测的大模型微调方法
   tags: [prescription]
   links:
@@ -1832,6 +1881,9 @@ items:
   name: LLM 腧穴定位关系抽取
   year: 2024
   venue: Journal of the American Medical Informatics Association
+  orgs:
+  - 中国中医科学院
+  - "The University of Texas MD Anderson Cancer Center , Houston, TX 77030"
   summary_zh: 大语言模型关系抽取案例研究：腧穴定位知识
   tags: [extract]
   links:
@@ -1855,6 +1907,8 @@ items:
   name: LLM 构建中医知识图谱
   year: 2024
   venue: Electronics
+  orgs:
+  - 同济大学
   summary_zh: 基于大语言模型的中医知识图谱构建
   tags:
   - kg
@@ -1879,6 +1933,8 @@ items:
   name: ChatGPT 中医交互可行性研究
   year: 2024
   venue: Chinese Medicine and Culture
+  orgs:
+  - 上海中医药大学
   summary_zh: 以 ChatGPT 为例探讨交互式AI应用于中医的可行性与挑战
   tags:
   - evaluation
@@ -1915,6 +1971,9 @@ items:
   name: TCM-BERT
   year: 2019
   venue: JAMIA
+  orgs:
+  - 美国西北大学
+  - 浙江大学
   summary_zh: 用领域语料继续预训练 BERT，把中医临床记录分成五类病（JAMIA 2019）。CKCEST 版权，全量 46205 条不公开，仓库只有划分样例和网盘微调权重
   tags: [plm, history]
   links:
@@ -1940,6 +1999,8 @@ items:
   name: TCMSF
   year: 2024
   venue: Methods of Information in Medicine
+  orgs:
+  - 中国中医科学院
   summary_zh: 中医证候古籍知识图谱构建框架 TCMSF，将古籍中的证候知识系统化组织并语义关联，为中医信息化提供基础（Methods of Information in Medicine 2024）
   tags:
   - kg
@@ -1952,6 +2013,7 @@ items:
 - id: chatgpt-tcm-knowledge
   name: ChatGPT 中医知识理解探究
   year: 2024
+  venue: arXiv
   summary_zh: ChatGPT 对中医知识理解能力的评测
   tags:
   - evaluation
@@ -1963,6 +2025,7 @@ items:
 - id: tcm-prompt-framework
   name: 中医提示工程框架
   year: 2024
+  venue: arXiv
   summary_zh: 基于提示工程框架的大语言模型中医智能理解方法
   tags: []
   links:
@@ -1973,6 +2036,7 @@ items:
 - id: tcm-rlaif
   name: RLAIF 中医对齐
   year: 2024
+  venue: arXiv
   summary_zh: 通过AI反馈强化学习增强大语言模型的中医能力
   tags: [reasoning]
   links:
@@ -1984,6 +2048,10 @@ items:
   name: PresRecST
   year: 2024
   venue: JAMIA
+  orgs:
+  - 北京交通大学
+  - 中国中医科学院
+  - 河南中医药大学
   summary_zh: 按「辨证—立法—荐药」递进推荐中药处方（JAMIA 2024）；配套公开 TCM-Lung 编码子集与 TCM-PD 复现表，代码在 GitHub
   tags:
   - prescription
@@ -1997,6 +2065,7 @@ items:
 - id: tcmd
   name: TCMD
   year: 2024
+  venue: arXiv
   summary_zh: 面向大模型评测的中医执业考试选择题集（论文报告约 2851 训 / 600 测）；独立打开论文页未见官方 GitHub 或 Hugging Face 下载
   tags:
   - benchmark
@@ -2020,6 +2089,9 @@ items:
   name: ACUBERT
   year: 2024
   venue: Database (Oxford)
+  orgs:
+  - 南京中医药大学
+  - Nanjing KG Data Technology
   summary_zh: 针灸适应证知识库的经络实体识别与分类模型
   tags: [plm, extract, kg]
   links:
@@ -2073,6 +2145,11 @@ items:
   name: GPT-4 中医研究生考试评估
   year: 2024
   venue: Research Square（预印本）
+  orgs:
+  - China Academy of Chinese Medical Science
+  - 中国中医科学院
+  - 北京中医药大学
+  - Changchun University of Traditional Chinese Medicine
   summary_zh: GPT-4 与国产主流大模型在中医研究生考试数据集上的表现评估（预印本）
   tags:
   - evaluation
@@ -2345,6 +2422,7 @@ items:
 - id: taiyi-2
   name: 太一2 (Taiyi-2)
   year: 2025
+  venue: Journal of the American Medical Informatics Association
   summary_zh: 太一二代开源生物医学模型，底座从Qwen-7B换成GLM4-9B，重做数据过滤与任务指令；官方推荐替换Taiyi-1
   orgs:
   - 大连理工大学
@@ -2644,6 +2722,8 @@ items:
   name: 中医疫病防治问答模型
   year: 2023
   venue: IEEE BIBM
+  orgs:
+  - 南京中医药大学
   summary_zh: 基于大语言模型的中医疫病防治问答模型
   tags: []
   links:
@@ -2666,6 +2746,8 @@ items:
   name: LLM+GNN 中医处方推荐
   year: 2023
   venue: IEEE BIBM
+  orgs:
+  - 南京中医药大学
   summary_zh: 大语言模型与图神经网络结合的中医处方推荐模型
   tags: [prescription]
   links:
@@ -2689,6 +2771,9 @@ items:
   name: PreGenerator
   year: 2023
   venue: IEEE Access
+  orgs:
+  - "College of Physics, Taiyuan University of Technology, Taiyuan, China"
+  - "North Automatic Control Technology Institute, Taiyuan, China"
   summary_zh: 检索与生成方法结合的中医处方推荐模型
   tags: [prescription]
   links:
@@ -2846,6 +2931,8 @@ items:
   name: 'Chen et al. 2026: LLM 在中医的下一步（叙述性综述）'
   year: 2026
   venue: Science of Traditional Chinese Medicine
+  orgs:
+  - 北京中医药大学
   summary_zh: 叙述性前瞻：多模态、Agent 与临床落地路线
   tags:
   - survey
@@ -2882,6 +2969,8 @@ items:
   name: 'Lu et al. 2026: 深度学习中医诊断方法学质量审计'
   year: 2026
   venue: Information
+  orgs:
+  - 香港中文大学
   summary_zh: 系统综述+验证缺口分析：DL 中医疾病诊断研究的方法学质量与临床转化
   tags:
   - survey
@@ -2894,6 +2983,11 @@ items:
   name: 'Ren et al. 2025: 中医大语言模型（Scoping Review）'
   year: 2025
   venue: Journal of Evidence-Based Medicine
+  orgs:
+  - 成都中医药大学
+  - 中国医学科学院
+  - Institute of Health Data Science Lanzhou University Lanzhou China
+  - Institute of Global Health University of Geneva Geneva Switzerland
   summary_zh: Arksey–O'Malley scoping review，纳入 29 篇（至 2024-04），覆盖知识管理、辅助诊疗与考试准确率
   tags:
   - survey
@@ -2906,6 +3000,10 @@ items:
   name: 'Chen et al. 2025: 中医大语言模型系统综述'
   year: 2025
   venue: Acupuncture and Herbal Medicine
+  orgs:
+  - 天津大学
+  - 现代中药海河实验室
+  - "Italian National Institute of Health, Rome, Italy"
   summary_zh: 系统综述，纳入 10 篇（至 2024 年中），聚焦生成任务证据
   tags:
   - survey
@@ -2918,6 +3016,9 @@ items:
   name: 'Guo et al. 2025: GPT 能否加速中医智能诊疗（综述+实证）'
   year: 2025
   venue: Journal of Evidence-Based Medicine
+  orgs:
+  - Xiyuan Hospital China Academy of Chinese Medicinal Sciences Beijing China
+  - 北京大学
   summary_zh: 综述+实证分析，讨论 GPT 适配中医诊疗的挑战与幻觉问题
   tags:
   - survey
@@ -2930,6 +3031,8 @@ items:
   name: 'Shataer et al. 2025: LLM 在中医应用（State-of-the-Art Review）'
   year: 2025
   venue: American Journal of Chinese Medicine
+  orgs:
+  - "Centre for Intelligent Healthcare, Coventry University, Coventry CV1 5RW, UK"
   summary_zh: 叙述性综述，扫描 TCM LLM 应用场景（诊疗、教育、翻译、科研）
   tags:
   - survey
@@ -2966,6 +3069,9 @@ items:
   name: 'Wang et al. 2025: AI 驱动中医诊断模型进展'
   year: 2025
   venue: American Journal of Chinese Medicine
+  orgs:
+  - 清华大学
+  - 南京大学
   summary_zh: 系统综述：AI 诊断模型（四诊客观化、辨证）
   tags:
   - survey
@@ -3074,6 +3180,8 @@ items:
   name: 'Zhao et al. 2015: 中医患者分类进展（ML 视角）'
   year: 2015
   venue: Evidence-Based Complementary and Alternative Medicine
+  orgs:
+  - 同济大学
   summary_zh: ML 驱动的中医病人/证候分类综述
   tags:
   - survey
@@ -3110,6 +3218,7 @@ items:
   name: CPM中成药数据集
   type: dataset
   year: 2025
+  venue: Pharmacological Research
   section: 公开资料整理
   title_zh: 中成药公开数据集（RAG-CPMF）
   summary_zh: RAG-CPMF配套的持续更新大规模中成药公开数据
@@ -3197,6 +3306,7 @@ items:
     论文: https://arxiv.org/abs/2507.15275
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-08-02'
 - id: ds-linglan
@@ -3205,6 +3315,7 @@ items:
   title_zh: LingLan（灵兰秘典）大规模多任务中医评测基准 (2026)
   summary_zh: LingLan（灵兰秘典）大规模多任务中医评测基准 (2026)
   year: 2026
+  venue: arXiv
   tags:
   - benchmark
   links:
@@ -3224,6 +3335,8 @@ items:
   - benchmark
   - multimodal
   venue: IEEE TNSRE
+  orgs:
+  - "Ningbo Hospital of Traditional Chinese Medicine, Ningbo, China"
   links:
     论文: https://arxiv.org/abs/2606.28104
     DOI: https://doi.org/10.1109/TNSRE.2026.3705649
@@ -3235,6 +3348,7 @@ items:
   name: TCMEval-PA
   type: dataset
   year: 2026
+  venue: Sci Data
   section: 评测基准
   title_zh: 中药处方审核评测基准
   summary_zh: 328道处方规范性与合理性选择题，面向中药处方安全审核评测
@@ -3271,6 +3385,7 @@ items:
     论文: https://arxiv.org/abs/2506.01252
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-tcm-3c
@@ -3284,6 +3399,7 @@ items:
     论文: https://arxiv.org/abs/2503.07041
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-tcm-5c
@@ -3297,6 +3413,7 @@ items:
     论文: https://arxiv.org/abs/2511.13169
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-best4sdt
@@ -3311,6 +3428,7 @@ items:
     论文: https://arxiv.org/abs/2512.02816
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-tcm-eval
@@ -3326,6 +3444,7 @@ items:
   align_note: arxiv 链接标论文非数据集
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-tcm-ladder
@@ -3350,6 +3469,7 @@ items:
   name: TCM-Tongue
   type: dataset
   year: 2025
+  venue: arXiv
   section: 评测基准
   title_zh: 标准化舌象病理标注数据集
   summary_zh: 6719张标准化舌象、20类病理多标签公开数据集，含检测基线
@@ -3388,6 +3508,7 @@ items:
     论文: https://arxiv.org/abs/2406.01126
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-tcmeval-sdt
@@ -3570,6 +3691,7 @@ items:
   name: ChP-TCM
   type: dataset
   year: 2024
+  venue: arXiv
   section: 指令/对话数据集
   title_zh: 中国药典指令数据集
   summary_zh: 基于《中国药典》一部构建的KnowledgeQA与PrescriptionWriting指令数据
@@ -3607,12 +3729,14 @@ items:
     论文: https://arxiv.org/abs/2504.20118
   type: dataset
   year: 2025
+  venue: arXiv
   status: published
   verified_at: '2026-07-19'
 - id: ds-lingshu
   name: LingShu（灵枢知识图谱）
   type: dataset
   year: 2026
+  venue: arXiv
   section: 知识图谱
   title_zh: 灵枢症状中心上下文知识图谱
   summary_zh: 北交大等症状中心中西医桥接图谱（导出约1733万实体、3947万关系，含三元组+上下文四元组），门户提供可视化、推理与有据问答
@@ -3684,6 +3808,10 @@ items:
   type: dataset
   year: 2024
   venue: JAMIA
+  orgs:
+  - 北京交通大学
+  - 中国中医科学院
+  - 河南中医药大学
   section: 临床结构化 / 处方
   title_zh: TCM-Lung 肺系病辨证处方编码集
   summary_zh: 河南中医药大学一附院肺系病案处理后 14948 条，仓库公开 4484 条编码（症状/证候/治法/处方 ID）；全名需邮件申请。与 TCMNSCLC 不是同一份数据
@@ -3891,6 +4019,7 @@ items:
 - id: pcdh-tcm
   name: Patient-Conditioned Dual Hypergraph Reasoning
   year: 2026
+  venue: arXiv
   date: '2026.07'
   summary_zh: 患者条件化双超图推理实现可审计的中医处方支持，将症状/舌/脉证据围绕证型与治则组织（天津大学）
   tags: [reasoning, prescription]
@@ -3902,6 +4031,7 @@ items:
 - id: ebitv-tcm
   name: Evidence-Based TCM Visualization Diagnosis System
   year: 2026
+  venue: arXiv
   date: '2026.06'
   summary_zh: Neo4j知识图谱（241证型/1263症状）+四阶段症状匹配（含LLM验证）+信息增益主动问诊的中医可视化诊疗系统
   tags: [kg, rag, dialogue]
@@ -3926,6 +4056,7 @@ items:
 - id: tcmiies
   name: TCMIIES
   year: 2026
+  venue: arXiv
   date: '2026.05'
   summary_zh: 浏览器端零安装的LLM学术文献结构化信息抽取系统，面向中医等专科领域研究者
   tags: [ie, tool]
@@ -3972,6 +4103,11 @@ items:
 - id: deeptcm
   name: DeepTCM1.0
   year: 2026
+  venue: arXiv
+  orgs:
+  - 广州中医药大学
+  - Chinese Medicine Guangdong Laboratory (Hengqin)
+  - Changzhi Medical College
   date: '2026.06'
   summary_zh: 基于DeepSeek V3.2的11专家多智能体，解析中药复方机制（桂枝汤验证）；Research Square后上到arXiv
   tags: [agent, herbal]
@@ -4034,6 +4170,7 @@ items:
   name: TCMSP
   type: dataset
   year: 2014
+  venue: J Cheminform
   section: 中药组方 / 提取物
   title_zh: TCMSP 中药系统药理学数据库
   summary_zh: 草药–成分–靶点–疾病网络与ADME参数平台，现行公开站为TCMSP 2.3，提供草药/分子/靶点关系表下载
@@ -4047,6 +4184,7 @@ items:
   name: TCMID 2.0
   type: dataset
   year: 2018
+  venue: Nucleic Acids Research
   section: 中药组方 / 提取物
   title_zh: TCMID 2.0 中医药整合数据库
   summary_zh: 上海团队的方剂–草药–成分–靶点整合库（与NUS的TCM-ID不是同一库）；官网megabionet已不可达，公开核验走Zenodo摘录与NAR论文
@@ -4074,6 +4212,7 @@ items:
   name: ETCM 2.0
   type: dataset
   year: 2023
+  venue: Acta Pharmaceutica Sinica B
   section: 中药组方 / 提取物
   title_zh: ETCM 2.0 中医药百科全书
   summary_zh: 收录古代方剂、中成药、药材与成分，并提供成分靶点与多尺度网络；v1站点仍在，现行入口为ETCM2
@@ -4088,6 +4227,12 @@ items:
   name: HERB 2.0
   type: dataset
   year: 2025
+  venue: Nucleic Acids Research
+  orgs:
+  - 北京中医药大学
+  - 中国科学院
+  - 四川大学
+  - 广州中医药大学
   section: 中药组方 / 提取物
   title_zh: HERB 2.0 本草组鉴
   summary_zh: 整合临床试验、荟萃分析、高通量实验与文献的中药证据库，并提供实体关系知识图谱
@@ -4116,6 +4261,11 @@ items:
   name: BATMAN-TCM 2.0
   type: dataset
   year: 2024
+  venue: Nucleic Acids Research
+  orgs:
+  - "College of Life Sciences, Hebei University , Baoding 071002 , China"
+  - 北京中医药大学
+  - "Beijing Geneworks Technology Co., Ltd , Beijing 100101 , China"
   section: 中药组方 / 提取物
   title_zh: BATMAN-TCM 2.0 中药成分–靶点注释库
   summary_zh: 已知与预测的中药成分–靶蛋白相互作用库，2.0大幅扩充TTI覆盖并支持由靶反查成分
@@ -4130,6 +4280,7 @@ items:
   name: TCM Database@Taiwan
   type: dataset
   year: 2011
+  venue: PLoS ONE
   section: 中药组方 / 提取物
   title_zh: TCM Database@Taiwan 中药三维结构库
   summary_zh: 453味药材中约2万个分离化合物的2D/3D结构库，面向虚拟筛选；原站tcm.cmu.edu.tw已不可达，核验走PLOS论文页
@@ -4144,6 +4295,11 @@ items:
   name: HIT 2.0
   type: dataset
   year: 2022
+  venue: Nucleic Acids Research
+  orgs:
+  - 同济大学
+  - "International Human Phenome Institutes (Shanghai), Shanghai, China"
+  - 复旦大学
   section: 中药组方 / 提取物
   title_zh: HIT 2.0 草药成分靶点库
   summary_zh: 人工审核的草药成分–靶点活性对（约1237成分/2208靶点），覆盖2000–2020文献；门户可打开，分析后端端口当前不通
@@ -4158,6 +4314,7 @@ items:
   name: LTM-TCM
   type: dataset
   year: 2022
+  venue: Pharmacological Research
   section: 中药组方 / 提取物
   title_zh: LTM-TCM 中西医分子表型链接库
   summary_zh: 整合十四个权威库与临床/古籍记录的症状–方剂–植物–成分–靶点平台（约4.8万方）；官网cloud.tasly.com域名已无法解析，核验走论文DOI
@@ -4171,6 +4328,7 @@ items:
   name: TCMIO
   type: dataset
   year: 2020
+  venue: Front. Pharmacol.
   section: 中药组方 / 提取物
   title_zh: TCMIO 中医药免疫肿瘤学数据库
   summary_zh: 面向免疫肿瘤的中药/方剂–成分–靶点–通路库，提供浏览、下载与REST API
@@ -4185,6 +4343,9 @@ items:
   name: CEMTDD
   type: dataset
   year: 2015
+  venue: Oncotarget
+  orgs:
+  - 四川大学
   section: 中药组方 / 提取物
   title_zh: CEMTDD 中国少数民族传统药物数据库
   summary_zh: 以新疆维吾尔/哈萨克等民族药为主的草药–化合物–靶点–疾病库（约621草药）；原域名cemtdd.com已改作他用，核验走PMC论文
@@ -4198,6 +4359,9 @@ items:
   name: YaTCM
   type: dataset
   year: 2018
+  venue: Comput Struct Biotechnol J
+  orgs:
+  - 中国科学院
   section: 中药组方 / 提取物
   title_zh: YaTCM 中药方剂–成分–靶点库
   summary_zh: 约1813首方、6220味药、4.7万天然产物及靶点/通路分析工具；南开官网当前403，核验走开放论文
@@ -4212,6 +4376,7 @@ items:
   name: TCMBank
   type: dataset
   year: 2023
+  venue: Sig Transduct Target Ther
   section: 中药组方 / 提取物
   title_zh: TCMBank 中药–成分–靶点–疾病库
   summary_zh: 可下载的大规模中药–成分–靶点–疾病关系库，含文献自动抽取后人工核对的持续更新模块
@@ -4225,6 +4390,10 @@ items:
   name: ITCM
   type: dataset
   year: 2023
+  venue: Briefings in Bioinformatics
+  orgs:
+  - 上海中医药大学
+  - 广州中医药大学
   section: 中药组方 / 提取物
   title_zh: ITCM 整合中医药与药效转录组平台
   summary_zh: 整合多方剂/药材/成分/靶点，并提供496个中药成分的1488条药理转录谱；成分表达数据另见Synapse
@@ -4251,6 +4420,11 @@ items:
   name: CMAUP
   type: dataset
   year: 2024
+  venue: Nucleic Acids Research
+  orgs:
+  - 复旦大学
+  - 清华大学
+  - "Shenzhen Bay Laboratory , Shenzhen 518000 , China"
   section: 中药组方 / 提取物
   title_zh: CMAUP 有用植物集体分子活性库
   summary_zh: BIDD的有用植物（含中药）多靶点活性、通路与疾病景观库，2024版扩展功能与关联信息，站点可下载
@@ -4265,6 +4439,7 @@ items:
   name: SuperTCM
   type: dataset
   year: 2021
+  venue: "Biomedicine &amp; Pharmacotherapy"
   section: 中药组方 / 提取物
   title_zh: SuperTCM 中药生物文化数据库
   summary_zh: Charité团队整合药典与多源数据的中药–物种–成分–靶点–通路–疾病库（约6516味药）；官网tcm.charite.de已无法解析
@@ -4279,6 +4454,10 @@ items:
   name: TCMAnalyzer
   type: dataset
   year: 2018
+  venue: J. Chem. Inf. Model.
+  orgs:
+  - 中山大学
+  - 广州中医药大学
   section: 中药组方 / 提取物
   title_zh: TCMAnalyzer 中药化学信息学分析平台
   summary_zh: 中山大学RCDD的方剂/药材/成分网络分析与骨架检索服务（约1493方、618味药）；官网rcdd.org.cn当前超时
@@ -4293,6 +4472,7 @@ items:
   name: TCM-Mesh
   type: dataset
   year: 2017
+  venue: Sci Rep
   section: 中药组方 / 提取物
   title_zh: TCM-Mesh 中药网络药理学分析库
   summary_zh: 草药–化合物–基因–疾病网络与毒副作用记录（约6235味药）；官网当前403，核验走开放论文
@@ -4307,6 +4487,7 @@ items:
   name: TCMGeneDIT
   type: dataset
   year: 2008
+  venue: BMC Complement Altern Med
   section: 中药组方 / 提取物
   title_zh: TCMGeneDIT 中药–基因–疾病文本挖掘库
   summary_zh: 从文献挖掘中药、基因、疾病、功效与成分关联，并接入通路与PPI；官网tcm.lifescience.ntu.edu.tw已无法解析
@@ -4321,6 +4502,7 @@ items:
   name: CVDHD
   type: dataset
   year: 2013
+  venue: J Cheminform
   section: 中药组方 / 提取物
   title_zh: CVDHD 心血管病本草数据库
   summary_zh: 面向心血管病的本草化合物三维结构、靶点与通路库，用于虚拟筛选与网络药理；原北大站点当前超时
@@ -4334,6 +4516,7 @@ items:
   name: TM-MC
   type: dataset
   year: 2015
+  venue: BMC Complement Altern Med
   section: 中药组方 / 提取物
   title_zh: TM-MC 东北亚传统药物成分库
   summary_zh: 韩国韩医学研究院从文献抽取的东北亚药材–化合物库；2015初版约536种药材，2024的2.0扩到约3.4万化合物；官网当前超时
@@ -4348,6 +4531,7 @@ items:
   name: CMB
   type: dataset
   year: 2023
+  venue: arXiv
   section: 通用中文医疗
   title_zh: CMB 中文综合医学评测（Exam + Clin）
   summary_zh: 中大深圳FreedomIntelligence的中文医疗综合基准：CMB-Exam约28万题+CMB-Clin复杂病案，中医论文里最常见的西医/综合对照榜
@@ -4363,6 +4547,7 @@ items:
   name: CMExam
   type: dataset
   year: 2023
+  venue: arXiv
   section: 通用中文医疗
   title_zh: CMExam 中文执业医师考试评测集
   summary_zh: 源自国家医学考试的中文医考题（约6.8万），带多维标注，常被中文医疗/中医LLM当知识回忆对照
@@ -4376,6 +4561,7 @@ items:
   name: Huatuo-26M
   type: dataset
   year: 2023
+  venue: arXiv
   section: 通用中文医疗
   title_zh: Huatuo-26M 大规模中文医疗问答
   summary_zh: 目前最大的开源中文医疗QA（约2600万对），含百科/图谱/问诊；精简版Huatuo-Lite常被拿来SFT或RAG
@@ -4403,6 +4589,7 @@ items:
   name: DISC-Med-SFT
   type: dataset
   year: 2023
+  venue: arXiv
   section: 通用中文医疗
   title_zh: DISC-Med-SFT 医疗对话指令数据
   summary_zh: 复旦DISC配套的约47万条医疗对话SFT（图谱三元组+真实问诊重构），不含偏好数据
@@ -4416,6 +4603,7 @@ items:
   name: ChiMed (Qilin)
   type: dataset
   year: 2023
+  venue: arXiv
   section: 通用中文医疗
   title_zh: ChiMed 中文医疗多阶段语料（Qilin-Med）
   summary_zh: Qilin-Med发布的约3GB中文医疗语料（CPT/SFT/DPO），与预训练集ChiMed 2.0不是同一资源
@@ -4429,6 +4617,7 @@ items:
   name: cMedQA
   type: dataset
   year: 2017
+  venue: Applied Sciences
   section: 通用中文医疗
   title_zh: cMedQA v1 中文社区医疗问答
   summary_zh: 从中文健康社区抓取的问答匹配集（仓库表：约 5.4 万问 / 10.2 万答，非商用研究）；论文 DOI 与 README 对得上，后续版本见 cMedQA2
@@ -4454,6 +4643,7 @@ items:
   name: MedDialog
   type: dataset
   year: 2020
+  venue: arXiv
   section: 通用中文医疗
   title_zh: MedDialog 中英医疗对话
   summary_zh: 大规模医患对话（中文约110万场），中文医疗多轮问诊微调的常用源数据
@@ -4494,6 +4684,9 @@ items:
   type: dataset
   year: 2022
   venue: Bioinformatics
+  orgs:
+  - 复旦大学
+  - 天津大学
   section: 通用中文医疗
   title_zh: IMCS-21 智能医疗问诊对话
   summary_zh: 约4116场儿科在线问诊，带实体/意图/症状/报告标注，后接入CBLUE四任务
@@ -4508,6 +4701,7 @@ items:
   name: webMedQA
   type: dataset
   year: 2019
+  venue: BMC Med Inform Decis Mak
   section: 通用中文医疗
   title_zh: webMedQA 在线医疗咨询问答
   summary_zh: 从健康咨询网站收集的中文非事实型医问（约6.3万问，1正4负答案），早期中文医疗QA常用源
@@ -4521,6 +4715,7 @@ items:
   name: KNApSAcK KAMPO
   type: dataset
   year: 2012
+  venue: Plant and Cell Physiology
   section: 东亚传统医学
   title_zh: KNApSAcK KAMPO 汉方处方与生药库
   summary_zh: 奈良先端大整理的汉方公开库（约1581处方、278生药），生命科学数据库档案可下载
@@ -4717,6 +4912,8 @@ items:
   status: published
   verified_at: '2026-08-03'
   venue: Chinese Medicine and Culture
+  orgs:
+  - 南洋理工大学
 - id: surv-duan2025-spleen-kg
   name: AI for Spleen-Stomach Disorders in TCM（Curr Med Sci）
   year: 2025
@@ -4838,6 +5035,8 @@ items:
   name: 树状自反思检索中医问答
   year: 2026
   venue: Frontiers in Medicine
+  orgs:
+  - 澳门科技大学
   summary_zh: 树状组织语料+自反思检索的中医 QA 方法（Frontiers in Medicine 2026）
   tags: [rag]
   links:
@@ -4849,6 +5048,9 @@ items:
   name: GPT vs ERNIE 中医文化背景对比研究
   year: 2024
   venue: J Integr Complement Med
+  orgs:
+  - 北京大学
+  - "College of Engineering, Boston University, Boston, MA, USA."
   summary_zh: 以文化背景为框架对比 GPT 与 ERNIE 在中医任务上的表现（J Integr Complement Med 2024）
   tags:
   - evaluation
@@ -4903,6 +5105,8 @@ items:
   - history
   type: resource
   venue: Int. J. Information Technology & Decision Making
+  orgs:
+  - 中国科学院
   verified_at: '2026-08-08'
   year: 2009
 - id: hist-2014-a-disturbance-rejection-fram
@@ -5062,6 +5266,8 @@ items:
   - kg
   type: resource
   venue: WWW* (demo/industrial)
+  orgs:
+  - 浙江大学
   verified_at: '2026-08-08'
   year: 2008
 - id: hist-2008-building-clinical-data-wareh
@@ -5166,6 +5372,8 @@ items:
   - multimodal
   type: resource
   venue: Evid. Based Complement. Alternat. Med.
+  orgs:
+  - 清华大学
   verified_at: '2026-08-08'
   year: 2012
 - id: hist-2014-pulse-waveform-classificatio
@@ -5179,6 +5387,9 @@ items:
   - multimodal
   type: resource
   venue: Comput. Math. Methods Med.
+  orgs:
+  - "Harbin Ice Flower Hospital, Harbin 150086, China"
+  - 哈尔滨工业大学
   verified_at: '2026-08-08'
   year: 2014
 - id: hist-2017-diagnostic-method-of-diabete
@@ -5192,6 +5403,8 @@ items:
   - multimodal
   type: resource
   venue: BioMed Research International
+  orgs:
+  - 上海中医药大学
   verified_at: '2026-08-08'
   year: 2017
 - id: hist-2021-ensemble-learning-based-puls
@@ -5244,6 +5457,11 @@ items:
   - multimodal
   type: resource
   venue: Comput. Struct. Biotechnol. J.
+  orgs:
+  - "Being University of Chinese Medicine, Beijing 100029, China"
+  - "Beijing University of Posts and Telecommunications, Beijing 100876, China"
+  - "Beijing Normal University, Beijing 100875, China"
+  - 中国科学院
   verified_at: '2026-08-08'
   year: 2020
 - id: hist-2021-automatic-construction-of-ch
@@ -5270,6 +5488,9 @@ items:
   - multimodal
   type: resource
   venue: Evid. Based Complement. Alternat. Med.
+  orgs:
+  - 上海中医药大学
+  - 复旦大学
   verified_at: '2026-08-08'
   year: 2022
 - id: hist-2022-research-and-application-of-
@@ -5283,6 +5504,8 @@ items:
   - multimodal
   type: resource
   venue: Digital Health
+  orgs:
+  - 成都中医药大学
   verified_at: '2026-08-08'
   year: 2022
 - id: hist-2022-data-driven-based-four-exami
@@ -5337,6 +5560,10 @@ items:
   - history
   type: resource
   venue: Xu HY et al., *Nucleic Acids Res* 47(D1):D976-D982
+  orgs:
+  - 中国中医科学院
+  - 北京大学
+  - 中国科学院
   verified_at: '2026-08-08'
   year: 2019
 - id: hist-2023-etcm-v2-0
