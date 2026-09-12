@@ -233,6 +233,99 @@ bianque:
   orgs_en:
   - South China University of Technology
   - Guangdong Key Laboratory of Digital Twin Humans
+baichuan-m1:
+  title_en: Baichuan-M1
+  name_en: Baichuan-M1
+  summary_en: Baichuan's from-scratch open medical LLM (14B), trained on ~20T medical+general tokens across 20+ specialties; a common base for later TCM fine-tunes.
+  orgs_en:
+  - Baichuan Intelligence
+baichuan-m2:
+  title_en: Baichuan-M2
+  name_en: Baichuan-M2
+  summary_en: Baichuan's second open medical reasoning model (32B on Qwen2.5-32B) with a large verifier system and multi-stage RL; strong open-source HealthBench results.
+  orgs_en:
+  - Baichuan Intelligence
+huatuogpt-ii:
+  title_en: HuatuoGPT-II
+  name_en: HuatuoGPT-II
+  summary_en: Second HuatuoGPT generation with one-stage medical adaptation; 7B/13B use Baichuan2 backbones and remain a standard Chinese medical baseline.
+  orgs_en:
+  - The Chinese University of Hong Kong, Shenzhen
+  - Shenzhen Institute of Big Data
+huatuogpt-o1:
+  title_en: HuatuoGPT-o1
+  name_en: HuatuoGPT-o1
+  summary_en: HuatuoGPT medical complex-reasoning model trained with verifiable problems and a medical verifier; 7B/72B cover Chinese and English.
+  orgs_en:
+  - The Chinese University of Hong Kong, Shenzhen
+  - Shenzhen Institute of Big Data
+huatuogpt-vision:
+  title_en: HuatuoGPT-Vision
+  name_en: HuatuoGPT-Vision
+  summary_en: HuatuoGPT multimodal medical model that injects visual knowledge at scale; a common Chinese medical vision baseline.
+  orgs_en:
+  - The Chinese University of Hong Kong, Shenzhen
+  - Shenzhen Institute of Big Data
+disc-medllm:
+  title_en: DISC-MedLLM
+  name_en: DISC-MedLLM
+  summary_en: Fudan DISC conversational medical LLM on Baichuan-13B, with DISC-Med-SFT built from knowledge graphs and reconstructed consultations.
+  orgs_en:
+  - Fudan University
+pulse:
+  title_en: PULSE
+  name_en: PULSE
+  summary_en: OpenMEDLab Chinese medical LLM (Bloom 7B/14B) for exams, report reading, record structuring, and simulated diagnosis.
+  orgs_en:
+  - Shanghai AI Laboratory
+wingpt2:
+  title_en: WiNGPT2
+  name_en: WiNGPT2
+  summary_en: Winning Health open medical LLM on Qwen for medical QA, record understanding, and multi-turn consults; 7B/14B weights are public.
+  orgs_en:
+  - Winning Health
+taiyi:
+  title_en: Taiyi
+  name_en: Taiyi
+  summary_en: DUTIR bilingual biomedical LLM on Qwen-7B for QA, doctor–patient dialogue, report generation, and information extraction (JAMIA 2024).
+  orgs_en:
+  - Dalian University of Technology
+qilin-med:
+  title_en: Qilin-Med
+  name_en: Qilin-Med
+  summary_en: Multi-stage Chinese medical LLM (CPT+SFT+DPO on Baichuan-7B) releasing the ~3GB ChiMed corpus, optionally with RAG.
+chimed-gpt:
+  title_en: ChiMed-GPT
+  name_en: ChiMed-GPT
+  summary_en: USTC Chinese medical LLM continued from Ziya-v2 with pretraining, SFT, and RLHF for extraction, QA, and multi-turn dialogue.
+  orgs_en:
+  - University of Science and Technology of China
+apollo:
+  title_en: Apollo
+  name_en: Apollo
+  summary_en: FreedomIntelligence multilingual medical LLM (including Chinese) with ApolloCorpus and XMedBench.
+  orgs_en:
+  - The Chinese University of Hong Kong, Shenzhen
+  - Shenzhen Institute of Big Data
+doctorgpt:
+  title_en: DoctorGLM
+  name_en: DoctorGLM
+  summary_en: Early open Chinese consultation model on ChatGLM-6B with LoRA/P-Tuning; a frequent 2023 Chinese medical baseline.
+medicalgpt:
+  title_en: MedicalGPT
+  name_en: MedicalGPT
+  summary_en: Open training stack for Chinese medical LLMs (pretrain/SFT/RLHF/DPO), often reused as a baseline pipeline in TCM fine-tuning.
+soulchat:
+  title_en: SoulChat
+  name_en: SoulChat
+  summary_en: SCUT mental-health dialogue LLM from the same lab as BianQue; a common Chinese health-conversation baseline.
+  orgs_en:
+  - South China University of Technology
+  - Guangdong Key Laboratory of Digital Twin Humans
+caregpt:
+  title_en: CareGPT
+  name_en: CareGPT
+  summary_en: Open Chinese medical LLM training stack (pretrain through DPO) with accompanying weights, often used to reproduce Chinese medical fine-tunes.
 shennong-tcm-llm:
   summary_en: ShenNong-TCM-LLM, the first TCM large language model, released with the ShenNong_TCM_Dataset and open weights.
 huangdi:

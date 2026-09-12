@@ -83,6 +83,8 @@ LINK_LABEL_EN = {
     "专利": "Patent",
     "公开": "Publication",
     "授权": "Grant",
+    "Base": "Base",
+    "7B": "7B",
 }
 
 SEMANTIC_TAGS = {

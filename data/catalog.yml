@@ -2103,6 +2103,229 @@ items:
   type: resource
   status: published
   verified_at: '2026-07-19'
+- id: baichuan-m1
+  name: 百川-M1 (Baichuan-M1)
+  year: 2025
+  venue: arXiv
+  summary_zh: 百川智能从零训练的开源医疗大模型（14B），约20万亿token医疗+通用数据，覆盖20+科室；常被后续中医微调当作底座
+  orgs:
+  - 百川智能
+  tags: [model, general-medical, open-weights]
+  links:
+    论文: https://arxiv.org/abs/2502.12671
+    代码: https://github.com/baichuan-inc/Baichuan-M1-14B
+    模型: https://huggingface.co/baichuan-inc/Baichuan-M1-14B-Instruct
+    Base: https://huggingface.co/baichuan-inc/Baichuan-M1-14B-Base
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: baichuan-m2
+  name: 百川-M2 (Baichuan-M2)
+  year: 2025
+  venue: arXiv
+  summary_zh: 百川第二代开源医疗推理模型（32B，底座Qwen2.5-32B），用大规模验证器与多阶段RL做临床对话对齐，HealthBench开源前列
+  orgs:
+  - 百川智能
+  tags: [model, general-medical, open-weights, reasoning]
+  links:
+    论文: https://arxiv.org/abs/2509.02208
+    代码: https://github.com/baichuan-inc/Baichuan-M2-32B
+    模型: https://huggingface.co/baichuan-inc/Baichuan-M2-32B
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: huatuogpt-ii
+  name: 华佗GPT-II (HuatuoGPT-II)
+  year: 2023
+  venue: arXiv
+  summary_zh: 中大深圳华佗系列二代，单阶段领域适配；7B/13B以Baichuan2为底座，是中文医疗评测里最常见的开源对照之一
+  orgs:
+  - 香港中文大学(深圳)，深圳市大数据研究院
+  tags: [model, general-medical, open-weights]
+  links:
+    论文: https://arxiv.org/abs/2311.09774
+    代码: https://github.com/FreedomIntelligence/HuatuoGPT-II
+    模型: https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: huatuogpt-o1
+  name: 华佗GPT-o1 (HuatuoGPT-o1)
+  year: 2024
+  venue: arXiv
+  summary_zh: 华佗系列医疗复杂推理模型，用可验证医题+医学验证器做搜索微调与强化学习；7B/72B支持中英
+  orgs:
+  - 香港中文大学(深圳)，深圳市大数据研究院
+  tags: [model, general-medical, open-weights, reasoning]
+  links:
+    论文: https://arxiv.org/abs/2412.18925
+    代码: https://github.com/FreedomIntelligence/HuatuoGPT-o1
+    模型: https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-7B
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: huatuogpt-vision
+  name: 华佗GPT-Vision (HuatuoGPT-Vision)
+  year: 2024
+  venue: arXiv
+  summary_zh: 华佗系列医学多模态模型，大规模注入医学视觉知识，常作中文医学影像/多模态对照
+  orgs:
+  - 香港中文大学(深圳)，深圳市大数据研究院
+  tags: [model, general-medical, open-weights, multimodal]
+  links:
+    论文: https://arxiv.org/abs/2406.19280
+    代码: https://github.com/FreedomIntelligence/HuatuoGPT-Vision
+    模型: https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: disc-medllm
+  name: DISC-MedLLM
+  year: 2023
+  venue: arXiv
+  summary_zh: 复旦DISC实验室的医疗对话大模型，底座Baichuan-13B，配套DISC-Med-SFT；知识图谱+真实问诊重构
+  orgs:
+  - 复旦大学
+  tags: [model, general-medical, open-weights]
+  links:
+    论文: https://arxiv.org/abs/2308.14346
+    代码: https://github.com/FudanDISC/DISC-MedLLM
+    模型: https://huggingface.co/Flmc/DISC-MedLLM
+    数据集: https://huggingface.co/datasets/Flmc/DISC-Med-SFT
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: pulse
+  name: PULSE
+  year: 2023
+  summary_zh: 上海AI Lab OpenMEDLab的中文医疗大模型（Bloom 7B/14B），覆盖医考、报告解读、病历结构化与模拟诊疗
+  orgs:
+  - 上海人工智能实验室
+  tags: [model, general-medical, open-weights]
+  links:
+    代码: https://github.com/openmedlab/PULSE
+    模型: https://huggingface.co/OpenMEDLab/PULSE-7bv5
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: wingpt2
+  name: 卫宁WiNGPT2
+  year: 2023
+  summary_zh: 卫宁健康开源医疗大模型，底座Qwen，覆盖医学问答、病历理解和多轮问诊，7B/14B可下载
+  orgs:
+  - 卫宁健康
+  tags: [model, general-medical, open-weights]
+  links:
+    模型: https://huggingface.co/winninghealth/WiNGPT2-14B-Chat
+    7B: https://huggingface.co/winninghealth/WiNGPT2-7B-Chat
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: taiyi
+  name: 太一 (Taiyi)
+  year: 2024
+  venue: JAMIA
+  summary_zh: 大连理工DUTIR的中英双语生物医学大模型，底座Qwen-7B，覆盖问答、医患对话、报告生成与信息抽取等
+  orgs:
+  - 大连理工大学
+  tags: [model, general-medical, open-weights]
+  links:
+    DOI: https://doi.org/10.1093/jamia/ocae037
+    代码: https://github.com/DUTIR-BioNLP/Taiyi-LLM
+    模型: https://huggingface.co/DUTIR-BioNLP/Taiyi-LLM
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: qilin-med
+  name: 麒麟-Med (Qilin-Med)
+  year: 2023
+  venue: arXiv
+  summary_zh: 多阶段知识注入的中文医疗LLM（CPT+SFT+DPO，底座Baichuan-7B），发布约3GB ChiMed语料，可再加RAG
+  tags: [model, general-medical]
+  links:
+    论文: https://arxiv.org/abs/2310.09089
+    代码: https://github.com/williamliujl/Qilin-Med
+    数据集: https://huggingface.co/datasets/williamliu/ChiMed
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: chimed-gpt
+  name: ChiMed-GPT
+  year: 2023
+  venue: arXiv
+  summary_zh: 中科大等在Ziya-v2上做继续预训练+SFT+RLHF的中文医疗大模型，覆盖抽取、问答与多轮对话
+  orgs:
+  - 中国科学技术大学
+  tags: [model, general-medical, open-weights]
+  links:
+    论文: https://arxiv.org/abs/2311.06025
+    代码: https://github.com/synlp/ChiMed-GPT
+    模型: https://huggingface.co/SYNLP/ChiMed-GPT-1.0
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: apollo
+  name: Apollo
+  year: 2024
+  venue: arXiv
+  summary_zh: 中大深圳FreedomIntelligence的多语种医疗LLM（含中文），配套ApolloCorpus与XMedBench
+  orgs:
+  - 香港中文大学(深圳)，深圳市大数据研究院
+  tags: [model, general-medical, open-weights]
+  links:
+    论文: https://arxiv.org/abs/2403.03640
+    代码: https://github.com/FreedomIntelligence/Apollo
+    模型: https://huggingface.co/FreedomIntelligence/Apollo-7B
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: doctorgpt
+  name: DoctorGLM
+  year: 2023
+  venue: arXiv
+  summary_zh: 基于ChatGLM-6B的早期开源中文问诊模型，用多科室医患数据做LoRA/P-Tuning，常出现在2023年中文医疗对照表
+  tags: [model, general-medical]
+  links:
+    论文: https://arxiv.org/abs/2304.01097
+    代码: https://github.com/xionghonglin/DoctorGLM
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: medicalgpt
+  name: MedicalGPT
+  year: 2023
+  summary_zh: 开源中文医疗LLM训练框架（预训练/SFT/RLHF/DPO），也被大量中医微调实验当作基线实现
+  tags: [model, general-medical, tool]
+  links:
+    代码: https://github.com/shibing624/MedicalGPT
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: soulchat
+  name: SoulChat
+  year: 2023
+  venue: arXiv
+  summary_zh: 华南理工数字孪生人实验室的心理健康对话大模型，与扁鹊同系列，常作中文医疗/健康对话对照
+  orgs:
+  - 华南理工大学，广东省数字孪生人重点实验室
+  tags: [model, general-medical, open-weights]
+  links:
+    论文: https://arxiv.org/abs/2311.00273
+    代码: https://github.com/scutcyr/SoulChat
+    模型: https://huggingface.co/scutcyr/SoulChat
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
+- id: caregpt
+  name: CareGPT
+  year: 2023
+  summary_zh: 开源中文医疗LLM全流程训练框架（预训练到DPO）与配套权重，常被复现中文医疗微调
+  tags: [model, general-medical, tool]
+  links:
+    代码: https://github.com/WangRongsheng/CareGPT
+  type: resource
+  status: published
+  verified_at: '2026-09-13'
 - id: shennong-tcm-llm
   name: 神农大模型 (ShenNong-TCM-LLM)
   year: 2023
