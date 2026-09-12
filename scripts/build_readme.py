@@ -32,6 +32,7 @@ WIKI_HOME = "https://github.com/tyang816/Awesome-TCM-LLM/wiki"
 DATASET_SECTION_ORDER_ZH = [
     "公开资料整理",
     "中药组方 / 提取物",
+    "临床结构化 / 处方",
     "通用中文医疗",
     "东亚传统医学",
     "原始书籍 / 预训练语料",
@@ -39,7 +40,6 @@ DATASET_SECTION_ORDER_ZH = [
     "考试数据集",
     "指令/对话数据集",
     "知识图谱",
-    "语料/指令",
 ]
 
 HF_SECTION = "Hugging Face 开源模型（精选）"
@@ -47,6 +47,7 @@ HF_SECTION = "Hugging Face 开源模型（精选）"
 SECTION_EN = {
     "公开资料整理": "Curated lists",
     "中药组方 / 提取物": "Formula / extract databases",
+    "临床结构化 / 处方": "Clinical structured / prescription sets",
     "通用中文医疗": "General Chinese medical data",
     "东亚传统医学": "East Asian traditional medicine",
     "原始书籍 / 预训练语料": "Books / pretraining corpora",
@@ -55,7 +56,6 @@ SECTION_EN = {
     "指令/对话数据集": "Instruction / dialogue datasets",
     "知识图谱": "Knowledge graphs",
     "Hugging Face 开源模型（精选）": "Hugging Face models (selected)",
-    "语料/指令": "Corpora / instructions",
     "其他": "Other",
 }
 
@@ -118,18 +118,23 @@ SEMANTIC_TAGS = {
     "survey",
     "reasoning",
     "prescription",
+    "extract",
+    "plm",
     "patent",
     "dead-site",
     "site-issue",
     "east-asian-tm",
 }
 
-# First match wins for non-model leftover papers.
+# First match wins for leftover papers. `model` is reserved for named LLMs / products.
 PAPER_CATEGORY_RULES = [
     ("eval", lambda tags: "benchmark" in tags or "evaluation" in tags),
     ("agent", lambda tags: "agent" in tags),
     ("multimodal", lambda tags: "multimodal" in tags),
     ("rag_kg", lambda tags: "rag" in tags or "kg" in tags),
+    ("prescription", lambda tags: "prescription" in tags or "herbal" in tags),
+    ("extract", lambda tags: "extract" in tags or "plm" in tags),
+    ("tool", lambda tags: "tool" in tags),
 ]
 
 PAPER_LINK_KEYS = ("论文", "DOI", "正式发表", "arXiv", "Paper", "Published")
@@ -263,7 +268,14 @@ def format_news_line(entry: dict, lang: str) -> str:
 
 def format_dataset_line(entry: dict, lang: str) -> str:
     title = display_name(entry, lang)
-    return f"- {title}{issue_mark(entry, lang)}{format_links(entry.get('links'), lang)}"
+    blurb = entry_blurb(entry, lang)
+    mark = issue_mark(entry, lang)
+    extra = ""
+    if blurb and blurb not in {title, entry.get("name", "")}:
+        extra = f" — {blurb}"
+    elif blurb and blurb != title:
+        extra = f" — {blurb}"
+    return f"- **{title}**{mark}{extra}{format_links(entry.get('links'), lang)}"
 
 
 def lang_switcher(lang: str) -> str:
@@ -410,7 +422,7 @@ def first_org(entry: dict, lang: str) -> str:
     return text.strip() or "—"
 
 
-def focus_labels(entry: dict, lang: str) -> str:
+def short_focus(entry: dict, lang: str) -> str:
     tags = tags_of(entry)
     mapping = [
         ("multimodal", "多模态", "MM"),
@@ -418,12 +430,23 @@ def focus_labels(entry: dict, lang: str) -> str:
         ("rag", "RAG", "RAG"),
         ("kg", "图谱", "KG"),
         ("benchmark", "评测", "Bench"),
+        ("prescription", "处方", "Rx"),
+        ("reasoning", "推理", "Reason"),
+        ("ancient-books", "古籍", "Classics"),
+        ("herbal", "本草", "Herb"),
     ]
-    labels = []
-    for tag, zh, en in mapping:
-        if tag in tags:
-            labels.append(zh if lang == "zh" else en)
-    return " · ".join(labels) if labels else "—"
+    labels = [zh if lang == "zh" else en for tag, zh, en in mapping if tag in tags]
+    if labels:
+        return " · ".join(labels)
+    blurb = entry_blurb(entry, lang)
+    blurb = strip_md_bold(blurb).replace("\n", " ").strip()
+    if not blurb:
+        return "—"
+    return blurb if len(blurb) <= 36 else blurb[:36].rstrip("，,;； ") + "…"
+
+
+def focus_labels(entry: dict, lang: str) -> str:
+    return short_focus(entry, lang)
 
 
 def compact_model_links(entry: dict, lang: str) -> str:
@@ -466,9 +489,10 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
             buckets["model_hf"].append(entry)
         elif kind == "resource":
             historical = "history" in tags or year < 2023
-            if historical:
+            named_llm = "model" in tags and "plm" not in tags
+            if historical and not named_llm:
                 buckets["history"].append(entry)
-            elif "model" in tags:
+            elif named_llm:
                 if "east-asian-tm" in tags:
                     buckets["model_east_asian"].append(entry)
                 elif "product" in tags:
@@ -504,7 +528,20 @@ def count_pack(buckets: dict[str, list[dict]]) -> dict[str, int]:
         "surveys": len(buckets["survey"]),
         "patents": len(buckets["patent"]),
         "datasets": len(buckets["dataset"]),
-        "papers": sum(len(buckets[k]) for k in ("agent", "multimodal", "rag_kg", "eval", "method", "history")),
+        "papers": sum(
+            len(buckets[k])
+            for k in (
+                "agent",
+                "multimodal",
+                "rag_kg",
+                "prescription",
+                "extract",
+                "eval",
+                "tool",
+                "method",
+                "history",
+            )
+        ),
         "open": sum(1 for e in buckets["model_tcm"] if is_open_weights(e)),
     }
 
@@ -594,21 +631,22 @@ def model_table(entries: list[dict], lang: str) -> list[str]:
         return []
     if lang == "zh":
         header = [
-            "| 模型 | 年 | 特色 | 链接 |",
-            "| --- | :---: | --- | --- |",
+            "| 模型 | 年 | 机构 | 特色 | 链接 |",
+            "| --- | :---: | --- | --- | --- |",
         ]
     else:
         header = [
-            "| Model | Year | Focus | Links |",
-            "| --- | :---: | --- | --- |",
+            "| Model | Year | Org | Focus | Links |",
+            "| --- | :---: | --- | --- | --- |",
         ]
     rows = []
     for entry in entries:
         name = display_name(entry, lang).replace("|", "/")
         year = str(year_of(entry) or "—")
-        focus = focus_labels(entry, lang)
+        org = first_org(entry, lang).replace("|", "/")
+        focus = focus_labels(entry, lang).replace("|", "/")
         links = compact_model_links(entry, lang)
-        rows.append(f"| **{name}** | {year} | {focus} | {links} |")
+        rows.append(f"| **{name}** | {year} | {org} | {focus} | {links} |")
     return header + rows
 
 
@@ -715,15 +753,18 @@ def build_paper_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
         ("agent", "Agent", "Agents", "问诊流程、多智能体"),
         ("multimodal", "多模态 / 四诊", "Multimodal", "舌、面、脉"),
         ("rag_kg", "RAG / 知识图谱", "RAG / knowledge graphs", "检索和医案、方剂图谱"),
+        ("prescription", "处方 / 组方", "Prescription", "荐药、组方、药对"),
+        ("extract", "抽取 / 编码器", "Extraction / PLM", "NER、关系抽取、BERT 类编码器"),
         ("eval", "评测论文", "Evaluation", "基准和考试；要下载评测集走下面「数据集」"),
-        ("method", "其他", "Other", "处方、对齐、抽取之类"),
-        ("history", "更早的工作", "Before LLMs", "专家系统、舌脉、本体"),
+        ("tool", "平台 / 工具", "Platforms / tools", "编目、门户、可运行工具"),
+        ("method", "其他方法", "Other methods", "对齐、提示、专科任务"),
+        ("history", "更早的工作", "Before LLMs", "专家系统、舌脉、本体、早期编码器"),
     ]
     title = "## 论文" if lang == "zh" else "## Papers"
     intro = (
-        "模型已经分出去了。按题目点开一栏就行，不用按年份通读。"
+        "这里只收方法、评测和系统论文。发布了领域大模型的条目在「开源模型」，不在这里重复。"
         if lang == "zh"
-        else "Models are listed above. Open one topic; you do not have to read by year."
+        else "Methods, evaluations, and systems only. Named domain LLMs live under Open models."
     )
     lines = [title, "", intro, ""]
     for key, zh, en, hint in specs:

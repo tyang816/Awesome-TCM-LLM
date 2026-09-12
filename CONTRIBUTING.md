@@ -33,11 +33,11 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 |------|------|
 | `id` | 稳定唯一 ID（kebab-case） |
 | `name` | 显示名 |
-| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf` / `patent`。`resource` 若带 `model` 标签会进入 README **开源模型**（有权重进表，否则进折叠栏），否则按 `agent` / `multimodal` / `rag`/`kg` / `benchmark` 分到「论文」。`patent` 进入 README **专利**（收中医大模型 / 知识图谱 / RAG / 智能问诊与处方推荐等系统专利，不限中国；不收中药组方制剂全集） |
+| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf` / `patent`。`resource` 仅当 `tags` 含 `model` 且不含 `plm` 时进入 **开源模型**（有核验权重进表，否则进折叠栏）。方法论文、NER/BERT、平台不要标 `model`，按 `agent` / `multimodal` / `rag`/`kg` / `prescription` / `extract` / `benchmark` / `tool` 分到「论文」。`patent` 进入 **专利** |
 | `year` | 年份 |
 | `summary_zh` | 一句话中文摘要 |
 | `links` | 论文/代码/模型/数据集等 URL |
-| `section` | 数据集分栏。组方/提取物公开库用 `中药组方 / 提取物`；CMB / Huatuo-26M / CMExam 等通用中文医疗数据用 `通用中文医疗`；汉方/韩医公开库用 `东亚传统医学`，都不要和中医大模型语料混栏 |
+| `section` | 数据集分栏。门户型方剂/成分库用 `中药组方 / 提取物`；症状–处方研究集用 `临床结构化 / 处方`；CMB / Huatuo-26M 等用 `通用中文医疗`；汉方/韩医用 `东亚传统医学`，都不要和中医大模型语料混栏 |
 | `tags` | 如 `multimodal`, `benchmark`, `open-weights`, `agent`, `general-medical`, `product`, `east-asian-tm`。官网不可达加 `dead-site`（标「官网已挂」）；门户在但核心功能不通加 `site-issue`（标「服务异常」）。有问题也要收、也要标 |
 | `verified_at` | 链接核验日期 `YYYY-MM-DD` |
 | `status` | 默认 `published` |

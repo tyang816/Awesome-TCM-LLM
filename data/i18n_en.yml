@@ -1,3 +1,7 @@
+news-202609-27:
+  summary_en: Guang'anmen Hospital shows **Guangyi Qizhi 2.0** at CIFTIS 2026, with AI doctor An'an covering six hospital scenes from patient service to ward management.
+news-202609-28:
+  summary_en: Beijing University of Chinese Medicine debuts a TCM constitution-identification system and an embodied tuina robot at the CIFTIS 2026 TCM pavilion.
 news-202607-15:
   summary_en: Shanghai Seventh People's Hospital (SHUTCM) releases the **Qiyuan** TCM LLM with pretraining, domain fine-tuning,
     and expert RL; supports generative medical records and master-physician Agent digital twins; showcased at WAIC.
@@ -379,6 +383,9 @@ ds-disc-med-sft:
 ds-qilin-chimed:
   title_en: ChiMed (Qilin)
   summary_en: Qilin-Med's ~3GB Chinese medical corpus (CPT/SFT/DPO); not the same resource as the ChiMed 2.0 pretraining set.
+ds-cmedqa:
+  title_en: cMedQA
+  summary_en: Chinese community medical QA-matching set (repo table ~54k questions / 102k answers; non-commercial research). Paper DOI matches the README; see cMedQA2 for the later release.
 ds-cmedqa2:
   title_en: cMedQA2
   summary_en: Chinese community medical QA (~108k questions / 200k answers), a common source for BianQue-style SFT mixtures.
@@ -462,6 +469,8 @@ dfglm-tcm:
   - Zhipu AI
 shennong-tcm-llm:
   summary_en: ShenNong-TCM-LLM, the first TCM large language model, released with the ShenNong_TCM_Dataset and open weights.
+tcm-nvwa:
+  summary_en: Nüwa TCM LLM training stack (continual pretraining, SFT, reward modeling, RLAIF) on Ziya-LLaMA-13B. Repo ships only partial pretrain/TCM-QR/reward data and no standalone weights; GitHub created April 2025, distinct from arXiv 2411.00897.
 huangdi:
   summary_en: "HuangDi: a TCM classics QA LLM built on Ziya-LLaMA-13B, pretrained on 22 TCM textbooks plus TCM web corpora and SFT-tuned with ancient-book instruction data (Library Tribune 2024)."
 ds-cpm:
@@ -575,6 +584,15 @@ ds-chatmed-kg:
 ds-tcm-ner:
   title_en: TCM-NER
   summary_en: 1,997 Chinese-medicine package inserts with 59,803 entities in 13 types for building a medication knowledge graph (OpenKG / CHIP, CC BY-SA 4.0).
+ds-tcm-sd:
+  title_en: TCM-SD
+  summary_en: First large public TCM syndrome-differentiation text benchmark (54,152 real records, 148 syndromes, CC BY-NC-SA 4.0). Full set is in the repo folder TCM_SD_with_knowledge; Tianchi id 139034.
+ds-tcm-lung:
+  title_en: TCM-Lung
+  summary_en: Pulmonary-disease cases from FAH-HUCM (14,948 processed; 4,484 encoded public rows of symptom/syndrome/method/prescription IDs). Full names on request. Not the same resource as TCMNSCLC.
+ds-tcm-pd:
+  title_en: TCM-PD
+  summary_en: Yao et al. TKDE 2018 prescription topic-model set (98,334 raw / 33,765 processed symptom–herb ID pairs). CKCEST copyright, research use only. PresRecST's prescript_1195.csv is a reproduction table.
 ds-tcm-qg:
   title_en: TCM-QG
   summary_en: About 5,000 TCM documents and 13,000 question-answer pairs from CHIP2020, for knowledge-base expansion and question generation (CC BY-SA 4.0).
@@ -864,6 +882,10 @@ chatgpt-tcm-feasibility:
   summary_en: Feasibility and challenges of interactive AI for TCM, using ChatGPT as an example.
 evi-bert:
   summary_en: Automated information-extraction model (Evi-BERT) enhancing RCT evidence extraction for TCM.
+zy-bert:
+  summary_en: Domain TCM encoder from the TCM-SD paper (~0.4B-token corpus); weights are on cloud drive, with syndrome-differentiation fine-tune code in the repo. Not the same work as arXiv 2411.00897.
+tcm-bert:
+  summary_en: BERT further pretrained on TCM clinical text for five-way disease classification (JAMIA 2019). CKCEST holds copyright; the full 46,205 records are not released, only splits plus drive-hosted fine-tuned weights.
 tcm-mlkg-rag:
   summary_en: TCM intelligent diagnosis based on multi-layer knowledge graph retrieval-augmented generation.
 tcmsf-kg:
@@ -874,8 +896,10 @@ tcm-prompt-framework:
   summary_en: Prompt-engineering framework for LLM intelligent understanding in TCM.
 tcm-rlaif:
   summary_en: Enhancing LLMs' TCM capabilities through reinforcement learning from AI feedback.
+presrecst:
+  summary_en: Progressive herb-prescription recommendation following syndrome differentiation then treatment planning (JAMIA 2024); ships a public encoded TCM-Lung subset and a TCM-PD reproduction table.
 tcmd:
-  summary_en: TCMD, a TCM QA dataset for evaluating large language models.
+  summary_en: TCMD, a TCM licensing-exam multiple-choice set for LLM evaluation (paper reports ~2,851 train / 600 test). Independent check found no official GitHub or Hugging Face download.
 bsg-qa:
   summary_en: Intelligent QA system for TCM based on a BSG deep-learning model (prescription and materia medica cases).
 acubert:
@@ -1019,7 +1043,14 @@ ds-tcm-robustsdt:
 tcm-prescription-hybrid-retrieval:
   summary_en: "Hybrid retrieval with re-ranking to enhance LLM-based TCM prescription generation (Springer CCIS conference paper)."
 deeptcm:
-  summary_en: "DeepTCM1.0: a multi-expert AI agent built on general LLMs for interpreting the mechanisms of TCM compound formulas (Research Square preprint)."
+  summary_en: "DeepTCM1.0: 11-expert multi-agent system on DeepSeek V3.2 for interpreting TCM formula mechanisms (Guizhi Decoction case); now on arXiv after the Research Square preprint."
+deeproot:
+  title_en: DeepRoot
+  name_en: DeepRoot
+  summary_en: Multi-agent pipeline that turns the Shen Nong Ben Cao Jing into a verified Neo4j graph for therapeutic reasoning; code and evaluation scripts are public.
+ds-lingshu:
+  title_en: LingShu
+  summary_en: Symptom-centric contextual KG bridging TCM and biomedicine (~17.33M entities, ~39.47M relations including triples and contextual quadruples), with a portal for visualization, reasoning, and evidence-grounded QA.
 survey-key-tech-tcm-llm:
   summary_en: "Survey of key technologies for TCM LLMs: knowledge organization, aided diagnosis, and clinical decision support (formally published in IJPRAI, World Scientific)."
 gat-llm-tcm-prescription:
