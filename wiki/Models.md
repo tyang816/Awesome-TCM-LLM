@@ -29,7 +29,7 @@
 | **ShizhenGPT** | 2025 | 多模态 | [论文](https://arxiv.org/abs/2508.14706) · [权重](https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni) · [代码](https://github.com/FreedomIntelligence/ShizhenGPT) |
 | **ChatTCM** | 2025 | — | [权重](https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain) |
 | **TCMLLM / 灵丹 (Lingdan)** | 2024 | — | [论文](https://doi.org/10.1016/j.dcmed.2025.01.007) · [权重](https://huggingface.co/TCMLLM/Lingdan-13B-Base) · [代码](https://github.com/2020MEAI/TCMLLM) |
-| **MedChatZH** | 2024 | — | [论文](https://doi.org/10.1016/j.compbiomed.2024.108290) · [权重](https://huggingface.co/tyang816/medchatzh) · [代码](https://github.com/tyang816/MedChatZH) · [数据](https://huggingface.co/datasets/tyang816/MedChatZH) |
+| **MedChatZH** | 2024 | — | [论文](https://doi.org/10.1016/j.compbiomed.2024.108290) · [代码](https://github.com/tyang816/MedChatZH) · [权重](https://huggingface.co/tyang816/medchatzh) · [数据](https://huggingface.co/datasets/tyang816/MedChatZH) |
 | **神农大模型 (ShenNong-TCM-LLM)** | 2023 | — | [权重](https://huggingface.co/michaelwzhu/ShenNong-TCM-LLM) · [代码](https://github.com/michael-wzhu/ShenNong-TCM-LLM) · [数据](https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset) |
 
 ## 论文或产品向（无公开权重）

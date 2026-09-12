@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "Awesome-TCM-LLM",
-    "title_zh": "中医大模型资源",
-    "description_zh": "开源中文医疗大模型（中医/西医）相关新闻、论文、模型与数据集精选列表。",
-    "description_en": "Curated open resources for Traditional Chinese Medicine (and related Chinese medical) LLMs.",
+    "title_zh": "开源中医模型、数据、论文、专利",
+    "description_zh": "开源中医模型、数据、论文、专利精选，也带一点相关中文医疗资源。",
+    "description_en": "Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.",
     "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
     "portal_url": "https://tyang816.github.io/projects/tcm/",
-    "updated_at": "2026-08-08",
+    "updated_at": "2026-09-12",
     "catalog_version": 1
   },
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-09-12",
   "items": [
     {
       "id": "news-202607-15",
@@ -2230,11 +2230,11 @@
         "open-weights"
       ],
       "links": {
+        "代码": "https://github.com/tyang816/MedChatZH",
         "论文": "https://doi.org/10.1016/j.compbiomed.2024.108290",
         "ScienceDirect": "https://www.sciencedirect.com/science/article/pii/S0010482524003743",
         "数据集": "https://huggingface.co/datasets/tyang816/MedChatZH",
-        "模型": "https://huggingface.co/tyang816/medchatzh",
-        "代码": "https://github.com/tyang816/MedChatZH"
+        "模型": "https://huggingface.co/tyang816/medchatzh"
       },
       "type": "resource",
       "status": "published",
@@ -3002,6 +3002,74 @@
       "verified_at": "2026-08-02"
     },
     {
+      "id": "kg-tcm-health-2017",
+      "name": "中医养生知识图谱 (Yu et al. 2017)",
+      "year": 2017,
+      "venue": "Artificial Intelligence in Medicine",
+      "summary_zh": "整合术语、文献与数据库的大规模中医养生知识图谱，支持检索、可视化与推荐",
+      "tags": [
+        "kg",
+        "history"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.artmed.2017.04.001"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "kg-tcm-rx-2018",
+      "name": "语义中医方剂知识图谱 (Miao et al. 2018)",
+      "year": 2018,
+      "venue": "IEEE IAEAC",
+      "summary_zh": "自顶向下建本体、从方剂文本抽实体关系，构建语义方剂知识图谱",
+      "tags": [
+        "kg",
+        "history"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1109/IAEAC.2018.8577236"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "kg-tcm-re-2016",
+      "name": "中医期刊关系抽取 (Wang & Poon 2016)",
+      "year": 2016,
+      "venue": "IEEE BIBM",
+      "summary_zh": "从中医期刊全文做关系抽取，为后续知识图谱构建提供方法",
+      "tags": [
+        "kg",
+        "history"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1109/BIBM.2016.7822725"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "tcmpr-2022",
+      "name": "TCMPR 子网术语映射处方推荐",
+      "year": 2022,
+      "venue": "BioMed Research International",
+      "summary_zh": "草药-症状知识图谱（1.8 万实体 / 10 万关系）+ 子网术语映射，用 CNN 做处方推荐",
+      "tags": [
+        "kg",
+        "history"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1155/2022/4845726"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
       "id": "tcm-clinical-ner",
       "name": "中医临床细粒度 NER 语料",
       "year": 2020,
@@ -3572,6 +3640,28 @@
       "verified_at": "2026-07-19"
     },
     {
+      "id": "ds-tcm-aqa61",
+      "name": "TCM-AQA61",
+      "type": "dataset",
+      "year": 2026,
+      "section": "评测基准",
+      "title_zh": "TCM-AQA61 / CME-AQA 针灸推拿动作质量评估",
+      "summary_zh": "针灸（A）与推拿（T）各 61 名受试者的第一人称+第三人称同步视频，两位中医师标注分类与连续指标；配套跨视角多模态评估框架 CME-AQA",
+      "tags": [
+        "benchmark",
+        "multimodal"
+      ],
+      "venue": "IEEE TNSRE",
+      "links": {
+        "论文": "https://arxiv.org/abs/2606.28104",
+        "DOI": "https://doi.org/10.1109/TNSRE.2026.3705649",
+        "代码": "https://github.com/FrancisXZhang/cme-aqa",
+        "数据": "https://researchdata.durham.ac.uk/collections/r1jm214p229"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
       "id": "ds-tcmeval-pa",
       "name": "TCMEval-PA",
       "type": "dataset",
@@ -3915,6 +4005,7 @@
         "sft"
       ],
       "links": {
+        "代码": "https://github.com/tyang816/MedChatZH",
         "数据集": "https://huggingface.co/datasets/tyang816/MedChatZH"
       },
       "type": "dataset",
@@ -4072,6 +4163,44 @@
       "year": 2025,
       "status": "published",
       "verified_at": "2026-07-19"
+    },
+    {
+      "id": "ds-tcm-ner",
+      "name": "TCM-NER",
+      "type": "dataset",
+      "year": 2022,
+      "section": "知识图谱",
+      "title_zh": "TCM-NER 中药说明书实体识别（OpenKG / CHIP）",
+      "summary_zh": "1997 篇中药说明书、13 类实体共 59803 个标注，用来自动构建用药知识图谱（CC BY-SA 4.0）",
+      "tags": [
+        "kg",
+        "corpus"
+      ],
+      "links": {
+        "数据": "https://tianchi.aliyun.com/dataset/dataDetail?dataId=86819",
+        "资料": "http://openkg.cn/dataset/tcm-ner"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-tcm-qg",
+      "name": "TCM-QG",
+      "type": "dataset",
+      "year": 2022,
+      "section": "知识图谱",
+      "title_zh": "TCM-QG 中医文献问题生成（CHIP2020）",
+      "summary_zh": "约 5000 篇中医文本、1.3 万问答对，用来补知识库和自动提问（CC BY-SA 4.0）",
+      "tags": [
+        "kg",
+        "corpus"
+      ],
+      "links": {
+        "数据": "https://tianchi.aliyun.com/dataset/dataDetail?dataId=86895",
+        "资料": "http://openkg.cn/dataset/tcm-qg"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
     },
     {
       "id": "hf-xinghe",
@@ -4480,6 +4609,321 @@
       "type": "dataset",
       "status": "published",
       "verified_at": "2026-08-03"
+    },
+    {
+      "id": "ds-tcmsp",
+      "name": "TCMSP",
+      "type": "dataset",
+      "year": 2014,
+      "section": "中药组方 / 提取物",
+      "title_zh": "TCMSP 中药系统药理学数据库",
+      "summary_zh": "草药–成分–靶点–疾病网络与ADME参数平台，现行公开站为TCMSP 2.3，提供草药/分子/靶点关系表下载",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "https://www.tcmsp-e.com/tcmsp.php",
+        "DOI": "https://doi.org/10.1186/1758-2946-6-13"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-tcmid",
+      "name": "TCMID 2.0",
+      "type": "dataset",
+      "year": 2018,
+      "section": "中药组方 / 提取物",
+      "title_zh": "TCMID 2.0 中医药整合数据库",
+      "summary_zh": "上海团队的方剂–草药–成分–靶点整合库（与NUS的TCM-ID不是同一库）；官网megabionet已不可达，公开核验走Zenodo摘录与NAR论文",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "数据": "https://zenodo.org/records/8066910",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753259/",
+        "DOI": "https://doi.org/10.1093/nar/gkx1028"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-tcm-id",
+      "name": "TCM-ID",
+      "type": "dataset",
+      "year": 2006,
+      "section": "中药组方 / 提取物",
+      "title_zh": "TCM-ID 中医药信息数据库（NUS BIDD）",
+      "summary_zh": "新加坡BIDD维护的方剂–药材–成分–靶点库，含药典/经典方与CFDA批准方；与TCMID 2.0不是同一资源",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "https://www.bidd.group/TCMID/"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-etcm",
+      "name": "ETCM 2.0",
+      "type": "dataset",
+      "year": 2023,
+      "section": "中药组方 / 提取物",
+      "title_zh": "ETCM 2.0 中医药百科全书",
+      "summary_zh": "收录古代方剂、中成药、药材与成分，并提供成分靶点与多尺度网络；v1站点仍在，现行入口为ETCM2",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "http://www.tcmip.cn/ETCM2/front/",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10326295/",
+        "DOI": "https://doi.org/10.1016/j.apsb.2023.03.012"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-herb",
+      "name": "HERB 2.0",
+      "type": "dataset",
+      "year": 2025,
+      "section": "中药组方 / 提取物",
+      "title_zh": "HERB 2.0 本草组鉴",
+      "summary_zh": "整合临床试验、荟萃分析、高通量实验与文献的中药证据库，并提供实体关系知识图谱",
+      "tags": [
+        "corpus",
+        "kg"
+      ],
+      "links": {
+        "网站": "http://herb.ac.cn/v2",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701625/",
+        "DOI": "https://doi.org/10.1093/nar/gkae1037"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-symmap",
+      "name": "SymMap 2.0",
+      "type": "dataset",
+      "year": 2019,
+      "section": "中药组方 / 提取物",
+      "title_zh": "SymMap 2.0 症状映射中医药数据库",
+      "summary_zh": "草药–中医症状–西医症状–成分–靶点–疾病整合库，2.0按新版药典扩草药/证候并开放关系表下载",
+      "tags": [
+        "corpus",
+        "kg"
+      ],
+      "links": {
+        "网站": "http://www.symmap.org/",
+        "数据": "http://www.symmap.org/download/",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6323958/"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-batman-tcm",
+      "name": "BATMAN-TCM 2.0",
+      "type": "dataset",
+      "year": 2024,
+      "section": "中药组方 / 提取物",
+      "title_zh": "BATMAN-TCM 2.0 中药成分–靶点注释库",
+      "summary_zh": "已知与预测的中药成分–靶蛋白相互作用库，2.0大幅扩充TTI覆盖并支持由靶反查成分",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "http://bionet.ncpsb.org.cn/batman-tcm/",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767940/",
+        "DOI": "https://doi.org/10.1093/nar/gkad926"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-tcm-taiwan",
+      "name": "TCM Database@Taiwan",
+      "type": "dataset",
+      "year": 2011,
+      "section": "中药组方 / 提取物",
+      "title_zh": "TCM Database@Taiwan 中药三维结构库",
+      "summary_zh": "453味药材中约2万个分离化合物的2D/3D结构库，面向虚拟筛选；原站tcm.cmu.edu.tw已不可达，核验走PLOS论文页",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "论文": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015939",
+        "DOI": "https://doi.org/10.1371/journal.pone.0015939"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-hit",
+      "name": "HIT 2.0",
+      "type": "dataset",
+      "year": 2022,
+      "section": "中药组方 / 提取物",
+      "title_zh": "HIT 2.0 草药成分靶点库",
+      "summary_zh": "人工审核的草药成分–靶点活性对（约1237成分/2208靶点），覆盖2000–2020文献；门户可打开，分析后端端口当前不通",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "http://hit2.badd-cao.net/",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8728248/",
+        "DOI": "https://doi.org/10.1093/nar/gkab1011"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-ltm-tcm",
+      "name": "LTM-TCM",
+      "type": "dataset",
+      "year": 2022,
+      "section": "中药组方 / 提取物",
+      "title_zh": "LTM-TCM 中西医分子表型链接库",
+      "summary_zh": "整合十四个权威库与临床/古籍记录的症状–方剂–植物–成分–靶点平台（约4.8万方）；官网cloud.tasly.com当前超时，核验走论文DOI",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1016/j.phrs.2022.106185"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-tcmio",
+      "name": "TCMIO",
+      "type": "dataset",
+      "year": 2020,
+      "section": "中药组方 / 提取物",
+      "title_zh": "TCMIO 中医药免疫肿瘤学数据库",
+      "summary_zh": "面向免疫肿瘤的中药/方剂–成分–靶点–通路库，提供浏览、下载与REST API",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "http://tcmio.xielab.net/",
+        "数据": "http://tcmio.xielab.net/download",
+        "DOI": "https://doi.org/10.3389/fphar.2020.00439"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-cemtdd",
+      "name": "CEMTDD",
+      "type": "dataset",
+      "year": 2015,
+      "section": "中药组方 / 提取物",
+      "title_zh": "CEMTDD 中国少数民族传统药物数据库",
+      "summary_zh": "以新疆维吾尔/哈萨克等民族药为主的草药–化合物–靶点–疾病库（约621草药）；原域名已不再提供该库，核验走PMC论文",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4627337/",
+        "DOI": "https://doi.org/10.18632/oncotarget.3789"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-yatcm",
+      "name": "YaTCM",
+      "type": "dataset",
+      "year": 2018,
+      "section": "中药组方 / 提取物",
+      "title_zh": "YaTCM 中药方剂–成分–靶点库",
+      "summary_zh": "约1813首方、6220味药、4.7万天然产物及靶点/通路分析工具；南开官网当前403，核验走开放论文",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6280608/",
+        "DOI": "https://doi.org/10.1016/j.csbj.2018.11.002"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-tcmbank",
+      "name": "TCMBank",
+      "type": "dataset",
+      "year": 2023,
+      "section": "中药组方 / 提取物",
+      "title_zh": "TCMBank 中药–成分–靶点–疾病库",
+      "summary_zh": "可下载的大规模中药–成分–靶点–疾病关系库，含文献自动抽取后人工核对的持续更新模块",
+      "tags": [
+        "corpus",
+        "kg"
+      ],
+      "links": {
+        "网站": "http://tcmbank.cn/",
+        "DOI": "https://doi.org/10.1038/s41392-023-01339-1"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-itcm",
+      "name": "ITCM",
+      "type": "dataset",
+      "year": 2023,
+      "section": "中药组方 / 提取物",
+      "title_zh": "ITCM 整合中医药与药效转录组平台",
+      "summary_zh": "整合多方剂/药材/成分/靶点，并提供496个中药成分的1488条药理转录谱；成分表达数据另见Synapse",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "http://itcm.biotcm.net/",
+        "DOI": "https://doi.org/10.1093/bib/bbad027"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-dcabm-tcm",
+      "name": "DCABM-TCM",
+      "type": "dataset",
+      "year": 2023,
+      "section": "中药组方 / 提取物",
+      "title_zh": "DCABM-TCM 中药入血成分与代谢物库",
+      "summary_zh": "文献挖掘的方剂/草药入血原型与代谢物及其检测条件（约1816个有结构入血成分）",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "http://bionet.ncpsb.org.cn/dcabm-tcm/",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10428213/"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "ds-cmaup",
+      "name": "CMAUP",
+      "type": "dataset",
+      "year": 2024,
+      "section": "中药组方 / 提取物",
+      "title_zh": "CMAUP 有用植物集体分子活性库",
+      "summary_zh": "BIDD的有用植物（含中药）多靶点活性、通路与疾病景观库，2024版扩展功能与关联信息，站点可下载",
+      "tags": [
+        "corpus"
+      ],
+      "links": {
+        "网站": "https://www.bidd.group/CMAUP/",
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767869/",
+        "DOI": "https://doi.org/10.1093/nar/gkad921"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
     },
     {
       "id": "cpm-pediatric-influenza",
@@ -5607,6 +6051,471 @@
       "status": "published",
       "verified_at": "2026-08-08",
       "venue": "OSF Preprints"
+    },
+    {
+      "id": "pat-cn122529089",
+      "name": "基于大语言模型的中医对话生成方法及装置",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.08",
+      "venue": "CN122529089A",
+      "summary_zh": "用长期记忆库与用户画像生成个性化中医对话（公开，未授权）",
+      "orgs": [
+        "杭州旺柴科技"
+      ],
+      "tags": [
+        "patent",
+        "agent"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN122529089A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn122436154",
+      "name": "张锡纯中医理法方药数字化传承与智能分析系统",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.07",
+      "venue": "CN122436154A",
+      "summary_zh": "辨病辨证规则 + 三路检索 + LLM 融合，做张锡纯学派理法方药分析（公开，未授权）",
+      "orgs": [
+        "广州知云草堂医疗科技"
+      ],
+      "tags": [
+        "patent",
+        "rag"
+      ],
+      "links": {
+        "专利": "https://eureka.patsnap.com/patent/CN122436154A"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn122050861",
+      "name": "大模型与双通道检索结合的中医智能诊疗平台构建方法",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.05",
+      "venue": "CN122050861A",
+      "summary_zh": "LLM+中医知识图谱双通道检索，面向名医经验传承与处方生成（公开，未授权）",
+      "orgs": [
+        "上海中医药大学附属岳阳中西医结合医院"
+      ],
+      "tags": [
+        "patent",
+        "rag",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN122050861A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn122117314",
+      "name": "基于大语言模型的智能针灸诊断智能体系统及方法",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.05",
+      "venue": "CN122117314A",
+      "summary_zh": "针灸知识库 + 图谱 + 向量检索 + 重排序，LLM 智能体分类问题并主动追问（公开，未授权）",
+      "orgs": [
+        "河南理工大学"
+      ],
+      "tags": [
+        "patent",
+        "agent"
+      ],
+      "links": {
+        "专利": "https://eureka.patsnap.com/patent/CN122117314A"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn122091073",
+      "name": "基于多任务联合优化的中医处方生成方法及装置",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.05",
+      "venue": "CN122091073A",
+      "summary_zh": "预训练大模型做自回归处方序列 + 草药集合预测，照顾低频药（公开，未授权）",
+      "orgs": [
+        "杭州电子科技大学"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://eureka.patsnap.com/patent/CN122091073A"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn122025029",
+      "name": "融合类别信息因果对比学习与LLM图注意力的中医处方推荐方法",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.05",
+      "venue": "CN122025029A",
+      "summary_zh": "症状-草药异构/同构图 + LLM 增强因果机制做处方推荐（公开，未授权）",
+      "orgs": [
+        "湖州师范学院"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://eureka.patsnap.com/patent/CN122025029A"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn121862376",
+      "name": "基于知识图谱和大语言模型的中医辨证问答系统及方法",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.04",
+      "venue": "CN121862376A",
+      "summary_zh": "古籍/医案分块抽实体建图谱，再按局部与全局关键词检索生成辨证问答（公开，未授权）",
+      "orgs": [
+        "南京邮电大学"
+      ],
+      "tags": [
+        "patent",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121862376A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn121743505",
+      "name": "基于知识增强的中医医案按语生成方法及装置",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.03",
+      "venue": "CN121743505A",
+      "summary_zh": "图谱子图混合检索后，按病因病机、治则、方药、预后四要素生成医案按语（公开，未授权）",
+      "orgs": [
+        "浙江大学"
+      ],
+      "tags": [
+        "patent",
+        "kg",
+        "rag"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121743505A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn121687367",
+      "name": "基于结构化证据子图检索增强生成的中医草药推荐方法及系统",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.03",
+      "venue": "CN121687367A",
+      "summary_zh": "多跳证据子图 + Hopfield 联想检索做草药推荐，并用图谱约束压幻觉（公开，未授权）",
+      "orgs": [
+        "浙江中医药大学"
+      ],
+      "tags": [
+        "patent",
+        "rag",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121687367A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn121480736",
+      "name": "基于知识蒸馏与强化学习的肿瘤中医智能处方推荐方法及系统",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.02",
+      "venue": "CN121480736A",
+      "summary_zh": "GPT-4o 教师蒸馏 Qwen 学生，再 DPO，做可解释的肿瘤中医处方（公开，未授权）",
+      "orgs": [
+        "南京中医药大学"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121480736A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn121436134",
+      "name": "一种多模态知识图谱构建方法及系统",
+      "type": "patent",
+      "year": 2026,
+      "date": "2026.01",
+      "venue": "CN121436134A",
+      "summary_zh": "用大模型从中医药文本抽三元组，再融合真实病历层做成多模态图谱（公开，未授权）",
+      "orgs": [
+        "杭州甘之草科技"
+      ],
+      "tags": [
+        "patent",
+        "kg",
+        "multimodal"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121436134A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn120690391",
+      "name": "一种基于知识图谱技术的中药经典名方智能推荐方法",
+      "type": "patent",
+      "year": 2025,
+      "date": "2025.12",
+      "venue": "CN120690391B",
+      "summary_zh": "口语到术语的语义映射 + 体质过滤 + 多症状协同，推荐经典名方（已授权）",
+      "orgs": [
+        "顺福科技集团"
+      ],
+      "tags": [
+        "patent",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN120690391B/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn120221058",
+      "name": "基于多模态知识图谱与大语言模型的中医康复诊断系统",
+      "type": "patent",
+      "year": 2025,
+      "date": "2025.06",
+      "venue": "CN120221058A",
+      "summary_zh": "舌苔、脉象与问诊特征对齐知识图谱嵌入，再交给中医康复专家大模型（公开，未授权）",
+      "orgs": [
+        "浙江中医药大学"
+      ],
+      "tags": [
+        "patent",
+        "multimodal",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN120221058A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn120067279",
+      "name": "基于AI大语言模型的中医智能问诊方法及系统",
+      "type": "patent",
+      "year": 2025,
+      "date": "2025.06",
+      "venue": "CN120067279B",
+      "summary_zh": "面舌形体图像、语音气息与病症库融合的多模态问诊系统（已授权）",
+      "orgs": [
+        "医脉人工智能医疗科技（天津）"
+      ],
+      "tags": [
+        "patent",
+        "multimodal"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN120067279B/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn120108694",
+      "name": "基于知识图谱与医案增强RAG的中医智能问诊方法及系统",
+      "type": "patent",
+      "year": 2025,
+      "date": "2025.06",
+      "venue": "CN120108694A",
+      "summary_zh": "Leiden 子图检索 + 全局/本地混合召回，再由大模型统一生成问诊建议（公开，未授权）",
+      "orgs": [
+        "江苏大学"
+      ],
+      "tags": [
+        "patent",
+        "rag",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN120108694A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn119763764",
+      "name": "一种基于大语言模型的中药处方推荐方法及系统",
+      "type": "patent",
+      "year": 2025,
+      "date": "2025.04",
+      "venue": "CN119763764A",
+      "summary_zh": "软提示 + 交叉注意力把患者文本送进大模型，输出可控中药处方（公开，未授权）",
+      "orgs": [
+        "杭州甘之草科技"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN119763764A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn119416782",
+      "name": "基于大语言模型的中医方学习方法、装置、设备及介质",
+      "type": "patent",
+      "year": 2025,
+      "date": "2025.02",
+      "venue": "CN119416782A",
+      "summary_zh": "用 Qwen 等大模型对齐文言医案术语与白话，做名老中医方学习（公开，未授权）",
+      "orgs": [
+        "成都字节流科技"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN119416782A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn119092157",
+      "name": "一种基于大语言模型的中药问答方法、装置、设备及介质",
+      "type": "patent",
+      "year": 2024,
+      "date": "2024.12",
+      "venue": "CN119092157B",
+      "summary_zh": "在 Baichuan2-7B-Chat 上做中药问答（2025.02 授权）",
+      "orgs": [
+        "浙江大学",
+        "长三角智慧绿洲创新中心"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN119092157B/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn119149754",
+      "name": "基于大模型和知识图谱的中医药方剂配伍方法及装置",
+      "type": "patent",
+      "year": 2024,
+      "date": "2024.12",
+      "venue": "CN119149754A",
+      "summary_zh": "中医药大模型与知识图谱协同做方剂配伍（公开，未授权）",
+      "orgs": [
+        "天津大学",
+        "天大智图（天津）科技"
+      ],
+      "tags": [
+        "patent",
+        "kg",
+        "prescription"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN119149754A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn118838996",
+      "name": "基于大语言模型和知识图谱的中医药问答系统构建方法",
+      "type": "patent",
+      "year": 2024,
+      "date": "2024.10",
+      "venue": "CN118838996A",
+      "summary_zh": "LLM 生成与知识图谱补全闭环的中医药问答（公开，未授权）",
+      "orgs": [
+        "北京理工大学",
+        "北京理工大学唐山研究院"
+      ],
+      "tags": [
+        "patent",
+        "kg"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN118838996A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn118230893",
+      "name": "基于AI大模型的智能中医处方推荐方法及系统",
+      "type": "patent",
+      "year": 2024,
+      "date": "2024.06",
+      "venue": "CN118230893A",
+      "summary_zh": "用病历训练 AI 大模型生成个性化中药处方，并接到医院信息系统（公开，未授权）",
+      "orgs": [
+        "杭州甘之草科技"
+      ],
+      "tags": [
+        "patent"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN118230893A/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
+    },
+    {
+      "id": "pat-cn117828050",
+      "name": "基于长文档检索增强生成的中医问答方法、设备及介质",
+      "type": "patent",
+      "year": 2024,
+      "date": "2024.04",
+      "venue": "CN117828050B",
+      "summary_zh": "长文档 RAG（扩展、召回、重排序、来源标注）做中医问答（2024.07 授权）",
+      "orgs": [
+        "北京智谱华章科技"
+      ],
+      "tags": [
+        "patent",
+        "rag"
+      ],
+      "links": {
+        "专利": "https://patents.google.com/patent/CN117828050B/zh"
+      },
+      "status": "published",
+      "verified_at": "2026-09-12"
     }
   ]
 }
