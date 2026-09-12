@@ -27,7 +27,9 @@ python3 scripts/build_readme.py
 
 模型：`model`，有权重再加 `open-weights`。  
 方法：`agent` / `rag` / `kg` / `multimodal` 选最能代表主贡献的。  
-评测：数据集用 `type: dataset` + `section: 评测基准`；论文用 `resource` + `benchmark` 或 `evaluation`。
+评测：数据集用 `type: dataset` + `section: 评测基准`；论文用 `resource` + `benchmark` 或 `evaluation`。  
+组方/提取物公开库：`type: dataset` + `section: 中药组方 / 提取物`，不要和中医大模型语料混栏，也不收制剂专利全集。  
+专利：`type: patent`，`venue` 写公开号，链接用 Google Patents；只收中医大模型 / KG-QA / RAG 问诊等相关件，不限中国。全球补漏可跑 `scripts/search_patents_bq.py`。
 
 ## Issue 与 PR
 

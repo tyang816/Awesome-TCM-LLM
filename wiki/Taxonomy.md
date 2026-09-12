@@ -11,6 +11,7 @@
 | `survey` | 综述 | 综述 / scoping review / 评论 |
 | `dataset` | 数据集 | 用 `section` 再分栏 |
 | `model_hf` | 开源模型 · HF 折叠 | 精选 Hugging Face 权重，可与 resource 模型互补 |
+| `patent` | 专利 | 中医大模型、知识图谱问答、RAG 问诊等公开专利，不限中国；`venue` 写公开号 |
 
 ## 决定 resource 落点的顺序
 
@@ -36,6 +37,7 @@
 | `history` | LLM 之前的计算中医锚点 |
 | `product` / `policy` | 产业或政策新闻 |
 | `tool` | 平台、系统、可运行工具 |
+| `patent` | 发明专利 / 发明公布 |
 | `ancient-books` / `herbal` | 古籍或本草专项 |
 
 ## dataset.section
@@ -43,6 +45,7 @@
 | section | 栏名 |
 | --- | --- |
 | `公开资料整理` | 索引类列表 |
+| `中药组方 / 提取物` | 方剂组成、中药提取物/成分–靶点等计算向公开库（不与中医大模型语料混排；不收制剂专利全集） |
 | `原始书籍 / 预训练语料` | 古籍与 CPT 语料 |
 | `评测基准` | 可下载或可引用的 bench |
 | `考试数据集` | 执业 / 考研等 |

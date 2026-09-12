@@ -33,10 +33,11 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 |------|------|
 | `id` | 稳定唯一 ID（kebab-case） |
 | `name` | 显示名 |
-| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf`。`resource` 若带 `model` 标签会进入 README **开源模型**（有权重进表，否则进折叠栏），否则按 `agent` / `multimodal` / `rag`/`kg` / `benchmark` 分到「论文」 |
+| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf` / `patent`。`resource` 若带 `model` 标签会进入 README **开源模型**（有权重进表，否则进折叠栏），否则按 `agent` / `multimodal` / `rag`/`kg` / `benchmark` 分到「论文」。`patent` 进入 README **专利**（收中医大模型 / 知识图谱 / RAG / 智能问诊与处方推荐等系统专利，不限中国；不收中药组方制剂全集） |
 | `year` | 年份 |
 | `summary_zh` | 一句话中文摘要 |
 | `links` | 论文/代码/模型/数据集等 URL |
+| `section` | 数据集分栏。组方/提取物公开库用 `中药组方 / 提取物`，不要放进中医大模型语料栏 |
 | `tags` | 如 `multimodal`, `benchmark`, `open-weights`, `agent`, `general-medical` |
 | `verified_at` | 链接核验日期 `YYYY-MM-DD` |
 | `status` | 默认 `published` |
@@ -45,7 +46,7 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 
 ## 链接要求
 
-- 优先 DOI / 官方仓库 / Hugging Face 规范 URL。
+- 优先 DOI / 官方仓库 / Hugging Face 规范 URL。专利用 Google Patents（CN / US / EP / WO / JP / KR 等），`venue` 写公开号（授权件优先 `…B`）。全球补漏可用 `python3 scripts/search_patents_bq.py`（需 `gcloud auth login`，查 `patents-public-data`）。
 - 提交前可用 `python3 scripts/check_links.py` 抽检。
 - 标题与链接内容须对齐（避免挂错论文）。
 
