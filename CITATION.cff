@@ -10,10 +10,10 @@ repository-code: "https://github.com/tyang816/Awesome-TCM-LLM"
 related-identifiers:
   - type: url
     value: "https://tyang816.github.io/zh/projects/tcm/"
-    description: "TCM LLM catalog (Chinese)"
+    description: "TCM models, data, papers, and patents (Chinese)"
   - type: url
     value: "https://tyang816.github.io/projects/tcm/"
-    description: "TCM LLM catalog (English)"
+    description: "TCM models, data, papers, and patents (English)"
   - type: url
     value: "https://tyang816.github.io/zh/"
     description: "Author homepage (Chinese)"
@@ -23,14 +23,15 @@ related-identifiers:
 license: MIT
 type: dataset
 abstract: >-
-  A curated list of open resources related to Traditional Chinese Medicine
-  (and Chinese medical) large language models, including news, papers,
-  models, benchmarks, and datasets.
+  A curated list of open Traditional Chinese Medicine models, datasets,
+  papers, and patents, plus a few related Chinese medical resources.
 keywords:
   - 中医大模型
-  - TCM LLM
+  - 开源中医
+  - TCM
   - Traditional Chinese Medicine
   - Large Language Models
   - Awesome List
   - Benchmark
   - Dataset
+  - Patent
