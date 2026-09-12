@@ -2265,6 +2265,47 @@
       "verified_at": "2026-07-19"
     },
     {
+      "id": "lingdan-v2",
+      "name": "灵丹-V2 (Lingdan-V2)",
+      "year": 2026,
+      "summary_zh": "北交大灵丹二代中医推理家族（Qwen3 4B/8B/14B，CPT+SFT+处方GRPO）；ModelScope有权重但需申请，未标可自由下载",
+      "orgs": [
+        "北京交通大学"
+      ],
+      "tags": [
+        "model",
+        "reasoning",
+        "prescription"
+      ],
+      "links": {
+        "代码": "https://github.com/TCMAI-BJTU/Lingdan-V2",
+        "ModelScope": "https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "dfglm-tcm",
+      "name": "DFGLM-TCM",
+      "year": 2026,
+      "venue": "Chinese Medicine",
+      "summary_zh": "北京中医药大学东方医院与智谱等的中医临床系统，把通用中医知识与名医经验分模块建模后多任务协同；论文已发，权重未公开",
+      "orgs": [
+        "北京中医药大学",
+        "智谱华章"
+      ],
+      "tags": [
+        "model"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1186/s13020-026-01512-y"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
       "id": "bigdatatcm",
       "name": "大数中医 (BigDataTCM)",
       "year": 2024,
@@ -2851,6 +2892,30 @@
       "verified_at": "2026-09-13"
     },
     {
+      "id": "baichuan-m3",
+      "name": "百川-M3 (Baichuan-M3)",
+      "year": 2026,
+      "venue": "arXiv",
+      "summary_zh": "百川第三代开源医疗推理模型（235B，底座Qwen3），用SPAR分段RL与事实感知RL做主动问诊和抑幻觉；HealthBench与SCAN-bench开源前列",
+      "orgs": [
+        "百川智能"
+      ],
+      "tags": [
+        "model",
+        "general-medical",
+        "open-weights",
+        "reasoning"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2602.06570",
+        "代码": "https://github.com/baichuan-inc/Baichuan-M3-235B",
+        "模型": "https://huggingface.co/baichuan-inc/Baichuan-M3-235B"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
       "id": "huatuogpt-ii",
       "name": "华佗GPT-II (HuatuoGPT-II)",
       "year": 2023,
@@ -2988,6 +3053,28 @@
       "verified_at": "2026-09-13"
     },
     {
+      "id": "wingpt3",
+      "name": "卫宁WiNGPT3",
+      "year": 2025,
+      "venue": "arXiv",
+      "summary_zh": "卫宁第三代医疗推理模型（32B，底座Qwen2.5），多阶段SFT+RL与长思维链，对接WiNEX医院流程；技术报告和代码已公开，权重未核验可下载",
+      "orgs": [
+        "卫宁健康"
+      ],
+      "tags": [
+        "model",
+        "general-medical",
+        "reasoning"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2505.17387",
+        "代码": "https://github.com/winninghealth/WiNGPT3"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
       "id": "taiyi",
       "name": "太一 (Taiyi)",
       "year": 2024,
@@ -3005,6 +3092,28 @@
         "DOI": "https://doi.org/10.1093/jamia/ocae037",
         "代码": "https://github.com/DUTIR-BioNLP/Taiyi-LLM",
         "模型": "https://huggingface.co/DUTIR-BioNLP/Taiyi-LLM"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "taiyi-2",
+      "name": "太一2 (Taiyi-2)",
+      "year": 2025,
+      "summary_zh": "太一二代开源生物医学模型，底座从Qwen-7B换成GLM4-9B，重做数据过滤与任务指令；官方推荐替换Taiyi-1",
+      "orgs": [
+        "大连理工大学"
+      ],
+      "tags": [
+        "model",
+        "general-medical",
+        "open-weights"
+      ],
+      "links": {
+        "模型": "https://huggingface.co/DUTIR-BioNLP/Taiyi2-chat",
+        "代码": "https://github.com/DUTIR-BioNLP/Taiyi-LLM",
+        "DOI": "https://doi.org/10.1093/jamia/ocae037"
       },
       "type": "resource",
       "status": "published",
@@ -3145,6 +3254,211 @@
       ],
       "links": {
         "代码": "https://github.com/WangRongsheng/CareGPT"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "bianque-2",
+      "name": "扁鹊-2 (BianQue-2)",
+      "year": 2023,
+      "summary_zh": "扁鹊二代开源医疗问诊模型，强化多轮追问；CMB 等中文医疗评测里的常见对照",
+      "orgs": [
+        "华南理工大学，广东省数字孪生人重点实验室"
+      ],
+      "tags": [
+        "model",
+        "general-medical",
+        "open-weights"
+      ],
+      "links": {
+        "代码": "https://github.com/scutcyr/BianQue",
+        "模型": "https://huggingface.co/scutcyr/BianQue-2"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ivygpt",
+      "name": "IvyGPT",
+      "year": 2023,
+      "venue": "arXiv",
+      "summary_zh": "基于 LLaMA 的中文医疗问答模型，用高质量医患 QA 与 RLHF 微调，CMB 论文对照列表中的开源基线",
+      "tags": [
+        "model",
+        "general-medical"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2307.10512",
+        "代码": "https://github.com/Ivy0529/IvyGPT"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "chatglm-med",
+      "name": "ChatGLM-Med",
+      "year": 2023,
+      "summary_zh": "哈工大SCIR用中文医学知识图谱指令微调的ChatGLM-6B，与本草/华驼同源数据，CMB常用对照",
+      "orgs": [
+        "哈尔滨工业大学"
+      ],
+      "tags": [
+        "model",
+        "general-medical"
+      ],
+      "links": {
+        "代码": "https://github.com/SCIR-HI/Med-ChatGLM"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "clinicalgpt",
+      "name": "ClinicalGPT",
+      "year": 2023,
+      "venue": "arXiv",
+      "summary_zh": "北邮等用病历、知识、医考和多轮问诊微调的临床向中文医疗模型（BLOOM-7B），CMB等对照表常见；HF有medicalai快照",
+      "orgs": [
+        "北京邮电大学"
+      ],
+      "tags": [
+        "model",
+        "general-medical",
+        "open-weights"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2306.09968",
+        "模型": "https://huggingface.co/medicalai/ClinicalGPT-base-zh"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "iflytek-spark-med",
+      "name": "讯飞星火医疗",
+      "year": 2025,
+      "summary_zh": "科大讯飞闭源医疗大模型（星火医疗X1/X2），落地智医助理与讯飞晓医；无公开权重，只作产业对照",
+      "orgs": [
+        "科大讯飞"
+      ],
+      "tags": [
+        "model",
+        "product",
+        "general-medical"
+      ],
+      "links": {
+        "官网": "https://www.xunfeihealthcare.com/",
+        "新闻": "https://www.cn-healthcare.com/article/20250303/wap-content-585822.html"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "hunyuan-med",
+      "name": "腾讯混元医疗",
+      "year": 2023,
+      "summary_zh": "腾讯健康基于混元的闭源医疗大模型，覆盖问答、导诊、病历与影像；天衍实验室发布，无公开权重",
+      "orgs": [
+        "腾讯"
+      ],
+      "tags": [
+        "model",
+        "product",
+        "general-medical"
+      ],
+      "links": {
+        "官网": "https://healthcare.tencent.com/",
+        "新闻": "https://healthcare.tencent.com/news/1603"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "pangu-drug",
+      "name": "盘古药物分子大模型 (PanGu Drug Model)",
+      "year": 2023,
+      "venue": "Sci China Life Sci",
+      "summary_zh": "华为云与中科院上海药物所的闭源分子预训练模型（约17亿小分子），做属性预测/生成/优化；数智本草曾以其为底座之一",
+      "orgs": [
+        "华为云",
+        "中国科学院上海药物研究所"
+      ],
+      "tags": [
+        "model",
+        "product",
+        "general-medical"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1007/s11427-022-2239-y",
+        "官网": "https://www.huaweicloud.com/cases/pgyw.html"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ant-afu",
+      "name": "蚂蚁阿福 / 蚂蚁医疗大模型",
+      "year": 2024,
+      "summary_zh": "蚂蚁闭源多模态医疗大模型，先作支付宝AQ后升级为阿福，做问诊、报告与药盒识别；WAIC 2024发布，无公开权重",
+      "orgs": [
+        "蚂蚁集团"
+      ],
+      "tags": [
+        "model",
+        "product",
+        "general-medical",
+        "multimodal"
+      ],
+      "links": {
+        "官网": "https://www.antafu.com/",
+        "新闻稿": "https://www.antgroup.com/news-media/press-releases/1720166400000"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "kampo-llm",
+      "name": "KAMPO LLM",
+      "year": 2026,
+      "summary_zh": "日本VARYTEX与日本东洋医学会合作的闭源汉方医学API，用漢方専門医研修471题评测；无公开权重",
+      "orgs": [
+        "VARYTEX"
+      ],
+      "tags": [
+        "model",
+        "product",
+        "east-asian-tm"
+      ],
+      "links": {
+        "官网": "https://kampollm.varytex.co.jp/"
+      },
+      "type": "resource",
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "km-agent",
+      "name": "KM-Agent",
+      "year": 2026,
+      "venue": "Applied Sciences",
+      "summary_zh": "韩医/东亚传统医学工具增强Agent，检索4780条药材–证候–穴位元数据，并在TCMBench等上评测",
+      "tags": [
+        "agent",
+        "east-asian-tm"
+      ],
+      "links": {
+        "论文": "https://www.mdpi.com/2076-3417/16/7/3377",
+        "代码": "https://github.com/wonyung-lee/km-agent"
       },
       "type": "resource",
       "status": "published",
@@ -5389,14 +5703,307 @@
       "year": 2015,
       "section": "中药组方 / 提取物",
       "title_zh": "TM-MC 东北亚传统药物成分库",
-      "summary_zh": "韩国韩医学研究院从文献抽取的药材–化合物库（约536种药材、1.4万化合物），并给出PubMed/PubChem出处；官网当前超时",
+      "summary_zh": "韩国韩医学研究院从文献抽取的东北亚药材–化合物库；2015初版约536种药材，2024的2.0扩到约3.4万化合物；官网当前超时",
       "tags": [
         "corpus",
-        "dead-site"
+        "dead-site",
+        "east-asian-tm"
       ],
       "links": {
         "原网站": "http://informatics.kiom.re.kr/compound/",
-        "DOI": "https://doi.org/10.1186/s12906-015-0758-5"
+        "DOI": "https://doi.org/10.1186/s12906-015-0758-5",
+        "2.0论文": "https://doi.org/10.1186/s12906-023-04331-y"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-cmb",
+      "name": "CMB",
+      "type": "dataset",
+      "year": 2023,
+      "section": "通用中文医疗",
+      "title_zh": "CMB 中文综合医学评测（Exam + Clin）",
+      "summary_zh": "中大深圳FreedomIntelligence的中文医疗综合基准：CMB-Exam约28万题+CMB-Clin复杂病案，中医论文里最常见的西医/综合对照榜",
+      "tags": [
+        "benchmark",
+        "general-medical"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2308.08833",
+        "正式发表": "https://aclanthology.org/2024.naacl-long.343/",
+        "代码": "https://github.com/FreedomIntelligence/CMB",
+        "数据集": "https://huggingface.co/datasets/FreedomIntelligence/CMB"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-cmexam",
+      "name": "CMExam",
+      "type": "dataset",
+      "year": 2023,
+      "section": "通用中文医疗",
+      "title_zh": "CMExam 中文执业医师考试评测集",
+      "summary_zh": "源自国家医学考试的中文医考题（约6.8万），带多维标注，常被中文医疗/中医LLM当知识回忆对照",
+      "tags": [
+        "benchmark",
+        "general-medical"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2306.03030",
+        "代码": "https://github.com/williamliujl/CMExam"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-huatuo-26m",
+      "name": "Huatuo-26M",
+      "type": "dataset",
+      "year": 2023,
+      "section": "通用中文医疗",
+      "title_zh": "Huatuo-26M 大规模中文医疗问答",
+      "summary_zh": "目前最大的开源中文医疗QA（约2600万对），含百科/图谱/问诊；精简版Huatuo-Lite常被拿来SFT或RAG",
+      "tags": [
+        "sft",
+        "general-medical"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2305.01526",
+        "正式发表": "https://aclanthology.org/2025.findings-naacl.211/",
+        "代码": "https://github.com/FreedomIntelligence/Huatuo-26M",
+        "数据集": "https://huggingface.co/datasets/FreedomIntelligence/Huatuo26M-Lite"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-promptcblue",
+      "name": "PromptCBLUE",
+      "type": "dataset",
+      "year": 2023,
+      "section": "通用中文医疗",
+      "title_zh": "PromptCBLUE 中文医疗NLP指令化评测",
+      "summary_zh": "把CBLUE的16项中文医疗NLP任务改写成生成式指令，CCKS-2023评测任务，中文医疗LLM早期统一榜之一",
+      "tags": [
+        "benchmark",
+        "general-medical"
+      ],
+      "links": {
+        "代码": "https://github.com/michael-wzhu/PromptCBLUE"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-disc-med-sft",
+      "name": "DISC-Med-SFT",
+      "type": "dataset",
+      "year": 2023,
+      "section": "通用中文医疗",
+      "title_zh": "DISC-Med-SFT 医疗对话指令数据",
+      "summary_zh": "复旦DISC配套的约47万条医疗对话SFT（图谱三元组+真实问诊重构），不含偏好数据",
+      "tags": [
+        "sft",
+        "general-medical"
+      ],
+      "links": {
+        "数据集": "https://huggingface.co/datasets/Flmc/DISC-Med-SFT",
+        "论文": "https://arxiv.org/abs/2308.14346"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-qilin-chimed",
+      "name": "ChiMed (Qilin)",
+      "type": "dataset",
+      "year": 2023,
+      "section": "通用中文医疗",
+      "title_zh": "ChiMed 中文医疗多阶段语料（Qilin-Med）",
+      "summary_zh": "Qilin-Med发布的约3GB中文医疗语料（CPT/SFT/DPO），与预训练集ChiMed 2.0不是同一资源",
+      "tags": [
+        "sft",
+        "corpus",
+        "general-medical"
+      ],
+      "links": {
+        "数据集": "https://huggingface.co/datasets/williamliu/ChiMed",
+        "论文": "https://arxiv.org/abs/2310.09089"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-cmedqa2",
+      "name": "cMedQA2",
+      "type": "dataset",
+      "year": 2018,
+      "section": "通用中文医疗",
+      "title_zh": "cMedQA2 中文社区医疗问答",
+      "summary_zh": "中文医疗论坛问答（约10.8万问/20万答），扁鹊语料和后续SFT常把它当作源数据",
+      "tags": [
+        "sft",
+        "general-medical"
+      ],
+      "links": {
+        "代码": "https://github.com/zhangsheng93/cMedQA2"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-meddialog",
+      "name": "MedDialog",
+      "type": "dataset",
+      "year": 2020,
+      "section": "通用中文医疗",
+      "title_zh": "MedDialog 中英医疗对话",
+      "summary_zh": "大规模医患对话（中文约110万场），中文医疗多轮问诊微调的常用源数据",
+      "tags": [
+        "sft",
+        "general-medical"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2004.03329",
+        "代码": "https://github.com/UCSD-AI4H/Medical-Dialogue-System"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-cmekg",
+      "name": "CMeKG",
+      "type": "dataset",
+      "year": 2019,
+      "section": "通用中文医疗",
+      "title_zh": "CMeKG 中文医学知识图谱",
+      "summary_zh": "覆盖疾病、药物、症状等的中文医学KG，本草/华驼和ChatGLM-Med的指令数据主要来源；原门户不稳，核验走工具仓",
+      "tags": [
+        "kg",
+        "general-medical"
+      ],
+      "links": {
+        "代码": "https://github.com/king-yyf/CMeKG_tools"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-cblue",
+      "name": "CBLUE",
+      "type": "dataset",
+      "year": 2022,
+      "venue": "ACL",
+      "section": "通用中文医疗",
+      "title_zh": "CBLUE 中文生物医学语言理解评测",
+      "summary_zh": "中文生物医学NLU总榜（NER/关系/诊断归一化/分类等），PromptCBLUE的源任务集；天池有提交入口",
+      "tags": [
+        "benchmark",
+        "general-medical"
+      ],
+      "links": {
+        "论文": "https://aclanthology.org/2022.acl-long.544/",
+        "代码": "https://github.com/CBLUEbenchmark/CBLUE"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-imcs21",
+      "name": "IMCS-21",
+      "type": "dataset",
+      "year": 2022,
+      "venue": "Bioinformatics",
+      "section": "通用中文医疗",
+      "title_zh": "IMCS-21 智能医疗问诊对话",
+      "summary_zh": "约4116场儿科在线问诊，带实体/意图/症状/报告标注，后接入CBLUE四任务",
+      "tags": [
+        "sft",
+        "benchmark",
+        "general-medical"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1093/bioinformatics/btac817",
+        "代码": "https://github.com/lemuria-wchen/imcs21",
+        "CBLUE任务": "https://github.com/lemuria-wchen/imcs21-cblue"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-webmedqa",
+      "name": "webMedQA",
+      "type": "dataset",
+      "year": 2019,
+      "section": "通用中文医疗",
+      "title_zh": "webMedQA 在线医疗咨询问答",
+      "summary_zh": "从健康咨询网站收集的中文非事实型医问（约6.3万问，1正4负答案），早期中文医疗QA常用源",
+      "tags": [
+        "sft",
+        "general-medical"
+      ],
+      "links": {
+        "DOI": "https://doi.org/10.1186/s12911-019-0761-8",
+        "代码": "https://github.com/hejunqing/webMedQA"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-knapsack-kampo",
+      "name": "KNApSAcK KAMPO",
+      "type": "dataset",
+      "year": 2012,
+      "section": "东亚传统医学",
+      "title_zh": "KNApSAcK KAMPO 汉方处方与生药库",
+      "summary_zh": "奈良先端大整理的汉方公开库（约1581处方、278生药），生命科学数据库档案可下载",
+      "tags": [
+        "corpus",
+        "herbal",
+        "east-asian-tm"
+      ],
+      "links": {
+        "数据集": "https://dbarchive.biosciencedbc.jp/data/knapsack-kampo/",
+        "DOI": "https://doi.org/10.1093/pcp/pcr165"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-km-embedding",
+      "name": "Korean Medicine Embedding Dataset",
+      "type": "dataset",
+      "year": 2026,
+      "section": "东亚传统医学",
+      "title_zh": "韩医领域嵌入对比学习数据",
+      "summary_zh": "从韩医术语与本体构造的query–positive–negatives（约11.3万对），用于BGE-M3等检索微调",
+      "tags": [
+        "sft",
+        "east-asian-tm"
+      ],
+      "links": {
+        "数据集": "https://huggingface.co/datasets/cnupo23/korean-medicine-embedding-dataset"
+      },
+      "status": "published",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "id": "ds-oasis-kiom",
+      "name": "OASIS (KIOM)",
+      "type": "dataset",
+      "year": 2010,
+      "section": "东亚传统医学",
+      "title_zh": "OASIS 韩国传统医学信息门户",
+      "summary_zh": "韩国韩医学研究院的传统医学文献与资源门户，可检索韩医论文与本草资料",
+      "tags": [
+        "corpus",
+        "tool",
+        "east-asian-tm"
+      ],
+      "links": {
+        "网站": "https://oasis.kiom.re.kr/"
       },
       "status": "published",
       "verified_at": "2026-09-13"
