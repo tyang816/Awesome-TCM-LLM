@@ -82,23 +82,36 @@ derm-3r:
   summary_en: Resource-constrained multimodal multi-agent framework for TCM dermatology (recognition / representation / SDT
     agents).
 gastro-tcm:
-  summary_en: TCM gastroenterology LLM fine-tuned from Llama3-8B with RAG and agent scaffolding.
+  summary_en: TCM gastroenterology LLM fine-tuned from Llama3-8B with RAG and agent scaffolding. Chinese Medicine paper
+    from Tsinghua TCM-X and China-Japan Friendship Hospital et al.
+  orgs_en:
+  - Tsinghua University
+  - China-Japan Friendship Hospital et al.
 mmir-tcm:
   summary_en: Memory-augmented multimodal tongue diagnosis and clinical decision framework; proposes MedTCM dataset and TDEU
     metric.
 qwen-tcm-dia:
   summary_en: Specialty fine-tuned model for TCM diarrhea care (CPT + CoT SFT) covering symptom→pathomechanism→method→formula
-    chains.
+    chains. Digital Chinese Medicine authors at Beijing Hospital of TCM (CMU) and BUCM et al.
+  orgs_en:
+  - Beijing Hospital of TCM, Capital Medical University
+  - Beijing University of Chinese Medicine et al.
 tcm-agent:
   summary_en: LLM multi-agent system for network pharmacology and herbal discovery.
 tcm-diffrag:
   summary_en: Syndrome-differentiation RAG with a general KG, a personalized KG, and chain-of-thought.
 tonguevlm:
-  summary_en: Multimodal VLM for TCM tongue diagnosis, description generation, and constitution reasoning.
+  summary_en: Multimodal VLM for TCM tongue diagnosis, description generation, and constitution reasoning. JMIR page blocked;
+    OpenAlex lists HFUT and Anhui University of Chinese Medicine et al.
+  orgs_en:
+  - Hefei University of Technology
+  - Anhui University of Chinese Medicine et al.
 xinghe:
-  summary_en: Qwen3.5-9B reasoning TCM model grounded in the *Neijing*, with explicit CoT pattern differentiation and safety
-    boundaries.
+  summary_en: Xinghe-TCM Neijing reasoning model on Qwen3.5-9B (QLoRA, ~2009 instructions, no-prescription safety). HF page
+    lists no paper and no university affiliation.
   name_en: Xinghe
+  orgs_en:
+  - Xinghe-TCM
 linglan:
   summary_en: 'Large multi-task TCM benchmark: 5 domains, 13 subtasks, 25,624 instances.'
   name_en: LingLan
@@ -106,14 +119,22 @@ linglan:
   - Beijing Jiaotong University et al.
 bencao-gpt:
   summary_en: Instruction-aligned multimodal TCM assistant (ChatGPT/GPTs Store) with tongue APIs and knowledge bases (distinct
-    from HuaTuo/BenCao).
+    from HuaTuo/BenCao). arXiv HTML authors at University of Missouri and Shanghai University of TCM et al.
   name_en: BenCao
+  orgs_en:
+  - University of Missouri
+  - Shanghai University of Traditional Chinese Medicine et al.
 chattcm:
-  summary_en: Fully open TCM LLM from pretraining data through released weights.
+  summary_en: SylvanL open TCM LLM (Qwen2-7B continual pretrain then full SFT) with public data and weights. Contact email
+    sl18n19@soton.ac.uk only; no stated affiliation or paper.
 diagx-dt:
   summary_en: Exclusionary syndrome-differentiation reasoning with CoT and an external TCM knowledge base.
 dopi:
-  summary_en: Doctor-like proactive inquiry TCM LLM (guide + expert models); reported inquiry accuracy 84.68%.
+  summary_en: Doctor-like proactive inquiry TCM LLM (guide + expert models); reported inquiry accuracy 84.68%. arXiv HTML
+    authors at Tianjin University and CUHK et al.
+  orgs_en:
+  - Tianjin University
+  - The Chinese University of Hong Kong et al.
 mcm:
   summary_en: Multi-agent collaborative multimodal TCM diagnosis framework (IEEE ICIP 2025).
   orgs_en:
@@ -139,7 +160,11 @@ tcm-5ceval:
 tcm-best4sdt:
   summary_en: Case benchmark for syndrome differentiation and treatment (knowledge / ethics / safety / SDT).
 tcm-kllama:
-  summary_en: KG-fused LLM for intelligent TCM formula generation.
+  summary_en: KG-fused LLM for intelligent TCM formula generation. PubMed 40056842 lists Zhejiang Gongshang University and
+    Hangzhou First People's Hospital (Westlake University School of Medicine).
+  orgs_en:
+  - Zhejiang Gongshang University
+  - Hangzhou First People's Hospital, Westlake University School of Medicine
 tcm-ladder:
   summary_en: First large multimodal TCM QA benchmark with 52,000+ items (NeurIPS 2025).
 tcm-r1:
@@ -164,8 +189,11 @@ tianyi:
   orgs_en:
   - Nanjing University of Chinese Medicine
 tianhui:
-  summary_en: Domain LLM for 12 TCM scenarios (DeepSeek-R1-Distill-Qwen-14B + PT/SFT) with open code and eval scripts.
+  summary_en: Domain LLM for 12 TCM scenarios (DeepSeek-R1-Distill-Qwen-14B + PT/SFT) with open code and eval scripts. arXiv
+    PDF authors at Chengdu University of TCM.
   name_en: TianHui
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
 qibo:
   summary_en: TCM LLM and Qibo Benchmark from Tianjin University et al.; CPT + SFT for SDT and QA.
   name_en: Qibo
@@ -189,8 +217,11 @@ baize-tcm:
   - Institute of Chinese Materia Medica, CACMS
 zhifangdantai:
   summary_en: GraphRAG + LLM fine-tuning for interpretable formula generation (sovereign–minister–assistant–courier, efficacy,
-    contraindications) with open weights.
+    contraindications) with open weights. Authors at Capital Normal University and the University of Queensland.
   name_en: ZhiFangDanTai
+  orgs_en:
+  - Capital Normal University
+  - University of Queensland
 shennong-alpha:
   summary_en: "ShennongAlpha (Westlake University): an AI-driven sharing and collaboration platform for intelligent curation, acquisition and translation of natural-medicinal-material knowledge (Cell Discov. 2025)."
 jingfang:
@@ -216,6 +247,9 @@ huatuo-bencao:
   - Harbin Institute of Technology
 chatmed:
   summary_en: ChatMed series of Chinese medical LLMs, including ChatMed-Consult trained on 500k+ online consultation dialogues.
+    GitHub README cites Wei Zhu and Xiaoling Wang; no standalone journal paper.
+  orgs_en:
+  - East China Normal University
 xrayglm:
   summary_en: Chinese multimodal medical LLM for chest X-ray interpretation.
 huatuogpt:
@@ -316,6 +350,10 @@ qilin-med:
   title_en: Qilin-Med
   name_en: Qilin-Med
   summary_en: Multi-stage Chinese medical LLM (CPT+SFT+DPO on Baichuan-7B) releasing the ~3GB ChiMed corpus, optionally with RAG.
+    arXiv PDF authors at Peking University and HKUST (Guangzhou) et al.
+  orgs_en:
+  - Peking University
+  - Hong Kong University of Science and Technology (Guangzhou) et al.
 chimed-gpt:
   title_en: ChiMed-GPT
   name_en: ChiMed-GPT
@@ -333,6 +371,10 @@ doctorgpt:
   title_en: DoctorGLM
   name_en: DoctorGLM
   summary_en: Early open Chinese consultation model on ChatGLM-6B with LoRA/P-Tuning; a frequent 2023 Chinese medical baseline.
+    arXiv HTML authors at ShanghaiTech and United Imaging Intelligence et al.
+  orgs_en:
+  - ShanghaiTech University
+  - United Imaging Intelligence et al.
 medicalgpt:
   title_en: MedicalGPT
   name_en: MedicalGPT
@@ -347,7 +389,10 @@ soulchat:
 caregpt:
   title_en: CareGPT
   name_en: CareGPT
-  summary_en: Open Chinese medical LLM training stack (pretrain through DPO) with accompanying weights, often used to reproduce Chinese medical fine-tunes.
+  summary_en: Open Chinese medical LLM training stack (pretrain through DPO) with accompanying weights, often used to reproduce
+    Chinese medical fine-tunes. README attributes the work to Macao Polytechnic University.
+  orgs_en:
+  - Macao Polytechnic University
 bianque-2:
   title_en: BianQue-2
   name_en: BianQue-2
@@ -358,7 +403,10 @@ bianque-2:
 ivygpt:
   title_en: IvyGPT
   name_en: IvyGPT
-  summary_en: LLaMA-based Chinese medical QA model fine-tuned with curated clinical QA and RLHF; listed as an open baseline in the CMB paper.
+  summary_en: LLaMA-based Chinese medical QA model fine-tuned with curated clinical QA and RLHF; listed as an open baseline
+    in the CMB paper. arXiv PDF authors at Macao Polytechnic University.
+  orgs_en:
+  - Macao Polytechnic University
 chatglm-med:
   title_en: ChatGLM-Med
   name_en: ChatGLM-Med
@@ -447,13 +495,19 @@ ant-afu:
 kampo-llm:
   title_en: KAMPO LLM
   name_en: KAMPO LLM
-  summary_en: Closed Japanese Kampo medical API from VARYTEX with the Japan Society for Oriental Medicine, scored on 471 specialist-training items; no public weights.
+  summary_en: Official site still live. Closed Kampo API from VARYTEX with the Japan Society for Oriental Medicine; page reports
+    97.4% (Pro) and 92.1% (Flash) on 471 specialist-training items; no public weights.
   orgs_en:
   - VARYTEX
+  - Japan Society for Oriental Medicine
 km-agent:
   title_en: KM-Agent
   name_en: KM-Agent
-  summary_en: Tool-augmented agent for Korean / East Asian traditional medicine over 4,780 herb–syndrome–acupoint metadata records, evaluated on TCMBench-style sets.
+  summary_en: Tool-augmented agent for Korean / East Asian traditional medicine over 4,780 herb–syndrome–acupoint metadata
+    records, evaluated on TCMBench-style sets. MDPI/OpenAlex authors at Wonkwang University and Pusan National University et al.
+  orgs_en:
+  - Wonkwang University
+  - Pusan National University et al.
 lingdan-v2:
   title_en: Lingdan-V2
   name_en: Lingdan-V2
@@ -658,7 +712,10 @@ med-shicheng:
   - Nanjing University of Chinese Medicine et al.
 dongyuan:
   summary_en: Integrative spleen–stomach disease diagnosis LLM framework combining TCM pattern differentiation with Western
-    diagnostic reasoning.
+    diagnostic reasoning. arXiv PDF authors at Hebei Provincial Hospital of TCM and CASIA et al.
+  orgs_en:
+  - Hebei Provincial Hospital of Traditional Chinese Medicine
+  - Institute of Automation, Chinese Academy of Sciences et al.
 macat:
   summary_en: Multi-agent culture-aware translation framework, evaluated on culture-loaded terms from TCM classics and the
     Analects.
@@ -828,8 +885,12 @@ mrd-rag:
   summary_en: Multi-round diagnostic RAG simulating clinical reasoning; builds **DiagnosGraph** spanning TCM and Western
     medicine (876 diseases / 7,997 nodes / 37,201 triples).
 ladder-base:
-  summary_en: First GRPO reinforcement-learning-aligned TCM LLM, from the TCM-Ladder team.
+  summary_en: First GRPO reinforcement-learning-aligned TCM LLM, from the TCM-Ladder team. arXiv PDF authors at University
+    of Missouri and Shanghai University of TCM et al.
   name_en: Ladder-base (GRPO-TCM)
+  orgs_en:
+  - University of Missouri
+  - Shanghai University of Traditional Chinese Medicine et al.
 tcdiff:
   summary_en: Triplet cascaded diffusion model generating high-fidelity multimodal TCM EHRs, with the **TCM-SZ1** benchmark
     dataset.
@@ -855,7 +916,11 @@ sdt-thinking-llm:
 gen-syndi:
   summary_en: Knowledge-guided generative-AI framework for dual education of syndrome differentiation and disease diagnosis.
 hengqin-ra:
-  summary_en: LLM and companion dataset for TCM diagnosis and treatment of rheumatoid arthritis.
+  summary_en: LLM and companion dataset for TCM diagnosis and treatment of rheumatoid arthritis. arXiv/DOI page lists Chinese
+    Medicine Guangdong Laboratory and Southern University of Science and Technology.
+  orgs_en:
+  - Chinese Medicine Guangdong Laboratory
+  - Southern University of Science and Technology
 tcm-std-rag-qa:
   summary_en: Retrieval-augmented QA system for TCM standards knowledge, built and evaluated in practice.
   orgs_en:
@@ -865,9 +930,17 @@ dual-channel-ka-sdt:
 gpt-tcm-tw-exam:
   summary_en: GPT-3.5/GPT-4/GPT-4o performance on the Taiwan TCM licensing examination with reliability analysis (preprint).
 tcm-gpt:
-  summary_en: Efficient pre-training of LLMs for domain adaptation in Traditional Chinese Medicine.
+  summary_en: Efficient pre-training of LLMs for domain adaptation in Traditional Chinese Medicine. Journal metadata lists
+    BUPT and UCL.
+  orgs_en:
+  - Beijing University of Posts and Telecommunications
+  - University College London
 cpmi-chatglm:
-  summary_en: Parameter-efficient fine-tuning of ChatGLM with Chinese patent medicine instructions.
+  summary_en: Parameter-efficient fine-tuning of ChatGLM with Chinese patent medicine instructions. Authors at Anhui University
+    of Chinese Medicine and CACMS Anhui Computer Application Research Institute.
+  orgs_en:
+  - Anhui University of Chinese Medicine
+  - Anhui Computer Application Research Institute of Chinese Medicine, CACMS
 tcm-ftp:
   summary_en: Fine-tuning LLMs for herbal prescription prediction.
 acu-point-re:
@@ -1105,7 +1178,12 @@ surv-yao2026-ai-hospitals:
 zhongjing-cmtmedqa:
   summary_en: "ZhongJing (CMtMedQA line, Yang et al.): a TCM LLM distinct from the Kang-line ZhongJingGPT—full CPT+SFT+RLHF pipeline on Ziya-LLaMA-13B over ~70K real multi-turn doctor-patient dialogues (AAAI 2024)."
 race-align:
-  summary_en: "RACE-Align: retrieval-augmented, CoT-style DPO alignment of a compact Qwen3-1.7B for TCM reasoning."
+  summary_en: "RACE-Align: retrieval-augmented, CoT-style DPO alignment of a compact Qwen3-1.7B for TCM reasoning. arXiv PDF
+    authors at ShanghaiTech, Henan University, and Liaoning University of TCM."
+  orgs_en:
+  - ShanghaiTech University
+  - Henan University
+  - Liaoning University of Traditional Chinese Medicine
 tree-organized-qa:
   name_en: "Tree-organized self-reflective retrieval for TCM QA"
   summary_en: "Tree-organized self-reflective retrieval for TCM question answering (Frontiers in Medicine 2026)."
