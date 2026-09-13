@@ -524,7 +524,11 @@
       "name": "GastroTCM",
       "year": 2026,
       "venue": "Chinese Medicine",
-      "summary_zh": "中医消化内科大模型，基于Llama3-8B微调并结合RAG与智能体框架",
+      "summary_zh": "中医消化内科大模型，基于Llama3-8B微调并结合RAG与智能体框架。Chinese Medicine 论文署名清华大学 TCM-X 与中日友好医院等",
+      "orgs": [
+        "清华大学",
+        "中日友好医院等"
+      ],
       "tags": [
         "model",
         "agent"
@@ -534,7 +538,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "mmir-tcm",
@@ -558,7 +562,11 @@
       "name": "Qwen-TCM-Dia",
       "year": 2026,
       "venue": "Digital Chinese Medicine",
-      "summary_zh": "面向中医泄泻的专科微调模型（续训+CoT指令微调），覆盖症状→病机→治法→方药推理链",
+      "summary_zh": "面向中医泄泻的专科微调模型（续训+CoT指令微调），覆盖症状→病机→治法→方药推理链。Digital Chinese Medicine 署名首都医科大学附属北京中医医院与北京中医药大学等",
+      "orgs": [
+        "首都医科大学附属北京中医医院",
+        "北京中医药大学等"
+      ],
       "tags": [
         "model"
       ],
@@ -567,7 +575,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "tcm-agent",
@@ -615,7 +623,11 @@
       "name": "TongueVLM",
       "year": 2026,
       "venue": "JMIR Medical Informatics",
-      "summary_zh": "中医舌诊多模态大模型，支持舌象描述生成与体质推理",
+      "summary_zh": "中医舌诊多模态大模型，支持舌象描述生成与体质推理。JMIR 页被拦截，OpenAlex 记录作者单位为合肥工业大学与安徽中医药大学等",
+      "orgs": [
+        "合肥工业大学",
+        "安徽中医药大学等"
+      ],
       "tags": [
         "multimodal",
         "model"
@@ -627,13 +639,16 @@
       "align_note": "主链 DOI，JMIR 备选",
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "xinghe",
       "name": "杏核 (Xinghe)",
       "year": 2026,
-      "summary_zh": "基于Qwen3.5-9B、扎根《黄帝内经》的推理型中医模型，显式思维链辨证并强调安全边界",
+      "summary_zh": "Xinghe-TCM 基于 Qwen3.5-9B 的内经推理模型；QLoRA 后合并权重，约 2009 条内经指令，显式思维链辨证并强调不开方。HF 页无独立论文、无高校署名",
+      "orgs": [
+        "Xinghe-TCM"
+      ],
       "tags": [
         "model",
         "open-weights",
@@ -643,11 +658,12 @@
       "links": {
         "模型": "https://huggingface.co/zsyjsld/Xinghe1.2-9B",
         "GGUF": "https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF",
-        "数据集": "https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2"
+        "数据集": "https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2",
+        "ModelScope": "https://modelscope.cn/models/zsyjsld/Xinghe1.2-9B"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "linglan",
@@ -774,7 +790,11 @@
       "name": "DongYuan",
       "year": 2026,
       "venue": "arXiv",
-      "summary_zh": "中西医结合脾胃病诊断LLM框架，融合中医辨证与西医诊断推理",
+      "summary_zh": "中西医结合脾胃病诊断LLM框架，融合中医辨证与西医诊断推理。arXiv PDF 署名河北省中医院、中科院自动化所、中科闻歌与天津大学",
+      "orgs": [
+        "河北省中医院",
+        "中国科学院自动化研究所等"
+      ],
       "tags": [
         "model"
       ],
@@ -783,7 +803,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "macat",
@@ -1091,7 +1111,11 @@
       "name": "BenCao（指令微调本草助手）",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "基于ChatGPT自然语言指令对齐的中医多模态助手，对接舌象API与知识库，部署于GPTs Store（区别于华驼/本草）",
+      "summary_zh": "基于ChatGPT自然语言指令对齐的中医多模态助手，对接舌象API与知识库，部署于GPTs Store（区别于华驼/本草）。arXiv HTML 署名密苏里大学与上海中医药大学等",
+      "orgs": [
+        "密苏里大学",
+        "上海中医药大学等"
+      ],
       "tags": [
         "model",
         "multimodal"
@@ -1101,25 +1125,26 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "chattcm",
       "name": "ChatTCM",
       "year": 2025,
-      "summary_zh": "从预训练数据到模型权重完全开源的中医大模型",
+      "summary_zh": "HF 用户 SylvanL 开源的中医 LLM：Qwen2-7B 继续预训练后再全参 SFT，预训练/SFT 数据与权重均可下。页上仅留 sl18n19@soton.ac.uk，未见机构或论文",
       "tags": [
         "model",
         "open-weights"
       ],
       "links": {
-        "模型": "https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain",
+        "预训练模型": "https://huggingface.co/SylvanL/ChatTCM-7B-Pretrain",
+        "SFT模型": "https://huggingface.co/SylvanL/ChatTCM-7B-SFT",
         "预训练数据": "https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain",
         "SFT数据": "https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-SFT"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "diagx-dt",
@@ -1143,7 +1168,11 @@
       "name": "DoPI",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "类医生主动问诊中医大模型，引导模型+专家模型协同架构，问诊准确率84.68%",
+      "summary_zh": "类医生主动问诊中医大模型，引导模型+专家模型协同架构，问诊准确率84.68%。arXiv HTML 署名天津大学、香港中文大学与中国电科",
+      "orgs": [
+        "天津大学",
+        "香港中文大学等"
+      ],
       "tags": [
         "model",
         "agent"
@@ -1153,7 +1182,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "mcm",
@@ -1330,17 +1359,22 @@
       "name": "TCM-KLLaMA",
       "year": 2025,
       "venue": "Computers in Biology and Medicine",
-      "summary_zh": "知识图谱与大模型融合的中医方剂智能生成模型",
+      "summary_zh": "知识图谱与大模型融合的中医方剂智能生成模型。PubMed 40056842 署名浙江工商大学与西湖大学医学院附属杭州市第一人民医院",
+      "orgs": [
+        "浙江工商大学",
+        "西湖大学医学院附属杭州市第一人民医院"
+      ],
       "tags": [
         "model",
         "kg"
       ],
       "links": {
-        "DOI": "https://doi.org/10.1016/j.compbiomed.2025.109887"
+        "DOI": "https://doi.org/10.1016/j.compbiomed.2025.109887",
+        "PubMed": "https://pubmed.ncbi.nlm.nih.gov/40056842"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "tcm-ladder",
@@ -1513,7 +1547,10 @@
       "name": "天惠 (TianHui)",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "面向12类中医场景的领域LLM（DeepSeek-R1-Distill-Qwen-14B+PT/SFT），开源代码与评测脚本",
+      "summary_zh": "面向12类中医场景的领域LLM（DeepSeek-R1-Distill-Qwen-14B+PT/SFT），开源代码与评测脚本。arXiv PDF 署名成都中医药大学智能医学院",
+      "orgs": [
+        "成都中医药大学"
+      ],
       "tags": [
         "model"
       ],
@@ -1523,7 +1560,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "qibo",
@@ -1617,7 +1654,11 @@
       "name": "知方丹台 (ZhiFangDanTai)",
       "year": 2025,
       "venue": "IEEE Journal of Biomedical and Health Informatics",
-      "summary_zh": "GraphRAG+LLM微调的中医方剂生成框架，输出君臣佐使/功效/禁忌等可解释信息并开源权重",
+      "summary_zh": "GraphRAG+LLM微调的中医方剂生成框架，输出君臣佐使/功效/禁忌等可解释信息并开源权重。arXiv HTML 署名首都师范大学管理学院与昆士兰大学",
+      "orgs": [
+        "首都师范大学",
+        "昆士兰大学"
+      ],
       "tags": [
         "model",
         "rag",
@@ -1627,11 +1668,12 @@
       "links": {
         "论文": "https://arxiv.org/abs/2509.05867",
         "DOI": "https://doi.org/10.1109/jbhi.2025.3607819",
-        "模型": "https://huggingface.co/tczzx6/ZhiFangDanTai1.0"
+        "模型": "https://huggingface.co/tczzx6/ZhiFangDanTai1.0",
+        "数据集": "https://huggingface.co/datasets/tczzx6/ZhiFangDanTai1.0"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "shennong-alpha",
@@ -2078,7 +2120,11 @@
       "name": "Ladder-base (GRPO-TCM)",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "TCM-Ladder团队提出的首个GRPO强化学习对齐中医LLM",
+      "summary_zh": "TCM-Ladder团队提出的首个GRPO强化学习对齐中医LLM。arXiv PDF 署名密苏里大学与上海中医药大学等",
+      "orgs": [
+        "密苏里大学",
+        "上海中医药大学等"
+      ],
       "tags": [
         "model"
       ],
@@ -2087,7 +2133,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "tcdiff",
@@ -2221,7 +2267,11 @@
       "name": "Hengqin-RA-v1",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "类风湿关节炎中医诊疗大模型及配套数据集",
+      "summary_zh": "类风湿关节炎中医诊疗大模型及配套数据集。arXiv/DOI 页署名中医广东省实验室与南方科技大学",
+      "orgs": [
+        "中医广东省实验室",
+        "南方科技大学"
+      ],
       "tags": [
         "model"
       ],
@@ -2230,7 +2280,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "tcm-std-rag-qa",
@@ -2455,7 +2505,11 @@
       "name": "TCM-GPT",
       "year": 2024,
       "venue": "Computer Methods and Programs in Biomedicine Update",
-      "summary_zh": "面向中医领域自适应的高效预训练大模型",
+      "orgs": [
+        "北京邮电大学",
+        "伦敦大学学院"
+      ],
+      "summary_zh": "面向中医领域自适应的高效预训练大模型。期刊元数据署名北京邮电大学与伦敦大学学院",
       "tags": [
         "model"
       ],
@@ -2465,14 +2519,18 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "cpmi-chatglm",
       "name": "CPMI-ChatGLM",
       "year": 2024,
       "venue": "Scientific Reports",
-      "summary_zh": "中成药指令数据的 ChatGLM 参数高效微调模型",
+      "orgs": [
+        "安徽中医药大学",
+        "中国中医科学院安徽中医药计算机应用研究所"
+      ],
+      "summary_zh": "中成药指令数据的 ChatGLM 参数高效微调模型。OpenAlex/期刊单位为安徽中医药大学与中国中医科学院安徽中医药计算机应用研究所",
       "tags": [
         "model"
       ],
@@ -2481,7 +2539,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "tcm-ftp",
@@ -2530,6 +2588,12 @@
       "name": "LLM 中医语言文化偏差研究",
       "year": 2024,
       "venue": "Journal of Translational Medicine",
+      "orgs": [
+        "Zhujiang Hospital",
+        "Southern Medical University",
+        "Shanghai Jiao Tong University",
+        "Shanghai First People's Hospital"
+      ],
       "summary_zh": "比较不同国家大模型的中医表现，论证本土化模型的必要性",
       "tags": [
         "evaluation"
@@ -2565,6 +2629,10 @@
       "name": "中医领域知识图谱补全",
       "year": 2024,
       "venue": "JMIR Medical Informatics",
+      "orgs": [
+        "Zhejiang Chinese Medical University",
+        "Guangdong Provincial Hospital of Traditional Chinese Medicine"
+      ],
       "summary_zh": "中医领域知识图谱补全与质量评估研究",
       "tags": [
         "kg"
@@ -2600,6 +2668,10 @@
       "name": "Evi-BERT",
       "year": 2024,
       "venue": "Frontiers in Artificial Intelligence",
+      "orgs": [
+        "北京航空航天大学",
+        "北京中医药大学"
+      ],
       "summary_zh": "中医RCT证据自动抽取的信息抽取模型开发与验证",
       "tags": [
         "plm",
@@ -2657,6 +2729,9 @@
       "name": "TCM MLKG-RAG",
       "year": 2024,
       "venue": "EIECC",
+      "orgs": [
+        "University of Science and Technology of China"
+      ],
       "summary_zh": "多层知识图谱检索增强生成的中医智能诊断",
       "tags": [
         "rag",
@@ -2779,6 +2854,10 @@
       "name": "BSG 中医智能问答",
       "year": 2024,
       "venue": "Digital Chinese Medicine",
+      "orgs": [
+        "Hunan University of Traditional Chinese Medicine",
+        "Central South University"
+      ],
       "summary_zh": "基于 BSG 深度学习模型的中医智能问答系统（方剂与中药实例）",
       "tags": [],
       "links": {
@@ -2909,17 +2988,21 @@
       "id": "chatmed",
       "name": "ChatMed",
       "year": 2023,
-      "summary_zh": "ChatMed 系列中文医疗大模型，含基于 50 万+ 在线问诊数据训练的 ChatMed-Consult",
+      "summary_zh": "ChatMed 系列中文医疗大模型，含基于 50 万+ 在线问诊数据训练的 ChatMed-Consult。GitHub README 引用 Wei Zhu / Xiaoling Wang，无独立期刊论文",
+      "orgs": [
+        "华东师范大学"
+      ],
       "tags": [
         "model",
         "general-medical"
       ],
       "links": {
-        "代码": "https://github.com/michael-wzhu/ChatMed"
+        "代码": "https://github.com/michael-wzhu/ChatMed",
+        "模型": "https://huggingface.co/michaelwzhu/ChatMed-Consult"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "xrayglm",
@@ -3303,7 +3386,11 @@
       "name": "麒麟-Med (Qilin-Med)",
       "year": 2023,
       "venue": "arXiv",
-      "summary_zh": "多阶段知识注入的中文医疗LLM（CPT+SFT+DPO，底座Baichuan-7B），发布约3GB ChiMed语料，可再加RAG",
+      "summary_zh": "多阶段知识注入的中文医疗LLM（CPT+SFT+DPO，底座Baichuan-7B），发布约3GB ChiMed语料，可再加RAG。arXiv PDF 署名北京大学、港科大（广州）等",
+      "orgs": [
+        "北京大学",
+        "香港科技大学（广州）等"
+      ],
       "tags": [
         "model",
         "general-medical"
@@ -3368,7 +3455,11 @@
       "name": "DoctorGLM",
       "year": 2023,
       "venue": "arXiv",
-      "summary_zh": "基于ChatGLM-6B的早期开源中文问诊模型，用多科室医患数据做LoRA/P-Tuning，常出现在2023年中文医疗对照表",
+      "summary_zh": "基于ChatGLM-6B的早期开源中文问诊模型，用多科室医患数据做LoRA/P-Tuning，常出现在2023年中文医疗对照表。arXiv HTML 署名上海科技大学、联影智能、复旦大学华山医院等",
+      "orgs": [
+        "上海科技大学",
+        "联影智能等"
+      ],
       "tags": [
         "model",
         "general-medical"
@@ -3425,7 +3516,10 @@
       "id": "caregpt",
       "name": "CareGPT",
       "year": 2023,
-      "summary_zh": "开源中文医疗LLM全流程训练框架（预训练到DPO）与配套权重，常被复现中文医疗微调",
+      "summary_zh": "开源中文医疗LLM全流程训练框架（预训练到DPO）与配套权重，常被复现中文医疗微调。README 写明由澳门理工大学应用科学学院完成",
+      "orgs": [
+        "澳门理工大学"
+      ],
       "tags": [
         "model",
         "general-medical",
@@ -3464,7 +3558,10 @@
       "name": "IvyGPT",
       "year": 2023,
       "venue": "arXiv",
-      "summary_zh": "基于 LLaMA 的中文医疗问答模型，用高质量医患 QA 与 RLHF 微调，CMB 论文对照列表中的开源基线",
+      "summary_zh": "基于 LLaMA 的中文医疗问答模型，用高质量医患 QA 与 RLHF 微调，CMB 论文对照列表中的开源基线。arXiv PDF 署名澳门理工大学",
+      "orgs": [
+        "澳门理工大学"
+      ],
       "tags": [
         "model",
         "general-medical"
@@ -3609,9 +3706,10 @@
       "id": "kampo-llm",
       "name": "KAMPO LLM",
       "year": 2026,
-      "summary_zh": "日本VARYTEX与日本东洋医学会合作的闭源汉方医学API，用漢方専門医研修471题评测；无公开权重",
+      "summary_zh": "官网仍开：VARYTEX 与日本东洋医学会合作的闭源汉方 API；页面写明 471 题评测 Pro 97.4%、Flash 92.1%，无公开权重",
       "orgs": [
-        "VARYTEX"
+        "VARYTEX",
+        "日本东洋医学会"
       ],
       "tags": [
         "model",
@@ -3630,7 +3728,11 @@
       "name": "KM-Agent",
       "year": 2026,
       "venue": "Applied Sciences",
-      "summary_zh": "韩医/东亚传统医学工具增强Agent，检索4780条药材–证候–穴位元数据，并在TCMBench等上评测",
+      "summary_zh": "韩医/东亚传统医学工具增强Agent，检索4780条药材–证候–穴位元数据，并在TCMBench等上评测。MDPI/OpenAlex 署名圆光大学、釜山大学、东国大学等",
+      "orgs": [
+        "圆光大学",
+        "釜山大学等"
+      ],
       "tags": [
         "agent",
         "east-asian-tm"
@@ -3722,6 +3824,9 @@
       "name": "ChatGPT 针灸教育研究",
       "year": 2023,
       "venue": "JMIR Medical Education",
+      "orgs": [
+        "Seoul National University Hospital"
+      ],
       "summary_zh": "ChatGPT 作为针灸学习工具的对照研究",
       "tags": [
         "evaluation"
@@ -3755,6 +3860,12 @@
       "name": "中医方剂 LLM 分类",
       "year": 2023,
       "venue": "IEEE BIBM",
+      "orgs": [
+        "Leipzig University",
+        "Changchun University of Chinese Medicine",
+        "Liaoning Technical University",
+        "Sichuan Academy of Traditional Chinese Medicine"
+      ],
       "summary_zh": "微调大语言模型并结合提示模板进行中医方剂分类，数据源自中成药国家医保目录等（IEEE BIBM 2023）",
       "tags": [
         "prescription"
@@ -3790,6 +3901,11 @@
       "name": "草药智能配送聊天机器人",
       "year": 2023,
       "venue": "IJACSA",
+      "orgs": [
+        "University of the Cordilleras",
+        "Naresuan University Hospital",
+        "Catanduanes State University"
+      ],
       "summary_zh": "AI 聊天机器人驱动的智能草药配送系统",
       "tags": [
         "tool"
@@ -3841,6 +3957,10 @@
       "name": "乙肝中医 KG 问答系统",
       "year": 2022,
       "venue": "BioMed Research International",
+      "orgs": [
+        "中国中医科学院",
+        "First Affiliated Hospital of Henan University"
+      ],
       "summary_zh": "基于知识图谱的中医诊治病毒性乙型肝炎问答系统",
       "tags": [
         "kg"
@@ -3857,6 +3977,10 @@
       "name": "TCMKG",
       "year": 2020,
       "venue": "IEEE ICKG",
+      "orgs": [
+        "University of Electronic Science and Technology of China",
+        "成都中医药大学"
+      ],
       "summary_zh": "基于深度学习的中医知识图谱平台",
       "tags": [
         "kg"
@@ -3873,6 +3997,10 @@
       "name": "中医养生知识图谱 (Yu et al. 2017)",
       "year": 2017,
       "venue": "Artificial Intelligence in Medicine",
+      "orgs": [
+        "北京中医药大学",
+        "中国中医科学院"
+      ],
       "summary_zh": "整合术语、文献与数据库的大规模中医养生知识图谱，支持检索、可视化与推荐",
       "tags": [
         "kg",
@@ -3890,6 +4018,10 @@
       "name": "语义中医方剂知识图谱 (Miao et al. 2018)",
       "year": 2018,
       "venue": "IEEE IAEAC",
+      "orgs": [
+        "Communication University of China",
+        "Academy of Broadcasting Science"
+      ],
       "summary_zh": "自顶向下建本体、从方剂文本抽实体关系，构建语义方剂知识图谱",
       "tags": [
         "kg",
@@ -3907,6 +4039,9 @@
       "name": "中医期刊关系抽取 (Wang & Poon 2016)",
       "year": 2016,
       "venue": "IEEE BIBM",
+      "orgs": [
+        "The University of Sydney"
+      ],
       "summary_zh": "从中医期刊全文做关系抽取，为后续知识图谱构建提供方法",
       "tags": [
         "kg",
@@ -3924,6 +4059,10 @@
       "name": "TCMPR 子网术语映射处方推荐",
       "year": 2022,
       "venue": "BioMed Research International",
+      "orgs": [
+        "北京交通大学",
+        "清华大学"
+      ],
       "summary_zh": "草药-症状知识图谱（1.8 万实体 / 10 万关系）+ 子网术语映射，用 CNN 做处方推荐",
       "tags": [
         "kg",
@@ -3941,6 +4080,10 @@
       "name": "中医临床细粒度 NER 语料",
       "year": 2020,
       "venue": "BMC Medical Informatics and Decision Making",
+      "orgs": [
+        "成都中医药大学",
+        "Chengdu University of Information Technology"
+      ],
       "summary_zh": "基于中医临床病历构建细粒度实体识别语料",
       "tags": [
         "corpus"
@@ -3957,6 +4100,12 @@
       "name": "中医症状名识别",
       "year": 2013,
       "venue": "Journal of Biomedical Informatics",
+      "orgs": [
+        "四川大学",
+        "成都中医药大学",
+        "Sichuan Agricultural University",
+        "Beihua University"
+      ],
       "summary_zh": "自由文本中医临床记录中症状名识别的监督方法",
       "tags": [
         "plm",
@@ -3975,6 +4124,12 @@
       "name": "Han et al. 2026: LLM 在中医中的调优与临床应用（Scoping Review）",
       "year": 2026,
       "venue": "Chinese Medicine",
+      "orgs": [
+        "中国医学科学院",
+        "Jining Traditional Chinese Medicine Hospital",
+        "中国中医科学院",
+        "北京中医药大学"
+      ],
       "summary_zh": "PRISMA-ScR scoping review，纳入 27 篇（至 2025-05），聚焦 LoRA/CPT/RAG 调优配方与临床应用统计",
       "tags": [
         "survey"
@@ -3991,6 +4146,12 @@
       "name": "Yao et al. 2026: LLM 与循证中医整合（Scoping Review）",
       "year": 2026,
       "venue": "Integrative Medicine Research",
+      "orgs": [
+        "University of Geneva",
+        "中国医学科学院",
+        "Gansu University of Traditional Chinese Medicine",
+        "Lanzhou University"
+      ],
       "summary_zh": "PRISMA scoping review，纳入 12 篇（2022-11 至 2026-01），覆盖 LLM 循证中医的证据生成、合成与转化",
       "tags": [
         "survey"
@@ -4007,6 +4168,10 @@
       "name": "Xu et al. 2026: 基于 LLM 的中医智能问答系统综述",
       "year": 2026,
       "venue": "Journal of Pharmaceutical Analysis",
+      "orgs": [
+        "天津大学",
+        "Tianjin haihe hospital"
+      ],
       "summary_zh": "中医智能问答系统谱系综述（KG-QA→LLM-QA、RAG）",
       "tags": [
         "survey"
@@ -4042,6 +4207,11 @@
       "name": "Guo et al. 2026: AI 与多模态数据融合推动中医现代化",
       "year": 2026,
       "venue": "Chinese Medicine",
+      "orgs": [
+        "Ningbo College of Health Sciences",
+        "Shenzhen Second People's Hospital",
+        "Hunan University of Traditional Chinese Medicine"
+      ],
       "summary_zh": "AI 全景综述（ML/DL/KG/NLP/LLM），LLM 为一节，附多尺度数据资源与平台编目",
       "tags": [
         "survey"
@@ -4058,6 +4228,12 @@
       "name": "Wu et al. 2026: AI 在中药材中的应用综述",
       "year": 2026,
       "venue": "Artificial Intelligence Review",
+      "orgs": [
+        "Northeastern University",
+        "First Hospital of China Medical University",
+        "China Medical University",
+        "Liaoning University"
+      ],
       "summary_zh": "中药学×AI 全栈 survey（成分、靶点、质控，含 LLM 一节）",
       "tags": [
         "survey"
@@ -4175,6 +4351,9 @@
       "name": "Zhang et al. 2025: 中医 LLM 短综述与展望",
       "year": 2025,
       "venue": "AI Medicine",
+      "orgs": [
+        "Northeastern University"
+      ],
       "summary_zh": "短 survey+展望，TCM LLM 模型与任务速览",
       "tags": [
         "survey"
@@ -4191,6 +4370,10 @@
       "name": "Meng et al. 2025: 大模型+虚拟细胞助力中医变革",
       "year": 2025,
       "venue": "Pharmacological Research",
+      "orgs": [
+        "Northeastern University",
+        "Shenyang Medical College"
+      ],
       "summary_zh": "综述：大模型与虚拟细胞用于中风方药现代分析",
       "tags": [
         "survey"
@@ -4227,6 +4410,10 @@
       "name": "Yip et al. 2025: 中西医结合 LLM 进展与挑战",
       "year": 2025,
       "venue": "Journal of Evidence-Based Medicine",
+      "orgs": [
+        "Hong Kong Baptist University",
+        "Guangdong-Hongkong-Macau Joint Laboratory of Collaborative Innovation for Environmental Quality"
+      ],
       "summary_zh": "综述：LLM 在整合医学（中西医结合）中的进展、挑战与机遇",
       "tags": [
         "survey"
@@ -4275,6 +4462,12 @@
       "name": "Song et al. 2024: AI 辅助中医辨证关键问题与技术挑战",
       "year": 2024,
       "venue": "中国工程科学",
+      "orgs": [
+        "Shanghai University of Engineering Science",
+        "Digital China Health (China)",
+        "Zhejiang Lab",
+        "中国医学科学院"
+      ],
       "summary_zh": "战略研究综述：多模态数据融合、症状关联、证候量化与推理及中医药大模型关键问题",
       "tags": [
         "survey"
@@ -4291,6 +4484,10 @@
       "name": "Qu et al. 2024: 中医知识图谱综述",
       "year": 2024,
       "venue": "Computer Materials & Continua",
+      "orgs": [
+        "中国医学科学院",
+        "Beijing Forestry University"
+      ],
       "summary_zh": "中医知识图谱的分析、构建、应用与展望",
       "tags": [
         "survey"
@@ -4307,6 +4504,11 @@
       "name": "Tian et al. 2024: 四诊机器学习综述",
       "year": 2024,
       "venue": "Computers in Biology and Medicine",
+      "orgs": [
+        "Northeastern University",
+        "Ningbo University",
+        "辽宁中医药大学"
+      ],
       "summary_zh": "望闻问切四诊的 ML 传感与模型综述",
       "tags": [
         "survey"
@@ -4323,6 +4525,9 @@
       "name": "Zhang et al. 2021: 计算中医诊断文献综述",
       "year": 2021,
       "venue": "Computers in Biology and Medicine",
+      "orgs": [
+        "澳门大学"
+      ],
       "summary_zh": "计算化中医诊断的文献综述（症状采集、辨证建模与系统）",
       "tags": [
         "survey"
@@ -4339,6 +4544,12 @@
       "name": "Chu et al. 2020: 中医定量知识表示模型综述",
       "year": 2020,
       "venue": "Artificial Intelligence in Medicine",
+      "orgs": [
+        "Xidian University",
+        "Xi'an Polytechnic University",
+        "Guangdong Polytechnic Normal University",
+        "CM Hospital"
+      ],
       "summary_zh": "中医知识定量表示模型（本体、规则、统计）综述",
       "tags": [
         "survey"
@@ -4374,6 +4585,9 @@
       "name": "Gu & Chen 2013: 生物信息学遇见中医",
       "year": 2013,
       "venue": "Briefings in Bioinformatics",
+      "orgs": [
+        "浙江大学"
+      ],
       "summary_zh": "生物信息学×中医（组学、文本挖掘）历史综述",
       "tags": [
         "survey"
@@ -4390,6 +4604,11 @@
       "name": "Lukman et al. 2007: 中医计算方法综述",
       "year": 2007,
       "venue": "Computer Methods and Programs in Biomedicine",
+      "orgs": [
+        "University of Cambridge",
+        "University of Reading",
+        "南洋理工大学"
+      ],
       "summary_zh": "计算方法（专家系统、ML、数据挖掘）全景，中医计算研究的方法学鼻祖",
       "tags": [
         "survey"
@@ -4407,6 +4626,12 @@
       "type": "dataset",
       "year": 2025,
       "venue": "Pharmacological Research",
+      "orgs": [
+        "中国医学科学院",
+        "中国中医科学院",
+        "北京大学",
+        "Zhejiang Chinese Medical University"
+      ],
       "section": "公开资料整理",
       "title_zh": "中成药公开数据集（RAG-CPMF）",
       "summary_zh": "RAG-CPMF配套的持续更新大规模中成药公开数据",
@@ -4576,6 +4801,12 @@
       "type": "dataset",
       "year": 2026,
       "venue": "Sci Data",
+      "orgs": [
+        "北京中医药大学",
+        "中国医学科学院",
+        "北京协和医学院",
+        "Changchun University of Chinese Medicine"
+      ],
       "section": "评测基准",
       "title_zh": "中药处方审核评测基准",
       "summary_zh": "328道处方规范性与合理性选择题，面向中药处方安全审核评测",
@@ -4729,6 +4960,9 @@
       "type": "dataset",
       "year": 2025,
       "venue": "arXiv",
+      "orgs": [
+        "Beijing Technology and Business University"
+      ],
       "section": "评测基准",
       "title_zh": "标准化舌象病理标注数据集",
       "summary_zh": "6719张标准化舌象、20类病理多标签公开数据集，含检测基线",
@@ -4799,7 +5033,13 @@
       "year": 2025,
       "status": "published",
       "verified_at": "2026-07-19",
-      "venue": "Scientific Data"
+      "venue": "Scientific Data",
+      "orgs": [
+        "中国医学科学院",
+        "北京协和医学院",
+        "Leipzig University",
+        "中国中医科学院"
+      ]
     },
     {
       "id": "ds-zhongjing-omni",
@@ -5195,6 +5435,9 @@
       "type": "dataset",
       "year": 2018,
       "venue": "TKDE",
+      "orgs": [
+        "浙江大学"
+      ],
       "section": "临床结构化 / 处方",
       "title_zh": "TCM-PD / PTM 方剂–症状推荐集",
       "summary_zh": "Yao 等 TKDE 2018 处方主题模型配套数据：原始 98334 首、预处理 33765 首（症状–中药 ID）；CKCEST 版权、仅研究使用。PresRecST 的 prescript_1195.csv 即此集复现表",
@@ -5538,6 +5781,7 @@
       "id": "ds-tcm-robustsdt",
       "name": "TCM-RobustSDT",
       "year": 2026,
+      "venue": "Figshare",
       "date": "2026.07",
       "summary_zh": "中医临床推理LLM鲁棒性基准数据集（Figshare）",
       "section": "评测基准",
@@ -5568,7 +5812,13 @@
       "type": "resource",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Communications in Computer and Information Science (Springer)"
+      "venue": "Communications in Computer and Information Science (Springer)",
+      "orgs": [
+        "齐鲁工业大学",
+        "Shandong University",
+        "Shandong Academy of Sciences",
+        "山东中医药大学"
+      ]
     },
     {
       "id": "deeptcm",
@@ -5609,7 +5859,12 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "International Journal of Pattern Recognition and Artificial Intelligence"
+      "venue": "International Journal of Pattern Recognition and Artificial Intelligence",
+      "orgs": [
+        "Guangdong Provincial Hospital of Traditional Chinese Medicine",
+        "Guangdong University Of Finances and Economics",
+        "Guangdong University of Finance"
+      ]
     },
     {
       "id": "gat-llm-tcm-prescription",
@@ -5652,6 +5907,7 @@
       "id": "ds-hsq-td",
       "name": "HSQ-TD（健身气功指令微调数据集）",
       "year": 2026,
+      "venue": "ScienceDB",
       "date": "2026.05",
       "summary_zh": "健身气功养生领域首个指令微调数据集，57,843条指令基于官方教材与专业文献蒸馏（ScienceDB）",
       "section": "指令/对话数据集",
@@ -5672,6 +5928,12 @@
       "type": "dataset",
       "year": 2014,
       "venue": "J Cheminform",
+      "orgs": [
+        "North West Agriculture and Forestry University",
+        "Northwest A&F University",
+        "Dalian University of Technology",
+        "Dalian University"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCMSP 中药系统药理学数据库",
       "summary_zh": "草药–成分–靶点–疾病网络与ADME参数平台，现行公开站为TCMSP 2.3，提供草药/分子/靶点关系表下载",
@@ -5691,6 +5953,9 @@
       "type": "dataset",
       "year": 2018,
       "venue": "Nucleic Acids Research",
+      "orgs": [
+        "华东师范大学"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCMID 2.0 中医药整合数据库",
       "summary_zh": "上海团队的方剂–草药–成分–靶点整合库（与NUS的TCM-ID不是同一库）；官网megabionet已不可达，公开核验走Zenodo摘录与NAR论文",
@@ -5730,6 +5995,12 @@
       "type": "dataset",
       "year": 2023,
       "venue": "Acta Pharmaceutica Sinica B",
+      "orgs": [
+        "中国医学科学院",
+        "中国科学院",
+        "Shanghai Institute of Materia Medica",
+        "Guiyang Medical University"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "ETCM 2.0 中医药百科全书",
       "summary_zh": "收录古代方剂、中成药、药材与成分，并提供成分靶点与多尺度网络；v1站点仍在，现行入口为ETCM2",
@@ -5822,6 +6093,11 @@
       "type": "dataset",
       "year": 2011,
       "venue": "PLoS ONE",
+      "orgs": [
+        "Asia University",
+        "China Medical University",
+        "Massachusetts Institute of Technology"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCM Database@Taiwan 中药三维结构库",
       "summary_zh": "453味药材中约2万个分离化合物的2D/3D结构库，面向虚拟筛选；原站tcm.cmu.edu.tw已不可达，核验走PLOS论文页",
@@ -5869,6 +6145,10 @@
       "type": "dataset",
       "year": 2022,
       "venue": "Pharmacological Research",
+      "orgs": [
+        "Cloud Computing Center",
+        "Tasly Holding Group (China)"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "LTM-TCM 中西医分子表型链接库",
       "summary_zh": "整合十四个权威库与临床/古籍记录的症状–方剂–植物–成分–靶点平台（约4.8万方）；官网cloud.tasly.com域名已无法解析，核验走论文DOI",
@@ -5889,6 +6169,12 @@
       "type": "dataset",
       "year": 2020,
       "venue": "Front. Pharmacol.",
+      "orgs": [
+        "Guangdong Academy of Sciences",
+        "Institute of Microbiology",
+        "广州中医药大学",
+        "Traditional Chinese Medicine Bureau of Guangdong Province"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCMIO 中医药免疫肿瘤学数据库",
       "summary_zh": "面向免疫肿瘤的中药/方剂–成分–靶点–通路库，提供浏览、下载与REST API",
@@ -5956,6 +6242,10 @@
       "type": "dataset",
       "year": 2023,
       "venue": "Sig Transduct Target Ther",
+      "orgs": [
+        "中山大学",
+        "澳门科技大学"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCMBank 中药–成分–靶点–疾病库",
       "summary_zh": "可下载的大规模中药–成分–靶点–疾病关系库，含文献自动抽取后人工核对的持续更新模块",
@@ -6042,6 +6332,12 @@
       "type": "dataset",
       "year": 2021,
       "venue": "Biomedicine &amp; Pharmacotherapy",
+      "orgs": [
+        "Development Research Center of the State Council",
+        "China Scholarship Council",
+        "King's College London",
+        "四川大学"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "SuperTCM 中药生物文化数据库",
       "summary_zh": "Charité团队整合药典与多源数据的中药–物种–成分–靶点–通路–疾病库（约6516味药）；官网tcm.charite.de已无法解析",
@@ -6088,6 +6384,9 @@
       "type": "dataset",
       "year": 2017,
       "venue": "Sci Rep",
+      "orgs": [
+        "华中科技大学"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCM-Mesh 中药网络药理学分析库",
       "summary_zh": "草药–化合物–基因–疾病网络与毒副作用记录（约6235味药）；官网当前403，核验走开放论文",
@@ -6109,6 +6408,10 @@
       "type": "dataset",
       "year": 2008,
       "venue": "BMC Complement Altern Med",
+      "orgs": [
+        "National Taiwan University",
+        "National Yang Ming Chiao Tung University"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TCMGeneDIT 中药–基因–疾病文本挖掘库",
       "summary_zh": "从文献挖掘中药、基因、疾病、功效与成分关联，并接入通路与PPI；官网tcm.lifescience.ntu.edu.tw已无法解析",
@@ -6130,6 +6433,11 @@
       "type": "dataset",
       "year": 2013,
       "venue": "J Cheminform",
+      "orgs": [
+        "北京大学",
+        "Beijing National Laboratory for Molecular Sciences",
+        "State Key Laboratory of Rare Earth Materials Chemistry and Application"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "CVDHD 心血管病本草数据库",
       "summary_zh": "面向心血管病的本草化合物三维结构、靶点与通路库，用于虚拟筛选与网络药理；原北大站点当前超时",
@@ -6150,6 +6458,11 @@
       "type": "dataset",
       "year": 2015,
       "venue": "BMC Complement Altern Med",
+      "orgs": [
+        "Korea Institute of Oriental Medicine",
+        "Seoul National University",
+        "Korea Research Institute of Bioscience and Biotechnology"
+      ],
       "section": "中药组方 / 提取物",
       "title_zh": "TM-MC 东北亚传统药物成分库",
       "summary_zh": "韩国韩医学研究院从文献抽取的东北亚药材–化合物库；2015初版约536种药材，2024的2.0扩到约3.4万化合物；官网当前超时",
@@ -6295,6 +6608,9 @@
       "type": "dataset",
       "year": 2017,
       "venue": "Applied Sciences",
+      "orgs": [
+        "National University of Defense Technology"
+      ],
       "section": "通用中文医疗",
       "title_zh": "cMedQA v1 中文社区医疗问答",
       "summary_zh": "从中文健康社区抓取的问答匹配集（仓库表：约 5.4 万问 / 10.2 万答，非商用研究）；论文 DOI 与 README 对得上，后续版本见 cMedQA2",
@@ -6417,6 +6733,10 @@
       "type": "dataset",
       "year": 2019,
       "venue": "BMC Med Inform Decis Mak",
+      "orgs": [
+        "中国科学院",
+        "Institute of Acoustics"
+      ],
       "section": "通用中文医疗",
       "title_zh": "webMedQA 在线医疗咨询问答",
       "summary_zh": "从健康咨询网站收集的中文非事实型医问（约6.3万问，1正4负答案），早期中文医疗QA常用源",
@@ -6437,6 +6757,12 @@
       "type": "dataset",
       "year": 2012,
       "venue": "Plant and Cell Physiology",
+      "orgs": [
+        "IPB University",
+        "Nara Institute of Science and Technology",
+        "Tokushima Bunri University",
+        "Chiba University"
+      ],
       "section": "东亚传统医学",
       "title_zh": "KNApSAcK KAMPO 汉方处方与生药库",
       "summary_zh": "奈良先端大整理的汉方公开库（约1581处方、278生药），生命科学数据库档案可下载",
@@ -6522,7 +6848,11 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Journal of Traditional Chinese Medical Sciences"
+      "venue": "Journal of Traditional Chinese Medical Sciences",
+      "orgs": [
+        "暨南大学",
+        "北京中医药大学"
+      ]
     },
     {
       "id": "ai-tcm-translation-limits",
@@ -6559,7 +6889,11 @@
       "type": "resource",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Future Internet (MDPI)"
+      "venue": "Future Internet (MDPI)",
+      "orgs": [
+        "Chung Shan Medical University Hospital",
+        "Chung Shan Medical University"
+      ]
     },
     {
       "id": "surv-pan2026-agent",
@@ -6611,7 +6945,12 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Communications in Computer and Information Science (Springer)"
+      "venue": "Communications in Computer and Information Science (Springer)",
+      "orgs": [
+        "Chinese Academy of Social Sciences",
+        "Institute of Ethnology and Anthropology",
+        "University of Chinese Academy of Social Sciences"
+      ]
     },
     {
       "id": "surv-he2026-herbal-mech",
@@ -6628,7 +6967,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Research"
+      "venue": "Research",
+      "orgs": [
+        "Zhejiang Chinese Medical University"
+      ]
     },
     {
       "id": "surv-liu2026-dl-jim",
@@ -6644,7 +6986,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Journal of Integrative Medicine"
+      "venue": "Journal of Integrative Medicine",
+      "orgs": [
+        "天津大学"
+      ]
     },
     {
       "id": "surv-hong2025-ml-jpa",
@@ -6660,7 +7005,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Journal of Pharmaceutical Analysis"
+      "venue": "Journal of Pharmaceutical Analysis",
+      "orgs": [
+        "Hangzhou Normal University"
+      ]
     },
     {
       "id": "surv-xiang2025-kg-classics",
@@ -6678,7 +7026,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Chinese Medicine"
+      "venue": "Chinese Medicine",
+      "orgs": [
+        "北京大学"
+      ]
     },
     {
       "id": "surv-chen2026-ai-empowers",
@@ -6694,7 +7045,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Journal of Integrative Medicine"
+      "venue": "Journal of Integrative Medicine",
+      "orgs": [
+        "上海中医药大学"
+      ]
     },
     {
       "id": "surv-chen2026-standardization",
@@ -6731,7 +7085,13 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Current Medical Science"
+      "venue": "Current Medical Science",
+      "orgs": [
+        "Hubei University of Chinese Medicine",
+        "Hubei Provincial Hospital of Traditional Chinese Medicine",
+        "Hospital Conde S. Januário",
+        "Union Hospital"
+      ]
     },
     {
       "id": "surv-wang2026-zhfyx",
@@ -6780,7 +7140,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "Healthcare"
+      "venue": "Healthcare",
+      "orgs": [
+        "Beijing Information Science & Technology University"
+      ]
     },
     {
       "id": "surv-xiao2025-med-llm-zh",
@@ -6829,7 +7192,12 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-03",
-      "venue": "ACL 2026"
+      "venue": "ACL 2026",
+      "orgs": [
+        "Sanford Health",
+        "University of Massachusetts Lowell",
+        "University of Massachusetts Amherst"
+      ]
     },
     {
       "id": "zhongjing-cmtmedqa",
@@ -6858,7 +7226,12 @@
       "name": "RACE-Align",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "检索增强+CoT 式 DPO 的轻量中医对齐模型（Qwen3-1.7B），探索小模型对齐路线",
+      "summary_zh": "检索增强+CoT 式 DPO 的轻量中医对齐模型（Qwen3-1.7B），探索小模型对齐路线。arXiv PDF 署名上海科技大学、河南大学与辽宁中医药大学",
+      "orgs": [
+        "上海科技大学",
+        "河南大学",
+        "辽宁中医药大学"
+      ],
       "tags": [
         "model",
         "rag"
@@ -6868,7 +7241,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-08"
+      "verified_at": "2026-09-13"
     },
     {
       "id": "tree-organized-qa",
@@ -6922,6 +7295,9 @@
       ],
       "type": "resource",
       "venue": "Physica Scripta",
+      "orgs": [
+        "University of Science and Technology of China"
+      ],
       "verified_at": "2026-08-08",
       "year": 1987
     },
@@ -6938,6 +7314,10 @@
       ],
       "type": "resource",
       "venue": "Complementary Therapies in Medicine",
+      "orgs": [
+        "University of Verona",
+        "University of Perugia"
+      ],
       "verified_at": "2026-08-08",
       "year": 1998
     },
@@ -6954,6 +7334,10 @@
       ],
       "type": "resource",
       "venue": "Information Sciences",
+      "orgs": [
+        "Georgia Southern University",
+        "The University of Texas at Austin"
+      ],
       "verified_at": "2026-08-08",
       "year": 2004
     },
@@ -6989,6 +7373,10 @@
       ],
       "type": "resource",
       "venue": "Evid. Based Complement. Alternat. Med.",
+      "orgs": [
+        "Cleveland State University",
+        "北京中医药大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2014
     },
@@ -7005,6 +7393,9 @@
       ],
       "type": "resource",
       "venue": "Scientific Reports",
+      "orgs": [
+        "National Cheng Kung University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2023
     },
@@ -7021,6 +7412,9 @@
       ],
       "type": "resource",
       "venue": "Discover Applied Sciences",
+      "orgs": [
+        "National Cheng Kung University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2025
     },
@@ -7037,6 +7431,9 @@
       ],
       "type": "resource",
       "venue": "Computers and Biomedical Research",
+      "orgs": [
+        "Stanford University"
+      ],
       "verified_at": "2026-08-08",
       "year": 1973
     },
@@ -7069,6 +7466,9 @@
       ],
       "type": "resource",
       "venue": "Fuzzy Sets and Systems",
+      "orgs": [
+        "Beijing Hospital of Traditional Chinese Medicine"
+      ],
       "verified_at": "2026-08-08",
       "year": 1985
     },
@@ -7101,6 +7501,9 @@
       ],
       "type": "resource",
       "venue": "IEEE ITME",
+      "orgs": [
+        "Memorial University of Newfoundland"
+      ],
       "verified_at": "2026-08-08",
       "year": 2008
     },
@@ -7117,6 +7520,9 @@
       ],
       "type": "resource",
       "venue": "IEEE CSIE",
+      "orgs": [
+        "Xiamen University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2009
     },
@@ -7133,6 +7539,10 @@
       ],
       "type": "resource",
       "venue": "Interdisciplinary",
+      "orgs": [
+        "Okayama University of Science",
+        "Okayama University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2023
     },
@@ -7150,6 +7560,10 @@
       ],
       "type": "resource",
       "venue": "Artificial Intelligence in Medicine",
+      "orgs": [
+        "浙江大学",
+        "Sichuan Academy of Traditional Chinese Medicine"
+      ],
       "verified_at": "2026-08-08",
       "year": 2004
     },
@@ -7167,6 +7581,9 @@
       ],
       "type": "resource",
       "venue": "Artificial Intelligence in Medicine",
+      "orgs": [
+        "浙江大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2006
     },
@@ -7204,6 +7621,12 @@
       ],
       "type": "resource",
       "venue": "IEEE BMEI",
+      "orgs": [
+        "北京交通大学",
+        "中国医学科学院",
+        "Guang’anmen Hospital",
+        "北京中医药大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2008
     },
@@ -7221,6 +7644,12 @@
       ],
       "type": "resource",
       "venue": "Artificial Intelligence in Medicine",
+      "orgs": [
+        "北京交通大学",
+        "中国中医科学院",
+        "北京中医药大学",
+        "Guang’anmen Hospital"
+      ],
       "verified_at": "2026-08-08",
       "year": 2010
     },
@@ -7238,6 +7667,11 @@
       ],
       "type": "resource",
       "venue": "Journal of Biomedical Informatics",
+      "orgs": [
+        "北京交通大学",
+        "University of Bradford",
+        "中国医学科学院"
+      ],
       "verified_at": "2026-08-08",
       "year": 2010
     },
@@ -7255,6 +7689,11 @@
       ],
       "type": "resource",
       "venue": "BMC Medical Informatics and Decision Making",
+      "orgs": [
+        "Leipzig University",
+        "中国医学科学院",
+        "中国中医科学院"
+      ],
       "verified_at": "2026-08-08",
       "year": 2019
     },
@@ -7272,6 +7711,10 @@
       ],
       "type": "resource",
       "venue": "IEEE SITIS",
+      "orgs": [
+        "南京大学",
+        "City University of Hong Kong"
+      ],
       "verified_at": "2026-08-08",
       "year": 2007
     },
@@ -7306,6 +7749,9 @@
       ],
       "type": "resource",
       "venue": "EURASIP J. Adv. Signal Process.",
+      "orgs": [
+        "哈尔滨工业大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2010
     },
@@ -7384,6 +7830,10 @@
       ],
       "type": "resource",
       "venue": "JMIR Medical Informatics",
+      "orgs": [
+        "华东理工大学",
+        "上海中医药大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2021
     },
@@ -7401,6 +7851,10 @@
       ],
       "type": "resource",
       "venue": "IEEE Trans. Cybernetics",
+      "orgs": [
+        "Shanghai University",
+        "Shanghai University of Engineering Science"
+      ],
       "verified_at": "2026-08-08",
       "year": 2019
     },
@@ -7418,6 +7872,9 @@
       ],
       "type": "resource",
       "venue": "CISP-BMEI",
+      "orgs": [
+        "Beijing University of Technology"
+      ],
       "verified_at": "2026-08-08",
       "year": 2018
     },
@@ -7458,6 +7915,10 @@
       ],
       "type": "resource",
       "venue": "IEEE Trans. Cybernetics",
+      "orgs": [
+        "South China University of Technology",
+        "Guangdong General Hospital"
+      ],
       "verified_at": "2026-08-08",
       "year": 2021
     },
@@ -7515,6 +7976,11 @@
       ],
       "type": "resource",
       "venue": "Digital Chinese Medicine",
+      "orgs": [
+        "Beijing University of Civil Engineering and Architecture",
+        "University of Maryland, Baltimore",
+        "Shandong University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2022
     },
@@ -7533,6 +7999,12 @@
       ],
       "type": "resource",
       "venue": "Xue R et al., *Nucleic Acids Res* 41(D1):D1089-D1095",
+      "orgs": [
+        "Shanghai Jiao Tong University",
+        "四川大学",
+        "Shanghai Mental Health Center",
+        "华东师范大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2013
     },
@@ -7551,6 +8023,12 @@
       ],
       "type": "resource",
       "venue": "Ru J et al., *J Cheminform* 6(1):13",
+      "orgs": [
+        "North West Agriculture and Forestry University",
+        "Northwest A&F University",
+        "Dalian University of Technology",
+        "Dalian University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2014
     },
@@ -7592,6 +8070,12 @@
       ],
       "type": "resource",
       "venue": "Zhang Y et al., *Acta Pharm Sin B* 13(6):2559-2571",
+      "orgs": [
+        "中国医学科学院",
+        "中国科学院",
+        "Shanghai Institute of Materia Medica",
+        "Guiyang Medical University"
+      ],
       "verified_at": "2026-08-08",
       "year": 2023
     },
@@ -7610,6 +8094,10 @@
       ],
       "type": "resource",
       "venue": "Lv Q et al., *Signal Transduct Target Ther* 8(1):127",
+      "orgs": [
+        "中山大学",
+        "澳门科技大学"
+      ],
       "verified_at": "2026-08-08",
       "year": 2023
     },
@@ -7628,7 +8116,10 @@
       "type": "survey",
       "status": "published",
       "verified_at": "2026-08-08",
-      "venue": "Pharmacological Research - Modern Chinese Medicine"
+      "venue": "Pharmacological Research - Modern Chinese Medicine",
+      "orgs": [
+        "Saveetha University"
+      ]
     },
     {
       "id": "surv-cai-osf",
