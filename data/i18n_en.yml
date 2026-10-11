@@ -1459,3 +1459,314 @@ ds-cvdhd:
 ds-tm-mc:
   title_en: TM-MC
   summary_en: KIOM literature-derived Northeast Asian medicinal-material–compound database; the 2015 release covers ~536 materials, and the 2024 2.0 paper expands to ~34k compounds. Official site currently times out.
+model-guangyi-qizhi:
+  summary_en: Guangyi Qizhi is Guang'anmen Hospital's TCM service model for triage, pre-consultation,
+    charting, and syndrome-formula advice; version 2.0 adds an agent doctor and the system has completed
+    algorithm filing.
+model-shuzhi-qihuang:
+  summary_en: Shuzhi Qihuang is a TCM model from East China Normal University and partner institutes;
+    version 1.0 offers QA and knowledge-graph interaction, and version 2.0 extends it to multimodal Chinese
+    and Western medicine data.
+model-shuzhi-bencao:
+  summary_en: Shuzhi Bencao is Tasly and Huawei Cloud's dual language-and-molecule TCM model, built on
+    Pangu, for classic-text QA, molecular computation, and herbal R&D screening.
+model-tianhe-lingshu:
+  summary_en: Tianhe Lingshu is a TCM model from the National Supercomputing Center in Tianjin and Tianjin
+    University of Traditional Chinese Medicine; version 1.0 targets acupuncture with a 3D acupoint avatar,
+    and version 2.0 covers more than 20 clinical specialties.
+model-rendu-suwen:
+  summary_en: Rendu Suwen is Transn's TCM model on its Rendu base and moH architecture, offering proactive
+    consultation, syndrome analysis, and formula suggestions, and it passed CAICT's TCM large-model evaluation
+    at level 4+.
+model-dayi-jingui:
+  summary_en: Dayi Jingui is a TCM model jointly built by Wenge and the China Academy of Chinese Medical
+    Sciences for syndrome reasoning, treatment planning, and four-diagnostic health management.
+model-zhongsi:
+  summary_en: Zhongsi is a vertical TCM model released by Merchants Union Consumer Finance with Sun Yat-sen
+    University and Shenzhen Hospital of Guangzhou University of Chinese Medicine for QA, consultation
+    notes, and formula suggestions in community clinics.
+model-xinhuo-zhongguoyao:
+  summary_en: Xinhuo Zhongguoyao is an education TCM model led by Beijing University of Chinese Medicine
+    for study, teaching, research, administration, and international communication, and it received generative-AI
+    service filing in 2026.
+model-qiyuan:
+  summary_en: Qiyuan is the Seventh People's Hospital of Shanghai's TCM model, trained with pretraining,
+    domain fine-tuning, and expert reinforcement learning, for generative records and famous-doctor agent
+    twins.
+model-huazu-bencao:
+  summary_en: Huazu Bencao is an ethnic-medicine model led by Guizhou Medical University, using Shuzhi
+    Qihuang and Qwen to connect multi-ethnic classics and a knowledge graph across ingredient screening,
+    formulation, quality control, and teaching.
+model-bianshi-yunzhongyi:
+  summary_en: Bianshi Yun Zhongyi is Wisdom Eye's TCM application on its filed multimodal Bianshi model,
+    using a symptom-to-formula knowledge graph for four-diagnostic capture and decision support.
+model-zhongxing-changbai:
+  summary_en: Zhongxing Changbai Qihuang is a multimodal reasoning TCM model from Changchun University
+    of Chinese Medicine and partner universities, with a family health assistant and a Jipai doctor assistant.
+model-yiyin:
+  summary_en: The Yiyin classic TCM model from Zhongyi Online is trained on medical canons and classical
+    prescriptions, shows its syndrome-reasoning steps, and supports primary-care clinics in Song County.
+model-gushengtang-brain:
+  summary_en: Gushengtang TCM Brain connects national-physician AI avatars to the hospital information
+    system for history taking, record drafting, syndrome support, and prescription support with traceable
+    rationale.
+model-qihuang-wendao:
+  summary_en: Qihuang Wendao is Nanjing Dajing TCM's vertical model, using a large TCM knowledge graph
+    and clinical data for syndrome diagnosis, prescriptions, and regimen advice in medical institutions.
+model-zhifu-qihuang-tiangong:
+  summary_en: Zhifu Qihuang Tiangong is a TCM model from Zhifu Qihuang and Harbin Institute of Technology,
+    trained on cases and famous-doctor formulas for several syndrome systems, and it backs four-diagnostic
+    constitution reports under algorithm filing.
+model-zhangzhongjing-tcm:
+  summary_en: The Zhang Zhongjing TCM model, released by Henan University of Chinese Medicine and the
+    University of Science and Technology Beijing, covers syndrome differentiation, syndrome-element recommendation,
+    classical formulas, and formula analysis for clinical decision support.
+model-hengqin-r1:
+  summary_en: Hengqin-R1 is the Guangdong Provincial Laboratory of TCM's vertical reasoning model, combining
+    fine-tuning, reinforcement learning, and a knowledge graph for syndrome reasoning, combined Chinese-Western
+    medication agents, and objective four diagnostics.
+ds-yiankb:
+  summary_en: Case search, structuring, and mining platform of the Institute of Information on Traditional
+    Chinese Medicine, China Academy of Chinese Medical Sciences. An institute news item on 2026-09-20
+    states that the current resource holds more than 1.1 million structured historical and modern cases,
+    plus 19.63 million analysis records, with about 53,000 registered users. Registration or institutional
+    login is required, and no public bulk download was found. Some campus trial notes still say about
+    500,000 cases.
+ds-tcmkb:
+  summary_en: Knowledge-service homepage maintained by the Institute of Information on Traditional Chinese
+    Medicine, CACMS, for search, knowledge graphs, and disease profiles. A related about page from the
+    same institute says that, starting in 2019, it built a professional TCM knowledge service for the
+    China Knowledge Centre for Engineering Sciences and Technology, bringing together diseases, formulas,
+    herbs, and literature. The homepage opens; campus trial notes require registration on an institutional
+    network, and no public bulk download was found.
+ds-gydc:
+  summary_en: Image-and-text library of historical Chinese medical books from the Institute of Information
+    on Traditional Chinese Medicine and its library, CACMS. The current entry is the version-4 site. Public
+    descriptions put the holdings at roughly 2,500 to 3,000 titles from pre-Qin through the late Qing
+    and Republican periods, with basic, advanced, and controlled-vocabulary search and image-text viewing.
+    Access is by campus network or registration, not a public bulk download.
+ds-zhonghuayidian:
+  summary_en: Commercial sales site (Feixiong Technology) for the Zhonghua Yidian electronic collection.
+    The site states 1,156 classical titles and about 450 million characters, a 2000 national electronic-publication
+    nomination, and Qiu Peiran as editorial reviewer and title writer. Edition 6 is a web version used
+    after purchase and registration, not a public download.
+ds-ntcm-ancient-lib:
+  summary_en: Ancient-book and traditional-knowledge portal started in 2022 by the Institute of Information
+    on Traditional Chinese Medicine, CACMS. It has halls for classical texts, Republican-era documents,
+    and bibliographic catalogs, and links out to reading systems including Guoyi Diancang. The portal
+    opens; full text is reached through the sub-libraries and is not a public bulk download.
+ds-icd11-tm:
+  summary_en: Official WHO explanation of the ICD-11 supplementary chapter Traditional Medicine Conditions.
+    The chapter is for optional dual coding of morbidity and is not used for mortality. Module I covers
+    traditional-medicine conditions that originated in ancient China and are now used in China, Japan,
+    Korea, and elsewhere. This page explains the chapter; the codes themselves are read in the ICD-11
+    browser. The page is public.
+ds-who-acupoint:
+  summary_en: WHO Regional Office for the Western Pacific standard for acupuncture point locations, published
+    in 2008 and reprinted in 2009. The IRIS record states the surface-location method and 361 points for
+    teaching, research, clinical service, publication, and academic exchange, and provides the English
+    PDF. Experts from China, Japan, and Korea joined the location consensus. The record page is public.
+ds-gbt-12346:
+  summary_en: Current Chinese national standard Nomenclature and location of meridian points, issued and
+    effective on 26 November 2021, under the National Administration of Traditional Chinese Medicine.
+    The official full-text disclosure system offers online preview and download. This is the standard
+    page, not a separately packaged acupoint table.
+ds-gbt-15657:
+  summary_en: Current Chinese national standard Classification and codes of diseases and patterns of traditional
+    Chinese medicine, issued and effective on 11 October 2021, replacing GB/T 15657-1995, under the National
+    Administration of Traditional Chinese Medicine. The official full-text disclosure system offers online
+    preview and download. This is the standard page, not a standalone machine-readable code package.
+ds-gbt-16751-1:
+  summary_en: 'Current national standard Clinic terminology of traditional Chinese medical diagnosis and
+    treatment — Part 1: Diseases, issued and effective on 17 March 2023, under the National Administration
+    of Traditional Chinese Medicine. The official full-text disclosure system offers online preview and
+    download. Syndrome and therapeutic-method parts have their own full-text pages.'
+ds-gbt-16751-2:
+  summary_en: 'Current national standard Clinic terminology of traditional Chinese medical diagnosis and
+    treatment — Part 2: Syndromes/patterns, issued and effective on 26 November 2021. The official full-text
+    disclosure system offers online preview and download. This is the syndrome-terminology standard page,
+    not a separate vocabulary dump.'
+ds-gbt-16751-3:
+  summary_en: 'Current national standard Clinic terminology of traditional Chinese medical diagnosis and
+    treatment — Part 3: Therapeutic methods, issued and effective on 17 March 2023. The official full-text
+    disclosure system offers online preview and download. This is the therapeutic-method standard page,
+    not a separate vocabulary dump.'
+ds-sofda:
+  summary_en: Syndrome-ontology platform built by the Institute of Chinese Materia Medica, CACMS, and
+    collaborators. The iMeta 2023 paper describes 319 curated syndromes, 8,045 diseases, and 1,359 formulas,
+    linked to genes, diseases, and formulas. The paper page checks out; the front page currently shows no readable
+    syndrome content. It shares the tcmip.cn host with ETCM but is a separate syndrome
+    system. No anonymous full-database mirror was found.
+ds-bencaodian:
+  summary_en: Bilingual TCM seed data from the Bencao Dian editorial group, released under CC BY-SA 4.0
+    as directly downloadable JSON. Version 1, generated on 17 April 2026, lists 365 herb records, 112
+    formulas, 84 patterns, and 208 acupoints, plus meridians, tongue and pulse entries, and a relation
+    graph. A coverage note on the same page says 335 of about 530 standard materia medica items are included.
+    This is an editorial vocabulary, not a national standard.
+ds-tcmpg:
+  summary_en: Traditional Chinese medicine plant-genome database maintained by Chengdu University of Traditional
+    Chinese Medicine and collaborators. The current homepage lists 274 plants, 324 genomes, 414 herbs,
+    and 13,809 ingredients, with BLAST, JBrowse, and other tools. A 2024 paper describes the 2.0 upgrade.
+    The site is open for browsing and analysis; a full packaged dump was not verified.
+ds-tcmssd:
+  summary_en: Syndrome-standardization database reported by authors at Zhejiang Chinese Medical University.
+    The paper reports 624 syndromes, 133,518 prescriptions, 8,073 diseases, 8,259 herbs, 43,413 ingredients,
+    and 17,602 targets. The site opens and its front-end script contains syndrome and TCMSSD content;
+    without JavaScript the page is empty. No full-database download entry was found.
+ds-hkbu-cmmid:
+  summary_en: Chinese medicinal-material image library from the School of Chinese Medicine, Hong Kong
+    Baptist University. The library page states more than 420 commonly used crude drugs, with source,
+    origin, morphology, properties, indications, and high-resolution images, searchable by Chinese, Latin,
+    and English names. It has been online since 2013 and is openly browsable, not a bulk download.
+ds-hkbu-cmfid:
+  summary_en: Formula image library from the School of Chinese Medicine, Hong Kong Baptist University,
+    openly browsing composition, actions, indications, and images. The browse page shows about 182 formulas,
+    and the public counter starts in November 2017. It is an online reference, not a bulk formula-table
+    download.
+ds-tradmpd:
+  summary_en: Traditional Medical and Pharmaceutical Database at the University of Toyama Institute of
+    Natural Medicine. The English about page says it was supported by a MEXT regional innovation cluster
+    grant for 2008–2012. It covers crude-drug identity, properties, Kampo composition and indications,
+    and more than 10,000 Kampo papers. The Wakanyaku Library holds nearly 80 compounds plus chemical and
+    bioassay data for hot-water extracts of 80 crude drugs and 80 Kampo extracts, with bioassay downloads
+    from 2024.
+ds-kampodb:
+  summary_en: Kampo mechanism database maintained by the Institute of Natural Medicine, University of
+    Toyama. It links formulas, crude drugs, natural compounds, and target proteins, including known interactions
+    and docking predictions. The about page currently lists 298 Kampo formulas, 180 crude drugs, 3,002
+    natural compounds, 62,906 proteins or genes, and 3,063,505 docking results. The 2018 Scientific Reports
+    paper is the citation; the site news records a renewal on 15 July 2021.
+ds-mpdb-nibn:
+  summary_en: Comprehensive medicinal-plant database of the NIBIOHN Research Center for Medicinal Plant
+    Resources. The home page describes medicinal plants, crude drugs, constituents and genes, cultivation,
+    and internal morphology, plus measured data for representative crude drugs in Japanese circulation.
+    The footer copyright is 2012–2025, funded by a MHLW research grant. Separate Kampo-formula and Japanese
+    Pharmacopoeia crude-drug lists are online.
+ds-ekat:
+  summary_en: Evidence Reports of Kampo Treatment, a structured-abstract database from the Japan Society
+    for Oriental Medicine EBM committee. The site says it has been free and updated since 2007. It covers
+    RCTs and meta-analyses of Kampo products still on the market, limited to reports since 1986 that used
+    the same quality as marketed products; decoctions are excluded because product quality is unknown.
+    Japanese and English editions are provided, and the Association of Korean Medicine has a Korean translation.
+ds-ethmedmmm:
+  summary_en: Ethnomedicine specimen database of the Museum of Materia Medica at the University of Toyama.
+    The home-page table lists 461 kinds and 8,942 Japanese–Chinese crude-drug specimens, opened in Japanese
+    in April 2000. The same site also has an English crude-drug list and separate Unani, Thai, Ayurvedic,
+    and Indonesian collections. The latest note is a version-7 rebuild on 30 March 2018.
+ds-ktkp-tm:
+  summary_en: Korean-medicine slice of the Korean Traditional Knowledge Portal, run for the Ministry of
+    Intellectual Property. The English introduction says the database was compiled from traditional Korean
+    medicine literature in 2005–2007 and opened for search in December 2007. The same page currently counts
+    5,500 herbs, 7,103 prescriptions, and 12,500 diseases, linked to effects, indications, formulas, and
+    patent classes.
+ds-nikom-kmmb:
+  summary_en: Searchable crude-drug holdings of the Korean Medicine Material Bank at the National Institute
+    for Korean Medicine Development. The open herb page reports 691 results, with name, synonym, scientific
+    name, botanical source, and reacting enzymes. An institute project file records that the bank was
+    formed on 1 January 2016 by merging the natural-substance bank and the herbal biomaterial bank.
+ds-kmcric:
+  summary_en: Data portal of the Korean Medicine Convergence Research Information Center at Kyung Hee
+    University. The data-center page lists an evidence-based Korean-medicine literature set of systematic
+    reviews, RCTs, and mechanism studies published since 2010; an herb-interaction set based on Natural
+    Standard; acupoint videos made from the 2008 WHO Western Pacific standard locations; and a crude-drug
+    update built with the Kyung Hee and Chungbuk pharmacy faculties. The director’s biography says the
+    directorship began in 2013.
+ds-nwipb-tibetan-mm:
+  summary_en: Tibetan materia-medica list published by the Key Laboratory of Tibetan Medicine Research
+    at the CAS Northwest Institute of Plateau Biology. The page is a table of Chinese name, Latin name,
+    drug name, and part used, and it states that there are 15 pages. Entry paths are dated March–April
+    2022. It is a crude-drug list, not a compound–target database.
+ds-sowa-rigpa-mm:
+  summary_en: Open Data in Brief table of Latin identifications for commonly used Sowa Rigpa materia medica.
+    The paper says about 700 commonly used items were selected from the Four Medical Treatises and Gawé
+    Dorjé’s classification, with Tibetan script, Wylie transliteration, and Latin names; the supplement
+    is published with the article. Affiliations include the School of Tibetan Medicine at Gansu University
+    of Chinese Medicine, the College of Pharmacy at Qinghai Nationalities University, and the ethnic-medicine
+    center at Chengdu University of Traditional Chinese Medicine.
+ds-dai-medicinal-plants:
+  summary_en: Dai medicinal-plant source database on the Chinese Union of Botanical Gardens platform,
+    from Xishuangbanna Tropical Botanical Garden, CAS. The home page is copyrighted 2018 and describes
+    Dai medicine’s four towers, five aggregates, and antidote theory. The species-list URL returns a redirect
+    notice, and no anonymously browsable species catalogue was confirmed.
+ds-nmg-ethnic-drug-list:
+  summary_en: Public ethnic-medicine catalogue PDF from the Inner Mongolia Healthcare Security Administration,
+    mainly finished Mongolian formulas. The government filename is dated 25 December 2023. The extracted
+    text is titled the Inner Mongolia ethnic-medicine catalogue and notes that listed drugs are managed
+    as class B. It is a reimbursement list, not a research compound database. The 2026 Mongolian-medicine
+    knowledge-base launch has no open platform URL.
+wst-kg-imhre:
+  summary_en: KG-IMHRE guides an LLM with subgraph mining and dynamic retrieval queries over the Zhao
+    Bingnan dermatology school graph. On that benchmark it scores 85.2 on multiple choice, 45.78 on open
+    questions, and 73.38 overall.
+wst-tcm-classic-translator:
+  summary_en: TCM Classic-Translator is a named LoRA model for classical-to-modern TCM translation, trained
+    on Huangdi Neijing and Shanghan Lun parallels with commentary augmentation. Reported scores are BLEU-4
+    39.35 and ROUGE-L 54.66. No public weights were found.
+wst-xinglin-ner:
+  summary_en: XingLin-NER is a generative NER framework that instruction-tunes structured and reasoning
+    prompts for variable TCM clinical terms, scored with TCM-BERT semantic similarity. It is an extraction
+    method, not a general TCM chat model.
+wst-kd-sdt-llm:
+  summary_en: GPT-4o distills TCM case records into syndrome-differentiation instructions, then LoRA-tunes
+    Qwen2.5-7B. The paper reports more readable reasoning while keeping prescription accuracy. No brand
+    name or public weights.
+wst-sft-rag-qa:
+  summary_en: ChatGLM3 is supervised-fine-tuned with PissA and then wrapped in RAG. Reported scores are
+    BLEU 14.5830 and ROUGE-1 34.6730; with RAG the TCM item-bank F rises to 0.6398 from a 0.2654 ChatGLM3
+    baseline.
+wst-lora-guji-llm:
+  summary_en: Shanghan Lun QA pairs from GPT-4, plus ShenNong and cMedQA2, are used to LoRA-tune five
+    base models and to compare full LoRA with 8-bit and 4-bit QLoRA on Qwen-7B-Chat. That model gains
+    17.61 BLEU and 21.4 ROUGE-L over its base. No separate model name.
+wst-ad-rag-qa:
+  summary_en: LangChain grounds ChatGLM3-6B on a local library of Alzheimer guidelines and textbooks endorsed
+    by the China Association of Chinese Medicine and the Chinese Medical Association. Against bare ChatGLM3-6B,
+    factual-accuracy wins are 88.09% and completeness wins 85.71%.
+wst-mmkgqa:
+  summary_en: MMKGQA answers marine Chinese materia medica questions from the MMKG graph using Aho-Corasick
+    and Word2Vec. On six common question types, mean precision, recall, and F1 are 97.93%, 83.41%, and
+    89.10%. It is not an LLM system.
+bucm-syndrome-element-llm:
+  summary_en: Instr-MT-TCM, an instruction-tuned TCM embedding model, is paired with an LLM for syndrome-element
+    differentiation. On 1,793 real cases the joint method reaches mean F1 0.927 versus 0.512 for manual
+    labels, and is applied to 48 prostate-cancer cases.
+cdm-pico-tcm-qa:
+  summary_en: Cui et al. use ERNIE Bot to extract PICO triples from a polycystic-ovary guideline, store
+    248 nodes and 337 relations in Neo4j, and draft 12 question classes with 24 templates for a guideline
+    QA system.
+jtcm-yayi-preconsult:
+  summary_en: Liu et al. fine-tune YAYI 2-30B and couple it to a weighted symptom graph agent. Practitioner-exam
+    accuracy is 94.09%, and on the clinical test syndrome accuracy is 88.33% with fewer turns and less
+    time than attending physicians.
+smgcn:
+  summary_en: Syndrome-aware multi-graph convolution for herb recommendation. Besides the symptom–herb
+    graph, it adds symptom and herb co-occurrence graphs, fuses an implicit syndrome vector, then ranks
+    herbs.
+mgcn-jep:
+  summary_en: Multi-graph convolutional prescription model on the Treatise on Cold Damage. Symptom features
+    are aggregated on state-element and syndrome graphs, then an MLP predicts the herb set.
+kg-herb-fitee:
+  summary_en: Graph-attention herb recommendation guided by a knowledge graph mined from TCM literature
+    and prescriptions, with formula-theory signals added in the prediction layer.
+kdhr:
+  summary_en: Knowledge-driven herb recommendation by multi-layer graph-convolution fusion over a TCM
+    knowledge graph. Code is public.
+presrecrf:
+  summary_en: Fuses a molecular knowledge graph with TCM semantic representations from large models, and
+    predicts both herbs and dosages. Code and data are on GitHub.
+ds-tonguedx:
+  summary_en: 'Public remote-tongue dataset: 5,109 images from 4,650 subjects, eight binary attributes
+    (pale, red tip/side, red spots, ecchymosis, cracks, tooth marks, thick fur, yellow fur), plus age
+    and sex. The repository is downloadable. This is not the later TongueDx2 ablation paper.'
+pat-cn122135923:
+  summary_en: Recalls similar records and treatment rationales on four paths, then a large model drafts
+    TCM diagnosis, syndrome pattern, and a reference prescription (published, not granted).
+pat-cn120299726:
+  summary_en: Turns unstructured case records into structured knowledge, then large-model agents collaborate
+    to simulate a TCM diagnostic encounter (published, not granted).
+pat-cn120148827:
+  summary_en: A pretrained large model fuses TCM syndrome knowledge with a Western pathology graph to
+    propose cardiovascular decisions that include Chinese herbal formulas (published, not granted).
+pat-cn120913881:
+  summary_en: Trains a multimodal TCM large model on tongue images, speech, and inquiry text, then outputs
+    a preliminary TCM analysis (granted June 2026).

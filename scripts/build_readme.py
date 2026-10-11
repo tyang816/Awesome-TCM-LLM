@@ -94,6 +94,18 @@ LINK_LABEL_EN = {
     "新闻稿": "Press",
     "2.0论文": "2.0 paper",
     "CBLUE任务": "CBLUE tasks",
+    "说明": "About",
+    "关于": "About",
+    "介绍": "About",
+    "数据中心": "Data",
+    "中心介绍": "About",
+    "目录": "Catalogue",
+    "汉方列表": "Formulas",
+    "药局方生药": "Crude drugs",
+    "药材": "Herbs",
+    "处方": "Formulas",
+    "病证": "Patterns",
+    "药材目录": "Herbs",
 }
 
 SEMANTIC_TAGS = {
