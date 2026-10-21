@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-10-11'
+  updated_at: '2026-10-21'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -60,11 +60,11 @@ items:
   status: published
   verified_at: '2026-08-02'
 - id: news-202607-17
-  name: 安顿七诊合参中医机器人与天回大模型亮相WAIC 2026
+  name: 安顿七诊合参中医机器人亮相WAIC 2026
   type: news
   year: 2026
   date: '2026.07'
-  summary_zh: 安顿健康在WAIC 2026首发**七诊合参**中医机器人，集成面/红外面/舌/耳/闻/问/脉采集，底座含天回脉诊算法与中医诊疗大模型
+  summary_zh: 安顿健康在WAIC 2026首发**七诊合参**中医机器人，集成面/红外面/舌/耳/闻/问/脉采集；报道称底座为2350亿参数的中医大模型。该页未写天回
   tags:
   - product
   - multimodal
@@ -86,7 +86,7 @@ items:
   status: published
   verified_at: '2026-08-02'
 - id: news-202606-00
-  name: 中科闻歌通过港交所上市聆讯；报道提及与中国中医科学院合作的大医金匮中医大模型已通
+  name: 中科闻歌通过港交所上市聆讯；与中国中医科学院合作的大医金匮中医大模型已通过中国信通院最高级别可信AI认证
   type: news
   year: 2026
   date: '2026.06'
@@ -149,11 +149,11 @@ items:
   status: published
   verified_at: '2026-07-19'
 - id: news-202512-03
-  name: 固生堂发布”中医大脑”产品及国医大师施杞教授AI数字分身，已累计发布14位顶级专
+  name: 固生堂发布“中医大脑”及国医大师施杞教授AI数字分身，已累计发布14位顶级专家数字分身
   type: news
   year: 2025
   date: '2025.12'
-  summary_zh: 固生堂发布”中医大脑”产品及国医大师施杞教授AI数字分身，已累计发布14位顶级专家数字分身，覆盖八大中医核心专科
+  summary_zh: 固生堂发布“中医大脑”及国医大师施杞教授AI数字分身，已累计发布14位顶级专家数字分身。八大专科出自另一则十大分身报道，本页未写
   tags:
   - product
   links:
@@ -161,7 +161,7 @@ items:
   status: published
   verified_at: '2026-07-19'
 - id: news-202512-04
-  name: 智明堂ZMT-M1在国家中医执业医师资格考试模拟测试中以96.26分获得该领域最
+  name: 智明堂ZMT-M1在国家中医执业医师资格考试模拟测试中以96.26分获得该领域最佳成绩
   type: news
   year: 2025
   date: '2025.12'
@@ -185,11 +185,11 @@ items:
   status: published
   verified_at: '2026-07-19'
 - id: news-202509-06
-  name: 传神语联任度·素问通过中国信通院可信AI中医药大模型4+级评估
+  name: 传神素问中医大模型通过中国信通院可信AI中医药大模型4+级评估
   type: news
   year: 2025
   date: '2025.09'
-  summary_zh: 传神语联**任度·素问**通过中国信通院可信AI中医药大模型4+级评估
+  summary_zh: 页面受评对象是**传神素问**中医大模型，获得可信AI中医药大模型4+级；正文写它由传神语联基于任度大模型打造
   tags:
   - product
   links:
@@ -197,7 +197,7 @@ items:
   status: published
   verified_at: '2026-07-19'
 - id: news-202509-07
-  name: 智赋岐黄天功中医AI大模型通过国家深度合成服务算法备案，应用于中医四诊仪与体质辨
+  name: 智赋岐黄天功中医AI大模型通过国家深度合成服务算法备案，应用于中医四诊仪与体质辨识
   type: news
   year: 2025
   date: '2025.09'
@@ -221,11 +221,11 @@ items:
   status: published
   verified_at: '2026-08-02'
 - id: news-202508-08
-  name: 固生堂正式发布十大”国医AI分身”，基于国医大师及名中医临床经验构建，辨证准确性
+  name: 固生堂正式发布十大“国医AI分身”，专家模拟一致性达86%以上
   type: news
   year: 2025
   date: '2025.08'
-  summary_zh: '**固生堂**正式发布十大”国医AI分身”，基于国医大师及名中医临床经验构建，辨证准确性达86%以上'
+  summary_zh: '**固生堂**正式发布十大“国医AI分身”，基于国医大师及名中医临床经验构建。页面写专家模拟一致性达86%以上，不是辨证准确率'
   tags:
   - product
   links:
@@ -283,7 +283,7 @@ items:
   status: published
   verified_at: '2026-07-19'
 - id: news-202504-11
-  name: 传神语联发布任度·素问中医大模型，基于全自研混合熵(moH)技术架构，支持智能问
+  name: 传神语联发布任度·素问中医大模型，基于全自研混合熵(moH)技术架构，支持智能问诊、辨证分析、方剂推荐
   type: news
   year: 2025
   date: '2025.04'
@@ -295,7 +295,7 @@ items:
   status: published
   verified_at: '2026-07-19'
 - id: news-202503-12
-  name: 中国中医科学院广安门医院28日正式发布广医·岐智中医大模型，成为国内首家本地化部
+  name: 广安门医院发布广医·岐智中医大模型，成为国内首家本地化部署“算力+模型+应用”一体化服务的中医医院
   type: news
   year: 2025
   date: '2025.03'
@@ -319,11 +319,11 @@ items:
   status: published
   verified_at: '2026-08-02'
 - id: news-202409-13
-  name: 中科闻歌发布大医金匮中医大模型及中医智能健康管理平台，基于1500余本中医典籍训
+  name: 中科闻歌发布大医金匮中医大模型及中医智能健康管理平台，基于1500余本中医典籍及海量临床医案训练
   type: news
   year: 2024
   date: '2024.09'
-  summary_zh: 中科闻歌发布**大医金匮**中医大模型及中医智能健康管理平台，基于1500余本中医典籍训练
+  summary_zh: 中科闻歌发布**大医金匮**中医大模型及中医智能健康管理平台，基于1500余本中医典籍及海量临床医案训练
   tags:
   - product
   links:
@@ -335,7 +335,7 @@ items:
   type: news
   year: 2024
   date: '2024.05'
-  summary_zh: 天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型，覆盖中药研发全链条；后通过信通院中医药大模型4+级评估
+  summary_zh: 天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型。本页没有信通院4+级评估
   tags:
   - product
   links:
@@ -1246,7 +1246,7 @@ items:
   name: 知方丹台 (ZhiFangDanTai)
   year: 2025
   venue: IEEE Journal of Biomedical and Health Informatics
-  summary_zh: GraphRAG+LLM微调的中医方剂生成框架，输出君臣佐使/功效/禁忌等可解释信息并开源权重。arXiv HTML 署名首都师范大学管理学院与昆士兰大学
+  summary_zh: GraphRAG+LLM微调的中医方剂生成框架，输出君臣佐使/功效/禁忌等可解释信息。arXiv HTML 署名首都师范大学管理学院与昆士兰大学。Hugging Face 上的 tczzx6/ZhiFangDanTai1.0 于 2026-10-21 打开为 404，当前不能当公开权重
   orgs:
   - 首都师范大学
   - 昆士兰大学
@@ -1254,7 +1254,6 @@ items:
   - model
   - rag
   - kg
-  - open-weights
   links:
     论文: https://arxiv.org/abs/2509.05867
     DOI: https://doi.org/10.1109/jbhi.2025.3607819
@@ -1810,9 +1809,10 @@ items:
   links:
     代码: https://github.com/TCMAI-BJTU/Lingdan-V2
     ModelScope: https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1
+    论文: https://arxiv.org/abs/2610.14705
   type: resource
   status: published
-  verified_at: '2026-09-13'
+  verified_at: '2026-10-21'
 - id: dfglm-tcm
   name: DFGLM-TCM
   year: 2026
@@ -2494,15 +2494,14 @@ items:
 - id: taiyi-2
   name: 太一2 (Taiyi-2)
   year: 2025
-  venue: Journal of the American Medical Informatics Association
-  summary_zh: 太一二代开源生物医学模型，底座从Qwen-7B换成GLM4-9B，重做数据过滤与任务指令；官方推荐替换Taiyi-1
+  summary_zh: 太一二代开源生物医学模型，底座从Qwen-7B换成GLM4-9B，重做数据过滤与任务指令。官方模型卡仍引用太一1的JAMIA论文（10.1093/jamia/ocae037），没有单独的太一2论文
   orgs:
   - 大连理工大学
   tags: [model, general-medical, open-weights]
   links:
     模型: https://huggingface.co/DUTIR-BioNLP/Taiyi2-chat
     代码: https://github.com/DUTIR-BioNLP/Taiyi-LLM
-    DOI: https://doi.org/10.1093/jamia/ocae037
+  align_note: 原DOI指向太一1，已从本条移除
   type: resource
   status: published
   verified_at: '2026-09-13'
@@ -2628,9 +2627,10 @@ items:
   links:
     论文: https://arxiv.org/abs/2307.10512
     代码: https://github.com/Ivy0529/IvyGPT
+  align_note: 2026-10-21 复核 GitHub 仓库返回 404，论文页仍在
   type: resource
   status: published
-  verified_at: '2026-09-13'
+  verified_at: '2026-10-21'
 - id: chatglm-med
   name: ChatGLM-Med
   year: 2023
@@ -4207,9 +4207,10 @@ items:
   title_zh: 知方丹台方剂生成模型
   tags:
   - model
-  - open-weights
+  - dead-site
   links:
     模型: https://huggingface.co/tczzx6/ZhiFangDanTai1.0
+  align_note: 2026-10-21 公开模型页为 Hugging Face 404
   status: published
   verified_at: '2026-08-02'
 - id: pcdh-tcm
@@ -4703,7 +4704,7 @@ items:
   tags: [corpus, dead-site]
   links:
     原网站: http://www.rcdd.org.cn/tcmanalyzer
-    论文: https://pubmed.ncbi.nlm.nih.gov/29425456/
+    论文: https://pubmed.ncbi.nlm.nih.gov/29420025/
     DOI: https://doi.org/10.1021/acs.jcim.7b00549
   status: published
   verified_at: '2026-09-13'
@@ -4738,7 +4739,7 @@ items:
   tags: [corpus, dead-site]
   links:
     原网站: http://tcm.lifescience.ntu.edu.tw/
-    论文: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2582235/
+    论文: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2584015/
     DOI: https://doi.org/10.1186/1472-6882-8-58
   status: published
   verified_at: '2026-09-13'
@@ -4905,8 +4906,9 @@ items:
   links:
     论文: https://arxiv.org/abs/2004.03329
     代码: https://github.com/UCSD-AI4H/Medical-Dialogue-System
+  align_note: 2026-10-21 复核 GitHub 仓库返回 404，论文页仍在
   status: published
-  verified_at: '2026-09-13'
+  verified_at: '2026-10-21'
 - id: ds-cmekg
   name: CMeKG
   type: dataset
@@ -6050,7 +6052,7 @@ items:
   status: published
   verified_at: '2026-09-12'
 - id: pat-cn122050861
-  name: 大模型与双通道检索结合的中医智能诊疗平台构建方法
+  name: 基于大模型结合双通道检索的中医智慧诊疗平台构建方法
   type: patent
   year: 2026
   date: '2026.05'
@@ -6058,6 +6060,7 @@ items:
   summary_zh: LLM+中医知识图谱双通道检索，面向名医经验传承与处方生成（公开，未授权）
   orgs:
   - 上海中医药大学附属岳阳中西医结合医院
+  - 上海市皮肤病医院
   tags:
   - patent
   - rag
@@ -6067,14 +6070,14 @@ items:
   status: published
   verified_at: '2026-09-12'
 - id: pat-cn122117314
-  name: 基于大语言模型的智能针灸诊断智能体系统及方法
+  name: 一种基于大语言模型的智能针灸诊断Agent系统及诊断方法
   type: patent
   year: 2026
   date: '2026.05'
   venue: CN122117314A
   summary_zh: 针灸知识库 + 图谱 + 向量检索 + 重排序，LLM 智能体分类问题并主动追问（公开，未授权）
   orgs:
-  - 河南理工大学
+  - 河南工业大学
   tags:
   - patent
   - agent
@@ -6083,7 +6086,7 @@ items:
   status: published
   verified_at: '2026-09-12'
 - id: pat-cn122091073
-  name: 基于多任务联合优化的中医处方生成方法及装置
+  name: 一种基于多任务联合优化的中药处方生成方法与装置
   type: patent
   year: 2026
   date: '2026.05'
@@ -6098,7 +6101,7 @@ items:
   status: published
   verified_at: '2026-09-12'
 - id: pat-cn122025029
-  name: 融合类别信息因果对比学习与LLM图注意力的中医处方推荐方法
+  name: 融合类别信息与LLM的因果驱动对比学习与图注意力的中药处方推荐方法
   type: patent
   year: 2026
   date: '2026.05'
@@ -6342,7 +6345,7 @@ items:
   status: published
   verified_at: '2026-09-12'
 - id: pat-cn118230893
-  name: 基于AI大模型的智能中医处方推荐方法及系统
+  name: 一种基于AI大模型的中医处方智能推荐方法和系统
   type: patent
   year: 2024
   date: '2024.06'
@@ -6360,9 +6363,9 @@ items:
   name: 基于长文档检索增强生成的中医问答方法、设备及介质
   type: patent
   year: 2024
-  date: '2024.04'
+  date: '2024.07'
   venue: CN117828050B
-  summary_zh: 长文档 RAG（扩展、召回、重排序、来源标注）做中医问答（2024.07 授权）
+  summary_zh: 长文档 RAG（扩展、召回、重排序、来源标注）做中医问答（2024.07 授权；申请公布日 2024-04-05）
   orgs:
   - 北京智谱华章科技
   tags:
@@ -7307,7 +7310,7 @@ items:
   status: published
   verified_at: '2026-10-10'
 - id: bucm-syndrome-element-llm
-  name: Instr-MT-TCM 协同大模型证素辨证
+  name: 基于大语言模型与文本嵌入计算的中医证素辨证自动化方法
   type: resource
   year: 2025
   venue: 北京中医药大学学报
@@ -7320,8 +7323,9 @@ items:
   tags: []
   links:
     论文: https://xb.bucm.edu.cn/zh/article/doi/10.3969/j.issn.1006-2157.2025.08.018/
+  align_note: 期刊页标题为《基于大语言模型与文本嵌入计算的中医证素辨证自动化方法研究》；该中文DOI不在Crossref
   status: published
-  verified_at: '2026-10-10'
+  verified_at: '2026-10-21'
 - id: cdm-pico-tcm-qa
   name: 循证中医指南 PICO 知识图谱问答
   type: resource
@@ -7513,3 +7517,3282 @@ items:
     专利: https://eureka.patsnap.com/patent/CN120913881B
   status: published
   verified_at: '2026-10-11'
+- id: news-202512-30
+  name: 广安门医院「广医·岐智」完成国家级深度合成算法备案
+  type: news
+  year: 2025
+  date: '2025.12'
+  summary_zh: 广安门医院官网称广医·岐智取得国家级深度合成算法备案，并称是国内首家完成该项备案的中医院
+  tags:
+  - product
+  - policy
+  links:
+    链接: https://www.gamyy.cn/gzb/news/big/114632.html
+  orgs:
+  - 中国中医科学院广安门医院
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202510-30
+  name: 天津中医药大学等发布中医药临床研究智能体CTA
+  type: news
+  year: 2025
+  date: '2025.10'
+  summary_zh: 科技日报报道CTA在中医药临床疗效评价大会发布，基于Qwen2.5-14B微调，面向临床试验方案、数据管理与统计
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.stdaily.com/web/gdxw/2025-10/21/content_418966.html
+  orgs:
+  - 天津中医药大学
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202510-31
+  name: 安贞医院与中国电子云发布中西医结合高血压大模型Idiom-Hypertension
+  type: news
+  year: 2025
+  date: '2025.10'
+  summary_zh: 中国经济网报道10月26日发布中西医结合高血压诊疗大模型Idiom-Hypertension，用于高血压规范管理
+  tags:
+  - product
+  links:
+    链接: https://www.ce.cn/cysc/yy/hydt/202510/t20251027_2541616.shtml
+  orgs:
+  - 北京安贞医院
+  - 中国电子云
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202603-30
+  name: 中医方证多模态大模型与方证智云入选国家人工智能应用中试基地阶段成果
+  type: news
+  year: 2026
+  date: '2026.03'
+  summary_zh: 上海中医药大学称方证多模态大模型入选医疗领域国家人工智能应用中试基地阶段成果，基座为视觉语言模型
+  tags:
+  - product
+  - multimodal
+  links:
+    链接: https://kjrw.shutcm.edu.cn/2026/0330/c805a172392/page.htm
+  orgs:
+  - 上海中医药大学
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202605-13
+  name: 薪火中国药亮相2026世界数字教育大会，问答版上线国家智慧教育平台
+  type: news
+  year: 2026
+  date: '2026.05'
+  summary_zh: 北京中医药大学中药学院称薪火中国药在世界数字教育大会发布，问答版已上线国家智慧教育公共服务平台
+  tags:
+  - product
+  links:
+    链接: https://zhongyao.bucm.edu.cn/yyxw/fb4b320d30c34e358de28a637c9f6f2c.htm
+  orgs:
+  - 北京中医药大学
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202609-29
+  name: 上海中医药大学与龙华医院方证大模型正式开放接入
+  type: news
+  year: 2026
+  date: '2026.09'
+  summary_zh: 中新网报道方证大模型9月19日开放接入，覆盖临床辅助诊疗、科研数据挖掘和人才培养，并计划部署到龙华医院及医联体
+  tags:
+  - product
+  links:
+    链接: https://www.chinanews.com.cn/jk/2026/09-19/10699553.shtml
+  orgs:
+  - 上海中医药大学
+  - 龙华医院
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202610-09
+  name: 南京中医药大学发布灵素·艾护中医护理大模型
+  type: news
+  year: 2026
+  date: '2026.10'
+  summary_zh: 报道称徐桂华团队10月9日发布灵素·艾护中医护理大模型，面向辨证施护、科研与居家康养，27所加盟医院为首批应用单位
+  tags:
+  - product
+  links:
+    链接: https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutqmk0582279.shtml
+  orgs:
+  - 南京中医药大学
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202601-09
+  name: 中医聪宝素问中医内容生成大模型算法通过深度合成备案
+  type: news
+  year: 2026
+  date: '2026.01'
+  summary_zh: 中医聪宝称素问中医内容生成大模型算法列入国家网信办第十四批深度合成服务算法备案
+  tags:
+  - product
+  - policy
+  links:
+    链接: https://www.tcmbrain.com/?list_43/180.html
+  orgs:
+  - 中医聪宝
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121460113
+  name: 一种基于中医语言大模型的中医智能分析方法及系统
+  type: patent
+  year: 2026
+  date: '2026.02'
+  venue: CN121460113A
+  summary_zh: 用LoRA微调得到中医语言大模型，按证型和主诉输出方剂（公开，未授权）
+  orgs:
+  - 杭州轩岐智能科技有限公司
+  - 浙江中医药大学附属第三医院
+  - 北京航空航天大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN121460113A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121562809
+  name: 一种基于动态语义分块、知识图谱与多跳路径规划的中医大语言模型AI题库智能生成方法及系统
+  type: patent
+  year: 2026
+  date: '2026.02'
+  venue: CN121562809A
+  summary_zh: 对中医文本做语义分块和知识图谱多跳路径，再训练大语言模型生成中医题库（公开，未授权）
+  orgs:
+  - 北京安戈普罗科技有限公司
+  tags:
+  - patent
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN121562809A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120913769
+  name: 基于多模态大模型的中医舌诊药饮推荐方法
+  type: patent
+  year: 2026
+  date: '2026.05'
+  venue: CN120913769B
+  summary_zh: 用大模型根据舌象生成病症描述并推荐药饮（2026.05授权；申请公布日2025-11-07）
+  orgs:
+  - 天大智图（天津）科技有限公司
+  - 桂林电子科技大学
+  tags:
+  - patent
+  - multimodal
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN120913769B/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122508432
+  name: 一种面向中医药知识图谱的综合质量评估方法
+  type: patent
+  year: 2026
+  date: '2026.08'
+  venue: CN122508432A
+  summary_zh: 把小样本送入中医药微调大语言模型，做知识图谱质量预评估（公开，未授权）
+  orgs:
+  - 湖北省标准化与质量研究院
+  tags:
+  - patent
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN122508432A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119069137
+  name: 利用AI大模型进行舌象分析的方法及装置
+  type: patent
+  year: 2024
+  date: '2024.12'
+  venue: CN119069137A
+  summary_zh: 在中医舌诊场景用AI大模型按体质、症状和综合解读做舌象分析（公开，未授权）
+  orgs:
+  - 深圳伯德睿捷健康科技有限公司
+  tags:
+  - patent
+  - multimodal
+  links:
+    专利: https://patents.google.com/patent/CN119069137A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119049664
+  name: 基于AI大模型的中医元气充盈智能健康管理系统
+  type: patent
+  year: 2024
+  date: '2024.11'
+  venue: CN119049664A
+  summary_zh: 把可穿戴数据转成中医术语后送入AI中医大模型（公开；2026-02-06已视为撤回）
+  orgs:
+  - 重庆鼐龙生物科技有限公司
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN119049664A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119049665
+  name: 基于AI大模型智能人体域网的中医六经辨证智能对话健康管理系统
+  type: patent
+  year: 2024
+  date: '2024.11'
+  venue: CN119049665A
+  summary_zh: 包含中医六经辨证术语大模型和对话式健康管理（公开；2026-02-06已视为撤回）
+  orgs:
+  - 重庆鼐龙生物科技有限公司
+  tags:
+  - patent
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN119049665A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-yin2025-ai-tcm
+  name: 'Yin et al. 2025: 数据挖掘、大模型与多模态融合的中医AI综述'
+  type: survey
+  year: 2025
+  venue: Acta Materia Medica
+  orgs:
+  - 浙江大学
+  summary_zh: 从数据挖掘、大语言模型和多模态融合三条线综述人工智能如何解析中药复方的多成分、多靶点机制
+  tags:
+  - survey
+  - multimodal
+  - herbal
+  links:
+    DOI: https://doi.org/10.15212/amm-2025-0045
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-liu2025-netpharm-llm
+  name: 'Liu et al. 2025: 网络药理学推动大模型用于中医药研究'
+  type: survey
+  year: 2025
+  venue: Science of Traditional Chinese Medicine
+  orgs:
+  - 清华大学
+  summary_zh: 综述网络药理学如何把药物—靶点—疾病网络与大语言模型结合起来，解释中药复方的多靶点机制
+  tags:
+  - survey
+  - herbal
+  links:
+    DOI: https://doi.org/10.1097/st9.0000000000000073
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-sun2026-generative
+  name: 'Sun et al. 2026: 生成模型在中医药中的进展与应用'
+  type: survey
+  year: 2026
+  venue: Chinese Herbal Medicines
+  summary_zh: 综述生成模型在中医药中的进展与应用
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.1016/j.chmed.2026.08.013
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-wang2026-eval-rethink
+  name: 'Wang et al. 2026: 重思中医大模型评测'
+  type: survey
+  year: 2026
+  venue: Medical Review
+  orgs:
+  - 北京中医药大学
+  summary_zh: 指出中医大模型评测仍缺少质量底线：未筛选古籍和网页语料可能含过时或禁用建议，单病例基准也不足以代表临床
+  tags:
+  - survey
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1515/mr-2026-0006
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-dong2026-rx-review
+  name: 'Dong et al. 2026: 中医处方推荐计算方法综述'
+  type: survey
+  year: 2026
+  venue: Science of Traditional Chinese Medicine
+  orgs:
+  - 南京中医药大学
+  - 北京交通大学
+  summary_zh: 综述从临床数据学习处方规律的计算方法，覆盖智能处方推荐如何支持中医临床决策
+  tags:
+  - survey
+  - prescription
+  links:
+    DOI: https://doi.org/10.1097/st9.0000000000000110
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-cacms2026-digital
+  name: '2026: 数字化与智能化时代的中医药机遇与挑战'
+  type: survey
+  year: 2026
+  venue: Science of Traditional Chinese Medicine
+  orgs:
+  - 中国中医科学院
+  summary_zh: 从专家系统到深度学习和大语言模型，讨论数字化、智能化给中医药带来的机遇与挑战
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.1097/st9.0000000000000102
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-li2026-ebm
+  name: '2026: 面向中医药证据知情决策的数字智能循证'
+  type: survey
+  year: 2026
+  venue: Science of Traditional Chinese Medicine
+  orgs:
+  - 兰州大学
+  - University of Geneva
+  summary_zh: 讨论如何用数字智能循证方法，把辨证论治推进到证据知情的中医药决策
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.1097/st9.0000000000000105
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-dcmed2026-diagnosis
+  name: '2026: 中医智能诊断的跨学科融合与发展趋势'
+  type: survey
+  year: 2026
+  venue: Digital Chinese Medicine
+  summary_zh: 讨论中医智能诊断的跨学科融合与发展趋势
+  tags:
+  - survey
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2026.02.001
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-llm-eval-gscm
+  name: 中医大模型临床实践评测方法
+  type: resource
+  year: 2026
+  venue: Guidelines and Standards of Chinese Medicine
+  orgs:
+  - 中国中医科学院
+  summary_zh: 针对现有医学大模型评测以西医范式为主、缺少中医专用标准的问题，构建面向临床实践的中医大模型评测方法
+  tags:
+  - evaluation
+  - benchmark
+  links:
+    DOI: https://doi.org/10.1097/gscm.0000000000000123
+  status: published
+  verified_at: '2026-10-21'
+- id: lingdan-jamia
+  name: 灵丹 JAMIA：面向临床推理的中医知识编码
+  type: resource
+  year: 2024
+  venue: JAMIA
+  orgs:
+  - 北京交通大学
+  - 天士力
+  summary_zh: JAMIA论文提出灵丹，用大模型加强中医知识编码以提升临床推理任务。与后来的Digital Chinese Medicine灵丹处方评测不是同一篇
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1093/jamia/ocae087
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-prompt-npj
+  name: 中医场景中医疗大模型的提示词效应
+  type: resource
+  year: 2026
+  venue: npj Digital Medicine
+  orgs:
+  - 长庚纪念医院
+  - 阳明交通大学
+  - 长庚大学
+  summary_zh: 在中医任务上评估16个大模型，说明提示词效应随模型而变，制约医疗大模型在中医场景的稳定部署
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1038/s41746-026-03397-5
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-llm-mechanism-jbhi
+  name: 用大模型理解中医：机制探索与创新应用
+  type: resource
+  year: 2025
+  venue: IEEE JBHI
+  summary_zh: 提出面向中医理解的大模型方法，覆盖机制探索与创新应用
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1109/jbhi.2025.3631841
+  status: published
+  verified_at: '2026-10-21'
+- id: tembed-ddi
+  name: TEmbed-DDI：中西药相互作用标注
+  type: resource
+  year: 2025
+  venue: IEEE JBHI
+  summary_zh: 用大语言模型和双向神经网络做跨域药物相互作用标注，并把中药相互作用纳入评测
+  tags:
+  - herbal
+  - extract
+  links:
+    DOI: https://doi.org/10.1109/jbhi.2025.3563289
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-cot-rag
+  name: TCM-CoT-RAG
+  type: resource
+  year: 2026
+  venue: Frontiers in Pharmacology
+  summary_zh: 面向中医风湿病临床决策的检索增强系统，用思维链约束专家式推理，降低大模型幻觉
+  tags:
+  - rag
+  - reasoning
+  links:
+    DOI: https://doi.org/10.3389/fphar.2026.1884526
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-hyperrag
+  name: TCM-HyperRAG
+  type: resource
+  year: 2026
+  venue: Digital Chinese Medicine
+  summary_zh: 用高阶知识超图增强中医疾病诊断和处方推荐，并把可追溯证据交给骨干大模型
+  tags:
+  - rag
+  - kg
+  - prescription
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2026.08.004
+  status: published
+  verified_at: '2026-10-21'
+- id: acugpt-agent
+  name: AcuGPT-Agent
+  type: resource
+  year: 2025
+  venue: Neurocomputing
+  orgs:
+  - 南京中医药大学
+  summary_zh: 面向针灸治疗不孕的大模型智能系统
+  tags:
+  - agent
+  links:
+    DOI: https://doi.org/10.1016/j.neucom.2025.131116
+  status: published
+  verified_at: '2026-10-21'
+- id: llm-sdat
+  name: LLM-SDaT
+  type: resource
+  year: 2026
+  venue: Neural Networks
+  orgs:
+  - 浙江大学
+  summary_zh: 把知识注入大模型，用于中医辨证
+  tags:
+  - reasoning
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.neunet.2026.108812
+  status: published
+  verified_at: '2026-10-21'
+- id: acukg
+  name: AcuKG
+  type: resource
+  year: 2025
+  venue: JAMIA
+  orgs:
+  - 中国中医科学院
+  summary_zh: 用实体识别、关系抽取和本体映射，把针灸指南、文献和临床试验整理成知识图谱
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1093/jamia/ocaf179
+  status: published
+  verified_at: '2026-10-21'
+- id: kampobench
+  name: KampoBench
+  type: resource
+  year: 2026
+  venue: medRxiv
+  summary_zh: 医师修订的汉方问诊基准：74个问诊场景、310条对话级评分标准，评的是问诊应用而不是考试得分
+  tags:
+  - benchmark
+  - evaluation
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.64898/2026.10.07.26365005
+  status: published
+  verified_at: '2026-10-21'
+- id: tkm-cpx-agent
+  name: 韩医CPX场景自动生成
+  type: resource
+  year: 2026
+  venue: Studies in Health Technology and Informatics
+  orgs:
+  - 韩国韩医学研究院
+  summary_zh: 用大模型和检索增强，加上多模态临床线索，自动生成韩医标准化病人CPX场景并给出量化反馈；10名专家验证
+  tags:
+  - agent
+  - rag
+  - east-asian-tm
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3233/shti260671
+  status: published
+  verified_at: '2026-10-21'
+- id: sdt-treat-bench
+  name: 辨证论治大模型基准数据集
+  type: resource
+  year: 2026
+  venue: Scientific Data
+  orgs:
+  - 中国中医科学院
+  - 中国科学院
+  - 天津大学
+  summary_zh: Scientific Data发布的辨证论治基准，用来评估大模型在中医个体化、整体性临床任务上的能力
+  tags:
+  - benchmark
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1038/s41597-026-07587-4
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-llm-practice-cm
+  name: 大模型连接中医知识与临床实践
+  type: resource
+  year: 2026
+  venue: Chinese Medicine
+  orgs:
+  - 杭州医学院
+  - 杭州师范大学
+  - 浙江工业大学
+  summary_zh: 讨论大语言模型如何把多源、隐性的中医知识和以证候为核心的临床诊疗连接起来
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1186/s13020-026-01489-8
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-kg-qa-bigcomp
+  name: 知识图谱增强的中医问答大模型
+  type: resource
+  year: 2026
+  venue: IEEE BigComp 2026
+  orgs:
+  - 燕山大学
+  - 福建中医药大学
+  - 暨南大学
+  summary_zh: 用知识图谱增强大模型的中医问答，补辨证推理并降低多源数据带来的幻觉
+  tags:
+  - kg
+  - rag
+  links:
+    DOI: https://doi.org/10.1109/bigcomp68355.2026.00029
+  status: published
+  verified_at: '2026-10-21'
+- id: hpr-dual-align
+  name: 医学知识增强的双层对齐中药处方推荐
+  type: resource
+  year: 2025
+  venue: IEEE BIBM 2025
+  orgs:
+  - 南京信息工程大学
+  summary_zh: 用医学知识增强的双层对齐网络做中药处方推荐，避免只依赖结构化输入或多阶段流水线
+  tags:
+  - prescription
+  - herbal
+  links:
+    DOI: https://doi.org/10.1109/bibm66473.2025.11356282
+  status: published
+  verified_at: '2026-10-21'
+- id: dmease
+  name: DMease
+  type: resource
+  year: 2025
+  venue: IEEE BIBM 2025
+  orgs:
+  - 北京邮电大学
+  - 北京中医药大学
+  summary_zh: 辅助中医师诊断和治疗糖尿病的人工智能工具
+  tags:
+  - tool
+  links:
+    DOI: https://doi.org/10.1109/bibm66473.2025.11356320
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-tongue-onto-llm
+  name: 用大模型构建中医舌诊本体
+  type: resource
+  year: 2025
+  venue: IEEE BIBM 2025
+  summary_zh: 用大语言模型辅助构建中医舌诊本体
+  tags:
+  - multimodal
+  - kg
+  links:
+    DOI: https://doi.org/10.1109/bibm66473.2025.11356313
+  status: published
+  verified_at: '2026-10-21'
+- id: acu-cases-kg
+  name: 名老中医针灸医案知识图谱
+  type: resource
+  year: 2024
+  venue: IEEE BIBM 2024
+  orgs:
+  - 中国中医科学院
+  summary_zh: 用大模型做信息抽取，构建名老中医针灸医案知识图谱
+  tags:
+  - kg
+  - extract
+  links:
+    DOI: https://doi.org/10.1109/bibm62325.2024.10821904
+  status: published
+  verified_at: '2026-10-21'
+- id: acu-llm-eswa
+  name: 针灸临床决策中的大模型补偿机制
+  type: resource
+  year: 2025
+  venue: Expert Systems with Applications
+  summary_zh: 分析大语言模型在针灸临床决策中的补偿机制
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1016/j.eswa.2025.130870
+  status: published
+  verified_at: '2026-10-21'
+- id: acu-llm-jmir
+  name: ChatGPT、DeepSeek与医师针灸方案对照
+  type: resource
+  year: 2026
+  venue: JMIR Formative Research
+  summary_zh: 比较ChatGPT、DeepSeek和医师生成的针灸治疗方案
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.2196/95851
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-instr-ft-dlut
+  name: 中医大模型指令微调
+  type: resource
+  year: 2025
+  venue: CCIS
+  orgs:
+  - 大连理工大学
+  summary_zh: 面向中医药任务对大语言模型做指令微调
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1007/978-981-96-1809-5_34
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-syndrome-ft
+  name: 面向辨证的大模型微调
+  type: resource
+  year: 2025
+  venue: CCIS
+  orgs:
+  - 河海大学
+  - 北京中医药大学
+  summary_zh: 微调大语言模型做中医辨证
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1007/978-981-96-4298-4_4
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-kg-qa-ccis
+  name: 中医药知识图谱问答系统
+  type: resource
+  year: 2025
+  venue: CCIS
+  summary_zh: 把中医药知识图谱和大语言模型接成智能问答系统
+  tags:
+  - kg
+  - rag
+  links:
+    DOI: https://doi.org/10.1007/978-981-96-1809-5_26
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-consult-kg-llm
+  name: 中医问诊中的大模型与知识图谱
+  type: resource
+  year: 2025
+  venue: CCIS
+  orgs:
+  - 天津大学
+  - 天津中医药大学
+  summary_zh: 以中医问诊为例，把大语言模型和知识图谱结合起来
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1007/978-981-96-1809-5_28
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-rx-multistage
+  name: 多阶段学习的中医处方推荐大模型
+  type: resource
+  year: 2026
+  venue: CCIS
+  orgs:
+  - 厦门大学
+  summary_zh: 用多阶段学习训练面向中医处方推荐的大语言模型
+  tags:
+  - prescription
+  links:
+    DOI: https://doi.org/10.1007/978-981-92-0291-1_11
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-patent-re
+  name: 中医药专利关系抽取
+  type: resource
+  year: 2025
+  venue: Lecture Notes on Data Engineering and Communications Technologies
+  orgs:
+  - 湖北工业大学
+  summary_zh: 用大语言模型和多样化语义交互抽取中医药专利中的关系
+  tags:
+  - extract
+  links:
+    DOI: https://doi.org/10.1007/978-3-032-10344-4_1
+  status: published
+  verified_at: '2026-10-21'
+- id: llama3-tcm-iet
+  name: 基于Llama3的中医大模型
+  type: resource
+  year: 2025
+  venue: IET
+  orgs:
+  - 暨南大学
+  summary_zh: 在中医数据上微调Llama 3、Phi-3.5和Mistral，补通用模型对中文中医语料的不足
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1049/icp.2025.1017
+  status: published
+  verified_at: '2026-10-21'
+- id: tcmhp
+  name: TCMHP
+  type: resource
+  year: 2025
+  venue: SPIE
+  orgs:
+  - 郑州大学
+  - 国家超算郑州中心
+  summary_zh: 面向中医养生（治未病）的大语言模型，用专业数据补理论体系难以直接智能化的问题
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1117/12.3068496
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-physio-kg-llm
+  name: 动态知识图谱与大模型的中医生理建模
+  type: resource
+  year: 2025
+  venue: IEEE ICCBDAI 2025
+  orgs:
+  - 北京科技大学
+  summary_zh: 把动态知识图谱接进大模型，补中医生理知识覆盖不足和更新成本高的问题
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1109/iccbdai66607.2025.11388184
+  status: published
+  verified_at: '2026-10-21'
+- id: tcmqa
+  name: TCMQA
+  type: resource
+  year: 2026
+  venue: arXiv
+  summary_zh: 38279道中医执照考试题，并配101名执业医师的15151条作答作为人类参照
+  tags:
+  - benchmark
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/2609.33014
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-clinical-reason
+  name: TCMClinicalReason-Bench
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 南京中医药大学
+  summary_zh: 用2000份多中心电子病历，检验模型能否按病例证据完成从病因病机、证候、治则到处方的推理
+  tags:
+  - benchmark
+  - evaluation
+  - reasoning
+  links:
+    论文: https://arxiv.org/abs/2610.04215
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-rx-sss
+  name: 理法方药对齐的中医处方生成
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 清华大学
+  summary_zh: 四阶段对齐处方生成：补可审计的理法方药推理、随证加减，以及十八反等禁忌
+  tags:
+  - prescription
+  - reasoning
+  links:
+    论文: https://arxiv.org/abs/2609.25755
+  status: published
+  verified_at: '2026-10-21'
+- id: tcmscience
+  name: TCMScience
+  type: resource
+  year: 2026
+  venue: arXiv
+  summary_zh: 中医科研发现智能体，把语言模型提案与执行、发布权限分开，避免不同证据类型混推
+  tags:
+  - agent
+  - tool
+  links:
+    论文: https://arxiv.org/abs/2610.24601
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-falsify-agent
+  name: 证伪导向的可审计辨证协议
+  type: resource
+  year: 2026
+  venue: arXiv
+  summary_zh: 在公开TCMEval-SDT的200例辨证上，用与具体模型无关的证伪协议约束可审计决策，强调输出纪律而不只是换更大的模型
+  tags:
+  - agent
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/2610.18298
+  status: published
+  verified_at: '2026-10-21'
+- id: linglan-mm-llm
+  name: LingLan多模态辨证大模型
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 清华大学深圳国际研究生院
+  summary_zh: 面向望闻问切多模态数据的中医诊断大模型。与灵兰秘典评测基准（arXiv 2602.01779）不是同一篇
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2609.25715
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-sdt-treat-bench
+  name: 辨证论治基准数据集
+  type: dataset
+  year: 2026
+  venue: Scientific Data
+  section: 评测基准
+  title_zh: 大模型辨证论治评测基准
+  orgs:
+  - 中国中医科学院
+  - 中国科学院
+  - 天津大学
+  summary_zh: Scientific Data发布的辨证论治基准，用来评估大模型的中医临床应用能力
+  tags:
+  - benchmark
+  links:
+    论文: https://doi.org/10.1038/s41597-026-07587-4
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcmqa
+  name: TCMQA
+  type: dataset
+  year: 2026
+  venue: arXiv
+  section: 考试数据集
+  title_zh: 带执业医师参照的38279题中医考试基准
+  summary_zh: 38279道中医执照考试题，并配101名执业医师的15151条作答
+  tags:
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2609.33014
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcm-clinical-reason
+  name: TCMClinicalReason-Bench
+  type: dataset
+  year: 2026
+  venue: arXiv
+  section: 评测基准
+  title_zh: 从病机到处方的真实病历推理基准
+  orgs:
+  - 南京中医药大学
+  summary_zh: 2000份多中心电子病历，检验模型能否按病例证据完成从病因病机到处方的推理
+  tags:
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2610.04215
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-kampobench
+  name: KampoBench
+  type: dataset
+  year: 2026
+  venue: medRxiv
+  section: 东亚传统医学
+  title_zh: 医师修订的汉方问诊基准
+  summary_zh: 74个汉方问诊场景、310条对话级评分标准，由持证汉方医师修订
+  tags:
+  - benchmark
+  - east-asian-tm
+  links:
+    论文: https://doi.org/10.64898/2026.10.07.26365005
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-acukg
+  name: AcuKG
+  type: dataset
+  year: 2025
+  venue: JAMIA
+  section: 知识图谱
+  title_zh: 针灸知识图谱
+  orgs:
+  - 中国中医科学院
+  summary_zh: 综合针灸知识图谱，来源包括指南、PubMed、临床试验和本体映射
+  tags:
+  - kg
+  links:
+    论文: https://doi.org/10.1093/jamia/ocaf179
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn117493579
+  name: 一种基于大语言模型的中医知识图谱构建方法
+  type: patent
+  year: 2024
+  date: '2024.02'
+  venue: CN117493579A
+  summary_zh: 用大语言模型从中医文本抽取命名实体和实体关系，按相似度融合后生成中医知识图谱（公开，未授权）
+  orgs:
+  - 同济大学
+  tags:
+  - patent
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN117493579A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn118070907
+  name: 一种基于大语言模型的中医客服回复系统
+  type: patent
+  year: 2024
+  date: '2024.05'
+  venue: CN118070907A
+  summary_zh: 用同义词增广中医资料并训练Transformer大语言模型，微调后解析客户请求并生成回复；该申请于2024-07-09授权为CN118070907B
+  orgs:
+  - 卓世智星（天津）科技有限公司
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN118070907A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn118098506
+  name: 一种基于大语言模型的针灸辅助诊疗和模型评价的方法
+  type: patent
+  year: 2024
+  date: '2024.05'
+  venue: CN118098506A
+  summary_zh: 用标注症状和穴位操作的数据微调ChatGLM3-6B，输出针灸方案，并用句子相似度评价生成结果（公开，未授权）
+  orgs:
+  - 东北大学
+  tags:
+  - patent
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN118098506A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn118280556
+  name: 一种基于计算视觉与大语言模型辅助中医诊疗的系统
+  type: patent
+  year: 2024
+  date: '2024.07'
+  venue: CN118280556A
+  summary_zh: 大语言模型处理语音问诊，计算机视觉把患者图像转成诊断信息，检索增强后作为大语言模型输入，辅助中医诊疗（公开，未授权）
+  orgs:
+  - 深圳金草健康科技有限公司
+  tags:
+  - patent
+  - multimodal
+  - rag
+  links:
+    专利: https://patents.google.com/patent/CN118280556A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn118430833
+  name: 一种基于大语言模型的中医知识深度挖掘方法
+  type: patent
+  year: 2024
+  date: '2024.08'
+  venue: CN118430833A
+  summary_zh: 同时训练检索增强和模型微调，使系统既能解释中医名词和证候，也能按患者输入给出治疗方案（公开，未授权）
+  orgs:
+  - 西南大学
+  tags:
+  - patent
+  - rag
+  links:
+    专利: https://patents.google.com/patent/CN118430833A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn117786590
+  name: 以大语言模型为先验的智能中医系统
+  type: patent
+  year: 2024
+  date: '2024.08'
+  venue: CN117786590B
+  summary_zh: 用大语言模型优化患者诊断文本，再做语义理解，预测中医证候和病因并给出治疗建议（已授权）
+  orgs:
+  - 上海源庐加佳信息科技有限公司
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN117786590B/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn118899077
+  name: 一种基于多模态大模型的中医舌诊分析系统及方法
+  type: patent
+  year: 2024
+  date: '2024.11'
+  venue: CN118899077A
+  summary_zh: 用舌面象指令数据微调LLaMA等通用大语言模型，形成TongueLMM，用于舌诊解读、多轮问答和体质推理（公开，未授权）
+  orgs:
+  - 合肥云诊信息科技有限公司
+  tags:
+  - patent
+  - multimodal
+  links:
+    专利: https://patents.google.com/patent/CN118899077A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119446558
+  name: 一种基于大语言模型的中医知识图谱生成方法及系统
+  type: patent
+  year: 2025
+  date: '2025.02'
+  venue: CN119446558A
+  summary_zh: 以中药和诊察治疗数据训练模型，按患者信息可视化输出治疗方案，并用疗效反馈继续更新模型（公开，未授权）
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - patent
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN119446558A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119517372
+  name: 一种基于大语言模型的中医问答系统及方法
+  type: patent
+  year: 2025
+  date: '2025.02'
+  venue: CN119517372A
+  summary_zh: 从中医药文献构建数据集并训练大语言模型，接收用户医学问题后生成对话回答（公开，未授权）
+  orgs:
+  - 郑新翰
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN119517372A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119252469
+  name: 一种用于智能中医系统的大语言模型的构建方法
+  type: patent
+  year: 2025
+  date: '2025.04'
+  venue: CN119252469B
+  summary_zh: 用舌诊图像标记和历史病历训练舌诊问诊模型，并据此构建用于智能中医系统的大语言模型（已授权）
+  orgs:
+  - 深圳问止中医健康科技有限公司
+  tags:
+  - patent
+  - multimodal
+  links:
+    专利: https://patents.google.com/patent/CN119252469B/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119811630
+  name: 应用大语言模型的泌尿科中医问诊结果预测方法和系统
+  type: patent
+  year: 2025
+  date: '2025.04'
+  venue: CN119811630B
+  summary_zh: 用大语言模型从泌尿科中医问诊描述预测病灶核心关键词，并按反馈数据实时调整模型参数（2026.03 授权；申请公布日 2025-04-11）
+  orgs:
+  - 中医药广东省实验室
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN119811630B/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119811698
+  name: 一种基于OCR识别和大模型的中药方数据解析方法及装置
+  type: patent
+  year: 2025
+  date: '2025.04'
+  venue: CN119811698B
+  summary_zh: 对手写中药方做OCR，把相冲、用量和服药建议拼成提示词送入大模型，生成处方综合判断（2025.06 授权；申请公布日 2025-04-11）
+  orgs:
+  - 同力天合（北京）管理软件股份有限公司
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN119811698B/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120108651
+  name: 基于胸肺科中医问诊报告大语言模型的中医方剂推荐方法和系统
+  type: patent
+  year: 2025
+  date: '2025.06'
+  venue: CN120108651A
+  summary_zh: 用多知识域共享微调胸肺科中医问诊大语言模型，输出体质和症状参数，并推荐药食同源方剂（公开，未授权）
+  orgs:
+  - 澳门科技大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN120108651A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120216657
+  name: 基于大语言模型的中药药物警戒问答系统的构建方法
+  type: patent
+  year: 2025
+  date: '2025.06'
+  venue: CN120216657A
+  summary_zh: 建立中药知识库并训练药物警戒检索增强模型PV-RAG，按自然语言提问生成中药安全回答（公开，未授权）
+  orgs:
+  - 南京邮电大学
+  tags:
+  - patent
+  - rag
+  links:
+    专利: https://patents.google.com/patent/CN120216657A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120337029
+  name: 一种基于大模型的中药分类方法
+  type: patent
+  year: 2025
+  date: '2025.07'
+  venue: CN120337029A
+  summary_zh: 对多源中药数据做实体识别并映射现代药理指标，再自适应微调预训练大模型完成中药分类（公开，未授权）
+  orgs:
+  - 湖南省中医药研究院
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN120337029A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120809097
+  name: 基于大语言模型的中医五音疗疾个性化音乐生成系统及其构建方法
+  type: patent
+  year: 2025
+  date: '2025.10'
+  venue: CN120809097A
+  summary_zh: 先用大语言模型做中医辨证，再在五音特征约束下生成个性化五音治疗音乐（公开，未授权）
+  orgs:
+  - 苏州昂升网络科技有限公司
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN120809097A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121034544
+  name: 融合动态知识图谱的针灸大模型辨证方法及调理优化系统
+  type: patent
+  year: 2025
+  date: '2025.11'
+  venue: CN121034544A
+  summary_zh: 动态更新针灸知识图谱，结合患者时序临床特征，用图注意力和强化学习辨证并生成针灸方案（公开，未授权）
+  orgs:
+  - 广东中科凯泽信息科技有限公司
+  tags:
+  - patent
+  - kg
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN121034544A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121096596
+  name: 一种基于多模态大语言模型的中医临床辅助决策系统和方法
+  type: patent
+  year: 2025
+  date: '2025.12'
+  venue: CN121096596A
+  summary_zh: 融合舌象视觉特征与临床文本，检索相似病例后，由多模态大语言模型生成证候、诊断、中药处方和推理过程（公开，未授权）
+  orgs:
+  - 清华大学深圳国际研究生院
+  tags:
+  - patent
+  - multimodal
+  - rag
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN121096596A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121210613
+  name: 基于检索增强生成的针灸大模型构建方法、系统及装置
+  type: patent
+  year: 2025
+  date: '2025.12'
+  venue: CN121210613A
+  summary_zh: 训练针灸大语言模型，问答请求做知识库向量检索后生成回答，诊断请求再检索针灸方案库给出治疗条目（公开，未授权）
+  orgs:
+  - 北京科技大学
+  tags:
+  - patent
+  - rag
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN121210613A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121212280
+  name: 一种基于大语言模型的人-信息-物理三元数据融合中药制造知识图谱构建系统、电子设备及存储介质
+  type: patent
+  year: 2025
+  date: '2025.12'
+  venue: CN121212280A
+  summary_zh: 用大语言模型按中药术语和关系约束从制造文本抽取三元组，再按人-信息-物理本体构建中药制造知识图谱（公开，未授权）
+  orgs:
+  - 北京中医药大学
+  tags:
+  - patent
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN121212280A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121393746
+  name: 基于大语言模型的经络辨证与针灸方案生成方法及系统
+  type: patent
+  year: 2026
+  date: '2026.01'
+  venue: CN121393746A
+  summary_zh: 把多源诊疗数据量化并提质后，结合经络辨证知识库和大语言模型生成针灸方案（公开，未授权）
+  orgs:
+  - 广东中科凯泽信息科技有限公司
+  - 广州双龙脉健康产业科技有限公司
+  tags:
+  - patent
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN121393746A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122050683
+  name: 一种基于图注意力网络与大语言模型的中药处方生成方法
+  type: patent
+  year: 2026
+  date: '2026.05'
+  venue: CN122050683A
+  summary_zh: 把中药处方生成转为多标签分类，用图注意力网络和大语言模型建模药物协同与禁忌（公开，未授权）
+  orgs:
+  - 杭州市第一人民医院（西湖大学附属杭州市第一人民医院）
+  - 浙江工商大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN122050683A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122245713
+  name: 基于大语言模型的中医智能问诊方法及系统
+  type: patent
+  year: 2026
+  date: '2026.06'
+  venue: CN122245713A
+  summary_zh: 从多模态问诊数据解析问诊意图，再用双路径检索中医知识，生成问诊结果（公开，未授权）
+  orgs:
+  - 深圳市蓝宇飞扬科技有限公司
+  tags:
+  - patent
+  - multimodal
+  - rag
+  links:
+    专利: https://patents.google.com/patent/CN122245713A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122364665
+  name: 一种基于大语言模型的中医古籍症状标准化处理方法
+  type: patent
+  year: 2026
+  date: '2026.07'
+  venue: CN122364665A
+  summary_zh: 用大语言模型从中医古籍切片识别候选症状，并映射到标准症状语义场完成术语标准化（公开，未授权）
+  orgs:
+  - 黑龙江中医药大学
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN122364665A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202501-08
+  name: 学校与河南中医药大学联合发布“中医药大模型”
+  type: news
+  year: 2025
+  date: '2025.01'
+  summary_zh: 2025年1月8日，北京科技大学联合河南中医药大学发布张仲景中医药大模型1.0，功能包括智能辨证、证素推荐、经方应用和方药分析。
+  orgs:
+  - 北京科技大学
+  - 河南中医药大学
+  tags:
+  - product
+  links:
+    链接: https://news.ustb.edu.cn/info/1087/67760.htm
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202503-13
+  name: “AI中医”开处方！南中医科研团队推出“黄煌经方AI辅助诊疗系统”
+  type: news
+  year: 2025
+  date: '2025.03'
+  summary_zh: 新华网报道，2025年3月13日南京中医药大学黄煌团队与杭州脉景健康发布黄煌经方AI辅助诊疗系统，用大语言模型与知识图谱把“方人相应”做成可计算诊疗流程。
+  orgs:
+  - 南京中医药大学
+  - 杭州脉景健康管理有限公司
+  tags:
+  - product
+  - agent
+  links:
+    链接: http://www.js.xinhuanet.com/20250314/aa816bb98d1041afa0fa7bca45583d1b/c.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202503-31
+  name: 合肥云诊信息科技有限公司重磅发布中医药领域大模型——“云诊华医大模型”
+  type: news
+  year: 2025
+  date: '2025.03'
+  summary_zh: 云诊科技官网称，公司基于自研舌诊多模态模型TongueLMM和DeepSeek-R1发布云诊华医大模型，用于辨证论治、体质辨识和诊疗报告生成。
+  orgs:
+  - 合肥云诊信息科技有限公司
+  tags:
+  - product
+  - multimodal
+  links:
+    链接: https://www.ai-tongue.com/pages/news/2025/04/9a6f1920-4819-406e-8d1f-6ba0b838a7f8.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202504-12
+  name: 九为健康联合华为云发布神农中医大模型智能体，解码如何用大模型重构“望闻问切”
+  type: news
+  year: 2025
+  date: '2025.04'
+  summary_zh: 凤凰网报道，2025年4月11日华为云生态大会上，九为健康发布基于盘古大模型的九为神农中医大模型智能体，覆盖药物研发、复方优化和辅助诊疗。
+  orgs:
+  - 浙江九为健康科技股份有限公司
+  - 华为云
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://biz.ifeng.com/c/8iTNRXVw44k
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202505-11
+  name: 国内首个中药学科生成式人工智能教育专用大模型“薪火中国药”智思体1.0版正式发布
+  type: news
+  year: 2025
+  date: '2025.05'
+  summary_zh: 北京中医药大学官网称，2025年5月10日发布薪火中国药智思体1.0，依托讯飞星火与DeepSeek，参数超700亿，面向助学、助教、助研、助管和国际合作。
+  orgs:
+  - 北京中医药大学
+  - 科大讯飞
+  tags:
+  - product
+  links:
+    链接: https://www.bucm.edu.cn/bzyyw/1c0b0fe535764fcc886c87b560caa0ee.htm
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202506-06
+  name: 科技赋能中医药传承创新发展 南京中医药大学“灵山中医”“素山中药”大模型正式发布
+  type: news
+  year: 2025
+  date: '2025.06'
+  summary_zh: 南京中医药大学人工智能与信息技术学院页面称，2025年6月6日发布灵山中医大模型（小杏仁）和素山中药大模型（素山智思体），分别服务中医临床教学科研和中药学教学科研。
+  orgs:
+  - 南京中医药大学
+  tags:
+  - product
+  links:
+    链接: https://xxjs.njucm.edu.cn/2025/0529/c445a156198/pagem.htm
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202506-18
+  name: 数据标注优秀案例集之四十六｜AI数据标注助力中医药领域高质量发展
+  type: news
+  year: 2025
+  date: '2025.06'
+  summary_zh: 国家数据局收录成都中医药大学案例：用大模型对996册中医古籍做自动分词和实体识别，并基于ChatGLM-6B关联中医术语、构建穴位-脏腑等知识图谱。
+  orgs:
+  - 成都中医药大学
+  - 国家数据局
+  tags:
+  - policy
+  links:
+    链接: https://www.nda.gov.cn/sjj/ywpd/szkjyjcss/0618/20250618095629525611799_pc.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202508-06
+  name: 中医AI大模型问世，传神与湖北中医药大学、湖北时珍实验室合作
+  type: news
+  year: 2025
+  date: '2025.08'
+  summary_zh: 湖北日报报道，2025年8月6日湖北中医药大学、湖北时珍实验室与传神语联签约，以传神·素问中医大模型开展产学研用合作。
+  orgs:
+  - 湖北中医药大学
+  - 湖北时珍实验室
+  - 传神语联
+  tags:
+  - product
+  links:
+    链接: https://news.hubeidaily.net/mobile/c_4393128.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202509-12
+  name: 服贸会｜广医·岐智2.0发布，中医最强大脑燃爆服贸会
+  type: news
+  year: 2025
+  date: '2025.09'
+  summary_zh: 广安门医院官网称，2025年9月12日服贸会论坛发布广医·岐智2.0，并推出AI医生安安，已出现在门诊导诊屏和预问诊界面。
+  orgs:
+  - 中国中医科学院广安门医院
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.gamyy.cn/gzb/news/big/113898.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202509-10
+  name: 2025服贸会｜中国中医科学院精彩亮相2025服贸会
+  type: news
+  year: 2025
+  date: '2025.09'
+  summary_zh: 中国中医科学院官网称，2025年9月10日至14日服贸会上，其智能科学与工程技术研究中心展示大医金匮大语言模型与多轮问诊系统，以及舌诊仪和移动中医智能检测厅。
+  orgs:
+  - 中国中医科学院
+  tags:
+  - product
+  links:
+    链接: https://www.cacms.ac.cn/news_dynamic/detail/5080.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202511-02
+  name: 学校与郑州市卫健委、郑州市中医院、河南中医药大学数智中医药研究院联合发布“岐黄针灸”大模型
+  type: news
+  year: 2025
+  date: '2025.11'
+  summary_zh: 北京科技大学新闻网称，2025年11月2日郑州大会上，学校联合郑州市卫健委、郑州市中医院和河南中医药大学数智中医药研究院发布岐黄针灸大模型，四诊采集后生成针灸处方。
+  orgs:
+  - 北京科技大学
+  - 郑州市卫生健康委员会
+  - 郑州市中医院
+  - 河南中医药大学数智中医药研究院
+  tags:
+  - product
+  - multimodal
+  links:
+    链接: https://news.ustb.edu.cn/info/1087/72015.htm
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202601-08
+  name: 喜讯！我校“中医药AI模型高质量数据集”项目入选国家人工智能医疗器械揭榜挂帅名单
+  type: news
+  year: 2026
+  date: '2026.01'
+  summary_zh: 成都中医药大学官网称，温川飙团队牵头的“中医药AI模型高质量数据集”（项目编号2025-AISJK-02013）入选工信部与药监局2025年度人工智能医疗器械创新任务揭榜名单。
+  orgs:
+  - 成都中医药大学
+  tags:
+  - policy
+  links:
+    链接: https://www.cdutcm.edu.cn/info/1074/138321.htm
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202603-17
+  name: 人工智能+名老中医专家经验数字化传承工作研讨会召开
+  type: news
+  year: 2026
+  date: '2026.03'
+  summary_zh: 中国中医药报报道，2026年3月17日研讨会上，中医药信息研究所所长李海燕介绍医源中医大模型已用于医案结构化、智能问诊、处方推荐和中成药合理使用等场景。
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - product
+  links:
+    链接: https://www.cntcm.com.cn/content/202603/20/c501417.html
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-gancao-tcm-instruct
+  name: Gancao-TCM-Instruct
+  type: dataset
+  year: 2026
+  section: 指令/对话数据集
+  summary_zh: 甘草中医诊疗指令数据集公开版含 25000 例、125000 条样本，覆盖疾病诊断、证候诊断、治法选择、基础方剂选择和具体中药选择。
+  tags:
+  - sft
+  - prescription
+  links:
+    数据集: https://huggingface.co/datasets/GancaoDoctorAI/gancao-tcm-instruct
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - GancaoDoctorAI
+- id: ds-tricmdf-acupuncture
+  name: TriCM-DF Acupuncture Corpus
+  type: dataset
+  year: 2026
+  section: 指令/对话数据集
+  summary_zh: 面向中医大模型的专家审核指令语料，在针灸子领域按共识、专家经验和感知三个维度发布；仓库公开文本表，图像和视频文件不随包提供。
+  tags:
+  - sft
+  - multimodal
+  links:
+    数据集: https://huggingface.co/datasets/Shutcm-TCME/TriCMDF
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - Shutcm-TCME
+- id: ds-tcm-classics-clauses
+  name: tc_medical_base
+  type: dataset
+  year: 2026
+  section: 原始书籍 / 预训练语料
+  summary_zh: 五部中医典籍的条文级语料共 3569 条，并带有 sentence-BERT 向量，书目为宋本伤寒论、桂林古本伤寒杂病论、金匮玉函经、金匮要略方论和傅青主女科。
+  tags:
+  - corpus
+  - ancient-books
+  - rag
+  links:
+    数据集: https://huggingface.co/datasets/huckiyang/tc_medical_base
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - huckiyang
+- id: ds-famous-old-tcm-cases
+  name: Famous Old TCM Doctors Cases
+  type: dataset
+  year: 2024
+  section: 临床结构化 / 处方
+  summary_zh: 来源于《当代名老中医典型医案集》的当代名老中医门诊病案，数据卡写明每案含病情描述、辨证论治思路和治疗方药。
+  tags:
+  - clinical
+  - cases
+  - prescription
+  links:
+    数据集: https://huggingface.co/datasets/TCMLM/real_clinical_cases_of_Famous_Old_TCM_Doctors
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - TCMLM
+- id: ds-tcmle
+  name: TCMLE
+  type: dataset
+  year: 2025
+  section: 考试数据集
+  summary_zh: 中医执业医师与执业助理医师资格考试题库共 7956 题，其中助理医师 2700 题、执业医师 5256 题，含真题和模拟题。
+  tags:
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/Bolin97/TCMLE
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - Bolin97
+- id: ds-pharmacist-tcm-2023
+  name: 2023 Pharmacist Licensure Examination TCM Track
+  type: dataset
+  year: 2023
+  section: 考试数据集
+  summary_zh: 2023 年中国执业药师资格考试中药学轨道试题，数据卡写明来自网络收集，并指向 FreedomIntelligence/HuatuoGPT-II 仓库。
+  tags:
+  - pharmacy
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/FreedomIntelligence/2023_Pharmacist_Licensure_Examination-TCM_track
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - FreedomIntelligence
+- id: ds-tw-moe-tcm-mcq
+  name: Taiwan TCM Examination MCQ
+  type: dataset
+  year: 2024
+  section: 考试数据集
+  summary_zh: 来自台湾考选部网站的国家中医考试历届试题，README 写明年份为民国 96 至 111 年且不含 110 年，仓库文件为 basic theory of traditional
+    Chinese medicine.csv。
+  tags:
+  - taiwan
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/Liavan/Traditional-Chinese-Medicine-Multiple_choice_question
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - Liavan
+- id: ds-jtb-tw-tcm-exam
+  name: JTB Taiwan TCM Exam Questions
+  type: dataset
+  year: 2024
+  section: 考试数据集
+  summary_zh: JTB Tech 整理的台湾考选部中医相关试题，README 写明覆盖民国 90 年至 113 年，科目包括中医内科学、中医基础医学和中医临床医学。
+  tags:
+  - taiwan
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/JTBTechnology/tcm_exam_questions
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - JTB Tech
+- id: ds-cmmlu-tcm
+  name: CMMLU Traditional Chinese Medicine
+  type: dataset
+  year: 2024
+  section: 评测基准
+  summary_zh: CMMLU 中医测试集，数据卡写明可用 load_dataset 加载 185 条样本，文件为 traditional_chinese_medicine.json。
+  tags:
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/shuyuej/CMMLU-Traditional-Chinese-Medicine-Benchmark
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - shuyuej
+- id: ds-tcm-drug-name-overrely
+  name: Chinese Drug Name Overreliance Set
+  type: dataset
+  year: 2025
+  section: 评测基准
+  summary_zh: 论文 Do "New Snow Tablets" Contain Snow? 的实验数据，用于检验大模型是否凭名称判断中药成分，卡内链接 arXiv:2504.03786。
+  tags:
+  - benchmark
+  - herbal
+  links:
+    数据集: https://huggingface.co/datasets/med-llm/tcm-llm-overrely-on-names
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - med-llm
+- id: ds-tongue-color-cls
+  name: TongueProjectTCM Color Classification
+  type: dataset
+  year: 2025
+  section: 评测基准
+  summary_zh: TongueProjectTCM 舌图像颜色分类数据，数据卡列出图像和整数标签，训练集 807 条、验证集 121 条。
+  tags:
+  - multimodal
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/TongueProjectTCM/color-classification-opensource
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - TongueProjectTCM
+- id: ds-tcm19w-sft-part
+  name: TCM_19W_DataSet-SFT (part)
+  type: dataset
+  year: 2024
+  section: 指令/对话数据集
+  summary_zh: 数据卡写明这是非网络来源的高质量中医指令微调数据的一部分，仓库文件为 TCM19W_Part1.json。
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/cduoduo/TCM_19W_DataSet-SFT
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - cduoduo
+- id: ds-tw-tcm-cot
+  name: tw-tcm
+  type: dataset
+  year: 2025
+  section: 指令/对话数据集
+  summary_zh: minyichen/tw-tcm 的数据卡给出 8145 条训练样本，字段包括 question、answer、source 和 think。
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/minyichen/tw-tcm
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - minyichen
+- id: ds-tcm-humanities-mcq
+  name: TCM Humanities MCQ
+  type: dataset
+  year: 2024
+  section: 考试数据集
+  summary_zh: 中医药语言模型团队整理的选择题，数据卡写明内容为医学人文、医学伦理和医师法规，来自中国医师资格考试相关题目，规模标注为不到 1000 条。
+  tags:
+  - ethics
+  - benchmark
+  links:
+    数据集: https://huggingface.co/datasets/TCMLM/TCM_Humanities
+  status: published
+  verified_at: '2026-10-21'
+  venue: Hugging Face
+  orgs:
+  - TCMLM
+- id: ds-tcm-formula-names
+  name: Cross-linguistic TCM Formula Names
+  type: dataset
+  year: 2026
+  section: 中药组方 / 提取物
+  summary_zh: 中医方剂名称的跨语言对照表，覆盖中文、日本汉方、韩国韩医和英文，Zenodo 说明依据台湾官方方剂书和常用临床文献整理，文件为 xlsx。
+  tags:
+  - prescription
+  - east-asian-tm
+  - benchmark
+  - herbal
+  links:
+    数据集: https://zenodo.org/records/18724305
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Kao, TzuChen
+- id: ds-tcm-semkg-v2
+  name: TCM Disease-Pattern-Symptom-Herb KG v2
+  type: dataset
+  year: 2026
+  section: 知识图谱
+  summary_zh: 连接疾病、证候、症状和中药的语义知识图谱 2.0，Zenodo 文件为 node-v2-eng260502.csv 与 edge-v2-eng260502.csv。
+  tags:
+  - kg
+  - herbal
+  links:
+    数据集: https://zenodo.org/records/18173423
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Li, Yuanbai
+  - Yang, Yang
+- id: ds-tcm-term-llm-eval
+  name: WHO TCM Terminology LLM Evaluation Set
+  type: dataset
+  year: 2026
+  section: 评测基准
+  summary_zh: 用于评估大模型充当中医术语评价者的数据，DataCite 说明含 376 条来自 2022 年 WHO 中医国际标准术语的术语对照。
+  tags:
+  - benchmark
+  links:
+    数据集: https://zenodo.org/records/21852353
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Yu, Xiaoxiao
+  - Yap, Teng Teng
+- id: ds-tcm-prompt-lang
+  name: TCM Term Prompt-Language Responses
+  type: dataset
+  year: 2026
+  section: 评测基准
+  summary_zh: 18 个中医术语在 6 个通用模型、中英马来三种提示语言、各 3 次运行下生成的 972 条模型回答，并附 WHO 2007 与 2022 术语参照。
+  tags:
+  - benchmark
+  links:
+    数据集: https://zenodo.org/records/22208549
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Yu, Xiaoxiao
+  - Yap, Teng Teng
+- id: ds-herb-efficacy-relations
+  name: Chinese Herbal Efficacy Relations
+  type: dataset
+  year: 2026
+  section: 知识图谱
+  summary_zh: 把中药传统功效从自然语言整理成可计算的药–功效关系，DataCite 说明用途包括知识图谱构建、方剂功效预测和药–症关联。
+  tags:
+  - kg
+  - herbal
+  - prescription
+  links:
+    数据集: https://zenodo.org/records/18207409
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Li, Yuanbai
+  - Yang, Yang
+- id: ds-tonguebench-2694
+  name: TongueBench
+  type: dataset
+  year: 2026
+  section: 评测基准
+  summary_zh: 经质量控制的舌象照片集，Zenodo 说明含 2694 张舌照片及文件级元数据，公开文件为 TongueBench Dataset.zip。
+  tags:
+  - multimodal
+  - benchmark
+  links:
+    数据集: https://zenodo.org/records/20701288
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Meng, Yihan
+  - Cui, Nuan
+  - Kong, Shufeng
+- id: ds-sciencedb-tcm-qa
+  name: TCM Knowledge Q&A
+  type: dataset
+  year: 2025
+  section: 指令/对话数据集
+  summary_zh: Science Data Bank 数据集，DataCite 说明以中医经典文献构建，含 6157 条问答知识对。
+  tags:
+  - qa
+  - sft
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.j00133.00565
+  status: published
+  verified_at: '2026-10-21'
+  venue: Science Data Bank
+  orgs:
+  - xu tian yi
+- id: ds-sciencedb-tcm-case-gen
+  name: TCM Medical Case Commentary Generation
+  type: dataset
+  year: 2026
+  section: 指令/对话数据集
+  summary_zh: 面向中医医案评注生成的数据，DataCite 说明含 510 条标准化原始医案，以及合计 2550 条的训练和测试实例，材料来自妇科经典。
+  tags:
+  - sft
+  - clinical
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.j00133.00679
+  status: published
+  verified_at: '2026-10-21'
+  venue: Science Data Bank
+  orgs:
+  - chang kai
+  - Xiao Yong
+- id: ds-tcmefo
+  name: TCMEFO
+  type: dataset
+  year: 2026
+  section: 知识图谱
+  summary_zh: 中医功效形式化本体，DataCite 说明用于功效概念、关系和中药实例的分层可计算表示。
+  tags:
+  - kg
+  - herbal
+  links:
+    数据集: https://doi.org/10.6084/m9.figshare.32677743
+  status: published
+  verified_at: '2026-10-21'
+  venue: figshare
+  orgs:
+  - Yan, Dengyin
+  - Jiang, Shengbei
+- id: ds-chm-315
+  name: CHM-315
+  type: dataset
+  year: 2026
+  section: 中药组方 / 提取物
+  summary_zh: 中药材细粒度图像集，DataCite 说明包含 315 类常用中药、共 126000 张图像，每类 400 张。
+  tags:
+  - herbal
+  - multimodal
+  links:
+    数据集: https://doi.org/10.6084/m9.figshare.32745123
+  status: published
+  verified_at: '2026-10-21'
+  venue: figshare
+  orgs:
+  - Zou, Fuxian
+- id: ds-herbpairiam
+  name: HerbPairIAM
+  type: dataset
+  year: 2026
+  section: 东亚传统医学
+  summary_zh: 汉方复方药物不良反应信号的成分归因数据与模型产物，Zenodo 记录含 HerbPairIAM zip 及 README。
+  tags:
+  - east-asian-tm
+  - prescription
+  - herbal
+  links:
+    数据集: https://zenodo.org/records/19326537
+  status: published
+  verified_at: '2026-10-21'
+  venue: Zenodo
+  orgs:
+  - Shi, Bowen
+- id: ds-baize-botanical-images
+  name: Baize TCM Botanical Origin Images
+  type: dataset
+  year: 2026
+  section: 中药组方 / 提取物
+  summary_zh: 药用植物基原鉴定图像数据，DataCite 标题写明用于 Baize Traditional Chinese Medicine，包含生境、原植物和药用部位图像，以及依据中国药典、中国植物志和恩格勒系统的中文与拉丁文鉴定信息。
+  tags:
+  - herbal
+  - multimodal
+  - identification
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.41638
+  status: published
+  verified_at: '2026-10-21'
+  venue: Science Data Bank
+  orgs:
+  - Hu Haoyu
+- id: evaluating-large-language
+  name: Evaluating Large Language Models for Query Refinement in Systematic Review Retrieval of Traditional
+    Chinese Medicine
+  type: resource
+  year: 2026
+  venue: Current Bioinformatics
+  summary_zh: 作者用GPT-4o、GPT-5、DeepSeek-V3和DeepSeek-R1、六种提示，在知网、万方、PubMed和Embase上检索银屑病、新冠肺炎和2型糖尿病文献；去重后的金标准集有182条记录（分别为50、74和58条）。
+  tags:
+  - evaluation
+  - tool
+  links:
+    DOI: https://doi.org/10.2174/0115748936492177260915061800
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - China Academy of Chinese Medical Sciences
+  - Hunan University of Traditional Chinese Medicine
+- id: development-llm-based-cpx
+  name: 'Development of an LLM-based CPX Practicing Chatbot for Korean Medicine Education: Implementation
+    of Automated Scoring and Feedback Generation Framework'
+  type: resource
+  year: 2024
+  venue: 대한한의학회지
+  summary_zh: 韩医临床技能考试练习聊天机器人中，Claude-3.5-Sonnet在全部样例上定量评分完全正确，平均耗时43.2秒，快于GPT-4。
+  tags:
+  - agent
+  - evaluation
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.13048/jkm.24067
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Gachon University
+  - Pusan National University
+- id: knowledge-graphs-combined
+  name: 'Knowledge Graphs Combined with ChatGPT in the Field of Acupuncture: A Case Study on the Treatment
+    of Depression'
+  type: resource
+  year: 2025
+  venue: International Conference on e-Education, e-Business, e-Management and e-Learning
+  summary_zh: 该研究把针灸原理做成抑郁症知识图谱，并用大语言模型优化知识整合，供研究者和临床医生使用。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1109/ic4e65071.2025.11075342
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Nanjing University
+  - Nanjing University of Chinese Medicine
+- id: study-intelligent-diagnosis
+  name: A Study on An Intelligent Diagnosis and Treatment Assistant System For Acupuncture in Diminished
+    Ovarian Reserve Based on A Knowledge Graph
+  type: resource
+  year: 2026
+  venue: Journal of Visualized Experiments
+  summary_zh: 作者用大语言模型加人工标注，从82部针灸文献和临床数据中建成含16558个实体、80084条关系的图谱；在90例卵巢储备功能减退患者中，系统辨证与专家的一致率为86.7%。
+  tags:
+  - kg
+  - extract
+  - prescription
+  links:
+    DOI: https://doi.org/10.3791/71182
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Nanjing University of Chinese Medicine
+  - Xuzhou Medical College
+  - Nanjing General Hospital of Nanjing Military Command
+  - Nanjing University
+- id: supporting-chinese
+  name: 'Supporting postgraduate exam preparation with large language models: implications for traditional
+    Chinese medicine education'
+  type: resource
+  year: 2026
+  venue: Frontiers in Medicine
+  summary_zh: 在2023年中医考研题上，文心一言准确率50.30%、ChatGLM为46.67%，两者都超过及格线，医学人文模块得分最高。
+  tags:
+  - evaluation
+  - benchmark
+  links:
+    DOI: https://doi.org/10.3389/fmed.2025.1667104
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Beijing University of Chinese Medicine
+  - Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine
+  - Changchun University of Chinese Medicine
+  - Leipzig University
+- id: ic-bert-instruction-classifier
+  name: 'IC-BERT: An Instruction Classifier Model Alleviates the Hallucination of Large Language Models
+    in Traditional Chinese Medicine'
+  type: resource
+  year: 2024
+  venue: IEEE International Conference on Computational Intelligence and Applications (IC
+  summary_zh: IC-BERT用BERT文本过滤器限制中医大模型可回答的问题范围，以减少超出能力范围时生成虚假事实。
+  tags:
+  - tool
+  links:
+    DOI: https://doi.org/10.1109/iccia62557.2024.10719061
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Hainan University
+- id: dynamic-disease-tracking
+  name: Dynamic Disease Tracking and Personalized Prescription Recommendation Using Large Language Model
+    in Traditional Chinese Medicine
+  type: resource
+  year: 2025
+  venue: proceedings-article
+  summary_zh: 该系统把多轮问诊和时间序列分析接进大语言模型以推荐个体化中药处方，并在1000例失眠病例上提高了初诊推断、诊断准确性和系统适应性。
+  tags:
+  - prescription
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1109/iccbe65177.2025.11255949
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - National Central University
+  - National Taiwan University of Science and Technology
+  - Research Center for Humanities and Social Sciences, Academia Sinica
+- id: named-entity-recognition
+  name: Named Entity Recognition in Traditional Chinese medicine Literature Data for Obesity Based on
+    Large Language Models
+  type: resource
+  year: 2026
+  venue: proceedings-article
+  summary_zh: 在中医肥胖文献实体识别上，经多轮提示优化的DeepSeek-R1在测试集F1达到0.927。
+  tags:
+  - extract
+  links:
+    DOI: https://doi.org/10.1145/3833450.3833478
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Hubei University of Chinese Medicine
+- id: reunderstanding-classification-syndromes
+  name: Reunderstanding of the Classification of Syndromes in the Traditional Chinese Medicine Classic
+    “Shang Han Lun” Based on Large Language Models
+  type: resource
+  year: 2024
+  venue: IEEE International Conference on Medical Artificial Intelligence (MedAI)
+  summary_zh: 作者从《伤寒论》三阳病条文中选取10条，用中英文ChatGLM4.0和ChatGPT-4.0按现代医学共识重新归类；四个结果里中文ChatGLM4.0最接近原书三阳分类，英文ChatGLM4.0偏离最大。
+  tags:
+  - reasoning
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1109/medai62885.2024.00052
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Beijing University of Chinese Medicine
+  - China Academy of Chinese Medical Sciences
+  - Wangjing Hospital of China Academy of Chinese Medical Sciences
+  - Institute of Basic Theory for Chinese Medicine
+- id: prompt-rag-pioneering-vector
+  name: 'Prompt-RAG: Pioneering Vector Embedding-Free Retrieval-Augmented Generation in Niche Domains,
+    Exemplified by Korean Medicine'
+  type: resource
+  year: 2024
+  venue: arXiv
+  summary_zh: Prompt-RAG不使用向量嵌入，在韩医问答聊天机器人上，其相关性和信息量优于ChatGPT以及基于向量嵌入的检索增强生成。
+  tags:
+  - rag
+  - east-asian-tm
+  links:
+    论文: https://arxiv.org/abs/2401.11246
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Gachon University
+  - Stanford Medicine
+  - Stanford University
+- id: large-language-models
+  name: 'Large Language Models Versus Physicians in Traditional Chinese Medicine: A Real-World Clinical
+    Case Evaluation'
+  type: resource
+  year: 2026
+  venue: arXiv
+  summary_zh: 作者收集62家医院349例脱敏门诊病例，用其中60例比较16个大语言模型和60名执业中医师，并由5名资深中医专家按9个诊疗维度盲评。
+  tags:
+  - evaluation
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2609.17544
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - University of Missouri
+  - Seventh People's Hospital of Shanghai
+  - Yunnan University of Traditional Chinese Medicine
+  - Northwestern University
+- id: study-automated-data
+  name: A Study of Automated Data Mining of Medication Rules in Traditional Chinese Medicine Prescriptions
+    Based on Large Language Model
+  type: resource
+  year: 2024
+  venue: IEEE International Conference on Computer and Communication Engineering Technolo
+  summary_zh: 作者用大语言模型通过人机问答，对治疗骨质疏松的中药处方做频次、聚类和Apriori关联分析，结果与SPSS人工统计高度相似。
+  tags:
+  - prescription
+  - tool
+  links:
+    DOI: https://doi.org/10.1109/ccet62233.2024.10837914
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Jinan University
+- id: research-construction-traditional
+  name: Research on the Construction of a Traditional Chinese Medicine Coronary Heart Disease Question-Answering
+    System Integrating Large Language Models and Knowledge Graphs
+  type: resource
+  year: 2025
+  venue: proceedings-article
+  summary_zh: 作者用提示引导大语言模型从近十年8部冠心病中医或中西医结合指南中抽取实体和关系，建成含452个节点、690条关系的知识图谱，并以BERT+CNN做最优意图识别。
+  tags:
+  - kg
+  - extract
+  links:
+    DOI: https://doi.org/10.1145/3777577.3777709
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - China Academy of Chinese Medical Sciences
+  - Tongji University
+- id: evaluating-semantic-fidelity
+  name: Evaluating Semantic Fidelity and Cohesion in NMT and LLM-based Translation of Traditional Chinese
+    Medicine Classics
+  type: resource
+  year: 2026
+  venue: proceedings-article
+  summary_zh: 在中医经典英译上，以BERTScore对照人工参考译文，DeepSeek的语义保真高于Google Translate和ChatGPT-5，而ChatGPT-5的句间语义连贯更好。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1109/icnlp69856.2026.11528039
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Northwestern Polytechnical University
+  - Air Force Engineering University
+- id: knowledge-guided-chinese-confucian
+  name: 'Knowledge-guided adaptive educational support for traditional Chinese medicine using large language
+    models and knowledge graphs: integrating Confucian educational principles'
+  type: resource
+  year: 2026
+  venue: Frontiers in Medicine
+  summary_zh: 该智能中医辅导系统把大语言模型接到由《医宗金鉴》构建的知识图谱上；125名学生志愿者中102份问卷纳入分析，集成系统的即时后测成绩高于纯大语言模型组和自学组。
+  tags:
+  - kg
+  - evaluation
+  links:
+    DOI: https://doi.org/10.3389/fmed.2026.1943401
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Anhui University of Traditional Chinese Medicine
+- id: research-organization-application
+  name: Research on the Organization and Application of Traditional Chinese Medicine Processing Knowledge
+    in Lingnan Herbal Medicine Ancient Texts by Integrating Large Models and Knowledge Graph Technology
+  type: resource
+  year: 2025
+  venue: IEEE International Conference on Electrical, Automation and Computer Engineering
+  summary_zh: 作者用大语言模型和知识图谱整理岭南本草古籍中的药材、炮制方法、辅料和功效，在Neo4j中建图，并结合BERT-CAN-NER与大模型生成做自然语言问答。
+  tags:
+  - kg
+  - herbal
+  - extract
+  links:
+    DOI: https://doi.org/10.1109/iceace67491.2025.11439512
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Guangzhou University of Chinese Medicine
+- id: contemporary-chinese
+  name: 'Contemporary technological value of ancient Chinese medical books: an empirical patent citation
+    analysis using large language models'
+  type: resource
+  year: 2025
+  venue: The Electronic Library
+  summary_zh: 该文用大语言模型识别专利引文中的中医实体并分类引用意图；72.9%的专利引用知识融合程度低，《温病条辨》的技术影响排在所评古籍首位。
+  tags:
+  - extract
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1108/el-06-2025-0221
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Wuhan University
+  - China Academy of Chinese Medical Sciences
+  - Nanjing University
+- id: tcm
+  name: A knowledge-enhanced prescription generation model for TCM syndrome differentiation via multilevel
+    memory retrieval
+  type: resource
+  year: 2026
+  venue: International Conference on Optics, Electronics, and Communication Engineering (
+  summary_zh: 该处方生成模型用加权BM25检索相似病例，并接入《本草纲目》药物知识图谱以及十八反、十八畏，再把检索结果交给大语言模型，实验在CCL2025中医基准上进行。
+  tags:
+  - prescription
+  - rag
+  - kg
+  links:
+    DOI: https://doi.org/10.1117/12.3123588
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Chengdu Medical College
+  - First Affiliated Hospital of Chengdu Medical College
+- id: method-constructing-tcm
+  name: Method for Constructing TCM Syndrome Differentiation Q&A System with LLM-RAG
+  type: resource
+  year: 2025
+  venue: proceedings-article
+  summary_zh: 该中医辨证问答框架把整理过的中医知识库通过结构化检索接到大语言模型上，以提高回答的事实准确性、语境精度和专业性。
+  tags:
+  - rag
+  links:
+    DOI: https://doi.org/10.1145/3784013.3784061
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Baoshan University
+- id: large-chinese-analysis
+  name: 'Large language models vs traditional Chinese medicine clinical reasoning: Analysis of a single
+    migraine case study'
+  type: resource
+  year: 2026
+  venue: Brain Behavior and Immunity Integrative
+  summary_zh: 在一份标准化偏头痛病例上，9个大语言模型与两名中医师及已发表病例对照作答，32名专家盲评；GPT o3、Qwen 3和Gemini 2.5 Pro在部分维度上不低于对照，Aya
+    Expanse 32B得分更低。
+  tags:
+  - evaluation
+  - prescription
+  - herbal
+  links:
+    DOI: https://doi.org/10.1016/j.bbii.2026.100192
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Harvard University
+  - Massachusetts General Hospital
+- id: intelligent-tcm-diagnosis
+  name: An Intelligent TCM Diagnosis System with Localized LLMs and Modular Multimodal Reasoning Enhanced
+    by RAG
+  type: resource
+  year: 2025
+  venue: proceedings-article
+  summary_zh: 该本地部署系统用望、闻、问、切四个智能体，经模块化组件处理和多模态检索增强生成，把舌象、声音、脉象和症状交给中心推理模块生成诊断与健康建议。
+  tags:
+  - agent
+  - multimodal
+  - rag
+  links:
+    DOI: https://doi.org/10.1109/cyberscitech68397.2025.00061
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Hosei University
+  - Fuzhou University
+  - Hong Kong Polytechnic University
+  - Beihang University
+- id: smart-virtual-patients
+  name: 'Smart Virtual Patients for TCM: Combining Knowledge Graphs and Language Models'
+  type: resource
+  year: 2025
+  venue: proceedings-article
+  summary_zh: 该中医虚拟病人把大语言模型和知识图谱与束搜索、Sentence-BERT剪枝结合，症状一致性53.2%、召回率62.5%，均高于提示加知识图谱的基线。
+  tags:
+  - kg
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1109/icitda68167.2025.11332301
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Universiti Sains Malaysia
+  - Sultan Qaboos University
+- id: llm-driven-unsupervised-discovery
+  name: 'LLM-Driven Unsupervised Discovery of Semantic Decision Dimensions for Dynamic Scheduling and
+    Intelligent Systems: A Traditional Chinese Medicine Case Study'
+  type: resource
+  year: 2026
+  venue: Mathematics
+  summary_zh: DeepSeek-V3.2从12163条中药记录、64107个短句中归纳出458个原始标签并合并为22个语义类；Qwen3-Embedding-8B测得19个概念的内部一致性平均超过60%，专家合理性均分4.64（1到5分）。
+  tags:
+  - herbal
+  - extract
+  links:
+    DOI: https://doi.org/10.3390/math14152681
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Changchun University of Chinese Medicine
+  - Shandong University of Arts
+  - Tsinghua University
+- id: multimodal-tcm-seven-emotion
+  name: 'Multimodal TCM Seven-Emotion Recognition: A Three-Modality Joint Consultation Framework Based
+    on LLMs and Cross-Attention Fusion'
+  type: resource
+  year: 2026
+  venue: proceedings-article
+  summary_zh: 该七情识别框架在IEMOCAP的10593个样本上宏观F1为87.6%，再用冻结的大语言模型把神经预测写成中医辨证报告。
+  tags:
+  - multimodal
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1145/3829441.3829486
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Zhejiang University of Technology
+- id: construction-knowledge-graph
+  name: Construction of a Knowledge Graph for Functional Specification Standards of Traditional Chinese
+    Medicine Information Systems Based on Large Language Models
+  type: resource
+  year: 2026
+  venue: proceedings-article
+  summary_zh: 作者以中医药信息学会22份中医信息系统功能规范团体标准为语料，用CRISPE框架约束提示，让DeepSeek抽取实体和关系并加规则约束来建知识图谱。
+  tags:
+  - kg
+  - extract
+  links:
+    DOI: https://doi.org/10.1145/3833450.3833480
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Hubei University of Chinese Medicine
+- id: performance-assessment-chatgpt-4
+  name: 'Performance Assessment of ChatGPT-4.0 and ChatGLM Series in Traditional Chinese Medicine for
+    Metabolic Associated Fatty Liver Disease: Comparative Study'
+  type: resource
+  year: 2025
+  venue: JMIR Formative Research
+  summary_zh: 作者把87例经中医治疗的代谢相关脂肪性肝病病历交给ChatGPT-4.0、ChatGLM4、带知识库的ChatGLM4和ChatGLM3-6B，比较辨证论治、中西医概念混淆和治疗方案文本。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.2196/66503
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Second Military Medical University
+  - Chinese People's Liberation Army
+- id: from
+  name: From readable to executable
+  type: resource
+  year: 2026
+  venue: Terminology International Journal of Theoretical and Applied Issues in Specializ
+  summary_zh: 作者用同一套三种提示，让ChatGPT-4o检验世界卫生组织2007年和2022年中医术语标准是否给出了足够明确的信息，以便在并存的英译变体中做可审计的选择。
+  tags:
+  - evaluation
+  - tool
+  links:
+    DOI: https://doi.org/10.1075/term.00097.yu
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - University of Malaya
+- id: tcmrd-kg-design-development
+  name: 'TCMRD-KG: Design and Development of a Rheumatism Knowledge Graph Based on Ancient Chinese Literature'
+  type: resource
+  year: 2024
+  venue: IEEE International Conference on Medical Artificial Intelligence (MedAI)
+  summary_zh: TCMRD-KG是首个基于中医古籍痹证内容的知识图谱，实体标注结合了主流大语言模型自动标注和人工复核。
+  tags:
+  - kg
+  - extract
+  links:
+    DOI: https://doi.org/10.1109/medai62885.2024.00083
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Beijing University of Chinese Medicine
+  - China Academy of Chinese Medical Sciences
+  - Guang’anmen Hospital
+  - Institute of Basic Theory for Chinese Medicine
+- id: conveying-imagistic-thinking
+  name: 'Conveying Imagistic Thinking in Traditional Chinese Medicine Translation: A Prompt Engineering
+    and LLM-Based Evaluation Framework'
+  type: resource
+  year: 2025
+  venue: arXiv
+  summary_zh: 作者从《黄帝内经》选了四段基础条文，用提示引导DeepSeek V3.1传达隐喻和转喻，再让ChatGPT 5 Pro和Gemini 2.5 Pro模拟三类读者，在五个认知维度上给人工译文、基线译文和提示调整译文打分，提示调整译文全面最好。
+  tags:
+  - evaluation
+  - reasoning
+  links:
+    论文: https://arxiv.org/abs/2512.01198
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-artificial-intelligence-bridging-ancient-pract
+  name: 'Artificial Intelligence in Traditional Chinese Medicine: Bridging Ancient Practice and Future
+    Innovation'
+  type: survey
+  year: 2025
+  venue: MedComm – Future Medicine
+  summary_zh: 该综述按“构建—应用—挑战—展望”分析中医大模型，并指出Qibo和MedChatZH等系统已经出现，但此前综述缺少对共同特征的综合分析。
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1002/mef2.70042
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-artificial-intelligence-catalyst-modernization
+  name: 'Artificial intelligence: A catalyst for the modernization of traditional Chinese medicine'
+  type: survey
+  year: 2026
+  venue: Intelligence-Based Medicine
+  summary_zh: 这篇范围综述检索PubMed、Web of Science和中国知网截至2025年的文献，并写道深度学习和大语言模型在舌象分析与辨证上表现有前景，部分研究接近专家水平。
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1016/j.ibmed.2026.100415
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-domestic-international-research-trends-artific
+  name: 'Domestic and International Research Trends in Artificial Intelligence Applications in Korean
+    Medicine: An Analysis from 2019 to 2025'
+  type: survey
+  year: 2025
+  venue: Asia-pacific Journal of Convergent Research Interchange
+  summary_zh: 作者系统回顾了2019至2025年23项韩医人工智能研究（国内10篇、国际13篇），并指出近期工作越来越多使用大语言模型和其他生成式人工智能。
+  tags:
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.47116/apjcri.2025.11.02
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-empirical-wisdom-computational-intelligence-kn
+  name: 'From Empirical Wisdom to Computational Intelligence: A Knowledge-Data Dual-Driven Paradigm for
+    Modernizing Traditional Chinese Medicine'
+  type: survey
+  year: 2026
+  venue: Chinese Medicine and Culture
+  summary_zh: 该文提出知识与数据双驱动范式：用大规模知识图谱和中医专用大语言模型把隐性经验变成可计算结构，并把四诊数字化为多模态中医表型。
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1097/mc9.0000000000000198
+  status: published
+  verified_at: '2026-10-21'
+- id: surv-xiangshu-omics-framework-spatio-temporal
+  name: 'XiangShu Omics: A Framework Based on the Spatio–Temporal Field Rhythms of Human Life and Systems
+    Intelligence Methodology'
+  type: survey
+  year: 2026
+  venue: Engineering
+  summary_zh: 这篇综述首次系统提出象数组学，并写道其大模型按理、法、方、药的经典治疗逻辑整合大语言模型，例如数智岐黄。
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1016/j.eng.2026.02.018
+  status: published
+  verified_at: '2026-10-21'
+- id: utilizing-large-language
+  name: 'Utilizing Large Language Models for Named Entity Recognition in Traditional Chinese Medicine
+    against COVID-19 Literature: Comparative Study'
+  type: resource
+  year: 2024
+  venue: arXiv
+  summary_zh: 作者整理389篇中医药抗新冠文献，人工标注其中48篇的6类实体；模糊匹配下ChatGPT在6项任务中的5项超过BERT问答模型，精确匹配则相反，且GPT-4在药材、靶点和研究方法上的F1都未超过0.5。
+  tags:
+  - extract
+  - evaluation
+  - herbal
+  links:
+    论文: https://arxiv.org/abs/2408.13501
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Institute of Basic Theory for Chinese Medicine
+  - GESIS - Leibniz Institute for the Social Sciences
+  - University of Bonn
+- id: surv-ai-driven-multi-scale-target
+  name: 'AI-driven multi-scale target analysis of traditional Chinese medicine: From the pharmacological
+    effects of single compounds to the synergistic mechanisms of formulae'
+  type: survey
+  year: 2026
+  venue: Journal of Advanced Research
+  summary_zh: 这篇中药多尺度靶点分析综述把研发面向中医的专用大语言模型列为未来方向，用来解码中药的药理逻辑。
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1016/j.jare.2026.03.050
+  status: published
+  verified_at: '2026-10-21'
+- id: km-cpx-pilot
+  name: Pilot Development of a 'Clinical Performance Examination (CPX) Practicing Chatbot' Utilizing Prompt
+    Engineering
+  type: resource
+  year: 2024
+  venue: 대한한의학회지
+  summary_zh: 作者把韩国韩医学研究院的标准化病人情景改写成文本，用角色提示和少样本提示调用GPT-4，做成韩医临床技能考试练习聊天机器人；内部评价中正确性和依从性较高，保密性和自然度仍需改进。
+  orgs:
+  - Gachon University
+  - Pusan National University
+  tags:
+  - agent
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.13048/jkm.24013
+  status: published
+  verified_at: '2026-10-21'
+- id: tcmkg-qa
+  name: 'TCMKG: Knowledge-Grounded question answering in Traditional Chinese Medicine via dynamic prompt
+    evolution framework'
+  type: resource
+  year: 2026
+  venue: Journal of King Saud University - Computer and Information Sciences
+  summary_zh: TCMKG在新安医案上用专家引导提示抽取实体，建成含37192个实体、130030条关系的中医知识图谱，信息抽取精确率0.89、召回率0.88、F1为0.88。
+  orgs:
+  - Anhui University of Traditional Chinese Medicine
+  - Hefei University
+  tags:
+  - kg
+  - rag
+  links:
+    DOI: https://doi.org/10.1007/s44443-026-00743-1
+  status: published
+  verified_at: '2026-10-21'
+- id: nsclc-cot-ft
+  name: Two-Stage Chain-of-Thought Fine-Tuning for TCM Medication Decision-Making in Nsclc
+  type: resource
+  year: 2025
+  venue: IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+  summary_zh: 针对非小细胞肺癌，两阶段思维链微调在处方生成和中成药推荐上分别比基线提高1.2%和6.1%。
+  orgs:
+  - China Academy of Chinese Medical Sciences
+  - Qinghai Normal University
+  - Chinese Academy of Social Sciences
+  - Institute of Ethnology and Anthropology
+  tags:
+  - reasoning
+  - prescription
+  links:
+    DOI: https://doi.org/10.1109/bibm66473.2025.11356901
+  status: published
+  verified_at: '2026-10-21'
+- id: fine-med-mental
+  name: 'Fine-Med-Mental-T&P: a dual-track approach for high-quality instructional datasets of mental
+    disorders in traditional Chinese medicine'
+  type: resource
+  year: 2026
+  venue: Digital Chinese Medicine
+  summary_zh: Fine-Med-Mental-T&P用DeepSeek-V3生成、Qwen3-32B改写，从教材指南筛出16000条理论指令，并从600多个真实病例种子筛出4000条实践指令，合成20000条中医神志病指令数据。
+  orgs:
+  - Hunan University of Traditional Chinese Medicine
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2026.02.004
+  status: published
+  verified_at: '2026-10-21'
+- id: tongue-mllm-region
+  name: MLLM-Enhanced Region-Aware Bidirectional Evidence-Based Model for Tongue Diagnosis
+  type: resource
+  year: 2026
+  venue: Lecture Notes in Computer Science Medical Image Computing and Computer Assisted Interventi
+  summary_zh: 用多模态大模型做区域感知的双向循证舌诊。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1007/978-3-032-38098-2_44
+  status: published
+  verified_at: '2026-10-21'
+- id: ai-tongue-abdominal
+  name: 'AI Tongue Diagnosis: Expert System with LLMs for Abdominal Disease Detection Through Mobile App'
+  type: resource
+  year: 2026
+  venue: Studies in Rhythm Engineering Cognitive Neuroscience and Artificial Intelligence
+  summary_zh: 用大语言模型做移动端舌诊专家系统，面向腹部疾病检测。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1007/978-3-032-19966-9_2
+  status: published
+  verified_at: '2026-10-21'
+- id: km-rag-jmir
+  name: 'Korean Medical Consultation With Open-Weight Large Language Models: Pilot Comparative Evaluation
+    of Retrieval-Augmented Generation With Metadata Filtering'
+  type: resource
+  year: 2026
+  venue: JMIR Formative Research
+  summary_zh: 用开源权重大模型和检索增强做韩医问诊聊天机器人，并比较带元数据过滤的检索增强效果。
+  tags:
+  - rag
+  - evaluation
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.2196/72604
+  status: published
+  verified_at: '2026-10-21'
+- id: ai-tcm-cms
+  name: 'Artificial Intelligence in Traditional Chinese Medicine: Multimodal Fusion and Machine Learning
+    for Enhanced Diagnosis and Treatment Efficacy'
+  type: survey
+  year: 2025
+  venue: Current Medical Science
+  summary_zh: 综述人工智能在中医诊断和治疗中的多模态融合与机器学习。
+  tags:
+  - survey
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1007/s11596-025-00103-6
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-acusim
+  name: AcuSim
+  type: dataset
+  year: 2025
+  venue: Scientific Data
+  section: 评测基准
+  summary_zh: 颈颅部穴位定位合成数据集。穴位标注依赖专家且成本高，该数据集用于扩大可检测的穴位定位数据。
+  tags:
+  - benchmark
+  - multimodal
+  links:
+    论文: https://doi.org/10.1038/s41597-025-04934-9
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tf-disease-corpus
+  name: 传统方剂—疾病关系标注语料
+  type: dataset
+  year: 2025
+  venue: Scientific Data
+  section: 中药组方 / 提取物
+  summary_zh: 从生物医学文献标注传统方剂与疾病关系的语料，方剂按传统医学原则配伍。
+  tags:
+  - herbal
+  - corpus
+  links:
+    论文: https://doi.org/10.1038/s41597-025-04377-2
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcmp-300
+  name: TCMP-300
+  type: dataset
+  year: 2025
+  venue: Scientific Data
+  section: 中药组方 / 提取物
+  summary_zh: 用于中药材植物识别的综合图像数据集。
+  tags:
+  - herbal
+  - multimodal
+  links:
+    论文: https://doi.org/10.1038/s41597-025-05522-7
+    代码: https://github.com/winycg/TCMP-300
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcm-chole-metab
+  name: 胆石症中医证候代谢组
+  type: dataset
+  year: 2025
+  venue: Scientific Data
+  section: 临床结构化 / 处方
+  summary_zh: 胆石症患者肝郁气滞与肝胆湿热两种证候的血清和尿液代谢组数据。
+  tags:
+  - dataset
+  links:
+    论文: https://doi.org/10.1038/s41597-025-06537-w
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcm-tx-atlas
+  name: 中药扰动转录组图谱
+  type: dataset
+  year: 2026
+  venue: Scientific Data
+  section: 中药组方 / 提取物
+  summary_zh: 汇集公开库中的中药处理转录组，用于解释中药干预的分子机制。
+  tags:
+  - herbal
+  links:
+    论文: https://doi.org/10.1038/s41597-026-06988-9
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tongue-bish
+  name: 病理标注舌象数据集
+  type: dataset
+  year: 2026
+  venue: BISH
+  section: 评测基准
+  summary_zh: 带病理标注的中医舌象图像集，用于降低人工舌诊的主观性。
+  tags:
+  - benchmark
+  - multimodal
+  links:
+    论文: https://doi.org/10.62762/bish.2026.303296
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcm-ms2link
+  name: TCM-MS2Link
+  type: dataset
+  year: 2026
+  venue: ScienceDB
+  section: 中药组方 / 提取物
+  summary_zh: 把中药—化合物知识层TCM-MolLink与质谱数据收成可供模型使用的统一数据集。
+  tags:
+  - herbal
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.31921
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcm-qa-sdb
+  name: 中医药知识问答实验数据
+  type: dataset
+  year: 2026
+  venue: ScienceDB
+  section: 指令/对话数据集
+  summary_zh: 中医药问答数据集，并带提示工程用的知识图谱、知识库和实验结果。
+  tags:
+  - sft
+  - kg
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.j00133.00319
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-prcot-syndrome
+  name: 病机思维链证候识别数据
+  type: dataset
+  year: 2026
+  venue: ScienceDB
+  section: 评测基准
+  summary_zh: 在病机推理思维链监督下构建的证候表现识别数据，含结构化病案、金标准证候标签和模型预测。
+  tags:
+  - benchmark
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.35044
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-cn-article-llm-index
+  name: 四模型中文医学文献标引测试集
+  type: dataset
+  year: 2026
+  venue: ScienceDB
+  section: 通用中文医疗
+  summary_zh: 从100篇随机中文医学研究论文抽取要点，由四个大模型做抽取和摘要并打准确分。
+  tags:
+  - benchmark
+  - general-medical
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.o00130.03231
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-treeprobe
+  name: TreeProbe
+  type: dataset
+  year: 2026
+  venue: arXiv
+  section: 东亚传统医学
+  summary_zh: 藏医基准，用来测大模型的文化偏差。
+  tags:
+  - benchmark
+  - east-asian-tm
+  links:
+    论文: https://arxiv.org/abs/2608.00640
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-six-meridian
+  name: 六经辨证数据集
+  type: dataset
+  year: 2024
+  section: 临床结构化 / 处方
+  summary_zh: 中医六经辨证数据集。
+  tags:
+  - dataset
+  links:
+    数据集: https://github.com/JustinWYJ/TCMdataset
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcmdi
+  name: TCMDI
+  type: dataset
+  year: 2026
+  section: 中药组方 / 提取物
+  summary_zh: 用机器学习预测中药—西药禁忌相互作用的基准。
+  tags:
+  - herbal
+  - benchmark
+  links:
+    数据集: https://github.com/hellowangqian/TCMDI
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-vietmedkg
+  name: VietMedKG
+  type: dataset
+  year: 2024
+  section: 东亚传统医学
+  summary_zh: 越南传统医学知识图谱与基准。
+  tags:
+  - kg
+  - east-asian-tm
+  - benchmark
+  links:
+    数据集: https://github.com/HySonLab/VietMedKG
+  status: published
+  verified_at: '2026-10-21'
+- id: cotke-tcm
+  name: A TCM Syndrome Differentiation Thinking Method Based on Chain of Thought and Knowledge Retrieval
+    Augmentation
+  type: resource
+  year: 2025
+  venue: Communications in Computer and Information Science Health Information Processing. Evaluati
+  summary_zh: CotKE-TCM 用思维链提示，并检索相似医案、模型生成的中医知识和临床经验，辅助大模型做辨证；在 CHIP 2024 评测集上测试。
+  orgs:
+  - 之江实验室
+  - 上海理工大学
+  - ANTA Group
+  tags:
+  - reasoning
+  - rag
+  links:
+    DOI: https://doi.org/10.1007/978-981-96-4298-4_3
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-qa-robot
+  name: Chinese Medicine Question Answering Robot Based on RAG and Self-Built Dataset
+  type: resource
+  year: 2025
+  venue: Proceedings of the 2nd International Conference on Machine Learning and Automation, CONF-M
+  summary_zh: 用检索增强生成和自建数据集构建中医问答机器人。
+  orgs:
+  - 大连理工大学
+  - 西安电子科技大学
+  tags:
+  - rag
+  links:
+    DOI: https://doi.org/10.4108/eai.21-11-2024.2354617
+  status: published
+  verified_at: '2026-10-21'
+- id: tcm-grpo-reason
+  name: Generating interpretable clinical reasoning chains in TCM via group relative policy optimization
+    and multi-dimensional rewards
+  type: resource
+  year: 2026
+  venue: Biomedical Signal Processing and Control
+  summary_zh: 以组相对策略优化和多维奖励，生成可解释的中医临床推理链。
+  orgs:
+  - 安徽中医药大学
+  tags:
+  - reasoning
+  links:
+    DOI: https://doi.org/10.1016/j.bspc.2026.111275
+  status: published
+  verified_at: '2026-10-21'
+- id: acu-chatbot-eval
+  name: Knowledge of Chatbots on Oriental Medicine-Based Theory and Practice of Acupuncture Is Inferior
+    to That on Western Medicine-Based Acupuncture-Transmitted Infections
+  type: resource
+  year: 2026
+  venue: AI Engineering
+  summary_zh: 用 2528 道东方医学针灸理论与操作题、100 道针灸相关感染题，比较 ChatGPT、Claude、Copilot、Gemini 和 Perplexity 的免费版与订阅版；针灸理论中位分
+    75%，低于感染题的 86%。
+  orgs:
+  - National Chung Hsing University
+  - Tung Wah College
+  - The University of Hong Kong
+  - Fuke Fengze Chinese Medicine Clinic
+  tags:
+  - evaluation
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.53941/aieng.2026.100004
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121709160
+  name: 一种基于视觉语言模型的中医舌诊智能分析方法
+  type: patent
+  year: 2026
+  date: '2026.03'
+  venue: CN121709160A
+  summary_zh: 以Qwen-VL为舌诊视觉语言模型，经舌诊知识引导微调后，由舌象生成舌色、苔色等结构化结果及自然语言描述（公开，未授权）
+  orgs:
+  - 中国计量大学
+  tags:
+  - patent
+  - multimodal
+  links:
+    专利: https://patents.google.com/patent/CN121709160A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119941636
+  name: 中医药多模态LLM训练方法及其应用
+  type: patent
+  year: 2025
+  date: '2025.10'
+  venue: CN119941636B
+  summary_zh: 分别提取舌苔与脉象特征，经跨模态注意力与文本特征融合后接入大语言模型，训练中医药多模态LLM（已授权）
+  orgs:
+  - 粤港澳大湾区精准医学研究院（广州）
+  tags:
+  - patent
+  - multimodal
+  links:
+    专利: https://patents.google.com/patent/CN119941636B/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121331451
+  name: 一种融合舌象、心率及文本的多模态健康状态评估方法
+  type: patent
+  year: 2026
+  date: '2026.01'
+  venue: CN121331451A
+  summary_zh: 以舌象为主、结合心率和使用者自述文本，用提示词引导DeepSeek大模型生成健康状态评估（公开，未授权）
+  orgs:
+  - 刘家豪
+  tags:
+  - patent
+  - multimodal
+  links:
+    专利: https://patents.google.com/patent/CN121331451A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120998428
+  name: 大小模型协同中药方剂优化方法、系统、终端及存储介质
+  type: patent
+  year: 2025
+  date: '2025.11'
+  venue: CN120998428A
+  summary_zh: 用方剂优化大语言模型给出宏观优化方，再用药效物质小模型溯源药材并调整组成，综合后形成最终方剂推荐（公开，未授权）
+  orgs:
+  - 现代中医药海河实验室
+  - 天津中医药大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN120998428A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122135936
+  name: 一种面向中医方剂推荐的知识图谱大模型问答方法及系统
+  type: patent
+  year: 2026
+  date: '2026.06'
+  venue: CN122135936A
+  summary_zh: 用中文指令大语言模型编码病历语义，与动态中医知识图谱的图向量做门控融合，推荐方剂并生成问答结果（公开，未授权）
+  orgs:
+  - 北京科技大学
+  tags:
+  - patent
+  - prescription
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN122135936A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122436116
+  name: 基于知识图谱与大语言模型的脾胃学派理法方药分析系统
+  type: patent
+  year: 2026
+  date: '2026.07'
+  venue: CN122436116A
+  summary_zh: 融合脾胃学派知识图谱、向量检索与大语言模型，完成选方验证、安全校验和处方生成（公开，未授权）
+  orgs:
+  - 广州智韵草堂医学科技有限公司
+  tags:
+  - patent
+  - prescription
+  - kg
+  links:
+    专利: https://patents.google.com/patent/CN122436116A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn119905208
+  name: 基于多源特征融合的中医方剂智能推荐方法、介质和设备
+  type: patent
+  year: 2025
+  date: '2025.04'
+  venue: CN119905208A
+  summary_zh: 融合内容推荐、协同过滤，并用大语言模型分析症状文本，按加权得分推荐个性化方剂（公开，未授权）
+  orgs:
+  - 福建中医药大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN119905208A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121460056
+  name: 一种基于人工智能的方剂配制方法、系统、介质和设备
+  type: patent
+  year: 2026
+  date: '2026.02'
+  venue: CN121460056A
+  summary_zh: 用大语言模型从医案实体判定病名与证型并生成初步方剂，再由大语言模型评分，未达标则按结构化建议重新生成（公开，未授权）
+  orgs:
+  - 中国计量大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN121460056A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122531762
+  name: 基于生成式模拟医案构建的定制化中医处方推荐大模型
+  type: patent
+  year: 2026
+  date: '2026.08'
+  venue: CN122531762A
+  summary_zh: 用规则引擎穷举结构化中医特征，再由大语言模型写成模拟医案，并微调得到定制化处方推荐大模型（公开，未授权）
+  orgs:
+  - 北京中医药大学
+  tags:
+  - patent
+  - prescription
+  links:
+    专利: https://patents.google.com/patent/CN122531762A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn122436251
+  name: 一种融合时空特征的针灸推理模型构建方法、系统及设备
+  type: patent
+  year: 2026
+  date: '2026.07'
+  venue: CN122436251A
+  summary_zh: 对齐四诊与病程的时空特征，检索历史针灸方案后，用微调大模型和思维链做针灸推理并三维展示（公开，未授权）
+  orgs:
+  - 北京科技大学
+  tags:
+  - patent
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN122436251A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn120674039
+  name: 针灸穴位推荐方法及其模型获取方法、装置、设备及介质
+  type: patent
+  year: 2025
+  date: '2025.09'
+  venue: CN120674039A
+  summary_zh: 用病历对语言模型做初步训练，建立症状与针灸穴位的语义映射，再经参数微调与策略优化得到穴位推荐模型（公开，未授权）
+  orgs:
+  - 河南工业大学
+  tags:
+  - patent
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN120674039A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: pat-cn121524286
+  name: 一种心血管疾病的基于针灸诊疗知识图谱的智能问答系统
+  type: patent
+  year: 2026
+  date: '2026.02'
+  venue: CN121524286A
+  summary_zh: 构建心血管疾病针灸诊疗知识图谱，结构化查询结果交云端大语言模型润色；查不到时由大语言模型直接作答并提示仅供参考（公开，未授权）
+  orgs:
+  - 天津中医药大学第一附属医院
+  - 江汉大学
+  tags:
+  - patent
+  - kg
+  - agent
+  links:
+    专利: https://patents.google.com/patent/CN121524286A/zh
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202601-05
+  name: 河南健康产业大会展示神农本草大模型与中医经络辅助诊断模型
+  type: news
+  year: 2026
+  date: '2026.01'
+  summary_zh: 新华网报道，2025年12月24日河南健康产业大会上，河南省卫生健康委展示中医经络辅助诊断模型和豫产豫药多模态神农本草大模型，后者用于药材识别、真伪鉴别、成分定量和产地溯源。
+  orgs:
+  - 河南省卫生健康委员会
+  tags:
+  - product
+  - multimodal
+  links:
+    链接: http://www.ha.xinhuanet.com/20260105/b91d84bacd1c46389a007e0cc201962d/c.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202601-12
+  name: 广东省中医院启动名老中医辅助诊疗大模型矩阵
+  type: news
+  year: 2026
+  date: '2026.01'
+  summary_zh: 科技日报报道，1月9日广东省中医院启动名老中医辅助诊疗大模型矩阵；禤国维皮肤病诊疗大模型和心血管病诊疗大模型已投入临床。
+  orgs:
+  - 广东省中医院
+  tags:
+  - product
+  links:
+    链接: https://www.stdaily.com/web/gdxw/2026-01/12/content_460323.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202607-29
+  name: 河南省人工智能大会集中发布中药研发大模型等五项中试成果
+  type: news
+  year: 2026
+  date: '2026.07'
+  summary_zh: 新华网报道，2026年7月国家人工智能应用中试基地（医疗）在河南省人工智能大会集中发布中医经络辅诊模型、中西医结合食管癌大模型、中医药高质量数据集、中药研发大模型和名中医数字智能体。
+  orgs:
+  - 国家人工智能应用中试基地（医疗领域）
+  - 河南省中医药科学院
+  tags:
+  - product
+  links:
+    链接: http://www.ha.xinhuanet.com/20260928/c8569fe1fbdb4ebc81053d86c6d93682/c.html
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202608-27
+  name: 贵州中医药大学第一附属医院发布黔小杏医疗大模型
+  type: news
+  year: 2026
+  date: '2026.08'
+  summary_zh: 学校官网称，8月27日“黔小杏医疗大模型”在2026数博会发布，以中医药文献、名医经验和临床数据训练，用于辅助诊断、体质辨识、养生推荐和用药指导。
+  orgs:
+  - 贵州中医药大学
+  - 贵州中医药大学第一附属医院
+  tags:
+  - product
+  links:
+    链接: https://www.gzy.edu.cn/info/1501/12735.htm
+  status: published
+  verified_at: '2026-10-21'
+- id: news-202608-24
+  name: 广州中医药大学杏林智慧教学大模型进入课程试点
+  type: news
+  year: 2026
+  date: '2026.08'
+  summary_zh: 南方财经报道，广州中医药大学以通用大模型为基座、用约20亿词元中医药数据持续训练“杏林智慧教学大模型”，已在中医各家学说、中国医学史和中医外科学试点。
+  orgs:
+  - 广州中医药大学
+  tags:
+  - product
+  links:
+    链接: https://m.21jingji.com/article/20260824/herald/ef692f3ceba10c36edd3952f4d5ca892.html
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-vtm-tda
+  name: VTM-TDA Benchmark
+  type: dataset
+  year: 2026
+  venue: Zenodo
+  section: 东亚传统医学
+  summary_zh: 从杜德利《越南药用植物与药物》整理的越南传统医学计算基准，含724个已与POWO、PubChem等对齐的基原，以及1635条历史处方。
+  tags:
+  - benchmark
+  - east-asian-tm
+  links:
+    数据集: https://zenodo.org/records/23075405
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - VSB - Technical University of Ostrava
+- id: ds-tongueatlas-4k
+  name: TongueAtlas-4K
+  type: dataset
+  year: 2025
+  venue: Zenodo
+  section: 评测基准
+  summary_zh: 4000张临床舌象、由中医专家标注22类舌象表现的诊断基准，配套MIRNet（AAAI 2026待发表）。Zenodo记录为受限访问。
+  tags:
+  - benchmark
+  - multimodal
+  links:
+    数据集: https://zenodo.org/records/17557646
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-yizong-jinjian-triples
+  name: 医宗金鉴知识三元组
+  type: dataset
+  year: 2026
+  venue: ScienceDB
+  section: 知识图谱
+  summary_zh: 从《医宗金鉴》抽取的25571条知识三元组，覆盖中药、方剂、疾病、穴位和医理，关系类型1105种。
+  tags:
+  - kg
+  - ancient-books
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.013fv
+  status: published
+  verified_at: '2026-10-21'
+- id: ds-tcm-qm
+  name: TCM-QM
+  type: dataset
+  year: 2026
+  venue: Zenodo
+  section: 中药组方 / 提取物
+  summary_zh: 3196个中药相关分子的气相DFT描述符，并附16918条去重后的草药—分子来源关系。
+  tags:
+  - herbal
+  links:
+    数据集: https://zenodo.org/records/22173180
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - 南京中医药大学
+- id: ds-hwtcm-sft-v1
+  name: hwtcm-sft-v1
+  type: dataset
+  year: 2024
+  venue: Hugging Face
+  section: 指令/对话数据集
+  summary_zh: 海维团队的中医单轮问答指令集，7096条。语料来自网站、论坛和书籍，由多个模型转成问答，并按专业性、安全性和流畅性评分。
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/Monor/hwtcm-sft-v1
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Haiwei AI Team
+- id: ds-hwtcm-r1-distill
+  name: hwtcm-deepseek-r1-distill-data
+  type: dataset
+  year: 2025
+  venue: Hugging Face
+  section: 指令/对话数据集
+  summary_zh: 海维团队用 DeepSeek 从网络原文蒸馏的中医推理问答指令数据。作者说明未经人工审查。
+  tags:
+  - sft
+  links:
+    数据集: https://huggingface.co/datasets/Monor/hwtcm-deepseek-r1-distill-data
+  status: published
+  verified_at: '2026-10-21'
+  orgs:
+  - Haiwei AI Team

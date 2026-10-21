@@ -9,8 +9,7 @@ news-202607-16:
   summary_en: Guizhou Medical University and partners launch **HuaZu BenCao**, a national ethnic-medicine AI platform built
     on ShuZhi QiHuang + Qwen integrating multi-ethnic materia medica classics.
 news-202607-17:
-  summary_en: Andun Health debuts a **seven-diagnosis** TCM robot at WAIC 2026, integrating face/IR face/tongue/ear/auscultation/inquiry/pulse
-    sensing with TianHui pulse algorithms and a TCM clinical LLM.
+  summary_en: Andun Health debuts a **seven-diagnosis** TCM robot at WAIC 2026, integrating face, infrared face, tongue, ear, auscultation, inquiry, and pulse. The page cites a 235-billion-parameter TCM model and does not mention TianHui.
 news-202607-18:
   summary_en: Insightful Eye presents **Bianshi Cloud TCM** at WAIC 2026, built on a registered Bianshi multimodal model with
     four-diagnosis devices and assisted-care systems.
@@ -29,15 +28,14 @@ news-202602-20:
 news-202512-02:
   summary_en: Jilin releases **ZhongXing·Changbai Qihuang 1.0**, an AI-native multimodal TCM LLM.
 news-202512-03:
-  summary_en: Gushengtang launches a “TCM Brain” product and AI digital twin of National TCM Master Shi Qi; 14 expert twins
-    cover eight core specialties.
+  summary_en: Gushengtang launches a “TCM Brain” and an AI twin of National TCM Master Shi Qi, with 14 expert twins released. The eight-specialty claim is from a different story, not this page.
 news-202512-04:
   summary_en: '**ZMT-M1** scores 96.26 on a simulated national TCM practitioner exam and is piloted in 100+ clinics.'
 news-202511-05:
   summary_en: Five national health ministries issue AI+ healthcare guidelines that explicitly support building TCM diagnostic
     LLMs.
 news-202509-06:
-  summary_en: Transn's **RenDu·SuWen** passes CAICT Trusted AI TCM LLM Level 4+ evaluation.
+  summary_en: The evaluated model on this page is **Chuanshen Suwen**, which passed CAICT Trusted AI TCM LLM Level 4+. The text says Transn built it on the Rendu base model.
 news-202509-07:
   summary_en: '**ZhiFu Qihuang Tiangong** TCM AI model completes national deep-synthesis algorithm filing for four-diagnosis
     devices and constitution assessment.'
@@ -45,8 +43,7 @@ news-202509-21:
   summary_en: '**YiYin** classical TCM LLM goes live in Song County, Henan, combining TCM education with AI-assisted care
     for county clinics.'
 news-202508-08:
-  summary_en: '**Gushengtang** releases ten “National Master AI twins” trained on master clinicians'' experience, reporting
-    >86% pattern-differentiation accuracy.'
+  summary_en: '**Gushengtang** releases ten “National Master AI twins” trained on master clinicians'' experience. The page reports expert-simulation consistency above 86%, not pattern-differentiation accuracy.'
 news-202508-22:
   summary_en: NSCC-TJ and Tianjin University of TCM release **TianHe·LingShu** 2.0 (expanded beyond acupuncture to 20+ specialties)
     and launch a TCM intelligent-model evaluation system.
@@ -67,10 +64,9 @@ news-202412-24:
   summary_en: China UnionPay Consumer Finance with Sun Yat-sen University and GZUCMS Shenzhen Hospital release vertical TCM
     LLM **ZhongSi** for community clinic inquiry.
 news-202409-13:
-  summary_en: Zhongke Wenge releases **DaYi JinKui** TCM LLM and health platform trained on 1,500+ TCM classics.
+  summary_en: Zhongke Wenge releases **DaYi JinKui** TCM LLM and a health platform trained on 1,500+ TCM classics and a large set of clinical cases.
 news-202405-25:
-  summary_en: Tasly and Huawei Cloud release **ShuZhi BenCao** (Pangu language + molecular models) covering TCM R&D; later
-    earns CAICT TCM LLM Level 4+.
+  summary_en: Tasly and Huawei Cloud release **ShuZhi BenCao** on Pangu language and molecular models. This page does not mention a CAICT Level 4+ evaluation.
 news-202403-14:
   summary_en: ECNU, SHUTCM, ECUST, NMMU, Lingang Lab, and CR Jiangzhong jointly develop the **ShuZhi QiHuang** TCM LLM. The linked ECNU page is a later write-up of ShuZhi QiHuang 2.0, not the original 2024.03 release announcement.
 news-202307-26:
@@ -217,7 +213,7 @@ baize-tcm:
   - Institute of Chinese Materia Medica, CACMS
 zhifangdantai:
   summary_en: GraphRAG + LLM fine-tuning for interpretable formula generation (sovereign–minister–assistant–courier, efficacy,
-    contraindications) with open weights. Authors at Capital Normal University and the University of Queensland.
+    contraindications). Authors at Capital Normal University and the University of Queensland. The Hugging Face repo tczzx6/ZhiFangDanTai1.0 returned 404 on 2026-10-21, so the weights are not publicly available.
   name_en: ZhiFangDanTai
   orgs_en:
   - Capital Normal University
@@ -343,7 +339,7 @@ taiyi:
 taiyi-2:
   title_en: Taiyi-2
   name_en: Taiyi-2
-  summary_en: Second Taiyi open biomedical model, moving from Qwen-7B to GLM4-9B with tighter data filters and task instructions; the official replacement for Taiyi-1.
+  summary_en: Second Taiyi open biomedical model, moving from Qwen-7B to GLM4-9B with tighter data filters and task instructions. The model card still cites the Taiyi-1 JAMIA paper (10.1093/jamia/ocae037); there is no separate Taiyi-2 paper.
   orgs_en:
   - Dalian University of Technology
 qilin-med:
@@ -685,7 +681,7 @@ hf-baize:
   summary_en: Baize TCM LLM weights.
 hf-zhifangdantai:
   title_en: ZhiFangDanTai
-  summary_en: ZhiFangDanTai formula-generation model weights.
+  summary_en: ZhiFangDanTai formula-generation weights. The public Hugging Face page returned 404 on 2026-10-21.
 atcmd-bench:
   summary_en: First agentic TCM diagnosis benchmark, evaluating LLMs through multi-agent simulated consultations.
   orgs_en:
@@ -1770,3 +1766,427 @@ pat-cn120148827:
 pat-cn120913881:
   summary_en: Trains a multimodal TCM large model on tongue images, speech, and inquiry text, then outputs
     a preliminary TCM analysis (granted June 2026).
+news-202512-30:
+  summary_en: "Guang'anmen Hospital reports that Guangyi Qizhi completed national deep-synthesis algorithm filing and describes itself as the first TCM hospital to do so."
+news-202510-30:
+  summary_en: "Science and Technology Daily reports the CTA clinical-research agent, fine-tuned from Qwen2.5-14B for trial protocols, data management, and statistics."
+news-202510-31:
+  summary_en: "China Economic Net reports the 26 October release of Idiom-Hypertension, an integrated Chinese-Western model for hypertension care."
+news-202603-30:
+  summary_en: "Shanghai University of TCM says its formula-syndrome multimodal model was selected as a stage result of a national AI application pilot base."
+news-202605-13:
+  summary_en: "Beijing University of Chinese Medicine says XinHuo ZhongGuoYao appeared at the 2026 World Digital Education Conference and its Q&A edition is on the national smart-education platform."
+news-202609-29:
+  summary_en: "China News Service reports that the formula-syndrome model opened for access on 19 September, covering assisted care, research mining, and training, with planned deployment at Longhua Hospital."
+news-202610-09:
+  summary_en: "Reports say Nanjing University of Chinese Medicine released the LingSu Aihu TCM nursing model on 9 October; 27 member hospitals are the first sites."
+news-202601-09:
+  summary_en: "TCM Congbao says its Suwen content-generation algorithm was included in the 14th CAC deep-synthesis filing batch."
+pat-cn121460113:
+  summary_en: "LoRA-tunes a TCM language model that maps syndrome and chief complaint to a formula (published, not granted)."
+pat-cn121562809:
+  summary_en: "Chunks TCM text, plans multi-hop paths on a knowledge graph, and trains a large model to generate a TCM question bank (published, not granted)."
+pat-cn120913769:
+  summary_en: "A multimodal model turns a tongue image into a condition description and a medicinal-drink recommendation (granted May 2026)."
+pat-cn122508432:
+  summary_en: "Sends a small sample to a TCM-tuned large model for a preliminary quality check of a TCM knowledge graph (published, not granted)."
+pat-cn119069137:
+  summary_en: "Uses a large model to read tongue images by constitution, symptoms, and an overall interpretation (published, not granted)."
+pat-cn119049664:
+  summary_en: "Converts wearable signals into TCM terms and passes them to a TCM large model (published; deemed withdrawn on 6 February 2026)."
+pat-cn119049665:
+  summary_en: "A six-meridian TCM dialogue system over a body-area network and a large model (published; deemed withdrawn on 6 February 2026)."
+surv-yin2025-ai-tcm:
+  summary_en: "Reviews AI for TCM across data mining, large language models, and multimodal fusion, aimed at multi-component herbal formulas."
+surv-liu2025-netpharm-llm:
+  summary_en: "Reviews how network pharmacology and large language models jointly explain multi-target mechanisms of TCM formulas."
+surv-sun2026-generative:
+  summary_en: "Reviews advances and applications of generative models in traditional Chinese medicine."
+surv-wang2026-eval-rethink:
+  summary_en: "Argues that TCM LLM evaluation still lacks a quality floor: unfiltered classics and web text can contain outdated advice, and a single case is not a benchmark."
+surv-dong2026-rx-review:
+  summary_en: "Reviews computational herbal-prescription recommendation and how it can support TCM clinical decisions."
+surv-cacms2026-digital:
+  summary_en: "Discusses opportunities and challenges for TCM as AI moves from expert systems to deep learning and large language models."
+surv-li2026-ebm:
+  summary_en: "Discusses digital intelligent evidence-based methods for evidence-informed decisions in Chinese medicine."
+surv-dcmed2026-diagnosis:
+  summary_en: "Discusses interdisciplinary integration and development trends of intelligent diagnosis in TCM."
+tcm-llm-eval-gscm:
+  summary_en: "Builds a clinical-practice evaluation for TCM large language models, arguing that Western medical benchmarks do not fit."
+lingdan-jamia:
+  summary_en: "JAMIA paper on Lingdan, a TCM large language model for encoding domain knowledge in clinical reasoning tasks. Distinct from the later Digital Chinese Medicine prescription-evaluation paper."
+tcm-prompt-npj:
+  summary_en: "Evaluates 16 models on TCM and shows that prompt effects depend on the model, which complicates reliable deployment."
+tcm-llm-mechanism-jbhi:
+  summary_en: "An LLM method for mechanism exploration and downstream application in TCM."
+tembed-ddi:
+  summary_en: "Annotates cross-domain drug interactions with large language models and bidirectional networks, and adds a Chinese-medicine interaction evaluation."
+tcm-cot-rag:
+  summary_en: "Retrieval-augmented generation with chain-of-thought for TCM rheumatology decisions."
+tcm-hyperrag:
+  summary_en: "Higher-order knowledge hypergraphs for TCM diagnosis and prescription recommendation, with traceable evidence passed to a backbone model."
+acugpt-agent:
+  summary_en: "An LLM agent for acupuncture-based infertility treatment."
+llm-sdat:
+  summary_en: "A knowledge-informed LLM framework for TCM syndrome differentiation."
+acukg:
+  summary_en: "A knowledge graph of medical acupuncture built with entity recognition, relation extraction, and ontology mapping."
+kampobench:
+  summary_en: "Physician-reviewed Kampo consultation benchmark: 74 scenarios and 310 dialogue-level criteria, scoring application rather than exam recall."
+tkm-cpx-agent:
+  summary_en: "LLM plus retrieval-augmented generation and multimodal cues to automate traditional Korean medicine CPX scenarios; validated by 10 experts."
+sdt-treat-bench:
+  summary_en: "Scientific Data benchmark for evaluating syndrome differentiation and treatment in large language models."
+tcm-llm-practice-cm:
+  summary_en: "Discusses how large language models can link implicit TCM knowledge with syndrome-based clinical practice."
+tcm-kg-qa-bigcomp:
+  summary_en: "Knowledge-graph-enhanced large language models for TCM question answering."
+hpr-dual-align:
+  summary_en: "Medical-knowledge-enhanced dual-level alignment network for herbal prescription recommendation."
+dmease:
+  summary_en: "An AI assistant for TCM doctors diagnosing and treating diabetes mellitus."
+tcm-tongue-onto-llm:
+  summary_en: "Uses a large language model to help construct a TCM tongue-diagnosis ontology."
+acu-cases-kg:
+  summary_en: "Builds a knowledge graph of famous acupuncturists' cases by extracting information with a large language model."
+acu-llm-eswa:
+  summary_en: "Studies compensation mechanisms of large language models in acupuncture clinical decision-making."
+acu-llm-jmir:
+  summary_en: "Compares ChatGPT, DeepSeek, and physician-generated acupuncture treatment plans."
+tcm-instr-ft-dlut:
+  summary_en: "Instruction fine-tuning of large language models for TCM."
+tcm-syndrome-ft:
+  summary_en: "Fine-tunes large language models for TCM syndrome differentiation."
+tcm-kg-qa-ccis:
+  summary_en: "An intelligent TCM question-answering system that joins a knowledge graph with large language models."
+tcm-consult-kg-llm:
+  summary_en: "Case study of integrating large language models with knowledge graphs in TCM consultation."
+tcm-rx-multistage:
+  summary_en: "A large language model for TCM prescription recommendation trained in multiple stages."
+tcm-patent-re:
+  summary_en: "Relation extraction over TCM patents with a large language model and diversified semantic interaction."
+llama3-tcm-iet:
+  summary_en: "Fine-tunes Llama 3, Phi-3.5, and Mistral on TCM data to improve Chinese TCM language coverage."
+tcmhp:
+  summary_en: "A large language model for TCM health preservation (preventive care)."
+tcm-physio-kg-llm:
+  summary_en: "Connects dynamic knowledge graphs with large language models for TCM physiological modeling."
+tcmqa:
+  summary_en: "Open benchmark of 38,279 TCM licensing questions paired with 15,151 answers from 101 licensed practitioners."
+tcm-clinical-reason:
+  summary_en: "2,000 multicenter EHR cases testing whether a model can reason from pathogenesis and syndrome to treatment principle and prescription."
+tcm-rx-sss:
+  summary_en: "Four-stage alignment for TCM prescription generation covering auditable li-fa-fang-yao reasoning, follow-up adjustment, and contraindications such as the eighteen antagonisms."
+tcmscience:
+  summary_en: "An autonomous TCM research agent that separates language-model proposals from execution and release authority."
+tcm-falsify-agent:
+  summary_en: "A model-agnostic falsification protocol for auditable syndrome differentiation on the public 200-case TCMEval-SDT set."
+linglan-mm-llm:
+  summary_en: "A multimodal TCM diagnosis model over the four examinations. Not the LingLan benchmark paper (arXiv 2602.01779)."
+ds-sdt-treat-bench:
+  summary_en: "Scientific Data benchmark for syndrome differentiation and treatment with large language models."
+ds-tcmqa:
+  summary_en: "38,279 TCM licensing questions with 15,151 responses from 101 licensed practitioners."
+ds-tcm-clinical-reason:
+  summary_en: "2,000 multicenter records for reasoning from pathogenesis to prescription."
+ds-kampobench:
+  summary_en: "Physician-reviewed Kampo consultation benchmark with 74 scenarios and 310 dialogue-level criteria."
+ds-acukg:
+  summary_en: "Knowledge graph of medical acupuncture assembled from guidelines, literature, trials, and ontology mapping."
+pat-cn117493579:
+  summary_en: "An LLM extracts named entities and relations from TCM text, merges similar entities, and builds a TCM knowledge graph (published, not granted)."
+pat-cn118070907:
+  summary_en: "Synonym-augmented TCM text trains a Transformer LLM that is fine-tuned to parse customer requests and draft replies; the application was granted as CN118070907B on 2024-07-09."
+pat-cn118098506:
+  summary_en: "ChatGLM3-6B is fine-tuned on labeled symptoms, points, and operations to propose acupuncture plans, which are scored by sentence similarity (published, not granted)."
+pat-cn118280556:
+  summary_en: "An LLM handles spoken inquiry while computer vision converts patient images into findings that are retrieved and fed back to the LLM for TCM decision support (published, not granted)."
+pat-cn118430833:
+  summary_en: "Retrieval augmentation and model fine-tuning are trained together so the system can explain TCM terms and syndromes and suggest treatment from a patient query (published, not granted)."
+pat-cn117786590:
+  summary_en: "An LLM rewrites patient diagnostic text, which is then semantically interpreted to predict TCM syndromes and causes and to suggest treatment (granted)."
+pat-cn118899077:
+  summary_en: "Tongue- and face-image instructions fine-tune a general LLM such as LLaMA into TongueLMM for tongue interpretation, multi-turn QA, and constitution reasoning (published, not granted)."
+pat-cn119446558:
+  summary_en: "A model trained on herbal and consultation data visualizes treatment options for a patient and is updated from outcome ratings (published, not granted)."
+pat-cn119517372:
+  summary_en: "A dataset built from TCM literature trains an LLM that takes a user's medical question and returns a dialogue answer (published, not granted)."
+pat-cn119252469:
+  summary_en: "Labeled tongue images and historical records train a tongue-inquiry model used to construct an LLM for an intelligent TCM system (granted)."
+pat-cn119811630:
+  summary_en: "An LLM predicts core lesion keywords from urological TCM inquiry text and adjusts its parameters from recorded feedback (granted 6 March 2026; application published 11 April 2025)."
+pat-cn119811698:
+  summary_en: "Handwritten herbal prescriptions are OCR'd into prompts on incompatibility, dosage, and administration, which a large model scores into an overall judgment (granted 20 June 2025; application published 11 April 2025)."
+pat-cn120108651:
+  summary_en: "Shared knowledge domains fine-tune a chest-and-lung TCM inquiry LLM that outputs constitution and symptom parameters and recommends food-medicine formulas (published, not granted)."
+pat-cn120216657:
+  summary_en: "A Chinese-materia-medica knowledge base trains the pharmacovigilance RAG model PV-RAG to answer natural-language safety questions (published, not granted)."
+pat-cn120337029:
+  summary_en: "Entities from multi-source herbal data are mapped to modern pharmacological indicators, then a pretrained large model is adaptively fine-tuned to classify herbs (published, not granted)."
+pat-cn120809097:
+  summary_en: "An LLM first performs TCM syndrome differentiation, then generates personalized five-tone therapy music under tonal constraints (published, not granted)."
+pat-cn121034544:
+  summary_en: "A dynamically updated acupuncture knowledge graph is combined with time-series clinical features, graph attention, and reinforcement learning to differentiate syndromes and draft acupuncture plans (published, not granted)."
+pat-cn121096596:
+  summary_en: "Tongue-image features are fused with clinical text, similar cases are retrieved, and a multimodal LLM drafts syndrome, diagnosis, herbal prescription, and reasoning (published, not granted)."
+pat-cn121210613:
+  summary_en: "An acupuncture LLM answers questions from vector-retrieved knowledge snippets and, for diagnosis requests, retrieves treatment entries from an acupuncture-plan library (published, not granted)."
+pat-cn121212280:
+  summary_en: "An LLM extracts triples from manufacturing text under TCM term and relation constraints, then a human-cyber-physical ontology assembles a manufacturing knowledge graph (published, not granted)."
+pat-cn121393746:
+  summary_en: "Multi-source clinical data are quantified and cleaned, then a meridian-syndrome knowledge base and an LLM generate acupuncture plans (published, not granted)."
+pat-cn122050683:
+  summary_en: "Herbal prescription generation is cast as multi-label classification, with graph attention and an LLM modeling drug synergy and contraindications (published, not granted)."
+pat-cn122245713:
+  summary_en: "Intent is parsed from multimodal inquiry data, then dual-path retrieval over TCM knowledge produces the consultation result (published, not granted)."
+pat-cn122364665:
+  summary_en: "An LLM finds candidate symptom spans in sliced classical TCM texts and maps them into a standard symptom semantic field (published, not granted)."
+news-202501-08:
+  summary_en: "On 8 January 2025, the University of Science and Technology Beijing and Henan University of Chinese Medicine released Zhang Zhongjing TCM Large Model 1.0 for syndrome differentiation, syndrome-element recommendation, classical formulas, and formula analysis."
+news-202503-13:
+  summary_en: "Xinhua reported that on 13 March 2025 Huang Huang's team at Nanjing University of Chinese Medicine and Hangzhou Maijing Health released an AI system that combines an LLM and a knowledge graph to operationalize formula-person matching."
+news-202503-31:
+  summary_en: "Hefei Yunzhen said it released the Yunzhen Huayi TCM model on its TongueLMM tongue model and DeepSeek-R1 for syndrome differentiation, constitution assessment, and report generation."
+news-202504-12:
+  summary_en: "Ifeng reported that on 11 April 2025, at the Huawei Cloud ecosystem conference, Jiuwei Health released the Jiuwei Shennong TCM agent on the Pangu model for drug R&D, formula optimization, and clinical support."
+news-202505-11:
+  summary_en: "Beijing University of Chinese Medicine said that on 10 May 2025 it released Xinhuo Zhongguoyao Zhisiti 1.0, a education model of more than 70 billion parameters built on iFlytek Spark and DeepSeek."
+news-202506-06:
+  summary_en: "Nanjing University of Chinese Medicine said that on 6 June 2025 it released Lingshan TCM Model (Xiao Xingren) and Sushan Chinese Materia Medica Model (Sushan Zhisiti) for clinical, teaching, and research use."
+news-202506-18:
+  summary_en: "The National Data Administration listed a Chengdu University of TCM case that uses a large model to segment and tag 996 classical books and ChatGLM-6B to link TCM terms into graphs such as point-organ relations."
+news-202508-06:
+  summary_en: "Hubei Daily reported that on 6 August 2025 Hubei University of Chinese Medicine, Hubei Shizhen Laboratory, and Transn signed a cooperation agreement centered on the Chuanshen Suwen TCM model."
+news-202509-12:
+  summary_en: "Guang'anmen Hospital said that on 12 September 2025, at the CIFTIS forum, it released Guangyi Qizhi 2.0 and the AI doctor An'an, already shown on outpatient guidance and pre-consultation screens."
+news-202509-10:
+  summary_en: "The China Academy of Chinese Medical Sciences said that at CIFTIS on 10-14 September 2025 its intelligent-science center showed the Dayi Jinkui LLM and multi-turn inquiry system, plus tongue-diagnosis and mobile TCM testing units."
+news-202511-02:
+  summary_en: "USTB said that on 2 November 2025 in Zhengzhou it jointly released the Qihuang Acupuncture model, which turns four-diagnostic readings into acupuncture prescriptions."
+news-202601-08:
+  summary_en: "Chengdu University of TCM said Wen Chuanbiao's team project, a high-quality TCM AI-model dataset numbered 2025-AISJK-02013, was selected for the 2025 MIIT and NMPA AI medical-device challenge list."
+news-202603-17:
+  summary_en: "China News of Traditional Chinese Medicine reported that on 17 March 2026 Li Haiyan said the Yiyuan TCM model is being tried for case structuring, intelligent inquiry, prescription recommendation, and rational use of Chinese patent medicines."
+ds-gancao-tcm-instruct:
+  summary_en: "Public Gancao-TCM-Instruct release with 25,000 cases and 125,000 samples covering disease diagnosis, syndrome diagnosis, treatment selection, base-formula selection, and herb selection."
+ds-tricmdf-acupuncture:
+  summary_en: "Expert-verified instruction corpus for TCM models, instantiated for acupuncture across consensus, experiential, and perception tables; the repository releases text, not the image or video files."
+ds-tcm-classics-clauses:
+  summary_en: "Clause-level corpus of five classical TCM texts totaling 3,569 clauses with sentence-BERT embeddings: Song-edition Shanghan Lun, Guilin Shanghan Zabing Lun, Jingui Yuhan Jing, Jingui Yaolue, and Fu Qingzhu Nüke."
+ds-famous-old-tcm-cases:
+  summary_en: "Outpatient cases from Contemporary Famous Old Chinese Medicine Doctors' Typical Cases Collection; the card says each case includes the illness description, syndrome differentiation, and prescriptions."
+ds-tcmle:
+  summary_en: "Chinese TCM practitioner licensing question bank with 7,956 items: 2,700 assistant-practitioner and 5,256 practitioner questions, including past papers and mocks."
+ds-pharmacist-tcm-2023:
+  summary_en: "TCM Pharmacy track items from the 2023 Chinese National Pharmacist Licensure Examination; the card says they were collected online and points to FreedomIntelligence/HuatuoGPT-II."
+ds-tw-moe-tcm-mcq:
+  summary_en: "Past national TCM exam questions from Taiwan's Ministry of Examination; the README gives ROC years 96–111 excluding 110, and the repository file is basic theory of traditional Chinese medicine.csv."
+ds-jtb-tw-tcm-exam:
+  summary_en: "JTB Tech compilation of Taiwan Ministry of Examination TCM questions for ROC years 90–113, covering TCM internal medicine, basic medicine, and clinical medicine."
+ds-cmmlu-tcm:
+  summary_en: "CMMLU Traditional Chinese Medicine test split; the card shows a 185-example load and the file traditional_chinese_medicine.json."
+ds-tcm-drug-name-overrely:
+  summary_en: "Experiment data for the paper on whether LLMs over-rely on names to identify ingredients of Chinese drugs, linked from the dataset card to arXiv:2504.03786."
+ds-tongue-color-cls:
+  summary_en: "TongueProjectTCM tongue-image set whose card lists images and integer labels, with 807 training and 121 validation examples."
+ds-tcm19w-sft-part:
+  summary_en: "The card describes a partial non-web TCM instruction-tuning set, released as TCM19W_Part1.json."
+ds-tw-tcm-cot:
+  summary_en: "minyichen/tw-tcm card lists 8,145 training examples with question, answer, source, and think fields."
+ds-tcm-humanities-mcq:
+  summary_en: "Multiple-choice questions on medical humanities, ethics, and physician regulations, curated by the Traditional Chinese Medicine Language Model Team; the card marks the size as under 1,000."
+ds-tcm-formula-names:
+  summary_en: "Cross-linguistic table of TCM formula names in Chinese, Japanese Kampo, Korean Han medicine, and English, compiled from official formularies and clinical references in Taiwan."
+ds-tcm-semkg-v2:
+  summary_en: "Version 2.0 semantic knowledge graph linking diseases, patterns, symptoms, and herbs, released as node and edge CSV files."
+ds-tcm-term-llm-eval:
+  summary_en: "Evaluation set for using large language models as judges of TCM terminology, containing 376 contrasts from the 2022 WHO International Standard Terminologies on Traditional Chinese Medicine."
+ds-tcm-prompt-lang:
+  summary_en: "972 model responses for 18 TCM terms across six general-purpose models, three prompt languages (Chinese, English, and Malay), and three runs, with WHO 2007 and 2022 terminology references."
+ds-herb-efficacy-relations:
+  summary_en: "Structured herb–efficacy relations converted from classical TCM efficacy wording for knowledge-graph construction, formula-efficacy prediction, and herb–symptom association."
+ds-tonguebench-2694:
+  summary_en: "Quality-controlled tongue-image set of 2,694 photographs with file-level metadata; the open file is TongueBench Dataset.zip."
+ds-sciencedb-tcm-qa:
+  summary_en: "Science Data Bank set of 6,157 question-answer pairs built from classic Chinese medicine literature."
+ds-sciencedb-tcm-case-gen:
+  summary_en: "Generation set for TCM medical-case commentary, with 510 standardized source cases and 2,550 training and test instances compiled from gynecological classics."
+ds-tcmefo:
+  summary_en: "Formal ontology for traditional Chinese medicine efficacy, providing a hierarchical computable framework over concepts, relations, and herbal-medicine instances."
+ds-chm-315:
+  summary_en: "Fine-grained Chinese herbal-medicine image set with 315 categories and 126,000 images, 400 images per category."
+ds-herbpairiam:
+  summary_en: "Data and model artifacts for attributing adverse-reaction signals to components of multi-component Kampo medicines, with a zip archive and README on Zenodo."
+ds-baize-botanical-images:
+  summary_en: "Medicinal-plant origin images for Baize Traditional Chinese Medicine, covering habitats, original plants, and medicinal parts, with Chinese and Latin identification based on the Chinese Pharmacopoeia, Flora of China, and the Engler system."
+evaluating-large-language:
+  summary_en: "The authors tested GPT-4o, GPT-5, DeepSeek-V3, and DeepSeek-R1 under six prompts for literature retrieval in CNKI, Wanfang, PubMed, and Embase on psoriasis, COVID-19, and type 2 diabetes; the deduplicated gold-standard set contained 182 records (50, 74, and 58)."
+development-llm-based-cpx:
+  summary_en: "In the Korean-medicine CPX practice chatbot, Claude-3.5-Sonnet scored every sample with perfect quantitative accuracy and averaged 43.2 seconds, faster than GPT-4."
+knowledge-graphs-combined:
+  summary_en: "The study built a depression-specific acupuncture knowledge graph and used large language models to optimize knowledge integration for researchers and clinicians."
+study-intelligent-diagnosis:
+  summary_en: "Using large language models plus manual annotation on 82 acupuncture texts and clinical data, the authors built a graph of 16,558 entities and 80,084 relations; on 90 patients with diminished ovarian reserve, diagnostic agreement with experts was 86.7%."
+supporting-chinese:
+  summary_en: "On the 2023 Chinese postgraduate examination for traditional Chinese medicine, Ernie Bot scored 50.30% and ChatGLM 46.67%, both above the passing score, with the highest scores in the medical humanities module."
+ic-bert-instruction-classifier:
+  summary_en: "IC-BERT uses a BERT text filter to limit which questions a traditional Chinese medicine large language model may answer, so as to reduce fabricated facts when questions fall outside its capability."
+dynamic-disease-tracking:
+  summary_en: "The system connects multi-turn consultation and temporal analysis to a large language model for personalized traditional Chinese medicine prescriptions, and on 1,000 insomnia cases it improved initial-case inference, diagnostic accuracy, and adaptability."
+named-entity-recognition:
+  summary_en: "For named-entity recognition in traditional Chinese medicine obesity literature, prompt-optimized DeepSeek-R1 reached an F1-score of 0.927 on the test set."
+reunderstanding-classification-syndromes:
+  summary_en: "From ten selected Three-Yang passages in Shang Han Lun, Chinese and English ChatGLM 4.0 and ChatGPT-4.0 reclassified cases by modern medical consensus; among the four outputs, Chinese ChatGLM 4.0 was closest to the original Three-Yang grouping and English ChatGLM 4.0 diverged the most."
+prompt-rag-pioneering-vector:
+  summary_en: "Prompt-RAG, which does not use vector embeddings, outperformed ChatGPT and vector-embedding retrieval-augmented generation on relevance and informativeness in a Korean-medicine question-answering chatbot."
+large-language-models:
+  summary_en: "From 349 de-identified outpatient cases at 62 hospitals, the authors used 60 cases to compare 16 large language models with 60 practicing traditional Chinese medicine physicians, scored blindly by five senior experts across nine diagnostic and therapeutic dimensions."
+study-automated-data:
+  summary_en: "Through interactive questioning, a large language model ran frequency, clustering, and Apriori association analyses on traditional Chinese medicine prescriptions for osteoporosis, and the automated results were highly similar to manual SPSS statistics."
+research-construction-traditional:
+  summary_en: "Prompted large language models extracted entities and relations from eight coronary-heart-disease guidelines of traditional or integrative Chinese medicine published in the past decade, producing a knowledge graph of 452 nodes and 690 relations, with BERT+CNN selected as the best intent-recognition model."
+evaluating-semantic-fidelity:
+  summary_en: "For English translation of traditional Chinese medicine classics, DeepSeek exceeded Google Translate and ChatGPT-5 on BERTScore semantic fidelity to the human reference, while ChatGPT-5 produced more semantically coherent text across sentences."
+knowledge-guided-chinese-confucian:
+  summary_en: "The intelligent traditional Chinese medicine tutor links a large language model to a knowledge graph from the Golden Mirror of Medicine; of 125 student volunteers, 102 questionnaires were analyzed, and the integrated system produced higher immediate post-test scores than the large-language-model-only group and the self-study group."
+research-organization-application:
+  summary_en: "The authors used large language models and a knowledge graph to organize medicinal materials, processing methods, adjuvants, and effects in Lingnan herbal classics, stored the graph in Neo4j, and combined BERT-CAN-NER with generative large models for natural-language question answering."
+contemporary-chinese:
+  summary_en: "Large language models recognized traditional Chinese medicine entities and classified citation intent in patents; 72.9% of the patent citations showed low knowledge integration, and Systematic Differentiation of Warm Diseases ranked highest in technological impact."
+tcm:
+  summary_en: "The prescription model retrieves similar cases with weighted BM25 and adds a drug knowledge graph from the Compendium of Materia Medica plus the eighteen incompatibilities and eighteen antagonisms, then passes that evidence to a large language model; experiments used the CCL2025 traditional Chinese medicine benchmark."
+method-constructing-tcm:
+  summary_en: "The syndrome-differentiation question-answering framework connects a curated traditional Chinese medicine repository to a large language model through structured retrieval, in order to improve factual accuracy, contextual precision, and professional quality."
+large-chinese-analysis:
+  summary_en: "On one standardized migraine case, nine large language models were compared with two traditional Chinese medicine physicians and a published case response, scored blindly by 32 experts; GPT o3, Qwen 3, and Gemini 2.5 Pro matched or exceeded selected comparators in some domains, while Aya Expanse 32B scored lower."
+intelligent-tcm-diagnosis:
+  summary_en: "The locally deployed system uses four agents for inspection, listening, inquiry, and palpation, coordinated by modular component processing and multimodal retrieval-augmented generation, and a central reasoning module turns tongue images, voice, pulse, and symptoms into a diagnosis and health advice."
+smart-virtual-patients:
+  summary_en: "The traditional Chinese medicine virtual patient combines a large language model and a knowledge graph with beam search and Sentence-BERT pruning, reaching 53.2% symptom consistency and 62.5% recall, both above the prompt-plus-knowledge-graph baseline."
+llm-driven-unsupervised-discovery:
+  summary_en: "DeepSeek-V3.2 induced 458 raw labels from 12,163 traditional Chinese medicine herb records and 64,107 short sentences, merged into 22 semantic categories; Qwen3-Embedding-8B found average internal coherence above 60% for 19 concepts, and experts rated reasonableness 4.64 on a 1-to-5 scale."
+multimodal-tcm-seven-emotion:
+  summary_en: "The seven-emotion framework reached a macro F1 of 87.6% on 10,593 IEMOCAP samples, then used a frozen large language model to turn the neural predictions into traditional Chinese medicine syndrome-differentiation reports."
+construction-knowledge-graph:
+  summary_en: "Using 22 group-standard documents on functional specifications for traditional Chinese medicine information systems, the authors constrained DeepSeek with CRISPE prompts to extract entities and relations and then applied rule-based constraints to build a knowledge graph."
+performance-assessment-chatgpt-4:
+  summary_en: "The authors gave medical records of 87 metabolic-dysfunction-associated fatty-liver-disease cases treated with traditional Chinese medicine to ChatGPT-4.0, ChatGLM4, ChatGLM4 with a knowledge base, and ChatGLM3-6B, comparing syndrome differentiation, confusion of Chinese and Western concepts, and treatment-plan text."
+from:
+  summary_en: "Using the same three prompts for each sampled term, the authors tested with ChatGPT-4o whether the WHO 2007 and 2022 traditional Chinese medicine terminology standards give enough explicit information for auditable selection among coexisting English variants."
+tcmrd-kg-design-development:
+  summary_en: "TCMRD-KG is described as the first rheumatism-specific knowledge graph built from ancient traditional Chinese medicine books, with entity labeling that combines automatic annotation by mainstream large language models and manual review."
+conveying-imagistic-thinking:
+  summary_en: "From four foundational passages of Huangdi Neijing, prompt scaffolding guided DeepSeek V3.1 to convey metaphor and metonymy; ChatGPT 5 Pro and Gemini 2.5 Pro then simulated three reader types and scored human, baseline, and prompt-adjusted translations on five cognitive dimensions, with the prompt-adjusted translations best on all five."
+surv-artificial-intelligence-bridging-ancient-pract:
+  summary_en: "This review analyzes traditional Chinese medicine large language models along construction, application, challenges, and prospects, noting that systems such as Qibo and MedChatZH already exist while earlier reviews lacked a synthesis of shared characteristics."
+surv-artificial-intelligence-catalyst-modernization:
+  summary_en: "This scoping review searched PubMed, Web of Science, and CNKI through 2025 and states that deep learning and large language models show promising accuracy on tongue-image analysis and syndrome differentiation, in some studies approaching expert-level performance."
+surv-domestic-international-research-trends-artific:
+  summary_en: "The authors systematically reviewed 23 Korean-medicine artificial-intelligence studies from 2019 to 2025, ten domestic and thirteen international, and report that recent work increasingly uses large language models and other generative AI."
+surv-empirical-wisdom-computational-intelligence-kn:
+  summary_en: "The paper proposes a knowledge–data dual-driven paradigm that turns implicit traditional Chinese medicine experience into computable structure with large-scale knowledge graphs and TCM-specific large language models, and digitizes the four examinations into a multimodal TCM phenomics."
+surv-xiangshu-omics-framework-spatio-temporal:
+  summary_en: "This review says it is the first to systematically construct XiangShu omics, and states that its large model integrates large language models grounded in the classical logic of principle, method, formula, and medicine, such as Shu-Zhi Qihuang."
+utilizing-large-language:
+  summary_en: "The authors assembled 389 articles on traditional Chinese medicine against COVID-19 and manually annotated 48 of them with six entity types; under fuzzy match ChatGPT beat BERT question-answering models on 5 of 6 tasks, while exact match reversed that pattern, and none of GPT-4's F1 scores on herb, target, or research method exceeded 0.5."
+surv-ai-driven-multi-scale-target:
+  summary_en: "This review of multi-scale traditional Chinese medicine target analysis lists the development of TCM-specific large language models among its future directions, in order to decode TCM pharmacological logic."
+km-cpx-pilot:
+  summary_en: "The authors turned a National Institute of Korean Medicine standardized-patient scenario into text and used role prompting and few-shot prompting with GPT-4 to build a Korean-medicine CPX practice chatbot; internal scoring found relatively high correctness and compliance, with confidentiality and naturalness still needing improvement."
+tcmkg-qa:
+  summary_en: "TCMKG used expert-guided prompting on the Xin'an medical-case corpus to build a traditional Chinese medicine knowledge graph of 37,192 entities and 130,030 relations, with information-extraction precision 0.89, recall 0.88, and F1 0.88."
+nsclc-cot-ft:
+  summary_en: "For non-small-cell lung cancer, the two-stage chain-of-thought fine-tuning improved prescription generation and proprietary-Chinese-medicine recommendation by 1.2% and 6.1% over the baseline."
+fine-med-mental:
+  summary_en: "Fine-Med-Mental-T&P used DeepSeek-V3 to draft and Qwen3-32B to rewrite answers, screening 16,000 theory instructions from textbooks and guidelines and 4,000 practice instructions from more than 600 real case seeds, for 20,000 instruction pairs on traditional Chinese medicine mental disorders."
+tongue-mllm-region:
+  summary_en: "A multimodal large-model method for region-aware, bidirectional evidence-based tongue diagnosis."
+ai-tongue-abdominal:
+  summary_en: "A mobile tongue-diagnosis expert system that uses large language models to detect abdominal disease."
+km-rag-jmir:
+  summary_en: "An open-weight LLM chatbot for Korean medical consultation, comparing retrieval-augmented generation with metadata filtering."
+ai-tcm-cms:
+  summary_en: "Reviews multimodal fusion and machine learning for AI-assisted diagnosis and treatment in traditional Chinese medicine."
+ds-acusim:
+  summary_en: "Synthetic dataset for localising cervicocranial acupuncture points, built because expert annotation is costly and limits detector training."
+ds-tf-disease-corpus:
+  summary_en: "Annotated corpus of traditional formula–disease relations in biomedical articles. Formulas are herb combinations prepared under traditional medicine principles."
+ds-tcmp-300:
+  summary_en: "Image dataset of traditional Chinese medicinal plants for plant recognition."
+ds-tcm-chole-metab:
+  summary_en: "Serum and urine metabolomics for two TCM syndromes in cholelithiasis: liver qi stagnation and liver-gallbladder damp-heat."
+ds-tcm-tx-atlas:
+  summary_en: "Harmonized transcriptomic atlas of traditional Chinese medicine perturbations, assembled from public treatment experiments."
+ds-tongue-bish:
+  summary_en: "Tongue-image dataset with pathological annotations for AI-assisted TCM diagnosis."
+ds-tcm-ms2link:
+  summary_en: "AI-ready dataset joining curated herb–compound links (TCM-MolLink) with MS/MS spectra."
+ds-tcm-qa-sdb:
+  summary_en: "Traditional Chinese medicine question-answering set plus the knowledge graph, prompt-engineering code, and experiment outputs."
+ds-prcot-syndrome:
+  summary_en: "Syndrome-manifestation cases with gold labels and model predictions, built under pathogenesis reasoning chain-of-thought supervision."
+ds-cn-article-llm-index:
+  summary_en: "Key-information extraction and summary scores from four large models on 100 Chinese medical research articles."
+ds-treeprobe:
+  summary_en: "Tibetan-medicine benchmark for measuring cultural bias in large language models."
+ds-six-meridian:
+  summary_en: "Traditional Chinese medicine dataset for six-meridian syndrome differentiation."
+ds-tcmdi:
+  summary_en: "Benchmark for predicting contraindicated interactions between traditional Chinese medicines and drugs."
+ds-vietmedkg:
+  summary_en: "Knowledge graph and benchmark for traditional Vietnamese medicine."
+cotke-tcm:
+  summary_en: "CotKE-TCM prompts a large language model with chain-of-thought and retrieves similar cases, generated TCM knowledge, and clinical experience for syndrome differentiation, tested on the CHIP 2024 track."
+tcm-qa-robot:
+  summary_en: "Builds a traditional Chinese medicine question-answering robot with retrieval-augmented generation and a self-built dataset."
+tcm-grpo-reason:
+  summary_en: "Generates interpretable traditional Chinese medicine clinical reasoning chains with group relative policy optimization and multi-dimensional rewards."
+acu-chatbot-eval:
+  summary_en: "Compares free and subscribed ChatGPT, Claude, Copilot, Gemini, and Perplexity on 2,528 oriental-medicine acupuncture theory items and 100 acupuncture-infection items; the median theory score was 75%, below 86% on the infection items."
+pat-cn121709160:
+  summary_en: "Fine-tunes Qwen-VL with tongue-diagnosis prompts so a tongue image yields structured color and coating labels plus a natural-language reading (published, not granted)."
+pat-cn119941636:
+  summary_en: "Extracts tongue-coating and pulse features, fuses them with text by cross-modal attention, and trains a multimodal TCM large language model (granted)."
+pat-cn121331451:
+  summary_en: "Takes tongue image as the main signal, adds heart rate and self-reported text, and prompts DeepSeek to write a health-status assessment (published, not granted)."
+pat-cn120998428:
+  summary_en: "A formula-optimization LLM proposes a macro revision, a smaller pharmacologic model traces constituent herbs, and the two are merged into a final formula (published, not granted)."
+pat-cn122135936:
+  summary_en: "Encodes a case with a Chinese instruction LLM, fuses it with a dynamic TCM knowledge graph, and returns formula recommendations as answers (published, not granted)."
+pat-cn122436116:
+  summary_en: "Combines a spleen-stomach school knowledge graph, vector retrieval, and an LLM for formula selection, safety checks, and prescription writing (published, not granted)."
+pat-cn119905208:
+  summary_en: "Blends content-based recommendation, collaborative filtering, and an LLM reading of symptom text to rank personalized formulas (published, not granted)."
+pat-cn121460056:
+  summary_en: "An LLM maps case entities to disease and syndrome, drafts a formula, scores it, and regenerates from structured advice until the score passes (published, not granted)."
+pat-cn122531762:
+  summary_en: "A rule engine enumerates structured TCM features, an LLM turns them into simulated cases, and those cases fine-tune a customized prescription model (published, not granted)."
+pat-cn122436251:
+  summary_en: "Aligns four-examination and course features, retrieves past acupuncture plans, and uses a fine-tuned LLM with chain-of-thought for an explainable plan (published, not granted)."
+pat-cn120674039:
+  summary_en: "Trains a language model on medical records so symptoms map to acupuncture points, then applies parameter tuning and policy optimization (published, not granted)."
+pat-cn121524286:
+  summary_en: "Builds a cardiovascular acupuncture knowledge graph and sends hits to a cloud LLM for wording; if retrieval fails, the LLM answers with a caution (published, not granted)."
+news-202601-05:
+  summary_en: "Xinhua reports that on 24 December 2025 Henan's health commission showed a meridian-assisted diagnosis model and the Yuyao multimodal Shennong materia medica model for herb identification, authentication, assay, and origin tracing."
+news-202601-12:
+  summary_en: "Science and Technology Daily reports that on 9 January Guangdong Provincial Hospital of Chinese Medicine launched a matrix of famous-doctor decision models; dermatology and cardiovascular models are already in clinical use."
+news-202607-29:
+  summary_en: "Xinhua reports that in July 2026 the national medical AI pilot base released five results in Henan, including a meridian-diagnosis model, an esophageal-cancer model, a TCM dataset, a Chinese-medicine R&D model, and a famous-doctor agent."
+news-202608-27:
+  summary_en: "The university site says the Qian Xiaoxing medical model was released on 27 August 2026, trained on TCM literature, expert experience, and clinical data for diagnosis support, constitution identification, wellness advice, and medication guidance."
+news-202608-24:
+  summary_en: "Southern Finance reports that Guangzhou University of Chinese Medicine continued-trains a general model on about 2 billion TCM tokens into the Xinglin teaching model, now piloted in three core courses."
+ds-vtm-tda:
+  summary_en: "A FAIR computational benchmark of Vietnamese traditional medicine digitized from Do Tat Loi's pharmacopoeia, with 724 harmonized botanical entities and 1,635 historical prescriptions."
+ds-tongueatlas-4k:
+  summary_en: "A 4,000-image clinical tongue benchmark with certified TCM expert labels for 22 appearance categories, released for MIRNet (AAAI 2026, to appear). The Zenodo record is restricted."
+ds-yizong-jinjian-triples:
+  summary_en: "25,571 knowledge triples extracted from the Golden Mirror of Medicine, covering medicinals, formulas, diseases, acupoints, and theory across 1,105 relation types."
+ds-tcm-qm:
+  summary_en: "Gas-phase DFT descriptors for 3,196 TCM-related molecules, with 16,918 deduplicated herb–molecule provenance links."
+ds-hwtcm-sft-v1:
+  summary_en: "Haiwei AI Team's 7,096-example TCM instruction set. Text from websites, forums, and books was converted to QA and scored for expertise, safety, and fluency."
+ds-hwtcm-r1-distill:
+  summary_en: "Haiwei AI Team's DeepSeek-distilled TCM reasoning QA set built from web text. The authors state that it was not manually reviewed."
