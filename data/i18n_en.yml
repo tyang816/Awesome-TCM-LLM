@@ -1287,6 +1287,7 @@ pat-cn122050861:
   name_en: "TCM diagnosis-and-treatment platform combining an LLM with dual-channel retrieval"
   orgs_en:
   - Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, SHUTCM
+  - Shanghai Skin Disease Hospital
   summary_en: "LLM plus TCM knowledge-graph dual-channel retrieval for inheriting master-physician experience and generating formulas (published, not granted)."
 pat-cn122117314:
   name_en: "LLM-based intelligent acupuncture diagnosis agent"
