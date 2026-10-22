@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-10-21'
+  updated_at: '2026-10-22'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -3944,11 +3944,14 @@ items:
   name: TCM-MKG
   section: 知识图谱
   title_zh: TCM-MKG 中医药多维知识图谱
-  summary_zh: TCM-MKG 中医药多维知识图谱
+  summary_zh: 曾敬淇、贾晓斌公开的中医药多维知识图谱，连接术语、饮片和药性。配套论文用可解释图神经网络在 6080 首方上量化配伍，并用 215 首新冠相关方做了验证。
   tags:
   - kg
+  - herbal
+  - safety
   links:
     数据: https://zenodo.org/records/15395588
+    论文: https://doi.org/10.1016/j.jpha.2025.101342
   type: dataset
   year: 2025
   status: published
@@ -10796,3 +10799,1559 @@ items:
   verified_at: '2026-10-21'
   orgs:
   - Haiwei AI Team
+- id: pulse-smartphone-impedance
+  name: 穴位皮肤阻抗的手机脉诊
+  type: resource
+  year: 2020
+  venue: Sensors
+  summary_zh: 用指尖按压动脉处皮肤的方式，在穴位上测皮肤阻抗，检验手机做中医脉诊是否可行。
+  tags:
+  - multimodal
+  - tool
+  orgs: []
+  links:
+    DOI: https://doi.org/10.3390/s20164618
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-bionic-protocol
+  name: 仿生设备采集中医脉象的规程
+  type: resource
+  year: 2023
+  venue: Phenomics
+  summary_zh: 给出用仿生脉诊设备把中医脉象信息数字化采集的规程。
+  tags:
+  - multimodal
+  - tool
+  links:
+    DOI: https://doi.org/10.1007/s43657-023-00104-2
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-dl-health
+  name: 智能脉诊：信号处理与深度学习
+  type: resource
+  year: 2025
+  venue: Lecture Notes in Electrical Engineering
+  summary_zh: 用信号处理和深度学习对中医脉诊信号做健康状态分类。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1007/978-981-95-1999-6_19
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-cnn-diabetes
+  name: 面向糖尿病的中医脉诊卷积神经网络
+  type: resource
+  year: 2024
+  venue: Bioengineering
+  summary_zh: 整理脉诊信号供卷积神经网络使用，以提高中医脉诊判断糖尿病的一致性。脉诊长期依赖指下感觉，重复性差。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3390/bioengineering11060561
+  status: published
+  verified_at: '2026-10-22'
+- id: constitution-tap
+  name: 舌、声、脉联合的中医体质辨识
+  type: resource
+  year: 2019
+  venue: European Journal of Integrative Medicine
+  summary_zh: 把舌象、声音和脉象指标合在一起做中医体质辨识。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.eujim.2019.04.001
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-rater-agreement
+  name: 中医脉诊重测信度与评分者一致性
+  type: resource
+  year: 2023
+  venue: World Journal of Traditional Chinese Medicine
+  summary_zh: 两名印度中医执业者对300名受试者做双侧脉诊，评估重测信度和评分者之间是否一致。
+  tags:
+  - multimodal
+  - evaluation
+  links:
+    DOI: https://doi.org/10.4103/2311-8571.388728
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-incompat-formula-net
+  name: 方剂网络中的十八反与十九畏
+  type: resource
+  year: 2013
+  venue: Evidence-Based Complementary and Alternative Medicine
+  summary_zh: 用 362 首方剂建成方剂网络，并从化学空间和代谢空间考察十八反、十九畏药对。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1155/2013/352145
+  status: published
+  verified_at: '2026-10-22'
+- id: anderation-incompat
+  name: ANDERATION：反社区发现用于中药配伍禁忌
+  type: resource
+  year: 2019
+  venue: IEEE Access
+  summary_zh: 按节点的度以及组内度与组外度之比做反社区发现，用来在中药网络里找配伍禁忌。配伍禁忌是组内几乎没有连边、连边多在组外。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1109/access.2019.2934227
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-lbd-adverse
+  name: 从文献为抗抑郁药不良反应寻找中药替代
+  type: resource
+  year: 2020
+  venue: BMC Bioinformatics
+  summary_zh: 先从文献找出不良反应明显的西药，再寻找可能减轻这些不良反应的中药。案例是抑郁症用药。
+  tags:
+  - safety
+  links:
+    DOI: https://doi.org/10.1186/s12859-020-03735-8
+  status: published
+  verified_at: '2026-10-22'
+- id: kemre
+  name: KeMRE：中药说明书的知识增强关系抽取
+  type: resource
+  year: 2021
+  venue: Journal of Biomedical Informatics
+  summary_zh: 用知识增强的关系抽取，从中药说明书文本中抽出医学关系。
+  tags:
+  - kg
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.jbi.2021.103834
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-ml-safety
+  name: 中药化合物的多监管安全评价机器学习框架
+  type: resource
+  year: 2026
+  venue: Pharmacological Research - Modern Chinese Medicine
+  summary_zh: 从 TCMSP、TCMID、PubChem 和 ChEMBL 汇集 24 种药材的 127 个活性成分，用随机森林，并按 FDA、EMA 和 CFDA 的不同侧重点做安全评分。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.prmcm.2026.100772
+  status: published
+  verified_at: '2026-10-22'
+- id: biobert-hdi
+  name: BioBERT-HDI：草药与化学药相互作用预测
+  type: resource
+  year: 2025
+  venue: ICAC 2025
+  summary_zh: 用 BioBERT 从文献文本预测草药和化学药的相互作用，并与其他机器学习模型比较。
+  tags:
+  - safety
+  links:
+    DOI: https://doi.org/10.1145/3760269.3760325
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-tcm-safety-outlook
+  name: 中药安全性研究：方法、应用与展望
+  type: survey
+  year: 2019
+  venue: Engineering
+  summary_zh: 综述中药不良反应为何难研究：成分复杂，药物和机体的相互作用也难事先判断，和化学药、生物药的毒性研究不是同一类问题。
+  tags:
+  - survey
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.eng.2018.11.019
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-tcm-insilico-tox
+  name: 中药计算毒性研究小综述
+  type: survey
+  year: 2023
+  venue: Current Opinion in Structural Biology
+  summary_zh: 综述用计算方法研究中药毒性的工作。
+  tags:
+  - survey
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.sbi.2023.102588
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-tcm-wm-safety
+  name: 面向临床的中西药联用安全性数智评价
+  type: survey
+  year: 2026
+  venue: Chinese Science Bulletin
+  summary_zh: 中西药联用的不良反应隐匿、机制复杂，且个体差异大。文章提出一条从智能预测、风险识别、机制验证到数智决策的评价路径，覆盖用药前预警和用药中识别。
+  tags:
+  - survey
+  - safety
+  links:
+    DOI: https://doi.org/10.1360/csb-2026-0084
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-tcm-xai
+  name: 中医为何需要可解释人工智能
+  type: survey
+  year: 2026
+  venue: Chinese Medicine
+  summary_zh: 认为中医人工智能的障碍不只是预测分数，而是数据驱动模型和证候、病机这类理论推理对不上，所以需要可解释性。
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.1186/s13020-026-01455-4
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-tcm4nsclc
+  name: TCM4NSCLC
+  type: dataset
+  year: 2026
+  venue: Scientific Data
+  section: 临床结构化 / 处方
+  summary_zh: 一位资深中医门诊的非小细胞肺癌真实世界记录，整理成可计算数据，用于辨证、处方，以及真实世界疗效和亚组分析。
+  tags:
+  - benchmark
+  - clinical
+  links:
+    论文: https://doi.org/10.1038/s41597-026-07912-x
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-ml-preg-chd
+  name: 脉诊机器学习识别妊娠与冠心病
+  type: resource
+  year: 2025
+  venue: Scientific Reports
+  summary_zh: 用 MEMS/CMOS 便携脉诊仪采集健康女性、冠心病女性和孕早期女性的脉图，再用机器学习区分妊娠和冠心病。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1038/s41598-025-19780-3
+  status: published
+  verified_at: '2026-10-22'
+- id: tpc-gcn
+  name: TPC-GCN：中医脉象分类
+  type: resource
+  year: 2025
+  venue: Medical Engineering & Physics
+  summary_zh: 先用改进的 SMOTE 扩充脉象样本，再提取多域特征，用图卷积网络做中医脉象分类。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.medengphy.2025.104401
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-matrix
+  name: 基于中医脉诊矩阵的客观脉象分析
+  type: resource
+  year: 2026
+  venue: Medicine in Novel Technology and Devices
+  summary_zh: 用中医脉诊矩阵做客观脉象分析。文章认为现有脉图定义不完整，客观化标准也不统一。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.medntd.2026.100429
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-pcos-ml
+  name: 桡动脉脉搏波识别多囊卵巢综合征
+  type: resource
+  year: 2023
+  venue: BMC Complementary Medicine and Therapies
+  summary_zh: 用桡动脉脉搏波参数和机器学习区分多囊卵巢综合征与健康人，共 459 名受试者，用来把中医脉诊客观化。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1186/s12906-023-04249-5
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-htn-ml
+  name: 桡动脉脉搏波的高血压机器学习分类
+  type: resource
+  year: 2018
+  venue: BioMed Research International
+  summary_zh: 用机器学习比较 450 名高血压患者和 479 名健康人的桡动脉脉搏波，为中医脉诊提供客观参照。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1155/2018/2964816
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-chd-hht
+  name: 希尔伯特–黄变换与随机森林的冠心病脉象识别
+  type: resource
+  year: 2015
+  venue: Evidence-Based Complementary and Alternative Medicine
+  summary_zh: 用希尔伯特–黄变换提取中医脉象的能量和样本熵，再用随机森林区分冠心病患者和健康人。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1155/2015/895749
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-dcnn-wrist
+  name: 深度卷积网络分析腕部脉波
+  type: resource
+  year: 2014
+  venue: IEEE CIBCB
+  summary_zh: 用香农能量包络和希尔伯特变换抽出腕部脉波，再用深度卷积网络做中医脉诊识别。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/cibcb.2014.6845525
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-ppw-pregnancy
+  name: 脉搏压力波与妊娠的机器学习对应
+  type: resource
+  year: 2019
+  venue: arXiv
+  summary_zh: 用深度学习把脉搏压力波和是否妊娠对应起来。文中妊娠识别准确率 84%，AUC 91%。用的是压力波，不是中医脉象的位、数、形、势。
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/1910.01726
+  status: published
+  verified_at: '2026-10-22'
+- id: face-mobilevit
+  name: 统计特征与 MobileViT 的中医面色分类
+  type: resource
+  year: 2024
+  venue: IEEE ITNEC
+  summary_zh: 用统计特征和 MobileViT 做中医面色自动分类。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/itnec60942.2024.10733073
+  status: published
+  verified_at: '2026-10-22'
+- id: face-fsvm
+  name: 模糊支持向量机的中医面色识别
+  type: resource
+  year: 2016
+  venue: Chinese Journal of Electronics
+  summary_zh: 分割面颊后，用基于颜色建模的模糊支持向量机识别中医面色，以降低离群点的影响。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1049/cje.2016.05.013
+  status: published
+  verified_at: '2026-10-22'
+- id: face-constitution-color
+  name: 彩色人脸特征的中医体质分类
+  type: resource
+  year: 2016
+  venue: Journal of Traditional Chinese Medical Sciences
+  summary_zh: 采集 5150 人的彩色人脸图像，检测人脸并定位关键点，用面部特征做中医体质分类。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.jtcms.2016.12.001
+  status: published
+  verified_at: '2026-10-22'
+- id: face-complexion-quant
+  name: 中医面色的定性与定量分析
+  type: resource
+  year: 2014
+  venue: BioMed Research International
+  summary_zh: 用计算机对面色的颜色和光泽做定性和定量识别，以减少只靠经验望诊的主观性。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1155/2014/207589
+  status: published
+  verified_at: '2026-10-22'
+- id: face-cv-roi
+  name: 计算机视觉的中医面色识别
+  type: resource
+  year: 2020
+  venue: ICCIA
+  summary_zh: 用深度学习定位 68 个面部关键点，分割庭、颊、明堂等区域，再按多颜色空间的直方图识别中医面色。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/iccia49625.2020.00029
+  status: published
+  verified_at: '2026-10-22'
+- id: gyn-jiezhai-kg
+  name: Jiezhai Gong 妇产科医案知识图谱
+  type: resource
+  year: 2025
+  venue: International Conference on Biomedical and Intelligent Systems
+  summary_zh: 用 Neo4j 构建 Jiezhai Gong 妇产科医案知识图谱。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1145/3745034.3745089
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-mkg-gnn
+  name: 可解释图神经网络量化中药配伍
+  type: resource
+  year: 2025
+  venue: Journal of Pharmaceutical Analysis
+  summary_zh: 在中医药多维知识图谱上，用可解释图神经网络量化配伍。图谱把术语和饮片连起来，药性作为虚拟节点；在 6080 首方上评估饮片在方中的作用，并用 215 首新冠相关方做验证。
+  tags:
+  - herbal
+  - safety
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.jpha.2025.101342
+    arXiv: https://arxiv.org/abs/2411.11474
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-principle-quant
+  name: 可解释框架量化中医症状–方药对应
+  type: resource
+  year: 2025
+  venue: arXiv
+  summary_zh: 用古代和经典方剂记录训练模型，把症状模式对应到个体化方药这条原则量化，以便和现代生物医学对照。
+  tags:
+  - herbal
+  links:
+    论文: https://arxiv.org/abs/2507.11176
+  status: published
+  verified_at: '2026-10-22'
+- id: shanghan-eppi
+  name: 用《伤寒论》检验八纲表里辨证
+  type: resource
+  year: 2024
+  venue: arXiv
+  summary_zh: 用《伤寒论》的经验数据，把八纲里的表里看成降维，检验表里是否包含最多的症状信息、是否更抽象，以及是否有助于选方。
+  tags:
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/2409.19531
+  status: published
+  verified_at: '2026-10-22'
+- id: syndrome-cnn-diabetes
+  name: 糖尿病证候的多实例多任务卷积网络
+  type: resource
+  year: 2018
+  venue: arXiv
+  summary_zh: 把糖尿病患者的病历当成一维图像、症状当成像素，用多实例多任务卷积网络先找出相关症状，再对应到证候。
+  tags:
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/1812.07764
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-zhao-hanqing
+  name: 赵汉青门诊处方（2025）
+  type: dataset
+  year: 2026
+  venue: Zenodo
+  section: 临床结构化 / 处方
+  summary_zh: 赵汉青 2025 年中医内科门诊的去标识处方：122 名患者、335 张处方、5951 条药味记录，每味药有克剂量。初诊 75 张、复诊 260 张。给药途径以口服汤剂为主（315 张），另有冲服 8 张、外洗 8 张、外用 4 张。每日两次 333 张，每日三次 2 张。药名里能看到炮制写法，含「炒」412 行、「炙」341 行、「麸」289 行、「醋」164 行、「姜」154 行、「酒」89 行、「煅」67 行、「制」63 行，另有法半夏 99 行；同一行可以同时含多个字。CC BY 4.0。仓库说明就诊机构为 Beijing Heniantang Hospital。
+  orgs:
+  - Beijing Heniantang Hospital
+  tags:
+  - clinical
+  - herbal
+  links:
+    数据集: https://doi.org/10.5281/zenodo.21947836
+    代码: https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-tcmcpd
+  name: TCMCPD
+  type: dataset
+  year: 2026
+  venue: Zenodo
+  section: 临床结构化 / 处方
+  summary_zh: 从病案整理的结构化库：4895 名患者、12900 次就诊、712 味中药，就诊–证候 11879 条，就诊–药味 63192 条。剂量单位以克为主（61386），另有钱 1067、枚 364、片 240、两 69、分 64、毫升 2。并连接症状、成分和靶点，附 Neo4j 节点和边。作者说明不转发受版权限制的医案原文。描述稿目前是 Research Square 预印本。
+  tags:
+  - clinical
+  - herbal
+  - kg
+  align_note: visits.csv 含 content 字段；README 提示公开前需核对病案原文版权。药味剂量列已在 visit_herb.csv 核对。
+  links:
+    数据集: https://doi.org/10.5281/zenodo.20929034
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-acu-cpg
+  name: 针灸临床实践指南数据集
+  type: dataset
+  year: 2026
+  venue: Scientific Data
+  section: 公开资料整理
+  summary_zh: 把针灸临床实践指南整理成数据集，以便在临床上直接使用。
+  tags:
+  - corpus
+  links:
+    论文: https://doi.org/10.1038/s41597-026-08112-3
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-tcm-term-enzh
+  name: 中医药中英术语数据集
+  type: dataset
+  year: 2021
+  venue: China Scientific Data
+  section: 公开资料整理
+  summary_zh: 中国科学数据发布的中医药中英术语对照数据集。
+  tags:
+  - corpus
+  links:
+    论文: https://doi.org/10.11922/csdata.2021.0009.zh
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-km-exam
+  name: 健康成人韩医诊察数据集
+  type: dataset
+  year: 2024
+  venue: Healthcare
+  section: 东亚传统医学
+  summary_zh: 先从文献抽出韩医诊察指标，经三轮专家意见形成方案，再在韩医医院连续四年采集健康成人的诊察数据。
+  tags:
+  - east-asian-tm
+  - multimodal
+  links:
+    论文: https://doi.org/10.3390/healthcare12090918
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-symptom-norm
+  name: 中医病历症状名自动规范化
+  type: resource
+  year: 2010
+  venue: BMC Bioinformatics
+  summary_zh: 把中医电子病历里的症状名自动规范到统一术语，以便从病历而不是只从手工整理的方剂里做挖掘。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1186/1471-2105-11-40
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-symptom-norm-ccis
+  name: 中医病历症状规范化的自动方法
+  type: resource
+  year: 2021
+  venue: Communications in Computer and Information Science
+  summary_zh: 讨论如何自动把中医病历中的症状名规范化。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1007/978-3-030-78615-1_42
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-symptom-fine
+  name: 中医症状的细粒度实体与关系抽取
+  type: resource
+  year: 2025
+  venue: BMC Medical Informatics and Decision Making
+  summary_zh: 针对病历里半结构化、会嵌套的症状描述，做细粒度症状实体和关系抽取，避免粗标注把信息丢掉。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1186/s12911-025-03257-4
+  status: published
+  verified_at: '2026-10-22'
+- id: icd11-tm-snomed
+  name: ICD-11 传统医学章与 SNOMED CT 的本体对照
+  type: resource
+  year: 2023
+  venue: Studies in Health Technology and Informatics
+  summary_zh: 把 ICD-11 第26章的传统医学条目和 SNOMED CT 对照，用来建传统医学本体。
+  tags:
+  - evaluation
+  - kg
+  links:
+    DOI: https://doi.org/10.3233/shti230249
+  status: published
+  verified_at: '2026-10-22'
+- id: shanghan-kg
+  name: 《伤寒论》知识图谱
+  type: resource
+  year: 2022
+  venue: Digital Chinese Medicine
+  summary_zh: 构建《伤寒论》知识图谱，并给出应用。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2022.12.006
+  status: published
+  verified_at: '2026-10-22'
+- id: shanghan-tinybert
+  name: 《伤寒论》问题意图分类（TinyBERT-CNN）
+  type: resource
+  year: 2023
+  venue: Computers in Biology and Medicine
+  summary_zh: 用 TinyBERT 和卷积神经网络融合，对《伤寒论》里的问题做意图分类。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.compbiomed.2023.107075
+  status: published
+  verified_at: '2026-10-22'
+- id: face-rx-conv
+  name: 由多尺度面容生成中药处方
+  type: resource
+  year: 2018
+  venue: arXiv
+  summary_zh: 用卷积网络从多尺度面部特征生成中药处方。此前处方生成多只看症状，这篇挖掘面容和处方的关系。
+  tags:
+  - multimodal
+  - herbal
+  links:
+    论文: https://arxiv.org/abs/1812.06847
+  status: published
+  verified_at: '2026-10-22'
+- id: face-tongue-dm
+  name: 舌、面与舌下融合识别糖尿病
+  type: resource
+  year: 2016
+  venue: arXiv
+  summary_zh: 融合舌象、面容和舌下图像，识别糖尿病及其早期的糖调节受损。中医望诊把这几处当作无创依据，此前工作多只看单一模态。
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/1604.03443
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-gamma-index
+  name: 用伽马密度拟合中医脉图
+  type: resource
+  year: 2014
+  venue: arXiv
+  summary_zh: 把中医脉图当作波形，用多维变量分析，以伽马密度函数拟合脉图，用来形成可计算的脉象分类指标。
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/1402.6649
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-ocular-moe
+  name: 白睛异常分割（HD-DinoMoE）
+  type: resource
+  year: 2026
+  venue: arXiv
+  summary_zh: 中医目诊看白睛缺少定量。这篇用分层混合专家网络，在复杂拍摄条件下分割巩膜表面异常。
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2606.04888
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-drl-course
+  name: 深度强化学习的序贯中药治疗规划
+  type: resource
+  year: 2023
+  venue: arXiv
+  summary_zh: 把慢性病的中药治疗看成多次就诊上的序贯决策，用深度强化学习规划后续处方，而不是只给一次方。
+  tags:
+  - herbal
+  links:
+    论文: https://arxiv.org/abs/2304.12828
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-constitution-aaai
+  name: 多模态中医体质端到端评估
+  type: resource
+  year: 2022
+  venue: AAAI
+  summary_zh: 端到端评估中医体质。输入包括面象、舌象、脉和声音，以及问诊文本。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1609/aaai.v36i11.21727
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-inquiry-philosophy
+  name: 按中医问诊思路做的证候辨证
+  type: resource
+  year: 2022
+  venue: Journal of Healthcare Engineering
+  summary_zh: 按中医问诊的思路做个性化证候辨证，针对计算问诊里追问不足、缺少问诊原则的问题。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1155/2022/6553017
+  status: published
+  verified_at: '2026-10-22'
+- id: kampo-virtual-patient
+  name: 汉方问诊虚拟病人
+  type: resource
+  year: 2024
+  venue: SCIS-ISIS
+  summary_zh: 构建汉方问诊的虚拟病人，用来加强对汉方病机概念的理解和共情。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1109/scisisis61014.2024.10759962
+  status: published
+  verified_at: '2026-10-22'
+- id: face-htn-color
+  name: 高血压的中医面色分类
+  type: resource
+  year: 2024
+  venue: IEEE ECBIOS
+  summary_zh: 建立用于高血压的中医面色分类模型。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/ecbios61468.2024.10885481
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-wgan
+  name: Wasserstein GAN 扩充腕部脉象
+  type: resource
+  year: 2021
+  venue: ISAIMS
+  summary_zh: 用 Wasserstein GAN 为中医腕部脉象信号做数据增强。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1145/3500931.3501003
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-waveform-htn
+  name: 高血压患者的寸口脉与脉搏波
+  type: resource
+  year: 2016
+  venue: Journal of Integrative Medicine
+  summary_zh: 在高血压患者中，把中医寸口脉诊和脉搏波、血流动力学放在一起看二者是否相关。
+  tags:
+  - multimodal
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1016/s2095-4964(16)60233-9
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-sleep-anfis
+  name: 自适应神经模糊推理的中医睡眠障碍诊断
+  type: resource
+  year: 2021
+  venue: Biomedical Signal Processing and Control
+  summary_zh: 用自适应神经模糊推理系统做中医睡眠障碍诊断。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1016/j.bspc.2021.102942
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-tcmtoxdb
+  name: TCMToxDB
+  type: dataset
+  year: 2026
+  venue: Database
+  section: 中药组方 / 提取物
+  summary_zh: 中药毒性与安全使用数据库，区分方剂、饮片和成分的毒性，并按毒性表现整理靶点。站内集成五种药–靶、成分–靶预测算法。
+  tags:
+  - herbal
+  - safety
+  links:
+    论文: https://doi.org/10.1093/database/baag019
+    网站: https://www.sdu-idea.cn/TCMToxDB
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-metaacupoint
+  name: MetaAcuPoint
+  type: dataset
+  year: 2025
+  venue: Healthcare
+  section: 评测基准
+  summary_zh: 用 Unreal Engine 的 MetaHuman 生成 900 张手部图像，按骨骼插槽标注 5 个手部穴位，供韩医穴位定位使用。
+  tags:
+  - benchmark
+  - multimodal
+  - east-asian-tm
+  links:
+    论文: https://doi.org/10.3390/healthcare13233093
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-herb-hetnet
+  name: 中药异构网络结构集
+  type: dataset
+  year: 2024
+  venue: Data in Brief
+  section: 知识图谱
+  summary_zh: 汇总生物医学里常见的异构网络，其中包括药–靶、药–症状、药–药和症状–症状网络，也含蛋白质相互作用网络。
+  tags:
+  - kg
+  - herbal
+  links:
+    论文: https://doi.org/10.1016/j.dib.2024.110962
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-team-ehr-standards
+  name: 东亚传统医学如何进入国际卫生信息标准
+  type: survey
+  year: 2026
+  venue: Healthcare
+  summary_zh: 范围综述：检索 2016 年 1 月至 2026 年 3 月的英文文献，看韩医、中医和汉方概念怎样映射进主流卫生信息标准。
+  tags:
+  - survey
+  - evaluation
+  links:
+    DOI: https://doi.org/10.3390/healthcare14183011
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-acupoint-dl
+  name: 深度学习穴位定位综述
+  type: survey
+  year: 2025
+  venue: Chinese Medicine
+  summary_zh: 按身体部位、网络结构、定位策略和图像模态，综述深度学习穴位定位的数据集、指标和适用场景。
+  tags:
+  - survey
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1186/s13020-025-01173-3
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-acupoint-cad
+  name: 计算机辅助穴位定位系统综述
+  type: survey
+  year: 2025
+  venue: iScience
+  summary_zh: 系统综述用传统算法和深度学习在不同解剖区域做穴位定位的研究，并讨论效果和限制。
+  tags:
+  - survey
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.isci.2025.113708
+  status: published
+  verified_at: '2026-10-22'
+- id: chest-bi-fhir
+  name: 胸痹/冠心病的中西医数据治理
+  type: resource
+  year: 2026
+  venue: Frontiers in Medical Technology
+  summary_zh: 以胸痹（冠心病）为例，按 HL7 FHIR 和 SNOMED CT 建了 9 个子集、352 个数据元，其中 42.6% 是中医专用。触发引擎有 128 条规则。前瞻对照纳入 972 人。
+  tags:
+  - evaluation
+  - clinical
+  links:
+    DOI: https://doi.org/10.3389/fmedt.2026.1759773
+  status: published
+  verified_at: '2026-10-22'
+- id: gbt-iso-18668
+  name: GB/T 31774 与 ISO 18668 中药编码对照
+  type: resource
+  year: 2017
+  venue: China Journal of Chinese Materia Medica
+  summary_zh: 对照中国国家标准 GB/T 31774-2015 和国际标准 ISO 18668 第 1 至第 4 部分的中药编码，说明相同和不同之处。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.19540/j.cnki.cjcmm.20170426.003
+  status: published
+  verified_at: '2026-10-22'
+- id: gbt-12346-interpret
+  name: GB/T 12346-2021 经穴名称与定位解读
+  type: resource
+  year: 2022
+  venue: Chinese Acupuncture & Moxibustion
+  summary_zh: 解释国家标准《经穴名称与定位》（GB/T 12346-2021）相对 2006 版的变化，包括标准名称、术语、定义、部位表述，以及部分穴位骨度分寸和定位。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.13703/j.0255-2930.20220117-k0001
+  status: published
+  verified_at: '2026-10-22'
+- id: kampo-icd-modules
+  name: ICD-10 疾病与汉方寒热虚实的对应
+  type: resource
+  year: 2021
+  venue: Frontiers in Pharmacology
+  summary_zh: 在一家大型汉方门诊，把 2014 年 10 月至 2019 年 6 月、20 岁及以上患者的 ICD-10 诊断，对照到 ICD-11 传统医学里的寒热、虚实等模块。
+  tags:
+  - evaluation
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.3389/fphar.2021.751403
+  status: published
+  verified_at: '2026-10-22'
+- id: icd11-ch26-supplement
+  name: 对 ICD-11 第26章传统医学条目的增补建议
+  type: resource
+  year: 2020
+  venue: Integrative Cancer Therapies
+  summary_zh: ICD-11 第26章来自 WHO 西太区传统医学术语标准，是中日韩分类的并集。文章建议在保留已收录证候的同时补充仍缺的证候。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1177/1534735420908334
+  status: published
+  verified_at: '2026-10-22'
+- id: pipe-11
+  name: PIPE-11：落地 ICD-11 传统医学章的临床决策支持
+  type: resource
+  year: 2020
+  venue: Journal of Integrative Medicine
+  summary_zh: 介绍 Pattern Identification and Prescription Expert-11，用辨证和处方文献把 ICD-11 传统医学章做成可计算的临床决策支持。
+  tags:
+  - evaluation
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.joim.2020.08.003
+  status: published
+  verified_at: '2026-10-22'
+- id: stc-nf
+  name: STC-NF：中医症状术语两段式规范化
+  type: resource
+  year: 2026
+  venue: JMIR
+  summary_zh: 针对一条原文对应多个症状、缺少行业标准术语的问题，先把症状拆成 12 类细粒度语义，再用三个命名实体识别模型做两段式规范化，拼回标准术语。数据来自电子病历。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.2196/85825
+  status: published
+  verified_at: '2026-10-22'
+- id: syndrome-criteria-apply
+  name: 中医证候诊断标准适用性评价指南
+  type: resource
+  year: 2026
+  venue: Journal of Evidence-Based Medicine
+  summary_zh: 用德尔菲法给出证候诊断标准的适用性评价指南，共 5 个域、25 条：可获得性、可读性、可实施性、可接受性和总评。每条按 5 点量表打分。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1111/jebm.70153
+  status: published
+  verified_at: '2026-10-22'
+- id: blt-tm-data-gap
+  name: 国际疾病分类与传统医学数据缺口
+  type: resource
+  year: 2025
+  venue: Bulletin of the World Health Organization
+  summary_zh: 讨论国际疾病分类体系里传统医学数据仍然缺失的问题。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.2471/blt.25.293540
+  status: published
+  verified_at: '2026-10-22'
+- id: shanghan-gcn
+  name: 《伤寒论》异构图与图卷积表示
+  type: resource
+  year: 2022
+  venue: Digital Chinese Medicine
+  summary_zh: 为《伤寒论》构建异构图，并用图卷积网络学习节点表示。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2022.12.007
+  status: published
+  verified_at: '2026-10-22'
+- id: shanghan-textmine
+  name: 用自然语言处理挖掘《伤寒论》
+  type: resource
+  year: 2020
+  venue: World Journal of Traditional Chinese Medicine
+  summary_zh: 用自然语言处理对《伤寒论》做文本挖掘和分析。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.4103/wjtcm.wjtcm_28_19
+  status: published
+  verified_at: '2026-10-22'
+- id: wenbing-bert-ner
+  name: 温病文献的 BERT 命名实体识别
+  type: resource
+  year: 2023
+  venue: IEEE ICIEA
+  summary_zh: 用 BERT 识别中医温病文献中的命名实体。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1109/iciea58696.2023.10241595
+  status: published
+  verified_at: '2026-10-22'
+- id: lungca-sd-e2e
+  name: 模仿肺癌中医辨证的端到端模型
+  type: resource
+  year: 2020
+  venue: JMIR Medical Informatics
+  summary_zh: 训练端到端模型，模仿中医在肺癌诊断中的证候辨证。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.2196/17821
+  status: published
+  verified_at: '2026-10-22'
+- id: shanghan-physica-net
+  name: 《伤寒论》的复杂网络模型
+  type: resource
+  year: 2016
+  venue: Physica A
+  summary_zh: 用复杂网络描述《伤寒论》的结构。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1016/j.physa.2016.03.115
+  status: published
+  verified_at: '2026-10-22'
+- id: wenre-shanghan-net
+  name: 《温热经纬》与《伤寒论》方剂网络
+  type: resource
+  year: 2021
+  venue: Journal of Pharmacopuncture
+  summary_zh: 对《温热经纬》和《伤寒论》中的方剂做网络分析。
+  tags:
+  - herbal
+  - kg
+  links:
+    DOI: https://doi.org/10.3831/kpi.2021.24.3.138
+  status: published
+  verified_at: '2026-10-22'
+- id: sd-longtail-kg
+  name: 知识图谱增强的长尾证候辨证
+  type: resource
+  year: 2026
+  venue: Digital Chinese Medicine
+  summary_zh: 用知识图谱增强长尾学习，做中医证候辨证。
+  tags:
+  - kg
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2026.02.005
+  status: published
+  verified_at: '2026-10-22'
+- id: tcmkd
+  name: TCMKD 中医药知识发现平台
+  type: resource
+  year: 2025
+  venue: Journal of Pharmaceutical Analysis
+  summary_zh: 手工校对后汇集证候、方剂、中成药、药材、成分、靶点和疾病。平台提供挖掘、富集和网络定位分析。
+  tags:
+  - kg
+  - tool
+  links:
+    DOI: https://doi.org/10.1016/j.jpha.2025.101297
+    网站: https://cbcb.cdutcm.edu.cn/TCMKD/
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-bert-cnn-sd
+  name: TCM-BERT-CNN 整体证候分类
+  type: resource
+  year: 2024
+  venue: Integrative Medicine Research
+  summary_zh: 从公开指南和教材整理专家知识，用 BERT 和卷积神经网络，由症状直接预测多个证候，并用十折交叉验证。
+  tags:
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1016/j.imr.2023.101019
+  status: published
+  verified_at: '2026-10-22'
+- id: acu-gnn-bert
+  name: GNN-BERT 的症状–穴位推荐
+  type: resource
+  year: 2026
+  venue: Chinese Medicine
+  summary_zh: 用异构图和图神经网络，再配合微调的 BERT，建模症状和穴位的配伍，用来推荐穴位。
+  tags:
+  - kg
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1186/s13020-026-01458-1
+  status: published
+  verified_at: '2026-10-22'
+- id: t2fal-face-acu
+  name: 红外热像面部穴位两级定位
+  type: resource
+  year: 2026
+  venue: Sensors
+  summary_zh: 按骨度分寸和中医解剖规则整理多姿态红外面部热像，先检测人脸，再回归穴位位置。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3390/s26144498
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-tcm-tox-exp
+  name: 中药化学成分毒性实验库
+  type: dataset
+  year: 2026
+  venue: Science Data Bank
+  section: 中药组方 / 提取物
+  summary_zh: 从公开毒理学文献整理的中药化学成分毒性实验记录，含体内和体外实验。示例药物包括闹羊花、斑蝥、巴豆、洋金花、附子和轻粉。字段有给药途径、实验物种、LD50 等毒性指标、毒性剂量、靶器官和病理表现，并保留
+    PMID。
+  tags:
+  - herbal
+  - safety
+  links:
+    数据集: https://doi.org/10.57760/sciencedb.015ml
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-tcm-rx-dose
+  name: 治法–处方与药材剂量表
+  type: dataset
+  year: 2022
+  venue: GitHub
+  section: 中药组方 / 提取物
+  summary_zh: 仓库说明写有 23 类治法、400 多个治法亚类、4174 种常用药材及其剂量和来源，经典方 900 首以上，处方特征分 21 类。仓库里有 Treatment.csv 和《治法-处方数据集总表》。
+  tags:
+  - herbal
+  links:
+    数据集: https://github.com/lin-haust/TCM-prescription-datasets
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-syd-nk
+  name: SYD_NK 内科证候测试集
+  type: dataset
+  year: 2025
+  venue: Hugging Face
+  section: 评测基准
+  summary_zh: 366 条中医内科证候测试样本，每条是证候名加一段第一人称症状叙述。作者说明材料来自《中医内科学》，由中医学生校对，用于证候辨证。Apache-2.0。
+  tags:
+  - benchmark
+  - evaluation
+  links:
+    数据集: https://huggingface.co/datasets/XiaoEnn/Syndrome_Differentiation_NK_test
+  status: published
+  verified_at: '2026-10-22'
+- id: tcmm-db
+  name: TCMM 中药现代化统一数据库
+  type: resource
+  year: 2024
+  venue: Computational and Structural Biotechnology Journal
+  summary_zh: 提出一个面向中药现代化和治疗创新的统一数据库。
+  tags:
+  - kg
+  - tool
+  links:
+    DOI: https://doi.org/10.1016/j.csbj.2024.04.016
+  status: published
+  verified_at: '2026-10-22'
+- id: taiwan-herb-adr
+  name: 台湾草药不良反应报告系统（1998–2016）
+  type: resource
+  year: 2021
+  venue: Scientific Reports
+  summary_zh: 介绍台湾 1998 年至 2016 年用于报告和评估草药不良反应的系统。
+  tags:
+  - safety
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1038/s41598-021-00704-w
+  status: published
+  verified_at: '2026-10-22'
+- id: unitcm
+  name: UniTCM
+  type: resource
+  year: 2026
+  venue: Zenodo
+  summary_zh: 把方剂和疾病对应到分子层面的反向药理学平台，包含标准化、临床发现、分子分析、系统核对和分析工具五层。
+  tags:
+  - herbal
+  - tool
+  links:
+    代码: https://doi.org/10.5281/zenodo.21711675
+    网站: https://unitcm.qfxulab.com/
+  status: published
+  verified_at: '2026-10-22'
+- id: ihpreten
+  name: IHPreten：配伍禁忌药对预测
+  type: resource
+  year: 2019
+  venue: Neurocomputing
+  summary_zh: 用带属性正则的监督学习框架，预测中药里的配伍禁忌药对。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.neucom.2019.02.017
+  status: published
+  verified_at: '2026-10-22'
+- id: aconite-incompat-rules
+  name: 含反药的附子处方关联规则
+  type: resource
+  year: 2015
+  venue: China Journal of Chinese Materia Medica
+  summary_zh: 用关联规则分析不同地区含配伍禁忌药的附子处方，并归纳这些配伍的特点。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.4268/cjcmm20150639
+  status: published
+  verified_at: '2026-10-22'
+- id: preg-contra-overview
+  name: 妊娠禁忌中药概述
+  type: resource
+  year: 2017
+  venue: InTech
+  summary_zh: 书中一章，概述妊娠期间禁用的中药。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.5772/67066
+  status: published
+  verified_at: '2026-10-22'
+- id: rx-dose-fuzzy
+  name: 中药处方剂量分配的模糊分析
+  type: resource
+  year: 2021
+  venue: IEEE ICSGEA
+  summary_zh: 用模糊分析讨论中药处方里的剂量分配。
+  tags:
+  - herbal
+  links:
+    DOI: https://doi.org/10.1109/icsgea53208.2021.00138
+  status: published
+  verified_at: '2026-10-22'
+- id: eswa-tcm-2025
+  name: 异构网络预测中药毒性
+  type: resource
+  year: 2026
+  venue: Expert Systems with Applications
+  summary_zh: 用异构网络预测中药毒性。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.eswa.2025.129969
+  status: published
+  verified_at: '2026-10-22'
+- id: ds-classic-formula-key
+  name: 古代经典名方关键信息表
+  type: dataset
+  year: 2025
+  venue: 国家中医药管理局 / 国家药品监督管理局
+  section: 中药组方 / 提取物
+  summary_zh: 官方公布的经典名方关键信息，不是患者病历。三份通知分别是 2020 年 7 首、2023 年「竹叶石膏汤」等 25 首、2025 年「旋覆代赭汤」等 43 首。2025 年附表逐味给出基原、炮制规格和折算剂量。旋覆代赭汤中甘草为炒甘草
+    41.40 克、半夏为清半夏 34.50 克；全方以水 2000 毫升煮取 1200 毫升，去渣再煎至 600 毫升，每次温服 200 毫升、日三服。
+  tags:
+  - herbal
+  orgs:
+  - 国家中医药管理局
+  - 国家药品监督管理局
+  links:
+    2020通知: http://www.natcm.gov.cn/kejisi/zhengcewenjian/2020-11-10/18132.html
+    2023通知: http://www.natcm.gov.cn/kejisi/gongzuodongtai/2023-07-28/31404.html
+    2025通知: http://www.natcm.gov.cn/kejisi/gongzuodongtai/2025-02-12/35831.html
+    2025PDF: https://www.nmpa.gov.cn/directory/web/nmpa/images/1739501159108056814.pdf
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-tbosd
+  name: TCM-TBOSD 辨证论治评测
+  type: resource
+  year: 2025
+  venue: CCL 2025
+  summary_zh: CCL 2025 评测任务。齐鲁工业大学（山东省科学院）与山东中医药大学附属医院用脱敏病历做成 TCM-TBOSD，1500 条，覆盖 10 种证型、4 种疾病、381 味药。处方字段是药名列表，论文写明不包括剂量。仓库有基线代码和数据使用保密承诺书，病例表没有直接放在文件列表里。
+  tags:
+  - benchmark
+  - evaluation
+  - herbal
+  orgs:
+  - 齐鲁工业大学（山东省科学院）
+  - 山东中医药大学附属医院
+  links:
+    论文: https://aclanthology.org/2025.ccl-2.45/
+    PDF: https://aclanthology.org/2025.ccl-2.45.pdf
+    代码: https://github.com/QLU-NLP/TCM-Syndrome-and-Disease-Differentiation-and-Prescription-Recommendation
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-dili-signals
+  name: 中药肝损伤不良反应的风险信号
+  type: resource
+  year: 2024
+  venue: Chinese Journal of Pharmacovigilance
+  summary_zh: 用不良反应监测数据，探索中药所致肝损伤的新风险信号和易感因素。期刊页给出论文，没有放出个例表。
+  tags:
+  - safety
+  - clinical
+  links:
+    论文: https://zgywjj.magtechjournal.com/EN/10.19803/j.1672-8629.20230779
+    PDF: https://zgywjj.magtechjournal.com/EN/article/downloadArticleFile.do?attachType=PDF&id=3442
+  status: published
+  verified_at: '2026-10-22'
+- id: sasang-fusion
+  name: 面像、体型、声音和问卷融合的四象体质辨识
+  type: resource
+  year: 2012
+  venue: BMC Complementary and Alternative Medicine
+  summary_zh: 韩国韩医学研究院在 23 家韩医诊所收集 2973 名患者的面像、体型、声音和问卷，分别建四象体质模型后再融合。测试集男性准确率 64.0%，女性 55.2%。图像和问卷没有公开下载。
+  tags:
+  - multimodal
+  orgs:
+  - Korea Institute of Oriental Medicine
+  links:
+    DOI: https://doi.org/10.1186/1472-6882-12-85
+  status: published
+  verified_at: '2026-10-22'
+- id: sasang-face-geom
+  name: 用面部几何特征区分四象体质
+  type: resource
+  year: 2009
+  venue: Evidence-Based Complementary and Alternative Medicine
+  summary_zh: 从面部照片提取距离、角度和距离比，用来区分四象体质。摘要给出的特征规模是距离 1225 项、角度 61250 项、距离比 749700 项。面像没有公开。
+  tags:
+  - multimodal
+  orgs:
+  - Korea Institute of Oriental Medicine
+  links:
+    DOI: https://doi.org/10.1093/ecam/nep065
+  status: published
+  verified_at: '2026-10-22'
+- id: constitution-body-image
+  name: 面色与体型的中医体质图像辨识
+  type: resource
+  year: 2024
+  venue: Digital Chinese Medicine
+  summary_zh: 采集健康人的全身站立图像，按中医体质量表标注体质，再用面色、体型和深度图像特征做识别。论文写了带标签的图像集，没有给出公开下载地址。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1016/j.dcmed.2024.09.002
+  status: published
+  verified_at: '2026-10-22'
+- id: face-uniform-lab
+  name: 均匀色空间的中医面色识别
+  type: resource
+  year: 2014
+  venue: International Journal of Pattern Recognition and Artificial Intelligence
+  summary_zh: 在均匀 Lab 色空间里识别中医面色。面像没有公开。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1142/s0218001414500086
+  status: published
+  verified_at: '2026-10-22'
+- id: face-spirit-video
+  name: 视频面部特征的中医望神分类
+  type: resource
+  year: 2014
+  venue: IEEE BIBM
+  summary_zh: 用视频里的面部特征做中医望神的自动分类。视频没有公开。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/bibm.2014.6999314
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-chd-param
+  name: 冠心病、其他心血管病与健康人的脉象参数
+  type: resource
+  year: 2014
+  venue: IEEE ICCA
+  summary_zh: 用压力传感器采集 251 人的脉图：冠心病 102 人、非冠心病的心血管病 94 人、健康人 55 人，比较三组脉象参数。脉图没有公开。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/icca.2014.6871077
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-fasting-cgc
+  name: 空腹过程的寸关尺脉图定量
+  type: resource
+  year: 2026
+  venue: Journal of Traditional Chinese Medicine
+  summary_zh: 对 51 名健康人在空腹前、空腹第 4 天和第 7 天采集左寸、右寸和右关脉图，比较与胃肠虚实有关的脉象参数。脉图没有公开。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.19852/j.cnki.jtcm.2026.02.019
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-multichannel-cnn
+  name: 多通道桡动脉信号的脉象识别
+  type: resource
+  year: 2025
+  venue: International Conference on Digital Transformation and Management
+  summary_zh: 用多通道设备采集桡动脉搏动，去噪并提取特征后，用卷积神经网络识别常见脉象。摘要没有给样本量和公开下载地址。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1145/3795546.3795575
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-cnn9
+  name: 九层卷积网络的腕部脉象分类
+  type: resource
+  year: 2016
+  venue: International Symposium on Computer, Consumer and Control
+  summary_zh: 用 9 层卷积网络直接对中医腕部脉象信号分类，不再手工选择特征。脉图没有公开。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1109/is3c.2016.101
+  status: published
+  verified_at: '2026-10-22'
+- id: km-stroke-pi-agree
+  name: 中风患者韩医四诊的观察者一致性
+  type: resource
+  year: 2014
+  venue: Evidence-Based Complementary and Alternative Medicine
+  summary_zh: 两名医师独立检查 168 名中风住院患者。脉诊体征的 AC1 为 0.66–0.89，望诊 0.66–0.95，闻诊 0.67–0.88，问诊 0.62–0.94。这是一致性研究，不是公开标注集。
+  tags:
+  - multimodal
+  - evaluation
+  orgs:
+  - Korea Institute of Oriental Medicine
+  links:
+    DOI: https://doi.org/10.1155/2014/465471
+  status: published
+  verified_at: '2026-10-22'
+- id: pulse-voice-cad
+  name: 脉波与语音联合筛查冠心病和心衰
+  type: resource
+  year: 2026
+  venue: BMC Medical Informatics and Decision Making
+  summary_zh: 上海中医药大学等把桡动脉脉搏波当作脉诊、把语音当作闻诊，用来筛查冠心病和心力衰竭。摘要没有给样本量和公开数据地址。
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1186/s12911-026-03518-w
+  status: published
+  verified_at: '2026-10-22'
+- id: an-ihp
+  name: AN-IHP：注意力网络预测配伍禁忌药对
+  type: resource
+  year: 2025
+  venue: IEEE Transactions on Computational Biology and Bioinformatics
+  summary_zh: 用注意力网络预测中药里配伍禁忌的药对。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1109/tcbbio.2024.3498094
+  status: published
+  verified_at: '2026-10-22'
+- id: ihp-cikm
+  name: 配伍禁忌药对的监督学习框架
+  type: resource
+  year: 2018
+  venue: ACM CIKM
+  summary_zh: 用监督学习预测中药配伍禁忌药对。与后来的 IHPreten 是同一方向的另一篇会议论文。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1145/3269206.3269241
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-ddi-gat
+  name: 图注意力网络预测中药相互作用
+  type: resource
+  year: 2025
+  venue: Scientific Reports
+  summary_zh: 用图注意力网络预测中药之间的相互作用，用来提前发现配伍风险。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1038/s41598-025-00725-9
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-ms-tox
+  name: 质谱机器学习预测中药毒性
+  type: resource
+  year: 2024
+  venue: Analytical Chemistry
+  summary_zh: 用质谱和机器学习预测中药毒性。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.1021/acs.analchem.4c05311
+  status: published
+  verified_at: '2026-10-22'
+- id: tcm-cv-tox
+  name: 基于结构相似的中药心血管毒性预测软件
+  type: resource
+  year: 2012
+  venue: Bioinformation
+  summary_zh: 按化学结构相似性做软件，预测中药的心血管毒性。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.6026/973206300080110
+  status: published
+  verified_at: '2026-10-22'
+- id: chest-pain-18fan
+  name: 胸痹处方中的十八反关联规则
+  type: resource
+  year: 2011
+  venue: China Journal of Chinese Materia Medica
+  summary_zh: 用关联规则查看胸痹处方里十八反药对的出现规律。
+  tags:
+  - herbal
+  - safety
+  links:
+    DOI: https://doi.org/10.4268/cjcmm20112434
+  status: published
+  verified_at: '2026-10-22'
+- id: cmm-cardiac-adr
+  name: 中药心脏不良反应的文献计量与关联规则
+  type: resource
+  year: 2020
+  venue: Journal of Ethnopharmacology
+  summary_zh: 用文献计量和关联规则归纳中药引起的心脏不良反应有哪些规律。
+  tags:
+  - safety
+  links:
+    DOI: https://doi.org/10.1016/j.jep.2020.112582
+  status: published
+  verified_at: '2026-10-22'
+- id: sipa-tcm
+  name: SiPA：同时预测中药相互作用
+  type: resource
+  year: 2020
+  venue: Chinese Medicine
+  summary_zh: 因为成分、靶点和疾病之间的相互作用记录不够，提出 SiPA，用来同时预测并扩展中药相互作用网络。
+  tags:
+  - kg
+  - herbal
+  links:
+    DOI: https://doi.org/10.1186/s13020-020-00369-z
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-hdi-onco
+  name: 肿瘤治疗中的草药–化学药相互作用
+  type: survey
+  year: 2025
+  venue: Chinese Medicine
+  summary_zh: 综述肿瘤患者联用草药和抗癌药时的相互作用，包括药效、药代机制和风险预测。
+  tags:
+  - survey
+  - safety
+  links:
+    DOI: https://doi.org/10.1186/s13020-025-01156-4
+  status: published
+  verified_at: '2026-10-22'
+- id: surv-ai-drug-herb
+  name: 评估药物–草药相互作用的人工智能工具
+  type: survey
+  year: 2025
+  venue: Pharmaceuticals
+  summary_zh: 综述用人工智能模型评估药物和草药相互作用的工具。
+  tags:
+  - survey
+  - safety
+  links:
+    DOI: https://doi.org/10.3390/ph18030282
+  status: published
+  verified_at: '2026-10-22'
+- id: gpt4-tw-tcm-exam
+  name: GPT-4 作答台湾中医师执照考试
+  type: resource
+  year: 2025
+  venue: JMIR Medical Education
+  summary_zh: 用 GPT-4 回答 2022 年台湾中医师执照考试 480 题，并与两名持证中医师对照。直接选答和先解释再选答两种方式合在一起，模型准确率 43.9%，两名医师分别是 70% 和 78.4%。错误里约
+    55.3% 来自对中医概念的误解。这是执照考试和持证医师的对照，不是把证候、处方合理性和安全拦截分开测。
+  tags:
+  - evaluation
+  - benchmark
+  links:
+    DOI: https://doi.org/10.2196/58897
+    PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC11939018/
+  status: published
+  verified_at: '2026-10-22'
+- id: jingfang-name-nn
+  name: 神经网络判别经方方名
+  type: resource
+  year: 2022
+  venue: ICMLC
+  summary_zh: 从《伤寒论》和《金匮要略》原文抽出 261 首方、173 味药，训练神经网络：只给出药物组成、不给方名时，判断这是哪一首经方，并用代表不同经的加减方做检验。
+  tags:
+  - herbal
+  orgs:
+  - 广州中医药大学
+  - 广州中医药大学第一附属医院
+  links:
+    DOI: https://doi.org/10.1145/3529836.3529897
+  status: published
+  verified_at: '2026-10-22'

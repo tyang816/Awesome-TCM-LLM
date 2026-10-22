@@ -627,7 +627,7 @@ ds-opentcm-kg:
   summary_en: OpenTCM gynecology classics KG (~48k entities / ~152k relations).
 ds-tcm-mkg:
   title_en: TCM-MKG
-  summary_en: TCM multi-dimensional knowledge graph.
+  summary_en: Open multidimensional TCM knowledge graph of terminology, herbal pieces, and medicinal properties. The companion paper uses interpretable graph neural networks on 6,080 formulas, with a check on 215 COVID-19 formulas.
 ds-chatmed-kg:
   title_en: TCM_KG
   summary_en: ChatMed knowledge graph.
@@ -2191,3 +2191,245 @@ ds-hwtcm-sft-v1:
   summary_en: "Haiwei AI Team's 7,096-example TCM instruction set. Text from websites, forums, and books was converted to QA and scored for expertise, safety, and fluency."
 ds-hwtcm-r1-distill:
   summary_en: "Haiwei AI Team's DeepSeek-distilled TCM reasoning QA set built from web text. The authors state that it was not manually reviewed."
+pulse-smartphone-impedance:
+  summary_en: "Feasibility study of TCM pulse diagnosis on a smartphone by measuring skin impedance at acupoints, approximating fingertip pressure over the artery."
+pulse-bionic-protocol:
+  summary_en: "A protocol for digitizing TCM pulse information with bionic pulse-diagnosis equipment."
+pulse-dl-health:
+  summary_en: "Signal processing and deep learning for health-status classification from TCM pulse signals."
+pulse-cnn-diabetes:
+  summary_en: "Data processing so a convolutional network can read TCM pulse signals for diabetes, addressing the low repeatability of fingertip pulse diagnosis."
+constitution-tap:
+  summary_en: "TCM constitution diagnosis that combines tongue, voice, and pulse indices."
+pulse-rater-agreement:
+  summary_en: "Test–retest reliability and inter-rater agreement of TCM pulse diagnosis by two practitioners on 300 participants."
+tcm-incompat-formula-net:
+  summary_en: "A network of 362 TCM formulas, plus chemical space and metabolism space, used to examine the eighteen antagonisms and nineteen mutual inhibitors."
+anderation-incompat:
+  summary_en: "Anti-community detection, using a node's degree and its inner-to-outer degree ratio, applied to herb incompatibility in TCM."
+tcm-lbd-adverse:
+  summary_en: "Literature-based search for TCM alternatives that may lessen adverse reactions of western drugs, with depression treatment as the case."
+kemre:
+  summary_en: "Knowledge-enhanced relation extraction from Chinese medicine instruction texts."
+tcm-ml-safety:
+  summary_en: "Random-forest safety scoring of 127 bioactive compounds from 24 herbs, drawn from TCMSP, TCMID, PubChem, and ChEMBL, with separate weights for FDA, EMA, and CFDA priorities."
+biobert-hdi:
+  summary_en: "BioBERT predicts herb–drug interactions from the literature and is compared with other machine-learning models."
+surv-tcm-safety-outlook:
+  summary_en: "Review of why TCM toxicity is hard to study: multi-component formulas and unpredictable drug–body interactions, unlike chemical or biological drugs."
+surv-tcm-insilico-tox:
+  summary_en: "Mini-review of in silico toxicity studies of traditional Chinese herbal medicine."
+surv-tcm-wm-safety:
+  summary_en: "A clinical framework for safety of combined Chinese and western drugs: prediction, risk detection, mechanism checks, and decision support before and during use."
+surv-tcm-xai:
+  summary_en: "Argues that TCM AI is limited by a mismatch between statistical models and syndrome-based reasoning, so explanations are required."
+ds-tcm4nsclc:
+  summary_en: "Computable real-world outpatient records from one senior TCM physician on non-small-cell lung cancer, for syndrome differentiation, prescription, and real-world effectiveness."
+pulse-ml-preg-chd:
+  summary_en: "A portable MEMS/CMOS pulse device records healthy women, women with coronary heart disease, and women in the first trimester, then machine learning separates pregnancy from coronary heart disease."
+tpc-gcn:
+  summary_en: "Improved SMOTE augments pulse samples, multi-domain features are extracted, and a graph convolutional network classifies TCM pulse patterns."
+pulse-matrix:
+  summary_en: "Objective pulse analysis with a TCM pulse matrix. The authors argue that current waveform definitions and objectification standards are incomplete."
+pulse-pcos-ml:
+  summary_en: "Machine learning on radial pulse-wave parameters separates polycystic ovary syndrome from healthy controls in 459 subjects, as a step toward objective TCM pulse diagnosis."
+pulse-htn-ml:
+  summary_en: "Machine-learning comparison of radial pulse waves from 450 people with hypertension and 479 healthy people, as an objective reference for TCM pulse diagnosis."
+pulse-chd-hht:
+  summary_en: "Hilbert–Huang energy and sample entropy of TCM pulse signals, classified with a random forest to separate coronary heart disease from healthy people."
+pulse-dcnn-wrist:
+  summary_en: "Shannon energy envelope and the Hilbert transform extract the wrist pulse, then a deep convolutional network recognizes it for TCM pulse diagnosis."
+pulse-ppw-pregnancy:
+  summary_en: "Deep learning relates the pulse pressure wave to pregnancy. The paper reports 84% accuracy and an AUC of 91%. The signal is the pressure wave, not the TCM pulse qualities of position, rate, shape, and force."
+face-mobilevit:
+  summary_en: "Statistical features and MobileViT for automatic TCM facial-complexion classification."
+face-fsvm:
+  summary_en: "After cheek segmentation, a fuzzy support vector machine with color modeling recognizes TCM facial complexion and reduces the effect of outliers."
+face-constitution-color:
+  summary_en: "Color face images of 5,150 people, with face detection and landmarks, used to classify TCM constitution from facial features."
+face-complexion-quant:
+  summary_en: "Computerized qualitative and quantitative recognition of facial color and gloss, reducing the subjectivity of experience-based face diagnosis."
+face-cv-roi:
+  summary_en: "Deep learning finds 68 facial landmarks, segments regions such as the ting, cheeks, and mingtang, then reads TCM complexion from color histograms."
+gyn-jiezhai-kg:
+  summary_en: "A Neo4j knowledge graph of Jiezhai Gong's obstetric and gynecological case records."
+tcm-mkg-gnn:
+  summary_en: "Interpretable graph neural networks quantify herb compatibility on a multidimensional TCM knowledge graph. Medicinal properties are virtual nodes. The study assesses herbal pieces in 6,080 formulas and checks 215 COVID-19 formulas."
+tcm-principle-quant:
+  summary_en: "A model trained on ancient and classical formula records quantifies the TCM mapping from symptom patterns to individualized herbal therapy, for comparison with modern biomedicine."
+shanghan-eppi:
+  summary_en: "Using empirical records from the Shanghan Lun, treats the exterior–interior pair of the Eight Principles as dimensionality reduction and tests whether it carries the most symptom information, is the most abstract, and helps formula choice."
+syndrome-cnn-diabetes:
+  summary_en: "Treats a diabetic patient's record as a one-dimensional image and symptoms as pixels. A multi-instance multi-task convolutional network finds relevant symptoms and maps them to syndromes."
+ds-zhao-hanqing:
+  summary_en: "De-identified 2025 internal-medicine outpatient prescriptions from Zhao Hanqing: 122 patients, 335 prescriptions, and 5,951 herb rows with gram doses. 75 are initial visits and 260 are follow-ups. Routes: 315 oral decoctions, 8 oral dissolved, 8 external washes, and 4 external uses. Dosing is twice daily in 333 prescriptions and three times daily in 2. Herb-name rows containing processing marks, which can overlap: stir-fried 412, honey-fried 341, bran 289, vinegar 164, ginger 154, wine 89, calcined 67, prepared 63, and processed Pinellia (Fa Ban Xia) 99. CC BY 4.0. The repository describes the clinic as Beijing Heniantang Hospital."
+ds-tcmcpd:
+  summary_en: "Structured case-derived tables: 4,895 patients, 12,900 visits, 712 herbs, 11,879 visit–syndrome links, and 63,192 visit–herb rows. Dose units are mostly grams (61,386), plus 1,067 qian, 364 pieces, 240 tablets, 69 liang, 64 fen, and 2 millilitres. Rows also link symptoms, ingredients, and targets, with Neo4j files. Full copyrighted case texts are not redistributed. The describing manuscript is a Research Square preprint."
+ds-acu-cpg:
+  summary_en: "A dataset of acupuncture clinical practice guidelines, released to make the guidelines easier to use in clinic."
+ds-tcm-term-enzh:
+  summary_en: "A Chinese–English terminology dataset for traditional Chinese medicine, published in China Scientific Data."
+ds-km-exam:
+  summary_en: "A traditional Korean medicine examination protocol, built from the literature and three rounds of expert review, with healthy-adult examination data collected over four years."
+tcm-symptom-norm:
+  summary_en: "Automatically maps symptom names in TCM electronic records onto a unified terminology, so mining can use clinical records rather than only manually extracted formulas."
+tcm-symptom-norm-ccis:
+  summary_en: "Automated methods for normalizing symptom names in traditional Chinese medicine records."
+tcm-symptom-fine:
+  summary_en: "Fine-grained extraction of nested symptom entities and relations from semi-structured TCM records, avoiding the loss from coarse labels."
+icd11-tm-snomed:
+  summary_en: "Compares traditional medicine entries in ICD-11 Chapter 26 with SNOMED CT in order to build a traditional-medicine ontology."
+shanghan-kg:
+  summary_en: "Constructs a knowledge graph of the Treatise on Febrile Diseases and reports an application."
+shanghan-tinybert:
+  summary_en: "Classifies the intent of questions about the Treatise on Febrile Diseases with a TinyBERT and convolutional network."
+face-rx-conv:
+  summary_en: "A convolutional model that builds an herbal prescription from multi-scale facial features, rather than from symptoms alone."
+face-tongue-dm:
+  summary_en: "Fuses tongue, face, and sublingual images to detect diabetes and impaired glucose regulation. Earlier work used only one of these views."
+pulse-gamma-index:
+  summary_en: "Fits Chinese pulse waveforms with collective gamma density functions to produce quantitative classification indices."
+tcm-ocular-moe:
+  summary_en: "Segments scleral-surface anomalies with a hierarchical mixture-of-experts network, to quantify TCM inspection of the whites of the eyes."
+tcm-drl-course:
+  summary_en: "Plans sequential herbal prescriptions across visits for chronic disease with deep reinforcement learning, rather than a single prescription."
+tcm-constitution-aaai:
+  summary_en: "End-to-end TCM constitution assessment from face and tongue images, pulse and voice, and inquiry text."
+tcm-inquiry-philosophy:
+  summary_en: "Syndrome differentiation that follows TCM inquiry, aimed at consultation systems that ask too little and ignore inquiry principles."
+kampo-virtual-patient:
+  summary_en: "A virtual patient for Kampo medical interviews, intended to support empathy and the pathological concepts used in Kampo."
+face-htn-color:
+  summary_en: "A classification model for TCM facial-color diagnosis of hypertension."
+pulse-wgan:
+  summary_en: "Wasserstein GAN augmentation of wrist-pulse signals for traditional Chinese medicine."
+pulse-waveform-htn:
+  summary_en: "Compares TCM wrist pulse-taking with pulse-waveform analysis and hemodynamics in people with hypertension."
+tcm-sleep-anfis:
+  summary_en: "Uses an adaptive neuro-fuzzy inference system to diagnose sleep disorders in a traditional Chinese medicine setting."
+ds-tcmtoxdb:
+  summary_en: "A toxicity database that separates toxic effects of formulas, herbs, and ingredients, and gathers targets for specific toxic manifestations. Five herb–target and ingredient–target prediction algorithms are included. Site: https://www.sdu-idea.cn/TCMToxDB."
+ds-metaacupoint:
+  summary_en: "900 synthetic RGB hand images from MetaHuman avatars in Unreal Engine, with bone-attached sockets for five hand acupoints used in Korean medicine."
+ds-herb-hetnet:
+  summary_en: "Heterogeneous biomedical graphs that include herb–target, herb–symptom, herb–herb, and symptom–symptom networks, together with protein–protein interaction networks."
+surv-team-ehr-standards:
+  summary_en: "Scoping review of English reports from January 2016 to March 2026 on how Korean medicine, TCM, and Kampo concepts are mapped into mainstream health-informatics standards."
+surv-acupoint-dl:
+  summary_en: "Review of deep-learning acupoint localization, grouped by body region, architecture, strategy, and image modality, including datasets and metrics."
+surv-acupoint-cad:
+  summary_en: "Systematic review of traditional algorithms and deep learning for acupoint localization across anatomical regions."
+chest-bi-fhir:
+  summary_en: "For chest bi syndrome and coronary heart disease, a FHIR and SNOMED CT data system with 9 subsets and 352 elements, 42.6% of them TCM-specific, plus a 128-rule trigger engine. A prospective controlled study enrolled 972 people."
+gbt-iso-18668:
+  summary_en: "Compares the Chinese national coding standard GB/T 31774-2015 with ISO 18668 parts 1–4 for Chinese medicines."
+gbt-12346-interpret:
+  summary_en: "Explains what changed in GB/T 12346-2021, Nomenclature and Location of Meridian Points, relative to the 2006 edition, including terms, definitions, body regions, and bone-proportional cun."
+kampo-icd-modules:
+  summary_en: "At a Kampo clinic, relates ICD-10 diagnoses of patients aged 20 or older, seen from October 2014 through June 2019, to ICD-11 traditional-medicine modules such as heat–cold and excess–deficiency."
+icd11-ch26-supplement:
+  summary_en: "Argues that ICD-11 Chapter 26, drawn from the WHO international standard terminologies, should keep the adopted patterns and add essential patterns that are still missing."
+pipe-11:
+  summary_en: "Pattern Identification and Prescription Expert-11, a decision-support system for putting the ICD-11 traditional medicine chapter into computable pattern identification and prescription."
+stc-nf:
+  summary_en: "Split-then-concatenate normalization of TCM symptom terms from electronic records: 12 fine-grained semantic labels, three named-entity recognizers, and a two-stage deep-learning model."
+syndrome-criteria-apply:
+  summary_en: "A Delphi guideline for judging whether TCM syndrome diagnostic criteria are usable: 5 domains and 25 items, scored on a 5-point scale. Domains are accessibility, readability, implementability, acceptability, and overall evaluation."
+blt-tm-data-gap:
+  summary_en: "Discusses data gaps for traditional medicine in the International Statistical Classification of Diseases."
+shanghan-gcn:
+  summary_en: "Builds a heterogeneous graph of the Treatise on Febrile Diseases and learns node representations with a graph convolutional network."
+shanghan-textmine:
+  summary_en: "Text mining and analysis of the Treatise on Febrile Diseases with natural language processing."
+wenbing-bert-ner:
+  summary_en: "BERT named-entity recognition for warm-disease texts in traditional Chinese medicine."
+lungca-sd-e2e:
+  summary_en: "End-to-end models trained to imitate traditional Chinese medicine syndrome differentiation in lung cancer diagnosis."
+shanghan-physica-net:
+  summary_en: "A complex-network model of the Treatise on Cold Damage."
+wenre-shanghan-net:
+  summary_en: "Network analysis of herbal formulas from Wenre Jingwei and the Shanghan Lun."
+sd-longtail-kg:
+  summary_en: "Knowledge-graph-enhanced long-tail learning for traditional Chinese medicine syndrome differentiation."
+tcmkd:
+  summary_en: "A proofread platform of syndromes, formulas, Chinese patent drugs, medicinal materials, ingredients, targets, and diseases, with mining, enrichment, and network analysis. https://cbcb.cdutcm.edu.cn/TCMKD/"
+tcm-bert-cnn-sd:
+  summary_en: "BERT and a convolutional network that map symptoms to multiple syndromes, using expert knowledge from public guidelines and textbooks and ten-fold cross-validation."
+acu-gnn-bert:
+  summary_en: "Models symptom–acupoint compatibility with a heterogeneous graph and a fine-tuned BERT, for acupoint recommendation."
+t2fal-face-acu:
+  summary_en: "A two-stage detector and regressor that localizes facial acupoints on multi-pose infrared thermal images, using bone-proportional cun and TCM anatomical rules."
+ds-tcm-tox-exp:
+  summary_en: "Literature-derived in vivo and in vitro toxicity experiments for chemical constituents of traditional Chinese medicines, including Naoyanghua, Banmao, croton, Yangjinhua, Fuzi, and Qingfen. Fields cover route, species, indicators such as LD50, toxic dose, target organ, pathology, and PMID."
+ds-tcm-rx-dose:
+  summary_en: "The repository readme describes 23 treatment methods, more than 400 subcategories, 4,174 common medicinal materials with doses and sources, and more than 900 classic formulas, with 21 feature categories. Files include Treatment.csv and a treatment–prescription workbook."
+ds-syd-nk:
+  summary_en: "366 TCM internal-medicine test items. Each item is a syndrome name plus a first-person symptom narrative. The card says the text was cleaned from an internal-medicine textbook and checked by TCM students. Apache-2.0."
+tcmm-db:
+  summary_en: "A unified database aimed at modernization of traditional Chinese medicine and therapeutic innovation."
+taiwan-herb-adr:
+  summary_en: "A system for reporting and evaluating adverse reactions to herbal medicine in Taiwan, covering 1998–2016."
+unitcm:
+  summary_en: "A reverse-pharmacology platform that links formulas and diseases to molecular findings, with layers for standardization, clinical discovery, molecular analysis, systems checks, and tools."
+ihpreten:
+  summary_en: "A supervised model with attribute regularization that predicts incompatible herb pairs in traditional Chinese medicine."
+aconite-incompat-rules:
+  summary_en: "Association-rule analysis of aconite prescriptions that contain incompatible herbs, comparing regions and compatibility features."
+preg-contra-overview:
+  summary_en: "A book chapter surveying Chinese medicines that are contraindicated in pregnancy."
+rx-dose-fuzzy:
+  summary_en: "Fuzzy analysis of how doses are allocated inside a traditional Chinese medicine prescription."
+eswa-tcm-2025:
+  summary_en: "Predicts traditional Chinese medicine toxicity with a heterogeneous network."
+ds-classic-formula-key:
+  summary_en: "Official key-information tables for ancient classic formulas, not patient records. The notices cover 7 formulas in 2020, 25 including Zhuye Shigao Tang in 2023, and 43 including Xuanfu Daizhe Tang in 2025. The 2025 table gives source, processing, and gram doses. In Xuanfu Daizhe Tang, licorice is dry-fried (41.40 g) and pinellia is Qing Ban Xia (34.50 g). The decoction uses 2000 mL of water, reduces to 1200 mL, removes the marc, boils again to 600 mL, and is taken warm at 200 mL three times a day."
+tcm-tbosd:
+  summary_en: "CCL 2025 shared task. Qilu University of Technology and the Affiliated Hospital of Shandong University of Traditional Chinese Medicine built TCM-TBOSD from de-identified records: 1,500 cases, 10 syndromes, 4 diseases, and 381 herbs. The prescription field lists herb names and, as the paper states, excludes doses. The repository has baseline code and a confidentiality form; the case table is not in the file listing."
+tcm-dili-signals:
+  summary_en: "Uses adverse-reaction monitoring data to look for new risk signals and susceptibility factors in traditional Chinese medicine–induced liver injury. The journal page publishes the article and does not release case rows."
+sasang-fusion:
+  summary_en: "KIOM fused face images, body shape, voice, and questionnaires from 2,973 patients at 23 Korean-medicine clinics to classify Sasang constitution. Test accuracy was 64.0% for men and 55.2% for women. The images and questionnaires are not publicly posted."
+sasang-face-geom:
+  summary_en: "Selects distances, angles, and distance ratios from facial photographs to distinguish Sasang constitution. The abstract counts 1,225 distance features, 61,250 angle features, and 749,700 ratio features. The photographs are not public."
+constitution-body-image:
+  summary_en: "Full-body standing images of healthy people, labeled with the Constitution in Chinese Medicine Questionnaire, classified from facial complexion, body shape, and depth features. No public download is given."
+face-uniform-lab:
+  summary_en: "Recognizes TCM facial complexion in a uniform Lab color space. The face images are not public."
+face-spirit-video:
+  summary_en: "Classifies TCM spirit inspection from facial features in video. The videos are not public."
+pulse-chd-param:
+  summary_en: "Pressure-sensor pulse recordings from 251 people: 102 with coronary heart disease, 94 with other cardiovascular disease, and 55 healthy people. The recordings are not public."
+pulse-fasting-cgc:
+  summary_en: "Records Left Cun, Right Cun, and Right Guan pulses in 51 healthy adults before fasting and on fasting days 4 and 7. The recordings are not public."
+pulse-multichannel-cnn:
+  summary_en: "A convolutional network recognizes common TCM pulse patterns from multichannel radial-artery signals after denoising and feature extraction. The abstract gives no sample size and no public download."
+pulse-cnn9:
+  summary_en: "A 9-layer convolutional network classifies TCM wrist-pulse signals without handcrafted features. The recordings are not public."
+km-stroke-pi-agree:
+  summary_en: "Two clinicians independently examined 168 hospitalized stroke patients with Korean-medicine pattern identification. AC1 was 0.66–0.89 for pulse, 0.66–0.95 for inspection, 0.67–0.88 for listening and smelling, and 0.62–0.94 for inquiry."
+pulse-voice-cad:
+  summary_en: "Shanghai University of Traditional Chinese Medicine and collaborators treat radial pulse waves as pulse diagnosis and voice as auscultation, to screen for coronary artery disease and heart failure. The abstract gives no sample size and no public data link."
+an-ihp:
+  summary_en: "Attention networks predict incompatible herb pairs in traditional Chinese medicine."
+ihp-cikm:
+  summary_en: "A supervised learning framework for incompatible herb pairs, a 2018 conference paper in the same line as the later IHPreten model."
+tcm-ddi-gat:
+  summary_en: "Graph attention networks predict interactions among traditional Chinese medicines."
+tcm-ms-tox:
+  summary_en: "Machine learning on mass spectra predicts the toxicity of traditional Chinese medicines."
+tcm-cv-tox:
+  summary_en: "Structure-similarity software for predicting cardiovascular toxicity of traditional Chinese medicine."
+chest-pain-18fan:
+  summary_en: "Association-rule mining of the eighteen incompatible medicaments inside chest-pain prescriptions."
+cmm-cardiac-adr:
+  summary_en: "Bibliometrics and association rules for cardiac adverse reactions attributed to Chinese materia medica."
+sipa-tcm:
+  summary_en: "SiPA predicts several interactions at once so the TCM network among constituents, targets, and diseases can be expanded."
+surv-hdi-onco:
+  summary_en: "Review of herb–drug interactions in oncology, covering pharmacodynamic and pharmacokinetic mechanisms and risk prediction."
+surv-ai-drug-herb:
+  summary_en: "Review of artificial-intelligence models and tools for assessing drug–herb interactions."
+gpt4-tw-tcm-exam:
+  summary_en: "GPT-4 answered 480 items from the 2022 Taiwan TCM licensing examination and was compared with two licensed TCM doctors, using direct answers and explain-then-answer. Overall accuracy was 43.9% for the model, versus 70% and 78.4% for the two doctors. About 55.3% of the errors came from misunderstanding TCM concepts. This compares exam recall with licensed practitioners; it does not separately score syndrome judgment, prescription rationality, and safety checks."
+jingfang-name-nn:
+  summary_en: "A neural network trained on 261 formulae and 173 herbs extracted from the Shanghan Lun and the Synopsis of Prescriptions of the Golden Chamber. Given only the medicinal composition, it names the classical formula, and it is tested on modified formulae from different meridians."
