@@ -68,7 +68,7 @@ news-202409-13:
 news-202405-25:
   summary_en: Tasly and Huawei Cloud release **ShuZhi BenCao** on Pangu language and molecular models. This page does not mention a CAICT Level 4+ evaluation.
 news-202403-14:
-  summary_en: ECNU, SHUTCM, ECUST, NMMU, Lingang Lab, and CR Jiangzhong jointly develop the **ShuZhi QiHuang** TCM LLM. The linked ECNU page is a later write-up of ShuZhi QiHuang 2.0, not the original 2024.03 release announcement.
+  summary_en: ECNU, Shanghai University of Traditional Chinese Medicine, East China University of Science and Technology, Naval Medical University, Lingang Laboratory, and CR Jiangzhong built **ShuZhi QiHuang**. Version 1.0 came out on 19 January 2024. On 25 November 2024 they introduced version 2.0 at a forum in Shanghai.
 news-202307-26:
   summary_en: Nanjing Dajing TCM releases **QiHuang Wendao** LLM with large knowledge graphs and clinical data for institutional
     beta use.
@@ -109,7 +109,7 @@ xinghe:
   orgs_en:
   - Xinghe-TCM
 linglan:
-  summary_en: 'Large multi-task TCM benchmark: 5 domains, 13 subtasks, 25,624 instances.'
+  summary_en: 'Large multi-task TCM benchmark: 5 domains, 13 subtasks, 25,620 expert-verified items.'
   name_en: LingLan
   orgs_en:
   - Beijing Jiaotong University et al.
@@ -178,9 +178,9 @@ renshu-ai:
   summary_en: FastAPI + LangGraph multi-agent TCM consultation system combining GraphRAG and DeepSeek-TCM.
   name_en: RenShu-AI
 zhongjing:
-  summary_en: ZhongJingGPT, an expert-knowledge-guided TCM LLM combining vertical-domain fine-tuning with cognitive-psychology insights and multi-scenario TCM knowledge instructions (Tsinghua Sci. Technol. 2025).
+  summary_en: ZhongJingGPT is an expert-knowledge-guided TCM model. It combines domain fine-tuning with ideas from cognitive psychology and builds instructions for several TCM settings. It appeared in Tsinghua Science and Technology in July 2026.
 tianyi:
-  summary_en: ~7B TCM LLM from NJUCM et al. with reading–clinic–apprenticeship training stages, TCMEval, and real-world validation.
+  summary_en: 7.6-billion-parameter TCM LLM from NJUCM et al. with reading–clinic–apprenticeship training stages, TCMEval, and real-world validation (Information Fusion, February 2026).
   name_en: Tianyi
   orgs_en:
   - Nanjing University of Chinese Medicine
@@ -212,8 +212,8 @@ baize-tcm:
   orgs_en:
   - Institute of Chinese Materia Medica, CACMS
 zhifangdantai:
-  summary_en: GraphRAG + LLM fine-tuning for interpretable formula generation (sovereign–minister–assistant–courier, efficacy,
-    contraindications). Authors at Capital Normal University and the University of Queensland. The Hugging Face repo tczzx6/ZhiFangDanTai1.0 returned 404 on 2026-10-21, so the weights are not publicly available.
+  summary_en: GraphRAG plus LLM fine-tuning for formula generation, with roles in the formula, effects, and contraindications written out.
+    The authors are at Capital Normal University and the University of Queensland. The public weight page no longer opens.
   name_en: ZhiFangDanTai
   orgs_en:
   - Capital Normal University
@@ -237,7 +237,7 @@ bigdatatcm:
 ming:
   summary_en: "MING: a Chinese medical consultation LLM using a sparse mixture of low-rank adapter experts (MING-MoE) for medical multi-task learning (arXiv 2024)."
 huatuo-bencao:
-  summary_en: Instruction-tuned Chinese medical LLM (BenCao / formerly HuaTuo).
+  summary_en: BenCao, first called HuaTuo, is an instruction-tuned medical model from HIT SCIR, trained with Chinese medical knowledge. The 2023 paper is HuaTuo. The same group later published a knowledge-tuning paper in ACM TKDD in February 2025.
   name_en: BenCao (formerly HuaTuo)
   orgs_en:
   - Harbin Institute of Technology
@@ -295,7 +295,7 @@ huatuogpt-ii:
 huatuogpt-o1:
   title_en: HuatuoGPT-o1
   name_en: HuatuoGPT-o1
-  summary_en: HuatuoGPT medical complex-reasoning model trained with verifiable problems and a medical verifier; 7B/72B cover Chinese and English.
+  summary_en: HuatuoGPT medical complex-reasoning model trained with verifiable problems and a medical verifier. The repository lists 7B, 8B, and 70B checkpoints.
   orgs_en:
   - The Chinese University of Hong Kong, Shenzhen
   - Shenzhen Institute of Big Data
@@ -315,7 +315,7 @@ disc-medllm:
 pulse:
   title_en: PULSE
   name_en: PULSE
-  summary_en: OpenMEDLab Chinese medical LLM (Bloom 7B/14B) for exams, report reading, record structuring, and simulated diagnosis.
+  summary_en: OpenMEDLab Chinese medical LLM. PULSE-7b is fine-tuned from bloomz-7b1-mt and PULSE-20b from InternLM-20B, for exams, report reading, record structuring, and simulated diagnosis.
   orgs_en:
   - Shanghai AI Laboratory
 wingpt2:
@@ -520,7 +520,7 @@ dfglm-tcm:
 shennong-tcm-llm:
   summary_en: ShenNong-TCM-LLM, the first TCM large language model, released with the ShenNong_TCM_Dataset and open weights.
 tcm-nvwa:
-  summary_en: Nüwa TCM LLM training stack (continual pretraining, SFT, reward modeling, RLAIF) on Ziya-LLaMA-13B. Repo ships only partial pretrain/TCM-QR/reward data and no standalone weights; GitHub created April 2025, distinct from arXiv 2411.00897.
+  summary_en: "A TCM training stack on Ziya-LLaMA-13B: continued pretraining, supervised fine-tuning, a reward model, and RLAIF. The repository includes part of the pretraining, question-answer, and reward data. The weights are not released on their own."
 huangdi:
   summary_en: "HuangDi: a TCM classics QA LLM built on Ziya-LLaMA-13B, pretrained on 22 TCM textbooks plus TCM web corpora and SFT-tuned with ancient-book instruction data (Library Tribune 2024)."
 ds-cpm:
@@ -534,7 +534,7 @@ tcm-ancient-books:
   summary_en: About 700 TCM classical book texts.
 shizhen-pretrain:
   title_en: TCM-Pretrain-Data-ShizhenGPT
-  summary_en: ShizhenGPT pretraining corpus (15B+ tokens reported in the paper — Stage-1 text 11.92B incl. 6.3B TCM, plus Stage-2 multimodal ~3.6B).
+  summary_en: ShizhenGPT pretraining corpus. The paper reports 15B+ tokens — Stage 1 text 11.92B including 6.3B TCM, and Stage 2 multimodal data of 3.8B tokens in the main text and 3.84B in the appendix.
 sylvanl-pretrain:
   title_en: Traditional-Chinese-Medicine-Dataset-Pretrain
   summary_en: High-quality TCM pretraining data (cases, classics, encyclopedia, etc.).
@@ -603,7 +603,7 @@ ds-cmtmedqa:
   summary_en: ZhongJing real multi-turn doctor–patient dialogues (~70k).
 ds-chatmed-consult:
   title_en: ChatMed_Consult_Dataset
-  summary_en: Chinese online medical consult dataset (500k+ consults with ChatGPT replies).
+  summary_en: Chinese online-consultation set of 110,113 pairs. The questions come from consultation sites and the answers were written by GPT-3.5.
 ds-medchatzh:
   title_en: MedChatZH
   summary_en: MedChatZH TCM consultation dataset.
@@ -633,7 +633,7 @@ ds-chatmed-kg:
   summary_en: ChatMed knowledge graph.
 ds-tcm-ner:
   title_en: TCM-NER
-  summary_en: 1,997 Chinese-medicine package inserts with 59,803 entities in 13 types for building a medication knowledge graph (OpenKG / CHIP, CC BY-SA 4.0).
+  summary_en: Named-entity data from Chinese medicine package inserts, for a medication knowledge graph. The license is CC BY-NC 2.0.
 ds-tcm-sd:
   title_en: TCM-SD
   summary_en: First large public TCM syndrome-differentiation text benchmark (54,152 real records, 148 syndromes, CC BY-NC-SA 4.0). Full set is in the repo folder TCM_SD_with_knowledge; Tianchi id 139034.
@@ -645,7 +645,7 @@ ds-tcm-pd:
   summary_en: Yao et al. TKDE 2018 prescription topic-model set (98,334 raw / 33,765 processed symptom–herb ID pairs). CKCEST copyright, research use only. PresRecST's prescript_1195.csv is a reproduction table.
 ds-tcm-qg:
   title_en: TCM-QG
-  summary_en: About 5,000 TCM documents and 13,000 question-answer pairs from CHIP2020, for knowledge-base expansion and question generation (CC BY-SA 4.0).
+  summary_en: "Question-generation data from TCM texts: 3,500 documents, with one to four human-written question-answer pairs each. The license is CC BY-NC 2.0."
 hf-xinghe:
   title_en: Xinghe
   summary_en: Xinghe Neijing reasoning model weights.
@@ -1106,7 +1106,7 @@ ebitv-tcm:
 tcmiies:
   summary_en: "TCMIIES: a browser-based, zero-installation LLM system for structured information extraction from academic literature, aimed at TCM and other specialty researchers."
 survey-agentic-tcm-osf:
-  summary_en: "OSF preregistration (not a completed review) of a systematic review on agentic and knowledge-grounded LLMs in TCM: evidence mapping, text mining, and translation readiness."
+  summary_en: "A review plan registered on OSF in July 2026. It will look at agentic and knowledge-grounded language models in TCM through evidence maps, text mining, and whether they are ready for clinical use. The review is still underway."
 ds-tcm-robustsdt:
   summary_en: "TCM-RobustSDT: a robustness benchmark dataset for LLM clinical reasoning in TCM (Figshare)."
 tcm-prescription-hybrid-retrieval:
@@ -1156,13 +1156,13 @@ surv-xiang2025-kg-classics:
 surv-chen2026-ai-empowers:
   summary_en: "Single-author perspective on AI for TCM innovation: classics mining, diagnosis standardization, drug R&D cycles (J. Integr. Med. 2026)."
 surv-chen2026-standardization:
-  summary_en: "Perspective on AI and big data for TCM standardization and internationalization (Chin. Med. Cult. 2026, ahead of print)."
+  summary_en: "An essay on how AI and big data can help standardize traditional Chinese medicine and carry it abroad. Chinese Medicine and Culture, 2026, volume 9, issue 3."
 surv-duan2025-spleen-kg:
   summary_en: "Single-disease-area (spleen-stomach) review of KG plus intelligent diagnosis/treatment with a symptom-syndrome-disease-formula framework (Curr. Med. Sci. 2025;45(6))."
 surv-wang2026-zhfyx:
-  summary_en: "Short Chinese review of AI-empowered digital TCM diagnosis: applications, data-quality, interpretability, and theory-integration challenges (bibliographic record only)."
+  summary_en: "A short essay on what AI can do for digital TCM diagnosis, and on data quality, explanations, and joining the models to TCM theory. Published in Chinese Archives of Traditional Chinese Medicine."
 surv-jiao2025-sizhen:
-  summary_en: "Short Chinese review of AI-based four-diagnosis objectification: face/tongue acquisition, electronic nose, pulse sensing, and low fusion of multi-diagnosis data (bibliographic record only)."
+  summary_en: "On where AI stands in the four TCM examinations, and where it gets stuck: face and tongue capture, electronic noses, pulse sensors, and putting the four together. Published in Chinese Archives of Traditional Chinese Medicine."
 surv-lei2025-healthcare-qa:
   summary_en: "Adjacent review (not TCM-specific): 2018-2025 healthcare QA survey with CiteSpace bibliometrics, explicitly covering TCM formula-development scenarios (Healthcare 2025)."
 surv-xiao2025-med-llm-zh:
@@ -1184,7 +1184,7 @@ tree-organized-qa:
   name_en: "Tree-organized self-reflective retrieval for TCM QA"
   summary_en: "Tree-organized self-reflective retrieval for TCM question answering (Frontiers in Medicine 2026)."
 gpt-ernie-tcm-culture:
-  summary_en: "A culture-framed comparison of GPT versus ERNIE on TCM tasks (J. Integr. Complement. Med. 2024)."
+  summary_en: "Looks at how cultural background changes the way GPT and ERNIE handle the national TCM licensing exam. Journal of Integrative and Complementary Medicine, 2025."
 hist-1987-functional-structure-model-o:
   summary_en: "Historical anchor: Functional structure model of human body and Yinyang-Wuxing equations."
 hist-1998-a-computer-model-of-the-five:
@@ -1268,11 +1268,11 @@ hist-2023-etcm-v2-0:
 hist-2023-tcmbank:
   summary_en: "Historical anchor: TCMBank."
 surv-mahaswetha2026-prmcm:
-  summary_en: "Broad AI-in-TCM review from multimodal data integration to pharmacological research and clinical decision support (Pharmacol. Res. Mod. Chin. Med. 2026; found in the third-round scan)."
+  summary_en: "An English review that runs from multimodal data and pharmacology to clinical decisions. Pharmacological Research - Modern Chinese Medicine, 2026."
 surv-cai-osf:
-  summary_en: "OSF-preprint scoping review of LLMs in TCM (not peer-reviewed; archival)."
+  summary_en: "A scoping-review plan registered on OSF on 3 April 2026. It will map how large language models do TCM syndrome differentiation, syndrome elements, and syndrome reasoning, and will be written to PRISMA-ScR. The review is still underway."
 surv-cong-osf:
-  summary_en: "OSF-preprint review of LLMs in TCM (not peer-reviewed; archival)."
+  summary_en: "A scoping-review plan registered on OSF on 15 April 2026. It will map how knowledge graphs, large language models, and the two together are used to draw knowledge out of TCM classics, following PRISMA-ScR. The review is still underway."
 pat-cn122529089:
   name_en: "TCM dialogue generation with a large language model and long-term memory"
   orgs_en:
@@ -1389,10 +1389,10 @@ pat-cn117828050:
   summary_en: "Long-document RAG (expansion, recall, reranking, source citations) for TCM QA (granted July 2024)."
 ds-tcmsp:
   title_en: TCMSP
-  summary_en: Herb–ingredient–target–disease networks with ADME parameters; public site is TCMSP 2.3 with downloadable relationship tables.
+  summary_en: A pharmacology site for herb ingredients, targets, diseases, and ADME numbers. The site now keeps version 2.3 beside the newer 9.0.1, and the relationship tables can be downloaded.
 ds-tcmid:
   title_en: TCMID 2.0
-  summary_en: Integrative formula–herb–ingredient–target database (distinct from NUS TCM-ID). Original megabionet site is down; verify via Zenodo extract and the NAR paper.
+  summary_en: East China Normal University's database of formulas, herbs, ingredients, and targets. The original site no longer opens; the data and the paper remain on Zenodo and in Nucleic Acids Research. It is a different database from NUS TCM-ID.
 ds-tcm-id:
   title_en: TCM-ID
   summary_en: NUS BIDD formula–herb–ingredient–target resource covering pharmacopoeia, classical, and CFDA-approved prescriptions; not the same database as TCMID 2.0.
@@ -2392,7 +2392,7 @@ sasang-fusion:
 sasang-face-geom:
   summary_en: "Selects distances, angles, and distance ratios from facial photographs to distinguish Sasang constitution. The abstract counts 1,225 distance features, 61,250 angle features, and 749,700 ratio features. The photographs are not public."
 constitution-body-image:
-  summary_en: "Full-body standing images of healthy people, labeled with the Constitution in Chinese Medicine Questionnaire, classified from facial complexion, body shape, and depth features. No public download is given."
+  summary_en: "Full-body standing photos of healthy people, labeled with the Constitution in Chinese Medicine Questionnaire, and classified from complexion, body shape, and depth. The images are not public."
 face-uniform-lab:
   summary_en: "Recognizes TCM facial complexion in a uniform Lab color space. The face images are not public."
 face-spirit-video:
@@ -2402,13 +2402,13 @@ pulse-chd-param:
 pulse-fasting-cgc:
   summary_en: "Records Left Cun, Right Cun, and Right Guan pulses in 51 healthy adults before fasting and on fasting days 4 and 7. The recordings are not public."
 pulse-multichannel-cnn:
-  summary_en: "A convolutional network recognizes common TCM pulse patterns from multichannel radial-artery signals after denoising and feature extraction. The abstract gives no sample size and no public download."
+  summary_en: "A convolutional network reads common pulse patterns from multichannel radial-artery signals after denoising and feature extraction. The sample size and the recordings are not public."
 pulse-cnn9:
   summary_en: "A 9-layer convolutional network classifies TCM wrist-pulse signals without handcrafted features. The recordings are not public."
 km-stroke-pi-agree:
   summary_en: "Two clinicians independently examined 168 hospitalized stroke patients with Korean-medicine pattern identification. AC1 was 0.66–0.89 for pulse, 0.66–0.95 for inspection, 0.67–0.88 for listening and smelling, and 0.62–0.94 for inquiry."
 pulse-voice-cad:
-  summary_en: "Shanghai University of Traditional Chinese Medicine and collaborators treat radial pulse waves as pulse diagnosis and voice as auscultation, to screen for coronary artery disease and heart failure. The abstract gives no sample size and no public data link."
+  summary_en: "Shanghai University of Traditional Chinese Medicine and collaborators treat the radial pulse wave as pulse diagnosis and the voice as auscultation, to screen for coronary artery disease and heart failure. They recorded 553 people (healthy, coronary disease, and heart failure) and checked the model on another 194."
 an-ihp:
   summary_en: "Attention networks predict incompatible herb pairs in traditional Chinese medicine."
 ihp-cikm:
