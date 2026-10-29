@@ -87,8 +87,8 @@ mmir-tcm:
   summary_en: Memory-augmented multimodal tongue diagnosis and clinical decision framework; proposes MedTCM dataset and TDEU
     metric.
 qwen-tcm-dia:
-  summary_en: Specialty fine-tuned model for TCM diarrhea care (CPT + CoT SFT) covering symptom→pathomechanism→method→formula
-    chains. Digital Chinese Medicine authors at Beijing Hospital of TCM (CMU) and BUCM et al.
+  summary_en: Qwen2.5-based model for TCM diarrhea care, using two-stage LoRA for continued domain pretraining and
+    chain-of-thought instruction tuning across symptoms, pathogenesis, treatment principles, and prescriptions.
   orgs_en:
   - Beijing Hospital of TCM, Capital Medical University
   - Beijing University of Chinese Medicine et al.
@@ -109,8 +109,9 @@ xinghe:
   orgs_en:
   - Xinghe-TCM
 linglan:
-  summary_en: 'Large multi-task TCM benchmark: 5 domains, 13 subtasks, 25,620 expert-verified items.'
-  name_en: LingLan
+  summary_en: 'LingLanMedBench (formerly LingLanMiDian): 25,620 expert-verified items across 13 subtasks and five
+    domains. Each subtask has a 400-item Hard subset selected from its full set.'
+  name_en: LingLanMedBench
   orgs_en:
   - Beijing Jiaotong University et al.
 bencao-gpt:
@@ -126,8 +127,8 @@ chattcm:
 diagx-dt:
   summary_en: Exclusionary syndrome-differentiation reasoning with CoT and an external TCM knowledge base.
 dopi:
-  summary_en: Doctor-like proactive inquiry TCM LLM (guide + expert models); reported inquiry accuracy 84.68%. arXiv HTML
-    authors at Tianjin University and CUHK et al.
+  summary_en: Proactive inquiry system combining guidance and expert models; DoPI-7B achieves 84.68% final diagnostic
+    accuracy in the paper's simulated-consultation evaluation.
   orgs_en:
   - Tianjin University
   - The Chinese University of Hong Kong et al.
@@ -136,7 +137,8 @@ mcm:
   orgs_en:
   - Shanghai Computer Software Technology Development Center
 mtcmb:
-  summary_en: Multi-task TCM benchmark (~12 subsets, ~7.1k samples) covering knowledge, reasoning, formulas, and safety.
+  summary_en: Multi-task TCM benchmark with 12 datasets and 7,100 samples covering knowledge, reasoning, formulas,
+    and safety (Scientific Data 2026).
 opentcm:
   summary_en: GraphRAG TCM retrieval and diagnosis system with a gynecology classics knowledge graph.
 rag-cpmf:
@@ -152,9 +154,11 @@ tcm-llm-acu-eval:
 tcm-3ceval:
   summary_en: 'Three-axis TCM LLM evaluation: core knowledge, classics comprehension, and clinical decision-making.'
 tcm-5ceval:
-  summary_en: Five-dimension deep evaluation extending TCM-3CEval with materia medica and non-drug therapies.
+  summary_en: Five-dimension TCM evaluation with 2,260 questions from 30 courses; cyclic option rotations test sensitivity
+    to answer position.
 tcm-best4sdt:
-  summary_en: Case benchmark for syndrome differentiation and treatment (knowledge / ethics / safety / SDT).
+  summary_en: '600 evaluation items: 300 syndrome-differentiation-and-treatment cases and 100 questions each on
+    TCM knowledge, medical ethics, and content safety; 27 evaluation dimensions.'
 tcm-kllama:
   summary_en: KG-fused LLM for intelligent TCM formula generation. PubMed 40056842 lists Zhejiang Gongshang University and
     Hangzhou First People's Hospital (Westlake University School of Medicine).
@@ -162,7 +166,8 @@ tcm-kllama:
   - Zhejiang Gongshang University
   - Hangzhou First People's Hospital, Westlake University School of Medicine
 tcm-ladder:
-  summary_en: First large multimodal TCM QA benchmark with 52,000+ items (NeurIPS 2025).
+  summary_en: Multimodal TCM benchmark with 52,169 question-answer pairs and image, audio, and video data (NeurIPS
+    2025).
 tcm-r1:
   summary_en: TCM LLM with GRPO-enhanced reasoning.
   orgs_en:
@@ -220,12 +225,14 @@ zhifangdantai:
 shennong-alpha:
   summary_en: "ShennongAlpha (Westlake University): an AI-driven sharing and collaboration platform for intelligent curation, acquisition and translation of natural-medicinal-material knowledge (Cell Discov. 2025)."
 jingfang:
-  summary_en: LLM-based multi-agent TCM diagnosis/treatment system reporting large relative SDT gains under the authors' protocol.
+  summary_en: Multi-agent TCM consultation and treatment system combining Ten Questions Song-guided inquiry, syndrome
+    classification, and two-stage prescription retrieval.
   name_en: Jingfang
 chinese-llava-med:
   summary_en: Chinese medical multimodal LLM based on the LLaVA architecture, with the llava-med-zh-eval benchmark and open 7B weights.
 medchatzh:
-  summary_en: "MedChatZH: a fine-tuned LLM for TCM consultation dialogues, released with open dataset and weights (Comput. Biol. Med. 2024)."
+  summary_en: Baichuan-7B adapted for TCM consultation dialogues, with released consultation data and model weights
+    (Computers in Biology and Medicine 2024).
 lingdan:
   summary_en: TCMLLM / Lingdan for TCM modeling and prescription recommendation.
   name_en: TCMLLM / Lingdan
@@ -506,7 +513,9 @@ km-agent:
 lingdan-v2:
   title_en: Lingdan-V2
   name_en: Lingdan-V2
-  summary_en: BJTU's second Lingdan TCM reasoning family (Qwen3 4B/8B/14B with CPT, SFT, and prescription GRPO). The ModelScope weights are under Apache-2.0.
+  summary_en: Qwen3-based 4B/8B/14B TCM reasoning models with continued pretraining, supervised fine-tuning, and
+    prescription GRPO. The authors explicitly license the model weights under Apache-2.0; third-party data retain
+    their original terms.
   orgs_en:
   - Beijing Jiaotong University
 dfglm-tcm:
@@ -541,8 +550,10 @@ classical-tcm-canon:
   title_en: classical-tcm-canon
   summary_en: Full-text classical TCM corpus (Neijing / Shanghan / Jingui / Wenbing, etc.; 115 works).
 ds-linglan:
-  title_en: LingLan
-  summary_en: LingLan large multi-task TCM evaluation benchmark (2026).
+  title_en: LingLanMedBench
+  summary_en: 'LingLanMedBench (formerly LingLanMiDian): 25,620 expert-verified items across 13 subtasks and five
+    domains. Each subtask has a 400-item Hard subset selected from its full set.'
+  name_en: LingLanMedBench
 ds-tcm-aqa61:
   title_en: TCM-AQA61 / CME-AQA
   summary_en: Synchronized first- and third-person videos of acupuncture and Tuina, 61 subjects each. Two experienced TCM physical therapists assessed every subject independently, then reconciled disagreements. Paired with the CME-AQA cross-view assessment framework.
@@ -553,23 +564,27 @@ ds-hwtcm:
   title_en: HWTCMBench
   summary_en: HWTCMBench TCM capability evaluation set.
 ds-mtcmb:
+  summary_en: Multi-task TCM benchmark with 12 datasets and 7,100 samples covering knowledge, reasoning, formulas,
+    and safety (Scientific Data 2026).
   title_en: MTCMB
-  summary_en: MTCMB multi-task TCM benchmark (knowledge / reasoning / safety).
 ds-tcm-3c:
   title_en: TCM-3CEval
   summary_en: 'Three-axis eval: core knowledge, classics, clinical decisions.'
 ds-tcm-5c:
   title_en: TCM-5CEval
-  summary_en: Five-dimension deep TCM evaluation suite.
+  summary_en: Five-dimension TCM evaluation with 2,260 questions from 30 courses; cyclic option rotations test sensitivity
+    to answer position.
 ds-best4sdt:
   title_en: TCM-BEST4SDT
-  summary_en: Case benchmark for syndrome differentiation and treatment.
+  summary_en: '600 evaluation items: 300 syndrome-differentiation-and-treatment cases and 100 questions each on
+    TCM knowledge, medical ethics, and content safety; 27 evaluation dimensions.'
 ds-tcm-eval:
   title_en: TCM-Eval
   summary_en: Dynamic, extensible TCM evaluation platform.
 ds-tcm-ladder:
+  summary_en: Multimodal TCM benchmark with 52,169 question-answer pairs and image, audio, and video data (NeurIPS
+    2025).
   title_en: TCM-Ladder
-  summary_en: Multimodal TCM QA benchmark (NeurIPS 2025).
 ds-tcm-tongue:
   title_en: TCM-Tongue
   summary_en: 6,719 standardized tongue images with 20-class multi-label pathology annotations and detection baselines.
@@ -688,7 +703,8 @@ tcm-e2e-bench:
   orgs_en:
   - East China Normal University
 qingnangtcm:
-  summary_en: Parameter-efficient fine-tuned TCM QA and clinical reasoning model; builds the 100k-item **QnTCM_Dataset**.
+  summary_en: GLM-4-9B-Chat adapted with P-Tuning v2 for TCM question answering and clinical reasoning; trained
+    with the 100,000-entry QnTCM_Dataset.
   name_en: QingNangTCM
   orgs_en:
   - Hebei North University
@@ -697,8 +713,8 @@ herbwise:
   orgs_en:
   - Chengdu University of Traditional Chinese Medicine
 med-shicheng:
-  summary_en: Lightweight master-physician experience-inheritance framework built on Tianyi; a single model internalizes
-    5 national masters' knowledge systems across 7 task types.
+  summary_en: Extends Tianyi's staged training approach on Qwen2.5-1.5B-Base with continued pretraining, supervised
+    fine-tuning, and KTO; models five physicians' expertise across seven tasks.
   name_en: Med-Shicheng
   orgs_en:
   - Nanjing University of Chinese Medicine et al.
@@ -780,27 +796,28 @@ plant-mllm-bench:
   orgs_en:
   - Shaoxing University
 xuanhugpt:
-  summary_en: TCM domain LLM built with parameter-efficient fine-tuning (PEFT).
+  summary_en: ChatGLM2-6B adapted to TCM using parameter-efficient fine-tuning with LoRA and P-Tuning v2.
   name_en: XuanHuGPT
   orgs_en:
   - Hebei North University
 tcm-ds:
-  summary_en: Domain LLM for medicine–food homology dietary-therapy recommendation.
+  summary_en: DeepSeek-LLM-7B adapted with LoRA and retrieval-augmented generation (RAG) for dietary-therapy recommendations
+    based on medicine-food homology.
   orgs_en:
   - Macau University of Science and Technology
 tcm-visresolve:
-  summary_en: Qwen2.5-VL-based TCM multimodal LLM — 163-class dried-herb recognition over 220k images plus clinical MCQs
-    with 880k candidate answers.
+  summary_en: Qwen2.5-VL-based dried-herb recognition and clinical MCQ model. The authors' model card reports 163
+    herb categories, 220,000 images, and 220,000 MCQs containing 880,000 answer options.
   name_en: TCM-VisResolve (TCM-VR)
   orgs_en:
-  - Minzu University of China
+  - Yunnan Minzu University
+  - Universiti Malaya
 chatglm-fgids-tcm:
   summary_en: Knowledge-fused ChatGLM clinical decision-support model for functional gastrointestinal disorders (FGIDs).
   orgs_en:
   - CAMS / Peking Union Medical College
 tcm-misinfo-eval:
-  summary_en: Safety evaluation framework with 3,000+ TCM exam items × 4 paradigms, covering wrong-option, misleading,
-    and fabrication detection.
+  summary_en: Evaluates large language models on TCM knowledge and misinformation detection.
   name_en: TCM misinformation detection evaluation
   orgs_en:
   - Tsinghua University
@@ -1083,17 +1100,12 @@ sylvanl-pretrain:
 classical-tcm-canon:
   summary_en: "Full-text digitizations of the TCM canon: Neijing, Nanjing, Shanghan Lun, Jingui Yaolue and warm-disease classics."
 
-ds-tcm-ladder:
-  summary_en: "TCM-Ladder: a multimodal QA benchmark for comprehensively evaluating TCM multimodal LLMs on real-world tasks (arXiv 2025)."
-
 ds-tcmeval-sdt:
   summary_en: "TCMEval-SDT: a benchmark of 300 syndrome-diagnosis cases (web, classical texts, hospital records) for evaluating TCM syndrome-differentiation reasoning, with FAIR metadata (Sci. Data 2025)."
 
 ds-tcmbench:
   summary_en: "TCMBench: a comprehensive benchmark for evaluating LLMs in traditional Chinese medicine (arXiv 2024)."
 
-ds-mtcmb:
-  summary_en: "MTCMB dataset: a multi-task TCM benchmark covering knowledge, reasoning and safety, 12 subsets with ~7,100 samples (arXiv 2025)."
 pcdh-tcm:
   summary_en: "Patient-conditioned dual-hypergraph reasoning for auditable TCM prescription support, organizing symptom/tongue/pulse evidence around patterns and treatment principles (Tianjin University)."
 ebitv-tcm:
@@ -2196,7 +2208,8 @@ surv-tcm-wm-safety:
 surv-tcm-xai:
   summary_en: "Argues that TCM AI is limited by a mismatch between statistical models and syndrome-based reasoning, so explanations are required."
 ds-tcm4nsclc:
-  summary_en: "Computable real-world outpatient records from one senior TCM physician on non-small-cell lung cancer, for syndrome differentiation, prescription, and real-world effectiveness."
+  summary_en: 3,790 non-small-cell lung cancer case records from one senior TCM physician, including repeat visits,
+    for syndrome differentiation, prescription, and real-world research.
 pulse-ml-preg-chd:
   summary_en: "A portable MEMS/CMOS pulse device records healthy women, women with coronary heart disease, and women in the first trimester, then machine learning separates pregnancy from coronary heart disease."
 tpc-gcn:

@@ -26,7 +26,7 @@ README 首屏「先看这里」是结论；本页把理由写全。
 
 1. 一篇 2025–2026 的 scoping review（README 综述栏前几条）
 2. 一个开源模型的论文 + 其评测协议（Qibo / BianCang / ShizhenGPT / 仲景 任选）
-3. 一个基准的任务定义（TCM-Ladder 或 LingLan / MTCMB）
+3. 一个基准的任务定义（TCM-Ladder 或 LingLanMedBench / MTCMB）
 4. 再回到项目页用标签扫 `agent` / `rag` / `multimodal`
 
 ## 4. 不建议一上来就做的事

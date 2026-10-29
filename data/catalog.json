@@ -6,10 +6,10 @@
     "description_en": "Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.",
     "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
     "portal_url": "https://tyang816.github.io/projects/tcm/",
-    "updated_at": "2026-10-25",
+    "updated_at": "2026-10-29",
     "catalog_version": 1
   },
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-29",
   "items": [
     {
       "id": "news-202609-27",
@@ -562,7 +562,7 @@
       "name": "Qwen-TCM-Dia",
       "year": 2026,
       "venue": "Digital Chinese Medicine",
-      "summary_zh": "面向中医泄泻的专科微调模型（续训+CoT指令微调），覆盖症状→病机→治法→方药推理链。Digital Chinese Medicine 署名首都医科大学附属北京中医医院与北京中医药大学等",
+      "summary_zh": "基于 Qwen2.5 的中医泄泻专科模型，以两阶段 LoRA 完成领域续训和思维链指令微调，连接症状、病机、治法与方药。",
       "orgs": [
         "首都医科大学附属北京中医医院",
         "北京中医药大学等"
@@ -575,7 +575,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-09-13"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-agent",
@@ -667,10 +667,10 @@
     },
     {
       "id": "linglan",
-      "name": "灵兰秘典 (LingLan)",
+      "name": "LingLanMedBench（灵兰）",
       "year": 2026,
       "venue": "arXiv",
-      "summary_zh": "大规模多任务中医评测基准，覆盖 5 大域、13 子任务、25620 条经专家核对的实例",
+      "summary_zh": "LingLanMedBench（原 LingLanMiDian）：5 大域、13 个子任务，共 25,620 条专家核验样本；每个子任务从完整集内选取 400 条构成 Hard 子集。",
       "orgs": [
         "北京交通大学等"
       ],
@@ -679,13 +679,13 @@
         "evaluation"
       ],
       "links": {
-        "论文": "https://arxiv.org/abs/2602.01779",
+        "论文": "https://arxiv.org/abs/2602.01779v2",
         "代码": "https://github.com/TCMAI-BJTU/LingLan",
         "网站": "http://tcmnlp.com"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-10-24"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "atcmd-bench",
@@ -732,7 +732,7 @@
       "name": "青囊 (QingNangTCM)",
       "year": 2026,
       "venue": "Digital Chinese Medicine",
-      "summary_zh": "参数高效微调的中医问答与临床推理模型，构建10万条**QnTCM_Dataset**语料",
+      "summary_zh": "基于 GLM-4-9B-Chat，以 P-Tuning v2 适配中医问答与临床推理；构建 100,000 条 QnTCM_Dataset 训练语料。",
       "orgs": [
         "河北北方学院"
       ],
@@ -744,7 +744,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "herbwise",
@@ -770,7 +770,7 @@
       "name": "Med-Shicheng（师承）",
       "year": 2026,
       "venue": "arXiv",
-      "summary_zh": "基于天医 (Tianyi) 的轻量级名老中医经验传承框架，单模型内化5位国医大师知识系统、覆盖7类任务",
+      "summary_zh": "沿用 Tianyi 的多阶段训练思路，在 Qwen2.5-1.5B-Base 上实施续训、监督微调和 KTO，学习 5 位中医名家的经验，覆盖 7 类任务。",
       "orgs": [
         "南京中医药大学等"
       ],
@@ -783,7 +783,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "dongyuan",
@@ -1168,7 +1168,7 @@
       "name": "DoPI",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "类医生主动问诊中医大模型，引导模型+专家模型协同架构，问诊准确率84.68%。arXiv HTML 署名天津大学、香港中文大学与中国电科",
+      "summary_zh": "引导模型与专家模型协同的主动问诊系统；在论文模拟问诊评测中，DoPI-7B 的最终诊断准确率为 84.68%。",
       "orgs": [
         "天津大学",
         "香港中文大学等"
@@ -1182,7 +1182,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-09-13"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "mcm",
@@ -1211,7 +1211,7 @@
       "name": "MTCMB",
       "year": 2026,
       "venue": "Scientific Data",
-      "summary_zh": "中医多任务评测基准，12子集约7100样本，覆盖知识/推理/方剂/安全",
+      "summary_zh": "中医多任务评测基准，12 个数据集、7,100 个样本，覆盖知识、推理、方剂与安全任务（Scientific Data 2026）。",
       "tags": [
         "benchmark",
         "evaluation"
@@ -1223,7 +1223,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-10-24"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "opentcm",
@@ -1325,7 +1325,7 @@
       "name": "TCM-5CEval",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "在 TCM-3CEval 基础上扩展本草与非药物疗法的五维深度评测",
+      "summary_zh": "五维中医评测，含来自 30 门课程的 2,260 道题；对选择题进行选项循环置换，以检验回答对选项位置的敏感性。",
       "tags": [
         "benchmark"
       ],
@@ -1334,25 +1334,26 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-best4sdt",
       "name": "TCM-BEST4SDT",
-      "year": 2025,
-      "venue": "arXiv",
-      "summary_zh": "面向辨证论治的病例评测基准（知识/伦理/安全/SDT）",
+      "year": 2026,
+      "venue": "Scientific Data",
+      "summary_zh": "600 条评测样本：300 条辨证论治病例，以及中医基础知识、医学伦理和内容安全各 100 题；涵盖 27 个评价维度。",
       "tags": [
         "benchmark"
       ],
       "links": {
         "DOI": "https://doi.org/10.6084/m9.figshare.30615956",
         "论文": "https://arxiv.org/abs/2512.02816",
-        "代码": "https://github.com/DYJG-research/TCM-BEST4SDT"
+        "代码": "https://github.com/DYJG-research/TCM-BEST4SDT",
+        "正式发表": "https://doi.org/10.1038/s41597-026-07587-4"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-kllama",
@@ -1381,7 +1382,7 @@
       "name": "TCM-Ladder",
       "year": 2025,
       "venue": "NeurIPS 2025",
-      "summary_zh": "首个中医多模态问答评测基准，涵盖52000+题目",
+      "summary_zh": "中医多模态问答基准，含 52,169 个问答对，并包含图像、音频和视频数据（NeurIPS 2025）。",
       "tags": [
         "benchmark",
         "multimodal"
@@ -1390,11 +1391,12 @@
         "论文": "https://arxiv.org/abs/2505.24063",
         "代码": "https://github.com/orangeshushu/TCM-Ladder",
         "HF": "https://huggingface.co/datasets/timzzyus/TCM-Ladder",
-        "榜单": "https://tcmladder.com"
+        "榜单": "https://tcmladder.com",
+        "正式发表": "https://proceedings.neurips.cc/paper_files/paper/2025/file/cbdd26a4490f5a8dad0d732508714029-Paper-Datasets_and_Benchmarks_Track.pdf"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-r1",
@@ -1701,7 +1703,7 @@
       "name": "经方 (Jingfang)",
       "year": 2025,
       "venue": "arXiv",
-      "summary_zh": "基于LLM的中医多智能体诊疗系统，辨证精度提升124%",
+      "summary_zh": "多智能体中医问诊与辨证论治系统，结合十问歌引导问诊、证候判别模型和双阶段处方检索。",
       "tags": [
         "agent"
       ],
@@ -1710,14 +1712,14 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "xuanhugpt",
       "name": "悬壶 (XuanHuGPT)",
       "year": 2025,
       "venue": "Chinese Medicine",
-      "summary_zh": "基于参数高效微调（PEFT）的中医领域大模型",
+      "summary_zh": "基于 ChatGLM2-6B，采用 LoRA 与 P-Tuning v2 进行中医领域参数高效微调。",
       "orgs": [
         "河北北方学院"
       ],
@@ -1729,14 +1731,14 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-ds",
       "name": "TCM-DS",
       "year": 2025,
       "venue": "Chinese Medicine",
-      "summary_zh": "药食同源食疗方智能推荐领域大模型",
+      "summary_zh": "基于 DeepSeek-LLM-7B，结合 LoRA 与检索增强生成（RAG），用于药食同源食疗方推荐。",
       "orgs": [
         "澳门科技大学"
       ],
@@ -1748,27 +1750,29 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-visresolve",
       "name": "TCM-VisResolve (TCM-VR)",
       "year": 2025,
       "venue": "IEEE BIBM 2025",
-      "summary_zh": "基于Qwen2.5-VL的中医多模态大模型，支持163类22万张干药材图像识别与88万候选答案临床MCQ",
+      "summary_zh": "基于 Qwen2.5-VL，支持干药材识别与临床选择题问答；作者模型卡报告 163 类药材、220,000 张图像和 220,000 道选择题（共 880,000 个答案选项）。",
       "orgs": [
-        "中央民族大学"
+        "云南民族大学",
+        "马来亚大学"
       ],
       "tags": [
         "multimodal",
         "model"
       ],
       "links": {
-        "DOI": "https://doi.org/10.1109/BIBM66473.2025.11356679"
+        "DOI": "https://doi.org/10.1109/BIBM66473.2025.11356679",
+        "说明": "https://huggingface.co/dylanyang963/TCM-VR"
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "chatglm-fgids-tcm",
@@ -1795,7 +1799,7 @@
       "name": "中医大模型误导信息检测评测",
       "year": 2025,
       "venue": "UbiComp Companion 2025",
-      "summary_zh": "3000+中医考题×4种范式的安全性评测框架，覆盖错误选项、误导与捏造检测",
+      "summary_zh": "评估大语言模型的中医知识表现与误导信息检测能力。",
       "orgs": [
         "清华大学"
       ],
@@ -1808,7 +1812,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "tcm-tongue-icl",
@@ -2353,7 +2357,7 @@
       "name": "MedChatZH",
       "year": 2024,
       "venue": "Computers in Biology and Medicine",
-      "summary_zh": "面向中医问诊对话的微调大语言模型 MedChatZH，开源问诊数据集与模型权重（Computers in Biology and Medicine 2024）",
+      "summary_zh": "基于 Baichuan-7B 的中医问诊对话模型，公开配套问诊数据与模型权重（Computers in Biology and Medicine 2024）。",
       "orgs": [
         "华东理工大学"
       ],
@@ -2370,7 +2374,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "lingdan",
@@ -2400,7 +2404,7 @@
       "id": "lingdan-v2",
       "name": "灵丹-V2 (Lingdan-V2)",
       "year": 2026,
-      "summary_zh": "北交大灵丹二代中医推理家族（Qwen3 4B/8B/14B，CPT+SFT+处方GRPO）。ModelScope 上的权重许可为 Apache-2.0。",
+      "summary_zh": "Qwen3 4B/8B/14B 中医推理模型家族，依次进行续训、监督微调和处方 GRPO。作者仓库明确声明模型权重采用 Apache-2.0；第三方数据沿用原许可。",
       "orgs": [
         "北京交通大学"
       ],
@@ -2416,7 +2420,7 @@
       },
       "type": "resource",
       "status": "published",
-      "verified_at": "2026-10-25"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "dfglm-tcm",
@@ -4756,10 +4760,10 @@
     },
     {
       "id": "ds-linglan",
-      "name": "LingLan",
+      "name": "LingLanMedBench（灵兰）",
       "section": "评测基准",
-      "title_zh": "LingLan（灵兰秘典）大规模多任务中医评测基准 (2026)",
-      "summary_zh": "LingLan（灵兰秘典）大规模多任务中医评测基准 (2026)",
+      "title_zh": "LingLanMedBench 多任务中医评测基准",
+      "summary_zh": "LingLanMedBench（原 LingLanMiDian）：5 大域、13 个子任务，共 25,620 条专家核验样本；每个子任务从完整集内选取 400 条构成 Hard 子集。",
       "year": 2026,
       "venue": "arXiv",
       "tags": [
@@ -4767,11 +4771,11 @@
       ],
       "links": {
         "数据集": "https://github.com/TCMAI-BJTU/LingLan",
-        "论文": "https://arxiv.org/abs/2602.01779"
+        "论文": "https://arxiv.org/abs/2602.01779v2"
       },
       "type": "dataset",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "ds-tcm-aqa61",
@@ -4844,7 +4848,7 @@
     {
       "id": "ds-mtcmb",
       "name": "MTCMB",
-      "summary_zh": "中医多任务评测基准 MTCMB 数据，覆盖知识、推理与安全维度，12 子集约 7100 样本（arXiv 2025）",
+      "summary_zh": "中医多任务评测基准，12 个数据集、7,100 个样本，覆盖知识、推理、方剂与安全任务（Scientific Data 2026）。",
       "section": "评测基准",
       "title_zh": "MTCMB 中医多任务评测基准（知识/推理/安全）",
       "tags": [
@@ -4852,13 +4856,14 @@
       ],
       "links": {
         "数据集": "https://github.com/Wayyuanyuan/MTCMB",
-        "论文": "https://arxiv.org/abs/2506.01252"
+        "论文": "https://arxiv.org/abs/2506.01252",
+        "正式发表": "https://doi.org/10.1038/s41597-026-07967-w"
       },
       "type": "dataset",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "Scientific Data",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "ds-tcm-3c",
@@ -4883,7 +4888,7 @@
       "name": "TCM-5CEval",
       "section": "评测基准",
       "title_zh": "TCM-5CEval 五维中医深度评测",
-      "summary_zh": "TCM-5CEval 五维中医深度评测",
+      "summary_zh": "五维中医评测，含来自 30 门课程的 2,260 道题；对选择题进行选项循环置换，以检验回答对选项位置的敏感性。",
       "tags": [
         "benchmark"
       ],
@@ -4894,26 +4899,27 @@
       "year": 2025,
       "venue": "arXiv",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "ds-best4sdt",
       "name": "TCM-BEST4SDT",
       "section": "评测基准",
-      "title_zh": "TCM-BEST4SDT 辨证论治病例评测基准",
-      "summary_zh": "TCM-BEST4SDT 辨证论治病例评测基准",
+      "title_zh": "TCM-BEST4SDT 辨证论治及知识、伦理与安全评测",
+      "summary_zh": "600 条评测样本：300 条辨证论治病例，以及中医基础知识、医学伦理和内容安全各 100 题；涵盖 27 个评价维度。",
       "tags": [
         "benchmark"
       ],
       "links": {
         "数据集": "https://github.com/DYJG-research/TCM-BEST4SDT",
-        "论文": "https://arxiv.org/abs/2512.02816"
+        "论文": "https://arxiv.org/abs/2512.02816",
+        "正式发表": "https://doi.org/10.1038/s41597-026-07587-4"
       },
       "type": "dataset",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "Scientific Data",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "ds-tcm-eval",
@@ -4938,7 +4944,7 @@
     {
       "id": "ds-tcm-ladder",
       "name": "TCM-Ladder",
-      "summary_zh": "中医多模态问答评测基准 TCM-Ladder，面向真实世界任务综合评估中医多模态大模型（arXiv 2025）",
+      "summary_zh": "中医多模态问答基准，含 52,169 个问答对，并包含图像、音频和视频数据（NeurIPS 2025）。",
       "section": "评测基准",
       "title_zh": "TCM-Ladder 中医多模态问答评测基准 (NeurIPS 2025)",
       "year": 2025,
@@ -4946,16 +4952,17 @@
         "benchmark",
         "multimodal"
       ],
-      "venue": "arXiv",
+      "venue": "NeurIPS 2025",
       "links": {
         "数据集": "https://github.com/orangeshushu/TCM-Ladder",
         "HF": "https://huggingface.co/datasets/timzzyus/TCM-Ladder",
         "榜单": "https://tcmladder.com",
-        "论文": "https://arxiv.org/abs/2505.24063"
+        "论文": "https://arxiv.org/abs/2505.24063",
+        "正式发表": "https://proceedings.neurips.cc/paper_files/paper/2025/file/cbdd26a4490f5a8dad0d732508714029-Paper-Datasets_and_Benchmarks_Track.pdf"
       },
       "type": "dataset",
       "status": "published",
-      "verified_at": "2026-07-19"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "ds-tcm-tongue",
@@ -14607,7 +14614,7 @@
       "year": 2026,
       "venue": "Scientific Data",
       "section": "临床结构化 / 处方",
-      "summary_zh": "一位资深中医门诊的非小细胞肺癌真实世界记录，整理成可计算数据，用于辨证、处方，以及真实世界疗效和亚组分析。",
+      "summary_zh": "来自一位资深中医门诊的 3,790 条非小细胞肺癌病例记录，包含重复就诊，用于辨证、处方及真实世界研究。",
       "tags": [
         "benchmark",
         "clinical"
@@ -14616,7 +14623,7 @@
         "论文": "https://doi.org/10.1038/s41597-026-07912-x"
       },
       "status": "published",
-      "verified_at": "2026-10-22"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "pulse-ml-preg-chd",
