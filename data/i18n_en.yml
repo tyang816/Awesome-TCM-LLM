@@ -698,8 +698,8 @@ atcmd-bench:
   orgs_en:
   - South China University of Technology
 tcm-e2e-bench:
-  summary_en: Benchmark for end-to-end TCM clinical support across the full LLM care pipeline.
-  name_en: End-to-end TCM clinical support benchmark
+  summary_en: "Builds dialogues from 205 clinical cases and introduces misleading symptom or diagnostic statements to evaluate inquiry, syndrome differentiation, prescription, and analysis."
+  name_en: "DCB (Dynamic TCM Clinical Benchmark)"
   orgs_en:
   - East China Normal University
 qingnangtcm:
@@ -1109,7 +1109,7 @@ ds-tcmbench:
 pcdh-tcm:
   summary_en: "Patient-conditioned dual-hypergraph reasoning for auditable TCM prescription support, organizing symptom/tongue/pulse evidence around patterns and treatment principles (Tianjin University)."
 ebitv-tcm:
-  summary_en: "Evidence-based TCM visualization diagnosis system: Neo4j knowledge graph (241 patterns, 1,263 symptoms) with four-stage symptom matching (LLM-verified) and information-gain-driven active inquiry."
+  summary_en: "Uses a symptom–pattern knowledge graph, symptom matching and information-gain question selection for visualized TCM consultation; the inquiry policy is illustrated through case walkthroughs."
 tcmiies:
   summary_en: "TCMIIES: a browser-based, zero-installation LLM system for structured information extraction from academic literature, aimed at TCM and other specialty researchers."
 survey-agentic-tcm-osf:
@@ -1812,7 +1812,7 @@ tcm-cot-rag:
 tcm-hyperrag:
   summary_en: "Higher-order knowledge hypergraphs for TCM diagnosis and prescription recommendation, with traceable evidence passed to a backbone model."
 acugpt-agent:
-  summary_en: "An LLM agent for acupuncture-based infertility treatment."
+  summary_en: "Combines a specialized LLM, an infertility-acupuncture knowledge graph and routing across specialist knowledge bases; EvalAcu assesses domain knowledge and task performance."
 llm-sdat:
   summary_en: "A knowledge-informed LLM framework for TCM syndrome differentiation."
 acukg:
@@ -1992,7 +1992,7 @@ ds-tcm-prompt-lang:
 ds-herb-efficacy-relations:
   summary_en: "Structured herb–efficacy relations converted from classical TCM efficacy wording for knowledge-graph construction, formula-efficacy prediction, and herb–symptom association."
 ds-tonguebench-2694:
-  summary_en: "Quality-controlled tongue-image set of 2,694 photographs with file-level metadata; the open file is TongueBench Dataset.zip."
+  summary_en: "2,694 tongue images and 22 labels; compares nine multimodal models, three prompting strategies and repeated-output stability. Image data and an inference/scoring demo are available."
 ds-sciencedb-tcm-qa:
   summary_en: "Science Data Bank set of 6,157 question-answer pairs built from classic Chinese medicine literature."
 ds-sciencedb-tcm-case-gen:
@@ -2513,3 +2513,7 @@ who-wpro-tm-2007:
   summary_en: "The World Health Organization Western Pacific terminology for traditional medicine, the 2007 predecessor of the 2022 Chinese-medicine terminology. The PDF is on IRIS."
 syndrome-element-term-map:
   summary_en: "Maps clinical wordings of TCM syndromes onto standard syndrome names with syndrome-element knowledge. Information Science, 2025, volume 43, issue 7."
+ds-tcm-diagcommit:
+  summary_en: "TCM-SD-derived benchmark with 1,834 source cases, 148 syndrome labels and 23,842 task rows; fixed three-stage evidence disclosure tests syndrome discrimination, evidence use and commit/acquire/defer/abstain decisions. Data and scoring code are available."
+acumodel-acuagent:
+  summary_en: "Combines AcuModel, an acupuncture knowledge graph, semantic routing and rule constraints for follow-up inquiry and acupuncture reasoning. Project documentation and samples are public; full weights and training data require an author request."

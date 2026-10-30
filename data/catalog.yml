@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-10-29'
+  updated_at: '2026-10-30'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -539,10 +539,10 @@ items:
   status: published
   verified_at: '2026-08-02'
 - id: tcm-e2e-bench
-  name: 中医端到端临床支持基准
+  name: "DCB（中医动态临床基准）"
   year: 2026
   venue: Expert Systems with Applications
-  summary_zh: 面向端到端临床支持全链路的中医LLM评测基准
+  summary_zh: "从 205 个临床病例构建医患对话，加入误导性症状或诊断信息，评测问诊、辨证、处方与分析任务。"
   orgs:
   - 华东师范大学
   tags: [benchmark, evaluation]
@@ -550,7 +550,7 @@ items:
     DOI: https://doi.org/10.1016/j.eswa.2026.132267
   type: resource
   status: published
-  verified_at: '2026-08-02'
+  verified_at: "2026-10-30"
 - id: qingnangtcm
   name: 青囊 (QingNangTCM)
   year: 2026
@@ -4236,13 +4236,13 @@ items:
   year: 2026
   venue: arXiv
   date: '2026.06'
-  summary_zh: Neo4j知识图谱（241证型/1263症状）+四阶段症状匹配（含LLM验证）+信息增益主动问诊的中医可视化诊疗系统
-  tags: [kg, rag, dialogue]
+  summary_zh: "以症状—证候知识图谱、症状匹配和信息增益策略进行主动问诊，配合诊疗可视化；问诊策略展示以案例为主。"
+  tags: ["agent", "kg", "rag", "dialogue", "preprint"]
   links:
     论文: https://arxiv.org/abs/2606.06869
   type: resource
   status: published
-  verified_at: '2026-08-03'
+  verified_at: "2026-10-30"
 - id: deeproot
   name: DeepRoot
   year: 2026
@@ -7976,13 +7976,12 @@ items:
   venue: Neurocomputing
   orgs:
   - 南京中医药大学
-  summary_zh: 面向针灸治疗不孕的大模型智能系统
-  tags:
-  - agent
+  summary_zh: "围绕针灸治疗不孕，结合专科大模型、知识图谱和跨知识库路由，并以 EvalAcu 评估知识与任务能力。"
+  tags: ["agent", "rag", "kg"]
   links:
     DOI: https://doi.org/10.1016/j.neucom.2025.131116
   status: published
-  verified_at: '2026-10-21'
+  verified_at: "2026-10-30"
 - id: llm-sdat
   name: LLM-SDaT
   type: resource
@@ -9359,15 +9358,17 @@ items:
   type: dataset
   year: 2026
   section: 评测基准
-  summary_zh: 经质量控制的舌象照片集，Zenodo 说明含 2694 张舌照片及文件级元数据，公开文件为 TongueBench Dataset.zip。
+  summary_zh: "2,694 张舌象、22 个标签；比较 9 个多模态模型、3 种提示策略及重复输出稳定性，配有图像数据和推理/评分示例。"
   tags:
   - multimodal
   - benchmark
   links:
+    DOI: https://doi.org/10.3389/frai.2026.1943004
+    代码: https://github.com/mengyiha/TongueBench-Open
     数据集: https://zenodo.org/records/20701288
   status: published
-  verified_at: '2026-10-21'
-  venue: Zenodo
+  verified_at: "2026-10-30"
+  venue: "Frontiers in Artificial Intelligence / Zenodo"
   orgs:
   - Meng, Yihan
   - Cui, Nuan
@@ -12925,3 +12926,29 @@ items:
     论文: https://journal12.magtechjournal.com/jwk3_qbkx/CN/Y2025/V43/I7/48
   status: published
   verified_at: '2026-10-24'
+- id: ds-tcm-diagcommit
+  name: TCM-DiagCommit
+  type: dataset
+  year: 2026
+  section: 评测基准
+  venue: arXiv
+  summary_zh: "基于 TCM-SD 的 1,834 个源病例、148 个证候标签，构造 23,842 条任务记录；以固定三阶段信息披露评测证候辨别、证据利用及作出/延缓诊断的决策，提供数据和评分代码。"
+  tags: [benchmark, evaluation, dialogue, preprint]
+  links:
+    论文: https://arxiv.org/abs/2610.37243
+    代码: https://github.com/Ethan-ai637/TCM-DiagCommit
+    数据集: https://github.com/Ethan-ai637/TCM-DiagCommit/tree/main/data
+  status: published
+  verified_at: '2026-10-30'
+- id: acumodel-acuagent
+  name: AcuModel / AcuAgent
+  type: resource
+  year: 2026
+  venue: Engineering Applications of Artificial Intelligence
+  summary_zh: "结合 AcuModel、针灸知识图谱、语义路由与规则约束，进行主动追问和针灸推理；公开项目说明及样例，完整权重与训练数据需向作者申请。"
+  tags: [agent, kg, rag, dialogue]
+  links:
+    DOI: https://doi.org/10.1016/j.engappai.2026.116139
+    资料: https://github.com/mosheng555/AcuModel-And-AcuAgent
+  status: published
+  verified_at: '2026-10-30'

@@ -4,7 +4,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 55 news items, 113 models, 71 surveys, 69 patents, 186 datasets, 386 method papers. [PRs welcome](CONTRIBUTING.md).
+Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 55 news items, 113 models, 71 surveys, 69 patents, 187 datasets, 387 method papers. [PRs welcome](CONTRIBUTING.md).
 
 [Project page](https://tyang816.github.io/projects/tcm/) · [Chinese catalog](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
@@ -557,11 +557,12 @@ TCM LLM, knowledge-graph, RAG, inquiry, and prescription-recommendation system p
 Methods, evaluations, and systems only. Named domain LLMs live under Open models.
 
 <details>
-<summary>Agents (17): 问诊流程、多智能体</summary>
+<summary>Agents (19): 问诊流程、多智能体</summary>
 
 <details>
-<summary>2026 · 9</summary>
+<summary>2026 · 11</summary>
 
+- [*arXiv*] **Evidence-Based TCM Visualization Diagnosis System** Uses a symptom–pattern knowledge graph, symptom matching and information-gain question selection for visualized TCM consultation; the inquiry policy is illustrated through case walkthroughs. [[Paper](https://arxiv.org/abs/2606.06869)]
 - [*arXiv*] **DeepTCM1.0** DeepTCM1.0: 11-expert multi-agent system on DeepSeek V3.2 for interpreting TCM formula mechanisms (Guizhi Decoction case); now on arXiv after the Research Square preprint. [Chinese Medicine Guangdong Laboratory (Hengqin), Changzhi Medical College] [[Paper](https://arxiv.org/abs/2608.18103)] [[Preprint](https://doi.org/10.21203/rs.3.rs-9844166/v1)]
 - [*arXiv*] **DeepRoot** Multi-agent pipeline that turns the Shen Nong Ben Cao Jing into a verified Neo4j graph for therapeutic reasoning; code and evaluation scripts are public. [[Paper](https://arxiv.org/abs/2606.15931)] [[Code](https://github.com/CarlisleMa/deeprootv1)]
 - [*Studies in Health Technology and Informatics*] **韩医CPX场景自动生成** LLM plus retrieval-augmented generation and multimodal cues to automate traditional Korean medicine CPX scenarios; validated by 10 experts. [[DOI](https://doi.org/10.3233/shti260671)]
@@ -571,6 +572,7 @@ Methods, evaluations, and systems only. Named domain LLMs live under Open models
 - [*Applied Sciences*] **KM-Agent** Tool-augmented agent for Korean / East Asian traditional medicine over 4,780 herb–syndrome–acupoint metadata records, evaluated on TCMBench-style sets. MDPI/OpenAlex authors at Wonkwang University and Pusan National University et al. [Wonkwang University, Pusan National University et al.] [[Paper](https://www.mdpi.com/2076-3417/16/7/3377)] [[Code](https://github.com/wonyung-lee/km-agent)]
 - [*arXiv*] **DERM-3R** Resource-constrained multimodal multi-agent framework for TCM dermatology (recognition / representation / SDT agents). [[Paper](https://arxiv.org/abs/2604.09596)]
 - [*arXiv*] **CORE-Acu** Acupuncture clinical decision support with structured reasoning traces and a knowledge-graph safety veto loop. [[Paper](https://arxiv.org/abs/2603.08321)]
+- [*Engineering Applications of Artificial Intelligence*] **AcuModel / AcuAgent** Combines AcuModel, an acupuncture knowledge graph, semantic routing and rule constraints for follow-up inquiry and acupuncture reasoning. Project documentation and samples are public; full weights and training data require an author request. [[DOI](https://doi.org/10.1016/j.engappai.2026.116139)] [[Resources](https://github.com/mosheng555/AcuModel-And-AcuAgent)]
 
 </details>
 
@@ -583,7 +585,7 @@ Methods, evaluations, and systems only. Named domain LLMs live under Open models
 - [*Information*] **TCM compound retrieval agent** AI agent-based system for retrieving TCM compound information. [Zhengzhou University] [[DOI](https://doi.org/10.3390/info16070543)]
 - [*Journal of King Saud University Computer and Information Sciences*] **DiagX-DT** Exclusionary syndrome-differentiation reasoning with CoT and an external TCM knowledge base. [[DOI](https://doi.org/10.1007/s44443-025-00123-1)]
 - [*proceedings-article*] **An Intelligent TCM Diagnosis System with Localized LLMs and Modular Multimodal Reasoning Enhanced by RAG** The locally deployed system uses four agents for inspection, listening, inquiry, and palpation, coordinated by modular component processing and multimodal retrieval-augmented generation, and a central reasoning module turns tongue images, voice, pulse, and symptoms into a diagnosis and health advice. [Hosei University, Fuzhou University, Hong Kong Polytechnic University, Beihang University] [[DOI](https://doi.org/10.1109/cyberscitech68397.2025.00061)]
-- [*Neurocomputing*] **AcuGPT-Agent** An LLM agent for acupuncture-based infertility treatment. [[DOI](https://doi.org/10.1016/j.neucom.2025.131116)]
+- [*Neurocomputing*] **AcuGPT-Agent** Combines a specialized LLM, an infertility-acupuncture knowledge graph and routing across specialist knowledge bases; EvalAcu assesses domain knowledge and task performance. [[DOI](https://doi.org/10.1016/j.neucom.2025.131116)]
 
 </details>
 
@@ -654,13 +656,12 @@ Methods, evaluations, and systems only. Named domain LLMs live under Open models
 </details>
 
 <details>
-<summary>RAG / knowledge graphs (62): 检索和医案、方剂图谱</summary>
+<summary>RAG / knowledge graphs (61): 检索和医案、方剂图谱</summary>
 
 <details>
-<summary>2026 · 15</summary>
+<summary>2026 · 14</summary>
 
 - [*Communications in Computer and Information Science (Springer)*] **Hybrid Retrieval + Re-ranking TCM Prescription Generation** Hybrid retrieval with re-ranking to enhance LLM-based TCM prescription generation (Springer CCIS conference paper). [Shandong University, Shandong Academy of Sciences] [[Paper](https://doi.org/10.1007/978-981-92-3563-6_21)]
-- [*arXiv*] **Evidence-Based TCM Visualization Diagnosis System** Evidence-based TCM visualization diagnosis system: Neo4j knowledge graph (241 patterns, 1,263 symptoms) with four-stage symptom matching (LLM-verified) and information-gain-driven active inquiry. [[Paper](https://arxiv.org/abs/2606.06869)]
 - **Pediatric influenza Chinese patent-medicine recommender (KG + LLM)** Knowledge graph of Chinese patent medicines for pediatric influenza built from authoritative guidelines and integrated with an LLM (JMIR Preprints). [[Preprint](https://doi.org/10.2196/preprints.101648)]
 - [*Frontiers in Medicine*] **Jin San Zhen KG-QA** Knowledge graph + LLM QA tool for the Jin San Zhen acupuncture school. [Guangzhou University of Chinese Medicine] [[DOI](https://doi.org/10.3389/fmed.2026.1755583)]
 - [*IEEE BigComp 2026*] **知识图谱增强的中医问答大模型** Knowledge-graph-enhanced large language models for TCM question answering. [[DOI](https://doi.org/10.1109/bigcomp68355.2026.00029)]
@@ -842,7 +843,6 @@ Methods, evaluations, and systems only. Named domain LLMs live under Open models
 - [*Digital Chinese Medicine*] **知识图谱增强的长尾证候辨证** Knowledge-graph-enhanced long-tail learning for traditional Chinese medicine syndrome differentiation. [[DOI](https://doi.org/10.1016/j.dcmed.2026.02.005)]
 - [*Journal of Evidence-Based Medicine*] **中医证候诊断标准适用性评价指南** A Delphi guideline for judging whether TCM syndrome diagnostic criteria are usable: 5 domains and 25 items, scored on a 5-point scale. Domains are accessibility, readability, implementability, acceptability, and overall evaluation. [[DOI](https://doi.org/10.1111/jebm.70153)]
 - [*Journal of Evidence-Based Medicine*] **Large vs lightweight LLMs on TCM exams** Systematic comparison of large-scale vs lightweight LLMs on TCM exam questions. [First Affiliated Hospital of Henan University] [[DOI](https://doi.org/10.1111/jebm.70118)]
-- [*Expert Systems with Applications*] **End-to-end TCM clinical support benchmark** Benchmark for end-to-end TCM clinical support across the full LLM care pipeline. [East China Normal University] [[DOI](https://doi.org/10.1016/j.eswa.2026.132267)]
 - [*Journal of Traditional Chinese Medical Sciences*] **TCM intelligent pre-consultation clinical evaluation** Tertiary-hospital clinical evaluation of an LLM intelligent pre-consultation system using a physician–AI–patient triad model. [Beijing Hospital of Traditional Chinese Medicine] [[DOI](https://doi.org/10.1016/j.jtcms.2026.06.002)]
 - [*Frontiers in Medicine*] **TCM AI-tutor evaluation** Multimodal LLM evaluation for TCM education across cognitive levels. [Beijing University of Chinese Medicine] [[DOI](https://doi.org/10.3389/fmed.2026.1893231)]
 - [*Scientific Reports*] **Three-LLM TCM licensing exam evaluation** Systematic evaluation of 3 LLMs (incl. Gemini) on the national TCM medical licensing examination. [Shanghai Jiao Tong University] [[DOI](https://doi.org/10.1038/s41598-026-49200-z)]
@@ -872,6 +872,7 @@ Methods, evaluations, and systems only. Named domain LLMs live under Open models
 - [*Terminology International Journal of Theoretical and Applied Issues in Specializ*] **From readable to executable** Using the same three prompts for each sampled term, the authors tested with ChatGPT-4o whether the WHO 2007 and 2022 traditional Chinese medicine terminology standards give enough explicit information for auditable selection among coexisting English variants. [University of Malaya] [[DOI](https://doi.org/10.1075/term.00097.yu)]
 - [*proceedings-article*] **Evaluating Semantic Fidelity and Cohesion in NMT and LLM-based Translation of Traditional Chinese Medicine Classics** For English translation of traditional Chinese medicine classics, DeepSeek exceeded Google Translate and ChatGPT-5 on BERTScore semantic fidelity to the human reference, while ChatGPT-5 produced more semantically coherent text across sentences. [Northwestern Polytechnical University, Air Force Engineering University] [[DOI](https://doi.org/10.1109/icnlp69856.2026.11528039)]
 - [*Current Bioinformatics*] **Evaluating Large Language Models for Query Refinement in Systematic Review Retrieval of Traditional Chinese Medicine** The authors tested GPT-4o, GPT-5, DeepSeek-V3, and DeepSeek-R1 under six prompts for literature retrieval in CNKI, Wanfang, PubMed, and Embase on psoriasis, COVID-19, and type 2 diabetes; the deduplicated gold-standard set contained 182 records (50, 74, and 58). [China Academy of Chinese Medical Sciences, Hunan University of Traditional Chinese Medicine] [[DOI](https://doi.org/10.2174/0115748936492177260915061800)]
+- [*Expert Systems with Applications*] **DCB (Dynamic TCM Clinical Benchmark)** Builds dialogues from 205 clinical cases and introduces misleading symptom or diagnostic statements to evaluate inquiry, syndrome differentiation, prescription, and analysis. [East China Normal University] [[DOI](https://doi.org/10.1016/j.eswa.2026.132267)]
 - [*JMIR Formative Research*] **ChatGPT、DeepSeek与医师针灸方案对照** Compares ChatGPT, DeepSeek, and physician-generated acupuncture treatment plans. [[DOI](https://doi.org/10.2196/95851)]
 - [*Pattern Recognition*] **ATCMD-Bench** First agentic TCM diagnosis benchmark, evaluating LLMs through multi-agent simulated consultations. [South China University of Technology] [[DOI](https://doi.org/10.1016/j.patcog.2026.113679)]
 
@@ -1301,15 +1302,16 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 </details>
 
 <details>
-<summary>Benchmarks (32)</summary>
+<summary>Benchmarks (33)</summary>
 
 - **TCM-RobustSDT** — TCM-RobustSDT: a robustness benchmark dataset for LLM clinical reasoning in TCM (Figshare). [[Dataset](https://doi.org/10.6084/m9.figshare.33054974)]
 - **辨证论治基准数据集** — Scientific Data benchmark for syndrome differentiation and treatment with large language models. [[Paper](https://doi.org/10.1038/s41597-026-07587-4)]
 - **病理标注舌象数据集** — Tongue-image dataset with pathological annotations for AI-assisted TCM diagnosis. [[Paper](https://doi.org/10.62762/bish.2026.303296)]
 - **病机思维链证候识别数据** — Syndrome-manifestation cases with gold labels and model predictions, built under pathogenesis reasoning chain-of-thought supervision. [[Dataset](https://doi.org/10.57760/sciencedb.35044)]
 - **WHO TCM Terminology LLM Evaluation Set** — Evaluation set for using large language models as judges of TCM terminology, containing 376 contrasts from the 2022 WHO International Standard Terminologies on Traditional Chinese Medicine. [[Dataset](https://zenodo.org/records/21852353)]
-- **TongueBench** — Quality-controlled tongue-image set of 2,694 photographs with file-level metadata; the open file is TongueBench Dataset.zip. [[Dataset](https://zenodo.org/records/20701288)]
+- **TongueBench** — 2,694 tongue images and 22 labels; compares nine multimodal models, three prompting strategies and repeated-output stability. Image data and an inference/scoring demo are available. [[DOI](https://doi.org/10.3389/frai.2026.1943004)] [[Code](https://github.com/mengyiha/TongueBench-Open)] [[Dataset](https://zenodo.org/records/20701288)]
 - **TCMClinicalReason-Bench** — 2,000 multicenter records for reasoning from pathogenesis to prescription. [[Paper](https://arxiv.org/abs/2610.04215)]
+- **TCM-DiagCommit** — TCM-SD-derived benchmark with 1,834 source cases, 148 syndrome labels and 23,842 task rows; fixed three-stage evidence disclosure tests syndrome discrimination, evidence use and commit/acquire/defer/abstain decisions. Data and scoring code are available. [[Paper](https://arxiv.org/abs/2610.37243)] [[Code](https://github.com/Ethan-ai637/TCM-DiagCommit)] [[Dataset](https://github.com/Ethan-ai637/TCM-DiagCommit/tree/main/data)]
 - **TCM-BEST4SDT** — 600 evaluation items: 300 syndrome-differentiation-and-treatment cases and 100 questions each on TCM knowledge, medical ethics, and content safety; 27 evaluation dimensions. [[Dataset](https://github.com/DYJG-research/TCM-BEST4SDT)] [[Paper](https://arxiv.org/abs/2512.02816)] [[Published](https://doi.org/10.1038/s41597-026-07587-4)]
 - **TCM-AQA61 / CME-AQA** — Synchronized first- and third-person videos of acupuncture and Tuina, 61 subjects each. Two experienced TCM physical therapists assessed every subject independently, then reconciled disagreements. Paired with the CME-AQA cross-view assessment framework. [[Paper](https://arxiv.org/abs/2606.28104)] [[DOI](https://doi.org/10.1109/TNSRE.2026.3705649)] [[Code](https://github.com/FrancisXZhang/cme-aqa)] [[Data](https://researchdata.durham.ac.uk/collections/r1jm214p229)]
 - **TCM Term Prompt-Language Responses** — 972 model responses for 18 TCM terms across six general-purpose models, three prompt languages (Chinese, English, and Malay), and three runs, with WHO 2007 and 2022 terminology references. [[Dataset](https://zenodo.org/records/22208549)]
