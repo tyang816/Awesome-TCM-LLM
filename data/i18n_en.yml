@@ -513,9 +513,8 @@ km-agent:
 lingdan-v2:
   title_en: Lingdan-V2
   name_en: Lingdan-V2
-  summary_en: Qwen3-based 4B/8B/14B TCM reasoning models with continued pretraining, supervised fine-tuning, and
-    prescription GRPO. The authors explicitly license the model weights under Apache-2.0; third-party data retain
-    their original terms.
+  summary_en: A Qwen3 4B/8B/14B TCM reasoning family trained with continued pretraining, SFT and prescription GRPO. The Lingdan-8B-R1
+    Hugging Face release has four complete weight shards and declares Apache-2.0; third-party data retains its own terms.
   orgs_en:
   - Beijing Jiaotong University
 dfglm-tcm:
@@ -1858,7 +1857,9 @@ tcmhp:
 tcm-physio-kg-llm:
   summary_en: "Connects dynamic knowledge graphs with large language models for TCM physiological modeling."
 tcmqa:
-  summary_en: "Open benchmark of 38,279 TCM licensing questions paired with 15,151 answers from 101 licensed practitioners."
+  summary_en: The paper reports 38,279 questions and 101 practitioners. The current HF release documents 33,872 qa rows and
+    5,250 doctor-annotated rows with 102 practitioners and 15,151 responses. Configurations overlap, so their counts must
+    not be summed as unique questions. Pin the release; CC BY-NC-SA 4.0.
 tcm-clinical-reason:
   summary_en: "2,000 multicenter EHR cases testing whether a model can reason from pathogenesis and syndrome to treatment principle and prescription."
 tcm-rx-sss:
@@ -1872,7 +1873,9 @@ linglan-mm-llm:
 ds-sdt-treat-bench:
   summary_en: "Scientific Data benchmark for syndrome differentiation and treatment with large language models."
 ds-tcmqa:
-  summary_en: "38,279 TCM licensing questions with 15,151 responses from 101 licensed practitioners."
+  summary_en: The paper reports 38,279 questions and 101 practitioners. The current HF release documents 33,872 qa rows and
+    5,250 doctor-annotated rows with 102 practitioners and 15,151 responses. Configurations overlap, so their counts must
+    not be summed as unique questions. Pin the release; CC BY-NC-SA 4.0.
 ds-tcm-clinical-reason:
   summary_en: "2,000 multicenter records for reasoning from pathogenesis to prescription."
 ds-kampobench:
@@ -2517,3 +2520,99 @@ ds-tcm-diagcommit:
   summary_en: "TCM-SD-derived benchmark with 1,834 source cases, 148 syndrome labels and 23,842 task rows; fixed three-stage evidence disclosure tests syndrome discrimination, evidence use and commit/acquire/defer/abstain decisions. Data and scoring code are available."
 acumodel-acuagent:
   summary_en: "Combines AcuModel, an acupuncture knowledge graph, semantic routing and rule constraints for follow-up inquiry and acupuncture reasoning. Project documentation and samples are public; full weights and training data require an author request."
+news-202611-data-elements-tcm:
+  summary_en: A 5 November People’s Daily Online interview discusses the separate TCM track in the Data Elements competition,
+    expert agents and high-quality dataset construction; it supplies leads rather than downloadable data.
+news-202611-ai-tcm-data-meeting:
+  summary_en: Beijing’s health authority reports on 4 November about the 30 October meeting on structured TCM knowledge, trusted
+    AI datasets and Xiyuan Hospital’s oncology data system. No public data package accompanies the report.
+news-202611-traditional-medicine-ai-report:
+  summary_en: A 3 November Economic Daily report describes the 2026 global traditional-medicine AI report and Hangzhou’s Zhongyi
+    Xiao’an robot. Its scope is AI in traditional medicine broadly, not a count of TCM LLMs.
+news-202610-hanpai-data-trade:
+  summary_en: China News of TCM reports on 16 October that Wuhan Hospital of TCM traded a Hanpai orthopaedics data product
+    involving 168,000 structured records, 3,600 empirical formulas and diagnostic reasoning; this is licensed circulation.
+news-202609-gam-data-registration:
+  summary_en: China News of TCM reports on 24 September on registration of Guang’anmen’s chronic-gastritis dataset and a trusted
+    data space for disease-specific TCM research; the report provides no public download.
+tcm-qwen35-9b-sft-r2:
+  summary_en: A Qwen3.5-9B-Base TCM CPT/SFT checkpoint reporting 616M training tokens and 21,586 SFT samples. Four BF16 shards
+    are present. Training is text-only despite retained vision components; no tongue-diagnosis validation or added license
+    is stated.
+mimo-tcm-andrology-lora:
+  summary_en: A downloadable LoRA adapter on MiMo-V2.6-Distill-Qwen-9B for TCM andrology diagnosis and herb-name generation,
+    without doses. Restricted to non-commercial research; the author reports weaker follow-up matching than copying the previous
+    prescription, and the source-data card states no IRB review or patient consent.
+fu-tcm-9b:
+  summary_en: The fudanxai account hosts 9.41B BF16 parameters in eight safetensors shards under an Apache-2.0 tag. The card
+    contains only the license, with no training, evaluation or institutional documentation; the account name is not treated
+    as verified affiliation.
+ds-tcm-ancient-modern-metadata:
+  summary_en: 'Public metadata for a controlled classical-to-modern TCM corpus: 9,610 indexed records, frozen splits, edition
+    provenance and hashes, plus ten independent demonstration pairs. Experimental passages, reference translations and teacher
+    traces are withheld; this is not 9,610 downloadable training pairs.'
+ds-fu-tcm:
+  summary_en: The repository contains Fu_bianzheng.json, Fu_text.json, Fu_vision.json and image files (505 files total). It
+    tags Apache-2.0 but lacks provenance, sample counts and annotation documentation; modern atlas names occur in image filenames,
+    so underlying image permissions remain unverified.
+ds-tcm-andrology-emr:
+  summary_en: The card reports 67,073 visits, 25,103 patients and 26,923 complete examples in patient-grouped JSONL splits.
+    Doses are absent and tongue/pulse fields are sparse. The author states no IRB review or patient consent; this is a resource
+    index entry with unresolved provenance and reuse grounds.
+ds-hanpai-orthopaedics:
+  summary_en: Wuhan Hospital of TCM’s licensed Hanpai orthopaedics data product reportedly covers 168,000 structured records,
+    3,600 formulas and reasoning chains. A marketplace transaction is reported; an anonymous bulk download was not found.
+ds-gam-chronic-gastritis:
+  summary_en: A disease-specific TCM dataset registered in 2026 for research and model adaptation. Access is described through
+    internal use, collaborative research and licensed products. No dataset-specific sample count or public download is provided;
+    hospital-wide totals are not its size.
+ds-cmeta:
+  summary_en: Previously existing resource; original launch year unconfirmed. A collaborative TCM textual-editing archive
+    with multiple Shanghan Lun versions, Jingui and case records, image comparison and Markdown/TXT export controls. Google
+    login is required; export was not tested behind login. Original editorial work is CC BY 4.0; external images have separate
+    terms.
+ds-jicheng:
+  summary_en: A TCM classics project begun in 2009 with searchable canonical, diagnostic, materia-medica, formula and case
+    texts, a public GitLab collection and source downloads. Editorial work on public-domain texts is declared CC0; original
+    explanatory pages are CC BY 4.0, with image/page exceptions.
+ds-aeam-classics:
+  summary_en: Previously existing resource; original launch year unconfirmed. The association’s official index links seven
+    medical classics. A checked Shanghan Lun PDF has 79 extractable-text pages and identifies its Zhao Kaimei edition basis.
+    Edition and reuse terms must be checked per text.
+ds-aeam-meridian-images:
+  summary_en: Previously existing resource; original launch year unconfirmed. Historical meridian illustrations from five
+    works are arranged side by side by meridian. Useful for edition comparison and image/text source discovery; this is not
+    an annotated VQA dataset, and bulk-download/training rights are unverified.
+ds-cintcm-smart-library:
+  summary_en: Previously existing resource; original launch year unconfirmed. CACMS’s library portal indexes Republican-era
+    books and journals, reprinted classics, rare-book facsimiles and ethnic-medicine books. The homepage and category links
+    are accessible with registration/login available; full-text entitlements and bulk downloads are unverified.
+ds-nlc-smart-classics:
+  summary_en: Previously existing resource; original launch year unconfirmed. The National Library of China’s general classics
+    portal offers full-text, edition and knowledge search plus OCR, punctuation and comparison tools. Medical works are a
+    subset; whole-platform totals are not TCM corpus counts. Bulk text export is unverified.
+ds-ctext-neijing:
+  summary_en: Previously existing resource; original launch year unconfirmed. Chapter-organized Huangdi Neijing text with
+    related edition facsimiles. English translations are labeled AI/user-produced and should not be treated as expert-validated
+    translation gold data. Bulk export licensing was not verified.
+ds-fujikawa-digital:
+  summary_en: Kyoto University’s digitized historical medical collection includes Chinese/Japanese medical books and medical-history
+    materials. Its digitization was completed in April 2018, with an IIIF collaboration with Keio. Useful for edition/image/OCR
+    research; holdings totals are not cleaned TCM text counts.
+ds-shutcm-rare-classics:
+  summary_en: Previously existing resource; original launch year unconfirmed. SHUTCM’s library describes high-resolution scans
+    of rare medical classics, above 600 DPI. Access explicitly requires the campus network or institutional VPN; this is an
+    institutional edition-image resource rather than a public corpus download.
+patent-cn121281871a:
+  summary_en: Coordinates task-understanding and data-governance agents with a clinical processing toolkit for TCM outcome
+    research. Published 6 January 2026; Google Patents lists Pending.
+patent-cn121436110b:
+  summary_en: Uses syndrome/symptom keyword sets, confusable tuples and contextual disambiguation to prepare pretraining text.
+    The A publication’s timeline records the B grant on 31 July 2026; technical description here is based on A because B text
+    was not retrieved.
+patent-cn121436111b:
+  summary_en: Organizes diagnosis through symptom chains, pattern-factor scores, logical combinations and contradiction checks.
+    Granted 15 May 2026 and listed Active. The claims concern structured reasoning, not a released LLM checkpoint.
+patent-cn122599028a:
+  summary_en: Combines multi-site pressure-level pulse signals, temporal rhythm encoding and constitution classification for
+    herb/acupoint recommendations. Published 18 August 2026 and listed Pending; this is a disclosed technical proposal.

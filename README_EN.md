@@ -4,13 +4,13 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 55 news items, 113 models, 71 surveys, 69 patents, 187 datasets, 387 method papers. [PRs welcome](CONTRIBUTING.md).
+Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 60 news items, 116 models, 71 surveys, 73 patents, 201 datasets, 387 method papers. [PRs welcome](CONTRIBUTING.md).
 
 [Project page](https://tyang816.github.io/projects/tcm/) · [Chinese catalog](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
 ## Start here
 
-Only about 16 TCM checkpoints are actually public; they are under [Open models](#open-models). Hospital and company releases in the news usually ship no weights, so they make poor experimental baselines.
+Only about 20 TCM checkpoints are actually public; they are under [Open models](#open-models). Hospital and company releases in the news usually ship no weights, so they make poor experimental baselines.
 
 Recent work has expanded into multimodal models, agents, and clinical reasoning evaluation. Compare examination knowledge, syndrome classification, and prescription tasks separately; TCM-Ladder, LingLanMedBench, and MTCMB offer complementary evaluation resources.
 
@@ -31,16 +31,20 @@ Same name does not mean the same project. ZhongJingGPT is not the AAAI CMtMedQA 
 The table above is a shortlist. Expand the folds for public checkpoints, paper-only models, general Chinese medical bases, closed products, and Kampo/Korean-medicine work.
 
 <details>
-<summary>Public weights (16)</summary>
+<summary>Public weights (20)</summary>
 
 | Model | Year | Org | Focus | Links |
 | --- | :---: | --- | --- | --- |
 | **ZhiFangDanTai** | 2026 | Capital Normal University | RAG · KG | [Paper](https://arxiv.org/abs/2509.05867) · [Weights](https://huggingface.co/tczzx6/ZhiFangDanTai1.0) · [Data](https://huggingface.co/datasets/tczzx6/ZhiFangDanTai1.0) |
+| **Lingdan-V2** | 2026 | Beijing Jiaotong University | Rx · Reason | [Paper](https://arxiv.org/abs/2610.14705) · [Weights](https://huggingface.co/TCMLLM/Lingdan-8B-R1) · [Code](https://github.com/TCMAI-BJTU/Lingdan-V2) |
 | **Xinghe** | 2026 | Xinghe-TCM | Reason · Classics | [Weights](https://huggingface.co/zsyjsld/Xinghe1.2-9B) · [Data](https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2) |
 | **仲景 (ZhongJing)** | 2026 | — | ZhongJingGPT is an expert-knowledge-… | [Paper](https://doi.org/10.26599/TST.2025.9010046) · [Weights](https://huggingface.co/CMLM/ZhongjingGPT1_13B) · [Code](https://github.com/pariskang/CMLM-ZhongJing) |
 | **中医体质 Qwen3-8B 量化权重** | 2026 | — | Quantized Qwen3-8B weights for tradi… | [Weights](https://huggingface.co/chenhaodev/tcm-constitution-qwen3-8b-gguf) |
+| **TCM-Qwen3.5-9B-SFT-R2** | 2026 | Xxiao2023 (Hugging Face) | Reason | [Weights](https://huggingface.co/Xxiao2023/TCM-Qwen3.5-9B-SFT-R2) |
 | **TCM-Qwen2.5-7B-SFT** | 2026 | — | A traditional Chinese medicine super… | [Weights](https://huggingface.co/Xxiao2023/TCM-Qwen2.5-7B-SFT-V1) |
 | **Qwen3.5-9B 中医继续预训练** | 2026 | — | Full weights after continued pretrai… | [Weights](https://huggingface.co/arthur789/qwen3.5-9b-tcm-cpt) |
+| **MiMo-9B-TCM-Andrology-LoRA** | 2026 | johnson (Hugging Face) | Rx | [Weights](https://huggingface.co/johnson/MiMo-9B-TCM-Andrology-LoRA) · [Data](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR) |
+| **Fu-TCM-9B** | 2026 | fudanxai (Hugging Face account) | The fudanxai account hosts 9.41B BF1… | [Weights](https://huggingface.co/fudanxai/Fu-TCM-9B) · [Data](https://huggingface.co/datasets/fudanxai/Fu_TCM) |
 | **Baize-TCM-LLM** | 2025 | Institute of Chinese Materia Medica | ICMM Baize TCM QA models on Qwen3 (0… | [Weights](https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model) · [Data](https://huggingface.co/datasets/DigitalIntelligenceCenter-of-ICMM/Baize-TCM-Corpus-for-Large-Language-Models-V3) |
 | **BianCang** | 2025 | Qilu University of Technology | BianCang TCM LLM series (IEEE JBHI)… | [Paper](https://arxiv.org/abs/2411.11027) · [Weights](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) · [Code](https://github.com/QLU-NLP/BianCang) |
 | **ViTCM-LLM** | 2025 | Tsinghua Shenzhen International Graduate School | MM · RAG | [Paper](https://doi.org/10.1109/bibm66473.2025.11357113) · [Weights](https://huggingface.co/Mark-CHAE/ViTCM-LLM) · [Code](https://github.com/jw-chae/ViTCM_LLM) |
@@ -55,15 +59,14 @@ The table above is a shortlist. Expand the folds for public checkpoints, paper-o
 </details>
 
 <details>
-<summary>Paper or product only, no verified weights (51)</summary>
+<summary>Paper or product only, no verified weights (50)</summary>
 
 <details>
-<summary>2026 · 16</summary>
+<summary>2026 · 15</summary>
 
 - [*Digital Chinese Medicine*] **QingNangTCM** GLM-4-9B-Chat adapted with P-Tuning v2 for TCM question answering and clinical reasoning; trained with the 100,000-entry QnTCM_Dataset. [Hebei North University] [[DOI](https://doi.org/10.1016/j.dcmed.2026.02.002)]
 - [*ISCTIS 2026*] **Tongue–face multimodal fusion diagnosis** Tongue–face multimodal feature fusion with LLM-driven intelligent TCM diagnosis. [Xiamen University of Technology] [[DOI](https://doi.org/10.1109/ISCTIS70043.2026.11572361)]
 - **砭石云中医** Bianshi Yun Zhongyi is Wisdom Eye's TCM application on its filed multimodal Bianshi model, using a symptom-to-formula knowledge graph for four-diagnostic capture and decision support. [[Website](https://www.a-eye.cn/news_list/420.html)] [[Website](https://www.a-eye.cn/news_list/356.html)]
-- **Lingdan-V2** Qwen3-based 4B/8B/14B TCM reasoning models with continued pretraining, supervised fine-tuning, and prescription GRPO. The authors explicitly license the model weights under Apache-2.0; third-party data retain their original terms. [Beijing Jiaotong University] [[Code](https://github.com/TCMAI-BJTU/Lingdan-V2)] [[ModelScope](https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1)] [[Paper](https://arxiv.org/abs/2610.14705)]
 - **岐元** Qiyuan is the Seventh People's Hospital of Shanghai's TCM model, trained with pretraining, domain fine-tuning, and expert reinforcement learning, for generative records and famous-doctor agent twins. [[News](https://finance.sina.com.cn/jjxw/2026-07-26/doc-inikassr0678770.shtml)]
 - [*Information Fusion*] **Tianyi** 7.6-billion-parameter TCM LLM from NJUCM et al. with reading–clinic–apprenticeship training stages, TCMEval, and real-world validation (Information Fusion, February 2026). [Nanjing University of Chinese Medicine] [[Published](https://doi.org/10.1016/j.inffus.2025.103663)] [[Paper](https://arxiv.org/abs/2505.13156)] [[News](https://blog.sciencenet.cn/blog-279293-1501581.html)]
 - **华族本草** Huazu Bencao is an ethnic-medicine model led by Guizhou Medical University, using Shuzhi Qihuang and Qwen to connect multi-ethnic classics and a knowledge graph across ingredient screening, formulation, quality control, and teaching. [[Website](https://www.gmc.edu.cn/info/1059/30300.htm)] [[News](https://www.news.cn/tech/20260804/f973d6fa9de640328fec0194c63335a3/c.html)]
@@ -232,12 +235,17 @@ The table above is a shortlist. Expand the folds for public checkpoints, paper-o
 ## News
 
 <details>
-<summary>55 items; recent: 南京中医药大学发布灵素·艾护中医护理大模 · 广医·岐智2.0 · 首发首展</summary>
+<summary>60 items; recent: 数据要素大赛新增中医药独立赛道与高质量数 · 广安门医院AI+中医药会议：可信数据集与 · 2026世界传统医药大会AI发展报告与中</summary>
 
 <details>
-<summary>2026 · 22</summary>
+<summary>2026 · 27</summary>
 
+- [2026.11] A 5 November People’s Daily Online interview discusses the separate TCM track in the Data Elements competition, expert agents and high-quality dataset construction; it supplies leads rather than downloadable data. [[Link](https://finance.people.com.cn/n1/2026/1105/c1004-40828489.html)]
+- [2026.11] Beijing’s health authority reports on 4 November about the 30 October meeting on structured TCM knowledge, trusted AI datasets and Xiyuan Hospital’s oncology data system. No public data package accompanies the report. [[Link](https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202611/t20261104_4931739.html)]
+- [2026.11] A 3 November Economic Daily report describes the 2026 global traditional-medicine AI report and Hangzhou’s Zhongyi Xiao’an robot. Its scope is AI in traditional medicine broadly, not a count of TCM LLMs. [[Link](https://www.digitalchina.gov.cn/2026/szzg/xyzx/202611/t20261103_5389002.htm)]
+- [2026.10] China News of TCM reports on 16 October that Wuhan Hospital of TCM traded a Hanpai orthopaedics data product involving 168,000 structured records, 3,600 empirical formulas and diagnostic reasoning; this is licensed circulation. [[Link](https://www.cntcm.com.cn/content/202610/16/c505880.html)]
 - [2026.10] Reports say Nanjing University of Chinese Medicine released the LingSu Aihu TCM nursing model on 9 October; 27 member hospitals are the first sites. [[Link](https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutqmk0582279.shtml)]
+- [2026.09] China News of TCM reports on 24 September on registration of Guang’anmen’s chronic-gastritis dataset and a trusted data space for disease-specific TCM research; the report provides no public download. [[Link](https://www.cntcm.com.cn/content/202609/24/c505607.html)]
 - [2026.09] Guang'anmen Hospital shows **Guangyi Qizhi 2.0** at CIFTIS 2026, with AI doctor An'an covering six hospital scenes from patient service to ward management. [[Link](https://app.xinhuanet.com/news/article.html?articleId=202609101de3e66a53f7474ba7d373deaaa7e122)]
 - [2026.09] Beijing University of Chinese Medicine debuts a TCM constitution-identification system and an embodied tuina robot at the CIFTIS 2026 TCM pavilion. [[Link](https://wjw.beijing.gov.cn/xwzx_20031/mtjj/202608/t20260807_4812596.html)]
 - [2026.09] China News Service reports that the formula-syndrome model opened for access on 19 September, covering assisted care, research mining, and training, with planned deployment at Longhua Hospital. [[Link](https://www.chinanews.com.cn/jk/2026/09-19/10699553.shtml)]
@@ -460,17 +468,19 @@ The table above is a shortlist. Expand the folds for public checkpoints, paper-o
 TCM LLM, knowledge-graph, RAG, inquiry, and prescription-recommendation system patents worldwide—not a dump of herbal-formula patents.
 
 <details>
-<summary>69 patents, grouped by publication year</summary>
+<summary>73 patents, grouped by publication year</summary>
 
 <details>
-<summary>2026 · 29</summary>
+<summary>2026 · 33</summary>
 
 - [*CN122531762A*] **基于生成式模拟医案构建的定制化中医处方推荐大模型** A rule engine enumerates structured TCM features, an LLM turns them into simulated cases, and those cases fine-tune a customized prescription model (published, not granted). [[Patent](https://patents.google.com/patent/CN122531762A/zh)]
 - [*CN122529089A*] **TCM dialogue generation with a large language model and long-term memory** Generates personalized TCM dialogue from a long-term memory bank and user portrait (published, not granted). [Hangzhou Wangchai Technology] [[Patent](https://patents.google.com/patent/CN122529089A/zh)]
 - [*CN122508432A*] **一种面向中医药知识图谱的综合质量评估方法** Sends a small sample to a TCM-tuned large model for a preliminary quality check of a TCM knowledge graph (published, not granted). [[Patent](https://patents.google.com/patent/CN122508432A/zh)]
+- [*CN122599028A*] **一种基于AI大模型的中医天地岁人四维辨证辅助诊疗系统** Combines multi-site pressure-level pulse signals, temporal rhythm encoding and constitution classification for herb/acupoint recommendations. Published 18 August 2026 and listed Pending; this is a disclosed technical proposal. [Gaobele Biotech Guangzhou Co ltd] [[Patent](https://patents.google.com/patent/CN122599028A/zh)]
 - [*CN122436154A*] **Digital inheritance and analysis of Zhang Xichun's theory, method, formula, and herbs** Rule engine plus three-way retrieval and an LLM for Zhang Xichun school analysis (published, not granted). [Guangzhou Zhiyun Caotang Medical Technology] [[Patent](https://eureka.patsnap.com/patent/CN122436154A)]
 - [*CN122436116A*] **基于知识图谱与大语言模型的脾胃学派理法方药分析系统** Combines a spleen-stomach school knowledge graph, vector retrieval, and an LLM for formula selection, safety checks, and prescription writing (published, not granted). [[Patent](https://patents.google.com/patent/CN122436116A/zh)]
 - [*CN122436251A*] **一种融合时空特征的针灸推理模型构建方法、系统及设备** Aligns four-examination and course features, retrieves past acupuncture plans, and uses a fine-tuned LLM with chain-of-thought for an explainable plan (published, not granted). [[Patent](https://patents.google.com/patent/CN122436251A/zh)]
+- [*CN121436110B*] **一种基于知识图谱的中医垂域大模型的训练方法** Uses syndrome/symptom keyword sets, confusable tuples and contextual disambiguation to prepare pretraining text. The A publication’s timeline records the B grant on 31 July 2026; technical description here is based on A because B text was not retrieved. [Daan Health Technology Beijing Co ltd] [[Grant](https://patents.google.com/patent/CN121436110B/zh)] [[Publication](https://patents.google.com/patent/CN121436110A/zh)]
 - [*CN122364665A*] **一种基于大语言模型的中医古籍症状标准化处理方法** An LLM finds candidate symptom spans in sliced classical TCM texts and maps them into a standard symptom semantic field (published, not granted). [[Patent](https://patents.google.com/patent/CN122364665A/zh)]
 - [*CN122135923A*] **辅助诊断结果和参考处方生成方法、装置、介质及计算机设备** Recalls case records and treatment rationales through vector and text paths, four routes in all, then a large model drafts TCM diagnosis, syndrome pattern, a Western diagnosis, and a herbal prescription. Published on 2 June 2026 and not yet granted. [[Patent](https://eureka.patsnap.com/patent/CN122135923A)]
 - [*CN122245713A*] **基于大语言模型的中医智能问诊方法及系统** Intent is parsed from multimodal inquiry data, then dual-path retrieval over TCM knowledge produces the consultation result (published, not granted). [[Patent](https://patents.google.com/patent/CN122245713A/zh)]
@@ -480,6 +490,7 @@ TCM LLM, knowledge-graph, RAG, inquiry, and prescription-recommendation system p
 - [*CN122050861A*] **TCM diagnosis-and-treatment platform combining an LLM with dual-channel retrieval** LLM plus TCM knowledge-graph dual-channel retrieval for inheriting master-physician experience and generating formulas (published, not granted). [Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, SHUTCM, Shanghai Skin Disease Hospital] [[Patent](https://patents.google.com/patent/CN122050861A/zh)]
 - [*CN120913769B*] **基于多模态大模型的中医舌诊药饮推荐方法** A multimodal model turns a tongue image into a condition description and a medicinal-drink recommendation. Published on 7 November 2025 and granted on 29 May 2026. [[Patent](https://patents.google.com/patent/CN120913769B/zh)]
 - [*CN122117314A*] **LLM-based intelligent acupuncture diagnosis agent** Acupuncture knowledge bases, graph, vector search and reranking, with an LLM agent that classifies questions and asks follow-ups (published, not granted). [Henan University of Technology] [[Patent](https://eureka.patsnap.com/patent/CN122117314A)]
+- [*CN121436111B*] **一种基于多模态数据融合的中医智能辨证模型训练系统及方法** Organizes diagnosis through symptom chains, pattern-factor scores, logical combinations and contradiction checks. Granted 15 May 2026 and listed Active. The claims concern structured reasoning, not a released LLM checkpoint. [Daan Health Technology Beijing Co ltd] [[Patent](https://patents.google.com/patent/CN121436111B/zh)]
 - [*CN122091073A*] **Multi-task joint optimization for TCM prescription generation** A pretrained LLM predicts herb sequences and herb sets jointly, with extra weight on rare herbs (published, not granted). [Hangzhou Dianzi University] [[Patent](https://eureka.patsnap.com/patent/CN122091073A)]
 - [*CN122050683A*] **一种基于图注意力网络与大语言模型的中药处方生成方法** Herbal prescription generation is cast as multi-label classification, with graph attention and an LLM modeling drug synergy and contraindications. Published on 15 May 2026. [[Patent](https://patents.google.com/patent/CN122050683A/zh)]
 - [*CN121862376A*] **Knowledge-graph and LLM system for TCM syndrome-differentiation QA** Chunks classics and cases, extracts a graph, then retrieves local and global keywords for syndrome-differentiation answers (published, not granted). [Nanjing University of Posts and Telecommunications] [[Patent](https://patents.google.com/patent/CN121862376A/zh)]
@@ -492,6 +503,7 @@ TCM LLM, knowledge-graph, RAG, inquiry, and prescription-recommendation system p
 - [*CN121460056A*] **一种基于人工智能的方剂配制方法、系统、介质和设备** An LLM maps case entities to disease and syndrome, drafts a formula, scores it, and regenerates from structured advice until the score passes (published, not granted). [[Patent](https://patents.google.com/patent/CN121460056A/zh)]
 - [*CN121460113A*] **一种基于中医语言大模型的中医智能分析方法及系统** LoRA-tunes a TCM language model that maps syndrome and chief complaint to a formula (published, not granted). [[Patent](https://patents.google.com/patent/CN121460113A/zh)]
 - [*CN121393746A*] **基于大语言模型的经络辨证与针灸方案生成方法及系统** Multi-source clinical data are quantified and cleaned, then a meridian-syndrome knowledge base and an LLM generate acupuncture plans. Published on 23 January 2026. [[Patent](https://patents.google.com/patent/CN121393746A/zh)]
+- [*CN121281871A*] **基于医学大语言模型多智能体的中医药临床数据自动化处理系统** Coordinates task-understanding and data-governance agents with a clinical processing toolkit for TCM outcome research. Published 6 January 2026; Google Patents lists Pending. [[Patent](https://patents.google.com/patent/CN121281871A/zh)]
 - [*CN121331451A*] **一种融合舌象、心率及文本的多模态健康状态评估方法** Takes tongue image as the main signal, adds heart rate and self-reported text, and prompts DeepSeek to write a health-status assessment (published, not granted). [[Patent](https://patents.google.com/patent/CN121331451A/zh)]
 - [*CN121436134A*] **Multimodal knowledge-graph construction from TCM texts and records** An LLM extracts triples from TCM texts, then fuses a real-world case layer into a multimodal graph (published, not granted). [Hangzhou Ganzhicao Technology] [[Patent](https://patents.google.com/patent/CN121436134A/zh)]
 
@@ -850,7 +862,7 @@ Methods, evaluations, and systems only. Named domain LLMs live under Open models
 - [*npj Digital Medicine*] **中医场景中医疗大模型的提示词效应** Evaluates 16 models on TCM and shows that prompt effects depend on the model, which complicates reliable deployment. [[DOI](https://doi.org/10.1038/s41746-026-03397-5)]
 - [*JMIR Formative Research*] **5-LLM TCM clinical decision comparison** Comparative study of 5 LLMs for TCM clinical decision-making. [Nanjing University of Chinese Medicine] [[DOI](https://doi.org/10.2196/80167)]
 - [*arXiv*] **TongueDx2** Systematic ablation of the tongue-diagnosis DL design space (20+ model variants); TongueDx2 includes 5,109 images / 976 expert annotations. [[Paper](https://arxiv.org/abs/2607.28148)]
-- [*arXiv*] **TCMQA** Open benchmark of 38,279 TCM licensing questions paired with 15,151 answers from 101 licensed practitioners. [[Paper](https://arxiv.org/abs/2609.33014)]
+- [*arXiv*] **TCMQA** The paper reports 38,279 questions and 101 practitioners. The current HF release documents 33,872 qa rows and 5,250 doctor-annotated rows with 102 practitioners and 15,151 responses. Configurations overlap, so their counts must not be summed as unique questions. Pin the release; CC BY-NC-SA 4.0. [[Paper](https://arxiv.org/abs/2609.33014)] [[Dataset](https://huggingface.co/datasets/TechTCM/TCMQA)]
 - [*Frontiers in Artificial Intelligence*] **TCMI-F-6D** Six-dimensional benchmark of interdisciplinary foundational competence in TCM informatics. [Anhui University of Chinese Medicine] [[DOI](https://doi.org/10.3389/frai.2026.1780967)] [[Code](https://github.com/123adf-dev/TCMI-F-6D-Benchmark)]
 - [*arXiv*] **TCMClinicalReason-Bench** 2,000 multicenter EHR cases testing whether a model can reason from pathogenesis and syndrome to treatment principle and prescription. [[Paper](https://arxiv.org/abs/2610.04215)]
 - [*ICIC 2026*] **TCMBenchEval** Benchmark evaluating LLMs on real clinical TCM case records (ICIC 2026). [Shantou University] [[DOI](https://doi.org/10.1007/978-981-92-3498-1_1)]
@@ -1228,13 +1240,16 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 </details>
 
 <details>
-<summary>Clinical structured / prescription sets (9)</summary>
+<summary>Clinical structured / prescription sets (12)</summary>
 
 - **赵汉青门诊处方（2025）** — De-identified 2025 internal-medicine outpatient prescriptions from Zhao Hanqing: 122 patients, 335 prescriptions, and 5,951 herb rows with gram doses. 75 are initial visits and 260 are follow-ups. Routes: 315 oral decoctions, 8 oral dissolved, 8 external washes, and 4 external uses. Dosing is twice daily in 333 prescriptions and three times daily in 2. Herb-name rows containing processing marks, which can overlap: stir-fried 412, honey-fried 341, bran 289, vinegar 164, ginger 154, wine 89, calcined 67, prepared 63, and processed Pinellia (Fa Ban Xia) 99. CC BY 4.0. The repository describes the clinic as Beijing Heniantang Hospital. [[Dataset](https://doi.org/10.5281/zenodo.21947836)] [[Code](https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025)]
 - **胆石症中医证候代谢组** — Serum and urine metabolomics for two TCM syndromes in cholelithiasis: liver qi stagnation and liver-gallbladder damp-heat. [[Paper](https://doi.org/10.1038/s41597-025-06537-w)]
+- **汉派中医骨伤诊疗数据集** — Wuhan Hospital of TCM’s licensed Hanpai orthopaedics data product reportedly covers 168,000 structured records, 3,600 formulas and reasoning chains. A marketplace transaction is reported; an anonymous bulk download was not found. [[News](https://www.cntcm.com.cn/content/202610/16/c505880.html)]
+- **广安门医院慢性胃炎数据集** — A disease-specific TCM dataset registered in 2026 for research and model adaptation. Access is described through internal use, collaborative research and licensed products. No dataset-specific sample count or public download is provided; hospital-wide totals are not its size. [[News](https://www.cntcm.com.cn/content/202609/24/c505607.html)]
 - **古今医案云平台** — Case search, structuring, and mining platform of the Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences. An institute news item on 2026-09-20 states that the current resource holds more than 1.1 million structured historical and modern cases, plus 19.63 million analysis records, with about 53,000 registered users. Registration or institutional login is required, and no public bulk download was found. Some campus trial notes still say about 500,000 cases. [[Website](https://www.yiankb.com/)]
 - **TCMCPD** — Structured case-derived tables: 4,895 patients, 12,900 visits, 703 herbs, 11,879 visit–syndrome links, and 63,192 visit–herb rows. Dose units are mostly grams (61,386), plus 1,067 qian, 364 pieces, 240 tablets, 69 liang, 64 fen, and 2 millilitres. Rows also link symptoms, ingredients, and targets, with Neo4j files. Full copyrighted case texts are not redistributed. The describing manuscript is a Research Square preprint. [[Dataset](https://doi.org/10.5281/zenodo.20929034)]
 - **TCM4NSCLC** — 3,790 non-small-cell lung cancer case records from one senior TCM physician, including repeat visits, for syndrome differentiation, prescription, and real-world research. [[Paper](https://doi.org/10.1038/s41597-026-07912-x)]
+- **TCM-Andrology-EMR** — The card reports 67,073 visits, 25,103 patients and 26,923 complete examples in patient-grouped JSONL splits. Doses are absent and tongue/pulse fields are sparse. The author states no IRB review or patient consent; this is a resource index entry with unresolved provenance and reuse grounds. [[Dataset](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR)]
 - **六经辨证数据集** — Traditional Chinese medicine dataset for six-meridian syndrome differentiation. [[Dataset](https://github.com/JustinWYJ/TCMdataset)]
 - **TCM-Lung** — Pulmonary-disease cases from FAH-HUCM (14,948 processed; 4,484 encoded public rows of symptom/syndrome/method/prescription IDs). Full names on request. Not the same resource as TCMNSCLC. [[Code](https://github.com/2020MEAI/PresRecST)] [[Paper](https://doi.org/10.1093/jamia/ocae066)]
 - **Famous Old TCM Doctors Cases** — Outpatient cases from Contemporary Famous Old Chinese Medicine Doctors' Typical Cases Collection; the card says each case includes the illness description, syndrome differentiation, and prescriptions. [[Dataset](https://huggingface.co/datasets/TCMLM/real_clinical_cases_of_Famous_Old_TCM_Doctors)]
@@ -1263,8 +1278,10 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 </details>
 
 <details>
-<summary>East Asian traditional medicine (17)</summary>
+<summary>East Asian traditional medicine (20)</summary>
 
+- **东亚医学协会针灸经络图版库** — Previously existing resource; original launch year unconfirmed. Historical meridian illustrations from five works are arranged side by side by meridian. Useful for edition comparison and image/text source discovery; this is not an annotated VQA dataset, and bulk-download/training rights are unverified. [[Website](https://aeam.jp/keiraku/)]
+- **东亚医学协会医学古典文本** — Previously existing resource; original launch year unconfirmed. The association’s official index links seven medical classics. A checked Shanghan Lun PDF has 79 extractable-text pages and identifies its Zhao Kaimei edition basis. Edition and reuse terms must be checked per text. [[Website](https://aeam.jp/koten/)] [[Link](https://aeam.jp/wp/wp-content/uploads/2024/03/shanghanlun.pdf)]
 - **VTM-TDA Benchmark** — A FAIR computational benchmark of Vietnamese traditional medicine digitized from Do Tat Loi's pharmacopoeia, with 724 harmonized botanical entities and 1,635 historical prescriptions. [[Dataset](https://zenodo.org/records/23075405)]
 - **TreeProbe** — Tibetan-medicine benchmark for measuring cultural bias in large language models. [[Paper](https://arxiv.org/abs/2608.00640)]
 - **Korean Medicine Embedding Dataset** — Query–positive–negatives (~113k pairs) built from Korean-medicine terms and an ontology, for embedding fine-tunes such as BGE-M3. [[Dataset](https://huggingface.co/datasets/cnupo23/korean-medicine-embedding-dataset)]
@@ -1272,6 +1289,7 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 - **HerbPairIAM** — Data and model artifacts for attributing adverse-reaction signals to components of multi-component Kampo medicines, with a zip archive and README on Zenodo. [[Dataset](https://zenodo.org/records/19326537)]
 - **健康成人韩医诊察数据集** — A traditional Korean medicine examination protocol, built from the literature and three rounds of expert review, with healthy-adult examination data collected over four years. [[Paper](https://doi.org/10.3390/healthcare12090918)]
 - **VietMedKG** — Knowledge graph and benchmark for traditional Vietnamese medicine. [[Dataset](https://github.com/HySonLab/VietMedKG)]
+- **京都大学富士川文库数字古医书** — Kyoto University’s digitized historical medical collection includes Chinese/Japanese medical books and medical-history materials. Its digitization was completed in April 2018, with an IIIF collaboration with Keio. Useful for edition/image/OCR research; holdings totals are not cleaned TCM text counts. [[Website](https://rmda.kulib.kyoto-u.ac.jp/collection/fujikawa)]
 - **KampoDB** — Kampo mechanism database maintained by the Institute of Natural Medicine, University of Toyama. It links formulas, crude drugs, natural compounds, and target proteins, including known interactions and docking predictions. The about page currently lists 298 Kampo formulas, 180 crude drugs, 3,002 natural compounds, 62,906 proteins or genes, and 3,063,505 docking results. The 2018 Scientific Reports paper is the citation; the site news records a renewal on 15 July 2021. [[Website](https://wakanmoview.inm.u-toyama.ac.jp/kampo/)] [[About](https://wakanmoview.inm.u-toyama.ac.jp/kampo/about/)] [[DOI](https://doi.org/10.1038/s41598-018-29516-1)]
 - **韩医药素材银行药材目录 (KMMB)** — Korean Medicine Material Bank at the National Institute for Korean Medicine Development. On 1 January 2016 it was formed by merging the natural-substance bank and the herbal biomaterial bank. The herb page lists 691 items, with name, synonym, scientific name, botanical source, and reacting enzymes. [[Herbs](https://kminfra.nikom.or.kr/kmmb/module/herbs/index.do?menu_idx=11)]
 - **KMCRIC** — Data portal of the Korean Medicine Convergence Research Information Center at Kyung Hee University. The data-center page lists an evidence-based Korean-medicine literature set of systematic reviews, RCTs, and mechanism studies published since 2010; an herb-interaction set based on Natural Standard; acupoint videos made from the 2008 WHO Western Pacific standard locations; and a crude-drug update built with the Kyung Hee and Chungbuk pharmacy faculties. The director’s biography says the directorship began in 2013. [[Data](https://www.kmcric.com/database/data_main)] [[About](https://www.kmcric.com/about/head_of_centre)]
@@ -1286,17 +1304,24 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 </details>
 
 <details>
-<summary>Books / pretraining corpora (10)</summary>
+<summary>Books / pretraining corpora (17)</summary>
 
+- **数字中医校书郎（CMETA）** — Previously existing resource; original launch year unconfirmed. A collaborative TCM textual-editing archive with multiple Shanghan Lun versions, Jingui and case records, image comparison and Markdown/TXT export controls. Google login is required; export was not tested behind login. Original editorial work is CC BY 4.0; external images have separate terms. [[Website](https://cmeta.lctseng.csie.org/)]
+- **中国哲学书电子化计划·黄帝内经** — Previously existing resource; original launch year unconfirmed. Chapter-organized Huangdi Neijing text with related edition facsimiles. English translations are labeled AI/user-produced and should not be treated as expert-validated translation gold data. Bulk export licensing was not verified. [[Website](https://ctext.org/huangdi-neijing)]
+- **中华古籍智慧化服务平台** — Previously existing resource; original launch year unconfirmed. The National Library of China’s general classics portal offers full-text, edition and knowledge search plus OCR, punctuation and comparison tools. Medical works are a subset; whole-platform totals are not TCM corpus counts. Bulk text export is unverified. [[Website](https://guji.nlc.cn/)]
+- **中医药智慧数字图书馆** — Previously existing resource; original launch year unconfirmed. CACMS’s library portal indexes Republican-era books and journals, reprinted classics, rare-book facsimiles and ethnic-medicine books. The homepage and category links are accessible with registration/login available; full-text entitlements and bulk downloads are unverified. [[Website](https://tsg.cintcm.cn/)]
+- **上海中医药大学馆藏古籍库** — Previously existing resource; original launch year unconfirmed. SHUTCM’s library describes high-resolution scans of rare medical classics, above 600 DPI. Access explicitly requires the campus network or institutional VPN; this is an institutional edition-image resource rather than a public corpus download. [[About](https://lib.shutcm.edu.cn/Home/dbdetails/0eb195a0-b9ca-4248-ae41-c356a772cd96)]
 - **tc_medical_base** — Clause-level corpus of five classical TCM texts totaling 3,569 clauses with sentence-BERT embeddings: Song-edition Shanghan Lun, Guilin Shanghan Zabing Lun, Jingui Yuhan Jing, Jingui Yaolue, and Fu Qingzhu Nüke. [[Dataset](https://huggingface.co/datasets/huckiyang/tc_medical_base)]
 - **classical-tcm-canon** — Full-text digitizations of the TCM canon: Neijing, Nanjing, Shanghan Lun, Jingui Yaolue and warm-disease classics. [[Dataset](https://huggingface.co/datasets/wangekxy/classical-tcm-canon)]
 - **Tao-Shanghan-Corpus** — A downloadable Shanghan Lun corpus that keeps clauses, commentaries, and textual variants apart. Version 1.0, released 11 August 2026, has 681 clause records, including 398 canonical clauses, 2,958 aligned commentaries, and 616 variants. CC BY 4.0. [[DOI](https://doi.org/10.5281/zenodo.21889089)] [[Data](https://zenodo.org/records/21889089)]
+- **TCM Ancient-to-Modern Open Metadata** — Public metadata for a controlled classical-to-modern TCM corpus: 9,610 indexed records, frozen splits, edition provenance and hashes, plus ten independent demonstration pairs. Experimental passages, reference translations and teacher traces are withheld; this is not 9,610 downloadable training pairs. [[Dataset](https://huggingface.co/datasets/xs12345/TCM-Ancient-Modern-Open)] [[Code](https://github.com/xiesi1234/R1-TCM-Translator)]
 - **TCM-Pretrain-Data-ShizhenGPT** — ShizhenGPT pretraining corpus. The paper reports 15B+ tokens — Stage 1 text 11.92B including 6.3B TCM, and Stage 2 multimodal data of 3.8B tokens in the main text and 3.84B in the appendix. [[Dataset](https://huggingface.co/datasets/FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT)]
 - **ChiMed 2.0** — Upgraded Chinese medical pretraining dataset covering TCM corpora for LLM pretraining. [[Paper](https://arxiv.org/abs/2507.15275)]
 - **国医典藏** — Image-and-text library of historical Chinese medical books from the Institute of Information on Traditional Chinese Medicine and its library, CACMS. The current entry is the version-4 site. Public descriptions put the holdings at roughly 2,500 to 3,000 titles from pre-Qin through the late Qing and Republican periods, with basic, advanced, and controlled-vocabulary search and image-text viewing. Access is by campus network or registration, not a public bulk download. [[Website](https://gydc-v4.cintcm.cn/)]
 - **Traditional-Chinese-Medicine-Dataset-Pretrain** — High-quality TCM pretraining dataset from non-Internet sources (~1GB; clinical cases, classics, encyclopedia), 99% simplified Chinese. [[Dataset](https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain)]
 - **国家中医药古籍数字图书馆** — Ancient-book and traditional-knowledge portal started in 2022 by the Institute of Information on Traditional Chinese Medicine, CACMS. It has halls for classical texts, Republican-era documents, and bibliographic catalogs, and links out to reading systems including Guoyi Diancang. The portal opens; full text is reached through the sub-libraries and is not a public bulk download. [[Website](http://www.cintcm.com/)]
 - **TCM-Ancient-Books** — A corpus of nearly 700 TCM ancient-book texts. [[Dataset](https://github.com/xiaopangxia/TCM-Ancient-Books)]
+- **中医笈成** — A TCM classics project begun in 2009 with searchable canonical, diagnostic, materia-medica, formula and case texts, a public GitLab collection and source downloads. Editorial work on public-domain texts is declared CC0; original explanatory pages are CC BY 4.0, with image/page exceptions. [[Website](https://jicheng.tw/tcm/book/)] [[Link](https://jicheng.tw/tcm/download.html)] [[Link](https://jicheng.tw/tcm/copyright.html)]
 - **中华医典** — Commercial sales site (Feixiong Technology) for the Zhonghua Yidian electronic collection. The site states 1,156 classical titles and about 450 million characters, a 2000 national electronic-publication nomination, and Qiu Peiran as editorial reviewer and title writer. Edition 6 is a web version used after purchase and registration, not a public download. [[Website](https://www.zhyd1999.com/)]
 
 </details>
@@ -1343,7 +1368,7 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 <details>
 <summary>Exam datasets (8)</summary>
 
-- **TCMQA** — 38,279 TCM licensing questions with 15,151 responses from 101 licensed practitioners. [[Paper](https://arxiv.org/abs/2609.33014)]
+- **TCMQA** — The paper reports 38,279 questions and 101 practitioners. The current HF release documents 33,872 qa rows and 5,250 doctor-annotated rows with 102 practitioners and 15,151 responses. Configurations overlap, so their counts must not be summed as unique questions. Pin the release; CC BY-NC-SA 4.0. [[Paper](https://arxiv.org/abs/2609.33014)] [[Dataset](https://huggingface.co/datasets/TechTCM/TCMQA)]
 - **TCMLE** — Chinese TCM practitioner licensing question bank with 7,956 items: 2,700 assistant-practitioner and 5,256 practitioner questions, including past papers and mocks. [[Dataset](https://huggingface.co/datasets/Bolin97/TCMLE)]
 - **TCM-Text-Exams** — Recent TCM licensure / graduate-exam text benchmark. [[Dataset](https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams)]
 - **Taiwan TCM Examination MCQ** — Past national TCM exam questions from Taiwan's Ministry of Examination; the README gives ROC years 96–111 excluding 110, and the repository file is basic theory of traditional Chinese medicine.csv. [[Dataset](https://huggingface.co/datasets/Liavan/Traditional-Chinese-Medicine-Multiple_choice_question)]
@@ -1355,7 +1380,7 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 </details>
 
 <details>
-<summary>Instruction / dialogue datasets (21)</summary>
+<summary>Instruction / dialogue datasets (22)</summary>
 
 - **HSQ-TD（健身气功指令微调数据集）** — HSQ-TD: the first instruction-tuning dataset for health Qigong/wellness, with 57,843 instructions distilled from official textbooks and professional literature (ScienceDB). [[Dataset](https://doi.org/10.57760/sciencedb.35843)]
 - **neijing-sft-v1.2** — ~2,009 Neijing-related instruction samples for Xinghe, with thinking/output fields. [[Dataset](https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2)]
@@ -1363,6 +1388,7 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 - **TCMNSCLC** — Real-world NSCLC TCM reasoning dataset with fully annotated cases (pattern differentiation / treatment method / decoction / patent medicine). [[Dataset](https://huggingface.co/datasets/zhangxinxin0428/TCMNSCLC)] [[DOI](https://doi.org/10.5281/zenodo.21027568)]
 - **TCM Medical Case Commentary Generation** — Generation set for TCM medical-case commentary, with 510 standardized source cases and 2,550 training and test instances compiled from gynecological classics. [[Dataset](https://doi.org/10.57760/sciencedb.j00133.00679)]
 - **Gancao-TCM-Instruct** — Public Gancao-TCM-Instruct release with 25,000 cases and 125,000 samples covering disease diagnosis, syndrome diagnosis, treatment selection, base-formula selection, and herb selection. [[Dataset](https://huggingface.co/datasets/GancaoDoctorAI/gancao-tcm-instruct)]
+- **Fu_TCM** — The repository contains Fu_bianzheng.json, Fu_text.json, Fu_vision.json and image files (505 files total). It tags Apache-2.0 but lacks provenance, sample counts and annotation documentation; modern atlas names occur in image filenames, so underlying image permissions remain unverified. [[Dataset](https://huggingface.co/datasets/fudanxai/Fu_TCM)]
 - **tw-tcm** — minyichen/tw-tcm card lists 8,145 training examples with question, answer, source, and think fields. [[Dataset](https://huggingface.co/datasets/minyichen/tw-tcm)]
 - **hwtcm-deepseek-r1-distill-data** — Haiwei AI Team's DeepSeek-distilled TCM reasoning QA set built from web text. The authors state that it was not manually reviewed. [[Dataset](https://huggingface.co/datasets/Monor/hwtcm-deepseek-r1-distill-data)]
 - **TCM-Instruction-Tuning-ShizhenGPT** — ShizhenGPT multimodal SFT data (text/vision/speech/ECG etc.; ~311k items total per paper Table 3). [[Dataset](https://huggingface.co/datasets/FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT)]

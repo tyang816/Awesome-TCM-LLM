@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-10-30'
+  updated_at: '2026-11-05'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -1810,20 +1810,24 @@ items:
 - id: lingdan-v2
   name: 灵丹-V2 (Lingdan-V2)
   year: 2026
-  summary_zh: Qwen3 4B/8B/14B 中医推理模型家族，依次进行续训、监督微调和处方 GRPO。作者仓库明确声明模型权重采用 Apache-2.0；第三方数据沿用原许可。
+  summary_zh: Qwen3 4B/8B/14B 中医推理模型家族，采用续训、监督微调和处方 GRPO。本轮核验 Hugging Face 的 Lingdan-8B-R1 完整权重（4个分片），模型卡声明 Apache-2.0；第三方数据沿用原许可。
   orgs:
   - 北京交通大学
   tags:
   - model
   - reasoning
   - prescription
+  - open-weights
   links:
     代码: https://github.com/TCMAI-BJTU/Lingdan-V2
     ModelScope: https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1
     论文: https://arxiv.org/abs/2610.14705
+    权重: https://huggingface.co/TCMLLM/Lingdan-8B-R1
   type: resource
   status: published
-  verified_at: '2026-10-29'
+  verified_at: '2026-11-05'
+  source_revision: 6205581b9927310a07570fc22ddb43f170f42d65
+  evidence_level: repository-api-and-card
 - id: dfglm-tcm
   name: DFGLM-TCM
   year: 2026
@@ -8307,14 +8311,20 @@ items:
   type: resource
   year: 2026
   venue: arXiv
-  summary_zh: 38279道中医执照考试题，并配101名执业医师的15151条作答作为人类参照
+  summary_zh: 论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA
+    4.0。
   tags:
   - benchmark
   - evaluation
   links:
     论文: https://arxiv.org/abs/2609.33014
+    数据集: https://huggingface.co/datasets/TechTCM/TCMQA
   status: published
-  verified_at: '2026-10-21'
+  verified_at: '2026-11-05'
+  source_revision: a0f39cf06baf01065354f92a3edb5a7786bbf7ff
+  evidence_level: repository-api-and-card
+  access: public-files
+  license_note: CC BY-NC-SA 4.0；上游考试题素材另需核对
 - id: tcm-clinical-reason
   name: TCMClinicalReason-Bench
   type: resource
@@ -8410,14 +8420,20 @@ items:
   year: 2026
   venue: arXiv
   section: 考试数据集
-  title_zh: 带执业医师参照的38279题中医考试基准
-  summary_zh: 38279道中医执照考试题，并配101名执业医师的15151条作答
+  title_zh: 带执业医师参照的中医考试基准（公开版与论文口径不同）
+  summary_zh: 论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA
+    4.0。
   tags:
   - benchmark
   links:
     论文: https://arxiv.org/abs/2609.33014
+    数据集: https://huggingface.co/datasets/TechTCM/TCMQA
   status: published
-  verified_at: '2026-10-21'
+  verified_at: '2026-11-05'
+  source_revision: a0f39cf06baf01065354f92a3edb5a7786bbf7ff
+  evidence_level: repository-api-and-card
+  access: public-files
+  license_note: CC BY-NC-SA 4.0；上游考试题素材另需核对
 - id: ds-tcm-clinical-reason
   name: TCMClinicalReason-Bench
   type: dataset
@@ -12952,3 +12968,459 @@ items:
     资料: https://github.com/mosheng555/AcuModel-And-AcuAgent
   status: published
   verified_at: '2026-10-30'
+- id: news-202611-data-elements-tcm
+  name: 数据要素大赛新增中医药独立赛道与高质量数据集建设访谈
+  type: news
+  year: 2026
+  summary_zh: 人民网11月5日采访国家中医药管理局监测统计中心主任厉将斌，介绍中医药独立赛道、名医智能体及高质量数据集建设。为新闻与建设线索，未附数据下载。
+  tags:
+  - data
+  - ai
+  links:
+    链接: https://finance.people.com.cn/n1/2026/1105/c1004-40828489.html
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.11'
+  access: news-only
+  evidence_note: 核验到人民网原页的搜索索引内容；直连全文未成功。
+  evidence_level: primary-index-or-landing-page
+- id: news-202611-ai-tcm-data-meeting
+  name: 广安门医院AI+中医药会议：可信数据集与肿瘤科学数据系统
+  type: news
+  year: 2026
+  summary_zh: 北京市卫健委11月4日刊载：10月30日会议讨论中医知识结构化、可信AI数据集、西苑医院中医药肿瘤科学数据系统等；报道未发布开放数据包。
+  tags:
+  - data
+  - ai
+  links:
+    链接: https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202611/t20261104_4931739.html
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.11'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202611-traditional-medicine-ai-report
+  name: 2026世界传统医药大会AI发展报告与中医小安应用
+  type: news
+  year: 2026
+  summary_zh: 数字中国建设峰会网站11月3日转载经济日报报道，介绍《人工智能赋能全球传统医学发展报告（2026）》及杭州市中医院“中医小安”机器人。报道涵盖AI传统医学整体，不等同于TCM大语言模型统计。
+  tags:
+  - data
+  - ai
+  links:
+    链接: https://www.digitalchina.gov.cn/2026/szzg/xyzx/202611/t20261103_5389002.htm
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.11'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202610-hanpai-data-trade
+  name: 武汉市中医医院汉派骨伤数据产品完成场内交易
+  type: news
+  year: 2026
+  summary_zh: 中国中医药报10月16日报道汉派中医骨伤诊疗数据集在湖北数据流通平台交易，涉及16.8万条结构化诊疗数据、3600个经验方与辨证论治思维链；属于许可流通案例。
+  tags:
+  - data
+  - ai
+  links:
+    链接: https://www.cntcm.com.cn/content/202610/16/c505880.html
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202609-gam-data-registration
+  name: 广安门医院慢性胃炎数据集产权登记与可信数据空间
+  type: news
+  year: 2026
+  summary_zh: 中国中医药报9月24日报道广安门医院慢性胃炎数据集完成产权登记，并建设中医专病可信数据空间；数据用于广医·岐智微调、科研和名医经验教学，未见公开下载。
+  tags:
+  - data
+  - ai
+  links:
+    链接: https://www.cntcm.com.cn/content/202609/24/c505607.html
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.09'
+  access: news-only
+  evidence_level: primary-page
+- id: tcm-qwen35-9b-sft-r2
+  name: TCM-Qwen3.5-9B-SFT-R2
+  type: resource
+  year: 2026
+  summary_zh: 基于Qwen3.5-9B-Base的中医CPT+SFT模型；模型卡报告约6.16亿训练token与21,586条SFT样本。已核验4个BF16权重分片；保留视觉组件，但本次纯文本训练，未验证舌诊能力。模型卡未标明新增许可。
+  tags:
+  - model
+  - open-weights
+  - reasoning
+  links:
+    权重: https://huggingface.co/Xxiao2023/TCM-Qwen3.5-9B-SFT-R2
+  status: published
+  verified_at: '2026-11-05'
+  orgs:
+  - Xxiao2023 (Hugging Face)
+  access: public-weights
+  license_note: 模型卡未声明；不能推定无限制再利用
+  source_revision: ddbeda6283f2ca96bc43d02d687f148ea6c63a6c
+  evidence_level: repository-api-and-card
+- id: mimo-tcm-andrology-lora
+  name: MiMo-9B-TCM-Andrology-LoRA
+  type: resource
+  year: 2026
+  summary_zh: 基于MiMo-V2.6-Distill-Qwen-9B的男科中医LoRA，已核验adapter_model.safetensors；输出诊断和药味、不含剂量，限非商用研究。作者报告复诊处方匹配不及照抄前次处方；配套临床数据卡明确未做伦理审查和知情同意。
+  tags:
+  - model
+  - open-weights
+  - prescription
+  - ethics-unreviewed
+  links:
+    权重: https://huggingface.co/johnson/MiMo-9B-TCM-Andrology-LoRA
+    数据集: https://huggingface.co/datasets/johnson/TCM-Andrology-EMR
+  status: published
+  verified_at: '2026-11-05'
+  orgs:
+  - johnson (Hugging Face)
+  access: public-adapter
+  license_note: CC BY-NC 4.0；底座许可另行适用；来源数据伦理问题见数据卡
+  source_revision: 74093832101b290379a2faa53cfcdef627e6231c
+  evidence_level: repository-api-and-card
+- id: fu-tcm-9b
+  name: Fu-TCM-9B
+  type: resource
+  year: 2026
+  summary_zh: fudanxai账号发布的9.41B参数BF16权重，已核验8个safetensors分片，仓库标注Apache-2.0。模型卡只有许可证，无训练方法、评测和作者机构说明；仅确认权重存在，不据账号名认定机构。
+  tags:
+  - model
+  - open-weights
+  - limited-documentation
+  links:
+    权重: https://huggingface.co/fudanxai/Fu-TCM-9B
+    数据集: https://huggingface.co/datasets/fudanxai/Fu_TCM
+  status: published
+  verified_at: '2026-11-05'
+  orgs:
+  - fudanxai (Hugging Face account)
+  access: public-weights
+  source_revision: 13bc6545f72e49c36574e083b3313a0c84547182
+  evidence_level: repository-api-and-card
+- id: ds-tcm-ancient-modern-metadata
+  name: TCM Ancient-to-Modern Open Metadata
+  type: dataset
+  year: 2026
+  summary_zh: 古文今译受控语料的公开元数据伴随集：9,610条索引、固定切分、版本登记与哈希，以及10条独立编写的示例译文。实验古文、现代参考译文和教师推理轨迹不公开；不能将元数据当成9,610对可训练平行文本。
+  tags:
+  - corpus
+  - classics
+  - metadata-only
+  links:
+    数据集: https://huggingface.co/datasets/xs12345/TCM-Ancient-Modern-Open
+    代码: https://github.com/xiesi1234/R1-TCM-Translator
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: metadata-and-examples
+  license_note: 公开元数据与独立示例为CC BY 4.0；实验文本不在许可内
+  source_revision: fb3e82043ee540505db2ffa38843707c10c826bf
+  evidence_level: repository-api-and-card
+- id: ds-fu-tcm
+  name: Fu_TCM
+  type: dataset
+  year: 2026
+  summary_zh: 已核验Fu_bianzheng.json、Fu_text.json、Fu_vision.json和图像文件；仓库共505个文件，标注Apache-2.0，但数据卡没有来源、样本统计或标注说明。图像文件名包含现代诊断图谱书名，底层素材授权尚待核对。
+  tags:
+  - sft
+  - multimodal
+  - limited-documentation
+  links:
+    数据集: https://huggingface.co/datasets/fudanxai/Fu_TCM
+  status: published
+  verified_at: '2026-11-05'
+  section: 指令/对话数据集
+  access: public-files
+  license_note: 仓库声明Apache-2.0；第三方图像授权未核验
+  source_revision: f55c332884b4b50b83e0ebb8197f06397ac0bc11
+  evidence_level: repository-api-and-card
+- id: ds-tcm-andrology-emr
+  name: TCM-Andrology-EMR
+  type: dataset
+  year: 2026
+  summary_zh: 数据卡报告67,073次就诊、25,103名患者，金标准26,923条，提供按患者切分的JSONL；药味无剂量，舌脉字段稀缺。作者明确未做伦理审查与患者知情同意；仅作资源索引，数据来源与再利用依据需进一步核实。
+  tags:
+  - clinical
+  - prescription
+  - ethics-unreviewed
+  links:
+    数据集: https://huggingface.co/datasets/johnson/TCM-Andrology-EMR
+  status: published
+  verified_at: '2026-11-05'
+  section: 临床结构化 / 处方
+  access: public-files-with-documented-ethics-gaps
+  license_note: 数据卡CC BY-NC 4.0；外部知识库各自许可；许可声明不解决伦理缺口
+  source_revision: 67bbf081d9ebe69f58594fccc0ac55d2af7d8803
+  evidence_level: repository-api-and-card
+- id: ds-hanpai-orthopaedics
+  name: 汉派中医骨伤诊疗数据集
+  type: dataset
+  year: 2026
+  summary_zh: 武汉市中医医院数据产品；报道包含16.8万条结构化诊疗数据、3600个经验方与汉派骨伤辨证思维链，已在湖北数据流通平台完成交易。仅核验发布报道，未发现可匿名批量下载的数据包。
+  tags:
+  - clinical
+  - prescription
+  - restricted-access
+  links:
+    新闻: https://www.cntcm.com.cn/content/202610/16/c505880.html
+  status: published
+  verified_at: '2026-11-05'
+  section: 临床结构化 / 处方
+  access: licensed-data-product
+  orgs:
+  - 武汉市中医医院
+  evidence_level: primary-page
+- id: ds-gam-chronic-gastritis
+  name: 广安门医院慢性胃炎数据集
+  type: dataset
+  year: 2026
+  summary_zh: 2026年完成产权登记的中医专病数据集，用于科研与大模型领域适配。报道区分院内使用、院外协同科研和产品交易，未给本数据集规模或公开下载；医院总体资源量不能当作该集样本数。
+  tags:
+  - clinical
+  - restricted-access
+  links:
+    新闻: https://www.cntcm.com.cn/content/202609/24/c505607.html
+  status: published
+  verified_at: '2026-11-05'
+  section: 临床结构化 / 处方
+  access: institutional-or-licensed
+  orgs:
+  - 中国中医科学院广安门医院
+  evidence_level: primary-page
+- id: ds-cmeta
+  name: 数字中医校书郎（CMETA）
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。中医善本协作校订平台，列有伤寒论多版本、金匮和古今医案按，界面提供Markdown/TXT导出与图文对照。需Google登录；本轮核验公开说明和导出界面，未测试登录后导出。原创校订成果CC
+    BY 4.0，外部影像另行授权。
+  tags:
+  - corpus
+  - classics
+  - website
+  links:
+    网站: https://cmeta.lctseng.csie.org/
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: login-required
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_level: primary-page
+- id: ds-jicheng
+  name: 中医笈成
+  type: dataset
+  year: 2009
+  summary_zh: 中医药古籍整理项目，按医经、诊法、本草、医方、医案等分类，提供全文检索、公开GitLab版本库与原始文件下载入口。公有领域文本的筛选、标点等编辑成果声明CC0，自创介绍页面CC BY 4.0；图片与个别页面另查。
+  tags:
+  - corpus
+  - classics
+  - website
+  links:
+    网站: https://jicheng.tw/tcm/book/
+    下载: https://jicheng.tw/tcm/download.html
+    许可: https://jicheng.tw/tcm/copyright.html
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: public-source-downloads
+  year_basis: 来源页面明确的项目或数字化年份
+  evidence_level: primary-page
+- id: ds-aeam-classics
+  name: 东亚医学协会医学古典文本
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。官方目录提供素问、灵枢、伤寒论、金匮要略、神农本草经、难经、扁鹊仓公传七类经典入口。抽查伤寒论为可提取文字的79页PDF，说明赵开美本底本；各文本版本与再利用条款需分别确认。
+  tags:
+  - corpus
+  - classics
+  - east-asian-tm
+  links:
+    网站: https://aeam.jp/koten/
+    原始文件: https://aeam.jp/wp/wp-content/uploads/2024/03/shanghanlun.pdf
+  status: published
+  verified_at: '2026-11-05'
+  section: 东亚传统医学
+  access: public-pdf-text
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_level: primary-page
+- id: ds-aeam-meridian-images
+  name: 东亚医学协会针灸经络图版库
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。按经脉并列展示十四经发挥、针灸资生经、类经图翼、经穴汇解和经络研究图版，可用于版本比较和针灸图文资料检索。是历史图版入口，非已标注视觉问答集；未确认统一批量下载及训练许可。
+  tags:
+  - classics
+  - multimodal
+  - east-asian-tm
+  links:
+    网站: https://aeam.jp/keiraku/
+  status: published
+  verified_at: '2026-11-05'
+  section: 东亚传统医学
+  access: public-image-index
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_level: primary-page
+- id: ds-cintcm-smart-library
+  name: 中医药智慧数字图书馆
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。中国中医科学院中医药信息研究所门户，提供民国图书、民国再版古籍、影印珍善本、民族医药图书和期刊检索。首页与分类入口可访问，设注册登录；未验证全文访问权限和批量下载。
+  tags:
+  - corpus
+  - classics
+  - website
+  links:
+    网站: https://tsg.cintcm.cn/
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: catalog-public-fulltext-unverified
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_level: primary-page
+- id: ds-nlc-smart-classics
+  name: 中华古籍智慧化服务平台
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。国家图书馆牵头的综合古籍平台，提供全文、版本与知识检索，并列出OCR、句读和版本比对工具。可作为医家类文献补充来源；全库规模不等于中医古籍规模，未验证批量文本导出。
+  tags:
+  - classics
+  - website
+  links:
+    网站: https://guji.nlc.cn/
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: public-portal
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_note: 门户HTTP可达；功能依据官方页面的搜索索引说明，未测试JS内操作。
+  evidence_level: primary-index-or-landing-page
+- id: ds-ctext-neijing
+  name: 中国哲学书电子化计划·黄帝内经
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。黄帝内经章节化全文与相关底本入口，可定位素问篇章并关联影印馆藏。页面英文译文标注AI及用户来源，不能作为专家审定英译金标准；本轮未核验批量导出许可。
+  tags:
+  - corpus
+  - classics
+  - website
+  links:
+    网站: https://ctext.org/huangdi-neijing
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: public-reading
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_note: 依据原站搜索索引正文及章节信息；未验证批量接口。
+  evidence_level: primary-index-or-landing-page
+- id: ds-fujikawa-digital
+  name: 京都大学富士川文库数字古医书
+  type: dataset
+  year: 2018
+  summary_zh: 京都大学古医书数字馆藏，含和汉医书及医学史资料；官方说明2018年4月完成数字化公开，并介绍与庆应义塾大学的IIIF联合展示。适合版本、影像及OCR研究，不能把馆藏部册数当成已清洗中医文本数。
+  tags:
+  - classics
+  - multimodal
+  - east-asian-tm
+  links:
+    网站: https://rmda.kulib.kyoto-u.ac.jp/collection/fujikawa
+  status: published
+  verified_at: '2026-11-05'
+  section: 东亚传统医学
+  access: digital-images-per-item-terms
+  year_basis: 来源页面明确的项目或数字化年份
+  evidence_level: primary-page
+- id: ds-shutcm-rare-classics
+  name: 上海中医药大学馆藏古籍库
+  type: dataset
+  year: 2026
+  summary_zh: 既有资源补录（首发年份未确认）。学校图书馆介绍馆藏古籍高清扫描库，善本扫描分辨率高于600 DPI。官方入口明确校内校园网或校外VPN访问，适合底本影像核验；属机构资源，不是公开下载语料。
+  tags:
+  - classics
+  - multimodal
+  - restricted-access
+  links:
+    说明: https://lib.shutcm.edu.cn/Home/dbdetails/0eb195a0-b9ca-4248-ae41-c356a772cd96
+  status: published
+  verified_at: '2026-11-05'
+  section: 原始书籍 / 预训练语料
+  access: campus-or-vpn
+  year_basis: 本轮核验年；页面未明确数字资源首发年
+  evidence_level: primary-page
+- id: patent-cn121281871a
+  name: 基于医学大语言模型多智能体的中医药临床数据自动化处理系统
+  type: patent
+  year: 2026
+  summary_zh: 任务理解智能体、临床数据治理工具库和数据治理智能体协作，做中医疗效评价数据的结构化、标准化与流程生成。2026年1月6日公开；Google Patents显示Pending。
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN121281871A/zh
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.01'
+  venue: CN121281871A
+  orgs:
+  - 四川大学华西医院
+  patent_status: published-pending
+  access: public-patent-text
+  evidence_level: primary-page
+- id: patent-cn121436110b
+  name: 一种基于知识图谱的中医垂域大模型的训练方法
+  type: patent
+  year: 2026
+  summary_zh: 以证候—症状词库、易混元组和上下文消歧整理预训练语料。A公开页时间线显示2026年7月31日授权并公布B文本；B正文此次未取得，技术摘要依据A公开文本。
+  tags:
+  - patent
+  links:
+    授权: https://patents.google.com/patent/CN121436110B/zh
+    公开: https://patents.google.com/patent/CN121436110A/zh
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.07'
+  venue: CN121436110B
+  orgs:
+  - Daan Health Technology Beijing Co ltd
+  patent_status: granted-per-A-timeline
+  access: public-patent-text
+  evidence_level: primary-page
+- id: patent-cn121436111b
+  name: 一种基于多模态数据融合的中医智能辨证模型训练系统及方法
+  type: patent
+  year: 2026
+  summary_zh: 通过症状链、证候要素评分、证型逻辑组合与矛盾检测组织辨证推理。2026年5月15日授权，Google Patents显示Active；其权利要求侧重结构化推理，未据此认定公开了LLM权重。
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN121436111B/zh
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.05'
+  venue: CN121436111B
+  orgs:
+  - Daan Health Technology Beijing Co ltd
+  patent_status: granted-active
+  access: public-patent-text
+  evidence_level: primary-page
+- id: patent-cn122599028a
+  name: 一种基于AI大模型的中医天地岁人四维辨证辅助诊疗系统
+  type: patent
+  year: 2026
+  summary_zh: 结合多部位多压力脉象、时序节律编码与体质识别，生成中药和经络穴位推荐。2026年8月18日公开；原页显示Pending，仅为技术方案公开。
+  tags:
+  - patent
+  links:
+    专利: https://patents.google.com/patent/CN122599028A/zh
+  status: published
+  verified_at: '2026-11-05'
+  date: '2026.08'
+  venue: CN122599028A
+  orgs:
+  - Gaobele Biotech Guangzhou Co ltd
+  patent_status: published-pending
+  access: public-patent-text
+  evidence_level: primary-page

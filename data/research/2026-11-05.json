@@ -1,0 +1,736 @@
+{
+  "date": "2026-11-05",
+  "host": "hl_gpu",
+  "repository": "/home/tanyang/workspace/Awesome-TCM-LLM",
+  "base_commit": "b60b85472b5de044c784f0a97e4ccc20705cbb12",
+  "scope": "TCM news, patents, models, datasets, raw corpora, classics and websites; current releases plus previously missing archives",
+  "baseline_items": 882,
+  "new_items": 26,
+  "updated_items": 3,
+  "total_items": 908,
+  "new_by_type": {
+    "news": 5,
+    "resource": 3,
+    "dataset": 14,
+    "patent": 4
+  },
+  "new_ids": [
+    "news-202611-data-elements-tcm",
+    "news-202611-ai-tcm-data-meeting",
+    "news-202611-traditional-medicine-ai-report",
+    "news-202610-hanpai-data-trade",
+    "news-202609-gam-data-registration",
+    "tcm-qwen35-9b-sft-r2",
+    "mimo-tcm-andrology-lora",
+    "fu-tcm-9b",
+    "ds-tcm-ancient-modern-metadata",
+    "ds-fu-tcm",
+    "ds-tcm-andrology-emr",
+    "ds-hanpai-orthopaedics",
+    "ds-gam-chronic-gastritis",
+    "ds-cmeta",
+    "ds-jicheng",
+    "ds-aeam-classics",
+    "ds-aeam-meridian-images",
+    "ds-cintcm-smart-library",
+    "ds-nlc-smart-classics",
+    "ds-ctext-neijing",
+    "ds-fujikawa-digital",
+    "ds-shutcm-rare-classics",
+    "patent-cn121281871a",
+    "patent-cn121436110b",
+    "patent-cn121436111b",
+    "patent-cn122599028a"
+  ],
+  "updated_ids": [
+    "lingdan-v2",
+    "tcmqa",
+    "ds-tcmqa"
+  ],
+  "updates": [
+    {
+      "id": "lingdan-v2",
+      "before": {
+        "id": "lingdan-v2",
+        "name": "灵丹-V2 (Lingdan-V2)",
+        "year": 2026,
+        "summary_zh": "Qwen3 4B/8B/14B 中医推理模型家族，依次进行续训、监督微调和处方 GRPO。作者仓库明确声明模型权重采用 Apache-2.0；第三方数据沿用原许可。",
+        "orgs": [
+          "北京交通大学"
+        ],
+        "tags": [
+          "model",
+          "reasoning",
+          "prescription"
+        ],
+        "links": {
+          "代码": "https://github.com/TCMAI-BJTU/Lingdan-V2",
+          "ModelScope": "https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1",
+          "论文": "https://arxiv.org/abs/2610.14705"
+        },
+        "type": "resource",
+        "status": "published",
+        "verified_at": "2026-10-29"
+      },
+      "after": {
+        "id": "lingdan-v2",
+        "name": "灵丹-V2 (Lingdan-V2)",
+        "year": 2026,
+        "summary_zh": "Qwen3 4B/8B/14B 中医推理模型家族，采用续训、监督微调和处方 GRPO。本轮核验 Hugging Face 的 Lingdan-8B-R1 完整权重（4个分片），模型卡声明 Apache-2.0；第三方数据沿用原许可。",
+        "orgs": [
+          "北京交通大学"
+        ],
+        "tags": [
+          "model",
+          "reasoning",
+          "prescription",
+          "open-weights"
+        ],
+        "links": {
+          "代码": "https://github.com/TCMAI-BJTU/Lingdan-V2",
+          "ModelScope": "https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1",
+          "论文": "https://arxiv.org/abs/2610.14705",
+          "权重": "https://huggingface.co/TCMLLM/Lingdan-8B-R1"
+        },
+        "type": "resource",
+        "status": "published",
+        "verified_at": "2026-11-05",
+        "source_revision": "6205581b9927310a07570fc22ddb43f170f42d65",
+        "evidence_level": "repository-api-and-card"
+      }
+    },
+    {
+      "id": "tcmqa",
+      "before": {
+        "id": "tcmqa",
+        "name": "TCMQA",
+        "type": "resource",
+        "year": 2026,
+        "venue": "arXiv",
+        "summary_zh": "38279道中医执照考试题，并配101名执业医师的15151条作答作为人类参照",
+        "tags": [
+          "benchmark",
+          "evaluation"
+        ],
+        "links": {
+          "论文": "https://arxiv.org/abs/2609.33014"
+        },
+        "status": "published",
+        "verified_at": "2026-10-21"
+      },
+      "after": {
+        "id": "tcmqa",
+        "name": "TCMQA",
+        "type": "resource",
+        "year": 2026,
+        "venue": "arXiv",
+        "summary_zh": "论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA 4.0。",
+        "tags": [
+          "benchmark",
+          "evaluation"
+        ],
+        "links": {
+          "论文": "https://arxiv.org/abs/2609.33014",
+          "数据集": "https://huggingface.co/datasets/TechTCM/TCMQA"
+        },
+        "status": "published",
+        "verified_at": "2026-11-05",
+        "source_revision": "a0f39cf06baf01065354f92a3edb5a7786bbf7ff",
+        "evidence_level": "repository-api-and-card",
+        "access": "public-files",
+        "license_note": "CC BY-NC-SA 4.0；上游考试题素材另需核对"
+      }
+    },
+    {
+      "id": "ds-tcmqa",
+      "before": {
+        "id": "ds-tcmqa",
+        "name": "TCMQA",
+        "type": "dataset",
+        "year": 2026,
+        "venue": "arXiv",
+        "section": "考试数据集",
+        "title_zh": "带执业医师参照的38279题中医考试基准",
+        "summary_zh": "38279道中医执照考试题，并配101名执业医师的15151条作答",
+        "tags": [
+          "benchmark"
+        ],
+        "links": {
+          "论文": "https://arxiv.org/abs/2609.33014"
+        },
+        "status": "published",
+        "verified_at": "2026-10-21"
+      },
+      "after": {
+        "id": "ds-tcmqa",
+        "name": "TCMQA",
+        "type": "dataset",
+        "year": 2026,
+        "venue": "arXiv",
+        "section": "考试数据集",
+        "title_zh": "带执业医师参照的中医考试基准（公开版与论文口径不同）",
+        "summary_zh": "论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA 4.0。",
+        "tags": [
+          "benchmark"
+        ],
+        "links": {
+          "论文": "https://arxiv.org/abs/2609.33014",
+          "数据集": "https://huggingface.co/datasets/TechTCM/TCMQA"
+        },
+        "status": "published",
+        "verified_at": "2026-11-05",
+        "source_revision": "a0f39cf06baf01065354f92a3edb5a7786bbf7ff",
+        "evidence_level": "repository-api-and-card",
+        "access": "public-files",
+        "license_note": "CC BY-NC-SA 4.0；上游考试题素材另需核对"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "news-202611-data-elements-tcm",
+      "links": {
+        "链接": "https://finance.people.com.cn/n1/2026/1105/c1004-40828489.html"
+      },
+      "access": "news-only",
+      "evidence_level": "primary-index-or-landing-page",
+      "evidence_note": "核验到人民网原页的搜索索引内容；直连全文未成功。"
+    },
+    {
+      "id": "news-202611-ai-tcm-data-meeting",
+      "links": {
+        "链接": "https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202611/t20261104_4931739.html"
+      },
+      "access": "news-only",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "news-202611-traditional-medicine-ai-report",
+      "links": {
+        "链接": "https://www.digitalchina.gov.cn/2026/szzg/xyzx/202611/t20261103_5389002.htm"
+      },
+      "access": "news-only",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "news-202610-hanpai-data-trade",
+      "links": {
+        "链接": "https://www.cntcm.com.cn/content/202610/16/c505880.html"
+      },
+      "access": "news-only",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "news-202609-gam-data-registration",
+      "links": {
+        "链接": "https://www.cntcm.com.cn/content/202609/24/c505607.html"
+      },
+      "access": "news-only",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "tcm-qwen35-9b-sft-r2",
+      "links": {
+        "权重": "https://huggingface.co/Xxiao2023/TCM-Qwen3.5-9B-SFT-R2"
+      },
+      "access": "public-weights",
+      "evidence_level": "repository-api-and-card",
+      "source_revision": "ddbeda6283f2ca96bc43d02d687f148ea6c63a6c"
+    },
+    {
+      "id": "mimo-tcm-andrology-lora",
+      "links": {
+        "权重": "https://huggingface.co/johnson/MiMo-9B-TCM-Andrology-LoRA",
+        "数据集": "https://huggingface.co/datasets/johnson/TCM-Andrology-EMR"
+      },
+      "access": "public-adapter",
+      "evidence_level": "repository-api-and-card",
+      "source_revision": "74093832101b290379a2faa53cfcdef627e6231c"
+    },
+    {
+      "id": "fu-tcm-9b",
+      "links": {
+        "权重": "https://huggingface.co/fudanxai/Fu-TCM-9B",
+        "数据集": "https://huggingface.co/datasets/fudanxai/Fu_TCM"
+      },
+      "access": "public-weights",
+      "evidence_level": "repository-api-and-card",
+      "source_revision": "13bc6545f72e49c36574e083b3313a0c84547182"
+    },
+    {
+      "id": "ds-tcm-ancient-modern-metadata",
+      "links": {
+        "数据集": "https://huggingface.co/datasets/xs12345/TCM-Ancient-Modern-Open",
+        "代码": "https://github.com/xiesi1234/R1-TCM-Translator"
+      },
+      "access": "metadata-and-examples",
+      "evidence_level": "repository-api-and-card",
+      "source_revision": "fb3e82043ee540505db2ffa38843707c10c826bf"
+    },
+    {
+      "id": "ds-fu-tcm",
+      "links": {
+        "数据集": "https://huggingface.co/datasets/fudanxai/Fu_TCM"
+      },
+      "access": "public-files",
+      "evidence_level": "repository-api-and-card",
+      "source_revision": "f55c332884b4b50b83e0ebb8197f06397ac0bc11"
+    },
+    {
+      "id": "ds-tcm-andrology-emr",
+      "links": {
+        "数据集": "https://huggingface.co/datasets/johnson/TCM-Andrology-EMR"
+      },
+      "access": "public-files-with-documented-ethics-gaps",
+      "evidence_level": "repository-api-and-card",
+      "source_revision": "67bbf081d9ebe69f58594fccc0ac55d2af7d8803"
+    },
+    {
+      "id": "ds-hanpai-orthopaedics",
+      "links": {
+        "新闻": "https://www.cntcm.com.cn/content/202610/16/c505880.html"
+      },
+      "access": "licensed-data-product",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "ds-gam-chronic-gastritis",
+      "links": {
+        "新闻": "https://www.cntcm.com.cn/content/202609/24/c505607.html"
+      },
+      "access": "institutional-or-licensed",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "ds-cmeta",
+      "links": {
+        "网站": "https://cmeta.lctseng.csie.org/"
+      },
+      "access": "login-required",
+      "evidence_level": "primary-page",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "ds-jicheng",
+      "links": {
+        "网站": "https://jicheng.tw/tcm/book/",
+        "下载": "https://jicheng.tw/tcm/download.html",
+        "许可": "https://jicheng.tw/tcm/copyright.html"
+      },
+      "access": "public-source-downloads",
+      "evidence_level": "primary-page",
+      "year_basis": "来源页面明确的项目或数字化年份"
+    },
+    {
+      "id": "ds-aeam-classics",
+      "links": {
+        "网站": "https://aeam.jp/koten/",
+        "原始文件": "https://aeam.jp/wp/wp-content/uploads/2024/03/shanghanlun.pdf"
+      },
+      "access": "public-pdf-text",
+      "evidence_level": "primary-page",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "ds-aeam-meridian-images",
+      "links": {
+        "网站": "https://aeam.jp/keiraku/"
+      },
+      "access": "public-image-index",
+      "evidence_level": "primary-page",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "ds-cintcm-smart-library",
+      "links": {
+        "网站": "https://tsg.cintcm.cn/"
+      },
+      "access": "catalog-public-fulltext-unverified",
+      "evidence_level": "primary-page",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "ds-nlc-smart-classics",
+      "links": {
+        "网站": "https://guji.nlc.cn/"
+      },
+      "access": "public-portal",
+      "evidence_level": "primary-index-or-landing-page",
+      "evidence_note": "门户HTTP可达；功能依据官方页面的搜索索引说明，未测试JS内操作。",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "ds-ctext-neijing",
+      "links": {
+        "网站": "https://ctext.org/huangdi-neijing"
+      },
+      "access": "public-reading",
+      "evidence_level": "primary-index-or-landing-page",
+      "evidence_note": "依据原站搜索索引正文及章节信息；未验证批量接口。",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "ds-fujikawa-digital",
+      "links": {
+        "网站": "https://rmda.kulib.kyoto-u.ac.jp/collection/fujikawa"
+      },
+      "access": "digital-images-per-item-terms",
+      "evidence_level": "primary-page",
+      "year_basis": "来源页面明确的项目或数字化年份"
+    },
+    {
+      "id": "ds-shutcm-rare-classics",
+      "links": {
+        "说明": "https://lib.shutcm.edu.cn/Home/dbdetails/0eb195a0-b9ca-4248-ae41-c356a772cd96"
+      },
+      "access": "campus-or-vpn",
+      "evidence_level": "primary-page",
+      "year_basis": "本轮核验年；页面未明确数字资源首发年"
+    },
+    {
+      "id": "patent-cn121281871a",
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121281871A/zh"
+      },
+      "access": "public-patent-text",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "patent-cn121436110b",
+      "links": {
+        "授权": "https://patents.google.com/patent/CN121436110B/zh",
+        "公开": "https://patents.google.com/patent/CN121436110A/zh"
+      },
+      "access": "public-patent-text",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "patent-cn121436111b",
+      "links": {
+        "专利": "https://patents.google.com/patent/CN121436111B/zh"
+      },
+      "access": "public-patent-text",
+      "evidence_level": "primary-page"
+    },
+    {
+      "id": "patent-cn122599028a",
+      "links": {
+        "专利": "https://patents.google.com/patent/CN122599028A/zh"
+      },
+      "access": "public-patent-text",
+      "evidence_level": "primary-page"
+    }
+  ],
+  "huggingface_revisions": [
+    {
+      "id": "Xxiao2023/TCM-Qwen3.5-9B-SFT-R2",
+      "kind": "models",
+      "sha": "ddbeda6283f2ca96bc43d02d687f148ea6c63a6c",
+      "createdAt": "2026-10-28T07:40:41Z",
+      "lastModified": "2026-10-28T08:11:50Z",
+      "gated": false,
+      "private": false,
+      "license": null,
+      "file_count": 13,
+      "weight_files": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "root_files": [
+        ".gitattributes",
+        "README.md",
+        "chat_template.jinja",
+        "config.json",
+        "generation_config.json",
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors",
+        "model.safetensors.index.json",
+        "processor_config.json",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "parameters": 9409813744
+    },
+    {
+      "id": "johnson/MiMo-9B-TCM-Andrology-LoRA",
+      "kind": "models",
+      "sha": "74093832101b290379a2faa53cfcdef627e6231c",
+      "createdAt": "2026-10-09T07:45:30Z",
+      "lastModified": "2026-10-09T07:46:06Z",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-4.0",
+      "file_count": 9,
+      "weight_files": [
+        "adapter_model.safetensors"
+      ],
+      "root_files": [
+        ".gitattributes",
+        "README.md",
+        "adapter_config.json",
+        "adapter_model.safetensors",
+        "chat_template.jinja",
+        "eval_history.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "train_run_config.json"
+      ],
+      "parameters": null
+    },
+    {
+      "id": "fudanxai/Fu-TCM-9B",
+      "kind": "models",
+      "sha": "13bc6545f72e49c36574e083b3313a0c84547182",
+      "createdAt": "2026-08-03T07:45:05Z",
+      "lastModified": "2026-08-03T11:02:06Z",
+      "gated": false,
+      "private": false,
+      "license": "apache-2.0",
+      "file_count": 17,
+      "weight_files": [
+        "model-00001-of-00008.safetensors",
+        "model-00002-of-00008.safetensors",
+        "model-00003-of-00008.safetensors",
+        "model-00004-of-00008.safetensors",
+        "model-00005-of-00008.safetensors",
+        "model-00006-of-00008.safetensors",
+        "model-00007-of-00008.safetensors",
+        "model-00008-of-00008.safetensors"
+      ],
+      "root_files": [
+        ".gitattributes",
+        "README.md",
+        "chat_template.jinja",
+        "config.json",
+        "generation_config.json",
+        "model-00001-of-00008.safetensors",
+        "model-00002-of-00008.safetensors",
+        "model-00003-of-00008.safetensors",
+        "model-00004-of-00008.safetensors",
+        "model-00005-of-00008.safetensors",
+        "model-00006-of-00008.safetensors",
+        "model-00007-of-00008.safetensors",
+        "model-00008-of-00008.safetensors",
+        "model.safetensors.index.json",
+        "processor_config.json",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "parameters": 9409813744
+    },
+    {
+      "id": "TCMLLM/Lingdan-8B-R1",
+      "kind": "models",
+      "sha": "6205581b9927310a07570fc22ddb43f170f42d65",
+      "createdAt": "2026-10-10T10:51:33Z",
+      "lastModified": "2026-10-19T09:37:45Z",
+      "gated": false,
+      "private": false,
+      "license": "apache-2.0",
+      "file_count": 16,
+      "weight_files": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "root_files": [
+        ".gitattributes",
+        "README.md",
+        "added_tokens.json",
+        "chat_template.jinja",
+        "config.json",
+        "generation_config.json",
+        "merges.txt",
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors",
+        "model.safetensors.index.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.json"
+      ],
+      "parameters": 8190735360
+    },
+    {
+      "id": "TechTCM/TCMQA",
+      "kind": "datasets",
+      "sha": "a0f39cf06baf01065354f92a3edb5a7786bbf7ff",
+      "createdAt": "2026-08-31T00:24:20Z",
+      "lastModified": "2026-10-23T22:33:45Z",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-sa-4.0",
+      "file_count": 4,
+      "weight_files": [],
+      "root_files": [
+        ".gitattributes",
+        "README.md"
+      ],
+      "parameters": null
+    },
+    {
+      "id": "xs12345/TCM-Ancient-Modern-Open",
+      "kind": "datasets",
+      "sha": "fb3e82043ee540505db2ffa38843707c10c826bf",
+      "createdAt": "2026-08-28T07:01:57Z",
+      "lastModified": "2026-08-28T08:01:27Z",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-4.0",
+      "file_count": 9,
+      "weight_files": [],
+      "root_files": [
+        ".gitattributes",
+        "DATA_LICENSE.md",
+        "README.md",
+        "README_zh.md",
+        "RELEASE_MANIFEST.json",
+        "SOURCE_EDITIONS.csv"
+      ],
+      "parameters": null
+    },
+    {
+      "id": "fudanxai/Fu_TCM",
+      "kind": "datasets",
+      "sha": "f55c332884b4b50b83e0ebb8197f06397ac0bc11",
+      "createdAt": "2026-08-02T15:41:53Z",
+      "lastModified": "2026-08-18T09:16:18Z",
+      "gated": false,
+      "private": false,
+      "license": "apache-2.0",
+      "file_count": 505,
+      "weight_files": [],
+      "root_files": [
+        ".gitattributes",
+        "Fu_bianzheng.json",
+        "Fu_text.json",
+        "Fu_vision.json",
+        "README.md"
+      ],
+      "parameters": null
+    },
+    {
+      "id": "johnson/TCM-Andrology-EMR",
+      "kind": "datasets",
+      "sha": "67bbf081d9ebe69f58594fccc0ac55d2af7d8803",
+      "createdAt": "2026-10-09T07:47:22Z",
+      "lastModified": "2026-10-09T07:47:29Z",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-4.0",
+      "file_count": 43,
+      "weight_files": [],
+      "root_files": [
+        ".gitattributes",
+        "LICENSE-DATA",
+        "README.md"
+      ],
+      "parameters": null
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TCM-RM-Qwen3-8B",
+      "url": "https://huggingface.co/DYJG-research/TCM-RM-Qwen3-8B",
+      "reason": "检索到权重，但模型卡仍为模板，任务、训练及评测信息不足；暂存候选。"
+    },
+    {
+      "name": "Fu-TCM-27B",
+      "url": "https://huggingface.co/fudanxai/Fu-TCM-27B",
+      "reason": "HF检索命中，尚未完成逐文件及模型卡核验。"
+    },
+    {
+      "name": "TCM-m3",
+      "url": "https://huggingface.co/cduoduo/TCM-m3",
+      "reason": "搜索索引出现ColBERT相关文件，主页面此次未成功核验。"
+    },
+    {
+      "name": "TCMNER2026",
+      "url": "https://huggingface.co/datasets/TCMNER/TCMNER2026",
+      "reason": "检索到train/dev/test文本文件，但无数据卡与明确许可；未确证样本来源和标注规则。"
+    },
+    {
+      "name": "TCMOI数据门户",
+      "url": "https://www.tcmoi.com/data.html",
+      "reason": "搜索索引称含中医数据集，页面返回502或TLS失败；不认定数据包可下载。"
+    },
+    {
+      "name": "CN122886972A",
+      "url": "https://patents.google.com/patent/CN122886972A/zh",
+      "reason": "二级专利索引命中AI中医教学线索，Google Patents原页404，申请人及日期待一手资料复核。"
+    },
+    {
+      "name": "CN122822296A",
+      "url": "https://patents.google.com/patent/CN122822296A/zh",
+      "reason": "二级索引命中多任务中医大模型及云边协同线索，Google Patents原页404，暂未入主目录。"
+    },
+    {
+      "name": "CN122889322A",
+      "url": "https://patents.google.com/patent/CN122889322A/zh",
+      "reason": "OEPM专利资讯索引命中中医指南与因果图诊断线索，Google Patents正文此次不可达。"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "alirezafalah/ELTE-TCM-46k",
+      "reason": "TCM指CNC刀具状态监测，非中医。"
+    },
+    {
+      "name": "lifelonglab/CAD-TCM",
+      "reason": "TCM指工业轧机相关数据，非中医。"
+    },
+    {
+      "name": "tcmhwd/ADR-risk-synthetic",
+      "reason": "通用合成药物警戒演示集；账号含tcm不足以证明中医相关。"
+    },
+    {
+      "name": "Shennong、Baize等派生镜像",
+      "reason": "未确认新增独立内容，不按新的独立数据集重复计数。"
+    },
+    {
+      "name": "TriCMDF",
+      "reason": "现有目录已收录，本轮不重复添加。"
+    }
+  ],
+  "downloads": "Read public pages, model/data cards and repository file metadata only; no model weights, corpus packages or patient records downloaded.",
+  "validation": {
+    "status": "passed",
+    "checks": [
+      {
+        "command": "python3 scripts/build_readme.py",
+        "exit_code": 0,
+        "stdout": "Wrote README.md, README_EN.md, data/catalog.json, and wiki/{Models,Datasets,Benchmarks}.md (908 items; i18n_en=908)",
+        "stderr": ""
+      },
+      {
+        "command": "python3 scripts/validate_catalog.py",
+        "exit_code": 0,
+        "stdout": "Catalog validation passed: 908 items, 908 localizations",
+        "stderr": ""
+      },
+      {
+        "command": "git diff --check",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "semantic_diff": {
+      "added": 26,
+      "modified": [
+        "ds-tcmqa",
+        "lingdan-v2",
+        "tcmqa"
+      ],
+      "removed": 0,
+      "unchanged": 879
+    }
+  }
+}

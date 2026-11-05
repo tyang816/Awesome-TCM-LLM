@@ -4,13 +4,13 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。现在大概有 55 条新闻、113 个模型、71 篇综述、69 件专利、187 个数据集、387 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。
+开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。现在大概有 60 条新闻、116 个模型、71 篇综述、73 件专利、201 个数据集、387 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。
 
 [项目页](https://tyang816.github.io/projects/tcm/) · [中文项目页](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [主页](https://tyang816.github.io/zh/)
 
 ## 先看这里
 
-真能下载复现的中医权重大概 16 个，都在[开源模型](#开源模型)里。新闻里医院、公司发的，多数没有公开权重，当不了实验底座。
+真能下载复现的中医权重大概 20 个，都在[开源模型](#开源模型)里。新闻里医院、公司发的，多数没有公开权重，当不了实验底座。
 
 近年的研究逐渐扩展到多模态、Agent 和临床推理评测。对比模型时，应分别查看考试知识、证候判别和处方任务；TCM-Ladder、LingLanMedBench、MTCMB 提供了互补的评测资源。
 
@@ -31,16 +31,20 @@
 上面是起步用的。要翻全部能下的权重，或只有论文/产品、通用中文医疗底座、闭源产品和日韩汉方/韩医，点开即可。
 
 <details>
-<summary>能下载的权重，共 16 个</summary>
+<summary>能下载的权重，共 20 个</summary>
 
 | 模型 | 年 | 机构 | 特色 | 链接 |
 | --- | :---: | --- | --- | --- |
 | **知方丹台 (ZhiFangDanTai)** | 2026 | 首都师范大学 | RAG · 图谱 | [论文](https://arxiv.org/abs/2509.05867) · [权重](https://huggingface.co/tczzx6/ZhiFangDanTai1.0) · [数据](https://huggingface.co/datasets/tczzx6/ZhiFangDanTai1.0) |
+| **灵丹-V2 (Lingdan-V2)** | 2026 | 北京交通大学 | 处方 · 推理 | [论文](https://arxiv.org/abs/2610.14705) · [权重](https://huggingface.co/TCMLLM/Lingdan-8B-R1) · [代码](https://github.com/TCMAI-BJTU/Lingdan-V2) |
 | **杏核 (Xinghe)** | 2026 | Xinghe-TCM | 推理 · 古籍 | [权重](https://huggingface.co/zsyjsld/Xinghe1.2-9B) · [数据](https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2) |
 | **仲景 (ZhongJing)** | 2026 | 福耀科技大学 | 专家知识引导的中医大模型 ZhongJingGPT。它把领域微调和认知心… | [论文](https://doi.org/10.26599/TST.2025.9010046) · [权重](https://huggingface.co/CMLM/ZhongjingGPT1_13B) · [代码](https://github.com/pariskang/CMLM-ZhongJing) |
 | **中医体质 Qwen3-8B 量化权重** | 2026 | — | 面向中医体质的 Qwen3-8B 量化权重，仓库里有 q4、q5 和 q… | [权重](https://huggingface.co/chenhaodev/tcm-constitution-qwen3-8b-gguf) |
+| **TCM-Qwen3.5-9B-SFT-R2** | 2026 | Xxiao2023 (Hugging Face) | 推理 | [权重](https://huggingface.co/Xxiao2023/TCM-Qwen3.5-9B-SFT-R2) |
 | **TCM-Qwen2.5-7B-SFT** | 2026 | — | 基于 Qwen2.5-7B 的中医监督微调权重，模型文件是完整的 saf… | [权重](https://huggingface.co/Xxiao2023/TCM-Qwen2.5-7B-SFT-V1) |
 | **Qwen3.5-9B 中医继续预训练** | 2026 | — | Qwen3.5-9B 做完中医继续预训练后的全量权重，一个约 17.9… | [权重](https://huggingface.co/arthur789/qwen3.5-9b-tcm-cpt) |
+| **MiMo-9B-TCM-Andrology-LoRA** | 2026 | johnson (Hugging Face) | 处方 | [权重](https://huggingface.co/johnson/MiMo-9B-TCM-Andrology-LoRA) · [数据](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR) |
+| **Fu-TCM-9B** | 2026 | fudanxai (Hugging Face account) | fudanxai账号发布的9.41B参数BF16权重，已核验8个safe… | [权重](https://huggingface.co/fudanxai/Fu-TCM-9B) · [数据](https://huggingface.co/datasets/fudanxai/Fu_TCM) |
 | **白泽 (Baize-TCM-LLM)** | 2025 | 中国中医科学院中药研究所 | 中国中医科学院中药研究所基于Qwen3的中医问答模型系列（0.6B/8B… | [权重](https://huggingface.co/DigitalIntelligenceCenter-of-ICMM/Baize-Traditional-Chinese-Medicine-Large-Language-Model) · [数据](https://huggingface.co/datasets/DigitalIntelligenceCenter-of-ICMM/Baize-TCM-Corpus-for-Large-Language-Models-V3) |
 | **扁仓 (BianCang)** | 2025 | 齐鲁工业大学 | 系列中医大模型（JBHI 正式发表）；2025.12 开源 14B 版本 | [论文](https://arxiv.org/abs/2411.11027) · [权重](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) · [代码](https://github.com/QLU-NLP/BianCang) |
 | **ViTCM-LLM** | 2025 | Tsinghua Shenzhen International Graduate School | 多模态 · RAG | [论文](https://doi.org/10.1109/bibm66473.2025.11357113) · [权重](https://huggingface.co/Mark-CHAE/ViTCM-LLM) · [代码](https://github.com/jw-chae/ViTCM_LLM) |
@@ -55,15 +59,14 @@
 </details>
 
 <details>
-<summary>只有论文或产品、没有核验权重的（51）</summary>
+<summary>只有论文或产品、没有核验权重的（50）</summary>
 
 <details>
-<summary>2026 · 16</summary>
+<summary>2026 · 15</summary>
 
 - [*Digital Chinese Medicine*] **青囊 (QingNangTCM)** 基于 GLM-4-9B-Chat，以 P-Tuning v2 适配中医问答与临床推理；构建 100,000 条 QnTCM_Dataset 训练语料。 [河北北方学院] [[DOI](https://doi.org/10.1016/j.dcmed.2026.02.002)]
 - [*ISCTIS 2026*] **舌面多模态融合智能诊断** 舌-面多模态特征融合+LLM驱动的中医智能诊断 [厦门理工学院] [[DOI](https://doi.org/10.1109/ISCTIS70043.2026.11572361)]
 - **砭石云中医** **砭石云中医**是智慧眼基于已备案砭石多模态大模型的中医方案，用症状到方药的知识图谱支持四诊采集和辅助辨证。 [智慧眼科技] [[官网](https://www.a-eye.cn/news_list/420.html)] [[网站](https://www.a-eye.cn/news_list/356.html)]
-- **灵丹-V2 (Lingdan-V2)** Qwen3 4B/8B/14B 中医推理模型家族，依次进行续训、监督微调和处方 GRPO。作者仓库明确声明模型权重采用 Apache-2.0；第三方数据沿用原许可。 [北京交通大学] [[代码](https://github.com/TCMAI-BJTU/Lingdan-V2)] [[ModelScope](https://modelscope.cn/models/TCMAIBJTU/Lingdan-14B-R1)] [[论文](https://arxiv.org/abs/2610.14705)]
 - **岐元** **岐元**是上海中医药大学附属第七人民医院的中医垂类大模型，采用预训练、领域微调和专家强化学习，支持生成式病历和名老中医 Agent 数字孪生。 [上海中医药大学附属第七人民医院] [[新闻](https://finance.sina.com.cn/jjxw/2026-07-26/doc-inikassr0678770.shtml)]
 - [*Information Fusion*] **天医 (Tianyi)** 南京中医药大学等提出 7.6B 参数中医大模型，按读书—临证—跟师多阶段训练，配套TCMEval评测与真实世界验证（Information Fusion 2026年2月） [南京中医药大学] [[正式发表](https://doi.org/10.1016/j.inffus.2025.103663)] [[论文](https://arxiv.org/abs/2505.13156)] [[新闻](https://blog.sciencenet.cn/blog-279293-1501581.html)]
 - **华族本草** **华族本草**是贵州医科大学中药全国重点实验室牵头的民族药大模型，以数智岐黄和 Qwen 为底座，融合多民族医药古籍与知识图谱，覆盖成分筛选、配伍、质控和教学。 [贵州医科大学，中药功效成分发掘与利用全国重点实验室] [[官网](https://www.gmc.edu.cn/info/1059/30300.htm)] [[新闻](https://www.news.cn/tech/20260804/f973d6fa9de640328fec0194c63335a3/c.html)]
@@ -232,12 +235,17 @@
 ## 新闻
 
 <details>
-<summary>55 条，最近有：南京中医药大学发布灵素·艾护中医护理大模 · 广医·岐智2.0 · 首发首展</summary>
+<summary>60 条，最近有：数据要素大赛新增中医药独立赛道与高质量数 · 广安门医院AI+中医药会议：可信数据集与 · 2026世界传统医药大会AI发展报告与中</summary>
 
 <details>
-<summary>2026 · 22</summary>
+<summary>2026 · 27</summary>
 
+- [2026.11] 人民网11月5日采访国家中医药管理局监测统计中心主任厉将斌，介绍中医药独立赛道、名医智能体及高质量数据集建设。为新闻与建设线索，未附数据下载。 [[链接](https://finance.people.com.cn/n1/2026/1105/c1004-40828489.html)]
+- [2026.11] 北京市卫健委11月4日刊载：10月30日会议讨论中医知识结构化、可信AI数据集、西苑医院中医药肿瘤科学数据系统等；报道未发布开放数据包。 [[链接](https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202611/t20261104_4931739.html)]
+- [2026.11] 数字中国建设峰会网站11月3日转载经济日报报道，介绍《人工智能赋能全球传统医学发展报告（2026）》及杭州市中医院“中医小安”机器人。报道涵盖AI传统医学整体，不等同于TCM大语言模型统计。 [[链接](https://www.digitalchina.gov.cn/2026/szzg/xyzx/202611/t20261103_5389002.htm)]
+- [2026.10] 中国中医药报10月16日报道汉派中医骨伤诊疗数据集在湖北数据流通平台交易，涉及16.8万条结构化诊疗数据、3600个经验方与辨证论治思维链；属于许可流通案例。 [[链接](https://www.cntcm.com.cn/content/202610/16/c505880.html)]
 - [2026.10] 报道称徐桂华团队10月9日发布灵素·艾护中医护理大模型，面向辨证施护、科研与居家康养，27所加盟医院为首批应用单位 [[链接](https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutqmk0582279.shtml)]
+- [2026.09] 中国中医药报9月24日报道广安门医院慢性胃炎数据集完成产权登记，并建设中医专病可信数据空间；数据用于广医·岐智微调、科研和名医经验教学，未见公开下载。 [[链接](https://www.cntcm.com.cn/content/202609/24/c505607.html)]
 - [2026.09] 中国中医科学院广安门医院在2026服贸会展示**广医·岐智2.0**，以AI医生「安安」覆盖患者服务、临床诊疗、病房管理等六大场景 [[链接](https://app.xinhuanet.com/news/article.html?articleId=202609101de3e66a53f7474ba7d373deaaa7e122)]
 - [2026.09] 2026服贸会中医药展区，北京中医药大学**首发首展**中医体质辨识体系与具身智能推拿机器人，同期还有智能诊脉设备体验 [[链接](https://wjw.beijing.gov.cn/xwzx_20031/mtjj/202608/t20260807_4812596.html)]
 - [2026.09] 中新网报道方证大模型9月19日开放接入，覆盖临床辅助诊疗、科研数据挖掘和人才培养，并计划部署到龙华医院及医联体 [[链接](https://www.chinanews.com.cn/jk/2026/09-19/10699553.shtml)]
@@ -460,17 +468,19 @@
 收中医大模型、知识图谱、RAG、智能问诊与处方推荐等系统专利，不限中国；不收中药组方、制剂专利全集。
 
 <details>
-<summary>69 件，按公开年收着</summary>
+<summary>73 件，按公开年收着</summary>
 
 <details>
-<summary>2026 · 29</summary>
+<summary>2026 · 33</summary>
 
 - [*CN122531762A*] **基于生成式模拟医案构建的定制化中医处方推荐大模型** 用规则引擎穷举结构化中医特征，再由大语言模型写成模拟医案，并微调得到定制化处方推荐大模型（公开，未授权） [北京中医药大学] [[专利](https://patents.google.com/patent/CN122531762A/zh)]
 - [*CN122529089A*] **基于大语言模型的中医对话生成方法及装置** 用长期记忆库与用户画像生成个性化中医对话（公开，未授权） [杭州旺柴科技] [[专利](https://patents.google.com/patent/CN122529089A/zh)]
 - [*CN122508432A*] **一种面向中医药知识图谱的综合质量评估方法** 把小样本送入中医药微调大语言模型，做知识图谱质量预评估（公开，未授权） [湖北省标准化与质量研究院] [[专利](https://patents.google.com/patent/CN122508432A/zh)]
+- [*CN122599028A*] **一种基于AI大模型的中医天地岁人四维辨证辅助诊疗系统** 结合多部位多压力脉象、时序节律编码与体质识别，生成中药和经络穴位推荐。2026年8月18日公开；原页显示Pending，仅为技术方案公开。 [Gaobele Biotech Guangzhou Co ltd] [[专利](https://patents.google.com/patent/CN122599028A/zh)]
 - [*CN122436154A*] **张锡纯中医理法方药数字化传承与智能分析系统** 辨病辨证规则 + 三路检索 + LLM 融合，做张锡纯学派理法方药分析（公开，未授权） [广州知云草堂医疗科技] [[专利](https://eureka.patsnap.com/patent/CN122436154A)]
 - [*CN122436116A*] **基于知识图谱与大语言模型的脾胃学派理法方药分析系统** 融合脾胃学派知识图谱、向量检索与大语言模型，完成选方验证、安全校验和处方生成（公开，未授权） [广州智韵草堂医学科技有限公司] [[专利](https://patents.google.com/patent/CN122436116A/zh)]
 - [*CN122436251A*] **一种融合时空特征的针灸推理模型构建方法、系统及设备** 对齐四诊与病程的时空特征，检索历史针灸方案后，用微调大模型和思维链做针灸推理并三维展示（公开，未授权） [北京科技大学] [[专利](https://patents.google.com/patent/CN122436251A/zh)]
+- [*CN121436110B*] **一种基于知识图谱的中医垂域大模型的训练方法** 以证候—症状词库、易混元组和上下文消歧整理预训练语料。A公开页时间线显示2026年7月31日授权并公布B文本；B正文此次未取得，技术摘要依据A公开文本。 [Daan Health Technology Beijing Co ltd] [[授权](https://patents.google.com/patent/CN121436110B/zh)] [[公开](https://patents.google.com/patent/CN121436110A/zh)]
 - [*CN122364665A*] **一种基于大语言模型的中医古籍症状标准化处理方法** 用大语言模型从中医古籍切片识别候选症状，并映射到标准症状语义场完成术语标准化（公开，未授权） [黑龙江中医药大学] [[专利](https://patents.google.com/patent/CN122364665A/zh)]
 - [*CN122135923A*] **辅助诊断结果和参考处方生成方法、装置、介质及计算机设备** 病历和诊疗思路各走向量与文本两路，四路召回后融合排序，由大模型生成中医诊断、证型、西医诊断和中药处方。2026年6月2日公开，尚未授权。 [浙江固生智能科技有限公司] [[专利](https://eureka.patsnap.com/patent/CN122135923A)]
 - [*CN122245713A*] **基于大语言模型的中医智能问诊方法及系统** 从多模态问诊数据解析问诊意图，再用双路径检索中医知识，生成问诊结果（公开，未授权） [深圳市蓝宇飞扬科技有限公司] [[专利](https://patents.google.com/patent/CN122245713A/zh)]
@@ -480,6 +490,7 @@
 - [*CN122050861A*] **基于大模型结合双通道检索的中医智慧诊疗平台构建方法** LLM+中医知识图谱双通道检索，面向名医经验传承与处方生成（公开，未授权） [上海中医药大学附属岳阳中西医结合医院，上海市皮肤病医院] [[专利](https://patents.google.com/patent/CN122050861A/zh)]
 - [*CN120913769B*] **基于多模态大模型的中医舌诊药饮推荐方法** 用大模型根据舌象生成病症描述并推荐药饮。2025年11月7日公开，2026年5月29日授权。 [天大智图（天津）科技有限公司，桂林电子科技大学] [[专利](https://patents.google.com/patent/CN120913769B/zh)]
 - [*CN122117314A*] **一种基于大语言模型的智能针灸诊断Agent系统及诊断方法** 针灸知识库 + 图谱 + 向量检索 + 重排序，LLM 智能体分类问题并主动追问（公开，未授权） [河南工业大学] [[专利](https://eureka.patsnap.com/patent/CN122117314A)]
+- [*CN121436111B*] **一种基于多模态数据融合的中医智能辨证模型训练系统及方法** 通过症状链、证候要素评分、证型逻辑组合与矛盾检测组织辨证推理。2026年5月15日授权，Google Patents显示Active；其权利要求侧重结构化推理，未据此认定公开了LLM权重。 [Daan Health Technology Beijing Co ltd] [[专利](https://patents.google.com/patent/CN121436111B/zh)]
 - [*CN122091073A*] **一种基于多任务联合优化的中药处方生成方法与装置** 预训练大模型做自回归处方序列 + 草药集合预测，照顾低频药（公开，未授权） [杭州电子科技大学] [[专利](https://eureka.patsnap.com/patent/CN122091073A)]
 - [*CN122050683A*] **一种基于图注意力网络与大语言模型的中药处方生成方法** 把中药处方生成转为多标签分类，用图注意力网络和大语言模型建模药物协同与禁忌。2026年5月15日公开。 [杭州市第一人民医院（西湖大学附属杭州市第一人民医院）] [[专利](https://patents.google.com/patent/CN122050683A/zh)]
 - [*CN121862376A*] **基于知识图谱和大语言模型的中医辨证问答系统及方法** 古籍/医案分块抽实体建图谱，再按局部与全局关键词检索生成辨证问答（公开，未授权） [南京邮电大学] [[专利](https://patents.google.com/patent/CN121862376A/zh)]
@@ -492,6 +503,7 @@
 - [*CN121460056A*] **一种基于人工智能的方剂配制方法、系统、介质和设备** 用大语言模型从医案实体判定病名与证型并生成初步方剂，再由大语言模型评分，未达标则按结构化建议重新生成（公开，未授权） [中国计量大学] [[专利](https://patents.google.com/patent/CN121460056A/zh)]
 - [*CN121460113A*] **一种基于中医语言大模型的中医智能分析方法及系统** 用LoRA微调得到中医语言大模型，按证型和主诉输出方剂（公开，未授权） [杭州轩岐智能科技有限公司，浙江中医药大学附属第三医院，北京航空航天大学] [[专利](https://patents.google.com/patent/CN121460113A/zh)]
 - [*CN121393746A*] **基于大语言模型的经络辨证与针灸方案生成方法及系统** 把多源诊疗数据量化并提质后，结合经络辨证知识库和大语言模型生成针灸方案。2026年1月23日公开。 [广州双龙脉健康产业科技有限公司] [[专利](https://patents.google.com/patent/CN121393746A/zh)]
+- [*CN121281871A*] **基于医学大语言模型多智能体的中医药临床数据自动化处理系统** 任务理解智能体、临床数据治理工具库和数据治理智能体协作，做中医疗效评价数据的结构化、标准化与流程生成。2026年1月6日公开；Google Patents显示Pending。 [四川大学华西医院] [[专利](https://patents.google.com/patent/CN121281871A/zh)]
 - [*CN121331451A*] **一种融合舌象、心率及文本的多模态健康状态评估方法** 以舌象为主、结合心率和使用者自述文本，用提示词引导DeepSeek大模型生成健康状态评估（公开，未授权） [刘家豪] [[专利](https://patents.google.com/patent/CN121331451A/zh)]
 - [*CN121436134A*] **一种多模态知识图谱构建方法及系统** 用大模型从中医药文本抽三元组，再融合真实病历层做成多模态图谱（公开，未授权） [杭州甘之草科技] [[专利](https://patents.google.com/patent/CN121436134A/zh)]
 
@@ -850,7 +862,7 @@
 - [*npj Digital Medicine*] **中医场景中医疗大模型的提示词效应** 在中医任务上评估16个大模型，说明提示词效应随模型而变，制约医疗大模型在中医场景的稳定部署 [长庚纪念医院，阳明交通大学，长庚大学] [[DOI](https://doi.org/10.1038/s41746-026-03397-5)]
 - [*JMIR Formative Research*] **中医临床决策5-LLM对比** 5个LLM中医临床决策能力对比研究 [南京中医药大学] [[DOI](https://doi.org/10.2196/80167)]
 - [*arXiv*] **TongueDx2** 舌诊深度学习设计空间系统消融研究（20+模型版本），含5109图像/976专家标注 [[论文](https://arxiv.org/abs/2607.28148)]
-- [*arXiv*] **TCMQA** 38279道中医执照考试题，并配101名执业医师的15151条作答作为人类参照 [[论文](https://arxiv.org/abs/2609.33014)]
+- [*arXiv*] **TCMQA** 论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA 4.0。 [[论文](https://arxiv.org/abs/2609.33014)] [[数据集](https://huggingface.co/datasets/TechTCM/TCMQA)]
 - [*Frontiers in Artificial Intelligence*] **TCMI-F-6D** 中医信息学跨学科基础能力六维基准 [安徽中医药大学] [[DOI](https://doi.org/10.3389/frai.2026.1780967)] [[代码](https://github.com/123adf-dev/TCMI-F-6D-Benchmark)]
 - [*arXiv*] **TCMClinicalReason-Bench** 用2000份多中心电子病历，检验模型能否按病例证据完成从病因病机、证候、治则到处方的推理 [南京中医药大学] [[论文](https://arxiv.org/abs/2610.04215)]
 - [*ICIC 2026*] **TCMBenchEval** 基于真实临床医案的LLM中医评测基准 [汕头大学] [[DOI](https://doi.org/10.1007/978-981-92-3498-1_1)]
@@ -1228,13 +1240,16 @@
 </details>
 
 <details>
-<summary>临床结构化 / 处方（9）</summary>
+<summary>临床结构化 / 处方（12）</summary>
 
 - **赵汉青门诊处方（2025）** — 赵汉青 2025 年中医内科门诊的去标识处方：122 名患者、335 张处方、5951 条药味记录，每味药有克剂量。初诊 75 张、复诊 260 张。给药途径以口服汤剂为主（315 张），另有冲服 8 张、外洗 8 张、外用 4 张。每日两次 333 张，每日三次 2 张。药名里能看到炮制写法，含「炒」412 行、「炙」341 行、「麸」289 行、「醋」164 行、「姜」154 行、「酒」89 行、「煅」67 行、「制」63 行，另有法半夏 99 行；同一行可以同时含多个字。CC BY 4.0。仓库说明就诊机构为 Beijing Heniantang Hospital。 [[数据集](https://doi.org/10.5281/zenodo.21947836)] [[代码](https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025)]
 - **胆石症中医证候代谢组** — 胆石症患者肝郁气滞与肝胆湿热两种证候的血清和尿液代谢组数据。 [[论文](https://doi.org/10.1038/s41597-025-06537-w)]
+- **汉派中医骨伤诊疗数据集** — 武汉市中医医院数据产品；报道包含16.8万条结构化诊疗数据、3600个经验方与汉派骨伤辨证思维链，已在湖北数据流通平台完成交易。仅核验发布报道，未发现可匿名批量下载的数据包。 [[新闻](https://www.cntcm.com.cn/content/202610/16/c505880.html)]
+- **广安门医院慢性胃炎数据集** — 2026年完成产权登记的中医专病数据集，用于科研与大模型领域适配。报道区分院内使用、院外协同科研和产品交易，未给本数据集规模或公开下载；医院总体资源量不能当作该集样本数。 [[新闻](https://www.cntcm.com.cn/content/202609/24/c505607.html)]
 - **古今医案云平台** — 中国中医科学院中医药信息研究所的医案检索、结构化与挖掘平台。该所2026年9月20日新闻写明，现行资源已形成110余万条高质量结构化古今医案，另有1963万条科研分析数据，注册用户约5.3万人。需注册或机构登录，未见公开批量下载。部分院校试用页仍写约50万条，与这一口径不同。 [[网站](https://www.yiankb.com/)]
 - **TCMCPD** — 从病案整理的结构化库：4895 名患者、12900 次就诊、703 味中药，就诊–证候 11879 条，就诊–药味 63192 条。剂量单位以克为主（61386），另有钱 1067、枚 364、片 240、两 69、分 64、毫升 2。并连接症状、成分和靶点，附 Neo4j 节点和边。作者说明不转发受版权限制的医案原文。描述稿目前是 Research Square 预印本。 [[数据集](https://doi.org/10.5281/zenodo.20929034)]
 - **TCM4NSCLC** — 来自一位资深中医门诊的 3,790 条非小细胞肺癌病例记录，包含重复就诊，用于辨证、处方及真实世界研究。 [[论文](https://doi.org/10.1038/s41597-026-07912-x)]
+- **TCM-Andrology-EMR** — 数据卡报告67,073次就诊、25,103名患者，金标准26,923条，提供按患者切分的JSONL；药味无剂量，舌脉字段稀缺。作者明确未做伦理审查与患者知情同意；仅作资源索引，数据来源与再利用依据需进一步核实。 [[数据集](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR)]
 - **六经辨证数据集** — 中医六经辨证数据集。 [[数据集](https://github.com/JustinWYJ/TCMdataset)]
 - **TCM-Lung 肺系病辨证处方编码集** — 河南中医药大学一附院肺系病案处理后 14948 条，仓库公开 4484 条编码（症状/证候/治法/处方 ID）；全名需邮件申请。与 TCMNSCLC 不是同一份数据 [[代码](https://github.com/2020MEAI/PresRecST)] [[论文](https://doi.org/10.1093/jamia/ocae066)]
 - **Famous Old TCM Doctors Cases** — 来源于《当代名老中医典型医案集》的当代名老中医门诊病案，数据卡写明每案含病情描述、辨证论治思路和治疗方药。 [[数据集](https://huggingface.co/datasets/TCMLM/real_clinical_cases_of_Famous_Old_TCM_Doctors)]
@@ -1263,8 +1278,10 @@
 </details>
 
 <details>
-<summary>东亚传统医学（17）</summary>
+<summary>东亚传统医学（20）</summary>
 
+- **东亚医学协会针灸经络图版库** — 既有资源补录（首发年份未确认）。按经脉并列展示十四经发挥、针灸资生经、类经图翼、经穴汇解和经络研究图版，可用于版本比较和针灸图文资料检索。是历史图版入口，非已标注视觉问答集；未确认统一批量下载及训练许可。 [[网站](https://aeam.jp/keiraku/)]
+- **东亚医学协会医学古典文本** — 既有资源补录（首发年份未确认）。官方目录提供素问、灵枢、伤寒论、金匮要略、神农本草经、难经、扁鹊仓公传七类经典入口。抽查伤寒论为可提取文字的79页PDF，说明赵开美本底本；各文本版本与再利用条款需分别确认。 [[网站](https://aeam.jp/koten/)] [[原始文件](https://aeam.jp/wp/wp-content/uploads/2024/03/shanghanlun.pdf)]
 - **VTM-TDA Benchmark** — 从杜德利《越南药用植物与药物》整理的越南传统医学计算基准，含724个已与POWO、PubChem等对齐的基原，以及1635条历史处方。 [[数据集](https://zenodo.org/records/23075405)]
 - **TreeProbe** — 藏医基准，用来测大模型的文化偏差。 [[论文](https://arxiv.org/abs/2608.00640)]
 - **韩医领域嵌入对比学习数据** — 从韩医术语与本体构造的query–positive–negatives（约11.3万对），用于BGE-M3等检索微调 [[数据集](https://huggingface.co/datasets/cnupo23/korean-medicine-embedding-dataset)]
@@ -1272,6 +1289,7 @@
 - **HerbPairIAM** — 汉方复方药物不良反应信号的成分归因数据与模型产物，Zenodo 记录含 HerbPairIAM zip 及 README。 [[数据集](https://zenodo.org/records/19326537)]
 - **健康成人韩医诊察数据集** — 先从文献抽出韩医诊察指标，经三轮专家意见形成方案，再在韩医医院连续四年采集健康成人的诊察数据。 [[论文](https://doi.org/10.3390/healthcare12090918)]
 - **VietMedKG** — 越南传统医学知识图谱与基准。 [[数据集](https://github.com/HySonLab/VietMedKG)]
+- **京都大学富士川文库数字古医书** — 京都大学古医书数字馆藏，含和汉医书及医学史资料；官方说明2018年4月完成数字化公开，并介绍与庆应义塾大学的IIIF联合展示。适合版本、影像及OCR研究，不能把馆藏部册数当成已清洗中医文本数。 [[网站](https://rmda.kulib.kyoto-u.ac.jp/collection/fujikawa)]
 - **KampoDB** — 富山大学和汉医药学综合研究所维护的汉方作用机制库，整合处方、生药、天然化合物与靶蛋白，含已知相互作用和对接预测。关于页当前统计为汉方298首、生药180种、天然化合物3002个、蛋白或基因62906个、对接结果3063505条。2018年 Scientific Reports 论文为首篇描述；站点新闻写明2021年7月15日改版。 [[网站](https://wakanmoview.inm.u-toyama.ac.jp/kampo/)] [[关于](https://wakanmoview.inm.u-toyama.ac.jp/kampo/about/)] [[DOI](https://doi.org/10.1038/s41598-018-29516-1)]
 - **韩医药素材银行药材目录 (KMMB)** — 韩国韩医药振兴院的韩医药素材银行。2016年1月1日由天然物物质银行与韩方生物素材银行合并而成。药材检索页现有 691 条，字段有药材名、异名、学名、基原植物和反应酶。 [[药材目录](https://kminfra.nikom.or.kr/kmmb/module/herbs/index.do?menu_idx=11)]
 - **KMCRIC** — 庆熙大学韩医药融合研究信息中心的数据门户。数据中心页列出循证韩医文献库（收录2010年起的系统评价、随机对照试验和机制研究）、基于 Natural Standard 的韩药相互作用库、依据2008年WHO西太区标准穴位制作的取穴视频，以及庆熙大学与忠北大学药学院合作的生药更新库。中心长介绍写明2013年起任该中心所长。 [[数据中心](https://www.kmcric.com/database/data_main)] [[中心介绍](https://www.kmcric.com/about/head_of_centre)]
@@ -1286,17 +1304,24 @@
 </details>
 
 <details>
-<summary>原始书籍 / 预训练语料（10）</summary>
+<summary>原始书籍 / 预训练语料（17）</summary>
 
+- **数字中医校书郎（CMETA）** — 既有资源补录（首发年份未确认）。中医善本协作校订平台，列有伤寒论多版本、金匮和古今医案按，界面提供Markdown/TXT导出与图文对照。需Google登录；本轮核验公开说明和导出界面，未测试登录后导出。原创校订成果CC BY 4.0，外部影像另行授权。 [[网站](https://cmeta.lctseng.csie.org/)]
+- **中国哲学书电子化计划·黄帝内经** — 既有资源补录（首发年份未确认）。黄帝内经章节化全文与相关底本入口，可定位素问篇章并关联影印馆藏。页面英文译文标注AI及用户来源，不能作为专家审定英译金标准；本轮未核验批量导出许可。 [[网站](https://ctext.org/huangdi-neijing)]
+- **中华古籍智慧化服务平台** — 既有资源补录（首发年份未确认）。国家图书馆牵头的综合古籍平台，提供全文、版本与知识检索，并列出OCR、句读和版本比对工具。可作为医家类文献补充来源；全库规模不等于中医古籍规模，未验证批量文本导出。 [[网站](https://guji.nlc.cn/)]
+- **中医药智慧数字图书馆** — 既有资源补录（首发年份未确认）。中国中医科学院中医药信息研究所门户，提供民国图书、民国再版古籍、影印珍善本、民族医药图书和期刊检索。首页与分类入口可访问，设注册登录；未验证全文访问权限和批量下载。 [[网站](https://tsg.cintcm.cn/)]
+- **上海中医药大学馆藏古籍库** — 既有资源补录（首发年份未确认）。学校图书馆介绍馆藏古籍高清扫描库，善本扫描分辨率高于600 DPI。官方入口明确校内校园网或校外VPN访问，适合底本影像核验；属机构资源，不是公开下载语料。 [[说明](https://lib.shutcm.edu.cn/Home/dbdetails/0eb195a0-b9ca-4248-ae41-c356a772cd96)]
 - **tc_medical_base** — 五部中医典籍的条文级语料共 3569 条，并带有 sentence-BERT 向量，书目为宋本伤寒论、桂林古本伤寒杂病论、金匮玉函经、金匮要略方论和傅青主女科。 [[数据集](https://huggingface.co/datasets/huckiyang/tc_medical_base)]
 - **中医经典全文语料（内经/伤寒/金匮/温病等 115 部）** — 中医经典全文数字化语料：内经、难经、伤寒论、金匮要略及温病经典 [[数据集](https://huggingface.co/datasets/wangekxy/classical-tcm-canon)]
 - **Tao-Shanghan-Corpus** — 可下载的《伤寒论》文献语料，把条文、注文和异文分开。2026 年 8 月 11 日发布的 1.0 版有条文记录 681 条，其中正条文 398 条，对齐的历史注文 2958 条，异文 616 条。许可是 CC BY 4.0。 [[DOI](https://doi.org/10.5281/zenodo.21889089)] [[数据](https://zenodo.org/records/21889089)]
+- **TCM Ancient-to-Modern Open Metadata** — 古文今译受控语料的公开元数据伴随集：9,610条索引、固定切分、版本登记与哈希，以及10条独立编写的示例译文。实验古文、现代参考译文和教师推理轨迹不公开；不能将元数据当成9,610对可训练平行文本。 [[数据集](https://huggingface.co/datasets/xs12345/TCM-Ancient-Modern-Open)] [[代码](https://github.com/xiesi1234/R1-TCM-Translator)]
 - **ShizhenGPT 中医预训练语料（论文报告共 15B+ tokens：Stage1 文本 11.92B 含 6.3B 中医语料，Stage2 多模态正文 3.8B、附录 3.84B）** — ShizhenGPT 中医预训练语料（论文报告共 15B+ tokens：Stage1 文本 11.92B 含 6.3B 中医语料，Stage2 多模态正文写 3.8B tokens，附录写 3.84B tokens） [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT)]
 - **ChiMed 2.0 中文医疗预训练数据集（覆盖中医语料）** [[论文](https://arxiv.org/abs/2507.15275)]
 - **国医典藏（中国中医古籍数字资源库）** — 中国中医科学院中医药信息研究所/图书馆的中医古籍图文库，现行入口为第4版站点。公开介绍收录先秦至清末民国医药典籍，可见口径为2500余种至3000余种，支持基本、高级和后控检索以及图文对照。校园网或注册查阅，不是公开批量下载。 [[网站](https://gydc-v4.cintcm.cn/)]
 - **高质量中医预训练数据集（医案/典籍/百科等）** — 非网络来源高质量中医预训练数据集（约 1GB），含临床案例、名家典籍、医学百科等，99% 简体中文 [[数据集](https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain)]
 - **国家中医药古籍数字图书馆** — 中国中医科学院中医药信息研究所自2022年起建设的古籍与传统知识发布门户，设古典医籍、民国文献、版本目录等分馆，并链出国医典藏等阅读系统。门户页可打开；读全文需进入分馆，不是公开批量下载。 [[网站](http://www.cintcm.com/)]
 - **700 项中医药古籍文本** — 中医药古籍文本语料合集，收录近 700 项古籍文本 [[数据集](https://github.com/xiaopangxia/TCM-Ancient-Books)]
+- **中医笈成** — 中医药古籍整理项目，按医经、诊法、本草、医方、医案等分类，提供全文检索、公开GitLab版本库与原始文件下载入口。公有领域文本的筛选、标点等编辑成果声明CC0，自创介绍页面CC BY 4.0；图片与个别页面另查。 [[网站](https://jicheng.tw/tcm/book/)] [[下载](https://jicheng.tw/tcm/download.html)] [[许可](https://jicheng.tw/tcm/copyright.html)]
 - **中华医典（商业电子丛书，第6版为网页版）** — 商业电子丛书《中华医典》的现行销售站（飞熊科技）。站点写明收录古籍1156部、约4.5亿字，2000年获得国家电子出版物提名奖，裘沛然编审并题名。第6版是网页版，购买注册后使用，不是公开下载。 [[网站](https://www.zhyd1999.com/)]
 
 </details>
@@ -1343,7 +1368,7 @@
 <details>
 <summary>考试数据集（8）</summary>
 
-- **带执业医师参照的38279题中医考试基准** — 38279道中医执照考试题，并配101名执业医师的15151条作答 [[论文](https://arxiv.org/abs/2609.33014)]
+- **带执业医师参照的中医考试基准（公开版与论文口径不同）** — 论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA 4.0。 [[论文](https://arxiv.org/abs/2609.33014)] [[数据集](https://huggingface.co/datasets/TechTCM/TCMQA)]
 - **TCMLE** — 中医执业医师与执业助理医师资格考试题库共 7956 题，其中助理医师 2700 题、执业医师 5256 题，含真题和模拟题。 [[数据集](https://huggingface.co/datasets/Bolin97/TCMLE)]
 - **TCM-Text-Exams 近年中医执业/考研真题文本基准** [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams)]
 - **Taiwan TCM Examination MCQ** — 来自台湾考选部网站的国家中医考试历届试题，README 写明年份为民国 96 至 111 年且不含 110 年，仓库文件为 basic theory of traditional Chinese medicine.csv。 [[数据集](https://huggingface.co/datasets/Liavan/Traditional-Chinese-Medicine-Multiple_choice_question)]
@@ -1355,7 +1380,7 @@
 </details>
 
 <details>
-<summary>指令/对话数据集（21）</summary>
+<summary>指令/对话数据集（22）</summary>
 
 - **HSQ-TD（健身气功指令微调数据集）** — 健身气功养生领域首个指令微调数据集，57,843条指令基于官方教材与专业文献蒸馏（ScienceDB） [[数据集](https://doi.org/10.57760/sciencedb.35843)]
 - **黄帝内经SFT指令集** — 杏核配套约2009条内经相关指令数据，含thinking/output字段 [[数据集](https://huggingface.co/datasets/zsyjsld/neijing-sft-v1.2)]
@@ -1363,6 +1388,7 @@
 - **TCMNSCLC 非小细胞肺癌中医推理真实世界数据集** — 真实世界医案全标注（辨证/治法/汤药/中成药）的中医推理数据集 [[数据集](https://huggingface.co/datasets/zhangxinxin0428/TCMNSCLC)] [[DOI](https://doi.org/10.5281/zenodo.21027568)]
 - **TCM Medical Case Commentary Generation** — 面向中医医案评注生成的数据，DataCite 说明含 510 条标准化原始医案，以及合计 2550 条的训练和测试实例，材料来自妇科经典。 [[数据集](https://doi.org/10.57760/sciencedb.j00133.00679)]
 - **Gancao-TCM-Instruct** — 甘草中医诊疗指令数据集公开版含 25000 例、125000 条样本，覆盖疾病诊断、证候诊断、治法选择、基础方剂选择和具体中药选择。 [[数据集](https://huggingface.co/datasets/GancaoDoctorAI/gancao-tcm-instruct)]
+- **Fu_TCM** — 已核验Fu_bianzheng.json、Fu_text.json、Fu_vision.json和图像文件；仓库共505个文件，标注Apache-2.0，但数据卡没有来源、样本统计或标注说明。图像文件名包含现代诊断图谱书名，底层素材授权尚待核对。 [[数据集](https://huggingface.co/datasets/fudanxai/Fu_TCM)]
 - **tw-tcm** — minyichen/tw-tcm 的数据卡给出 8145 条训练样本，字段包括 question、answer、source 和 think。 [[数据集](https://huggingface.co/datasets/minyichen/tw-tcm)]
 - **hwtcm-deepseek-r1-distill-data** — 海维团队用 DeepSeek 从网络原文蒸馏的中医推理问答指令数据。作者说明未经人工审查。 [[数据集](https://huggingface.co/datasets/Monor/hwtcm-deepseek-r1-distill-data)]
 - **ShizhenGPT 多模态指令微调数据（文本/视觉/语音/ECG 等，论文 Table 3 合计约 31.1 万条）** [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT)]

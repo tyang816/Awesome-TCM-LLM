@@ -64,9 +64,12 @@
 
 - **赵汉青门诊处方（2025）** — 赵汉青 2025 年中医内科门诊的去标识处方：122 名患者、335 张处方、5951 条药味记录，每味药有克剂量。初诊 75 张、复诊 260 张。给药途径以口服汤剂为主（315 张），另有冲服 8 张、外洗 8 张、外用 4 张。每日两次 333 张，每日三次 2 张。药名里能看到炮制写法，含「炒」412 行、「炙」341 行、「麸」289 行、「醋」164 行、「姜」154 行、「酒」89 行、「煅」67 行、「制」63 行，另有法半夏 99 行；同一行可以同时含多个字。CC BY 4.0。仓库说明就诊机构为 Beijing Heniantang Hospital。 [[数据集](https://doi.org/10.5281/zenodo.21947836)] [[代码](https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025)]
 - **胆石症中医证候代谢组** — 胆石症患者肝郁气滞与肝胆湿热两种证候的血清和尿液代谢组数据。 [[论文](https://doi.org/10.1038/s41597-025-06537-w)]
+- **汉派中医骨伤诊疗数据集** — 武汉市中医医院数据产品；报道包含16.8万条结构化诊疗数据、3600个经验方与汉派骨伤辨证思维链，已在湖北数据流通平台完成交易。仅核验发布报道，未发现可匿名批量下载的数据包。 [[新闻](https://www.cntcm.com.cn/content/202610/16/c505880.html)]
+- **广安门医院慢性胃炎数据集** — 2026年完成产权登记的中医专病数据集，用于科研与大模型领域适配。报道区分院内使用、院外协同科研和产品交易，未给本数据集规模或公开下载；医院总体资源量不能当作该集样本数。 [[新闻](https://www.cntcm.com.cn/content/202609/24/c505607.html)]
 - **古今医案云平台** — 中国中医科学院中医药信息研究所的医案检索、结构化与挖掘平台。该所2026年9月20日新闻写明，现行资源已形成110余万条高质量结构化古今医案，另有1963万条科研分析数据，注册用户约5.3万人。需注册或机构登录，未见公开批量下载。部分院校试用页仍写约50万条，与这一口径不同。 [[网站](https://www.yiankb.com/)]
 - **TCMCPD** — 从病案整理的结构化库：4895 名患者、12900 次就诊、703 味中药，就诊–证候 11879 条，就诊–药味 63192 条。剂量单位以克为主（61386），另有钱 1067、枚 364、片 240、两 69、分 64、毫升 2。并连接症状、成分和靶点，附 Neo4j 节点和边。作者说明不转发受版权限制的医案原文。描述稿目前是 Research Square 预印本。 [[数据集](https://doi.org/10.5281/zenodo.20929034)]
 - **TCM4NSCLC** — 来自一位资深中医门诊的 3,790 条非小细胞肺癌病例记录，包含重复就诊，用于辨证、处方及真实世界研究。 [[论文](https://doi.org/10.1038/s41597-026-07912-x)]
+- **TCM-Andrology-EMR** — 数据卡报告67,073次就诊、25,103名患者，金标准26,923条，提供按患者切分的JSONL；药味无剂量，舌脉字段稀缺。作者明确未做伦理审查与患者知情同意；仅作资源索引，数据来源与再利用依据需进一步核实。 [[数据集](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR)]
 - **六经辨证数据集** — 中医六经辨证数据集。 [[数据集](https://github.com/JustinWYJ/TCMdataset)]
 - **TCM-Lung 肺系病辨证处方编码集** — 河南中医药大学一附院肺系病案处理后 14948 条，仓库公开 4484 条编码（症状/证候/治法/处方 ID）；全名需邮件申请。与 TCMNSCLC 不是同一份数据 [[代码](https://github.com/2020MEAI/PresRecST)] [[论文](https://doi.org/10.1093/jamia/ocae066)]
 - **Famous Old TCM Doctors Cases** — 来源于《当代名老中医典型医案集》的当代名老中医门诊病案，数据卡写明每案含病情描述、辨证论治思路和治疗方药。 [[数据集](https://huggingface.co/datasets/TCMLM/real_clinical_cases_of_Famous_Old_TCM_Doctors)]
@@ -91,6 +94,8 @@
 
 ## 东亚传统医学
 
+- **东亚医学协会针灸经络图版库** — 既有资源补录（首发年份未确认）。按经脉并列展示十四经发挥、针灸资生经、类经图翼、经穴汇解和经络研究图版，可用于版本比较和针灸图文资料检索。是历史图版入口，非已标注视觉问答集；未确认统一批量下载及训练许可。 [[网站](https://aeam.jp/keiraku/)]
+- **东亚医学协会医学古典文本** — 既有资源补录（首发年份未确认）。官方目录提供素问、灵枢、伤寒论、金匮要略、神农本草经、难经、扁鹊仓公传七类经典入口。抽查伤寒论为可提取文字的79页PDF，说明赵开美本底本；各文本版本与再利用条款需分别确认。 [[网站](https://aeam.jp/koten/)] [[原始文件](https://aeam.jp/wp/wp-content/uploads/2024/03/shanghanlun.pdf)]
 - **VTM-TDA Benchmark** — 从杜德利《越南药用植物与药物》整理的越南传统医学计算基准，含724个已与POWO、PubChem等对齐的基原，以及1635条历史处方。 [[数据集](https://zenodo.org/records/23075405)]
 - **TreeProbe** — 藏医基准，用来测大模型的文化偏差。 [[论文](https://arxiv.org/abs/2608.00640)]
 - **韩医领域嵌入对比学习数据** — 从韩医术语与本体构造的query–positive–negatives（约11.3万对），用于BGE-M3等检索微调 [[数据集](https://huggingface.co/datasets/cnupo23/korean-medicine-embedding-dataset)]
@@ -98,6 +103,7 @@
 - **HerbPairIAM** — 汉方复方药物不良反应信号的成分归因数据与模型产物，Zenodo 记录含 HerbPairIAM zip 及 README。 [[数据集](https://zenodo.org/records/19326537)]
 - **健康成人韩医诊察数据集** — 先从文献抽出韩医诊察指标，经三轮专家意见形成方案，再在韩医医院连续四年采集健康成人的诊察数据。 [[论文](https://doi.org/10.3390/healthcare12090918)]
 - **VietMedKG** — 越南传统医学知识图谱与基准。 [[数据集](https://github.com/HySonLab/VietMedKG)]
+- **京都大学富士川文库数字古医书** — 京都大学古医书数字馆藏，含和汉医书及医学史资料；官方说明2018年4月完成数字化公开，并介绍与庆应义塾大学的IIIF联合展示。适合版本、影像及OCR研究，不能把馆藏部册数当成已清洗中医文本数。 [[网站](https://rmda.kulib.kyoto-u.ac.jp/collection/fujikawa)]
 - **KampoDB** — 富山大学和汉医药学综合研究所维护的汉方作用机制库，整合处方、生药、天然化合物与靶蛋白，含已知相互作用和对接预测。关于页当前统计为汉方298首、生药180种、天然化合物3002个、蛋白或基因62906个、对接结果3063505条。2018年 Scientific Reports 论文为首篇描述；站点新闻写明2021年7月15日改版。 [[网站](https://wakanmoview.inm.u-toyama.ac.jp/kampo/)] [[关于](https://wakanmoview.inm.u-toyama.ac.jp/kampo/about/)] [[DOI](https://doi.org/10.1038/s41598-018-29516-1)]
 - **韩医药素材银行药材目录 (KMMB)** — 韩国韩医药振兴院的韩医药素材银行。2016年1月1日由天然物物质银行与韩方生物素材银行合并而成。药材检索页现有 691 条，字段有药材名、异名、学名、基原植物和反应酶。 [[药材目录](https://kminfra.nikom.or.kr/kmmb/module/herbs/index.do?menu_idx=11)]
 - **KMCRIC** — 庆熙大学韩医药融合研究信息中心的数据门户。数据中心页列出循证韩医文献库（收录2010年起的系统评价、随机对照试验和机制研究）、基于 Natural Standard 的韩药相互作用库、依据2008年WHO西太区标准穴位制作的取穴视频，以及庆熙大学与忠北大学药学院合作的生药更新库。中心长介绍写明2013年起任该中心所长。 [[数据中心](https://www.kmcric.com/database/data_main)] [[中心介绍](https://www.kmcric.com/about/head_of_centre)]
@@ -111,15 +117,22 @@
 
 ## 原始书籍 / 预训练语料
 
+- **数字中医校书郎（CMETA）** — 既有资源补录（首发年份未确认）。中医善本协作校订平台，列有伤寒论多版本、金匮和古今医案按，界面提供Markdown/TXT导出与图文对照。需Google登录；本轮核验公开说明和导出界面，未测试登录后导出。原创校订成果CC BY 4.0，外部影像另行授权。 [[网站](https://cmeta.lctseng.csie.org/)]
+- **中国哲学书电子化计划·黄帝内经** — 既有资源补录（首发年份未确认）。黄帝内经章节化全文与相关底本入口，可定位素问篇章并关联影印馆藏。页面英文译文标注AI及用户来源，不能作为专家审定英译金标准；本轮未核验批量导出许可。 [[网站](https://ctext.org/huangdi-neijing)]
+- **中华古籍智慧化服务平台** — 既有资源补录（首发年份未确认）。国家图书馆牵头的综合古籍平台，提供全文、版本与知识检索，并列出OCR、句读和版本比对工具。可作为医家类文献补充来源；全库规模不等于中医古籍规模，未验证批量文本导出。 [[网站](https://guji.nlc.cn/)]
+- **中医药智慧数字图书馆** — 既有资源补录（首发年份未确认）。中国中医科学院中医药信息研究所门户，提供民国图书、民国再版古籍、影印珍善本、民族医药图书和期刊检索。首页与分类入口可访问，设注册登录；未验证全文访问权限和批量下载。 [[网站](https://tsg.cintcm.cn/)]
+- **上海中医药大学馆藏古籍库** — 既有资源补录（首发年份未确认）。学校图书馆介绍馆藏古籍高清扫描库，善本扫描分辨率高于600 DPI。官方入口明确校内校园网或校外VPN访问，适合底本影像核验；属机构资源，不是公开下载语料。 [[说明](https://lib.shutcm.edu.cn/Home/dbdetails/0eb195a0-b9ca-4248-ae41-c356a772cd96)]
 - **tc_medical_base** — 五部中医典籍的条文级语料共 3569 条，并带有 sentence-BERT 向量，书目为宋本伤寒论、桂林古本伤寒杂病论、金匮玉函经、金匮要略方论和傅青主女科。 [[数据集](https://huggingface.co/datasets/huckiyang/tc_medical_base)]
 - **中医经典全文语料（内经/伤寒/金匮/温病等 115 部）** — 中医经典全文数字化语料：内经、难经、伤寒论、金匮要略及温病经典 [[数据集](https://huggingface.co/datasets/wangekxy/classical-tcm-canon)]
 - **Tao-Shanghan-Corpus** — 可下载的《伤寒论》文献语料，把条文、注文和异文分开。2026 年 8 月 11 日发布的 1.0 版有条文记录 681 条，其中正条文 398 条，对齐的历史注文 2958 条，异文 616 条。许可是 CC BY 4.0。 [[DOI](https://doi.org/10.5281/zenodo.21889089)] [[数据](https://zenodo.org/records/21889089)]
+- **TCM Ancient-to-Modern Open Metadata** — 古文今译受控语料的公开元数据伴随集：9,610条索引、固定切分、版本登记与哈希，以及10条独立编写的示例译文。实验古文、现代参考译文和教师推理轨迹不公开；不能将元数据当成9,610对可训练平行文本。 [[数据集](https://huggingface.co/datasets/xs12345/TCM-Ancient-Modern-Open)] [[代码](https://github.com/xiesi1234/R1-TCM-Translator)]
 - **ShizhenGPT 中医预训练语料（论文报告共 15B+ tokens：Stage1 文本 11.92B 含 6.3B 中医语料，Stage2 多模态正文 3.8B、附录 3.84B）** — ShizhenGPT 中医预训练语料（论文报告共 15B+ tokens：Stage1 文本 11.92B 含 6.3B 中医语料，Stage2 多模态正文写 3.8B tokens，附录写 3.84B tokens） [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT)]
 - **ChiMed 2.0 中文医疗预训练数据集（覆盖中医语料）** [[论文](https://arxiv.org/abs/2507.15275)]
 - **国医典藏（中国中医古籍数字资源库）** — 中国中医科学院中医药信息研究所/图书馆的中医古籍图文库，现行入口为第4版站点。公开介绍收录先秦至清末民国医药典籍，可见口径为2500余种至3000余种，支持基本、高级和后控检索以及图文对照。校园网或注册查阅，不是公开批量下载。 [[网站](https://gydc-v4.cintcm.cn/)]
 - **高质量中医预训练数据集（医案/典籍/百科等）** — 非网络来源高质量中医预训练数据集（约 1GB），含临床案例、名家典籍、医学百科等，99% 简体中文 [[数据集](https://huggingface.co/datasets/SylvanL/Traditional-Chinese-Medicine-Dataset-Pretrain)]
 - **国家中医药古籍数字图书馆** — 中国中医科学院中医药信息研究所自2022年起建设的古籍与传统知识发布门户，设古典医籍、民国文献、版本目录等分馆，并链出国医典藏等阅读系统。门户页可打开；读全文需进入分馆，不是公开批量下载。 [[网站](http://www.cintcm.com/)]
 - **700 项中医药古籍文本** — 中医药古籍文本语料合集，收录近 700 项古籍文本 [[数据集](https://github.com/xiaopangxia/TCM-Ancient-Books)]
+- **中医笈成** — 中医药古籍整理项目，按医经、诊法、本草、医方、医案等分类，提供全文检索、公开GitLab版本库与原始文件下载入口。公有领域文本的筛选、标点等编辑成果声明CC0，自创介绍页面CC BY 4.0；图片与个别页面另查。 [[网站](https://jicheng.tw/tcm/book/)] [[下载](https://jicheng.tw/tcm/download.html)] [[许可](https://jicheng.tw/tcm/copyright.html)]
 - **中华医典（商业电子丛书，第6版为网页版）** — 商业电子丛书《中华医典》的现行销售站（飞熊科技）。站点写明收录古籍1156部、约4.5亿字，2000年获得国家电子出版物提名奖，裘沛然编审并题名。第6版是网页版，购买注册后使用，不是公开下载。 [[网站](https://www.zhyd1999.com/)]
 
 ## 评测基准
@@ -160,7 +173,7 @@
 
 ## 考试数据集
 
-- **带执业医师参照的38279题中医考试基准** — 38279道中医执照考试题，并配101名执业医师的15151条作答 [[论文](https://arxiv.org/abs/2609.33014)]
+- **带执业医师参照的中医考试基准（公开版与论文口径不同）** — 论文报告38,279题和101名执业医师；当前HF数据卡为qa 33,872题、医师标注5,250题（102名医师、15,151次作答）。两个配置不可直接相加为独立题数，使用时需固定公开版本。CC BY-NC-SA 4.0。 [[论文](https://arxiv.org/abs/2609.33014)] [[数据集](https://huggingface.co/datasets/TechTCM/TCMQA)]
 - **TCMLE** — 中医执业医师与执业助理医师资格考试题库共 7956 题，其中助理医师 2700 题、执业医师 5256 题，含真题和模拟题。 [[数据集](https://huggingface.co/datasets/Bolin97/TCMLE)]
 - **TCM-Text-Exams 近年中医执业/考研真题文本基准** [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams)]
 - **Taiwan TCM Examination MCQ** — 来自台湾考选部网站的国家中医考试历届试题，README 写明年份为民国 96 至 111 年且不含 110 年，仓库文件为 basic theory of traditional Chinese medicine.csv。 [[数据集](https://huggingface.co/datasets/Liavan/Traditional-Chinese-Medicine-Multiple_choice_question)]
@@ -177,6 +190,7 @@
 - **TCMNSCLC 非小细胞肺癌中医推理真实世界数据集** — 真实世界医案全标注（辨证/治法/汤药/中成药）的中医推理数据集 [[数据集](https://huggingface.co/datasets/zhangxinxin0428/TCMNSCLC)] [[DOI](https://doi.org/10.5281/zenodo.21027568)]
 - **TCM Medical Case Commentary Generation** — 面向中医医案评注生成的数据，DataCite 说明含 510 条标准化原始医案，以及合计 2550 条的训练和测试实例，材料来自妇科经典。 [[数据集](https://doi.org/10.57760/sciencedb.j00133.00679)]
 - **Gancao-TCM-Instruct** — 甘草中医诊疗指令数据集公开版含 25000 例、125000 条样本，覆盖疾病诊断、证候诊断、治法选择、基础方剂选择和具体中药选择。 [[数据集](https://huggingface.co/datasets/GancaoDoctorAI/gancao-tcm-instruct)]
+- **Fu_TCM** — 已核验Fu_bianzheng.json、Fu_text.json、Fu_vision.json和图像文件；仓库共505个文件，标注Apache-2.0，但数据卡没有来源、样本统计或标注说明。图像文件名包含现代诊断图谱书名，底层素材授权尚待核对。 [[数据集](https://huggingface.co/datasets/fudanxai/Fu_TCM)]
 - **tw-tcm** — minyichen/tw-tcm 的数据卡给出 8145 条训练样本，字段包括 question、answer、source 和 think。 [[数据集](https://huggingface.co/datasets/minyichen/tw-tcm)]
 - **hwtcm-deepseek-r1-distill-data** — 海维团队用 DeepSeek 从网络原文蒸馏的中医推理问答指令数据。作者说明未经人工审查。 [[数据集](https://huggingface.co/datasets/Monor/hwtcm-deepseek-r1-distill-data)]
 - **ShizhenGPT 多模态指令微调数据（文本/视觉/语音/ECG 等，论文 Table 3 合计约 31.1 万条）** [[数据集](https://huggingface.co/datasets/FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT)]
