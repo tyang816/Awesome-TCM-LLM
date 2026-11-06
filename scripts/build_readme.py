@@ -106,6 +106,12 @@ LINK_LABEL_EN = {
     "处方": "Formulas",
     "病证": "Patterns",
     "药材目录": "Herbs",
+    "主页": "Homepage",
+    "招生": "Admissions",
+    "团队": "Group",
+    "简介": "Profile",
+    "招聘": "Jobs",
+    "论坛": "Forum",
 }
 
 SEMANTIC_TAGS = {
@@ -171,6 +177,7 @@ def load_i18n_en() -> dict:
 def apply_i18n(entry: dict, i18n: dict) -> dict:
     """Return a shallow copy with English fields filled from data/i18n_en.yml."""
     out = dict(entry)
+    out["_orgs_zh"] = list(entry.get("orgs") or [])
     patch = i18n.get(entry.get("id")) or {}
     if isinstance(patch, str):
         patch = {"summary_en": patch}
@@ -499,6 +506,8 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
             buckets["dataset"].append(entry)
         elif kind == "model_hf":
             buckets["model_hf"].append(entry)
+        elif kind == "person":
+            buckets["person"].append(entry)
         elif kind == "resource":
             historical = "history" in tags or year < 2023
             named_llm = "model" in tags and "plm" not in tags
@@ -523,6 +532,8 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
                 if not placed:
                     buckets["method"].append(entry)
     for key in buckets:
+        if key == "person":
+            continue
         buckets[key].sort(key=lambda x: (year_of(x), x.get("date") or "", x.get("name") or ""), reverse=True)
     return buckets
 
@@ -555,6 +566,7 @@ def count_pack(buckets: dict[str, list[dict]]) -> dict[str, int]:
             )
         ),
         "open": sum(1 for e in buckets["model_tcm"] if is_open_weights(e)),
+        "people": len(buckets["person"]),
     }
 
 
@@ -612,6 +624,7 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
             f"| 电脑比较一般 | {xinghe} | 9B，有 GGUF |",
             f"| 做对比实验 | {ladder}、{linglan} | 任务说得比较清楚；更多在[数据集](#数据集) |",
             "| 写相关工作 | 近两年的 scoping review | 先翻[综述](#综述)，别从单篇模型论文起 |",
+            "| 找导师 | [导师](#导师) | 高校、产业、医院 |",
             "",
             "同名不一定是同一个东西。「仲景」至少有 ZhongJingGPT 和 AAAI 那条 CMtMedQA；TCM-Eval 也不止一套。说不清时看 [Getting Started](wiki/Getting-Started.md)。",
             "",
@@ -632,6 +645,7 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
         f"| Stay small | {xinghe} | 9B, GGUF available |",
         f"| Run a comparison | {ladder}, {linglan} | Tasks are spelled out; more under [Datasets](#datasets) |",
         "| Write related work | Recent scoping reviews | Skim [Surveys](#surveys) before individual model papers |",
+        "| Find a supervisor | [Supervisors](#supervisors) | Universities, industry, and hospitals |",
         "",
         "Same name does not mean the same project. ZhongJingGPT is not the AAAI CMtMedQA line, and more than one benchmark is called TCM-Eval. [Getting Started](wiki/Getting-Started.md) if that is confusing.",
         "",
@@ -721,6 +735,294 @@ def build_model_section(buckets: dict[str, list[dict]], lang: str) -> list[str]:
             else f"Other Hugging Face sizes and GGUF ({len(hf)})"
         )
         lines += fold(summary, [format_dataset_line(e, lang) for e in hf])
+    return lines
+
+
+# First match wins. More specific campuses go before the parent city.
+REGION_RULES: list[tuple[str, str, tuple[str, ...]]] = [
+    ("广东", "Guangdong", ("哈尔滨工业大学（深圳）", "香港中文大学（深圳）", "深圳", "广州", "横琴", "广东", "华南理工", "暨南", "广药", "招联", "腾讯", "固生堂", "华为云")),
+    ("山东", "Shandong", ("哈尔滨工业大学（威海）", "山东", "齐鲁工业", "步长", "东阿")),
+    ("上海", "Shanghai", ("上海", "复旦", "同济", "华东师范", "华东理工", "道生")),
+    ("江苏", "Jiangsu", ("苏州", "南京", "江苏", "中国药科", "康缘", "大经中医")),
+    ("浙江", "Zhejiang", ("浙江", "杭州", "脉景", "微医")),
+    ("安徽", "Anhui", ("安徽", "合肥工业", "科大讯飞")),
+    ("福建", "Fujian", ("福建", "厦门", "福耀", "观健在")),
+    ("江西", "Jiangxi", ("江西", "华润江中")),
+    ("天津", "Tianjin", ("天津", "天士力", "依脉", "天大智图", "国家超级计算天津", "南开")),
+    ("北京", "Beijing", ("北京", "清华", "北京大学", "首都", "中国中医科学院", "中国科学院计算", "国家蛋白质", "博奥", "同仁堂", "中日友好", "解放军总医院", "中科闻歌", "传神")),
+    ("辽宁", "Liaoning", ("辽宁", "沈阳", "东北大学", "大连化学")),
+    ("吉林", "Jilin", ("长春", "吉林")),
+    ("黑龙江", "Heilongjiang", ("黑龙江", "哈尔滨")),
+    ("河北", "Hebei", ("河北",)),
+    ("山西", "Shanxi", ("山西", "中北大学", "太原")),
+    ("河南", "Henan", ("河南", "郑州")),
+    ("湖北", "Hubei", ("湖北", "武汉")),
+    ("湖南", "Hunan", ("湖南", "智慧眼", "吉首")),
+    ("广西", "Guangxi", ("广西",)),
+    ("海南", "Hainan", ("海南",)),
+    ("重庆", "Chongqing", ("重庆", "西南大学")),
+    ("四川", "Sichuan", ("四川", "成都")),
+    ("贵州", "Guizhou", ("贵州",)),
+    ("云南", "Yunnan", ("云南",)),
+    ("西藏", "Tibet", ("西藏", "拉萨")),
+    ("陕西", "Shaanxi", ("陕西", "西北大学")),
+    ("甘肃", "Gansu", ("甘肃",)),
+    ("青海", "Qinghai", ("青海",)),
+    ("宁夏", "Ningxia", ("宁夏",)),
+    ("新疆", "Xinjiang", ("新疆",)),
+    ("内蒙古", "Inner Mongolia", ("内蒙古", "包头")),
+    ("香港", "Hong Kong", ("香港",)),
+    ("澳门", "Macao", ("澳门",)),
+    ("台湾", "Taiwan", ("中国医药大学", "长庚", "东华大学")),
+    ("日本", "Japan", ("千叶", "北里")),
+    ("韩国", "Korea", ("庆熙", "釜山", "圆光", "大邱")),
+    ("新加坡", "Singapore", ("新加坡",)),
+    ("美国", "United States", ("密苏里",)),
+    ("澳大利亚", "Australia", ("西悉尼",)),
+]
+REGION_ORDER = [
+    "北京", "天津", "河北", "山西", "内蒙古", "辽宁", "吉林", "黑龙江",
+    "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南",
+    "湖北", "湖南", "广东", "广西", "海南", "重庆", "四川", "贵州", "云南",
+    "西藏", "陕西", "甘肃", "青海", "宁夏", "新疆",
+    "香港", "澳门", "台湾", "日本", "韩国", "新加坡", "美国", "澳大利亚", "其他",
+]
+REGION_EN = {zh: en for zh, en, _ in REGION_RULES}
+REGION_EN["其他"] = "Other"
+CITY_REGION = {
+    "北京": "北京",
+    "天津": "天津",
+    "拉萨": "西藏",
+    "西宁": "青海",
+    "兰州": "甘肃",
+    "银川": "宁夏",
+    "乌鲁木齐": "新疆",
+    "呼和浩特": "内蒙古",
+    "通辽": "内蒙古",
+    "包头": "内蒙古",
+    "沈阳": "辽宁",
+    "长春": "吉林",
+    "哈尔滨": "黑龙江",
+    "上海": "上海",
+    "南京": "江苏",
+    "杭州": "浙江",
+    "合肥": "安徽",
+    "福州": "福建",
+    "厦门": "福建",
+    "南昌": "江西",
+    "太原": "山西",
+    "石家庄": "河北",
+    "保定": "河北",
+    "咸阳": "陕西",
+    "济南": "山东",
+    "郑州": "河南",
+    "武汉": "湖北",
+    "长沙": "湖南",
+    "吉首": "湖南",
+    "广州": "广东",
+    "深圳": "广东",
+    "南宁": "广西",
+    "海口": "海南",
+    "重庆": "重庆",
+    "成都": "四川",
+    "贵阳": "贵州",
+    "昆明": "云南",
+    "西安": "陕西",
+    "香港": "香港",
+    "澳门": "澳门",
+}
+UNIVERSITIES = (
+    "哈尔滨工业大学（深圳）",
+    "哈尔滨工业大学（威海）",
+    "香港中文大学（深圳）",
+    "中国科学院上海药物研究所",
+    "中国科学院大连化学物理研究所",
+    "中国科学院计算技术研究所",
+    "国家蛋白质科学中心（北京）",
+    "中医药广东省实验室",
+    "中国中医科学院",
+    "北京中医药大学",
+    "上海中医药大学",
+    "南京中医药大学",
+    "广州中医药大学",
+    "天津中医药大学",
+    "成都中医药大学",
+    "浙江中医药大学",
+    "湖南中医药大学",
+    "福建中医药大学",
+    "广西中医药大学",
+    "云南中医药大学",
+    "贵州中医药大学",
+    "安徽中医药大学",
+    "江西中医药大学",
+    "山东中医药大学",
+    "河南中医药大学",
+    "湖北中医药大学",
+    "辽宁中医药大学",
+    "长春中医药大学",
+    "黑龙江中医药大学",
+    "陕西中医药大学",
+    "北京交通大学",
+    "北京科技大学",
+    "北京航空航天大学",
+    "北京工业大学",
+    "北京邮电大学",
+    "首都师范大学",
+    "首都医科大学",
+    "华东师范大学",
+    "华东理工大学",
+    "上海交通大学",
+    "上海工程技术大学",
+    "中国药科大学",
+    "南京医科大学",
+    "南京大学",
+    "齐鲁工业大学",
+    "山东大学",
+    "沈阳药科大学",
+    "东北大学",
+    "哈尔滨工业大学",
+    "吉林工商学院",
+    "河北中医药大学",
+    "河北大学",
+    "山西中医药大学",
+    "中北大学",
+    "海南医科大学",
+    "南宁师范大学",
+    "河北北方学院",
+    "河南工业大学",
+    "郑州大学",
+    "合肥工业大学",
+    "西南大学",
+    "深圳大学",
+    "华南理工大学",
+    "香港浸会大学",
+    "香港中文大学",
+    "香港大学",
+    "澳门科技大学",
+    "澳门大学",
+    "厦门大学",
+    "广东工业大学",
+    "湖南大学",
+    "贵州医科大学",
+    "福耀科技大学",
+    "浙江工商大学",
+    "内蒙古民族大学",
+    "内蒙古医科大学",
+    "内蒙古大学",
+    "青海大学",
+    "西藏大学",
+    "新疆医科大学",
+    "新疆大学",
+    "包头医学院",
+    "吉首大学",
+    "南开大学",
+    "西北大学",
+    "浙江大学",
+    "天津大学",
+    "清华大学",
+    "北京大学",
+    "复旦大学",
+    "同济大学",
+    "暨南大学",
+    "中国医药大学",
+    "长庚大学",
+    "东华大学",
+    "千叶大学",
+    "北里大学",
+    "庆熙大学",
+    "釜山大学",
+    "圆光大学",
+    "大邱庆北科学技术院",
+    "新加坡国立大学",
+    "密苏里大学",
+    "西悉尼大学",
+)
+
+
+def _orgs_zh(entry: dict) -> list[str]:
+    saved = entry.get("_orgs_zh")
+    if isinstance(saved, list) and saved:
+        return [str(x) for x in saved]
+    orgs = entry.get("orgs") or []
+    return [str(x) for x in orgs]
+
+
+def _region_of(orgs: list[str], summary: str) -> str:
+    prefix = re.match(r"^([\u4e00-\u9fff·]{2,8})[。．]", summary or "")
+    if prefix and prefix.group(1) in CITY_REGION:
+        return CITY_REGION[prefix.group(1)]
+    blob = " ".join(orgs)
+    for region, _en, keys in REGION_RULES:
+        if any(key in blob for key in keys):
+            return region
+    return "其他"
+
+
+def _university_of(orgs: list[str]) -> str:
+    blob = " ".join(orgs)
+    for name in UNIVERSITIES:
+        if name in blob:
+            return name
+    return orgs[0] if orgs else "其他"
+
+
+def _person_group(entry: dict) -> tuple[str, str]:
+    orgs = _orgs_zh(entry)
+    summary = entry.get("summary_zh") or ""
+    region = _region_of(orgs, summary)
+    if entry.get("section") == "高校":
+        unit = _university_of(orgs)
+    else:
+        unit = orgs[0] if orgs else "其他"
+    return region, unit
+
+
+def _unit_label(entry: dict, unit_zh: str, lang: str) -> str:
+    if lang != "en":
+        return unit_zh
+    orgs = entry.get("orgs") or []
+    if not orgs or re.search(r"[\u4e00-\u9fff]", str(orgs[0])):
+        return unit_zh
+    parts = [part.strip() for part in str(orgs[0]).split(",") if part.strip()]
+    for part in reversed(parts):
+        if re.search(r"University|Hospital|Institute|Academy|College|Group", part):
+            return part
+    return parts[-1] if parts else unit_zh
+
+
+def build_person_section(people: list[dict], lang: str) -> list[str]:
+    if not people:
+        return []
+    grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    for entry in people:
+        region, unit = _person_group(entry)
+        grouped[region][unit].append(entry)
+    if lang == "zh":
+        title = "## 导师"
+        intro = "先按地区，再按高校、医院或公司。"
+        count = lambda n: f"（{n}）"
+    else:
+        title = "## Supervisors"
+        intro = "By region, then by university, hospital, or company."
+        count = lambda n: f" ({n})"
+    lines = [title, "", intro, ""]
+    regions = [name for name in REGION_ORDER if grouped.get(name)]
+    regions += [name for name in grouped if name not in regions]
+    for region in regions:
+        units = grouped[region]
+        region_entries = [entry for people_in_unit in units.values() for entry in people_in_unit]
+        region_name = region if lang == "zh" else REGION_EN.get(region, region)
+        unit_blocks: list[str] = []
+        ordered_units = sorted(units, key=lambda name: (-len(units[name]), name))
+        for unit in ordered_units:
+            members = units[unit]
+            labels = [_unit_label(entry, unit, lang) for entry in members]
+            label = sorted(labels, key=lambda text: (-labels.count(text), text))[0]
+            unit_blocks += fold(
+                f"{label}{count(len(members))}",
+                [format_resource_line(entry, lang) for entry in members],
+            )
+        lines += fold(f"{region_name}{count(len(region_entries))}", unit_blocks)
     return lines
 
 
@@ -870,7 +1172,8 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             "",
             f"开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。"
             f"现在大概有 {n['news']} 条新闻、{n['models']} 个模型、{n['surveys']} 篇综述、"
-            f"{n['patents']} 件专利、{n['datasets']} 个数据集、{n['papers']} 篇方法论文。[欢迎补条目](CONTRIBUTING.md)。",
+            f"{n['patents']} 件专利、{n['datasets']} 个数据集、{n['papers']} 篇方法论文，"
+            f"以及 {n['people']} 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。",
             "",
             f"[项目页]({portal}) · [中文项目页]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [主页]({SITE_ZH})",
             "",
@@ -885,7 +1188,8 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             "",
             f"Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. "
             f"Right now: {n['news']} news items, {n['models']} models, {n['surveys']} surveys, "
-            f"{n['patents']} patents, {n['datasets']} datasets, {n['papers']} method papers. [PRs welcome](CONTRIBUTING.md).",
+            f"{n['patents']} patents, {n['datasets']} datasets, {n['papers']} method papers, "
+            f"and {n['people']} TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).",
             "",
             f"[Project page]({portal}) · [Chinese catalog]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
             "",
@@ -893,6 +1197,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
 
     lines = header
     lines += takeaway_block(buckets, lang)
+    lines += build_person_section(buckets.get("person") or [], lang)
     lines += build_model_section(buckets, lang)
     lines += build_news_section(buckets["news"], lang)
     lines += build_survey_section(buckets["survey"], lang)
@@ -1034,12 +1339,39 @@ def build_wiki_benchmarks(buckets: dict[str, list[dict]]) -> str:
     return "\n".join(lines)
 
 
+def build_wiki_people(buckets: dict[str, list[dict]]) -> str:
+    people = buckets.get("person") or []
+    grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    for entry in people:
+        region, unit = _person_group(entry)
+        grouped[region][unit].append(entry)
+    lines = [
+        "# 导师",
+        "",
+        "先按地区，再按高校、医院或公司。与 README [导师](../README.md#导师) 同源。",
+        "",
+    ]
+    regions = [name for name in REGION_ORDER if grouped.get(name)]
+    regions += [name for name in grouped if name not in regions]
+    for region in regions:
+        units = grouped[region]
+        n = sum(len(members) for members in units.values())
+        lines += [f"## {region}（{n}）", ""]
+        for unit in sorted(units, key=lambda name: (-len(units[name]), name)):
+            lines += [f"### {unit}（{len(units[unit])}）", ""]
+            lines += _wiki_list(units[unit])
+            lines.append("")
+    lines += ["返回 [[Home]] · 分类法见 [[Taxonomy]]。", ""]
+    return "\n".join(lines)
+
+
 def write_wiki_generated(buckets: dict[str, list[dict]]) -> None:
     WIKI_DIR.mkdir(exist_ok=True)
     mapping = {
         "Models.md": build_wiki_models(buckets),
         "Datasets.md": build_wiki_datasets(buckets),
         "Benchmarks.md": build_wiki_benchmarks(buckets),
+        "People.md": build_wiki_people(buckets),
     }
     for name, text in mapping.items():
         (WIKI_DIR / name).write_text(text, encoding="utf-8")
@@ -1067,7 +1399,7 @@ def main() -> None:
     write_wiki_generated(classify_items(zh_items))
     msg = (
         f"Wrote {README_ZH.relative_to(ROOT)}, {README_EN.relative_to(ROOT)}, "
-        f"{CATALOG_JSON.relative_to(ROOT)}, and wiki/{{Models,Datasets,Benchmarks}}.md "
+        f"{CATALOG_JSON.relative_to(ROOT)}, and wiki/{{Models,Datasets,Benchmarks,People}}.md "
         f"({len(payload['items'])} items; i18n_en={len(i18n_en)})"
     )
     print(msg)

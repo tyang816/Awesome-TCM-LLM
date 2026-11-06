@@ -1,11 +1,11 @@
 meta:
   title: Awesome-TCM-LLM
   title_zh: 开源中医模型、数据、论文、专利
-  description_zh: 开源中医模型、数据、论文、专利精选，也带一点相关中文医疗资源。
-  description_en: Curated open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources.
+  description_zh: 开源中医模型、数据、论文、专利精选，并收录中医药人工智能导师。
+  description_en: Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-11-05'
+  updated_at: '2026-11-06'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -13424,3 +13424,6743 @@ items:
   patent_status: published-pending
   access: public-patent-text
   evidence_level: primary-page
+- id: person-li-shao
+  name: 李梢
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 清华大学教授、博士生导师，北京市中医药交叉研究所所长。做网络药理学与中医药人工智能，研究肿瘤等复杂疾病的中西医防治，招收博士后和工程博士。
+  orgs:
+  - 清华大学自动化系
+  - 清华大学北京市中医药交叉研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.tcm-x.tsinghua.edu.cn/info/1512/2662.htm
+    招生: https://www.tcm-x.tsinghua.edu.cn/zszp.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fan-xiaohui
+  name: 范骁辉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江大学求是特聘教授、博士生导师，浙江中医药大学副校长。方向是中医药人工智能，课题组 TCM+X 发布 TCMChat。
+  orgs:
+  - 浙江大学药学院
+  - 浙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://person.zju.edu.cn/fanxh
+    论文: https://doi.org/10.1016/j.phrs.2024.107530
+    代码: https://github.com/ZJUFanLab/TCMChat
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-xuezhong
+  name: 周雪忠
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京交通大学计算机学院教授、博士生导师、人工智能系系主任。做中医药知识图谱、大语言模型和临床人工智能，团队发布灵丹、灵丹-V2。
+  orgs:
+  - 北京交通大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.bjtu.edu.cn/8029/
+    论文: https://arxiv.org/abs/2610.14705
+    代码: https://github.com/TCMAI-BJTU/Lingdan-V2
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-kongfa
+  name: 胡孔法
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学副校长、博士生导师，省级人工智能学院院长。做中医药人工智能、知识图谱与大模型，主持舌诊、辨证大模型和江苏省中医垂直领域大模型。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxjs.njucm.edu.cn/2026/0424/c465a167934/pagem.htm
+    新闻: http://xxjs.njucm.edu.cn/2025/0908/c467a160307/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-jianxin
+  name: 陈建新
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学生命科学学院教授、博士生导师。做中医药数据挖掘和中西医结合人工智能，建设 SymMap。2026 年招收中医信息学、中医药大数据方向博士。
+  orgs:
+  - 北京中医药大学生命科学学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://shengming.bucm.edu.cn/jyjx/yjs/dsfc/584c26a2af124c56841daf796c2d24c4.htm
+    招生: https://shengming.bucm.edu.cn/docs/2026-03/094923d029c745a7aa5b3f7493ee8d2c.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-jincheng
+  name: 郭津丞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学中医学院教授、博士生导师。做中医药生物信息学、数字孪生与智能体，建设 HERB、POINT。2026 年与中国科学院赵屹联合招收中医药生物信息学博士。
+  orgs:
+  - 北京中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jichu.bucm.edu.cn/xygk/jxkyjg/yjstpt/zyxxxyjzx/szdw22/b1fbbc5c520c4cd88e780576f381dc05.htm
+    招生: https://shengming.bucm.edu.cn/docs/2026-03/445adae3d9514d6580b200fb317f602c.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-benyou
+  name: 王本友
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港中文大学（深圳）数据科学学院助理教授、博士生导师、校长青年教授。做医疗多模态大模型，团队发布中医多模态模型 ShizhenGPT。
+  orgs:
+  - 香港中文大学（深圳）数据科学学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.slai.edu.cn/zh-hans/teacher/208
+    论文: https://arxiv.org/abs/2508.14706
+    团队: https://freedomintelligence.github.io/people/
+    代码: https://github.com/FreedomIntelligence/ShizhenGPT
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-xin
+  name: 王鑫
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 天津大学人工智能学院教授、博士生导师。做知识图谱与大模型，与天津中医药大学合作发布中医大模型岐伯。
+  orgs:
+  - 天津大学智能与计算学部
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cic.tju.edu.cn/info/1114/2744.htm
+    团队: http://www.tjudb.cn/dbgroup/Xin_Wang_zh
+    论文: https://doi.org/10.1016/j.eswa.2025.127672
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lu-wenpeng
+  name: 鹿文鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 齐鲁工业大学（山东省科学院）教授、博士生导师，自然语言处理与认知计算团队负责人。做医疗大语言模型与智能体，团队发布扁仓中医大模型。
+  orgs:
+  - 齐鲁工业大学（山东省科学院）
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://nlp.qlu.edu.cn/wenpeng_lu/
+    论文: https://arxiv.org/abs/2411.11027
+    代码: https://github.com/QLU-NLP/BianCang
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-junhua
+  name: 张俊华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 天津中医药大学教授、博士生导师，现代中医药海河实验室常务副主任。做循证中医药与组分中药，团队发布中医药循证评价智能体 AireviewAgent。
+  orgs:
+  - 天津中医药大学中医药研究院
+  - 现代中医药海河实验室
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://institute.tjutcm.edu.cn/info/1049/2127.htm
+    新闻: https://www.tjutcm.edu.cn/info/1047/1971.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-haiyu
+  name: 许海玉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院首席研究员，中药研究所整合中药学研究中心主任。做整合药理学与中医药大数据，建设 ETCM、SoFDA。2026 年在辽宁中医药大学招收中医人工智能科学与技术方向博士。
+  orgs:
+  - 中国中医科学院中药研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.icmm.ac.cn/zjjj/sxyjyd/content_128.html
+    招生: https://gjhzjlc.lnutcm.edu.cn/liaoningzhongyiyaodaxue2026nianshenqing-kaohejishuobolianduboshiyanjiushengzhaoshengzhuanyemuluxueshuxuewei.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wen-chuanbiao
+  name: 温川飙
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 成都中医药大学博士生导师。团队建设中医药 AI 模型高质量数据集，并做中医药人工智能 AIGC；数据集入选人工智能医疗器械揭榜挂帅。
+  orgs:
+  - 成都中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://zyd.cdutcm.edu.cn/yjs/dsfc/bsyjsds
+    新闻: https://www.cdutcm.edu.cn/info/1074/138321.htm
+    论坛: https://www.cdutcm.edu.cn/info/1074/136241.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-baoyan
+  name: 刘保延
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院首席研究员。做中医临床疗效评价与中医药大数据，参与灵丹-V2，并与固生堂合作中医药大模型和真实世界数据。
+  orgs:
+  - 中国中医科学院
+  tags:
+  - mentor
+  - university
+  links:
+    简介: https://www.ch-s.wtcmaw.events/%E5%8F%82%E4%BC%9A%E5%8D%95%E4%BD%8D/%E4%B8%BB%E5%B8%AD%E5%9B%A2/speaker-bio-%E5%88%98%E4%BF%9D%E5%BB%B6
+    论文: https://arxiv.org/abs/2610.14705
+    新闻: https://www.gstzy.cn/news/detail/10/14073.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-liang
+  name: 刘良
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国工程院院士，中医药广东省实验室（横琴实验室）主任。实验室从事辨证论治、现代诊疗装备和中医横琴大模型。
+  orgs:
+  - 中医药广东省实验室
+  - 广州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    招聘: https://www.gzucm.edu.cn/info/1461/117451.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-nenggui
+  name: 许能贵
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学二级教授、博士生导师，华南针灸研究中心主任。主持基于人工智能的针刺治疗脑病机制研究。
+  orgs:
+  - 广州中医药大学华南针灸研究中心
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://scrcam.gzucm.edu.cn/info/1101/1488.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-wenjia
+  name: 王文佳
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 天士力数智本草大模型负责人，并参与灵丹-V2。
+  orgs:
+  - 天士力
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.taslypharma.com/tsl/41063.jhtml
+    论文: https://arxiv.org/abs/2610.14705
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-lei
+  name: 王磊
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 中国科学院自动化研究所研究员，中科闻歌董事长。与中国中医科学院联合研发大医金匮，并任中医药智能科学与工程技术研究中心学术指导委员会委员。
+  orgs:
+  - 中科闻歌
+  - 中国科学院自动化研究所
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://news.sciencenet.cn/htmlnews/2025/5/544108.shtm
+    网站: https://tcm.wenge.com/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zheng-xiang
+  name: 郑项
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 固生堂副总裁，负责国医 AI 分身和中医大脑。
+  orgs:
+  - 固生堂
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.gstzy.cn/news/detail/10/13791.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-zhongkai
+  name: 扈中凯
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 固生堂首席技术官，负责中医大模型、临床数据和诊疗场景落地。
+  orgs:
+  - 固生堂
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.gstzy.cn/news/detail/10/13791.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-luo-changyong
+  name: 骆长永
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 北京中医药大学东方医院硕士研究生导师。做中医人工智能及疫病、慢病智能化防治，发表中医大模型天医。
+  orgs:
+  - 北京中医药大学东方医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.dongfangyy.com.cn/Html/News/Articles/13293.html
+    论文: https://doi.org/10.1016/j.inffus.2025.103663
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-dan
+  name: 胡聃
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 上海市第七人民医院院长。医院发布岐元中医大模型，与上海中医药大学、上海人工智能实验室合作。
+  orgs:
+  - 上海中医药大学附属第七人民医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: http://sh.news.cn/20260719/ef7034ccc6394653825f97a21452738e/c.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-sun-maosong
+  name: 孙茂松
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 清华大学计算机系长聘教授、博士生导师，人工智能研究院常务副院长。做自然语言处理与大模型，团队与固生堂合作研发中医药大模型。
+  orgs:
+  - 清华大学计算机系
+  - 清华大学人工智能研究院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://nlp.csai.tsinghua.edu.cn/staff/sms/
+    新闻: https://www.gstzy.cn/news/detail/10/14076.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-dezheng
+  name: 张德政
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京科技大学计算机与通信工程学院教授、博士生导师。做中医知识图谱和智能辅助诊断，团队发布张仲景中医药大模型，并受聘河南中医药大学特聘教授。
+  orgs:
+  - 北京科技大学计算机与通信工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.ustb.edu.cn/DezhengZhang/zh_CN/index.htm
+    新闻: https://news.ustb.edu.cn/info/1087/67760.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hao-bowen
+  name: 郝博文
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 首都师范大学管理学院副教授。与团队发布中医方剂模型知方丹台，用图谱检索增强生成方剂。
+  orgs:
+  - 首都师范大学管理学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://glxy.cnu.edu.cn/szdw/zrjs/ggsyglzy_05f39083c56d46acbb48d86628e8cc70/index.htm
+    论文: https://arxiv.org/abs/2509.05867
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-zuojian
+  name: 周作建
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院教授、博士生导师，中医药人工智能交叉学科带头人。做中医药人工智能、健康物联网和智能装备。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxjs.njucm.edu.cn/2018/0928/c465a43551/pagem.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-meng-zhaopeng
+  name: 孟昭鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 天津大学教授、博士生导师，原天津中医药大学副校长。做人工智能与中医药，包括中医药大模型、智能问答和四诊设备。
+  orgs:
+  - 天津大学
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kjc.gyu.edu.cn/info/1008/2020.htm
+    新闻: https://yuyanwenhua.tjutcm.edu.cn/info/1036/1916.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yinglong
+  name: 王英龙
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 齐鲁工业大学（山东省科学院）教授、博士生导师。做医学人工智能与高性能计算，与团队发布扁仓中医大模型。
+  orgs:
+  - 齐鲁工业大学（山东省科学院）
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://bdi.qlu.edu.cn/2021/1222/c10714a176991/page.htm
+    代码: https://github.com/QLU-NLP/BianCang
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-wei
+  name: 陈伟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 成都中医药大学讲席教授。团队发布中药全产业链大模型本草智库，覆盖药材基因、成分靶点和知识图谱。
+  orgs:
+  - 成都中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.cdutcm.edu.cn/info/1080/4591.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gu-xiaohong
+  name: 谷晓红
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学教授、博士生导师，中医疫病研究院院长。做温病与名医数智传承，并与曹鹏等合作发表中医大模型天医。
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jichu.bucm.edu.cn/xygk/jxkyjg/jys/wbjys/szdw6/220d8b80aef84862a6355b25dfef5f29.htm
+    新闻: https://www.njucm.edu.cn/2025/0910/c6754a160459/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-bing
+  name: 徐冰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学中药学院教授、博士生导师、副院长。做中药智能制药，建设 iTCM 智慧制药系统，并负责薪火中国药大模型建设。
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://infopharm.bucm.edu.cn/kxyj/yjdw/31874.htm
+    新闻: https://zhongyao.bucm.edu.cn/yyxw/57d9fb0a8af1496b88ca404e51e4e7d1.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zeng-fang
+  name: 曾芳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 成都中医药大学教授、博士生导师、校长。做针灸效应与人工智能辅助临床决策，团队研究大模型参与腧穴配伍决策。
+  orgs:
+  - 成都中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cdutcm.edu.cn/info/1004/1005.htm
+    新闻: https://www.cdutcm.edu.cn/info/1075/138561.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cao-peng
+  name: 曹鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学研究员。团队与北京中医药大学谷晓红等合作发表中医大模型天医。
+  orgs:
+  - 南京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.njucm.edu.cn/2025/0910/c6754a160459/page.htm
+    论文: https://doi.org/10.1016/j.inffus.2025.103663
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-honglin
+  name: 李洪林
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东师范大学药学院院长、博士生导师。做人工智能药物设计。学校联合上海中医药大学等发布数智岐黄中医药大模型。
+  orgs:
+  - 华东师范大学药学院
+  - 临港实验室
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://pharm.ecnu.edu.cn/46547/list.htm
+    新闻: https://www.ecnu.edu.cn/info/1426/65503.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lyu-aiping
+  name: 吕爱平
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港浸会大学副校长、中医药学院讲座教授。做中医药转化与系统医学，推动中医药和人工智能、数据科学结合。
+  orgs:
+  - 香港浸会大学中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://endowed-professorships.hkbu.edu.hk/zh-hk/endowed-professors/professor-lyu-aiping.html
+    新闻: https://jumc.jju.edu.cn/info/1049/6997.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-he-enpei
+  name: 何恩培
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 传神语联创始人、董事长兼首席执行官。公司发布任度大模型和传神素问中医大模型。
+  orgs:
+  - 传神语联
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.transn.com/mobile/about_us/intro
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-wenyou
+  name: 李文友
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 大经中医创始人、董事长。公司发布岐黄问道中医大模型，用知识图谱和临床数据做辅助诊疗。
+  orgs:
+  - 大经中医
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.vbdata.cn/1518996221
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhao-jing
+  name: 赵静
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 大经中医联合创始人、副总经理，南京中医药大学产业教授、研究生导师。负责岐黄问道的研究，并与高校、医院合作。
+  orgs:
+  - 大经中医
+  - 南京中医药大学
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.vbdata.cn/1518996221
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qiu-jianhua
+  name: 邱建华
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 智慧眼创始人、董事长。公司发布多模态大模型砭石，用于问诊、舌面诊和中医四诊。
+  orgs:
+  - 智慧眼
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.a-eye.cn/news_list/296.html
+    网站: https://www.a-eye.cn/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-jiafeng
+  name: 周佳峰
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 科大讯飞副总裁。与北京中医药大学合作建设薪火中国药中医药教育大模型。
+  orgs:
+  - 科大讯飞
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://zhongyao.bucm.edu.cn/yyxw/57d9fb0a8af1496b88ca404e51e4e7d1.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-mingjun
+  name: 朱明军
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 河南中医药大学第一附属医院教授、岐黄学者。牵头数智中医慢病防控和中医大数据，并参与学校数智中医药研究院。
+  orgs:
+  - 河南中医药大学第一附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.hnzhy.com/TDoctors-3.html
+    新闻: http://www.ha.xinhua.org/20260817/ef25dd0c98e94a94be25f0f3b064ee1c/c.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-xiaoqing
+  name: 张晓晴
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学生命科学学院博士生导师。做人工智能与中医数量化辨证、头面望诊和智慧中医装备。
+  orgs:
+  - 北京中医药大学生命科学学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://shengming.bucm.edu.cn/jyjx/yjs/dsfc/31df29a5d6b04e539b7a90e1bff9d2bc.htm
+    招生: https://shengming.bucm.edu.cn/docs/2026-03/9f61983b960a443ea888399d6d5b09d5.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-jie
+  name: 李颉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学中医药人工智能学院教授。带队做中医药大模型、多模态智能体和中药研发数字化。
+  orgs:
+  - 上海中医药大学中医药人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://aishutcm.shutcm.edu.cn/2026/0327/c7887a172347/page.htm
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/f9/d9/0c9d59b941d3b1bb03c93fc8aa1c/a33367af-8441-476a-9ca6-74e1abc59992.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-xiaojuan
+  name: 胡晓娟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学中医药人工智能学院硕士生导师。方向是中医智能诊疗技术。
+  orgs:
+  - 上海中医药大学中医药人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tu-liping
+  name: 屠立平
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学中医药人工智能学院硕士生导师。方向是中医诊断信息化与智能化。
+  orgs:
+  - 上海中医药大学中医药人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-sun-jijia
+  name: 孙继佳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学中医药人工智能学院硕士生导师。方向是基于人工智能的计算药物发现。
+  orgs:
+  - 上海中医药大学中医药人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-shaoxiong
+  name: 李少雄
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学中医药人工智能学院硕士生导师。方向是医学智能算法与智能硬件。
+  orgs:
+  - 上海中医药大学中医药人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zheng-guangyong
+  name: 郑广勇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学交叉科学研究院硕士生导师。方向是基于人工智能的中药药理。
+  orgs:
+  - 上海中医药大学交叉科学研究院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lu-dong
+  name: 陆冬
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学交叉科学研究院硕士生导师。方向是人工智能与药物设计，用于中药研究。
+  orgs:
+  - 上海中医药大学交叉科学研究院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guan-xiaoqing
+  name: 关晓青
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学交叉科学研究院硕士生导师。方向是大数据与人工智能药物研发。
+  orgs:
+  - 上海中医药大学交叉科学研究院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-feng-shengyi
+  name: 冯圣一
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 上海中医药大学附属岳阳中西医结合医院硕士生导师。方向是人工智能赋能中医骨伤康复。
+  orgs:
+  - 上海中医药大学附属岳阳中西医结合医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gao-feng
+  name: 高峰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院博士生导师。方向是机器学习与中医药人工智能。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://gra.njucm.edu.cn/_upload/article/files/8f/0a/bd6170cd44ad94f0d3108af24abe/aff48fcb-3589-4b90-a66d-c93ec91ba0d1.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-haiyan
+  name: 李海燕
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院博士生导师。方向是机器学习与中医药人工智能。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://gra.njucm.edu.cn/_upload/article/files/8f/0a/bd6170cd44ad94f0d3108af24abe/aff48fcb-3589-4b90-a66d-c93ec91ba0d1.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gu-wanjun
+  name: 顾万君
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院博士生导师。方向是生物信息与中医药大数据。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://gra.njucm.edu.cn/_upload/article/files/8f/0a/bd6170cd44ad94f0d3108af24abe/aff48fcb-3589-4b90-a66d-c93ec91ba0d1.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-ting
+  name: 吴婷
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 江苏省中医院博士生导师。方向是疼痛功能影像的人工智能分类和纳米诊疗。
+  orgs:
+  - 江苏省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    招生: https://gra.njucm.edu.cn/_upload/article/files/69/4f/90badc1f4e238ef01e08cf30e770/caac9243-df3c-4435-8167-f3f4d2f44416.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qu-ding
+  name: 瞿鼎
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 江苏省中医药研究院博士生导师。方向是人工智能赋能创新中药制剂。
+  orgs:
+  - 江苏省中医药研究院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://gra.njucm.edu.cn/_upload/article/files/69/4f/90badc1f4e238ef01e08cf30e770/caac9243-df3c-4435-8167-f3f4d2f44416.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhao-yi
+  name: 赵屹
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学医学信息工程学院博士生导师。2026 年招收中医药人工智能方向。
+  orgs:
+  - 广州中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cao-dong
+  name: 曹东
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学医学信息工程学院博士生导师。2026 年招收中医药人工智能方向。
+  orgs:
+  - 广州中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-wu
+  name: 周武
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学医学信息工程学院博士生导师。方向是中医舌诊、面诊智能化和中医证候客观化。
+  orgs:
+  - 广州中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-hui
+  name: 黎晖
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学基础医学院博士生导师。方向包括中医人工智能理论基础与应用。
+  orgs:
+  - 广州中医药大学基础医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-xinlin
+  name: 陈新林
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学基础医学院博士生导师。方向是中医大数据统计分析和个体化设计评价。
+  orgs:
+  - 广州中医药大学基础医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lin-chuanquan
+  name: 林传权
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学科技创新中心博士生导师。方向包括人工智能与中医诊疗现代化。
+  orgs:
+  - 广州中医药大学科技创新中心
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liang-yong
+  name: 梁勇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中医药广东省实验室（横琴实验室）博士生导师。2026 年在广州中医药大学招收中医药人工智能方向。
+  orgs:
+  - 中医药广东省实验室
+  - 广州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.gzucm.edu.cn/info/1005/17376.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-peng-shaoliang
+  name: 彭绍亮
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 湖南中医药大学中医学院博士生导师。方向是生物信息与人工智能。
+  orgs:
+  - 湖南中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: http://static.hhkaobo.com/upload/editor/7a445106-62d0-4b9e-86b1-25e9fed5229f.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-leng-jinhong
+  name: 冷锦红
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 辽宁中医药大学第一临床学院博士生导师。2026 年招收中医人工智能科学与技术方向。
+  orgs:
+  - 辽宁中医药大学第一临床学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://gjhzjlc.lnutcm.edu.cn/liaoningzhongyiyaodaxue2026nianshenqing-kaoheboshiyanjiushengzhaoshengzhuanyemuluzhuanyexuewei.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhao-xiangxuan
+  name: 赵相轩
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 辽宁中医药大学基础医学院博士生导师。方向是中医药人工智能科学。
+  orgs:
+  - 辽宁中医药大学基础医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://gjhzjlc.lnutcm.edu.cn/liaoningzhongyiyaodaxue2026nianshenqing-kaohejishuobolianduboshiyanjiushengzhaoshengzhuanyemuluxueshuxuewei.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-deng-xin
+  name: 邓鑫
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广西中医药大学瑞康临床医学院博士生导师。方向包括中医药治疗慢性肝病、肿瘤和中医药人工智能。
+  orgs:
+  - 广西中医药大学瑞康临床医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://www.gxtcmu.edu.cn/upload/yjsy/contentmanage/article/file/2025/11/25/%E5%B9%BF%E8%A5%BF%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62026%E5%B9%B4%E5%8D%9A%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%EF%BC%88%E5%8F%91%E5%B8%83%E5%AE%98%E7%BD%91%EF%BC%89.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-feng-disheng
+  name: 丰迪生
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 福建中医药大学药学院硕士生导师。方向是人工智能与代谢组学。
+  orgs:
+  - 福建中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://static.kaoyan.cn/file/2025/09/22/681e4fb4056d67fff4ae7ff9501397da.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-yongjing
+  name: 刘永静
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 福建中医药大学药学院硕士生导师。方向是人工智能与代谢组学。
+  orgs:
+  - 福建中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://static.kaoyan.cn/file/2025/09/22/681e4fb4056d67fff4ae7ff9501397da.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yu-tong
+  name: 于彤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中医药信息研究所研究员、硕士生导师。做中医药知识图谱、术语系统和垂直领域大模型。
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8370
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yu-qi
+  name: 于琦
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中医药信息研究所研究员、硕士生导师。做名医传承信息化、临床知识库和中医药人工智能。
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8272
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-jinghua
+  name: 李敬华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中医药信息研究所研究员、博士生导师，大健康智能研发中心主任。做中医临床辅助决策、古今医案平台和四诊机器人。
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8351
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-haiyan-cintcm
+  name: 李海燕
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中医药信息研究所研究员、博士生导师。做大模型中成药推荐，并用于医源中医大模型。
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8065
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-bing
+  name: 李兵
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中药研究所研究员，本草数智中心副主任。做中医典籍知识图谱、古籍大模型和临床辅助决策。
+  orgs:
+  - 中国中医科学院中药研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://wenxian.sdutcm.edu.cn/info/1040/2352.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-yanqiong
+  name: 张彦琼
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中药研究所研究员、博士生导师，中药药性理论研究中心主任。用组学大数据和生物网络解析中药作用与合理用药。
+  orgs:
+  - 中国中医科学院中药研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyao.bucm.edu.cn/szdw/bssds/lczyxbsds_20220622170829152708/a055bcd9f9a04c558a83f4a9c8c28ede.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-hongjun
+  name: 杨洪军
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院副院长，研究员、博士生导师。做整合药理学和中医传承辅助平台，并提出 AI4TCM。
+  orgs:
+  - 中国中医科学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.merc.ac.cn/zykx/detail.html?contentId=89&id=13
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-zhisheng
+  name: 吴志生
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学研究员、博士生导师，中药智能制造学科带头人。做中药制造测量和中药智造平台。
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://infopharm.bucm.edu.cn/kxyj/yjdw/44025.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yun
+  name: 王耘
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学中药学院研究员、博士生导师，中药信息学系主任。做中药信息融合、药性组合智能设计，以及大模型与知识图谱。
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyao.bucm.edu.cn/szdw/sssds/szzyxssds/f55f7fd12b174137b01a59dd3d256dd1.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-yanling
+  name: 张燕玲
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学中药学院研究员、博士生导师。从虚拟筛选做到人工智能组方。
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyao.bucm.edu.cn/szdw/bssds/szzyx_20220622170829152708/a2c5cdca5e504f91b7f702a883bdd762.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-mei
+  name: 张玫
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学研究员、博士生导师。研发数智中医嗅诊装备，推动闻诊与辨证客观化。
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyao.bucm.edu.cn/szdw/bssds/zyfxxbsds_20220622170729411401/d86a8ba8fa764445b796a6f218c2a79d.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-ji
+  name: 王济
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学教授、博士生导师，国家中医体质与治未病研究院常务副院长。做中医体质、人工智能和数字健康。
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://tizhi.bucm.edu.cn/szdw/jsjj/2efe37af25e147e5af41ad78f80c669f.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-zhengjun
+  name: 张正军
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学数据科学与人工智能学院院长。用大数据和系统药理学打通辨证到精准用药。
+  orgs:
+  - 北京中医药大学数据科学与人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: http://finance.people.com.cn/n1/2026/0817/c1004-40781088.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-shang-hongcai
+  name: 商洪才
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 北京中医药大学东方医院院长，研究员、博士生导师。做广义望诊智能采集和中医临床辅助决策。
+  orgs:
+  - 北京中医药大学东方医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://dongfangyy.com.cn/Html/News/Articles/12504.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-zhen
+  name: 刘震
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中国中医科学院广安门医院党委书记。牵头四诊与辨证大模型，并发布广医·岐智。
+  orgs:
+  - 中国中医科学院广安门医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://www.gamyy.cn/gzb/news/big/115621.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-hao
+  name: 徐浩
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中国中医科学院首席研究员、西苑医院副院长。用深度神经网络做名老中医知识库和智能辅助诊疗。
+  orgs:
+  - 中国中医科学院西苑医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://xyhospital.com/Html/News/Articles/21500.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cheng-yongzhong
+  name: 成永忠
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中国中医科学院望京医院主任医师、博士生导师。主持中医正骨智能接骨手术机器人。
+  orgs:
+  - 中国中医科学院望京医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://zyj.beijing.gov.cn/sy/rdzt/bjyyjkxtzyygzlyfgc/202501/P020250124625181340715.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-aziguli
+  name: 阿孜古丽·吾拉木
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京科技大学计算机与通信工程学院教授、博士生导师。做多维望诊融合和中医临床智能辅助诊断，并指导中医药大模型。
+  orgs:
+  - 北京科技大学计算机与通信工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://it.xju.edu.cn/info/1327/2835.htm
+    新闻: https://news.ustb.edu.cn/info/1981/67772.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-zeming
+  name: 柳泽明
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京航空航天大学计算机学院副教授。主持中医领域专业大模型关键技术研发。
+  orgs:
+  - 北京航空航天大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://teacher.buaa.edu.cn/liuzeming/zh_CN/kyxm/206021/content/6796.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-jiatuo
+  name: 许家佗
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学二级教授、博士生导师，中医信息科学与技术研究中心主任。主持中医智能舌诊系统研发。
+  orgs:
+  - 上海中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157325/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-xiaoling
+  name: 王晓玲
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东师范大学计算机学院教授。主持中医教育大模型关键技术，并参与神农中医药大模型。
+  orgs:
+  - 华东师范大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.ecnu.edu.cn/_s16/wxl2/main.psp
+    代码: https://github.com/michael-wzhu/ShenNong-TCM-LLM
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ruan-tong
+  name: 阮彤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东理工大学信息科学与工程学院教授、博士生导师。做医疗大模型与知识图谱，建过中医药知识图谱并用于辅助开方。
+  orgs:
+  - 华东理工大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.ecust.edu.cn/cise/rt/main.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tang-yun
+  name: 唐赟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东理工大学药学院教授、博士生导师。做人工智能药物设计与网络药理学，并参与中医问诊模型 MedChatZH。
+  orgs:
+  - 华东理工大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://pharmacy.ecust.edu.cn/2008/1203/c2795a29378/page.htm
+    论文: https://pubmed.ncbi.nlm.nih.gov/38503097/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ma-lizhuang
+  name: 马利庄
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海交通大学计算机学院特聘教授、博士生导师。做中西医信息融合智能诊断，以及中医证候与面色的计算机诊断。
+  orgs:
+  - 上海交通大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cs.sjtu.edu.cn/jiaoshiml/malizhuang.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-wenqiang
+  name: 张文强
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 复旦大学计算机学院研究员、博士生导师。指导中医大模型仲景 GPT，并做中医诊疗机器人。
+  orgs:
+  - 复旦大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://iipl.fudan.edu.cn/70/e4/c45863a684260/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-haofen
+  name: 王昊奋
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 同济大学特聘研究员、博士生导师。做知识图谱与对话系统，并指导中医大模型仲景。
+  orgs:
+  - 同济大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.tongji.edu.cn/wanghaofen/zh_CN/index.htm
+    代码: https://github.com/pariskang/CMLM-ZhongJing
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lai-xiaobo
+  name: 赖小波
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江中医药大学教授、博士生导师，医学技术与信息工程学院副院长。做智慧中医药和医学影像人工智能。
+  orgs:
+  - 浙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjxx.zcmu.edu.cn/info/1071/9229.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lin-shuyuan
+  name: 林树元
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江中医药大学副教授，中医药人工智能联合工程中心主任。用大模型和知识图谱做经方问诊系统轩岐问对。
+  orgs:
+  - 浙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xhhos.com/department/doctor/5/30/233
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cheng-yiyu
+  name: 程翼宇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江大学药学院教授、博士生导师。做医药工业人工智能、药品智能制造和质量分析。
+  orgs:
+  - 浙江大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://person.zju.edu.cn/chengyy
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qu-haibin
+  name: 瞿海斌
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江大学药学院教授、博士生导师，药物信息学研究所所长。做中药创制、制药过程分析和制药工业大数据。
+  orgs:
+  - 浙江大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cps.zju.edu.cn/59113/list.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liao-jie
+  name: 廖杰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江大学百人计划研究员、博士生导师，未来健康实验室中医药方向带头人。做中药系统生物学和中医药人工智能。
+  orgs:
+  - 浙江大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yrd.zju.edu.cn/2026/0326/c90460a3144544/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-tao
+  name: 杨涛
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院教授、硕士生导师。做中医药人工智能、舌诊多模态体质辨识和医案知识图谱。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxjs.njucm.edu.cn/2021/0305/c449a71318/pagem.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-tianshu
+  name: 王天舒
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院副教授、硕士生导师。做中医药人工智能、视觉识别和全身望诊。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://xxjs.njucm.edu.cn/2024/0409/c465a125588/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-dai-caiyan
+  name: 戴彩艳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京中医药大学人工智能与信息技术学院副教授、硕士生导师。做智能图像处理、中医药网络模型和望诊信息采集。
+  orgs:
+  - 南京中医药大学人工智能与信息技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://xxjs.njucm.edu.cn/2024/0409/c465a125589/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yinyin
+  name: 王引引
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国药科大学中药学院副研究员、硕士生导师。用人工智能和多组学解析中药复方机制、配伍与归经。
+  orgs:
+  - 中国药科大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://zyxy.cpu.edu.cn/ab/53/c19966a240467/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jia-xiaobin
+  name: 贾晓斌
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国药科大学中药学院教授、博士生导师。做智能中药学，用人工智能和图神经网络研究中药物质基础与配伍。
+  orgs:
+  - 中国药科大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.cpu.edu.cn/ab/47/c19965a240455/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-bai-weimin
+  name: 白伟民
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 安顿健康创始人、董事长。发布七诊合参中医机器人和中医大模型。
+  orgs:
+  - 安顿健康
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.xinhuanet.com/finance/20260720/f6a8625c1be4412d9c311a232c7a35fa/c.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-kun
+  name: 李坤
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 智赋岐黄创始人、董事长。负责四诊仪和天功中医人工智能大模型。
+  orgs:
+  - 智赋岐黄
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://business.china.com.cn/2025-12/16/content_43307776.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-kaijing
+  name: 闫凯境
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 天士力医药集团董事长。发布数智本草语言大模型和数智中药路线。
+  orgs:
+  - 天士力
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://www.news.cn/20240509/a76f15aae0544defad943093214cd38b/c.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-shuiping
+  name: 周水平
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 天士力研究院执行院长。用数智本草生成创新方，并做天然产物筛选。
+  orgs:
+  - 天士力
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.yicai.com/news/102185086.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-su-jing
+  name: 苏晶
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 天津天士力数智中医药科技有限公司总经理。以数智本草为起点建设中医智能体和临床决策支持。
+  orgs:
+  - 天士力
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://tjtfea.com/News/202603/2026030514254819.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qiao-nan
+  name: 乔楠
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 华为云人工智能科学计算总经理。在数智本草发布会上讲解问答、生成和天然产物分子计算。
+  orgs:
+  - 华为云
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://news.qq.com/rain/a/20240515A04TAH00
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-pengcheng
+  name: 杨鹏程
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 数智本草大模型应用开发负责人。做语言与计算双模型筛方。
+  orgs:
+  - 华为云
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://bbs.huaweicloud.com/blogs/448824
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fei-yicheng
+  name: 费翼城
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 华润江中先进制造研究室副主任。做中药工业智能体，把生产经验数字化。
+  orgs:
+  - 华润江中
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.jinantimes.com.cn/news-99-11066075.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-he-jian
+  name: 何剑
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 中医在线创始人、首席执行官。用名老中医课程数据推动伊尹中医大模型。
+  orgs:
+  - 中医在线
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.vbdata.cn/1519007974
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ren-yi
+  name: 任毅
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 中医在线首席技术官。带领团队部署并微调中医大模型。
+  orgs:
+  - 中医在线
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.vbdata.cn/1519007974
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-yangqing
+  name: 章杨清
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 招联消费金融总经理。发起中医大模型仲思。
+  orgs:
+  - 招联消费金融
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://finance.people.com.cn/n1/2025/0430/c1004-40471496.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-ke
+  name: 王珂
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 科大讯飞副总裁。参与薪火中国药中医药教育大模型发布和后续建设。
+  orgs:
+  - 科大讯飞
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.bucm.edu.cn/bzyyw/1c0b0fe535764fcc886c87b560caa0ee.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-li
+  name: 李礼
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 科大讯飞高教研究院院长。参与薪火中国药建设，做人工智能赋能中医药高校。
+  orgs:
+  - 科大讯飞
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://zhongyao.bucm.edu.cn/yyxw/1b48fd51feea43a2964b2a19f0ae4916.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-peng
+  name: 闫鹏
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 腾讯健康副总裁。与津药达仁堂合作，用大模型做中医药服务和中西医结合问答。
+  orgs:
+  - 腾讯健康
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.pharm.com.cn/content/details59_1561.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liao-jieyuan
+  name: 廖杰远
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 微医创始人、董事长。做人工智能中药平台，把老中医经验转成可调配颗粒。
+  orgs:
+  - 微医
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.cls.cn/detail/1661807
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-qi
+  name: 王祺
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 大经中医技术总监。负责岐黄问道从预训练到强化学习的技术路径，并做脉诊仪和舌面诊仪。
+  orgs:
+  - 大经中医
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://js.news.cn/20230729/fa034db71a00487b819a4ad95b44673e/c.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-men-shaoyang
+  name: 门韶洋
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学副教授、博士生导师。做智能中医诊断和医学信号信息处理。
+  orgs:
+  - 广州中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ygxy.gzucm.edu.cn/info/1241/2551.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-xiufeng
+  name: 刘秀峰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学教授、硕士生导师。做中医知识图谱、古籍整理和中医人工智能。
+  orgs:
+  - 广州中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ygxy.gzucm.edu.cn/info/1241/2551.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-hua
+  name: 周华
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中医药广东省实验室副主任。负责中药新药智能自动化平台和数智诊疗基础设施。
+  orgs:
+  - 中医药广东省实验室
+  - 广东省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://www.hengqin.gov.cn/macao_zh_hans/hzqgl/dtyw/dtxx/content/post_3807664.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-pan-hudan
+  name: 潘胡丹
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 广州中医药大学教授。做风湿病多模态数据和中西医结合大模型。
+  orgs:
+  - 广州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.cntcm.com.cn/content/202406/14/c251936.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-luo-shengda
+  name: 罗胜达
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中医药广东省实验室研究人员。介绍中医横琴大模型、证候推理和中西药联用智能体。
+  orgs:
+  - 中医药广东省实验室
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.hengqin.gov.cn/macao_zh_hans/hzqgl/dtyw/dtxx/content/post_3807664.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wen-guihua
+  name: 文贵华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华南理工大学计算机学院教授，广东省人工智能中医工程技术研究团队负责人。做可解释舌诊、体质辨识和智能中医诊疗。
+  orgs:
+  - 华南理工大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www2.scut.edu.cn/cs/2017/0629/c22284a328095/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-ronghua
+  name: 张荣华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 暨南大学教授、博士生导师，广东省中医药信息化重点实验室主任。
+  orgs:
+  - 暨南大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.jnu.edu.cn/2021/0903/c6333a646617/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xing-guoliang
+  name: 邢国良
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港中文大学信息工程学系教授。团队做 OpenTCM，用图谱检索增强中医知识检索和诊断。
+  orgs:
+  - 香港中文大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.ie.cuhk.edu.hk/prof-guoliang-xing-and-prof-hongkai-chens-team-win-best-paper-award-at-bigcom-2025-for-innovative-traditional-chinese-medicine-ai-system/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-shen-jiangang
+  name: 沈剑刚
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港大学中医药学院教授。用人工智能识别中医脉象及其与体质的关联。
+  orgs:
+  - 香港大学中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://eventregscm.hku.hk/Views/People/ProfessorJiangangShen.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-feng-yibin
+  name: 冯奕斌
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港大学中医药学院教授、院长。用网络药理、组学和人工智能研究中医治则。
+  orgs:
+  - 香港大学中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.med.hku.hk/en/teaching-and-learning/postgraduate/rpg/projects/ai-assisted-investigation-to-understand-the-treatment-principle-of-chinmed
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-ge
+  name: 张戈
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港浸会大学中医药学院讲座教授、副院长。主持人工智能驱动的适配体发现。
+  orgs:
+  - 香港浸会大学中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://scholars.hkbu.edu.hk/en/persons/ZHANGGE/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tian-liang
+  name: 田亮
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港浸会大学物理系副教授。做中医药数据挖掘，以及网络药理和中药质控人工智能平台。
+  orgs:
+  - 香港浸会大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://scholars.hkbu.edu.hk/en/persons/LIANGTIAN/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-lu
+  name: 张璐
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港浸会大学教授。做面向中药治疗胃肠癌的生物医学人工智能智能体。
+  orgs:
+  - 香港浸会大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://research.hkbu.edu.hk/sc/1-1-1-scheme/projects
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-furong
+  name: 朱褔荣
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港浸会大学教授。用近红外和人工智能鉴别中药材真伪优劣。
+  orgs:
+  - 香港浸会大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://research.hkbu.edu.hk/sc/1-1-1-scheme/projects
+  status: published
+  verified_at: '2026-11-06'
+- id: person-han-zitian
+  name: 韩子天
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 澳门科技大学教授。药食同源方剂推荐大模型 TCM-DS 的通讯作者。
+  orgs:
+  - 澳门科技大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://fie.must.edu.mo/id-848/person/view/id-448.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lu-jiahong
+  name: 路嘉宏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 澳门大学中华医药研究院副教授、副院长。用人工智能筛选抗阿尔茨海默病的中药小分子。
+  orgs:
+  - 澳门大学中华医药研究院
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.um.edu.mo/zh-hant/news-and-press-releases/presss-release/detail/63849/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-du-jianqiang
+  name: 杜建强
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 江西中医药人工智能重点研究室研究人员。知识图谱检索增强的中医问诊大模型 DualKAG-ShenNong 通讯作者。
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    论文: http://cea.ceaj.org/CN/Y2026/V62/I9/133
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ouyang-le
+  name: 欧阳乐
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 深圳大学电子与信息工程学院副教授、博士生导师。与深圳市中医院合作中医智能问诊大模型。
+  orgs:
+  - 深圳大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://iip.szu.edu.cn/info/1017/1231.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jiang-tao
+  name: 蒋涛
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 成都中医药大学智能医学学院院长、教授、博士生导师。参与天惠中医大模型，并做中医智能装备。
+  orgs:
+  - 成都中医药大学智能医学学院
+  tags:
+  - mentor
+  - university
+  links:
+    论文: https://arxiv.org/abs/2509.19834
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-dexian
+  name: 王德贤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 成都中医药大学副教授、硕士生导师。做针灸处方智能推荐。
+  orgs:
+  - 成都中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ntu.edu.cn/2026/1008/c8083a300123/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-li-swu
+  name: 李莉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 西南大学计算机与信息科学学院教授、博士生导师。中医大模型 TCM-R1 通讯作者。
+  orgs:
+  - 西南大学计算机与信息科学学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cis.swu.edu.cn/info/1184/4082.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xie-quan
+  name: 谢泉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 贵州中医药大学信息工程学院执行院长、教授。牵头中医药全产业链语料，服务垂类大模型。
+  orgs:
+  - 贵州中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.gzy.edu.cn/info/1289/3160.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tang-lei
+  name: 汤磊
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 贵州医科大学党委书记，中药功效成分全国重点实验室执行主任。牵头发布民族药大模型华族本草。
+  orgs:
+  - 贵州医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.stdaily.com/web/gdxw/2026-08/03/content_558608.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-peixin
+  name: 郭沛鑫
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 云南中医药大学教授、博士生导师。用人工智能、科学计算和多组学做经典名方二次开发。
+  orgs:
+  - 云南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ynucm.edu.cn/info/1045/178391.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-shen-shaowu
+  name: 沈绍武
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 湖北中医药大学研究员、博士生导师，中医药大数据知识工程研究院执行院长。做中医药信息学和临床大数据知识工程。
+  orgs:
+  - 湖北中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11342.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-junfeng
+  name: 晏峻峰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 湖南中医药大学教授、博士生导师。做中医人工智能与计算中医学。
+  orgs:
+  - 湖南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/2517.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wei-changfa
+  name: 韦昌法
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 湖南中医药大学教授、硕士生导师。做中医智能辅助诊疗，以及大模型与知识图谱问答。
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/3990.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-dong-changwu
+  name: 董昌武
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 安徽中医药大学教授、博士生导师，第二附属医院院长。做四诊客观化和多模态舌诊。
+  orgs:
+  - 安徽中医药大学第二附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://yjsb.ahtcm.edu.cn/info/1501/30891.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gao-jun
+  name: 高隽
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 合肥工业大学计算机与信息学院教授、博士生导师。参与中医舌诊大模型 TongueVLM。
+  orgs:
+  - 合肥工业大学计算机与信息学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ci.hfut.edu.cn/info/1134/13735.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-peng
+  name: 李鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 河南工业大学教授、博士生导师，复杂性科学研究院院长。做中医人工智能、舌象和未病建模。
+  orgs:
+  - 河南工业大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://computer.haut.edu.cn/info/1042/10906.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lyu-lei
+  name: 吕磊
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 河南工业大学教授、博士生导师。做舌象三维感知和中药材视觉品质分析。
+  orgs:
+  - 河南工业大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cs.haut.edu.cn/info/1541/5754.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-zhengzhong
+  name: 朱正忠
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 福耀科技大学教授、博士生导师。做健康与中医大模型，仲景 GPT 共同通讯作者。
+  orgs:
+  - 福耀科技大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cs.fyust.edu.cn/szdw/jsdw/zzz.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yiqin
+  name: 王忆勤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学教授、博士生导师。做舌、脉、面、问四诊客观化。
+  orgs:
+  - 上海中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157327/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-fufeng
+  name: 李福凤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学教授、博士生导师。做面诊图像标准化、特征识别和智能镜。
+  orgs:
+  - 上海中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157323/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-haixia
+  name: 燕海霞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 上海中医药大学教授、硕士生导师。做脉诊客观化和脉图风险模型。
+  orgs:
+  - 上海中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157316/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-xu
+  name: 王旭
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学生命科学学院副研究员、硕士生导师。用图像和人工智能做舌、面、脑多模态证候分析。
+  orgs:
+  - 北京中医药大学生命科学学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://shengming.bucm.edu.cn/jyjx/yjs/dsfc/ede8719994ab4d14904fd1e3f67bc5cd.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qiao-yanjiang
+  name: 乔延江
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京中医药大学教授、博士生导师。做中药信息学、药性数据和智能制造。
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://infopharm.bucm.edu.cn/kxyj/yjdw/31864.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-peng
+  name: 周鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 天津大学副教授、博士生导师。做智能中医诊断装备和中医大数据，并创办依脉人工智能。
+  orgs:
+  - 天津大学
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.tjutcm.edu.cn/info/1105/1456.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-nanyue
+  name: 汪南玥
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院医学实验中心研究员、博士生导师。做四诊设备和人工智能四诊合参。
+  orgs:
+  - 中国中医科学院医学实验中心
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.merc.ac.cn/zykx/detail.html?contentId=11&id=13
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-yan
+  name: 朱彦
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中医药信息研究所副研究员、硕士生导师。做中医药术语、领域本体和方剂数据挖掘。
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8343
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wen-tiancai
+  name: 文天才
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国中医科学院中医药数据中心正高级工程师、博士生导师。做真实世界病历挖掘和辅助决策。
+  orgs:
+  - 中国中医科学院中医药数据中心
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8372
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-jianjun
+  name: 颜建军
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东理工大学副教授、硕士生导师。做脉诊仪、舌图像分割和中医信号分析。
+  orgs:
+  - 华东理工大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://mech.ecust.edu.cn/2019/0516/c11271a90164/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-luo-zhiming
+  name: 罗志明
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 厦门大学信息学院副教授、博士生导师。做中医病势时序图谱、文本实体识别和临床评价平台。
+  orgs:
+  - 厦门大学信息学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.xmu.edu.cn/luozhiming/zh_CN/index.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zan-hongying
+  name: 昝红英
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 郑州大学计算机与人工智能学院教授、博士生导师。实验室做中医大模型仲景。
+  orgs:
+  - 郑州大学计算机与人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www5.zzu.edu.cn/nlp/info/1004/1169.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jia-yuxiang
+  name: 贾玉祥
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 郑州大学计算机与人工智能学院副教授、硕士生导师。AAAI 仲景论文通讯作者。
+  orgs:
+  - 郑州大学计算机与人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www5.zzu.edu.cn/nlp/info/1004/1157.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yu-tju
+  name: 王煜
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 天津大学人工智能学院教授、博士生导师。参与中医主动问诊系统 DoPI。
+  orgs:
+  - 天津大学人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.tju.edu.cn/wangyu_ai/zh_CN/index.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-peng-thu
+  name: 张鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 清华大学自动化系副研究员，北京市中医药交叉研究所副所长。参与中医消化模型 GastroTCM。
+  orgs:
+  - 清华大学自动化系
+  - 清华大学北京市中医药交叉研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.tcm-x.tsinghua.edu.cn/kydw.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-guangyu
+  name: 王光宇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京邮电大学研究员。中医领域自适应预训练模型 TCM-GPT 通讯作者。
+  orgs:
+  - 北京邮电大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://news.qq.com/rain/a/20250110A03RJT00
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhuang-yi
+  name: 庄毅
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江工商大学计算机学院教授。中医方剂模型 TCM-KLLaMA 第一作者。
+  orgs:
+  - 浙江工商大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://scie.zjgsu.edu.cn/zh-hans/node/400
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-qi
+  name: 黄奇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南京大学信息管理学院教授、博士生导师。参与中医古籍大模型黄帝。
+  orgs:
+  - 南京大学信息管理学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://im.nju.edu.cn/info/1099/33751.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yu-huiqun
+  name: 虞慧群
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东理工大学计算机学院教授、博士生导师。参与中医问诊模型 MedChatZH。
+  orgs:
+  - 华东理工大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cise.ecust.edu.cn/2026/0615/c16487a191279/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fan-guisheng
+  name: 范贵生
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 华东理工大学计算机学院副研究员、博士生导师。参与中医问诊模型 MedChatZH。
+  orgs:
+  - 华东理工大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cise.ecust.edu.cn/_t250/2011/0615/c7766a55144/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xie-yonghong
+  name: 谢永红
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 北京科技大学计算机学院副教授、硕士生导师。参与张仲景中医药大模型，并做过中医知识图谱。
+  orgs:
+  - 北京科技大学计算机与通信工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.ustb.edu.cn/YonghongXie/zh_CN/index.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-pang-bo
+  name: 庞博
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中国中医科学院西苑医院副院长、博士生导师。分管信息，介绍本院数字孪生智能诊室。
+  orgs:
+  - 中国中医科学院西苑医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.xyhospital.com/Html/News/Articles/22270.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-bing
+  name: 吴冰
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 西苑医院苏州医院血液科主任。负责叶天士血证辅助诊疗大模型。
+  orgs:
+  - 西苑医院苏州医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://www.xyhospital.com/Html/News/Articles/22524.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-feng-minshan
+  name: 冯敏山
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中国中医科学院望京医院主任医师、博士生导师。介绍颈椎病名医经验垂直大模型。
+  orgs:
+  - 中国中医科学院望京医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    招生: https://yanjiusheng.bucm.edu.cn/docs/2024-12/c2448d698eca42848387882e725da184.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-chunling
+  name: 刘春玲
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 北京中医药大学东直门医院数字化与智慧医院建设处处长。推进本院智慧医院和数智融合。
+  orgs:
+  - 北京中医药大学东直门医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://yxb.dzmyy.com.cn/Html/News/Articles/18348.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-baoli
+  name: 刘宝利
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 首都医科大学附属北京中医医院常务副院长、博士生导师。腹泻中医大模型 Qwen-TCM-Dia 通讯作者。
+  orgs:
+  - 首都医科大学附属北京中医医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.bjzhongyi.com/gzb_team_detail/13893.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-du-shiyu
+  name: 杜时雨
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中日友好医院消化科主任、博士生导师。中医脾胃大模型 GastroTCM 通讯作者。
+  orgs:
+  - 中日友好医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.zryhyy.com.cn/zryh/c100442/zjxx.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zuo-xianbo
+  name: 左先波
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 中日友好医院大数据研究部主任。介绍本院可信数据空间和专病大模型。
+  orgs:
+  - 中日友好医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.zryhyy.com.cn/zryh/c105700/zjxx.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-yonghua
+  name: 张永华
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 杭州市中医院主任医师、博士生导师。团队打造张永华睡眠智能体。
+  orgs:
+  - 杭州市中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://zyy.lanews.com.cn/content/2022-02/17/content_9341799.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-sun-miao
+  name: 孙淼
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 武汉市中医医院信息中心主任。介绍汉派中医骨伤诊疗数据集和骨伤智能体。
+  orgs:
+  - 武汉市中医医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://xxy.hbucm.edu.cn/info/1661/13042.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-du-yanru
+  name: 杜艳茹
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 河北省中医院副院长、博士生导师。做李佃贵经验的辨证开方大模型和脾胃病模型东垣。
+  orgs:
+  - 河北省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.hbszyy.cn/html/product/2013-5-28/273.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yuan-weian
+  name: 元唯安
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 上海中医药大学附属曙光医院副院长、博士生导师。负责临床试验全生命周期平台和虚拟临床试验。
+  orgs:
+  - 上海中医药大学附属曙光医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://zyyyjy.gdpu.edu.cn/info/1082/1370.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yi-zju
+  name: 王毅
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 浙江大学药学院教授、博士生导师。做中药药效物质、高内涵筛选和系统药理学。
+  orgs:
+  - 浙江大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://person.zju.edu.cn/yiwang
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-xinlin-longhua
+  name: 陈昕琳
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 上海中医药大学附属龙华医院院长。负责中医多模态辅助诊断智能体和数智龙承。
+  orgs:
+  - 上海中医药大学附属龙华医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: https://www.shanghai.gov.cn/gwk/search/content/441f95ac30e7432fa24730c79128df5c
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jia-yongzhe
+  name: 贾勇哲
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 天大智图创始人、总经理。负责海河·岐伯中医药大模型的产业落地。
+  orgs:
+  - 天大智图
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://epaper.tianjinwe.com/tjrb/h5/html5/2024-05/27/content_143078_848091.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-dawei
+  name: 徐大为
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 天大智图技术总监。参与研发海河·岐伯和方剂知识增强。
+  orgs:
+  - 天大智图
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.tjnk.gov.cn/NKQZF/XXDT856/nkyw/202401/t20240107_6501701.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhuang-pengwei
+  name: 庄朋伟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 天津中医药大学教师。参与海河·岐伯的方剂知识图谱增强。
+  orgs:
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    论文: http://fcst.ceaj.org/CN/10.3778/j.issn.1673-9418.2407082
+  status: published
+  verified_at: '2026-11-06'
+- id: person-meng-xiangfei
+  name: 孟祥飞
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 国家超级计算天津中心首席科学家。推动天河中医药大模型和医院智慧医疗合作。
+  orgs:
+  - 国家超级计算天津中心
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.nscc-tj.cn/xwxq.php?id=626
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fu-hao
+  name: 傅浩
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: 国家超级计算天津中心数据智能部部长。介绍天河·灵枢 2.0 的中医全科推理。
+  orgs:
+  - 国家超级计算天津中心
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://epaper.tianjinwe.com/tjrb/h5/html5/2025-08/28/content_143090_2563267.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-yulong
+  name: 许玉龙
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 河南中医药大学副教授、硕士生导师。用隐结构模型和机器学习建立中医证候辨证规则。
+  orgs:
+  - 河南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://glxy.hactcm.edu.cn/info/1062/10540.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tong-xuming
+  name: 通旭明
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 河北北方学院信息科学与工程学院。悬壶和青囊两篇中医大模型论文的第一作者。
+  orgs:
+  - 河北北方学院
+  tags:
+  - mentor
+  - university
+  links:
+    论文: https://link.springer.com/article/10.1186/s13020-025-01200-3
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wei-benzhen
+  name: 魏本征
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 山东中医药大学教授、博士生导师，医学信息工程学院院长。主持医学人工智能、中医图像分析和智慧诊疗。
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1109/2430.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-sheng-hui
+  name: 生慧
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 山东中医药大学副教授、硕士生导师，医学信息工程学院副院长。研究医疗健康大数据与中医药智能化。
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1109/2445.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-deng-hualiang
+  name: 邓华亮
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 山东中医药大学附属医院院长。主持省级智汇岐黄大模型，面向名医经验和基层诊疗。
+  orgs:
+  - 山东中医药大学附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: http://ccpd.china.com.cn/2026-04/17/content_43401621.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guan-hongjiao
+  name: 管红娇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 齐鲁工业大学副教授、硕士生导师。研究医疗大模型，并参与扁仓的辨证与处方评测。
+  orgs:
+  - 齐鲁工业大学（山东省科学院）
+  tags:
+  - mentor
+  - university
+  links:
+    论文: http://jsxb.scsc.cn/introlist_76/794.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qiao-tie
+  name: 乔铁
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 辽宁中医药大学副教授、硕士生导师，中医人工智能学科负责人。做舌诊标准化采集与算法评估。
+  orgs:
+  - 辽宁中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.lnutcm.edu.cn/info/2231/55271.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-leng-xiangyang
+  name: 冷向阳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 长春中医药大学校长、教授。牵头 AI+中医行动，联合发布众星·长白岐黄。
+  orgs:
+  - 长春中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.chinanews.com.cn/cj/2025/12-20/10537422.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhao-jia
+  name: 赵佳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 吉林工商学院副校长、教授。领衔研发众星·长白岐黄多模态中医药推理大模型。
+  orgs:
+  - 吉林工商学院
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://jl.chinadaily.com.cn/a/202512/21/WS6947b1c2a310942cc4997b6e.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-chaosheng
+  name: 闫朝升
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 黑龙江中医药大学教授、研究生导师，医学信息工程学院院长。做医学人工智能和中医经典知识图谱。
+  orgs:
+  - 黑龙江中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://rwyglxy.hljucm.net/info/1276/3122.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chu-dianhui
+  name: 初佃辉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 哈尔滨工业大学（威海）教授、博士生导师。领衔天功医疗大模型训练平台，并做中医问诊、辨证和食疗辅助。
+  orgs:
+  - 哈尔滨工业大学（威海）
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://software.hit.edu.cn/12762/list.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fei-long
+  name: 飞龙
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 内蒙古大学教授、博士生导师。牵头蒙医药知识库、临床辅助和蒙医药大模型。
+  orgs:
+  - 内蒙古大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ccs.imu.edu.cn/info/1034/2019.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wen-yongyi
+  name: 闻永毅
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 陕西中医药大学教授、硕士生导师。做中医文献数字化、知识图谱、古籍信息抽取和大语言模型。
+  orgs:
+  - 陕西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://yzb.sntcm.edu.cn/xjsds/rwglhy/0453gjzwjy/113981.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lo-lunchien
+  name: 罗纶谦
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国医药大学中医诊断学科教授、台湾中医诊断学会理事长。做中医诊断。
+  orgs:
+  - 中国医药大学中医学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://webap.cmu.edu.tw/TchEportfolio/index_1/lclo
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chang-henhong
+  name: 张恒鸿
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国医药大学中医诊断学科教授。做中医诊断辅助仪器。
+  orgs:
+  - 中国医药大学中医学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://webap.cmu.edu.tw/TchEportfolio/index_1/tcmchh55
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-shengteng
+  name: 黄升腾
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 中国医药大学中医学系教授兼系主任、附设医院中医部主任。研发人工智能中医临床教学。
+  orgs:
+  - 中国医药大学中医学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://webap.cmu.edu.tw/TchEportfolio/index_1/sthuang
+    新闻: https://chmed.cmu.edu.tw/news/293/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-sienhung
+  name: 杨贤鸿
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 长庚大学中医学系教授兼系主任。与电机系合作，用深度学习做舌体分割和体质辨识。
+  orgs:
+  - 长庚大学中医学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://pure.lib.cgu.edu.tw/en/persons/sien-hung-yang
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lee-jiannder
+  name: 李建德
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 长庚大学电机工程学系教授。用深度学习做舌体分割、体质辨识和舌象抑郁筛查。
+  orgs:
+  - 长庚大学电机工程学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://pure.lib.cgu.edu.tw/en/persons/jiann-der-lee-3/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-genghao
+  name: 刘耕豪
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 长庚大学中医学系助理教授、医预科主任。专长脉诊、针灸和中医诊断。
+  orgs:
+  - 长庚大学中医学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://pure.lib.cgu.edu.tw/en/persons/geng-hao-liu-2
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-shijing
+  name: 颜士净
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 东华大学资讯工程学系教授、人工智能实验室主持人。与慈济医院合作，用深度学习分析舌诊影像和脉诊信号。
+  orgs:
+  - 东华大学资讯工程学系
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.csie.ndhu.edu.tw/uncategorized/csie_ai_in_chinese_medicine_ch/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-nakaguchi-toshiya
+  name: 中口俊哉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 千叶大学前沿医工学中心教授、副中心长。做医学图像与计算机辅助诊断，并参与汉方舌诊图像研究。
+  orgs:
+  - 千叶大学前沿医工学中心
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cfme.chiba-u.jp/en/staff/detail.php?index=nakaguchi
+    论坛: https://www.m.chiba-u.jp/class/wakan/tongue2021/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-namiki-takao
+  name: 并木隆雄
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 千叶大学特任教授。主持汉方舌诊图像研究，推动舌诊相关国际标准。
+  orgs:
+  - 千叶大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.m.chiba-u.jp/class/wakan/outline/staff.html
+    论坛: https://www.m.chiba-u.jp/class/wakan/tongue2021/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-kawanabe-tadaaki
+  name: 川锅伊晃
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: 北里大学北里研究所医院副部长。用机器学习量化汉方舌象，并建立健康人舌象数据库。
+  orgs:
+  - 北里大学北里研究所医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://nrid.nii.ac.jp/en/nrid/1000040445523/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-park-yeoncheol
+  name: 朴延澈
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 庆熙大学韩医科大学针灸科副教授。主持韩医组学与人工智能实验室，用大数据和机器学习研究韩医诊断。
+  orgs:
+  - 庆熙大学韩医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kmoa.khu.ac.kr/members
+  status: published
+  verified_at: '2026-11-06'
+- id: person-kim-yeonhak
+  name: Yeonhak Kim
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 釜山大学韩医学校兼任教授、庆熙大学研究员。把多组学和人工智能用于韩医研究。
+  orgs:
+  - 釜山大学韩医学校
+  - 庆熙大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kmoa.khu.ac.kr/members
+  status: published
+  verified_at: '2026-11-06'
+- id: person-kim-changeop
+  name: 金昌业
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 大邱庆北科学技术院副教授。用机器学习形式化韩医理论，并做草药网络药理。
+  orgs:
+  - 大邱庆北科学技术院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://scholar.dgist.ac.kr/researcher/0b0c2fa5-3add-421e-95cc-aeb8f8beb679
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lee-wonyung
+  name: 李元融
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 圆光大学韩医科大学教授。做韩药网络药理，并开发草药与化学药相互作用预测模型。
+  orgs:
+  - 圆光大学韩医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://www.wku.ac.kr/%ec%9d%b4%ec%9b%90%ec%9c%b5-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%ed%95%9c%ec%95%bd-%ed%95%a9%ec%84%b1%ec%9d%98%ec%95%bd%ed%92%88-%ec%83%81%ed%98%b8%ec%9e%91%ec%9a%a9-%ec%98%88%ec%b8%a1-ai.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-leem-jungtae
+  name: Jungtae Leem
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 圆光大学韩医科大学研究人员。研究脉诊仪用于韩医诊断教学。
+  orgs:
+  - 圆光大学韩医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    论文: https://jkom.org/journal/view.php?number=5266
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-yuzong
+  name: 陈宇综
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 新加坡国立大学药学系终身教授。维护中医药数据库 TCM-ID，并用机器学习研究草药作用。
+  orgs:
+  - 新加坡国立大学药学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://bidd.group/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-yuanjia
+  name: 胡元佳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 澳门大学中华医药研究院教授。用网络药理鉴定中药质控标志物，并用神经网络生成分子库。
+  orgs:
+  - 澳门大学中华医药研究院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://repository.um.edu.mo/profile/yuanjiahu
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-ting-must
+  name: 李婷
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 澳门科技大学中药质量研究国家重点实验室教授、人工智能跨学科应用研究院副院长。把人工智能用于中药机制和药物发现。
+  orgs:
+  - 澳门科技大学
+  tags:
+  - mentor
+  - university
+  links:
+    简介: https://wm-fs2.must.edu.mo/group1/M00/0B/62/rBCDo2ohKsOAL4esAAMyNfTO-Ng912.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-dong-missouri
+  name: 徐东
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 密苏里大学教授。用深度学习分析舌象，并发布中医多模态问答基准 TCM-Ladder。
+  orgs:
+  - 密苏里大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://bondlsc.missouri.edu/labs/dong-xu/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-xian
+  name: Xian Zhou
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 西悉尼大学 NICM 健康研究所高级研究员。用机器学习刻画草药活性分子的协同或拮抗，并指导研究生。
+  orgs:
+  - 西悉尼大学 NICM 健康研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://researchers.westernsydney.edu.au/en/persons/phoebe-zhou/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hao-yiming
+  name: 郝一鸣
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学中医学院研究员、硕士生导师。做慢性病四诊客观化和舌苔代谢组。"
+  orgs:
+  - 上海中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157321/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-zhaoxia
+  name: 许朝霞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学研究员、博士生导师。做舌象参数分析，主编《中医舌诊研究与临床应用》。"
+  orgs:
+  - 上海中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157324/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-rui
+  name: 郭睿
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学研究员、硕士生导师。做脉诊客观化，并参与智能舌诊仪。"
+  orgs:
+  - 上海中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157318/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cui-ji
+  name: 崔骥
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学基础医学院副教授、硕士生导师。做阵列式三维脉图和中医四诊信息化。"
+  orgs:
+  - 上海中医药大学基础医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157317/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qian-peng
+  name: 钱鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学高级实验师、硕士生导师。做可自动调压的脉象采集装置和四诊客观化。"
+  orgs:
+  - 上海中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.shutcm.edu.cn/2023/1213/c7141a157320/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-xinfeng
+  name: 张新峰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京工业大学信息学部副教授、硕士生导师。做舌图像分割、多标签分类和多模态舌象感知。"
+  orgs:
+  - 北京工业大学信息学部
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://sist.bjut.edu.cn/info/1517/4319_2.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cai-yiheng
+  name: 蔡轶珩
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京工业大学信息学部教授、博士生导师。做舌象全维度采集、望诊色彩标准化和智能舌诊系统。"
+  orgs:
+  - 北京工业大学信息学部
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://sist.bjut.edu.cn/info/1426/2320.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yanhui
+  name: 王彦晖
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门大学医学院教授、硕士生导师。做舌象临床和舌诊辅助系统，任世界中联舌象研究专委会创会会长。"
+  orgs:
+  - 厦门大学医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xah.xmu.edu.cn/info/1625/2795.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-shaoliang
+  name: 张绍良
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门大学医学院助理教授。做中医诊断信息化、舌象图像分析和脉象信号。"
+  orgs:
+  - 厦门大学医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://med.xmu.edu.cn/info/1238/4637.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-he-kuanqi
+  name: 何宽其
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门大学医学院副教授。做舌诊临床应用，研究证素、方药、体质与舌象。"
+  orgs:
+  - 厦门大学医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://med.xmu.edu.cn/info/1237/4641.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-xiaoyang
+  name: 黄晓阳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门大学信息学院助理教授。做开放环境舌象检测、偏色校正和苔质分离。"
+  orgs:
+  - 厦门大学信息学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://scholar.xmu.edu.cn/Authors/Index?id=HuangXiaoYang
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yu-zhifeng
+  name: 于志峰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学中医学院教授、博士生导师，中医诊断教研室主任。用舌象采集系统分析失眠舌色、舌形和舌质。"
+  orgs:
+  - 天津中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.tjutcm.edu.cn/info/1106/1262.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yimin
+  name: 王益民
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学中医工程教授、博士生导师、硕士生导师。用图像采集做舌诊规范分析。"
+  orgs:
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://institute.tjutcm.edu.cn/info/1049/2124.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liang-hao
+  name: 梁昊
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学副教授、博士生导师。带学生做智能望诊，识别染苔并降低舌诊仪成本。"
+  orgs:
+  - 湖南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kczx.hnucm.edu.cn/info/1005/2198.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-yuejun
+  name: 周岳君
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "浙江中医药大学教授、主任中医师、硕士生导师，中医诊断学教研室主任。做舌象辨证和诊法研究。"
+  orgs:
+  - 浙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jc.zcmu.edu.cn/info/1164/3346.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-xuemei
+  name: 周雪梅
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "安徽中医药大学教授、硕士生导师，中医基础系主任。所在诊断学团队研制人工智能舌诊实训考核平台。"
+  orgs:
+  - 安徽中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://gjjk.ahtcm.edu.cn/info/1033/1970.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-zhimin
+  name: 杨志敏
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "广东省中医院副院长、教授、主任医师、博士生导师。做中医健康状态辨识，中心重点做便携舌诊和脉诊装备。"
+  orgs:
+  - 广东省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.jiicm.com/info/1017/1177.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-dapeng
+  name: 张大鹏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "哈尔滨工业大学（深圳）计算机学院博士生导师。做计算机舌诊、脉诊等诊察生物特征。"
+  orgs:
+  - 哈尔滨工业大学（深圳）计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://csen.hitsz.edu.cn/info/1023/1904.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lu-xiaozuo
+  name: 陆小左
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学教授、博士生导师。做脉图形成机制和中医诊疗仪器。"
+  orgs:
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.tjlnrdx.cn/system/2019/08/22/012340534.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-xuemin
+  name: 王学民
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津大学精仪学院副教授、中医工程实验室主任。做脉象采集和望闻问切四诊合参系统。"
+  orgs:
+  - 天津大学精密仪器与光电子工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://news.tju.edu.cn/info/1012/345719.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-niu-xin
+  name: 牛欣
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中医学院二级教授、博士生导师。做四诊合参数字化，研发脉诊仪和四诊合参辅助诊疗仪。"
+  orgs:
+  - 北京中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ais.cn/mentor/mentorDetail/e9bed53e-5e3b-11ec-b045-a85e45a23623
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-xuezhi
+  name: 杨学智
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学教授。负责便携式中医四诊合参辅助诊疗仪，把望闻问切集到一台设备。"
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.bucm.edu.cn/bzyyw/10779fdcfccf41a5b46e1f58530374ab.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-qi-bucm
+  name: 王琦
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中国工程院院士、国医大师。做中医体质辨识体系和数字化监测。"
+  orgs:
+  - 北京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kgyjzzx.bucm.edu.cn/kjcg/zhcg/b523b0ce71924f8ea8ff5352b2252f0f.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-junwen
+  name: 王俊文
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院中医基础理论研究所研究员、博士生导师。做智能中医辅助诊断技术和装备。"
+  orgs:
+  - 中国中医科学院中医基础理论研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ibtcm.ac.cn/zjds-detail.thtml?contentId=8342
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xia-chunming
+  name: 夏春明
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海工程技术大学教授、博士生导师。做脉诊信息采集和四诊客观化。"
+  orgs:
+  - 上海工程技术大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://seee.sues.edu.cn/56/93/c23926a218771/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-chunqing
+  name: 李春清
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "上海道生医疗科技有限公司董事长。做道生四诊仪、脉象仪和中医诊断设备标准。"
+  orgs:
+  - 上海道生医疗科技有限公司
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.acfic.org.cn/ztzlhz/2022bzcxdh/2022bzcxdh_4/202209/t20220913_313004.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ma-junang
+  name: 马峻昂
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "脉景董事长。做中医垂直模型、辅助开方和舌面诊图像库。"
+  orgs:
+  - 脉景
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.vbdata.cn/51488
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-peng-yimai
+  name: 周鹏
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "依脉人工智能医疗科技（天津）董事长。做舌诊仪、脉诊仪等望闻问切装备。"
+  orgs:
+  - 依脉人工智能医疗科技（天津）
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.tianzhongyimai.com/NewsStd_739.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cheng-jing
+  name: 程京
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "博奥生物集团董事长兼总裁。建分子本草与中医药大模型，并推进舌诊等数字化中医诊断。"
+  orgs:
+  - 博奥生物集团
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.capitalbio.com/about/45.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-yue-capitalbio
+  name: 杨越
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "北京博奥晶方董事长。主持分子本草大模型，用通路数据做中药组方筛选和活性评价。"
+  orgs:
+  - 北京博奥晶方
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://www.zj.chinanews.com.cn/jzkzj/2025-12-24/detail-iheyfaae0556576.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-wei-kanion
+  name: 肖伟
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "康缘药业董事长，中药制药过程控制与智能制造技术全国重点实验室主任。推动制药工业智能化大模型和道地药材鉴定溯源。"
+  orgs:
+  - 康缘药业
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.kanion.com/about/about_us.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-xiaojun
+  name: 李小军
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "广药集团董事长。推动从药材种植介入的人工智能中药模型。"
+  orgs:
+  - 广药集团
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://news.dayoo.com/guangzhou/202609/22/139995_55006504.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liang-haifeng
+  name: 梁海峰
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "广药集团首席信息官、数字经济研究院副院长。负责药品溯源、智能制造和人工智能。"
+  orgs:
+  - 广药集团
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://event.d1net.com/cioyy2024/
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wan-wuzhou
+  name: 万五洲
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "云南白药集团中央研究院院长。讲人工智能赋能下从创新药到智慧中药的研发。"
+  orgs:
+  - 云南白药集团
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.yunnanbaiyao.com.cn/view/ynbyPc/1/92/view/9201.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-shaochun
+  name: 李少春
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "云南白药集团数字战略科学家、数智科技公司总经理、首席信息官。领衔中医药雷公大模型。"
+  orgs:
+  - 云南白药集团
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://www.datayuan.cn/article/22489.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ding-fengli
+  name: 丁丰俐
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "华润东阿阿胶首席信息官。布局滋补领域人工智能大模型，并用数字终端做中医体质辨识。"
+  orgs:
+  - 华润东阿阿胶
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://cn.chinadaily.com.cn/a/202607/23/WS6a61a78ca310d709c2fbf393.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-zhibin
+  name: 王志斌
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "北京同仁堂研究院院长。做中药生物活性测定和质量控制。"
+  orgs:
+  - 北京同仁堂研究院
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://zhongyao.bucm.edu.cn/szdw/sssds/zyylx_20220622164850036668/75851.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-shilin
+  name: 陈士林
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "成都中医药大学首席教授、中国中医科学院首席研究员。创立本草基因组学，建成中药全产业链大模型本草智库。"
+  orgs:
+  - 成都中医药大学
+  - 中国中医科学院
+  tags:
+  - mentor
+  - university
+  links:
+    新闻: https://academics.casad.cas.cn/xshd/kxyjsqylt/2024/d180c/202507/t20250731_5078674.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-su-songzhi
+  name: 苏松志
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门大学人工智能系副教授、硕士生导师，观健在（厦门）创始人。做大语言模型、智能中医辅助诊断，以及望闻问切一体机。"
+  orgs:
+  - 厦门大学
+  - 观健在（厦门）
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://iai.xmu.edu.cn/team/PI/PI2024/jcll/zndmtjs.htm
+    新闻: https://news.qq.com/rain/a/20240914A05NEU00
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guan-jing
+  name: 关静
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中医学院中医诊断学副教授、硕士生导师。做舌诊客观化，参与智能舌诊仪研制。"
+  orgs:
+  - 北京中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jichu.bucm.edu.cn/yjsjy/dsjs/zyzdx/78a37699a21e462bad60e04054b85890.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ma-xingguang
+  name: 马星光
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学管理学院教授、研究生导师。做中医药数据库、名医医案挖掘和舌诊图像识别。"
+  orgs:
+  - 北京中医药大学管理学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://sm.bucm.edu.cn/szdw/ywds/880e3600089f422e8e747b9eeb6da0f6.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ding-changsong
+  name: 丁长松
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学信息科学与工程学院院长、教授、博士生导师。做中医药大数据和方剂功效的可计算研究。"
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/2522.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-xiaoxia
+  name: 肖晓霞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学信息科学与工程学院教授、硕士生导师。做机器视觉和中医智能诊断设备。"
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/3987.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-qingping
+  name: 刘青萍
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学信息科学与工程学院副教授、硕士生导师。做中医临床决策支持、数据挖掘和知识发现。"
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/3985.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-cheng
+  name: 严承
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学信息科学与工程学院教授、博士生导师。做中药信息学、生物信息学和人工智能。"
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/3989.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xie-dan
+  name: 解丹
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖北中医药大学信息工程学院教授、硕士生导师。做医学人工智能、数据挖掘和自然语言处理。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11262.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-xinyou
+  name: 章新友
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "江西中医药大学智能医学与信息工程学院教授、博士生导师。做中药性效和方剂配伍数据挖掘。"
+  orgs:
+  - 江西中医药大学智能医学与信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1071/1913.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cao-hui
+  name: 曹慧
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "山东中医药大学医学信息工程学院二级教授、博士生导师。做中医药智能化和医学数据挖掘。"
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1086/1972.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wei-dejian
+  name: 魏德健
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "山东中医药大学医学信息工程学院副教授、硕士生导师。做中医药智能化和智能医学信息处理。"
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1109/2439.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhao-yufeng
+  name: 赵玉凤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院中医药信息研究所研究员、博士生导师，中医药数据中心副主任。做真实世界中医药大数据分析。"
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8349
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-shuo
+  name: 杨硕
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院中医药信息研究所研究员、硕士生导师。做中医证候本体、循证知识表达和数字化。"
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cintcm.ac.cn/tutor.thtml?id=8353
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ye-qing
+  name: 叶青
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "江西中医药大学教师。做中医知识图谱。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1036/1277.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-yanchen
+  name: 朱彦陈
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "江西中医药大学智能医学与信息工程学院教师。做中医药图像。"
+  orgs:
+  - 江西中医药大学智能医学与信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1071/1917.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-yang-hnucm
+  name: 李阳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学信息科学与工程学院教师。做中医药信息处理。"
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.hnucm.edu.cn/info/1036/6061.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-deng-wenping
+  name: 邓文萍
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖北中医药大学信息工程学院教师。做中医药信息化和标准化。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11272.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-xuesong
+  name: 刘雪松
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "浙江大学药学院研究员、博士生导师。做医药智能制造、近红外在线检测和生产全程质量控制。"
+  orgs:
+  - 浙江大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cps.zju.edu.cn/59114/list.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-yong-zju
+  name: 陈勇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "浙江大学药学院研究员、博士生导师。做中药先进制造技术。"
+  orgs:
+  - 浙江大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.cps.zju.edu.cn/59114/list.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gong-xingchu
+  name: 龚行楚
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "浙江大学药学院副教授、博士生导师。做中药质量控制、制药工艺和装备。"
+  orgs:
+  - 浙江大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://person.zju.edu.cn/gongxc
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-ming
+  name: 杨明
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "江西中医药大学副校长、博士生导师。做中药装备数字化，集成多光谱、高光谱成像和机器视觉。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.jiicm.com/info/1017/1179.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-zhenfeng
+  name: 伍振峰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "现代中药制剂教育部重点实验室主任。负责中药制剂重点实验室，并参与中药智能制造协作。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.catcm.org.cn/139/202407/4051.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-chunjie
+  name: 吴纯洁
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "成都中医药大学药学院研究员、博士生导师。做中药饮片性状数字化评价，建有智能感官分析平台。"
+  orgs:
+  - 成都中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cscsh.com/kj/198805.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-zheng-tjutcm
+  name: 李正
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学中药制药工程学院院长、教授。做中药制造数字孪生、干燥过程机器视觉和绿色智能制药。"
+  orgs:
+  - 天津中医药大学中药制药工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zygc.tjutcm.edu.cn/info/1276/2593.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-wenlong
+  name: 李文龙
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学中药制药工程学院博士生导师。做近红外过程分析，覆盖煎煮、醇沉、柱层析和制剂单元。"
+  orgs:
+  - 天津中医药大学中药制药工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zygc.tjutcm.edu.cn/info/1107/2597.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yu-yang
+  name: 于洋
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学中药制药工程学院助理研究员。与李正共同指导干燥过程机器视觉建模和数字孪生。"
+  orgs:
+  - 天津中医药大学中药制药工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zygc.tjutcm.edu.cn/info/1276/2593.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-shi-xinyuan
+  name: 史新元
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中药学院教授、博士生导师。做中药信息学、生产过程质量控制和近红外定量建模。"
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://infopharm.bucm.edu.cn/kxyj/yjdw/31867.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-nan-bucm
+  name: 李楠
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中药信息工程研究中心副研究员、硕士生导师。做中药生产过程质量控制。"
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://infopharm.bucm.edu.cn/kxyj/yjdw/index.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qi-wuzhen
+  name: 戚武振
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中药学院讲师。做中药智能制造仪器、光谱传感和关键质量属性检测。"
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://infopharm.bucm.edu.cn/kxyj/yjdw/77133.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-dai-xingxing
+  name: 戴幸星
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中药学院高级实验师。做炮制工程装备、智能感官评价和过程质量数字化。"
+  orgs:
+  - 北京中医药大学中药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://sysglzx.bucm.edu.cn/zxgk/jsdw/710b407f00ea4135b3d0d4612168b9a0.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-yongxue
+  name: 郭永学
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "沈阳药科大学制药工程学院教授、副院长、硕士生导师。做过程分析技术，以及中药制药新技术和质量控制。"
+  orgs:
+  - 沈阳药科大学制药工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://grs.syphu.edu.cn/info/1103/7177.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zang-hengchang
+  name: 臧恒昌
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "山东大学药学院研究员、博士生导师。做中药口服制剂先进制造，以及近红外过程分析和连续制造质量可视化。"
+  orgs:
+  - 山东大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kltredp.sdu.edu.cn/rcpy/PItdjj.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhong-zhijian
+  name: 钟志坚
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "华润江中湾里制造基地总经理。做固体制剂智能产线、制粒在线检测和人工智能视觉质检。"
+  orgs:
+  - 华润江中
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.jinantimes.com.cn/news-99-11066075.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiong-haoshu
+  name: 熊皓舒
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "天士力先进制造技术经理。做中药过程检测、质量数字化和智能制造产线。"
+  orgs:
+  - 天士力
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: http://www.banyuetan.org/ppgs/detail/20190508/1000200033137571557301637982839273_1.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-shunnan
+  name: 章顺楠
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "天士力医药集团股份有限公司副总经理。负责天士力数智中药和智能制造技术体系。"
+  orgs:
+  - 天士力
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://www.vbdata.cn/1518965213
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fan-qiqiang
+  name: 范启强
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "云南白药集团数智科技有限公司相关负责人。做灯塔工厂数智化和工业智能工厂升级。"
+  orgs:
+  - 云南白药集团
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://www.yunnanbaiyao.com.cn/view/ynbyPc/1/92/view/8368.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-shu-lian
+  name: 束炼
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "步长制药信息化建设与管理中心总经理。做中药制造板块的业财一体、仓储执行和产线机器人。"
+  orgs:
+  - 步长制药
+  tags:
+  - mentor
+  - industry
+  links:
+    新闻: https://articles.e-works.net.cn/700/article153015.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-hongbo
+  name: 陈红波
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "浙江省中医院肾病科负责人、主任医师。所在科室建有中医人工智能关键技术与装备工程研究中心，方向包括名老中医数字孪生机器人和智能中医机器人。"
+  orgs:
+  - 浙江省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.zjhtcm1931.cn/departmentInfo/54
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-fei
+  name: 肖飞
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "湖北省中医院信息中心主任。推进中医药与人工智能融合、智能医疗数据挖掘和数字化传承。"
+  orgs:
+  - 湖北省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1661/13882.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-sun-jing-hbucm
+  name: 孙静
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "湖北省中医院信息中心副主任。做智能医疗数据挖掘、中医药数字化传承，以及人工智能在诊疗和科研中的应用。"
+  orgs:
+  - 湖北省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1661/13882.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-zhe
+  name: 张哲
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "辽宁中医药大学附属医院中医药创新工程技术中心副主任。对接中医舌诊辅助诊断应用，推动舌诊产品升级。"
+  orgs:
+  - 辽宁中医药大学附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.lnutcm.edu.cn/info/1031/44221.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-ping-longhua
+  name: 刘萍
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "上海中医药大学附属龙华医院副院长、主任医师、博士生导师。担任名中医辨证论治思维模型课题负责人。"
+  orgs:
+  - 上海中医药大学附属龙华医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.longhua.net/info/2921/64701.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-dong-liang
+  name: 董亮
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "上海中医药大学附属龙华医院信息中心主任。负责名中医思维模型的信息化和思维链标注平台对接。"
+  orgs:
+  - 上海中医药大学附属龙华医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.longhua.net/info/1021/87312.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-yuelai
+  name: 陈跃来
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "上海中医药大学附属龙华医院时任院长。推动舌象、面象、脉象人工智能预问诊和中医临床辅助决策平台。"
+  orgs:
+  - 上海中医药大学附属龙华医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.longhua.net/info/1028/2519.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-liang
+  name: 朱亮
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "上海中医药大学附属龙华医院副院长。代表医院参加医疗大模型应用验证，医院同期建设方证大模型和中医四诊模式识别。"
+  orgs:
+  - 上海中医药大学附属龙华医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.longhua.net/info/1021/76211.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fang-min
+  name: 房敏
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "上海中医药大学教授，曙光医院推拿研究所所长。领衔推拿仿生手机器人、脊柱筋骨评估和经穴刺激外骨骼，并做抑郁症智能诊断。"
+  orgs:
+  - 上海中医药大学附属曙光医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    新闻: http://www.thepaper.cn/newsDetail_forward_31847870
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tang-wenchao
+  name: 唐文超
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学中医药人工智能学院教授。做手针刺激量光力传感和镇痛量效建模，并带队做中医药大模型评测。"
+  orgs:
+  - 上海中医药大学中医药人工智能学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zt.shutcm.edu.cn/2021/1019/c3352a137223/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-tangyi
+  name: 刘堂义
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学针灸推拿学院副教授、硕士生导师。研发针刺手法电针仪、单穴位电阻检测和手法仿真采集。"
+  orgs:
+  - 上海中医药大学针灸推拿学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://school.freekaoyan.com/sh/shutcm/daoshi/2021/01-23/16113955791334845.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-pan-xingfang
+  name: 潘兴芳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学教授。国家重点研发计划针灸机器人技术与系统课题负责人。"
+  orgs:
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.tjutcm.edu.cn/info/1039/1393.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ren-haiyan
+  name: 任海燕
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学中医学院教师、硕士生项目导师。方向含智慧中医和计算针灸，并做针灸机器人手法采集和得气分析。"
+  orgs:
+  - 天津中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zhongyi.tjutcm.edu.cn/info/1105/1243.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xia-youbing
+  name: 夏有兵
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南京中医药大学博士生导师，中国针灸学会数智针灸专业委员会主任委员。构建针灸学派与不孕症知识图谱，开发智能针灸辅助系统和针灸大模型。"
+  orgs:
+  - 南京中医药大学
+  - 南京医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://bmei.njmu.edu.cn/2025/1107/c11345a293500/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-tiancheng
+  name: 徐天成
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南京中医药大学特聘教授。提出数字经络并做智能针灸机器人，参与穴位定位、手法复现和得气力反馈。"
+  orgs:
+  - 南京中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zgze.cbpt.cnki.net/portal/journal/portal/client/news/zgze_b164694d-d190-4244-838a-908efa219f6e
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-cong
+  name: 闫聪
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学生命科学学院教授、博士生导师。具身智能推拿机器人研发负责人，用专家大模型复现名医手法。"
+  orgs:
+  - 北京中医药大学生命科学学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://shengming.bucm.edu.cn/jyjx/yjs/dsfc/553c4da4cd0943208218068860bff928.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gao-junhong
+  name: 高俊虹
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院针灸研究所研究员、博士生导师，针刺手法研究室主任。研究针灸效应机制并研发针灸装备。"
+  orgs:
+  - 中国中医科学院针灸研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.acuworld.ac.cn/info_content_ds.jsp?id=922
+  status: published
+  verified_at: '2026-11-06'
+- id: person-rong-peijing
+  name: 荣培晶
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院首席研究员、博士生导师，针灸研究所副所长。主持经脉功能脑表征研究，其中含经脉知识图谱。"
+  orgs:
+  - 中国中医科学院针灸研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.acuworld.ac.cn/info_content.jsp?id=1583
+  status: published
+  verified_at: '2026-11-06'
+- id: person-he-zhaoshui
+  name: 何昭水
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "广东工业大学自动化学院教授、博士生导师。针灸机器人国家重点研发计划项目负责人，做穴位定位、进针和提插捻转。"
+  orgs:
+  - 广东工业大学自动化学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.gdut.edu.cn/info/1709/18526.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-jing
+  name: 郭靖
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "广东工业大学自动化学院副教授、硕士生导师。以子课题负责人参与针灸机器人重点研发，负责手法采集、分析和复现。"
+  orgs:
+  - 广东工业大学自动化学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://teacher.gdut.edu.cn/guojing1/zh_CN/index.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qin-wenjun
+  name: 覃文军
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "东北大学计算机科学与工程学院教授、博士生导师。针灸机器人国家重点研发课题负责人，主持施针手法数据库和人体穴位知识图谱。"
+  orgs:
+  - 东北大学计算机科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://faculty.neu.edu.cn/tanwenjun/zh_CN/index.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liang-qiaokang
+  name: 梁桥康
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南大学人工智能与机器人学院教授、博士生导师。针灸机器人国家重点研发课题负责人，做机器人力视触觉感知和控制。"
+  orgs:
+  - 湖南大学人工智能与机器人学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://robotics.hnu.edu.cn/info/1176/3095.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-shujian
+  name: 张树剑
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "山东中医药大学中医文献与文化研究院教授。主持经脉功能脑表征与脏腑调控知识图谱，用自然语言处理和深度学习重组经络文献。"
+  orgs:
+  - 山东中医药大学中医文献与文化研究院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://wenxian.sdutcm.edu.cn/info/1042/1234.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yongcuo
+  name: 拥措
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "拉萨。西藏大学信息科学技术学院博士生导师、硕士生导师。做藏医药文献实体关系抽取，用于知识图谱。"
+  orgs:
+  - 西藏大学信息科学技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xbna.pku.edu.cn/fileup/0479-8023/HTML/2025-5-860.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-nima-zhaxi
+  name: 尼玛扎西
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "拉萨。西藏大学信息科学技术学院博士生导师、硕士生导师。参与藏医药文献关系抽取和藏文古籍数字化。"
+  orgs:
+  - 西藏大学信息科学技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: http://static.hhkaobo.com/upload/editor/fd7e90b8-9745-4ca6-97cc-d7fd16d332d2.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-sicen
+  name: 王嗣岑
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "拉萨。西藏大学博士生导师。与中央民族大学合作用人工智能模型筛选抗纤维化藏药。"
+  orgs:
+  - 西藏大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.muc.edu.cn/info/1052/36678.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-ze
+  name: 周则
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "西宁。青海大学藏医学院硕士生导师。主持藏药药用植物图像库和藏药方剂数据库。"
+  orgs:
+  - 青海大学藏医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.qhu.edu.cn/szdw/qnjstd/29957.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-duojie
+  name: 多杰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "西宁。青海大学藏医学院硕士生导师。参与藏医药文献数字化和传统医籍加工。"
+  orgs:
+  - 青海大学藏医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.qhu.edu.cn/kxyj/yjxm/27856.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-yi-cdutcm
+  name: 张艺
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "成都。成都中医药大学民族医药学术传承创新研究中心博士生导师。主持西南少数民族医药文献数据库，对象包括藏、傣、彝、苗等文献，团队建成藏医药古籍和《四部医典》地理信息平台。"
+  orgs:
+  - 成都中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cdutcm.edu.cn/info/1080/52121.htm
+    新闻: http://hgxy.hunnu.edu.cn/info/1175/5651.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-bao-hashen
+  name: 包哈申
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "呼和浩特。内蒙古医科大学蒙医药研究院博士生导师、硕士生导师。建成蒙医药古文献数据库、方剂库和医案知识库。"
+  orgs:
+  - 内蒙古医科大学蒙医药研究院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ais.cn/mentor/mentorDetail/3f3173ff-5e3c-11ec-b045-a85e45a23623
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gao-guanglai
+  name: 高光来
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "呼和浩特。内蒙古大学计算机学院博士生导师。做人工智能和蒙古文信息处理，并参与结合知识图谱的蒙医药大语言模型。"
+  orgs:
+  - 内蒙古大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ccs.imu.edu.cn/info/1034/2028.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-hui-imu
+  name: 张晖
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "呼和浩特。内蒙古大学计算机学院硕士生导师。做蒙古语语音和文字识别，并参与蒙医药大语言模型。"
+  orgs:
+  - 内蒙古大学计算机学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ccs.imu.edu.cn/info/1021/1888.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-chunsheng
+  name: 张春生
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "通辽。内蒙古民族大学硕士生导师。主持蒙医方剂数据挖掘，并用关联规则、决策树和聚类分析蒙药。"
+  orgs:
+  - 内蒙古民族大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://school.freekaoyan.com/neimenggu/imun/daoshi/2021/06-24/16245408291512706.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-suyalatu
+  name: 张苏雅拉吐
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "通辽。内蒙古民族大学硕士生导师。用激光诱导击穿光谱结合机器学习和深度学习区分蒙药材。"
+  orgs:
+  - 内蒙古民族大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://school.freekaoyan.com/neimenggu/imun/daoshi/2021/06-24/16245398151512483.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-agula
+  name: 阿古拉
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "包头。包头医学院博士生导师。作人工智能在中医药和蒙医药中的应用报告。"
+  orgs:
+  - 包头医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.btmc.edu.cn/info/1003/10449.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-minhui
+  name: 李旻辉
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "呼和浩特。内蒙古自治区中医药研究所博士生导师、硕士生导师。用遥感做蒙中药材种植规划，并有软件著作权。"
+  orgs:
+  - 内蒙古自治区中医药研究所
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.kczg.org.cn/xuezhe/details?id=214141
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhu-hua
+  name: 朱华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南宁。广西中医药大学博士生导师、硕士生导师。指导研究生做壮瑶药饮片图像识别、光谱和数据挖掘鉴定。"
+  orgs:
+  - 广西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.gxtcmu.edu.cn/yjsy/dsdw1/sssds/1056zyxss/content_45370
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ma-wenfang
+  name: 马雯芳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南宁。广西中医药大学药学院硕士生导师。用人工神经网络做壮药谱效分析，并做壮药、瑶药质量标准。"
+  orgs:
+  - 广西中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.gxtcmu.edu.cn/yxy/kstd/zyjdjys/szdw11/content_47017
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-zuliang
+  name: 周祖亮
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南宁。广西中医药大学基础医学院硕士生导师。主持壮医药词汇语料库和古壮字医药文献整理。"
+  orgs:
+  - 广西中医药大学基础医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.gxtcmu.edu.cn/jcyxy/jysjs/ygwjys/szdw8/content_47715
+  status: published
+  verified_at: '2026-11-06'
+- id: person-song-ning
+  name: 宋宁
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南宁。广西中医药大学壮医药学院硕士生导师。做壮医目诊教学信息化和名医用药数据挖掘。"
+  orgs:
+  - 广西中医药大学壮医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.gxtcmu.edu.cn/zyyxy/jysjs/zyjcjys/szdw1/content_46931
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-guodong
+  name: 黄国东
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "南宁。广西国际壮医医院院长、博士生导师。医院已落地本地大模型体检解读、人工智能舌象辨识和远程四诊仪，并筹建壮医目诊辅助平台。"
+  orgs:
+  - 广西国际壮医医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.gxtcmu.edu.cn/xwzx/xyxw/fsdw/content_89250
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-hanru
+  name: 黄汉儒
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "南宁。广西国际壮医医院博士生导师、硕士生导师。领衔人工智能壮瑶医工程研究中心。"
+  orgs:
+  - 广西国际壮医医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.gxtcmu.edu.cn/msmy/myi/content_64198
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-jinming
+  name: 黄瑾明
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "南宁。广西中医药大学第一附属医院硕士生导师。领衔人工智能壮瑶医工程研究中心。"
+  orgs:
+  - 广西中医药大学第一附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.gxtcmu.edu.cn/xwzx/xyxw/fsdw/content_14649
+  status: published
+  verified_at: '2026-11-06'
+- id: person-murat-hamit
+  name: 木拉提·哈米提
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "乌鲁木齐。新疆医科大学医学工程技术学院硕士生导师。做维医异常体液病数据挖掘辅助诊断、维药材图像资源库，以及哈萨克族食管癌图像分类。"
+  orgs:
+  - 新疆医科大学医学工程技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://school.freekaoyan.com/xj/xjmu/zhuanye/2016/01-31/1454243071480819.shtml
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yan-chuanbo
+  name: 严传波
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "乌鲁木齐。新疆医科大学副教授、硕士生导师。做维药材图像检索，并参与哈萨克族食管癌图像的支持向量机和神经网络分类。"
+  orgs:
+  - 新疆医科大学医学工程技术学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xjyy.cbpt.cnki.net/portal/journal/portal/client/paper/a87ac666d8ff75c2aa5aa85b3c52f76d
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xia-jingjing
+  name: 夏静静
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "乌鲁木齐。新疆大学药学院硕士生导师。用中红外光谱和化学计量学评价维医用药毛菊苣种子，方向含机器学习和卷积神经网络。"
+  orgs:
+  - 新疆大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://imm.xju.edu.cn/info/1059/1372.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-dean
+  name: 果德安
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国科学院上海药物研究所研究员，中药标准化技术国家工程研究中心主任。做中药分析、质量标准和中药质量检测数据库。"
+  orgs:
+  - 中国科学院上海药物研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://www.caim.org.cn/info_content_ds.jsp?id=10009
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-weidong
+  name: 张卫东
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海中医药大学交叉科学研究院教授、博士生导师。做中药复方药效物质，并推动人工智能解析组方机制。"
+  orgs:
+  - 上海中医药大学交叉科学研究院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://iiimr.shutcm.edu.cn/2019/0426/c4069a174532/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-tu-pengfei
+  name: 屠鹏飞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京大学药学院教授、博士生导师，中医药现代研究中心主任。做中药靶点鉴定，并用量子化学计算鉴定化学异构体。"
+  orgs:
+  - 北京大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dnm.bjmu.edu.cn/szdw_20180110150803713087/trywhxyjs_20180110150803713087/192678.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-xijun
+  name: 王喜军
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "黑龙江中医药大学教授、博士生导师。做中药血清药物化学和中医方证代谢组学。"
+  orgs:
+  - 黑龙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kjc.hljucm.net/info/1097/1129.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-luo-guoan
+  name: 罗国安
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "清华大学化学系教授。提出中医药系统对系统研究，并做中药指纹图谱。"
+  orgs:
+  - 清华大学化学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.chem.tsinghua.edu.cn/info/1089/1941.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liang-qionglin
+  name: 梁琼麟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "清华大学化学系长聘教授、博士生导师。做中药现代化、质谱多组学和器官芯片分析。"
+  orgs:
+  - 清华大学化学系
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.chem.tsinghua.edu.cn/info/1095/2735.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liang-xinmiao
+  name: 梁鑫淼
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国科学院大连化学物理研究所研究员、博士生导师。提出本草物质组，并建中药标准组分库。"
+  orgs:
+  - 中国科学院大连化学物理研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://mccm.dicp.ac.cn/info/1106/1204.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-huang-luqi
+  name: 黄璐琦
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院院长、研究员。做分子生药学和中药分子鉴定。"
+  orgs:
+  - 中国中医科学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.nrc.ac.cn/rcyjy/rcdw/yjy/eb9d33d888a14d189c75d46fc19ced5b.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yuan-yuan-cacms
+  name: 袁媛
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国中医科学院首席研究员、博士生导师。做中药鉴定和分子生药学。"
+  orgs:
+  - 中国中医科学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.nrc.ac.cn/rcyjy/rcdw/yjy/6c76223ab0574c35a0e8e0e35ab67249.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-kaixian
+  name: 陈凯先
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国科学院上海药物研究所研究员、博士生导师。做计算机辅助药物设计，招生方向含中药学。"
+  orgs:
+  - 中国科学院上海药物研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://people.ucas.ac.cn/~0009438
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yonghua
+  name: 王永华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "西北大学生物信息中心教授。建中药系统药理学数据库 TCMSP。"
+  orgs:
+  - 西北大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://life.nwafu.edu.cn/yjsjy/yjsgl/070cf28723284d418f42b14c1175437b.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gao-xiumei
+  name: 高秀梅
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "天津中医药大学校长、教授。做方剂多组分、多靶点和组分配伍。"
+  orgs:
+  - 天津中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://institute.tjutcm.edu.cn/szdw/gxmjs.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-bai-gang
+  name: 白钢
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南开大学药学院教授、博士生导师。用系统生物学和网络调控解析中药复方。"
+  orgs:
+  - 南开大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://pharmacy.nankai.edu.cn/info/1011/1293.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zeng-kewu
+  name: 曾克武
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京大学药学院研究员、博士生导师。用蛋白质组方法鉴定中药成分的直接靶点。"
+  orgs:
+  - 北京大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dnm.bjmu.edu.cn/szdw_20180110150803713087/trywhxyjs_20180110150803713087/192684.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-yang-ict
+  name: 吴杨
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "中国科学院计算技术研究所副研究员、课题负责人。建设 HERB、SymMap、POINT 等中药大数据平台。"
+  orgs:
+  - 中国科学院计算技术研究所
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ict.ac.cn/sourcedb/cn/jssrck/202211/t20221101_6543064.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-zhongyang
+  name: 刘中扬
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "国家蛋白质科学中心（北京）副研究员、硕士生导师。用人工智能和知识图谱做药物发现，是 BATMAN-TCM 2.0 共同通讯作者。"
+  orgs:
+  - 国家蛋白质科学中心（北京）
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://i-share.ncpsb.org.cn/genee/post/176
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-dong-ncpsb
+  name: 李栋
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "国家蛋白质科学中心（北京）研究员、博士生导师。做生命组学大数据挖掘，是 BATMAN-TCM 2.0 共同通讯作者。"
+  orgs:
+  - 国家蛋白质科学中心（北京）
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://i-share.ncpsb.org.cn/genee/post/172
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-shuzhen
+  name: 郭淑贞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "北京中医药大学中医学院教授、博士生导师。做中西医结合药理，是 BATMAN-TCM 2.0 共同通讯作者。"
+  orgs:
+  - 北京中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jichu.bucm.edu.cn/xygk/jxkyjg/syzx/kysyzx/szdw28/9c337b804aed4160aaa36a33703db7da.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-sun-hui
+  name: 孙晖
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "黑龙江中医药大学博士生导师。做中药体内成分分析和质量标准。"
+  orgs:
+  - 黑龙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsy.hljucm.net/info/1292/6818.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-xiuhong
+  name: 吴修红
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "黑龙江中医药大学二级教授、博士生导师。基于中医方证代谢组研究中药质量标志物和鉴定。"
+  orgs:
+  - 黑龙江中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsy.hljucm.net/info/1292/6818.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-jiarui
+  name: 吴嘉瑞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "河南中医药大学药学院博士生导师。招生方向为基于精准网络药理学的中药抗肿瘤机制研究。"
+  orgs:
+  - 河南中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://yjsy.hactcm.edu.cn/images/Userfiles/file_20250506_6388212460132763432631524.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ren-jian
+  name: 任健
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "山东中医药大学中医学院教授、博士生导师。招生方向为四诊数实研究。"
+  orgs:
+  - 山东中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxyx.sdutcm.edu.cn/info/1075/5703.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cheng-xiaorui
+  name: 程肖蕊
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "山东中医药大学中医药创新研究院特聘教授、博士生导师，兼招硕士。方向含中药药理学和网络药理学。"
+  orgs:
+  - 山东中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cxyjy.sdutcm.edu.cn/info/1253/2588.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zeng-yipeng
+  name: 曾艺鹏
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "上海中医药大学附属第七人民医院硕士生导师。招生方向含中医脉诊和内分泌代谢病诊疗。"
+  orgs:
+  - 上海中医药大学附属第七人民医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    招生: https://yjsy.shutcm.edu.cn/_upload/article/files/ac/da/f6a12cc64203bf845f45303b5326/4198283c-0059-4715-8008-103bbf3ef6fa.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-wanghua
+  name: 刘旺华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学中医学院博士生导师。招生方向为四诊信息数字化与辨证智能化。"
+  orgs:
+  - 湖南中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: http://static.hhkaobo.com/upload/editor/7a445106-62d0-4b9e-86b1-25e9fed5229f.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xie-mengzhou
+  name: 谢梦洲
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "湖南中医药大学中医学院博士生导师。招生方向为中医诊断四诊客观化。"
+  orgs:
+  - 湖南中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: https://static.kaoyan.cn/file/2025/01/22/a5b4ec5e68ea0f116b85c64554c9f6a0.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-lin-xuejuan
+  name: 林雪娟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "福建中医药大学中医学院博士生导师。招生方向为四诊信息采集及标准化研究。"
+  orgs:
+  - 福建中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    招生: http://static.hhkaobo.com/upload/editor/f2e35d52-e85d-4e6b-a133-fa3eefd53cc9.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-xiaohe
+  name: 肖小河
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "解放军总医院联合培养博士生导师。招生方向为基于精准网络药理学的中药作用机制研究。"
+  orgs:
+  - 解放军总医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    招生: https://yanjiusheng.bucm.edu.cn/docs/2026-01/f524a5d2c485489ab2be485be376a2b3.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-chenggang
+  name: 胡成刚
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学药学院硕士生导师、苗医药研究院副院长。主持标本馆数字化和贵州省中药资源信息数据库。"
+  orgs:
+  - 贵州中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yaoxue.gzy.edu.cn/info/1458/3599.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jiang-hong
+  name: 江洪
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学药学院硕士生导师。主讲苗药，并指导苗医药人工智能项目苗慧智云。"
+  orgs:
+  - 贵州中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yaoxue.gzy.edu.cn/info/1383/3020.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cheng-wenbo
+  name: 程文波
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学信息工程学院硕士生导师。招生方向为人工智能，并指导苗医药人工智能项目苗慧智云。"
+  orgs:
+  - 贵州中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjs.gzy.edu.cn/info/2034/2631.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-chao-ynucm
+  name: 张超
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "昆明。云南中医药大学博士生导师。在云南省傣医药与彝医药重点实验室负责傣医、彝医文献库、单验方库和院内制剂库。"
+  orgs:
+  - 云南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dym.ynucm.edu.cn/info/1011/1049.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qian-zigang
+  name: 钱子刚
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "昆明。云南中医药大学博士生导师。为傣族、彝族药材建立 DNA 条形码鉴定库和鉴定网站。"
+  orgs:
+  - 云南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dym.ynucm.edu.cn/info/1011/1049.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-kaiqing
+  name: 周恺卿
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "吉首。吉首大学计算机科学与工程学院硕士生导师。主持湘西土家医、苗医胃病诊断知识库和智能决策系统。"
+  orgs:
+  - 吉首大学计算机科学与工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cse.jsu.edu.cn/yjsjy/dsjj/7ee92686c2c44467988ea549cc4dc868.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-yong
+  name: 肖勇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院正高级实验师、硕士生导师，中医药大数据知识工程研究院副院长。做中医药信息标准化和大数据。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11282.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chang-kai
+  name: 常凯
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院高级实验师、硕士生导师。方向是中医药标准化、信息化和中医药人工智能。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11312.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-rui
+  name: 肖瑞
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院副教授、硕士生导师。方向是自然语言处理、大数据分析和人工智能。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11802.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-yan-hbucm
+  name: 王艳
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院副教授、硕士生导师。方向是数据挖掘、智能优化、标准化与信息化和生物信息学。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11332.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chang-jian
+  name: 常健
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院副教授、硕士生导师。做智慧医药、大数据分析和基于区块链的智能物联网。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/14162.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fu-wenjiao
+  name: 付文娇
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院副教授、硕士生导师。方向是中医药数据处理、标准化和信息化。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11792.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-cai-xiaohong
+  name: 蔡晓鸿
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院副教授、硕士生导师，医学信息工程教研室主任。方向是中医药信息化和数据挖掘。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11302.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-jili
+  name: 胡继礼
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "合肥。安徽中医药大学医药信息工程学院副教授、硕士生导师。用大语言模型和知识图谱做中医智能诊断，并做舌象分类。"
+  orgs:
+  - 安徽中医药大学医药信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.ahtcm.edu.cn/info/1821/53543.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xin-ling
+  name: 忻凌
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "合肥。安徽中医药大学第一附属医院高级工程师、硕士生导师，临床研究数据中心主任。做中医药信息化、医疗大数据和中医数字化传承。"
+  orgs:
+  - 安徽中医药大学第一附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://yjsb.ahtcm.edu.cn/info/2071/42051.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-mi
+  name: 刘密
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "长沙。湖南中医药大学针灸推拿与康复学院副院长、教授、博士生导师。做中医智能康复装备和针灸数智化教学。"
+  orgs:
+  - 湖南中医药大学针灸推拿与康复学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zjtn.hnucm.edu.cn/info/1101/2793.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hu-zhixi
+  name: 胡志希
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "长沙。湖南中医药大学教授、博士生导师，中医诊断学学科带头人。做中医诊疗仪器，并有脉象监测和康复穿戴设备专利。"
+  orgs:
+  - 湖南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dfzyxk.hnucm.edu.cn/info/1027/1351.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-candong
+  name: 李灿东
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "福州。福建中医药大学教授、博士生导师，新黄埔中医药联合创新研究院首席科学家。做中医诊断。"
+  orgs:
+  - 福建中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.jiicm.com/info/1078/1241.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-shaozi
+  name: 李绍滋
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门。厦门大学教授、博士生导师，同时是福建中医药大学中医诊断学博士生导师。做智能科学与智能中医信息处理。"
+  orgs:
+  - 厦门大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://imt.xmu.edu.cn/info/1003/1182.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-kunhong
+  name: 刘昆宏
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "厦门。厦门大学教授、博士生导师。做舌诊人工智能、数据挖掘和健康医疗大数据。"
+  orgs:
+  - 厦门大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cdmc.xmu.edu.cn/info/1010/1055.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-changhai
+  name: 王常海
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "郑州。河南中医药大学副教授、硕士生导师。做四诊客观化、证候数据挖掘和中医诊断。"
+  orgs:
+  - 河南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.hactcm.edu.cn/info/1110/2735.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-dang-hao
+  name: 党豪
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "郑州。河南中医药大学副教授、硕士生导师。做中医药人工智能、舌象脉诊、知识图谱和数据挖掘。"
+  orgs:
+  - 河南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://cs.haut.edu.cn/info/1541/8594.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-rui-ccucm
+  name: 陈锐
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "长春。长春中医药大学基础医学院教授、博士生导师、硕士生导师。做中医诊断学和脉学。"
+  orgs:
+  - 长春中医药大学基础医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ccucm.teacher.360eol.com/teacherBasic/preview?teacherId=28019
+  status: published
+  verified_at: '2026-11-06'
+- id: person-pi-zifeng
+  name: 皮子凤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "长春。长春中医药大学药学院教授、博士生导师、硕士生导师。用网络药理学做中药分析。"
+  orgs:
+  - 长春中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://ccucm.teacher.360eol.com/teacherBasic/preview?teacherId=28131
+  status: published
+  verified_at: '2026-11-06'
+- id: person-hou-ying
+  name: 侯滢
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "咸阳。陕西中医药大学人文管理学院硕士生导师。做智能医疗和中医药管理。"
+  orgs:
+  - 陕西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://yzb.sntcm.edu.cn/xjsds/rwglhy/1005z2zylglh/113986.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-zhiming
+  name: 张志明
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "兰州。甘肃省中医院院长、博士生导师。推动数字化舌诊和人工智能辅助望诊。"
+  orgs:
+  - 甘肃省中医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://xxxy.xzhmu.edu.cn/info/1005/2985.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jin-xiaojie
+  name: 靳晓杰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "兰州。甘肃中医药大学药学院副教授、博士生导师。做中药化学信息学和计算机辅助药物发现。"
+  orgs:
+  - 甘肃中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yxx.gszy.edu.cn/html/cid/83.html?page=1
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-wenxue
+  name: 张文学
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "银川。宁夏医科大学硕士生导师。做中医药信息学、名医方剂数据挖掘和医药知识图谱。"
+  orgs:
+  - 宁夏医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.nxmu.edu.cn/lxy/info/1051/1123.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-deren
+  name: 杨德仁
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "银川。宁夏医科大学硕士生导师。做中医药信息学。"
+  orgs:
+  - 宁夏医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.nxmu.edu.cn/lxy/info/1051/1122.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-yaogeng
+  name: 陈耀庚
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "银川。宁夏医科大学硕士生导师。做医药数据挖掘，并讲授中医药信息学。"
+  orgs:
+  - 宁夏医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.nxmu.edu.cn/lxy/info/1051/1120.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-jihong
+  name: 杨继红
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "太原。山西中医药大学教授、博士生导师。做中医药古籍数字化和机器学习智能辨证。"
+  orgs:
+  - 山西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsb.sxtcm.edu.cn/info/1708/4743.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-du-chenhui
+  name: 杜晨晖
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "太原。山西中医药大学教授、博士生导师。用代谢组学和网络药理学研究晋药药效物质。"
+  orgs:
+  - 山西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsb.sxtcm.edu.cn/info/1708/4736.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-liu-jing-sdutcm
+  name: 刘静
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "济南。山东中医药大学医学信息工程学院教授、博士生导师。做中医药智能化和医学影像分析。"
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1109/2433.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xu-wanli
+  name: 徐琬梨
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "济南。山东中医药大学中医学院副教授、硕士生导师。做舌诊、脉诊和证候相关性。"
+  orgs:
+  - 山东中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxyx.sdutcm.edu.cn/info/1082/5763.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qin-xuemei
+  name: 秦雪梅
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "太原。山西中医药大学教授、博士生导师。用代谢组学、化学计量和网络药理学做中药质量评价。"
+  orgs:
+  - 山西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsb.sxtcm.edu.cn/info/1708/4741.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-che-zhiying
+  name: 车志英
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "郑州。河南中医药大学教授、博士生导师。做证候智能信息化和四诊信息人工智能。"
+  orgs:
+  - 河南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.hactcm.edu.cn/info/2008/27315.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-song-xuekun
+  name: 宋学坤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "郑州。河南中医药大学信息技术学院硕士生导师。做计算生物医学信息学。"
+  orgs:
+  - 河南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://glxy.hactcm.edu.cn/info/1062/8030.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-shaoxian
+  name: 王少贤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "石家庄。河北中医药大学教授、博士生导师。招生方向为中医病证基础与数智中医诊法。"
+  orgs:
+  - 河北中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://static.hhkaobo.com/upload/editor/ba712818-4047-4a3c-a62d-eb12188f7339.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-feng-suxiang
+  name: 冯素香
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "郑州。河南中医药大学教授、博士生导师。做中药智能分析、多组学和质量评价。"
+  orgs:
+  - 河南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://kxy.hactcm.edu.cn/kytd/zyzlpjyxyyfsys.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-peng-yuzhong
+  name: 彭昱忠
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南宁。南宁师范大学教授、硕士生导师。做智能计算和机器学习的生物医学应用，并参与广西中医药交叉创新。"
+  orgs:
+  - 南宁师范大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.gxtcmu.edu.cn/yjsy/dsdw1/sssds/1053ggws/content_68640
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhao-hanqing
+  name: 赵汉青
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "保定。河北大学中医药信息学实验室主任、硕士生导师。做舌诊、脉诊客观化和中医大模型、知识图谱。"
+  orgs:
+  - 河北大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.hbu.edu.cn/info/1037/2368.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-gong-aimin
+  name: 宫爱民
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "海口。海南医科大学中医学院副院长、博士生导师、硕士生导师。用机器视觉和机器学习构建中医证候诊断模型。"
+  orgs:
+  - 海南医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.muhn.edu.cn/zyxy/info/1412/8735.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wen-weibo
+  name: 温伟波
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "昆明。云南中医药大学教授、博士生导师、硕士生导师。用数据挖掘做中医药临床队列，并做民族医药研发。"
+  orgs:
+  - 云南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://mbfzsys.ynucm.edu.cn/info/1020/1049.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-ningxian
+  name: 杨宁线
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州医科大学青年博士生导师。用人工智能评价抗菌肽，并做特色食药资源开发。"
+  orgs:
+  - 贵州医科大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://fnh.gmc.edu.cn/info/1006/2194.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-yun-gzy
+  name: 张昀
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学硕士生导师。用机器学习研究非编码RNA，并做药用植物小分子RNA深度学习分析。"
+  orgs:
+  - 贵州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.gzy.edu.cn/info/1196/1464.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-jiao-hongguan
+  name: 焦宏官
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学硕士生导师。参与中医药信息国际标准，并做苗医药文献分析。"
+  orgs:
+  - 贵州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.gzy.edu.cn/info/1196/1464.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiao-qiaoqiao
+  name: 肖巧巧
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学药学院硕士生导师。用生物信息学建设药用植物基因功能数据库。"
+  orgs:
+  - 贵州中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yaoxue.gzy.edu.cn/info/1458/3695.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yu-lei
+  name: 俞磊
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "合肥。安徽中医药大学教授、博士生导师。招收中医药信息学、医疗大数据与人工智能，做智能诊疗。"
+  orgs:
+  - 安徽中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.ahtcm.edu.cn/info/1821/56223.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-kan-hongxing
+  name: 阚红星
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "合肥。安徽中医药大学医药信息工程学院院长、教授、博士生导师。做中医药数据挖掘和医药大数据与人工智能。"
+  orgs:
+  - 安徽中医药大学医药信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxgc.ahtcm.edu.cn/info/1821/53623.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-guoxin
+  name: 李国信
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "沈阳。辽宁中医药大学附属第二医院博士生导师。招生方向含中西医结合临床和人工智能。"
+  orgs:
+  - 辽宁中医药大学附属第二医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.lnpatcm.com/product/170.html
+  status: published
+  verified_at: '2026-11-06'
+- id: person-shu-jianhua
+  name: 束建华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "合肥。安徽中医药大学教授、硕士生导师。主持知识图谱和大模型驱动的新安医家智能辅助诊疗系统。"
+  orgs:
+  - 安徽中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsb.ahtcm.edu.cn/info/2071/41961.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-helin
+  name: 张鹤林
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南昌。江西中医药大学副教授、硕士生导师。做中医色诊客观化和舌质舌苔自动分类。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1071/1977.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-xiong-wangping
+  name: 熊旺平
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南昌。江西中医药大学教授、硕士生导师。做中医药数据挖掘，并主持基于知识图谱的中成药用药监测。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1071/1914.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-nie-bin
+  name: 聂斌
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南昌。江西中医药大学教授、硕士生导师。做中药数据分析和健康大数据与人工智能。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1071/1921.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guo-zhenghong
+  name: 郭正红
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学药学院硕士生导师。用计算和生物信息分析苗药等民族药活性成分。"
+  orgs:
+  - 贵州中医药大学药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yaoxue.gzy.edu.cn/info/1458/3571.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wu-diyao
+  name: 吴地尧
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南昌。江西中医药大学副教授、硕士生导师。做中医药信息学和临床辅助决策模型。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jsj.jxutcm.edu.cn/info/1071/1928.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zha-qinglin
+  name: 查青林
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "南昌。江西中医药大学教授、硕士生导师。用大数据和人工智能辅助健康管理与治未病。"
+  orgs:
+  - 江西中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://jcyxy.jxutcm.edu.cn/info/5171/21081.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-yinfeng
+  name: 杨银凤
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "合肥。安徽中医药大学副教授、硕士生导师，人工智能专业负责人。把人工智能用于中药成分筛选和复方优化。"
+  orgs:
+  - 安徽中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjsb.ahtcm.edu.cn/info/2521/47781.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-jianfeng
+  name: 张建锋
+  type: person
+  year: 2026
+  section: 产业
+  summary_zh: "贵阳。贵阳道生健康产业有限公司研究人员，贵州中医药大学硕士生导师。做中药民族药工艺质量评价和网络分析。"
+  orgs:
+  - 贵阳道生健康产业有限公司
+  tags:
+  - mentor
+  - industry
+  links:
+    主页: https://yaoxue.gzy.edu.cn/info/1458/3562.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-luo-yanqiu
+  name: 罗艳秋
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "昆明。云南中医药大学硕士生导师。编纂彝族、傣族医药古籍总目，并做彝医药古籍抢救。"
+  orgs:
+  - 云南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dym.ynucm.edu.cn/info/1013/1167.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-qi-xianghua
+  name: 齐向华
+  type: person
+  year: 2026
+  section: 医院
+  summary_zh: "济南。山东中医药大学附属医院博士生导师。创立系统辨证脉学，并牵头智能化脉诊仪。"
+  orgs:
+  - 山东中医药大学附属医院
+  tags:
+  - mentor
+  - hospital
+  links:
+    主页: https://www.sdutcm.edu.cn/info/1003/9618.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhou-xiaoqing
+  name: 周小青
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "长沙。湖南中医药大学中医学院二级教授、博士生导师。做数字中医诊断和舌苔计量诊断。"
+  orgs:
+  - 湖南中医药大学中医学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zyxy.hnucm.edu.cn/info/1124/4872.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-chen-qinghua
+  name: 陈清华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "昆明。云南中医药大学硕士生导师、傣医学后备学科带头人。参与制定傣医病证分类代码和临床诊疗术语。"
+  orgs:
+  - 云南中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://dym.ynucm.edu.cn/info/1013/1167.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-wang-renmin
+  name: 王仁民
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学副教授、硕士生导师。2026年招收电子信息人工智能方向。"
+  orgs:
+  - 贵州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjs.gzy.edu.cn/info/2034/2631.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-du-guangying
+  name: 杜光映
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "贵阳。贵州中医药大学硕士生导师。招收人工智能和中药资源方向，并参与苗医药知识图谱分析。"
+  orgs:
+  - 贵州中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://yjs.gzy.edu.cn/info/2034/2631.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-ma-li-hbucm
+  name: 马利
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院教授、硕士生导师。负责中医药大数据发展研究中心，做大数据分析和循证决策。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11252.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-guan-hua
+  name: 管华
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "武汉。湖北中医药大学信息工程学院高级实验师、硕士生导师。做中医药大数据分析和自然语言处理。"
+  orgs:
+  - 湖北中医药大学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://xxy.hbucm.edu.cn/info/1491/11322.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-zhidong
+  name: 张志东
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "太原。中北大学教授、博士生导师，山西中医药大学硕士生导师。做中医数字化传感和智能四诊仪、智能艾灸机器人。"
+  orgs:
+  - 中北大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://6y.nuc.edu.cn/info/1025/28296.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-fang-chaoyi
+  name: 方朝义
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "石家庄。河北中医药大学教授、博士生导师。团队研制中医四诊仪，并训练人工智能诊法模型。"
+  orgs:
+  - 河北中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: http://static.hhkaobo.com/upload/editor/ba712818-4047-4a3c-a62d-eb12188f7339.pdf
+  status: published
+  verified_at: '2026-11-06'
+- id: person-yang-huayuan
+  name: 杨华元
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "上海。上海中医药大学教授。用人工智能做推拿机器人，可模仿一指禅并按病灶定位。"
+  orgs:
+  - 上海中医药大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.shutcm.edu.cn/2023/0921/c751a155057/page.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-zhang-kuixing
+  name: 张魁星
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "济南。山东中医药大学医学信息工程学院教授，生物医学工程学科主任，山东省中医药人工智能重点学科方向带头人。"
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1109/2436.htm
+  status: published
+  verified_at: '2026-11-06'
+- id: person-li-ming-sdutcm
+  name: 李明
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: "济南。山东中医药大学医学信息工程学院教授，研究生处副处长，医疗健康大数据学科方向带头人。"
+  orgs:
+  - 山东中医药大学医学信息工程学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://zxxy.sdutcm.edu.cn/info/1109/2432.htm
+  status: published
+  verified_at: '2026-11-06'

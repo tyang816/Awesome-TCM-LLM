@@ -8,6 +8,7 @@
 想找模型 ──► README 开源模型表 / [[Models]]
 想找数据 ──► README 数据集 / [[Datasets]]
 想做评测 ──► [[Benchmarks]]
+想找导师 ──► README 导师 / [[People]]
 想入门    ──► [[Getting-Started]]
 想投稿条  ──► [[Contributing]] + 仓库 CONTRIBUTING.md
 想懂分类  ──► [[Taxonomy]]
@@ -31,12 +32,13 @@
 | 综述 | `type: survey` | 单点技术论文 |
 | 专利 | `type: patent`（CN / US / EP / WO / JP / KR 等） | 与中医大模型 / KG-QA / RAG 问诊无关的中药组方、制剂专利 |
 | 新闻 | `type: news` | 论文发布（应写成 resource） |
+| 导师 | `type: person`，`section` 为高校 / 产业 / 医院 | 在读学生 |
 | 历史锚点 | 2022 及更早，或 `history` | 2023 年后的 LLM 工作 |
 
 更细的字段说明见 [[Taxonomy]]。
 
 ## 维护约定
 
-1. **只改 catalog，不手改 README。** 运行 `python3 scripts/build_readme.py` 会同时刷新中英文 README、`data/catalog.json`，以及本 Wiki 的 Models / Datasets / Benchmarks。
+1. **只改 catalog，不手改 README。** 运行 `python3 scripts/build_readme.py` 会同时刷新中英文 README、`data/catalog.json`，以及本 Wiki 的 Models / Datasets / Benchmarks / People。
 2. 新增条目请补 `data/i18n_en.yml` 英文摘要。
 3. 如何把 `wiki/` 推到 GitHub Wiki，见仓库内 [PUBLISH.md](https://github.com/tyang816/Awesome-TCM-LLM/blob/main/wiki/PUBLISH.md)。

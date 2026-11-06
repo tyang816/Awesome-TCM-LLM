@@ -25,6 +25,7 @@ GENERATED_FILES = (
     ROOT / "wiki" / "Models.md",
     ROOT / "wiki" / "Datasets.md",
     ROOT / "wiki" / "Benchmarks.md",
+    ROOT / "wiki" / "People.md",
 )
 
 ALLOWED_SECTIONS = {
@@ -40,6 +41,9 @@ ALLOWED_SECTIONS = {
     "知识图谱",
     "Hugging Face 开源模型（精选）",
     "语料/指令",
+    "高校",
+    "产业",
+    "医院",
 }
 
 
@@ -56,6 +60,7 @@ def validate_generated_outputs(catalog: dict, i18n: dict, errors: list[str]) -> 
         ROOT / "wiki" / "Models.md": build_readme.build_wiki_models(buckets),
         ROOT / "wiki" / "Datasets.md": build_readme.build_wiki_datasets(buckets),
         ROOT / "wiki" / "Benchmarks.md": build_readme.build_wiki_benchmarks(buckets),
+        ROOT / "wiki" / "People.md": build_readme.build_wiki_people(buckets),
     }
     for path in GENERATED_FILES:
         if not path.exists():

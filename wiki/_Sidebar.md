@@ -5,6 +5,7 @@
 - [[Models]]
 - [[Datasets]]
 - [[Benchmarks]]
+- [[People]]
 - [[Taxonomy]]
 - [[Contributing]]
 - [[FAQ]]

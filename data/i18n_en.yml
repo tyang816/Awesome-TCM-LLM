@@ -2616,3 +2616,2245 @@ patent-cn121436111b:
 patent-cn122599028a:
   summary_en: Combines multi-site pressure-level pulse signals, temporal rhythm encoding and constitution classification for
     herb/acupoint recommendations. Published 18 August 2026 and listed Pending; this is a disclosed technical proposal.
+person-li-shao:
+  name_en: Shao Li
+  summary_en: Professor and doctoral supervisor at Tsinghua University, and director of the Beijing Institute for TCM Interdisciplinary Research. Works on network pharmacology and AI for TCM, including cancer and other complex diseases, and recruits postdocs and professional doctoral students.
+  orgs_en:
+  - Department of Automation, Tsinghua University
+  - Beijing Institute for TCM Interdisciplinary Research, Tsinghua University
+person-fan-xiaohui:
+  name_en: Xiaohui Fan
+  summary_en: Qiushi Distinguished Professor and doctoral supervisor at Zhejiang University, and vice president of Zhejiang Chinese Medical University. His TCM+X group works on AI for TCM and released TCMChat.
+  orgs_en:
+  - College of Pharmaceutical Sciences, Zhejiang University
+  - Zhejiang Chinese Medical University
+person-zhou-xuezhong:
+  name_en: Xuezhong Zhou
+  summary_en: Professor, doctoral supervisor, and chair of the Department of Artificial Intelligence at Beijing Jiaotong University. Works on TCM knowledge graphs, large language models, and clinical AI; the group released Lingdan and Lingdan-V2.
+  orgs_en:
+  - School of Computer Science and Technology, Beijing Jiaotong University
+person-hu-kongfa:
+  name_en: Kongfa Hu
+  summary_en: Vice president and doctoral supervisor at Nanjing University of Chinese Medicine, and dean of the provincial AI school. Works on TCM AI, knowledge graphs, and large models, including tongue diagnosis, syndrome differentiation, and a Jiangsu TCM vertical model.
+  orgs_en:
+  - School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine
+person-chen-jianxin:
+  name_en: Jianxin Chen
+  summary_en: Professor and doctoral supervisor in the School of Life Sciences, Beijing University of Chinese Medicine. Works on TCM data mining and integrative AI, including SymMap, and recruits 2026 doctoral students in TCM informatics and big data.
+  orgs_en:
+  - School of Life Sciences, Beijing University of Chinese Medicine
+person-guo-jincheng:
+  name_en: Jincheng Guo
+  summary_en: Professor and doctoral supervisor in the School of Traditional Chinese Medicine, Beijing University of Chinese Medicine. Works on TCM bioinformatics, digital twins, and agents, including HERB and POINT, and jointly recruits 2026 doctoral students with Zhao Yi of the Chinese Academy of Sciences.
+  orgs_en:
+  - School of Traditional Chinese Medicine, Beijing University of Chinese Medicine
+person-wang-benyou:
+  name_en: Benyou Wang
+  summary_en: Assistant professor, doctoral supervisor, and Presidential Young Fellow at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. Builds medical multimodal models; the group released the TCM model ShizhenGPT.
+  orgs_en:
+  - School of Data Science, The Chinese University of Hong Kong, Shenzhen
+person-wang-xin:
+  name_en: Xin Wang
+  summary_en: Professor and doctoral supervisor in the College of Intelligence and Computing, Tianjin University. Works on knowledge graphs and large models, and co-developed the TCM model Qibo with Tianjin University of Traditional Chinese Medicine.
+  orgs_en:
+  - College of Intelligence and Computing, Tianjin University
+person-lu-wenpeng:
+  name_en: Wenpeng Lu
+  summary_en: Professor and doctoral supervisor at Qilu University of Technology (Shandong Academy of Sciences), leading the NLP and cognitive computing group. Works on medical LLMs and agents and released the TCM model BianCang.
+  orgs_en:
+  - Qilu University of Technology (Shandong Academy of Sciences)
+person-zhang-junhua:
+  name_en: Junhua Zhang
+  summary_en: Professor and doctoral supervisor at Tianjin University of Traditional Chinese Medicine, and executive deputy director of the Haihe Laboratory of Modern Chinese Medicine. Works on evidence-based TCM and released the evidence-review agent AireviewAgent.
+  orgs_en:
+  - Institute of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine
+  - Haihe Laboratory of Modern Chinese Medicine
+person-xu-haiyu:
+  name_en: Haiyu Xu
+  summary_en: Chief researcher at the China Academy of Chinese Medical Sciences and director of the Integrative Chinese Medicine Research Center. Works on integrative pharmacology and TCM big data, including ETCM and SoFDA, and recruits 2026 doctoral students in TCM AI at Liaoning University of Traditional Chinese Medicine.
+  orgs_en:
+  - Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences
+person-wen-chuanbiao:
+  name_en: Chuanbiao Wen
+  summary_en: Doctoral supervisor at Chengdu University of Traditional Chinese Medicine. His group builds high-quality datasets for TCM AI models and TCM AIGC; the dataset was selected for the national AI medical-device challenge.
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
+person-liu-baoyan:
+  name_en: Baoyan Liu
+  summary_en: Chief researcher at the China Academy of Chinese Medical Sciences. Works on clinical-outcome evaluation and TCM big data, contributes to Lingdan-V2, and collaborates with Gushengtang on TCM models and real-world data.
+  orgs_en:
+  - China Academy of Chinese Medical Sciences
+person-liu-liang:
+  name_en: Liang Liu
+  summary_en: Academician of the Chinese Academy of Engineering and director of the Guangdong Laboratory of Traditional Chinese Medicine (Hengqin Laboratory). The lab works on syndrome differentiation, diagnostic devices, and the Hengqin TCM model.
+  orgs_en:
+  - Guangdong Laboratory of Traditional Chinese Medicine
+  - Guangzhou University of Chinese Medicine
+person-xu-nenggui:
+  name_en: Nenggui Xu
+  summary_en: Professor and doctoral supervisor at Guangzhou University of Chinese Medicine, and director of the South China Acupuncture Research Center. Leads AI research on acupuncture for encephalopathy.
+  orgs_en:
+  - South China Acupuncture Research Center, Guangzhou University of Chinese Medicine
+person-wang-wenjia:
+  name_en: Wenjia Wang
+  summary_en: Leads Tasly’s Shuzhi Bencao TCM model and contributes to Lingdan-V2.
+  orgs_en:
+  - Tasly
+person-wang-lei:
+  name_en: Lei Wang
+  summary_en: Researcher at the Institute of Automation, Chinese Academy of Sciences, and chairman of Zhongke Wenge. Co-developed the TCM model Dayi Jinkui with the China Academy of Chinese Medical Sciences.
+  orgs_en:
+  - Zhongke Wenge
+  - Institute of Automation, Chinese Academy of Sciences
+person-zheng-xiang:
+  name_en: Xiang Zheng
+  summary_en: Vice president of Gushengtang, responsible for the national-master AI twins and the TCM Brain.
+  orgs_en:
+  - Gushengtang
+person-hu-zhongkai:
+  name_en: Zhongkai Hu
+  summary_en: Chief technology officer of Gushengtang, responsible for the TCM model, clinical data, and deployment in care settings.
+  orgs_en:
+  - Gushengtang
+person-luo-changyong:
+  name_en: Changyong Luo
+  summary_en: Master’s supervisor at Dongfang Hospital, Beijing University of Chinese Medicine. Works on TCM AI for epidemic and chronic disease and led the Tianyi TCM model.
+  orgs_en:
+  - Dongfang Hospital, Beijing University of Chinese Medicine
+person-hu-dan:
+  name_en: Dan Hu
+  summary_en: President of Shanghai Seventh People’s Hospital. The hospital released the Qiyuan TCM model with Shanghai University of Traditional Chinese Medicine and the Shanghai Artificial Intelligence Laboratory.
+  orgs_en:
+  - Shanghai Seventh People’s Hospital, Shanghai University of Traditional Chinese Medicine
+person-sun-maosong:
+  name_en: Maosong Sun
+  summary_en: Professor and doctoral supervisor in the Department of Computer Science and Technology at Tsinghua University, and executive vice dean of the Institute for Artificial Intelligence. Works on natural language processing and large models; his group collaborates with Gushengtang on TCM models.
+  orgs_en:
+  - Department of Computer Science and Technology, Tsinghua University
+  - Institute for Artificial Intelligence, Tsinghua University
+person-zhang-dezheng:
+  name_en: Dezheng Zhang
+  summary_en: Professor and doctoral supervisor at the University of Science and Technology Beijing. Works on TCM knowledge graphs and assisted diagnosis; his group released the Zhang Zhongjing TCM model and he is a distinguished professor at Henan University of Chinese Medicine.
+  orgs_en:
+  - School of Computer and Communication Engineering, University of Science and Technology Beijing
+person-hao-bowen:
+  name_en: Bowen Hao
+  summary_en: Associate professor in the School of Management, Capital Normal University. His group released ZhiFangDanTai, a graph-retrieval model for TCM formulas.
+  orgs_en:
+  - School of Management, Capital Normal University
+person-zhou-zuojian:
+  name_en: Zuojian Zhou
+  summary_en: Professor and doctoral supervisor at Nanjing University of Chinese Medicine, and lead of the TCM artificial-intelligence cross-discipline. Works on TCM AI, health IoT, and intelligent devices.
+  orgs_en:
+  - School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine
+person-meng-zhaopeng:
+  name_en: Zhaopeng Meng
+  summary_en: Professor and doctoral supervisor at Tianjin University, and former vice president of Tianjin University of Traditional Chinese Medicine. Works on AI for TCM, including TCM language models, question answering, and four-diagnosis devices.
+  orgs_en:
+  - Tianjin University
+  - Tianjin University of Traditional Chinese Medicine
+person-wang-yinglong:
+  name_en: Yinglong Wang
+  summary_en: Professor and doctoral supervisor at Qilu University of Technology (Shandong Academy of Sciences). Works on medical AI and high-performance computing; the group released the TCM model BianCang.
+  orgs_en:
+  - Qilu University of Technology (Shandong Academy of Sciences)
+person-chen-wei:
+  name_en: Wei Chen
+  summary_en: Chair professor at Chengdu University of Traditional Chinese Medicine. His group released Bencao Zhiku, a large model covering the Chinese-medicine industrial chain, from genomes and ingredient–target links to knowledge graphs.
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
+person-gu-xiaohong:
+  name_en: Xiaohong Gu
+  summary_en: Professor and doctoral supervisor at Beijing University of Chinese Medicine, and dean of the Institute of TCM Epidemic Diseases. Works on warm-disease theory and digital inheritance of master physicians, and co-developed the Tianyi TCM model.
+  orgs_en:
+  - Beijing University of Chinese Medicine
+person-xu-bing:
+  name_en: Bing Xu
+  summary_en: Professor, doctoral supervisor, and vice dean of the School of Chinese Materia Medica at Beijing University of Chinese Medicine. Works on intelligent TCM manufacturing, built the iTCM system, and leads construction of the Xinhuo Zhongguoyao model.
+  orgs_en:
+  - School of Chinese Materia Medica, Beijing University of Chinese Medicine
+person-zeng-fang:
+  name_en: Fang Zeng
+  summary_en: Professor, doctoral supervisor, and president of Chengdu University of Traditional Chinese Medicine. Works on acupuncture effects and AI-assisted clinical decisions, including large models for acupoint combination.
+  orgs_en:
+  - Chengdu University of Traditional Chinese Medicine
+person-cao-peng:
+  name_en: Peng Cao
+  summary_en: Researcher at Nanjing University of Chinese Medicine. His group co-developed the Tianyi TCM model with Gu Xiaohong and collaborators at Beijing University of Chinese Medicine.
+  orgs_en:
+  - Nanjing University of Chinese Medicine
+person-li-honglin:
+  name_en: Honglin Li
+  summary_en: Dean of the School of Pharmacy and doctoral supervisor at East China Normal University. Works on AI for drug design. The university and partners released the Shuzhi Qihuang TCM model.
+  orgs_en:
+  - School of Pharmacy, East China Normal University
+  - Lingang Laboratory
+person-lyu-aiping:
+  name_en: Aiping Lyu
+  summary_en: Vice president of Hong Kong Baptist University and chair professor in the School of Chinese Medicine. Works on TCM translation and systems medicine, and on combining TCM with artificial intelligence and data science.
+  orgs_en:
+  - School of Chinese Medicine, Hong Kong Baptist University
+person-he-enpei:
+  name_en: Enpei He
+  summary_en: Founder, chairman, and CEO of Transn. The company released the Rendu model and the Chuanshen Suwen TCM model.
+  orgs_en:
+  - Transn
+person-li-wenyou:
+  name_en: Wenyou Li
+  summary_en: Founder and chairman of Dajing TCM. The company released the Qihuang Wendao TCM model for assisted care, using knowledge graphs and clinical data.
+  orgs_en:
+  - Dajing TCM
+person-zhao-jing:
+  name_en: Jing Zhao
+  summary_en: Co-founder and vice general manager of Dajing TCM, and an industry professor and graduate supervisor at Nanjing University of Chinese Medicine. Leads research on Qihuang Wendao and university–hospital collaboration.
+  orgs_en:
+  - Dajing TCM
+  - Nanjing University of Chinese Medicine
+person-qiu-jianhua:
+  name_en: Jianhua Qiu
+  summary_en: Founder and chairman of AthenaEyes. The company released the multimodal Bianshi model for inquiry, tongue and face diagnosis, and the four TCM examinations.
+  orgs_en:
+  - AthenaEyes
+person-zhou-jiafeng:
+  name_en: Jiafeng Zhou
+  summary_en: Vice president of iFlytek. Works with Beijing University of Chinese Medicine on the Xinhuo Zhongguoyao education model.
+  orgs_en:
+  - iFlytek
+person-zhu-mingjun:
+  name_en: Mingjun Zhu
+  summary_en: Professor and Qihuang Scholar at the First Affiliated Hospital of Henan University of Chinese Medicine. Leads digital TCM chronic-disease control and TCM big data, and takes part in the university’s digital TCM institute.
+  orgs_en:
+  - First Affiliated Hospital of Henan University of Chinese Medicine
+person-zhang-xiaoqing:
+  name_en: Xiaoqing Zhang
+  summary_en: Doctoral supervisor in the School of Life Sciences, Beijing University of Chinese Medicine. Works on AI for quantitative TCM syndrome differentiation, head-and-face inspection, and intelligent TCM devices.
+  orgs_en:
+  - School of Life Sciences, Beijing University of Chinese Medicine
+person-li-jie:
+  name_en: Jie Li
+  summary_en: Professor in the School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine. Leads work on TCM models, multimodal agents, and digital Chinese-medicine R&D.
+  orgs_en:
+  - School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine
+person-hu-xiaojuan:
+  name_en: Xiaojuan Hu
+  summary_en: Master’s supervisor in the School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine. Works on intelligent TCM diagnosis and treatment.
+  orgs_en:
+  - School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine
+person-tu-liping:
+  name_en: Liping Tu
+  summary_en: Master’s supervisor in the School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine. Works on informatization and intelligent TCM diagnosis.
+  orgs_en:
+  - School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine
+person-sun-jijia:
+  name_en: Jijia Sun
+  summary_en: Master’s supervisor in the School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine. Works on AI for computational drug discovery.
+  orgs_en:
+  - School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine
+person-li-shaoxiong:
+  name_en: Shaoxiong Li
+  summary_en: Master’s supervisor in the School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine. Works on medical intelligent algorithms and hardware.
+  orgs_en:
+  - School of TCM Artificial Intelligence, Shanghai University of Traditional Chinese Medicine
+person-zheng-guangyong:
+  name_en: Guangyong Zheng
+  summary_en: Master’s supervisor at the Institute of Interdisciplinary Science, Shanghai University of Traditional Chinese Medicine. Works on AI for Chinese-medicine pharmacology.
+  orgs_en:
+  - Institute of Interdisciplinary Science, Shanghai University of Traditional Chinese Medicine
+person-lu-dong:
+  name_en: Dong Lu
+  summary_en: Master’s supervisor at the Institute of Interdisciplinary Science, Shanghai University of Traditional Chinese Medicine. Works on AI and drug design for Chinese medicine.
+  orgs_en:
+  - Institute of Interdisciplinary Science, Shanghai University of Traditional Chinese Medicine
+person-guan-xiaoqing:
+  name_en: Xiaoqing Guan
+  summary_en: Master’s supervisor at the Institute of Interdisciplinary Science, Shanghai University of Traditional Chinese Medicine. Works on big data and AI for drug discovery.
+  orgs_en:
+  - Institute of Interdisciplinary Science, Shanghai University of Traditional Chinese Medicine
+person-feng-shengyi:
+  name_en: Shengyi Feng
+  summary_en: Master’s supervisor at Yueyang Hospital of Integrated Traditional Chinese and Western Medicine. Works on AI for TCM orthopedics and rehabilitation.
+  orgs_en:
+  - Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine
+person-gao-feng:
+  name_en: Feng Gao
+  summary_en: Doctoral supervisor in the School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine. Works on machine learning and TCM AI.
+  orgs_en:
+  - School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine
+person-li-haiyan:
+  name_en: Haiyan Li
+  summary_en: Doctoral supervisor in the School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine. Works on machine learning and TCM AI.
+  orgs_en:
+  - School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine
+person-gu-wanjun:
+  name_en: Wanjun Gu
+  summary_en: Doctoral supervisor in the School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine. Works on bioinformatics and TCM big data.
+  orgs_en:
+  - School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine
+person-wu-ting:
+  name_en: Ting Wu
+  summary_en: Doctoral supervisor at Jiangsu Province Hospital of Chinese Medicine. Works on AI classification of pain functional imaging and nanomedicine.
+  orgs_en:
+  - Jiangsu Province Hospital of Chinese Medicine
+person-qu-ding:
+  name_en: Ding Qu
+  summary_en: Doctoral supervisor at Jiangsu Province Academy of Traditional Chinese Medicine. Works on AI for innovative Chinese-medicine formulations.
+  orgs_en:
+  - Jiangsu Province Academy of Traditional Chinese Medicine
+person-zhao-yi:
+  name_en: Yi Zhao
+  summary_en: Doctoral supervisor in the School of Medical Information Engineering, Guangzhou University of Chinese Medicine. Recruits students in TCM artificial intelligence.
+  orgs_en:
+  - School of Medical Information Engineering, Guangzhou University of Chinese Medicine
+person-cao-dong:
+  name_en: Dong Cao
+  summary_en: Doctoral supervisor in the School of Medical Information Engineering, Guangzhou University of Chinese Medicine. Recruits students in TCM artificial intelligence.
+  orgs_en:
+  - School of Medical Information Engineering, Guangzhou University of Chinese Medicine
+person-zhou-wu:
+  name_en: Wu Zhou
+  summary_en: Doctoral supervisor in the School of Medical Information Engineering, Guangzhou University of Chinese Medicine. Works on intelligent tongue and face diagnosis and objective TCM syndromes.
+  orgs_en:
+  - School of Medical Information Engineering, Guangzhou University of Chinese Medicine
+person-li-hui:
+  name_en: Hui Li
+  summary_en: Doctoral supervisor in the School of Basic Medical Sciences, Guangzhou University of Chinese Medicine. Works on the theoretical basis and application of TCM artificial intelligence.
+  orgs_en:
+  - School of Basic Medical Sciences, Guangzhou University of Chinese Medicine
+person-chen-xinlin:
+  name_en: Xinlin Chen
+  summary_en: Doctoral supervisor in the School of Basic Medical Sciences, Guangzhou University of Chinese Medicine. Works on TCM big-data statistics and individualized evaluation.
+  orgs_en:
+  - School of Basic Medical Sciences, Guangzhou University of Chinese Medicine
+person-lin-chuanquan:
+  name_en: Chuanquan Lin
+  summary_en: Doctoral supervisor at the Science and Technology Innovation Center, Guangzhou University of Chinese Medicine. Works on AI and the modernization of TCM diagnosis and treatment.
+  orgs_en:
+  - Science and Technology Innovation Center, Guangzhou University of Chinese Medicine
+person-liang-yong:
+  name_en: Yong Liang
+  summary_en: Doctoral supervisor at the Guangdong Laboratory of Traditional Chinese Medicine (Hengqin Laboratory). Recruits 2026 students in TCM artificial intelligence through Guangzhou University of Chinese Medicine.
+  orgs_en:
+  - Guangdong Laboratory of Traditional Chinese Medicine
+  - Guangzhou University of Chinese Medicine
+person-peng-shaoliang:
+  name_en: Shaoliang Peng
+  summary_en: Doctoral supervisor in the School of Traditional Chinese Medicine, Hunan University of Chinese Medicine. Works on bioinformatics and artificial intelligence.
+  orgs_en:
+  - School of Traditional Chinese Medicine, Hunan University of Chinese Medicine
+person-leng-jinhong:
+  name_en: Jinhong Leng
+  summary_en: Doctoral supervisor in the First Clinical College, Liaoning University of Traditional Chinese Medicine. Recruits students in TCM artificial intelligence.
+  orgs_en:
+  - First Clinical College, Liaoning University of Traditional Chinese Medicine
+person-zhao-xiangxuan:
+  name_en: Xiangxuan Zhao
+  summary_en: Doctoral supervisor in the School of Basic Medical Sciences, Liaoning University of Traditional Chinese Medicine. Works on TCM artificial intelligence.
+  orgs_en:
+  - School of Basic Medical Sciences, Liaoning University of Traditional Chinese Medicine
+person-deng-xin:
+  name_en: Xin Deng
+  summary_en: Doctoral supervisor at Ruikang Clinical Medical College, Guangxi University of Chinese Medicine. Works on TCM for chronic liver disease and cancer, and on TCM artificial intelligence.
+  orgs_en:
+  - Ruikang Clinical Medical College, Guangxi University of Chinese Medicine
+person-feng-disheng:
+  name_en: Disheng Feng
+  summary_en: Master’s supervisor in the School of Pharmacy, Fujian University of Traditional Chinese Medicine. Works on artificial intelligence and metabolomics.
+  orgs_en:
+  - School of Pharmacy, Fujian University of Traditional Chinese Medicine
+person-liu-yongjing:
+  name_en: Yongjing Liu
+  summary_en: Master’s supervisor in the School of Pharmacy, Fujian University of Traditional Chinese Medicine. Works on artificial intelligence and metabolomics.
+  orgs_en:
+  - School of Pharmacy, Fujian University of Traditional Chinese Medicine
+person-yu-tong:
+  name_en: "Tong Yu"
+  summary_en: "Researcher and master's supervisor at the Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences. Works on TCM knowledge graphs, terminology, and vertical models."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-yu-qi:
+  name_en: "Qi Yu"
+  summary_en: "Researcher and master's supervisor at the Institute of Information on Traditional Chinese Medicine. Works on digital inheritance of master physicians, clinical knowledge bases, and TCM AI."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-li-jinghua:
+  name_en: "Jinghua Li"
+  summary_en: "Researcher, doctoral supervisor, and director of the Intelligent R&D Center for Great Health at the Institute of Information on Traditional Chinese Medicine. Works on clinical decision support, medical-case platforms, and four-diagnosis robots."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-li-haiyan-cintcm:
+  name_en: "Haiyan Li"
+  summary_en: "Researcher and doctoral supervisor at the Institute of Information on Traditional Chinese Medicine. Works on large-model recommendation of Chinese patent medicines and the Yiyuan TCM model."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-li-bing:
+  name_en: "Bing Li"
+  summary_en: "Researcher at the Institute of Chinese Materia Medica and deputy director of the Digital Materia Medica Center. Works on knowledge graphs of medical classics, classic-text models, and clinical decision support."
+  orgs_en:
+  - "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences"
+person-zhang-yanqiong:
+  name_en: "Yanqiong Zhang"
+  summary_en: "Researcher, doctoral supervisor, and director of the Research Center for TCM Property Theory. Uses omics data and biological networks to study Chinese-medicine actions and rational use."
+  orgs_en:
+  - "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences"
+person-yang-hongjun:
+  name_en: "Hongjun Yang"
+  summary_en: "Vice president, researcher, and doctoral supervisor at the China Academy of Chinese Medical Sciences. Works on integrative pharmacology, the TCM inheritance platform, and AI4TCM."
+  orgs_en:
+  - "China Academy of Chinese Medical Sciences"
+person-wu-zhisheng:
+  name_en: "Zhisheng Wu"
+  summary_en: "Researcher and doctoral supervisor at Beijing University of Chinese Medicine, leading intelligent Chinese-medicine manufacturing. Works on manufacturing measurement and the intelligent-manufacturing platform."
+  orgs_en:
+  - "Beijing University of Chinese Medicine"
+person-wang-yun:
+  name_en: "Yun Wang"
+  summary_en: "Researcher, doctoral supervisor, and chair of the Department of Chinese Medicine Informatics, Beijing University of Chinese Medicine. Works on information fusion, intelligent property-based design, large models, and knowledge graphs."
+  orgs_en:
+  - "School of Chinese Materia Medica, Beijing University of Chinese Medicine"
+person-zhang-yanling:
+  name_en: "Yanling Zhang"
+  summary_en: "Researcher and doctoral supervisor in the School of Chinese Materia Medica, Beijing University of Chinese Medicine. Works from virtual screening to AI formula design."
+  orgs_en:
+  - "School of Chinese Materia Medica, Beijing University of Chinese Medicine"
+person-zhang-mei:
+  name_en: "Mei Zhang"
+  summary_en: "Researcher and doctoral supervisor at Beijing University of Chinese Medicine. Develops digital olfactory-diagnosis devices for objective TCM smelling and syndrome differentiation."
+  orgs_en:
+  - "Beijing University of Chinese Medicine"
+person-wang-ji:
+  name_en: "Ji Wang"
+  summary_en: "Professor, doctoral supervisor, and executive deputy dean of the National Institute of TCM Constitution and Preventive Medicine. Works on constitution, artificial intelligence, and digital health."
+  orgs_en:
+  - "Beijing University of Chinese Medicine"
+person-zhang-zhengjun:
+  name_en: "Zhengjun Zhang"
+  summary_en: "Dean of the School of Data Science and Artificial Intelligence, Beijing University of Chinese Medicine. Uses big data and systems pharmacology to connect syndrome differentiation with precision medication."
+  orgs_en:
+  - "School of Data Science and Artificial Intelligence, Beijing University of Chinese Medicine"
+person-shang-hongcai:
+  name_en: "Hongcai Shang"
+  summary_en: "President of Dongfang Hospital, Beijing University of Chinese Medicine, and a doctoral supervisor. Works on intelligent inspection and TCM clinical decision support."
+  orgs_en:
+  - "Dongfang Hospital, Beijing University of Chinese Medicine"
+person-liu-zhen:
+  name_en: "Zhen Liu"
+  summary_en: "Party secretary of Guang'anmen Hospital. Leads work on four-diagnosis and syndrome-differentiation models and the release of Guangyi Qizhi."
+  orgs_en:
+  - "Guang'anmen Hospital, China Academy of Chinese Medical Sciences"
+person-xu-hao:
+  name_en: "Hao Xu"
+  summary_en: "Chief researcher of the China Academy of Chinese Medical Sciences and vice president of Xiyuan Hospital. Uses deep networks for master-physician knowledge bases and assisted care."
+  orgs_en:
+  - "Xiyuan Hospital, China Academy of Chinese Medical Sciences"
+person-cheng-yongzhong:
+  name_en: "Yongzhong Cheng"
+  summary_en: "Chief physician and doctoral supervisor at Wangjing Hospital. Leads an intelligent bone-setting surgical robot for TCM orthopedics."
+  orgs_en:
+  - "Wangjing Hospital, China Academy of Chinese Medical Sciences"
+person-aziguli:
+  name_en: "Aziguli Wulamu"
+  summary_en: "Professor and doctoral supervisor in the School of Computer and Communication Engineering, University of Science and Technology Beijing. Works on multimodal inspection, TCM clinical decision support, and TCM language models."
+  orgs_en:
+  - "School of Computer and Communication Engineering, University of Science and Technology Beijing"
+person-liu-zeming:
+  name_en: "Zeming Liu"
+  summary_en: "Associate professor in the School of Computer Science, Beihang University. Leads key technologies for professional TCM language models."
+  orgs_en:
+  - "School of Computer Science, Beihang University"
+person-xu-jiatuo:
+  name_en: "Jiatuo Xu"
+  summary_en: "Professor, doctoral supervisor, and director of the TCM Information Science and Technology Center, Shanghai University of Traditional Chinese Medicine. Leads intelligent tongue-diagnosis systems."
+  orgs_en:
+  - "Shanghai University of Traditional Chinese Medicine"
+person-wang-xiaoling:
+  name_en: "Xiaoling Wang"
+  summary_en: "Professor in the School of Computer Science, East China Normal University. Leads key technologies for a TCM education model and co-developed ShenNong."
+  orgs_en:
+  - "School of Computer Science and Technology, East China Normal University"
+person-ruan-tong:
+  name_en: "Tong Ruan"
+  summary_en: "Professor and doctoral supervisor at East China University of Science and Technology. Works on medical models and knowledge graphs, including a TCM graph for prescription support."
+  orgs_en:
+  - "School of Information Science and Engineering, East China University of Science and Technology"
+person-tang-yun:
+  name_en: "Yun Tang"
+  summary_en: "Professor and doctoral supervisor in the School of Pharmacy, East China University of Science and Technology. Works on AI drug design, network pharmacology, and the TCM consultation model MedChatZH."
+  orgs_en:
+  - "School of Pharmacy, East China University of Science and Technology"
+person-ma-lizhuang:
+  name_en: "Lizhuang Ma"
+  summary_en: "Chair professor and doctoral supervisor in the School of Computer Science, Shanghai Jiao Tong University. Works on intelligent diagnosis that joins Chinese and Western medical information, including complexion and syndrome recognition."
+  orgs_en:
+  - "School of Computer Science, Shanghai Jiao Tong University"
+person-zhang-wenqiang:
+  name_en: "Wenqiang Zhang"
+  summary_en: "Researcher and doctoral supervisor in the School of Computer Science, Fudan University. Supervises the Zhongjing GPT line and TCM diagnosis robots."
+  orgs_en:
+  - "School of Computer Science, Fudan University"
+person-wang-haofen:
+  name_en: "Haofen Wang"
+  summary_en: "Researcher and doctoral supervisor at Tongji University. Works on knowledge graphs and dialogue systems, and supervises the Zhongjing TCM model."
+  orgs_en:
+  - "Tongji University"
+person-lai-xiaobo:
+  name_en: "Xiaobo Lai"
+  summary_en: "Professor, doctoral supervisor, and vice dean at Zhejiang Chinese Medical University. Works on intelligent TCM and medical-imaging AI."
+  orgs_en:
+  - "Zhejiang Chinese Medical University"
+person-lin-shuyuan:
+  name_en: "Shuyuan Lin"
+  summary_en: "Associate professor at Zhejiang Chinese Medical University and director of a joint TCM AI engineering center. Built the classical-formula consultation system Xuanqi Wendui with large models and knowledge graphs."
+  orgs_en:
+  - "Zhejiang Chinese Medical University"
+person-cheng-yiyu:
+  name_en: "Yiyu Cheng"
+  summary_en: "Professor and doctoral supervisor in the College of Pharmaceutical Sciences, Zhejiang University. Works on AI for the pharmaceutical industry, intelligent manufacturing, and quality analysis."
+  orgs_en:
+  - "College of Pharmaceutical Sciences, Zhejiang University"
+person-qu-haibin:
+  name_en: "Haibin Qu"
+  summary_en: "Professor, doctoral supervisor, and director of the Institute of Pharmaceutical Informatics, Zhejiang University. Works on Chinese-medicine creation, process analysis, and pharmaceutical big data."
+  orgs_en:
+  - "College of Pharmaceutical Sciences, Zhejiang University"
+person-liao-jie:
+  name_en: "Jie Liao"
+  summary_en: "Researcher and doctoral supervisor at Zhejiang University, leading the TCM direction of the Future Health Laboratory. Works on Chinese-medicine systems biology and TCM AI."
+  orgs_en:
+  - "Zhejiang University"
+person-yang-tao:
+  name_en: "Tao Yang"
+  summary_en: "Professor and master's supervisor in the School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine. Works on TCM AI, multimodal tongue diagnosis, and medical-case knowledge graphs."
+  orgs_en:
+  - "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine"
+person-wang-tianshu:
+  name_en: "Tianshu Wang"
+  summary_en: "Associate professor and master's supervisor at Nanjing University of Chinese Medicine. Works on TCM AI, visual recognition, and whole-body inspection."
+  orgs_en:
+  - "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine"
+person-dai-caiyan:
+  name_en: "Caiyan Dai"
+  summary_en: "Associate professor and master's supervisor at Nanjing University of Chinese Medicine. Works on intelligent image processing, TCM network models, and inspection-data capture."
+  orgs_en:
+  - "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine"
+person-wang-yinyin:
+  name_en: "Yinyin Wang"
+  summary_en: "Associate researcher and master's supervisor at China Pharmaceutical University. Uses AI and multi-omics to study formula mechanisms, compatibility, and meridian tropism."
+  orgs_en:
+  - "School of Traditional Chinese Pharmacy, China Pharmaceutical University"
+person-jia-xiaobin:
+  name_en: "Xiaobin Jia"
+  summary_en: "Professor and doctoral supervisor at China Pharmaceutical University. Works on intelligent Chinese pharmacy, using AI and graph neural networks for material basis and compatibility."
+  orgs_en:
+  - "School of Traditional Chinese Pharmacy, China Pharmaceutical University"
+person-bai-weimin:
+  name_en: "Weimin Bai"
+  summary_en: "Founder and chairman of Andun Health. Released the seven-diagnosis TCM robot and a TCM language model."
+  orgs_en:
+  - "Andun Health"
+person-li-kun:
+  name_en: "Kun Li"
+  summary_en: "Founder and chairman of Zhifu Qihuang. Leads four-diagnosis devices and the Tiangong TCM model."
+  orgs_en:
+  - "Zhifu Qihuang"
+person-yan-kaijing:
+  name_en: "Kaijing Yan"
+  summary_en: "Chairman of Tasly Pharmaceutical Group. Released the Shuzhi Bencao language model and the digital-Chinese-medicine program."
+  orgs_en:
+  - "Tasly"
+person-zhou-shuiping:
+  name_en: "Shuiping Zhou"
+  summary_en: "Executive dean of the Tasly Research Institute. Uses Shuzhi Bencao to generate new formulas and screen natural products."
+  orgs_en:
+  - "Tasly"
+person-su-jing:
+  name_en: "Jing Su"
+  summary_en: "General manager of Tasly Digital Chinese Medicine. Builds TCM agents and clinical decision support from Shuzhi Bencao."
+  orgs_en:
+  - "Tasly"
+person-qiao-nan:
+  name_en: "Nan Qiao"
+  summary_en: "General manager of Huawei Cloud AI scientific computing. Presented question answering, generation, and natural-product calculation for Shuzhi Bencao."
+  orgs_en:
+  - "Huawei Cloud"
+person-yang-pengcheng:
+  name_en: "Pengcheng Yang"
+  summary_en: "Leads application development for the Shuzhi Bencao model. Uses the language and computation models for formula screening."
+  orgs_en:
+  - "Huawei Cloud"
+person-fei-yicheng:
+  name_en: "Yicheng Fei"
+  summary_en: "Deputy director of advanced manufacturing research at China Resources Jiangzhong. Builds industrial agents that digitize Chinese-medicine production experience."
+  orgs_en:
+  - "China Resources Jiangzhong"
+person-he-jian:
+  name_en: "Jian He"
+  summary_en: "Founder and CEO of TCM Online. Built the Yiyin TCM model from a decade of master-physician course data."
+  orgs_en:
+  - "TCM Online"
+person-ren-yi:
+  name_en: "Yi Ren"
+  summary_en: "Chief technology officer of TCM Online. Leads deployment and fine-tuning of the TCM model."
+  orgs_en:
+  - "TCM Online"
+person-zhang-yangqing:
+  name_en: "Yangqing Zhang"
+  summary_en: "General manager of Merchants Union Consumer Finance. Initiated the Zhongsi TCM model."
+  orgs_en:
+  - "Merchants Union Consumer Finance"
+person-wang-ke:
+  name_en: "Ke Wang"
+  summary_en: "Vice president of iFlytek. Took part in the release and later development of the Xinhuo Zhongguoyao education model."
+  orgs_en:
+  - "iFlytek"
+person-li-li:
+  name_en: "Li Li"
+  summary_en: "Dean of iFlytek's higher-education institute. Works with universities on the Xinhuo Zhongguoyao model."
+  orgs_en:
+  - "iFlytek"
+person-yan-peng:
+  name_en: "Peng Yan"
+  summary_en: "Vice president of Tencent Health. Partners with Jinyao Darentang on large-model delivery of TCM services and integrated question answering."
+  orgs_en:
+  - "Tencent Health"
+person-liao-jieyuan:
+  name_en: "Jieyuan Liao"
+  summary_en: "Founder and chairman of WeDoctor. Built an AI Chinese-medicine platform that turns master-physician experience into granule prescriptions."
+  orgs_en:
+  - "WeDoctor"
+person-wang-qi:
+  name_en: "Qi Wang"
+  summary_en: "Technical director of Dajing TCM. Leads the Qihuang Wendao training path and pulse, tongue, and face devices."
+  orgs_en:
+  - "Dajing TCM"
+person-men-shaoyang:
+  name_en: "Shaoyang Men"
+  summary_en: "Associate professor and doctoral supervisor at Guangzhou University of Chinese Medicine. Works on intelligent TCM diagnosis and medical signal processing."
+  orgs_en:
+  - "School of Medical Information Engineering, Guangzhou University of Chinese Medicine"
+person-liu-xiufeng:
+  name_en: "Xiufeng Liu"
+  summary_en: "Professor and master's supervisor at Guangzhou University of Chinese Medicine. Works on TCM knowledge graphs, classic-text organization, and TCM AI."
+  orgs_en:
+  - "School of Medical Information Engineering, Guangzhou University of Chinese Medicine"
+person-zhou-hua:
+  name_en: "Hua Zhou"
+  summary_en: "Deputy director of the Guangdong Laboratory of Traditional Chinese Medicine. Leads the intelligent automation platform for new Chinese medicines and digital diagnosis infrastructure."
+  orgs_en:
+  - "Guangdong Laboratory of Traditional Chinese Medicine"
+  - "Guangdong Provincial Hospital of Chinese Medicine"
+person-pan-hudan:
+  name_en: "Hudan Pan"
+  summary_en: "Professor at Guangzhou University of Chinese Medicine. Works on multimodal data for rheumatic disease and an integrative Chinese–Western model."
+  orgs_en:
+  - "Guangzhou University of Chinese Medicine"
+person-luo-shengda:
+  name_en: "Shengda Luo"
+  summary_en: "Researcher at the Guangdong Laboratory of Traditional Chinese Medicine. Presented Hengqin-R1, syndrome reasoning, and agents for combined Chinese and Western medication."
+  orgs_en:
+  - "Guangdong Laboratory of Traditional Chinese Medicine"
+person-wen-guihua:
+  name_en: "Guihua Wen"
+  summary_en: "Professor at South China University of Technology and lead of the Guangdong AI TCM engineering team. Works on interpretable tongue diagnosis, constitution identification, and intelligent TCM care."
+  orgs_en:
+  - "School of Computer Science and Engineering, South China University of Technology"
+person-zhang-ronghua:
+  name_en: "Ronghua Zhang"
+  summary_en: "Professor and doctoral supervisor at Jinan University, and director of the Guangdong Key Laboratory of TCM Informatization."
+  orgs_en:
+  - "Jinan University"
+person-xing-guoliang:
+  name_en: "Guoliang Xing"
+  summary_en: "Professor of information engineering at The Chinese University of Hong Kong. His team built OpenTCM, a graph-retrieval model for TCM knowledge and diagnosis."
+  orgs_en:
+  - "The Chinese University of Hong Kong"
+person-shen-jiangang:
+  name_en: "Jiangang Shen"
+  summary_en: "Professor in the School of Chinese Medicine, The University of Hong Kong. Uses AI to recognize TCM pulse patterns and their links to constitution."
+  orgs_en:
+  - "School of Chinese Medicine, The University of Hong Kong"
+person-feng-yibin:
+  name_en: "Yibin Feng"
+  summary_en: "Professor and director of the School of Chinese Medicine, The University of Hong Kong. Uses network pharmacology, omics, and AI to study TCM treatment principles."
+  orgs_en:
+  - "School of Chinese Medicine, The University of Hong Kong"
+person-zhang-ge:
+  name_en: "Ge Zhang"
+  summary_en: "Chair professor and associate dean at the School of Chinese Medicine, Hong Kong Baptist University. Leads AI-driven aptamer discovery."
+  orgs_en:
+  - "School of Chinese Medicine, Hong Kong Baptist University"
+person-tian-liang:
+  name_en: "Liang Tian"
+  summary_en: "Associate professor of physics at Hong Kong Baptist University. Works on TCM data mining and AI platforms for network pharmacology and quality control."
+  orgs_en:
+  - "Hong Kong Baptist University"
+person-zhang-lu:
+  name_en: "Lu Zhang"
+  summary_en: "Professor at Hong Kong Baptist University. Builds a biomedical AI agent for Chinese-medicine treatment of gastrointestinal cancer."
+  orgs_en:
+  - "Hong Kong Baptist University"
+person-zhu-furong:
+  name_en: "Furong Zhu"
+  summary_en: "Professor at Hong Kong Baptist University. Uses near-infrared spectroscopy and AI to identify the authenticity and quality of Chinese medicinal materials."
+  orgs_en:
+  - "Hong Kong Baptist University"
+person-han-zitian:
+  name_en: "Zitian Han"
+  summary_en: "Professor at Macau University of Science and Technology. Corresponding author of TCM-DS, a model for medicinal-and-edible formula recommendation."
+  orgs_en:
+  - "Macau University of Science and Technology"
+person-lu-jiahong:
+  name_en: "Jiahong Lu"
+  summary_en: "Associate professor and associate dean of the Institute of Chinese Medical Sciences, University of Macau. Uses AI to screen Chinese-medicine molecules against Alzheimer's disease."
+  orgs_en:
+  - "Institute of Chinese Medical Sciences, University of Macau"
+person-du-jianqiang:
+  name_en: "Jianqiang Du"
+  summary_en: "Corresponding author of DualKAG-ShenNong, a knowledge-graph retrieval model for TCM consultation, at the Jiangxi key laboratory for TCM AI."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-ouyang-le:
+  name_en: "Le Ouyang"
+  summary_en: "Associate professor and doctoral supervisor at Shenzhen University. Works with Shenzhen Hospital of Traditional Chinese Medicine on an intelligent TCM consultation model."
+  orgs_en:
+  - "Shenzhen University"
+person-jiang-tao:
+  name_en: "Tao Jiang"
+  summary_en: "Professor, doctoral supervisor, and dean of the School of Intelligent Medicine, Chengdu University of Traditional Chinese Medicine. Contributed to the Tianhui TCM model and intelligent TCM devices."
+  orgs_en:
+  - "School of Intelligent Medicine, Chengdu University of Traditional Chinese Medicine"
+person-wang-dexian:
+  name_en: "Dexian Wang"
+  summary_en: "Associate professor and master's supervisor at Chengdu University of Traditional Chinese Medicine. Works on intelligent acupuncture prescription recommendation."
+  orgs_en:
+  - "Chengdu University of Traditional Chinese Medicine"
+person-li-li-swu:
+  name_en: "Li Li"
+  summary_en: "Professor and doctoral supervisor at Southwest University. Corresponding author of the TCM model TCM-R1."
+  orgs_en:
+  - "College of Computer and Information Science, Southwest University"
+person-xie-quan:
+  name_en: "Quan Xie"
+  summary_en: "Executive dean and professor of the School of Information Engineering, Guizhou University of Traditional Chinese Medicine. Leads full-chain TCM corpora for vertical models."
+  orgs_en:
+  - "School of Information Engineering, Guizhou University of Traditional Chinese Medicine"
+person-tang-lei:
+  name_en: "Lei Tang"
+  summary_en: "Party secretary of Guizhou Medical University and executive director of the national key laboratory for bioactive constituents of Chinese medicine. Led the release of the ethnic-medicine model Huazu Bencao."
+  orgs_en:
+  - "Guizhou Medical University"
+person-guo-peixin:
+  name_en: "Peixin Guo"
+  summary_en: "Professor and doctoral supervisor at Yunnan University of Chinese Medicine. Uses AI, scientific computing, and multi-omics for secondary development of classical formulas."
+  orgs_en:
+  - "Yunnan University of Chinese Medicine"
+person-shen-shaowu:
+  name_en: "Shaowu Shen"
+  summary_en: "Researcher, doctoral supervisor, and executive dean of the TCM Big Data and Knowledge Engineering Institute, Hubei University of Chinese Medicine."
+  orgs_en:
+  - "Hubei University of Chinese Medicine"
+person-yan-junfeng:
+  name_en: "Junfeng Yan"
+  summary_en: "Professor and doctoral supervisor at Hunan University of Chinese Medicine. Works on TCM artificial intelligence and computational Chinese medicine."
+  orgs_en:
+  - "Hunan University of Chinese Medicine"
+person-wei-changfa:
+  name_en: "Changfa Wei"
+  summary_en: "Professor and master's supervisor at Hunan University of Chinese Medicine. Works on intelligent TCM assistance, large models, and knowledge-graph question answering."
+  orgs_en:
+  - "School of Information Science and Engineering, Hunan University of Chinese Medicine"
+person-dong-changwu:
+  name_en: "Changwu Dong"
+  summary_en: "Professor, doctoral supervisor, and president of the Second Affiliated Hospital of Anhui University of Chinese Medicine. Works on objective four diagnoses and multimodal tongue diagnosis."
+  orgs_en:
+  - "Second Affiliated Hospital of Anhui University of Chinese Medicine"
+person-gao-jun:
+  name_en: "Jun Gao"
+  summary_en: "Professor and doctoral supervisor at Hefei University of Technology. Co-developed the tongue-diagnosis model TongueVLM."
+  orgs_en:
+  - "School of Computer Science and Information Engineering, Hefei University of Technology"
+person-li-peng:
+  name_en: "Peng Li"
+  summary_en: "Professor, doctoral supervisor, and dean of the Institute of Complexity Science, Henan University of Technology. Works on TCM AI, tongue images, and pre-disease modeling."
+  orgs_en:
+  - "Henan University of Technology"
+person-lyu-lei:
+  name_en: "Lei Lyu"
+  summary_en: "Professor and doctoral supervisor at Henan University of Technology. Works on 3D tongue perception and visual quality analysis of Chinese medicinal materials."
+  orgs_en:
+  - "Henan University of Technology"
+person-zhu-zhengzhong:
+  name_en: "Zhengzhong Zhu"
+  summary_en: "Professor and doctoral supervisor at Fuyao University of Science and Technology. Co-corresponding author of Zhongjing GPT, working on health and TCM models."
+  orgs_en:
+  - "Fuyao University of Science and Technology"
+person-wang-yiqin:
+  name_en: "Yiqin Wang"
+  summary_en: "Professor and doctoral supervisor at Shanghai University of Traditional Chinese Medicine. Works on objective tongue, pulse, face, and inquiry diagnosis."
+  orgs_en:
+  - "Shanghai University of Traditional Chinese Medicine"
+person-li-fufeng:
+  name_en: "Fufeng Li"
+  summary_en: "Professor and doctoral supervisor at Shanghai University of Traditional Chinese Medicine. Works on standardized face-diagnosis images, feature recognition, and intelligent mirrors."
+  orgs_en:
+  - "Shanghai University of Traditional Chinese Medicine"
+person-yan-haixia:
+  name_en: "Haixia Yan"
+  summary_en: "Professor and master's supervisor at Shanghai University of Traditional Chinese Medicine. Works on objective pulse diagnosis and pulse-wave risk models."
+  orgs_en:
+  - "Shanghai University of Traditional Chinese Medicine"
+person-wang-xu:
+  name_en: "Xu Wang"
+  summary_en: "Associate researcher and master's supervisor at Beijing University of Chinese Medicine. Uses images and AI for multimodal tongue, face, and brain syndrome analysis."
+  orgs_en:
+  - "School of Life Sciences, Beijing University of Chinese Medicine"
+person-qiao-yanjiang:
+  name_en: "Yanjiang Qiao"
+  summary_en: "Professor and doctoral supervisor at Beijing University of Chinese Medicine. Works on Chinese-medicine informatics, property data, and intelligent manufacturing."
+  orgs_en:
+  - "Beijing University of Chinese Medicine"
+person-zhou-peng:
+  name_en: "Peng Zhou"
+  summary_en: "Associate professor and doctoral supervisor at Tianjin University. Builds intelligent TCM diagnostic devices and TCM big-data systems, and founded Yimai AI."
+  orgs_en:
+  - "Tianjin University"
+  - "Tianjin University of Traditional Chinese Medicine"
+person-wang-nanyue:
+  name_en: "Nanyue Wang"
+  summary_en: "Researcher and doctoral supervisor at the Experimental Research Center, China Academy of Chinese Medical Sciences. Works on four-diagnosis devices and AI integration of the four examinations."
+  orgs_en:
+  - "Experimental Research Center, China Academy of Chinese Medical Sciences"
+person-zhu-yan:
+  name_en: "Yan Zhu"
+  summary_en: "Associate researcher and master's supervisor at the Institute of Information on Traditional Chinese Medicine. Works on TCM terminology, ontologies, and formula data mining."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-wen-tiancai:
+  name_en: "Tiancai Wen"
+  summary_en: "Senior engineer and doctoral supervisor at the TCM Data Center, China Academy of Chinese Medical Sciences. Works on real-world record mining and decision support."
+  orgs_en:
+  - "TCM Data Center, China Academy of Chinese Medical Sciences"
+person-yan-jianjun:
+  name_en: "Jianjun Yan"
+  summary_en: "Associate professor and master's supervisor at East China University of Science and Technology. Works on pulse devices, tongue-image segmentation, and TCM signal analysis."
+  orgs_en:
+  - "East China University of Science and Technology"
+person-luo-zhiming:
+  name_en: "Zhiming Luo"
+  summary_en: "Associate professor and doctoral supervisor at Xiamen University. Works on temporal graphs of disease progression, clinical text extraction, and TCM evaluation platforms."
+  orgs_en:
+  - "School of Informatics, Xiamen University"
+person-zan-hongying:
+  name_en: "Hongying Zan"
+  summary_en: "Professor and doctoral supervisor at Zhengzhou University. Her laboratory developed the Zhongjing TCM model line."
+  orgs_en:
+  - "School of Computer and Artificial Intelligence, Zhengzhou University"
+person-jia-yuxiang:
+  name_en: "Yuxiang Jia"
+  summary_en: "Associate professor and master's supervisor at Zhengzhou University. Corresponding author of the AAAI Zhongjing paper."
+  orgs_en:
+  - "School of Computer and Artificial Intelligence, Zhengzhou University"
+person-wang-yu-tju:
+  name_en: "Yu Wang"
+  summary_en: "Professor and doctoral supervisor in the College of Intelligence and Computing, Tianjin University. Co-developed the proactive TCM consultation system DoPI."
+  orgs_en:
+  - "College of Intelligence and Computing, Tianjin University"
+person-zhang-peng-thu:
+  name_en: "Peng Zhang"
+  summary_en: "Associate researcher in the Department of Automation, Tsinghua University, and deputy director of the Beijing Institute for TCM Interdisciplinary Research. Co-developed the digestive TCM model GastroTCM."
+  orgs_en:
+  - "Department of Automation, Tsinghua University"
+  - "Beijing Institute for TCM Interdisciplinary Research, Tsinghua University"
+person-wang-guangyu:
+  name_en: "Guangyu Wang"
+  summary_en: "Researcher at Beijing University of Posts and Telecommunications. Corresponding author of TCM-GPT, a domain-adaptive TCM pretraining model."
+  orgs_en:
+  - "Beijing University of Posts and Telecommunications"
+person-zhuang-yi:
+  name_en: "Yi Zhuang"
+  summary_en: "Professor in the School of Computer Science, Zhejiang Gongshang University. First author of the TCM formula model TCM-KLLaMA."
+  orgs_en:
+  - "School of Computer Science, Zhejiang Gongshang University"
+person-huang-qi:
+  name_en: "Qi Huang"
+  summary_en: "Professor and doctoral supervisor in the School of Information Management, Nanjing University. Co-developed the TCM classics model Huangdi."
+  orgs_en:
+  - "School of Information Management, Nanjing University"
+person-yu-huiqun:
+  name_en: "Huiqun Yu"
+  summary_en: "Professor and doctoral supervisor at East China University of Science and Technology. Co-developed the TCM consultation model MedChatZH."
+  orgs_en:
+  - "School of Computer Science and Engineering, East China University of Science and Technology"
+person-fan-guisheng:
+  name_en: "Guisheng Fan"
+  summary_en: "Associate researcher and doctoral supervisor at East China University of Science and Technology. Co-developed the TCM consultation model MedChatZH."
+  orgs_en:
+  - "School of Computer Science and Engineering, East China University of Science and Technology"
+person-xie-yonghong:
+  name_en: "Yonghong Xie"
+  summary_en: "Associate professor and master's supervisor at the University of Science and Technology Beijing. Co-developed the Zhang Zhongjing TCM model and TCM knowledge graphs."
+  orgs_en:
+  - "School of Computer and Communication Engineering, University of Science and Technology Beijing"
+person-pang-bo:
+  name_en: "Bo Pang"
+  summary_en: "Vice president and doctoral supervisor at Xiyuan Hospital. Oversees information systems and the hospital's digital-twin consultation room."
+  orgs_en:
+  - "Xiyuan Hospital, China Academy of Chinese Medical Sciences"
+person-wu-bing:
+  name_en: "Bing Wu"
+  summary_en: "Director of hematology at Xiyuan Hospital Suzhou. Leads the Ye Tianshi blood-syndrome decision-support model."
+  orgs_en:
+  - "Xiyuan Hospital Suzhou"
+person-feng-minshan:
+  name_en: "Minshan Feng"
+  summary_en: "Chief physician and doctoral supervisor at Wangjing Hospital. Presented a vertical model of master-physician experience for cervical spondylosis."
+  orgs_en:
+  - "Wangjing Hospital, China Academy of Chinese Medical Sciences"
+person-liu-chunling:
+  name_en: "Chunling Liu"
+  summary_en: "Director of digital and smart-hospital development at Dongzhimen Hospital. Leads the hospital's digital integration work."
+  orgs_en:
+  - "Dongzhimen Hospital, Beijing University of Chinese Medicine"
+person-liu-baoli:
+  name_en: "Baoli Liu"
+  summary_en: "Executive vice president and doctoral supervisor at Beijing Hospital of Traditional Chinese Medicine. Corresponding author of the diarrhea model Qwen-TCM-Dia."
+  orgs_en:
+  - "Beijing Hospital of Traditional Chinese Medicine, Capital Medical University"
+person-du-shiyu:
+  name_en: "Shiyu Du"
+  summary_en: "Director of gastroenterology and doctoral supervisor at China-Japan Friendship Hospital. Corresponding author of the spleen-stomach model GastroTCM."
+  orgs_en:
+  - "China-Japan Friendship Hospital"
+person-zuo-xianbo:
+  name_en: "Xianbo Zuo"
+  summary_en: "Director of big-data research at China-Japan Friendship Hospital. Works on the hospital's trusted data space and disease-specific models."
+  orgs_en:
+  - "China-Japan Friendship Hospital"
+person-zhang-yonghua:
+  name_en: "Yonghua Zhang"
+  summary_en: "Chief physician and doctoral supervisor at Hangzhou Hospital of Traditional Chinese Medicine. His team built the Zhang Yonghua sleep agent."
+  orgs_en:
+  - "Hangzhou Hospital of Traditional Chinese Medicine"
+person-sun-miao:
+  name_en: "Miao Sun"
+  summary_en: "Director of the information center at Wuhan Hospital of Traditional Chinese Medicine. Presented the Han-school bone-injury dataset and agent."
+  orgs_en:
+  - "Wuhan Hospital of Traditional Chinese Medicine"
+person-du-yanru:
+  name_en: "Yanru Du"
+  summary_en: "Vice president and doctoral supervisor at Hebei Provincial Hospital of Traditional Chinese Medicine. Works on the Li Diangui prescription model and the spleen-stomach model Dongyuan."
+  orgs_en:
+  - "Hebei Provincial Hospital of Traditional Chinese Medicine"
+person-yuan-weian:
+  name_en: "Weian Yuan"
+  summary_en: "Vice president and doctoral supervisor at Shuguang Hospital. Leads a full-lifecycle clinical-trial platform and virtual trials."
+  orgs_en:
+  - "Shuguang Hospital, Shanghai University of Traditional Chinese Medicine"
+person-wang-yi-zju:
+  name_en: "Yi Wang"
+  summary_en: "Professor and doctoral supervisor in the College of Pharmaceutical Sciences, Zhejiang University. Works on bioactive constituents of Chinese medicine, high-content screening, and systems pharmacology."
+  orgs_en:
+  - "College of Pharmaceutical Sciences, Zhejiang University"
+person-chen-xinlin-longhua:
+  name_en: "Xinlin Chen"
+  summary_en: "President of Longhua Hospital, Shanghai University of Traditional Chinese Medicine. Leads a multimodal TCM diagnosis agent and the hospital digital program."
+  orgs_en:
+  - "Longhua Hospital, Shanghai University of Traditional Chinese Medicine"
+person-jia-yongzhe:
+  name_en: "Yongzhe Jia"
+  summary_en: "Founder and general manager of Tianda Zhitu. Leads industrial deployment of the Haihe Qibo TCM model."
+  orgs_en:
+  - "Tianda Zhitu"
+person-xu-dawei:
+  name_en: "Dawei Xu"
+  summary_en: "Technical director of Tianda Zhitu. Works on Haihe Qibo and knowledge-enhanced formula models."
+  orgs_en:
+  - "Tianda Zhitu"
+person-zhuang-pengwei:
+  name_en: "Pengwei Zhuang"
+  summary_en: "Faculty member at Tianjin University of Traditional Chinese Medicine. Works on knowledge-graph enhancement for the Haihe Qibo formula model."
+  orgs_en:
+  - "Tianjin University of Traditional Chinese Medicine"
+person-meng-xiangfei:
+  name_en: "Xiangfei Meng"
+  summary_en: "Chief scientist at the National Supercomputing Center in Tianjin. Advances the Tianhe TCM model and hospital collaborations."
+  orgs_en:
+  - "National Supercomputing Center in Tianjin"
+person-fu-hao:
+  name_en: "Hao Fu"
+  summary_en: "Head of data intelligence at the National Supercomputing Center in Tianjin. Presented Tianhe Lingshu 2.0 for TCM reasoning across specialties."
+  orgs_en:
+  - "National Supercomputing Center in Tianjin"
+person-xu-yulong:
+  name_en: "Yulong Xu"
+  summary_en: "Associate professor and master's supervisor at Henan University of Chinese Medicine. Uses latent structure models and machine learning for syndrome rules."
+  orgs_en:
+  - "Henan University of Chinese Medicine"
+person-tong-xuming:
+  name_en: "Xuming Tong"
+  summary_en: "First author of the TCM models XuanHuGPT and QingNangTCM at Hebei North University."
+  orgs_en:
+  - "Hebei North University"
+person-wei-benzhen:
+  name_en: "Benzheng Wei"
+  summary_en: "Professor, doctoral supervisor, and dean of the School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine. Works on medical AI, TCM image analysis, and intelligent diagnosis."
+  orgs_en:
+  - "School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+person-sheng-hui:
+  name_en: "Hui Sheng"
+  summary_en: "Associate professor, master's supervisor, and vice dean at Shandong University of Traditional Chinese Medicine. Works on health big data and intelligent TCM."
+  orgs_en:
+  - "School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+person-deng-hualiang:
+  name_en: "Hualiang Deng"
+  summary_en: "President of the Affiliated Hospital of Shandong University of Traditional Chinese Medicine. Leads the provincial Zhihui Qihuang model for master-physician experience and primary care."
+  orgs_en:
+  - "Affiliated Hospital of Shandong University of Traditional Chinese Medicine"
+person-guan-hongjiao:
+  name_en: "Hongjiao Guan"
+  summary_en: "Associate professor and master's supervisor at Qilu University of Technology. Works on medical language models and BianCang evaluation for syndrome differentiation and prescriptions."
+  orgs_en:
+  - "Qilu University of Technology (Shandong Academy of Sciences)"
+person-qiao-tie:
+  name_en: "Tie Qiao"
+  summary_en: "Associate professor, master's supervisor, and lead of the TCM AI discipline at Liaoning University of Traditional Chinese Medicine. Works on standardized tongue-image capture and algorithm evaluation."
+  orgs_en:
+  - "Liaoning University of Traditional Chinese Medicine"
+person-leng-xiangyang:
+  name_en: "Xiangyang Leng"
+  summary_en: "President and professor at Changchun University of Chinese Medicine. Leads the AI-plus-TCM program and the co-release of Zhongxing Changbai Qihuang."
+  orgs_en:
+  - "Changchun University of Chinese Medicine"
+person-zhao-jia:
+  name_en: "Jia Zhao"
+  summary_en: "Vice president and professor at Jilin Business and Technology College. Led development of the multimodal TCM model Zhongxing Changbai Qihuang."
+  orgs_en:
+  - "Jilin Business and Technology College"
+person-yan-chaosheng:
+  name_en: "Chaosheng Yan"
+  summary_en: "Professor, graduate supervisor, and dean of the School of Medical Information Engineering, Heilongjiang University of Chinese Medicine. Works on medical AI and knowledge graphs of TCM classics."
+  orgs_en:
+  - "School of Medical Information Engineering, Heilongjiang University of Chinese Medicine"
+person-chu-dianhui:
+  name_en: "Dianhui Chu"
+  summary_en: "Professor and doctoral supervisor at Harbin Institute of Technology, Weihai. Leads the Tiangong medical-model training platform for TCM consultation, syndrome differentiation, and diet therapy."
+  orgs_en:
+  - "Harbin Institute of Technology, Weihai"
+person-fei-long:
+  name_en: "Feilong"
+  summary_en: "Professor and doctoral supervisor at Inner Mongolia University. Leads the Mongolian-medicine knowledge base, clinical assistance, and language model."
+  orgs_en:
+  - "Inner Mongolia University"
+person-wen-yongyi:
+  name_en: "Yongyi Wen"
+  summary_en: "Professor and master's supervisor at Shaanxi University of Chinese Medicine. Works on digitizing TCM literature, knowledge graphs, information extraction, and language models."
+  orgs_en:
+  - "Shaanxi University of Chinese Medicine"
+person-lo-lunchien:
+  name_en: "Lun-Chien Lo"
+  summary_en: "Professor of Chinese medicine diagnostics at China Medical University and chair of the Taiwan Association of Chinese Medical Diagnostics."
+  orgs_en:
+  - "School of Chinese Medicine, China Medical University"
+person-chang-henhong:
+  name_en: "Hen-Hong Chang"
+  summary_en: "Professor of Chinese medicine diagnostics at China Medical University. Works on instruments that assist traditional Chinese diagnosis."
+  orgs_en:
+  - "School of Chinese Medicine, China Medical University"
+person-huang-shengteng:
+  name_en: "Sheng-Teng Huang"
+  summary_en: "Professor and chair of the School of Chinese Medicine at China Medical University, and director of the Chinese medicine department at its hospital. Develops AI for clinical teaching in Chinese medicine."
+  orgs_en:
+  - "School of Chinese Medicine, China Medical University"
+person-yang-sienhung:
+  name_en: "Sien-Hung Yang"
+  summary_en: "Professor and chair of traditional Chinese medicine at Chang Gung University. Collaborates with electrical engineering on deep-learning tongue segmentation and constitution identification."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Chang Gung University"
+person-lee-jiannder:
+  name_en: "Jiann-Der Lee"
+  summary_en: "Professor of electrical engineering at Chang Gung University. Uses deep learning for tongue segmentation, constitution identification, and depression screening from tongue images."
+  orgs_en:
+  - "Department of Electrical Engineering, Chang Gung University"
+person-liu-genghao:
+  name_en: "Geng-Hao Liu"
+  summary_en: "Assistant professor and director of the premedical program in traditional Chinese medicine at Chang Gung University. Specializes in pulse diagnosis, acupuncture, and Chinese medical diagnosis."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Chang Gung University"
+person-yan-shijing:
+  name_en: "Shijing Yan"
+  summary_en: "Professor and head of the Artificial Intelligence Laboratory in computer science at National Dong Hwa University. Works with Tzu Chi Hospital on deep-learning analysis of tongue images and pulse signals."
+  orgs_en:
+  - "Department of Computer Science and Information Engineering, National Dong Hwa University"
+person-nakaguchi-toshiya:
+  name_en: "Toshiya Nakaguchi"
+  summary_en: "Professor and deputy director of the Center for Frontier Medical Engineering at Chiba University. Works on medical image analysis and computer-aided diagnosis, and takes part in Kampo tongue-image research."
+  orgs_en:
+  - "Center for Frontier Medical Engineering, Chiba University"
+person-namiki-takao:
+  name_en: "Takao Namiki"
+  summary_en: "Specially appointed professor at Chiba University. Leads Kampo tongue-image research and work toward tongue-diagnosis standards."
+  orgs_en:
+  - "Chiba University"
+person-kawanabe-tadaaki:
+  name_en: "Tadaaki Kawanabe"
+  summary_en: "Deputy director at Kitasato University Kitasato Institute Hospital. Uses machine learning to quantify Kampo tongue findings and built a tongue-image database of healthy subjects."
+  orgs_en:
+  - "Kitasato University Kitasato Institute Hospital"
+person-park-yeoncheol:
+  name_en: "Yeon-Cheol Park"
+  summary_en: "Associate professor of acupuncture at Kyung Hee University College of Korean Medicine. Leads a Korean-medicine omics and AI lab using big data and machine learning for diagnosis."
+  orgs_en:
+  - "College of Korean Medicine, Kyung Hee University"
+person-kim-yeonhak:
+  name_en: "Yeonhak Kim"
+  summary_en: "Adjunct professor at Pusan National University School of Korean Medicine and research fellow at Kyung Hee University. Applies multi-omics and artificial intelligence to Korean medicine."
+  orgs_en:
+  - "Pusan National University School of Korean Medicine"
+  - "Kyung Hee University"
+person-kim-changeop:
+  name_en: "Chang-Eop Kim"
+  summary_en: "Associate professor at Daegu Gyeongbuk Institute of Science and Technology. Uses machine learning to formalize Korean-medicine theory and studies herbal network pharmacology."
+  orgs_en:
+  - "Daegu Gyeongbuk Institute of Science and Technology"
+person-lee-wonyung:
+  name_en: "Won-Yung Lee"
+  summary_en: "Professor at Wonkwang University College of Korean Medicine. Works on herbal network pharmacology and an AI model that predicts interactions between herbal and chemical drugs."
+  orgs_en:
+  - "College of Korean Medicine, Wonkwang University"
+person-leem-jungtae:
+  name_en: "Jungtae Leem"
+  summary_en: "Researcher at Wonkwang University College of Korean Medicine. Studies how pulse-diagnosis devices are used in teaching Korean medical diagnostics."
+  orgs_en:
+  - "College of Korean Medicine, Wonkwang University"
+person-chen-yuzong:
+  name_en: "Yu Zong Chen"
+  summary_en: "Tenured professor of pharmacy at the National University of Singapore. Maintains the TCM-ID Chinese medicine database and uses machine learning to study herbal medicines."
+  orgs_en:
+  - "Department of Pharmacy, National University of Singapore"
+person-hu-yuanjia:
+  name_en: "Yuanjia Hu"
+  summary_en: "Professor at the Institute of Chinese Medical Sciences, University of Macau. Uses network pharmacology to identify quality-control markers of Chinese medicines and neural networks to generate molecular libraries."
+  orgs_en:
+  - "Institute of Chinese Medical Sciences, University of Macau"
+person-li-ting-must:
+  name_en: "Ting Li"
+  summary_en: "Professor at the State Key Laboratory of Quality Research in Chinese Medicines, Macau University of Science and Technology, and vice dean of its institute for interdisciplinary AI. Applies artificial intelligence to Chinese-medicine mechanisms and drug discovery."
+  orgs_en:
+  - "Macau University of Science and Technology"
+person-xu-dong-missouri:
+  name_en: "Dong Xu"
+  summary_en: "Professor at the University of Missouri. Uses deep learning to analyze tongue images and released the multimodal Chinese-medicine benchmark TCM-Ladder."
+  orgs_en:
+  - "University of Missouri"
+person-zhou-xian:
+  name_en: "Xian Zhou"
+  summary_en: "Senior research fellow at the NICM Health Research Institute, Western Sydney University. Uses machine learning to characterize synergy and antagonism among herbal bioactive molecules, and supervises graduate students."
+  orgs_en:
+  - "NICM Health Research Institute, Western Sydney University"
+person-hao-yiming:
+  name_en: "Yiming Hao"
+  summary_en: "Researcher and master's supervisor at Shanghai University of Traditional Chinese Medicine. Works on objective four examinations for chronic disease and tongue-coating metabolomics."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Shanghai University of Traditional Chinese Medicine"
+person-xu-zhaoxia:
+  name_en: "Zhaoxia Xu"
+  summary_en: "Researcher and doctoral supervisor at Shanghai University of Traditional Chinese Medicine. Analyzes tongue-image parameters and edited a monograph on tongue diagnosis."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Shanghai University of Traditional Chinese Medicine"
+person-guo-rui:
+  name_en: "Rui Guo"
+  summary_en: "Researcher and master's supervisor at Shanghai University of Traditional Chinese Medicine. Works on objective pulse diagnosis and intelligent tongue-diagnosis devices."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Shanghai University of Traditional Chinese Medicine"
+person-cui-ji:
+  name_en: "Ji Cui"
+  summary_en: "Associate professor and master's supervisor at Shanghai University of Traditional Chinese Medicine. Works on array-based three-dimensional pulse graphs and digitized four examinations."
+  orgs_en:
+  - "School of Basic Medical Sciences, Shanghai University of Traditional Chinese Medicine"
+person-qian-peng:
+  name_en: "Peng Qian"
+  summary_en: "Senior experimentalist and master's supervisor at Shanghai University of Traditional Chinese Medicine. Builds automatically pressure-adjusted pulse collectors and objective four-examination methods."
+  orgs_en:
+  - "Shanghai University of Traditional Chinese Medicine"
+person-zhang-xinfeng:
+  name_en: "Xinfeng Zhang"
+  summary_en: "Associate professor and master's supervisor at Beijing University of Technology. Works on tongue-image segmentation, multi-label classification, and multimodal tongue perception."
+  orgs_en:
+  - "Faculty of Information Technology, Beijing University of Technology"
+person-cai-yiheng:
+  name_en: "Yiheng Cai"
+  summary_en: "Professor and doctoral supervisor at Beijing University of Technology. Works on full-dimension tongue capture, color standardization for inspection, and intelligent tongue-diagnosis systems."
+  orgs_en:
+  - "Faculty of Information Technology, Beijing University of Technology"
+person-wang-yanhui:
+  name_en: "Yanhui Wang"
+  summary_en: "Professor and master's supervisor at Xiamen University School of Medicine. Works on clinical tongue diagnosis and tongue-diagnosis support systems."
+  orgs_en:
+  - "School of Medicine, Xiamen University"
+person-zhang-shaoliang:
+  name_en: "Shaoliang Zhang"
+  summary_en: "Assistant professor at Xiamen University School of Medicine. Works on digitized Chinese diagnosis, tongue-image analysis, and pulse signals."
+  orgs_en:
+  - "School of Medicine, Xiamen University"
+person-he-kuanqi:
+  name_en: "Kuanqi He"
+  summary_en: "Associate professor at Xiamen University School of Medicine. Applies tongue diagnosis clinically and studies syndrome elements, formulas, constitution, and tongue images."
+  orgs_en:
+  - "School of Medicine, Xiamen University"
+person-huang-xiaoyang:
+  name_en: "Xiaoyang Huang"
+  summary_en: "Assistant professor in the School of Informatics at Xiamen University. Works on in-the-wild tongue detection, color-cast correction, and tongue-coating separation."
+  orgs_en:
+  - "School of Informatics, Xiamen University"
+person-yu-zhifeng:
+  name_en: "Zhifeng Yu"
+  summary_en: "Professor, doctoral supervisor, and director of Chinese diagnostics at Tianjin University of Traditional Chinese Medicine. Uses tongue-capture systems to analyze tongue color, shape, and body in insomnia."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine"
+person-wang-yimin:
+  name_en: "Yimin Wang"
+  summary_en: "Professor of Chinese-medicine engineering and doctoral and master's supervisor at Tianjin University of Traditional Chinese Medicine. Uses image capture for standardized tongue diagnosis."
+  orgs_en:
+  - "Tianjin University of Traditional Chinese Medicine"
+person-liang-hao:
+  name_en: "Hao Liang"
+  summary_en: "Associate professor and doctoral supervisor at Hunan University of Chinese Medicine. Supervises intelligent inspection, stained-coating recognition, and lower-cost tongue-diagnosis devices."
+  orgs_en:
+  - "Hunan University of Chinese Medicine"
+person-zhou-yuejun:
+  name_en: "Yuejun Zhou"
+  summary_en: "Professor, chief physician, and master's supervisor at Zhejiang Chinese Medical University, and director of Chinese diagnostics. Studies tongue-based syndrome differentiation."
+  orgs_en:
+  - "Zhejiang Chinese Medical University"
+person-zhou-xuemei:
+  name_en: "Xuemei Zhou"
+  summary_en: "Professor, master's supervisor, and chair of basic Chinese medicine at Anhui University of Chinese Medicine. Her diagnostics team built an AI tongue-diagnosis training and assessment platform."
+  orgs_en:
+  - "Anhui University of Chinese Medicine"
+person-yang-zhimin:
+  name_en: "Zhimin Yang"
+  summary_en: "Vice president, professor, chief physician, and doctoral supervisor at Guangdong Provincial Hospital of Chinese Medicine. Works on Chinese-medicine health-state identification and portable tongue and pulse devices."
+  orgs_en:
+  - "Guangdong Provincial Hospital of Chinese Medicine"
+person-zhang-dapeng:
+  name_en: "David Zhang"
+  summary_en: "Doctoral supervisor in computer science at Harbin Institute of Technology, Shenzhen. Works on computerized tongue and pulse diagnosis as biometric inspection."
+  orgs_en:
+  - "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen"
+person-lu-xiaozuo:
+  name_en: "Xiaozuo Lu"
+  summary_en: "Professor and doctoral supervisor at Tianjin University of Traditional Chinese Medicine. Studies how pulse graphs form and builds Chinese diagnostic instruments."
+  orgs_en:
+  - "Tianjin University of Traditional Chinese Medicine"
+person-wang-xuemin:
+  name_en: "Xuemin Wang"
+  summary_en: "Associate professor at Tianjin University and director of its Chinese-medicine engineering laboratory. Builds pulse collectors and combined inspection, listening, inquiry, and palpation systems."
+  orgs_en:
+  - "School of Precision Instruments and Optoelectronics Engineering, Tianjin University"
+person-niu-xin:
+  name_en: "Xin Niu"
+  summary_en: "Second-class professor and doctoral supervisor at Beijing University of Chinese Medicine. Digitizes the four examinations and developed pulse and combined-examination devices."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine"
+person-yang-xuezhi:
+  name_en: "Xuezhi Yang"
+  summary_en: "Professor at Beijing University of Chinese Medicine. Leads a portable device that combines inspection, listening, inquiry, and palpation."
+  orgs_en:
+  - "Beijing University of Chinese Medicine"
+person-wang-qi-bucm:
+  name_en: "Qi Wang"
+  summary_en: "Academician of the Chinese Academy of Engineering and National TCM Master at Beijing University of Chinese Medicine. Built the TCM constitution identification system and its digital monitoring."
+  orgs_en:
+  - "Beijing University of Chinese Medicine"
+person-wang-junwen:
+  name_en: "Junwen Wang"
+  summary_en: "Researcher and doctoral supervisor at the Institute of Basic Theory for Chinese Medicine. Works on intelligent assisted Chinese diagnosis and equipment."
+  orgs_en:
+  - "Institute of Basic Theory for Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-xia-chunming:
+  name_en: "Chunming Xia"
+  summary_en: "Professor and doctoral supervisor at Shanghai University of Engineering Science. Works on pulse-signal acquisition and objective four examinations."
+  orgs_en:
+  - "Shanghai University of Engineering Science"
+person-li-chunqing:
+  name_en: "Chunqing Li"
+  summary_en: "Chair of Shanghai Daosheng Medical Technology. Builds four-examination and pulse devices and leads standards for Chinese diagnostic equipment."
+  orgs_en:
+  - "Shanghai Daosheng Medical Technology"
+person-ma-junang:
+  name_en: "Junang Ma"
+  summary_en: "Chair of Maijing. Builds a vertical Chinese-medicine model, prescription assistance, and a tongue-and-face image library."
+  orgs_en:
+  - "Maijing"
+person-zhou-peng-yimai:
+  name_en: "Peng Zhou"
+  summary_en: "Chair of Yimai Artificial Intelligence Medical Technology in Tianjin. Builds tongue, pulse, and other four-examination devices."
+  orgs_en:
+  - "Yimai Artificial Intelligence Medical Technology (Tianjin)"
+person-cheng-jing:
+  name_en: "Jing Cheng"
+  summary_en: "Chair and president of CapitalBio. Builds the Molecular Herbalism Chinese-medicine model and digitized tongue diagnosis."
+  orgs_en:
+  - "CapitalBio"
+person-yang-yue-capitalbio:
+  name_en: "Yue Yang"
+  summary_en: "Chair of CapitalBio Jingfang. Leads the Molecular Herbalism model and uses pathway data to screen Chinese formulas and evaluate activity."
+  orgs_en:
+  - "CapitalBio Jingfang"
+person-xiao-wei-kanion:
+  name_en: "Wei Xiao"
+  summary_en: "Chair of Kanion Pharmaceutical and director of the national key laboratory for Chinese-medicine process control and intelligent manufacturing. Advances industrial large models and geo-authentic herb traceability."
+  orgs_en:
+  - "Kanion Pharmaceutical"
+person-li-xiaojun:
+  name_en: "Xiaojun Li"
+  summary_en: "Chair of Guangzhou Pharmaceutical Holdings. Advances an AI Chinese-medicine model that starts from medicinal-plant cultivation."
+  orgs_en:
+  - "Guangzhou Pharmaceutical Holdings"
+person-liang-haifeng:
+  name_en: "Haifeng Liang"
+  summary_en: "Chief information officer of Guangzhou Pharmaceutical Holdings and vice president of its digital-economy institute. Covers drug traceability, intelligent manufacturing, and artificial intelligence."
+  orgs_en:
+  - "Guangzhou Pharmaceutical Holdings"
+person-wan-wuzhou:
+  name_en: "Wuzhou Wan"
+  summary_en: "President of the central research institute at Yunnan Baiyao. Speaks on AI-enabled research from innovative drugs to intelligent Chinese medicine."
+  orgs_en:
+  - "Yunnan Baiyao Group"
+person-li-shaochun:
+  name_en: "Shaochun Li"
+  summary_en: "Digital strategy scientist, general manager of the digital-technology company, and chief information officer at Yunnan Baiyao. Leads the Leigong Chinese-medicine model."
+  orgs_en:
+  - "Yunnan Baiyao Group"
+person-ding-fengli:
+  name_en: "Fengli Ding"
+  summary_en: "Chief information officer of China Resources Dong-E-E-Jiao. Builds a tonic-domain AI model and uses digital terminals for TCM constitution identification."
+  orgs_en:
+  - "China Resources Dong-E-E-Jiao"
+person-wang-zhibin:
+  name_en: "Zhibin Wang"
+  summary_en: "President of the Beijing Tongrentang Research Institute. Works on bioactivity assays and quality control of Chinese medicines."
+  orgs_en:
+  - "Beijing Tongrentang Research Institute"
+person-chen-shilin:
+  name_en: "Shilin Chen"
+  summary_en: "Chief professor at Chengdu University of Traditional Chinese Medicine and chief researcher at the China Academy of Chinese Medical Sciences. Founded herbgenomics and built the Bencao Think Tank industry model."
+  orgs_en:
+  - "Chengdu University of Traditional Chinese Medicine"
+  - "China Academy of Chinese Medical Sciences"
+person-su-songzhi:
+  name_en: "Songzhi Su"
+  summary_en: "Associate professor and master's supervisor in artificial intelligence at Xiamen University, and founder of Guanjianzai. Works on language models, intelligent Chinese diagnosis, and an all-in-one four-examination device."
+  orgs_en:
+  - "Guanjianzai (Xiamen)"
+  - "Xiamen University"
+person-guan-jing:
+  name_en: "Jing Guan"
+  summary_en: "Associate professor of Chinese diagnostics and master's supervisor at Beijing University of Chinese Medicine. Works on objective tongue diagnosis and intelligent tongue-diagnosis devices."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine"
+person-ma-xingguang:
+  name_en: "Xingguang Ma"
+  summary_en: "Professor and graduate supervisor at the School of Management, Beijing University of Chinese Medicine. Works on Chinese-medicine databases, famous-doctor case mining, and tongue-image recognition."
+  orgs_en:
+  - "School of Management, Beijing University of Chinese Medicine"
+person-ding-changsong:
+  name_en: "Changsong Ding"
+  summary_en: "Dean, professor, and doctoral supervisor at Hunan University of Chinese Medicine. Studies Chinese-medicine big data and computable formula effects."
+  orgs_en:
+  - "School of Informatics, Hunan University of Chinese Medicine"
+person-xiao-xiaoxia:
+  name_en: "Xiaoxia Xiao"
+  summary_en: "Professor and master's supervisor at Hunan University of Chinese Medicine. Works on machine vision and intelligent Chinese diagnostic devices."
+  orgs_en:
+  - "School of Informatics, Hunan University of Chinese Medicine"
+person-liu-qingping:
+  name_en: "Qingping Liu"
+  summary_en: "Associate professor and master's supervisor at Hunan University of Chinese Medicine. Works on clinical decision support, data mining, and knowledge discovery for Chinese medicine."
+  orgs_en:
+  - "School of Informatics, Hunan University of Chinese Medicine"
+person-yan-cheng:
+  name_en: "Cheng Yan"
+  summary_en: "Professor and doctoral supervisor at Hunan University of Chinese Medicine. Works on Chinese-medicine informatics, bioinformatics, and artificial intelligence."
+  orgs_en:
+  - "School of Informatics, Hunan University of Chinese Medicine"
+person-xie-dan:
+  name_en: "Dan Xie"
+  summary_en: "Professor and master's supervisor at Hubei University of Chinese Medicine. Works on medical artificial intelligence, data mining, and natural language processing."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-zhang-xinyou:
+  name_en: "Xinyou Zhang"
+  summary_en: "Professor and doctoral supervisor at Jiangxi University of Chinese Medicine. Mines data on herb properties and formula compatibility."
+  orgs_en:
+  - "College of Intelligent Medicine and Information Engineering, Jiangxi University of Chinese Medicine"
+person-cao-hui:
+  name_en: "Hui Cao"
+  summary_en: "Second-class professor and doctoral supervisor at Shandong University of Traditional Chinese Medicine. Works on intelligent Chinese medicine and medical data mining."
+  orgs_en:
+  - "College of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+person-wei-dejian:
+  name_en: "Dejian Wei"
+  summary_en: "Associate professor and master's supervisor at Shandong University of Traditional Chinese Medicine. Works on intelligent Chinese medicine and medical information processing."
+  orgs_en:
+  - "College of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+person-zhao-yufeng:
+  name_en: "Yufeng Zhao"
+  summary_en: "Researcher, doctoral supervisor, and deputy director of the Chinese-medicine data center at the China Academy of Chinese Medical Sciences. Analyzes real-world Chinese-medicine data."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-yang-shuo:
+  name_en: "Shuo Yang"
+  summary_en: "Researcher and master's supervisor at the China Academy of Chinese Medical Sciences. Works on syndrome ontologies, evidence-based knowledge representation, and digitization."
+  orgs_en:
+  - "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences"
+person-ye-qing:
+  name_en: "Qing Ye"
+  summary_en: "Faculty member at Jiangxi University of Chinese Medicine. Works on Chinese-medicine knowledge graphs."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-zhu-yanchen:
+  name_en: "Yanchen Zhu"
+  summary_en: "Faculty member at Jiangxi University of Chinese Medicine. Works on Chinese-medicine images."
+  orgs_en:
+  - "College of Intelligent Medicine and Information Engineering, Jiangxi University of Chinese Medicine"
+person-li-yang-hnucm:
+  name_en: "Yang Li"
+  summary_en: "Faculty member at Hunan University of Chinese Medicine. Works on Chinese-medicine information processing."
+  orgs_en:
+  - "School of Informatics, Hunan University of Chinese Medicine"
+person-deng-wenping:
+  name_en: "Wenping Deng"
+  summary_en: "Faculty member at Hubei University of Chinese Medicine. Works on Chinese-medicine informatization and standards."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-liu-xuesong:
+  name_en: "Xuesong Liu"
+  summary_en: "Researcher and doctoral supervisor at Zhejiang University. Works on intelligent pharmaceutical manufacturing, near-infrared online detection, and whole-process quality control."
+  orgs_en:
+  - "College of Pharmaceutical Sciences, Zhejiang University"
+person-chen-yong-zju:
+  name_en: "Yong Chen"
+  summary_en: "Researcher and doctoral supervisor at Zhejiang University. Works on advanced manufacturing technology for Chinese medicine."
+  orgs_en:
+  - "College of Pharmaceutical Sciences, Zhejiang University"
+person-gong-xingchu:
+  name_en: "Xingchu Gong"
+  summary_en: "Associate professor and doctoral supervisor at Zhejiang University. Works on Chinese-medicine quality control, manufacturing processes, and equipment."
+  orgs_en:
+  - "College of Pharmaceutical Sciences, Zhejiang University"
+person-yang-ming:
+  name_en: "Ming Yang"
+  summary_en: "Vice president and doctoral supervisor at Jiangxi University of Chinese Medicine. Digitizes Chinese-medicine equipment with multispectral and hyperspectral imaging and machine vision."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-wu-zhenfeng:
+  name_en: "Zhenfeng Wu"
+  summary_en: "Director of the Key Laboratory of Modern Preparation of TCM, Ministry of Education. Leads the laboratory and joins collaboration on intelligent Chinese-medicine manufacturing."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-wu-chunjie:
+  name_en: "Chunjie Wu"
+  summary_en: "Researcher and doctoral supervisor at Chengdu University of Traditional Chinese Medicine. Digitally evaluates decoction-piece appearance and built an intelligent sensory-analysis platform."
+  orgs_en:
+  - "School of Pharmacy, Chengdu University of Traditional Chinese Medicine"
+person-li-zheng-tjutcm:
+  name_en: "Zheng Li"
+  summary_en: "Dean and professor at Tianjin University of Traditional Chinese Medicine. Works on digital twins for Chinese-medicine manufacturing, machine vision in drying, and green intelligent pharmaceutics."
+  orgs_en:
+  - "College of Pharmaceutical Engineering of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine"
+person-li-wenlong:
+  name_en: "Wenlong Li"
+  summary_en: "Doctoral supervisor at Tianjin University of Traditional Chinese Medicine. Uses near-infrared process analysis across decoction, alcohol precipitation, chromatography, and formulation units."
+  orgs_en:
+  - "College of Pharmaceutical Engineering of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine"
+person-yu-yang:
+  name_en: "Yang Yu"
+  summary_en: "Assistant researcher at Tianjin University of Traditional Chinese Medicine. Co-supervises machine-vision modeling and digital twins for drying processes."
+  orgs_en:
+  - "College of Pharmaceutical Engineering of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine"
+person-shi-xinyuan:
+  name_en: "Xinyuan Shi"
+  summary_en: "Professor and doctoral supervisor at Beijing University of Chinese Medicine. Works on Chinese-medicine informatics, in-process quality control, and near-infrared quantitative models."
+  orgs_en:
+  - "School of Chinese Materia Medica, Beijing University of Chinese Medicine"
+person-li-nan-bucm:
+  name_en: "Nan Li"
+  summary_en: "Associate researcher and master's supervisor at Beijing University of Chinese Medicine. Works on in-process quality control for Chinese-medicine production."
+  orgs_en:
+  - "School of Chinese Materia Medica, Beijing University of Chinese Medicine"
+person-qi-wuzhen:
+  name_en: "Wuzhen Qi"
+  summary_en: "Lecturer at Beijing University of Chinese Medicine. Builds intelligent-manufacturing instruments, spectral sensors, and critical-quality-attribute detection for Chinese medicine."
+  orgs_en:
+  - "School of Chinese Materia Medica, Beijing University of Chinese Medicine"
+person-dai-xingxing:
+  name_en: "Xingxing Dai"
+  summary_en: "Senior experimentalist at Beijing University of Chinese Medicine. Works on processing equipment, intelligent sensory evaluation, and digitized in-process quality."
+  orgs_en:
+  - "School of Chinese Materia Medica, Beijing University of Chinese Medicine"
+person-guo-yongxue:
+  name_en: "Yongxue Guo"
+  summary_en: "Professor, vice dean, and master's supervisor at Shenyang Pharmaceutical University. Works on process analytical technology and new Chinese-medicine manufacturing methods."
+  orgs_en:
+  - "School of Pharmaceutical Engineering, Shenyang Pharmaceutical University"
+person-zang-hengchang:
+  name_en: "Hengchang Zang"
+  summary_en: "Researcher and doctoral supervisor at Shandong University. Works on advanced oral Chinese-medicine manufacturing, near-infrared process analysis, and quality visualization for continuous manufacturing."
+  orgs_en:
+  - "School of Pharmaceutical Sciences, Shandong University"
+person-zhong-zhijian:
+  name_en: "Zhijian Zhong"
+  summary_en: "General manager of the Wanli manufacturing base at China Resources Jiangzhong. Runs an intelligent solid-dosage line, online granulation detection, and AI visual inspection."
+  orgs_en:
+  - "China Resources Jiangzhong"
+person-xiong-haoshu:
+  name_en: "Haoshu Xiong"
+  summary_en: "Advanced-manufacturing technology manager at Tasly. Works on Chinese-medicine process detection, quality digitization, and intelligent production lines."
+  orgs_en:
+  - "Tasly"
+person-zhang-shunnan:
+  name_en: "Shunnan Zhang"
+  summary_en: "Vice general manager of Tasly Pharmaceutical Group. Leads its digital Chinese-medicine and intelligent-manufacturing system."
+  orgs_en:
+  - "Tasly"
+person-fan-qiqiang:
+  name_en: "Qiqiang Fan"
+  summary_en: "Lead at Yunnan Baiyao Digital Technology. Works on lighthouse-factory digitization and Industry 4.0 upgrades."
+  orgs_en:
+  - "Yunnan Baiyao Group"
+person-shu-lian:
+  name_en: "Lian Shu"
+  summary_en: "General manager of information construction at Buchang Pharmaceuticals. Covers business-finance integration, warehouse execution, and production-line robots for Chinese-medicine manufacturing."
+  orgs_en:
+  - "Buchang Pharmaceuticals"
+person-chen-hongbo:
+  name_en: "Hongbo Chen"
+  summary_en: "Chief physician and head of nephrology at Zhejiang Provincial Hospital of Chinese Medicine. The department hosts an engineering center for key AI technologies and equipment, including famous-doctor digital-twin robots."
+  orgs_en:
+  - "Zhejiang Provincial Hospital of Chinese Medicine"
+person-xiao-fei:
+  name_en: "Fei Xiao"
+  summary_en: "Director of the information center at Hubei Provincial Hospital of Traditional Chinese Medicine. Advances the fusion of Chinese medicine and AI, medical data mining, and digital inheritance."
+  orgs_en:
+  - "Hubei Provincial Hospital of Traditional Chinese Medicine"
+person-sun-jing-hbucm:
+  name_en: "Jing Sun"
+  summary_en: "Deputy director of the information center at Hubei Provincial Hospital of Traditional Chinese Medicine. Works on intelligent medical data mining, digital inheritance, and AI in diagnosis and research."
+  orgs_en:
+  - "Hubei Provincial Hospital of Traditional Chinese Medicine"
+person-zhang-zhe:
+  name_en: "Zhe Zhang"
+  summary_en: "Deputy director of the Chinese-medicine innovation center at the Affiliated Hospital of Liaoning University of Traditional Chinese Medicine. Connects a tongue-diagnosis app and upgrades tongue-diagnosis products."
+  orgs_en:
+  - "Affiliated Hospital of Liaoning University of Traditional Chinese Medicine"
+person-liu-ping-longhua:
+  name_en: "Ping Liu"
+  summary_en: "Vice president, chief physician, and doctoral supervisor at Longhua Hospital. Leads a project on famous-doctor syndrome-differentiation models."
+  orgs_en:
+  - "Longhua Hospital, Shanghai University of Traditional Chinese Medicine"
+person-dong-liang:
+  name_en: "Liang Dong"
+  summary_en: "Director of the information center at Longhua Hospital. Connects the famous-doctor thinking model with an information platform for chain-of-thought annotation."
+  orgs_en:
+  - "Longhua Hospital, Shanghai University of Traditional Chinese Medicine"
+person-chen-yuelai:
+  name_en: "Yuelai Chen"
+  summary_en: "Then president of Longhua Hospital. Advanced AI pre-consultation from tongue, face, and pulse images and a clinical decision-support platform."
+  orgs_en:
+  - "Longhua Hospital, Shanghai University of Traditional Chinese Medicine"
+person-zhu-liang:
+  name_en: "Liang Zhu"
+  summary_en: "Vice president of Longhua Hospital. Represents the hospital in medical-model validation while the hospital builds a formula-syndrome model and four-examination pattern recognition."
+  orgs_en:
+  - "Longhua Hospital, Shanghai University of Traditional Chinese Medicine"
+person-fang-min:
+  name_en: "Min Fang"
+  summary_en: "Professor at Shanghai University of Traditional Chinese Medicine and director of the tuina institute at Shuguang Hospital. Leads a tuina bionic-hand robot, spinal assessment, acupoint-stimulation exoskeletons, and intelligent depression diagnosis."
+  orgs_en:
+  - "Shuguang Hospital, Shanghai University of Traditional Chinese Medicine"
+person-tang-wenchao:
+  name_en: "Wenchao Tang"
+  summary_en: "Professor at Shanghai University of Traditional Chinese Medicine. Builds optical-force sensing for manual acupuncture dose and leads evaluation of Chinese-medicine models."
+  orgs_en:
+  - "College of Artificial Intelligence in Chinese Medicine, Shanghai University of Traditional Chinese Medicine"
+person-liu-tangyi:
+  name_en: "Tangyi Liu"
+  summary_en: "Associate professor and master's supervisor at Shanghai University of Traditional Chinese Medicine. Developed electroacupuncture devices for needling techniques, single-point resistance detection, and technique-simulation capture."
+  orgs_en:
+  - "College of Acupuncture and Tuina, Shanghai University of Traditional Chinese Medicine"
+person-pan-xingfang:
+  name_en: "Xingfang Pan"
+  summary_en: "Professor at Tianjin University of Traditional Chinese Medicine. Leads a national key R&D project on acupuncture robot technology and systems."
+  orgs_en:
+  - "Tianjin University of Traditional Chinese Medicine"
+person-ren-haiyan:
+  name_en: "Haiyan Ren"
+  summary_en: "Faculty member and master's project supervisor at Tianjin University of Traditional Chinese Medicine. Works on intelligent Chinese medicine, computational acupuncture, and robot capture of needling techniques."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine"
+person-xia-youbing:
+  name_en: "Youbing Xia"
+  summary_en: "Doctoral supervisor at Nanjing University of Chinese Medicine and chair of the digital-intelligent acupuncture committee of the China Association of Acupuncture-Moxibustion. Builds acupuncture knowledge graphs, an intelligent assistance system, and an acupuncture model."
+  orgs_en:
+  - "Nanjing University of Chinese Medicine"
+  - "Nanjing Medical University"
+person-xu-tiancheng:
+  name_en: "Tiancheng Xu"
+  summary_en: "Distinguished professor at Nanjing University of Chinese Medicine. Proposed digital meridians and works on intelligent acupuncture robots, point localization, technique replay, and deqi force feedback."
+  orgs_en:
+  - "Nanjing University of Chinese Medicine"
+person-yan-cong:
+  name_en: "Cong Yan"
+  summary_en: "Professor and doctoral supervisor at Beijing University of Chinese Medicine. Leads embodied-intelligence tuina robots that replay famous doctors' techniques with an expert model."
+  orgs_en:
+  - "School of Life Sciences, Beijing University of Chinese Medicine"
+person-gao-junhong:
+  name_en: "Junhong Gao"
+  summary_en: "Researcher, doctoral supervisor, and director of the needling-technique lab at the Institute of Acupuncture and Moxibustion. Studies acupuncture mechanisms and develops acupuncture equipment."
+  orgs_en:
+  - "Institute of Acupuncture and Moxibustion, China Academy of Chinese Medical Sciences"
+person-rong-peijing:
+  name_en: "Peijing Rong"
+  summary_en: "Chief researcher, doctoral supervisor, and deputy director of the Institute of Acupuncture and Moxibustion. Leads brain-representation research on meridians, including a meridian knowledge graph."
+  orgs_en:
+  - "Institute of Acupuncture and Moxibustion, China Academy of Chinese Medical Sciences"
+person-he-zhaoshui:
+  name_en: "Zhaoshui He"
+  summary_en: "Professor and doctoral supervisor at Guangdong University of Technology. Leads the national key R&D project on acupuncture robots, covering point localization, insertion, and lifting-thrusting-twirling."
+  orgs_en:
+  - "School of Automation, Guangdong University of Technology"
+person-guo-jing:
+  name_en: "Jing Guo"
+  summary_en: "Associate professor and master's supervisor at Guangdong University of Technology. Leads a subproject of the acupuncture-robot program on capturing, analyzing, and replaying needling techniques."
+  orgs_en:
+  - "School of Automation, Guangdong University of Technology"
+person-qin-wenjun:
+  name_en: "Wenjun Qin"
+  summary_en: "Professor and doctoral supervisor at Northeastern University. Leads an acupuncture-robot project and a needling-technique database with a human acupoint knowledge graph."
+  orgs_en:
+  - "College of Computer Science and Engineering, Northeastern University"
+person-liang-qiaokang:
+  name_en: "Qiaokang Liang"
+  summary_en: "Professor and doctoral supervisor at Hunan University. Leads an acupuncture-robot project on force, vision, and tactile sensing and control."
+  orgs_en:
+  - "College of Artificial Intelligence and Robotics, Hunan University"
+person-zhang-shujian:
+  name_en: "Shujian Zhang"
+  summary_en: "Professor at Shandong University of Traditional Chinese Medicine. Leads a knowledge graph of meridian brain representation and visceral regulation, reorganizing meridian literature with language models and deep learning."
+  orgs_en:
+  - "Institute of Chinese Medical Literature and Culture, Shandong University of Traditional Chinese Medicine"
+person-yongcuo:
+  name_en: "Yongcuo"
+  summary_en: "Lhasa. Doctoral and master's supervisor at Tibet University. Extracts entity relations from Tibetan-medicine literature for knowledge graphs."
+  orgs_en:
+  - "School of Information Science and Technology, Tibet University"
+person-nima-zhaxi:
+  name_en: "Nima Zhaxi"
+  summary_en: "Lhasa. Doctoral and master's supervisor at Tibet University. Joins relation extraction from Tibetan-medicine literature and digitization of Tibetan classical texts."
+  orgs_en:
+  - "School of Information Science and Technology, Tibet University"
+person-wang-sicen:
+  name_en: "Sicen Wang"
+  summary_en: "Lhasa. Doctoral supervisor at Tibet University. With Minzu University of China, uses AI models to screen anti-fibrotic Tibetan medicines."
+  orgs_en:
+  - "Tibet University"
+person-zhou-ze:
+  name_en: "Ze Zhou"
+  summary_en: "Xining. Master's supervisor at the College of Tibetan Medicine, Qinghai University. Leads a Tibetan medicinal-plant image library and a Tibetan-formula database."
+  orgs_en:
+  - "College of Tibetan Medicine, Qinghai University"
+person-duojie:
+  name_en: "Duojie"
+  summary_en: "Xining. Master's supervisor at the College of Tibetan Medicine, Qinghai University. Joins digitization of Tibetan medical literature and deep processing of classical texts."
+  orgs_en:
+  - "College of Tibetan Medicine, Qinghai University"
+person-zhang-yi-cdutcm:
+  name_en: "Yi Zhang"
+  summary_en: "Chengdu. Doctoral supervisor at Chengdu University of Traditional Chinese Medicine. Leads a literature database covering Tibetan, Dai, Yi, and Miao medicine, and the team built a geographic platform for Tibetan medical classics."
+  orgs_en:
+  - "Chengdu University of Traditional Chinese Medicine"
+person-bao-hashen:
+  name_en: "Bao Hashen"
+  summary_en: "Hohhot. Doctoral and master's supervisor at Inner Mongolia Medical University. Built databases of classical Mongolian medical literature, formulas, and clinical cases."
+  orgs_en:
+  - "Institute of Mongolian Medicine, Inner Mongolia Medical University"
+person-gao-guanglai:
+  name_en: "Guanglai Gao"
+  summary_en: "Hohhot. Doctoral supervisor at Inner Mongolia University. Works on artificial intelligence and Mongolian-language processing, and is an inventor on a knowledge-graph Mongolian-medicine language model."
+  orgs_en:
+  - "College of Computer Science, Inner Mongolia University"
+person-zhang-hui-imu:
+  name_en: "Hui Zhang"
+  summary_en: "Hohhot. Master's supervisor at Inner Mongolia University. Works on Mongolian speech and text recognition and joined a Mongolian-medicine language model."
+  orgs_en:
+  - "College of Computer Science, Inner Mongolia University"
+person-zhang-chunsheng:
+  name_en: "Chunsheng Zhang"
+  summary_en: "Tongliao. Master's supervisor at Inner Mongolia Minzu University. Leads data mining of Mongolian formulas with association rules, decision trees, and clustering."
+  orgs_en:
+  - "Inner Mongolia Minzu University"
+person-zhang-suyalatu:
+  name_en: "Suyalatu Zhang"
+  summary_en: "Tongliao. Master's supervisor at Inner Mongolia Minzu University. Uses laser-induced breakdown spectroscopy with machine learning and deep networks to distinguish Mongolian medicinal materials."
+  orgs_en:
+  - "Inner Mongolia Minzu University"
+person-agula:
+  name_en: "Agula"
+  summary_en: "Baotou. Doctoral supervisor at Baotou Medical College. Gave a public lecture on artificial intelligence in Chinese and Mongolian medicine."
+  orgs_en:
+  - "Baotou Medical College"
+person-li-minhui:
+  name_en: "Minhui Li"
+  summary_en: "Hohhot. Doctoral and master's supervisor at the Inner Mongolia Institute of Chinese and Mongolian Medicine. Uses remote sensing to plan cultivation of Mongolian and Chinese medicinal plants."
+  orgs_en:
+  - "Inner Mongolia Institute of Chinese and Mongolian Medicine"
+person-zhu-hua:
+  name_en: "Hua Zhu"
+  summary_en: "Nanning. Doctoral and master's supervisor at Guangxi University of Chinese Medicine. Supervises image recognition, spectroscopy, and data-mining identification of Zhuang and Yao decoction pieces."
+  orgs_en:
+  - "Guangxi University of Chinese Medicine"
+person-ma-wenfang:
+  name_en: "Wenfang Ma"
+  summary_en: "Nanning. Master's supervisor at Guangxi University of Chinese Medicine. Uses neural networks for spectrum-effect analysis of Zhuang medicines and sets quality standards for Zhuang and Yao medicines."
+  orgs_en:
+  - "School of Pharmacy, Guangxi University of Chinese Medicine"
+person-zhou-zuliang:
+  name_en: "Zuliang Zhou"
+  summary_en: "Nanning. Master's supervisor at Guangxi University of Chinese Medicine. Leads a Zhuang-medicine lexical corpus and collation of ancient Zhuang medical texts."
+  orgs_en:
+  - "School of Basic Medical Sciences, Guangxi University of Chinese Medicine"
+person-song-ning:
+  name_en: "Ning Song"
+  summary_en: "Nanning. Master's supervisor at Guangxi University of Chinese Medicine. Digitizes teaching of Zhuang visual diagnosis and mines famous doctors' herb use."
+  orgs_en:
+  - "College of Zhuang Medicine, Guangxi University of Chinese Medicine"
+person-huang-guodong:
+  name_en: "Guodong Huang"
+  summary_en: "Nanning. President and doctoral supervisor of Guangxi International Zhuang Medicine Hospital. The hospital runs a local model for checkup interpretation, AI tongue identification, and remote four-examination devices, and is building a Zhuang visual-diagnosis platform."
+  orgs_en:
+  - "Guangxi International Zhuang Medicine Hospital"
+person-huang-hanru:
+  name_en: "Hanru Huang"
+  summary_en: "Nanning. Doctoral and master's supervisor at Guangxi International Zhuang Medicine Hospital. Leads the engineering research center for AI in Zhuang and Yao medicine."
+  orgs_en:
+  - "Guangxi International Zhuang Medicine Hospital"
+person-huang-jinming:
+  name_en: "Jinming Huang"
+  summary_en: "Nanning. Master's supervisor at the First Affiliated Hospital of Guangxi University of Chinese Medicine. Co-leads the engineering research center for AI in Zhuang and Yao medicine."
+  orgs_en:
+  - "First Affiliated Hospital of Guangxi University of Chinese Medicine"
+person-murat-hamit:
+  name_en: "Murat Hamit"
+  summary_en: "Urumqi. Master's supervisor at Xinjiang Medical University. Built data-mining diagnosis for Uyghur abnormal-humor disease, a Uyghur-herb image library, and image classification for Kazakh esophageal cancer."
+  orgs_en:
+  - "College of Medical Engineering, Xinjiang Medical University"
+person-yan-chuanbo:
+  name_en: "Chuanbo Yan"
+  summary_en: "Urumqi. Associate professor and master's supervisor at Xinjiang Medical University. Works on Uyghur-herb image retrieval and SVM and neural-network classification of Kazakh esophageal-cancer images."
+  orgs_en:
+  - "College of Medical Engineering, Xinjiang Medical University"
+person-xia-jingjing:
+  name_en: "Jingjing Xia"
+  summary_en: "Urumqi. Master's supervisor at Xinjiang University. Uses mid-infrared spectroscopy and chemometrics to assess chicory seed used in Uyghur medicine, with machine learning and convolutional networks in the research direction."
+  orgs_en:
+  - "College of Pharmacy, Xinjiang University"
+person-guo-dean:
+  name_en: "Dean Guo"
+  summary_en: "Researcher at the Shanghai Institute of Materia Medica and director of the national engineering center for Chinese-medicine standardization. Works on analysis, quality standards, and a quality-testing database."
+  orgs_en:
+  - "Shanghai Institute of Materia Medica, Chinese Academy of Sciences"
+person-zhang-weidong:
+  name_en: "Weidong Zhang"
+  summary_en: "Professor and doctoral supervisor at Shanghai University of Traditional Chinese Medicine. Studies bioactive substances in Chinese formulas and uses artificial intelligence to parse formula mechanisms."
+  orgs_en:
+  - "Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine"
+person-tu-pengfei:
+  name_en: "Pengfei Tu"
+  summary_en: "Professor and doctoral supervisor at Peking University and director of its modern Chinese-medicine research center. Identifies herb targets and chemical isomers with quantum-chemical calculation."
+  orgs_en:
+  - "School of Pharmaceutical Sciences, Peking University"
+person-wang-xijun:
+  name_en: "Xijun Wang"
+  summary_en: "Professor and doctoral supervisor at Heilongjiang University of Chinese Medicine. Works on serum pharmacochemistry and formula-syndrome metabolomics."
+  orgs_en:
+  - "Heilongjiang University of Chinese Medicine"
+person-luo-guoan:
+  name_en: "Guoan Luo"
+  summary_en: "Professor of chemistry at Tsinghua University. Proposed system-to-system research for Chinese medicine and works on chromatographic fingerprints."
+  orgs_en:
+  - "Department of Chemistry, Tsinghua University"
+person-liang-qionglin:
+  name_en: "Qionglin Liang"
+  summary_en: "Tenured professor and doctoral supervisor at Tsinghua University. Works on Chinese-medicine modernization, mass-spectrometry multi-omics, and organ-chip analysis."
+  orgs_en:
+  - "Department of Chemistry, Tsinghua University"
+person-liang-xinmiao:
+  name_en: "Xinmiao Liang"
+  summary_en: "Researcher and doctoral supervisor at the Dalian Institute of Chemical Physics. Proposed the herbal materials-ome and built a library of standard Chinese-medicine components."
+  orgs_en:
+  - "Dalian Institute of Chemical Physics, Chinese Academy of Sciences"
+person-huang-luqi:
+  name_en: "Luqi Huang"
+  summary_en: "President and researcher of the China Academy of Chinese Medical Sciences. Works on molecular pharmacognosy and molecular identification of Chinese medicines."
+  orgs_en:
+  - "China Academy of Chinese Medical Sciences"
+person-yuan-yuan-cacms:
+  name_en: "Yuan Yuan"
+  summary_en: "Chief researcher and doctoral supervisor at the China Academy of Chinese Medical Sciences. Works on identification of Chinese medicines and molecular pharmacognosy."
+  orgs_en:
+  - "China Academy of Chinese Medical Sciences"
+person-chen-kaixian:
+  name_en: "Kaixian Chen"
+  summary_en: "Researcher and doctoral supervisor at the Shanghai Institute of Materia Medica. Works on computer-aided drug design, with Chinese materia medica among the admission directions."
+  orgs_en:
+  - "Shanghai Institute of Materia Medica, Chinese Academy of Sciences"
+person-wang-yonghua:
+  name_en: "Yonghua Wang"
+  summary_en: "Professor at the bioinformatics center of Northwest University. Built the traditional Chinese medicine systems pharmacology database TCMSP."
+  orgs_en:
+  - "Northwest University"
+person-gao-xiumei:
+  name_en: "Xiumei Gao"
+  summary_en: "President and professor of Tianjin University of Traditional Chinese Medicine. Studies multi-component, multi-target formula compatibility."
+  orgs_en:
+  - "Tianjin University of Traditional Chinese Medicine"
+person-bai-gang:
+  name_en: "Gang Bai"
+  summary_en: "Professor and doctoral supervisor at Nankai University. Uses systems biology and network regulation to parse Chinese formulas."
+  orgs_en:
+  - "College of Pharmacy, Nankai University"
+person-zeng-kewu:
+  name_en: "Kewu Zeng"
+  summary_en: "Researcher and doctoral supervisor at Peking University. Uses proteomics to identify direct targets of Chinese-medicine constituents."
+  orgs_en:
+  - "School of Pharmaceutical Sciences, Peking University"
+person-wu-yang-ict:
+  name_en: "Yang Wu"
+  summary_en: "Associate researcher and project lead at the Institute of Computing Technology. Builds Chinese-medicine data platforms including HERB, SymMap, and POINT."
+  orgs_en:
+  - "Institute of Computing Technology, Chinese Academy of Sciences"
+person-liu-zhongyang:
+  name_en: "Zhongyang Liu"
+  summary_en: "Associate researcher and master's supervisor at the National Center for Protein Sciences in Beijing. Uses artificial intelligence and knowledge graphs for drug discovery and is a co-corresponding author of BATMAN-TCM 2.0."
+  orgs_en:
+  - "National Center for Protein Sciences (Beijing)"
+person-li-dong-ncpsb:
+  name_en: "Dong Li"
+  summary_en: "Researcher and doctoral supervisor at the National Center for Protein Sciences in Beijing. Mines life-omics data and is a co-corresponding author of BATMAN-TCM 2.0."
+  orgs_en:
+  - "National Center for Protein Sciences (Beijing)"
+person-guo-shuzhen:
+  name_en: "Shuzhen Guo"
+  summary_en: "Professor and doctoral supervisor at Beijing University of Chinese Medicine. Works on integrative pharmacology and is a co-corresponding author of BATMAN-TCM 2.0."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine"
+person-sun-hui:
+  name_en: "Hui Sun"
+  summary_en: "Doctoral supervisor at Heilongjiang University of Chinese Medicine. Analyzes in-vivo constituents of Chinese medicines and their quality standards."
+  orgs_en:
+  - "Heilongjiang University of Chinese Medicine"
+person-wu-xiuhong:
+  name_en: "Xiuhong Wu"
+  summary_en: "Second-class professor and doctoral supervisor at Heilongjiang University of Chinese Medicine. Studies quality markers and identification of Chinese medicines with formula-syndrome metabolomics."
+  orgs_en:
+  - "Heilongjiang University of Chinese Medicine"
+person-wu-jiarui:
+  name_en: "Jiarui Wu"
+  summary_en: "Doctoral supervisor at Henan University of Chinese Medicine. The listed direction is antitumor mechanisms of Chinese medicines based on precision network pharmacology."
+  orgs_en:
+  - "School of Pharmacy, Henan University of Chinese Medicine"
+person-ren-jian:
+  name_en: "Jian Ren"
+  summary_en: "Professor and doctoral supervisor at Shandong University of Traditional Chinese Medicine. The listed direction is digital and empirical research on the four examinations."
+  orgs_en:
+  - "College of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine"
+person-cheng-xiaorui:
+  name_en: "Xiaorui Cheng"
+  summary_en: "Distinguished professor and doctoral supervisor at Shandong University of Traditional Chinese Medicine, also recruiting master's students. Directions include Chinese-medicine pharmacology and network pharmacology."
+  orgs_en:
+  - "Shandong University of Traditional Chinese Medicine"
+person-zeng-yipeng:
+  name_en: "Yipeng Zeng"
+  summary_en: "Master's supervisor at the Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine. The listed direction includes pulse diagnosis and endocrine-metabolic disease."
+  orgs_en:
+  - "Seventh People's Hospital, Shanghai University of Traditional Chinese Medicine"
+person-liu-wanghua:
+  name_en: "Wanghua Liu"
+  summary_en: "Doctoral supervisor at Hunan University of Chinese Medicine. The listed direction is digitizing four-examination information and intelligent syndrome differentiation."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine"
+person-xie-mengzhou:
+  name_en: "Mengzhou Xie"
+  summary_en: "Doctoral supervisor at Hunan University of Chinese Medicine. The listed direction is objective four examinations in Chinese diagnostics."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine"
+person-lin-xuejuan:
+  name_en: "Xuejuan Lin"
+  summary_en: "Doctoral supervisor at Fujian University of Traditional Chinese Medicine. The listed direction is acquisition and standardization of four-examination information."
+  orgs_en:
+  - "College of Traditional Chinese Medicine, Fujian University of Traditional Chinese Medicine"
+person-xiao-xiaohe:
+  name_en: "Xiaohe Xiao"
+  summary_en: "Joint doctoral supervisor at the Chinese PLA General Hospital. The listed direction is mechanisms of Chinese medicines based on precision network pharmacology."
+  orgs_en:
+  - "Chinese PLA General Hospital"
+person-hu-chenggang:
+  name_en: "Chenggang Hu"
+  summary_en: "Guiyang. Master's supervisor and vice dean of the Miao Medicine Institute at Guizhou University of Traditional Chinese Medicine. Led digitization of the specimen hall and a Guizhou medicinal-resource database."
+  orgs_en:
+  - "School of Pharmacy, Guizhou University of Traditional Chinese Medicine"
+person-jiang-hong:
+  name_en: "Hong Jiang"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Teaches Miao pharmacy and advises the Miao-medicine AI project Miaohui Zhiyun."
+  orgs_en:
+  - "School of Pharmacy, Guizhou University of Traditional Chinese Medicine"
+person-cheng-wenbo:
+  name_en: "Wenbo Cheng"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Recruits in artificial intelligence and advises the Miao-medicine AI project Miaohui Zhiyun."
+  orgs_en:
+  - "School of Information Engineering, Guizhou University of Traditional Chinese Medicine"
+person-zhang-chao-ynucm:
+  name_en: "Chao Zhang"
+  summary_en: "Kunming. Doctoral supervisor at Yunnan University of Chinese Medicine. At the provincial key laboratory for Dai and Yi medicine, he is responsible for literature, empirical-formula, and hospital-preparation databases."
+  orgs_en:
+  - "Yunnan University of Chinese Medicine"
+person-qian-zigang:
+  name_en: "Zigang Qian"
+  summary_en: "Kunming. Doctoral supervisor at Yunnan University of Chinese Medicine. Built a DNA-barcode identification database and website for Dai and Yi medicinal materials."
+  orgs_en:
+  - "Yunnan University of Chinese Medicine"
+person-zhou-kaiqing:
+  name_en: "Kaiqing Zhou"
+  summary_en: "Jishou. Master's supervisor at Jishou University. Leads a knowledge base and intelligent decision system for stomach-disease diagnosis in Xiangxi Tujia and Miao medicine."
+  orgs_en:
+  - "College of Computer Science and Engineering, Jishou University"
+person-xiao-yong:
+  name_en: "Yong Xiao"
+  summary_en: "Wuhan. Senior experimentalist and master's supervisor at Hubei University of Chinese Medicine, and vice dean of its institute for Chinese-medicine big-data knowledge engineering. Works on information standards and big data."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-chang-kai:
+  name_en: "Kai Chang"
+  summary_en: "Wuhan. Senior experimentalist and master's supervisor at Hubei University of Chinese Medicine. Works on Chinese-medicine standards, informatization, and artificial intelligence."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-xiao-rui:
+  name_en: "Rui Xiao"
+  summary_en: "Wuhan. Associate professor and master's supervisor at Hubei University of Chinese Medicine. Works on natural language processing, big-data analysis, and artificial intelligence."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-wang-yan-hbucm:
+  name_en: "Yan Wang"
+  summary_en: "Wuhan. Associate professor and master's supervisor at Hubei University of Chinese Medicine. Works on data mining, intelligent optimization, standards, informatization, and bioinformatics."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-chang-jian:
+  name_en: "Jian Chang"
+  summary_en: "Wuhan. Associate professor and master's supervisor at Hubei University of Chinese Medicine. Works on intelligent pharmacy, big-data analysis, and blockchain-based intelligent IoT."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-fu-wenjiao:
+  name_en: "Wenjiao Fu"
+  summary_en: "Wuhan. Associate professor and master's supervisor at Hubei University of Chinese Medicine. Works on Chinese-medicine data processing, standards, and informatization."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-cai-xiaohong:
+  name_en: "Xiaohong Cai"
+  summary_en: "Wuhan. Associate professor, master's supervisor, and director of the medical information engineering section at Hubei University of Chinese Medicine. Works on Chinese-medicine informatization and data mining."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-hu-jili:
+  name_en: "Jili Hu"
+  summary_en: "Hefei. Associate professor and master's supervisor at Anhui University of Chinese Medicine. Uses large language models and knowledge graphs for intelligent Chinese diagnosis, and classifies tongue images."
+  orgs_en:
+  - "School of Medical Information Engineering, Anhui University of Chinese Medicine"
+person-xin-ling:
+  name_en: "Ling Xin"
+  summary_en: "Hefei. Senior engineer, master's supervisor, and director of the clinical research data center at the First Affiliated Hospital of Anhui University of Chinese Medicine. Works on Chinese-medicine informatization, medical big data, and digital inheritance."
+  orgs_en:
+  - "First Affiliated Hospital of Anhui University of Chinese Medicine"
+person-liu-mi:
+  name_en: "Mi Liu"
+  summary_en: "Changsha. Professor, doctoral supervisor, and vice dean of acupuncture, tuina, and rehabilitation at Hunan University of Chinese Medicine. Develops intelligent Chinese rehabilitation equipment and digital acupuncture teaching."
+  orgs_en:
+  - "School of Acupuncture, Tuina and Rehabilitation, Hunan University of Chinese Medicine"
+person-hu-zhixi:
+  name_en: "Zhixi Hu"
+  summary_en: "Changsha. Professor, doctoral supervisor, and discipline lead in Chinese diagnostics at Hunan University of Chinese Medicine. Works on diagnostic instruments and holds patents on pulse monitoring and rehabilitation wearables."
+  orgs_en:
+  - "Hunan University of Chinese Medicine"
+person-li-candong:
+  name_en: "Candong Li"
+  summary_en: "Fuzhou. Professor and doctoral supervisor at Fujian University of Traditional Chinese Medicine, and chief scientist at the Xinhuangpu joint innovation institute. Works on Chinese medical diagnosis."
+  orgs_en:
+  - "Fujian University of Traditional Chinese Medicine"
+person-li-shaozi:
+  name_en: "Shaozi Li"
+  summary_en: "Xiamen. Professor and doctoral supervisor at Xiamen University, and doctoral supervisor in Chinese diagnostics at Fujian University of Traditional Chinese Medicine. Works on intelligent science and intelligent Chinese-medicine information processing."
+  orgs_en:
+  - "Xiamen University"
+person-liu-kunhong:
+  name_en: "Kunhong Liu"
+  summary_en: "Xiamen. Professor and doctoral supervisor at Xiamen University. Works on tongue-diagnosis artificial intelligence, data mining, and health-care big data."
+  orgs_en:
+  - "Xiamen University"
+person-wang-changhai:
+  name_en: "Changhai Wang"
+  summary_en: "Zhengzhou. Associate professor and master's supervisor at Henan University of Chinese Medicine. Works on objective four examinations, syndrome data mining, and Chinese diagnostics."
+  orgs_en:
+  - "Henan University of Chinese Medicine"
+person-dang-hao:
+  name_en: "Hao Dang"
+  summary_en: "Zhengzhou. Associate professor and master's supervisor at Henan University of Chinese Medicine. Works on Chinese-medicine artificial intelligence, tongue and pulse diagnosis, knowledge graphs, and data mining."
+  orgs_en:
+  - "Henan University of Chinese Medicine"
+person-chen-rui-ccucm:
+  name_en: "Rui Chen"
+  summary_en: "Changchun. Professor and doctoral and master's supervisor at Changchun University of Chinese Medicine. Works on Chinese diagnostics and pulse studies."
+  orgs_en:
+  - "School of Basic Medical Sciences, Changchun University of Chinese Medicine"
+person-pi-zifeng:
+  name_en: "Zifeng Pi"
+  summary_en: "Changchun. Professor and doctoral and master's supervisor at Changchun University of Chinese Medicine. Uses network pharmacology in Chinese-medicine analysis."
+  orgs_en:
+  - "School of Pharmacy, Changchun University of Chinese Medicine"
+person-hou-ying:
+  name_en: "Ying Hou"
+  summary_en: "Xianyang. Master's supervisor at Shaanxi University of Chinese Medicine. Works on intelligent health care and Chinese-medicine management."
+  orgs_en:
+  - "Shaanxi University of Chinese Medicine"
+person-zhang-zhiming:
+  name_en: "Zhiming Zhang"
+  summary_en: "Lanzhou. President and doctoral supervisor at Gansu Provincial Hospital of Traditional Chinese Medicine. Advances digital tongue diagnosis and AI-assisted inspection."
+  orgs_en:
+  - "Gansu Provincial Hospital of Traditional Chinese Medicine"
+person-jin-xiaojie:
+  name_en: "Xiaojie Jin"
+  summary_en: "Lanzhou. Associate professor and doctoral supervisor at Gansu University of Chinese Medicine. Works on Chinese-medicine cheminformatics and computer-aided drug discovery."
+  orgs_en:
+  - "School of Pharmacy, Gansu University of Chinese Medicine"
+person-zhang-wenxue:
+  name_en: "Wenxue Zhang"
+  summary_en: "Yinchuan. Master's supervisor at Ningxia Medical University. Works on Chinese-medicine informatics, formula data mining, and medical knowledge graphs."
+  orgs_en:
+  - "Ningxia Medical University"
+person-yang-deren:
+  name_en: "Deren Yang"
+  summary_en: "Yinchuan. Master's supervisor at Ningxia Medical University. Works on Chinese-medicine informatics."
+  orgs_en:
+  - "Ningxia Medical University"
+person-chen-yaogeng:
+  name_en: "Yaogeng Chen"
+  summary_en: "Yinchuan. Master's supervisor at Ningxia Medical University. Works on medical data mining and teaches Chinese-medicine informatics."
+  orgs_en:
+  - "Ningxia Medical University"
+person-yang-jihong:
+  name_en: "Jihong Yang"
+  summary_en: "Taiyuan. Professor and doctoral supervisor at Shanxi University of Chinese Medicine. Digitizes classical texts and builds machine-learning syndrome models."
+  orgs_en:
+  - "Shanxi University of Chinese Medicine"
+person-du-chenhui:
+  name_en: "Chenhui Du"
+  summary_en: "Taiyuan. Professor and doctoral supervisor at Shanxi University of Chinese Medicine. Uses metabolomics and network pharmacology to study the active substances of Shanxi medicines."
+  orgs_en:
+  - "Shanxi University of Chinese Medicine"
+person-liu-jing-sdutcm:
+  name_en: "Jing Liu"
+  summary_en: "Jinan. Professor and doctoral supervisor at Shandong University of Traditional Chinese Medicine. Works on intelligent Chinese medicine and medical image analysis."
+  orgs_en:
+  - "School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+person-xu-wanli:
+  name_en: "Wanli Xu"
+  summary_en: "Jinan. Associate professor and master's supervisor at Shandong University of Traditional Chinese Medicine. Studies tongue diagnosis, pulse diagnosis, and their relation to syndromes."
+  orgs_en:
+  - "College of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine"
+person-qin-xuemei:
+  name_en: "Xuemei Qin"
+  summary_en: "Taiyuan. Professor and doctoral supervisor at Shanxi University of Chinese Medicine. Uses metabolomics, chemometrics, and network pharmacology to evaluate Chinese-medicine quality."
+  orgs_en:
+  - "Shanxi University of Chinese Medicine"
+person-che-zhiying:
+  name_en: "Zhiying Che"
+  summary_en: "Zhengzhou. Professor and doctoral supervisor at Henan University of Chinese Medicine. Works on intelligent syndrome informatization and artificial intelligence for the four examinations."
+  orgs_en:
+  - "Henan University of Chinese Medicine"
+person-song-xuekun:
+  name_en: "Xuekun Song"
+  summary_en: "Zhengzhou. Master's supervisor in the school of information technology at Henan University of Chinese Medicine. Works on computational biomedical informatics."
+  orgs_en:
+  - "Henan University of Chinese Medicine"
+person-wang-shaoxian:
+  name_en: "Shaoxian Wang"
+  summary_en: "Shijiazhuang. Professor and doctoral supervisor at Hebei University of Chinese Medicine. The listed direction is syndrome foundations and digital-intelligent Chinese diagnosis."
+  orgs_en:
+  - "Hebei University of Chinese Medicine"
+person-feng-suxiang:
+  name_en: "Suxiang Feng"
+  summary_en: "Zhengzhou. Professor and doctoral supervisor at Henan University of Chinese Medicine. Works on intelligent Chinese-medicine analysis, multi-omics, and quality evaluation."
+  orgs_en:
+  - "Henan University of Chinese Medicine"
+person-peng-yuzhong:
+  name_en: "Yuzhong Peng"
+  summary_en: "Nanning. Professor and master's supervisor at Nanning Normal University. Applies intelligent computing and machine learning in biomedicine and joins Guangxi Chinese-medicine cross-innovation."
+  orgs_en:
+  - "Nanning Normal University"
+person-zhao-hanqing:
+  name_en: "Hanqing Zhao"
+  summary_en: "Baoding. Master's supervisor and director of the Chinese-medicine informatics laboratory at Hebei University. Works on objective tongue and pulse diagnosis, Chinese-medicine models, and knowledge graphs."
+  orgs_en:
+  - "Hebei University"
+person-gong-aimin:
+  name_en: "Aimin Gong"
+  summary_en: "Haikou. Vice dean and doctoral and master's supervisor at Hainan Medical University. Uses machine vision and machine learning to build Chinese syndrome-diagnosis models."
+  orgs_en:
+  - "Hainan Medical University"
+person-wen-weibo:
+  name_en: "Weibo Wen"
+  summary_en: "Kunming. Professor and doctoral and master's supervisor at Yunnan University of Chinese Medicine. Uses data mining for clinical cohorts and develops ethnic medicines."
+  orgs_en:
+  - "Yunnan University of Chinese Medicine"
+person-yang-ningxian:
+  name_en: "Ningxian Yang"
+  summary_en: "Guiyang. Young doctoral supervisor at Guizhou Medical University. Uses artificial intelligence to evaluate antimicrobial peptides and develops distinctive food-medicine resources."
+  orgs_en:
+  - "Guizhou Medical University"
+person-zhang-yun-gzy:
+  name_en: "Yun Zhang"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Uses machine learning on noncoding RNA and deep learning on medicinal-plant small RNA."
+  orgs_en:
+  - "Guizhou University of Traditional Chinese Medicine"
+person-jiao-hongguan:
+  name_en: "Hongguan Jiao"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Joins international Chinese-medicine information standards and analysis of Miao medical literature."
+  orgs_en:
+  - "Guizhou University of Traditional Chinese Medicine"
+person-xiao-qiaoqiao:
+  name_en: "Qiaoqiao Xiao"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Builds gene-function databases of medicinal plants with bioinformatics."
+  orgs_en:
+  - "School of Pharmacy, Guizhou University of Traditional Chinese Medicine"
+person-yu-lei:
+  name_en: "Lei Yu"
+  summary_en: "Hefei. Professor and doctoral supervisor at Anhui University of Chinese Medicine. Recruits in Chinese-medicine informatics, medical big data, and artificial intelligence for intelligent diagnosis."
+  orgs_en:
+  - "Anhui University of Chinese Medicine"
+person-kan-hongxing:
+  name_en: "Hongxing Kan"
+  summary_en: "Hefei. Dean, professor, and doctoral supervisor at Anhui University of Chinese Medicine. Works on Chinese-medicine data mining and medical big data and artificial intelligence."
+  orgs_en:
+  - "School of Medical Information Engineering, Anhui University of Chinese Medicine"
+person-li-guoxin:
+  name_en: "Guoxin Li"
+  summary_en: "Shenyang. Doctoral supervisor at the Second Affiliated Hospital of Liaoning University of Traditional Chinese Medicine. The listed direction includes integrative clinical medicine and artificial intelligence."
+  orgs_en:
+  - "Second Affiliated Hospital of Liaoning University of Traditional Chinese Medicine"
+person-shu-jianhua:
+  name_en: "Jianhua Shu"
+  summary_en: "Hefei. Professor and master's supervisor at Anhui University of Chinese Medicine. Leads a knowledge-graph and large-model system for intelligent diagnosis based on Xin'an physicians."
+  orgs_en:
+  - "Anhui University of Chinese Medicine"
+person-zhang-helin:
+  name_en: "Helin Zhang"
+  summary_en: "Nanchang. Associate professor and master's supervisor at Jiangxi University of Chinese Medicine. Works on objective color diagnosis and automatic classification of tongue body and coating."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-xiong-wangping:
+  name_en: "Wangping Xiong"
+  summary_en: "Nanchang. Professor and master's supervisor at Jiangxi University of Chinese Medicine. Mines Chinese-medicine data and leads knowledge-graph monitoring of patent-medicine use."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-nie-bin:
+  name_en: "Bin Nie"
+  summary_en: "Nanchang. Professor and master's supervisor at Jiangxi University of Chinese Medicine. Works on Chinese-medicine data analysis and health big data and artificial intelligence."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-guo-zhenghong:
+  name_en: "Zhenghong Guo"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Uses computation and bioinformatics to analyze active constituents of Miao and other ethnic medicines."
+  orgs_en:
+  - "School of Pharmacy, Guizhou University of Traditional Chinese Medicine"
+person-wu-diyao:
+  name_en: "Diyao Wu"
+  summary_en: "Nanchang. Associate professor and master's supervisor at Jiangxi University of Chinese Medicine. Works on Chinese-medicine informatics and clinical decision-support models."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-zha-qinglin:
+  name_en: "Qinglin Zha"
+  summary_en: "Nanchang. Professor and master's supervisor at Jiangxi University of Chinese Medicine. Uses big data and artificial intelligence for health management and preventive care."
+  orgs_en:
+  - "Jiangxi University of Chinese Medicine"
+person-yang-yinfeng:
+  name_en: "Yinfeng Yang"
+  summary_en: "Hefei. Associate professor, master's supervisor, and lead of the artificial-intelligence major at Anhui University of Chinese Medicine. Uses AI to screen Chinese-medicine constituents and optimize formulas."
+  orgs_en:
+  - "Anhui University of Chinese Medicine"
+person-zhang-jianfeng:
+  name_en: "Jianfeng Zhang"
+  summary_en: "Guiyang. Researcher at Guiyang Daosheng Health Industry and master's supervisor at Guizhou University of Traditional Chinese Medicine. Evaluates processing quality of Chinese and ethnic medicines and does network analysis."
+  orgs_en:
+  - "Guiyang Daosheng Health Industry"
+person-luo-yanqiu:
+  name_en: "Yanqiu Luo"
+  summary_en: "Kunming. Master's supervisor at Yunnan University of Chinese Medicine. Compiled catalogs of Yi and Dai medical classics and leads rescue of Yi medical texts."
+  orgs_en:
+  - "Yunnan University of Chinese Medicine"
+person-qi-xianghua:
+  name_en: "Xianghua Qi"
+  summary_en: "Jinan. Doctoral supervisor at the Affiliated Hospital of Shandong University of Traditional Chinese Medicine. Founded systematic pulse differentiation and leads an intelligent pulse-diagnosis device."
+  orgs_en:
+  - "Affiliated Hospital of Shandong University of Traditional Chinese Medicine"
+person-zhou-xiaoqing:
+  name_en: "Xiaoqing Zhou"
+  summary_en: "Changsha. Second-class professor and doctoral supervisor at Hunan University of Chinese Medicine. Works on digital Chinese diagnosis and quantitative tongue-coating diagnosis."
+  orgs_en:
+  - "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine"
+person-chen-qinghua:
+  name_en: "Qinghua Chen"
+  summary_en: "Kunming. Master's supervisor at Yunnan University of Chinese Medicine and a reserve lead in Dai medicine. Joined the Dai disease-syndrome classification codes and clinical terminology."
+  orgs_en:
+  - "Yunnan University of Chinese Medicine"
+person-wang-renmin:
+  name_en: "Renmin Wang"
+  summary_en: "Guiyang. Associate professor and master's supervisor at Guizhou University of Traditional Chinese Medicine. Recruits in electronic information and artificial intelligence."
+  orgs_en:
+  - "Guizhou University of Traditional Chinese Medicine"
+person-du-guangying:
+  name_en: "Guangying Du"
+  summary_en: "Guiyang. Master's supervisor at Guizhou University of Traditional Chinese Medicine. Recruits in artificial intelligence and medicinal resources, and joins knowledge-graph analysis of Miao medicine."
+  orgs_en:
+  - "Guizhou University of Traditional Chinese Medicine"
+person-ma-li-hbucm:
+  name_en: "Li Ma"
+  summary_en: "Wuhan. Professor and master's supervisor at Hubei University of Chinese Medicine. Leads the Chinese-medicine big-data center and works on analysis and evidence-based decisions."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-guan-hua:
+  name_en: "Hua Guan"
+  summary_en: "Wuhan. Senior experimentalist and master's supervisor at Hubei University of Chinese Medicine. Works on Chinese-medicine big-data analysis and natural language processing."
+  orgs_en:
+  - "School of Information Engineering, Hubei University of Chinese Medicine"
+person-zhang-zhidong:
+  name_en: "Zhidong Zhang"
+  summary_en: "Taiyuan. Professor and doctoral supervisor at North University of China, and master's supervisor at Shanxi University of Chinese Medicine. Builds digital Chinese-medicine sensors, a four-examination device, and an intelligent moxibustion robot."
+  orgs_en:
+  - "North University of China"
+person-fang-chaoyi:
+  name_en: "Chaoyi Fang"
+  summary_en: "Shijiazhuang. Professor and doctoral supervisor at Hebei University of Chinese Medicine. His team built a four-examination device and trains AI diagnostic models."
+  orgs_en:
+  - "Hebei University of Chinese Medicine"
+person-yang-huayuan:
+  name_en: "Huayuan Yang"
+  summary_en: "Shanghai. Professor at Shanghai University of Traditional Chinese Medicine. Uses artificial intelligence for a tuina robot that imitates one-finger meditation technique and locates lesions."
+  orgs_en:
+  - "Shanghai University of Traditional Chinese Medicine"
+person-zhang-kuixing:
+  name_en: "Kuixing Zhang"
+  summary_en: "Jinan. Professor at Shandong University of Traditional Chinese Medicine, director of biomedical engineering, and lead of the provincial key discipline in Chinese-medicine artificial intelligence."
+  orgs_en:
+  - "School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+person-li-ming-sdutcm:
+  name_en: "Ming Li"
+  summary_en: "Jinan. Professor at Shandong University of Traditional Chinese Medicine and deputy director of the graduate office. Leads the discipline of healthcare big data."
+  orgs_en:
+  - "School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
