@@ -790,7 +790,13 @@
 
 - **宫爱民** 海口。海南医科大学中医学院副院长、博士生导师、硕士生导师。用机器视觉和机器学习构建中医证候诊断模型。 [海南医科大学] [[主页](https://www.muhn.edu.cn/zyxy/info/1412/8735.htm)]
 
-## 重庆（1）
+## 重庆（4）
+
+### 重庆中医药学院（3）
+
+- **张伟** 重庆中医药学院通识学院医学信息教研室副教授，讲授智慧医学语言基础与中医药人工智能基础，研究方向包括中医药知识图谱与语言大模型理论与应用。 [重庆中医药学院] [[主页](https://www.cqctcm.edu.cn/tsxy/2023/1220/c820a2307/page.htm)]
+- **叶华群** 重庆中医药学院通识学院医学信息教研室高级工程师，讲授智慧医学语言基础，研究方向为中医药大数据及智能信息处理。 [重庆中医药学院] [[主页](https://www.cqctcm.edu.cn/tsxy/2023/1220/c820a2307/page.htm)]
+- **王秋杰** 重庆中医药学院通识学院医学信息教研室主任、正高级工程师，中国中医药信息学会人工智能分会理事，讲授中医药人工智能基础，研究方向包括医疗健康数据分析。 [重庆中医药学院] [[主页](https://www.cqctcm.edu.cn/tsxy/2023/1220/c820a2307/page.htm)]
 
 ### 西南大学（1）
 
@@ -904,7 +910,7 @@
 
 - **夏静静** 乌鲁木齐。新疆大学药学院硕士生导师。用中红外光谱和化学计量学评价维医用药毛菊苣种子，方向含机器学习和卷积神经网络。 [新疆大学药学院] [[主页](https://imm.xju.edu.cn/info/1059/1372.htm)]
 
-## 香港（8）
+## 香港（9）
 
 ### 香港浸会大学（5）
 
@@ -914,14 +920,15 @@
 - **张璐** 香港浸会大学教授。做面向中药治疗胃肠癌的生物医学人工智能智能体。 [香港浸会大学] [[主页](https://research.hkbu.edu.hk/sc/1-1-1-scheme/projects)]
 - **朱褔荣** 香港浸会大学教授。用近红外和人工智能鉴别中药材真伪优劣。 [香港浸会大学] [[主页](https://research.hkbu.edu.hk/sc/1-1-1-scheme/projects)]
 
+### 香港中文大学（2）
+
+- **邢国良** 香港中文大学信息工程学系教授。团队做 OpenTCM，用图谱检索增强中医知识检索和诊断。 [香港中文大学] [[新闻](https://www.ie.cuhk.edu.hk/prof-guoliang-xing-and-prof-hongkai-chens-team-win-best-paper-award-at-bigcom-2025-for-innovative-traditional-chinese-medicine-ai-system/)]
+- **陈鸿凯** 香港中文大学信息工程系研究助理教授，OpenTCM（结合中医知识图谱与GraphRAG的检索与辅助诊断系统）通讯作者之一。 [香港中文大学] [[主页](https://www.ie.cuhk.edu.hk/faculty/chen-hongkai/)] [[论文](https://arxiv.org/abs/2504.20118)]
+
 ### 香港大学（2）
 
 - **沈剑刚** 香港大学中医药学院教授。用人工智能识别中医脉象及其与体质的关联。 [香港大学中医药学院] [[主页](https://eventregscm.hku.hk/Views/People/ProfessorJiangangShen.html)]
 - **冯奕斌** 香港大学中医药学院教授、院长。用网络药理、组学和人工智能研究中医治则。 [香港大学中医药学院] [[主页](https://www.med.hku.hk/en/teaching-and-learning/postgraduate/rpg/projects/ai-assisted-investigation-to-understand-the-treatment-principle-of-chinmed)]
-
-### 香港中文大学（1）
-
-- **邢国良** 香港中文大学信息工程学系教授。团队做 OpenTCM，用图谱检索增强中医知识检索和诊断。 [香港中文大学] [[新闻](https://www.ie.cuhk.edu.hk/prof-guoliang-xing-and-prof-hongkai-chens-team-win-best-paper-award-at-bigcom-2025-for-innovative-traditional-chinese-medicine-ai-system/)]
 
 ## 澳门（4）
 
@@ -998,12 +1005,16 @@
 
 - **Xian Zhou** 西悉尼大学 NICM 健康研究所高级研究员。用机器学习刻画草药活性分子的协同或拮抗，并指导研究生。 [西悉尼大学 NICM 健康研究所] [[主页](https://researchers.westernsydney.edu.au/en/persons/phoebe-zhou/)]
 
-## 其他（4）
+## 其他（5）
 
 ### 中医在线（2）
 
 - **何剑** 中医在线创始人、首席执行官。用名老中医课程数据推动伊尹中医大模型。 [中医在线] [[新闻](https://www.vbdata.cn/1519007974)]
 - **任毅** 中医在线首席技术官。带领团队部署并微调中医大模型。 [中医在线] [[新闻](https://www.vbdata.cn/1519007974)]
+
+### 南洋理工大学（1）
+
+- **Christopher Khoo** 南洋理工大学黄金辉传播与信息学院副教授，主导面向东南亚传统与草药的多语医学知识图谱 Polyglot Medicine Knowledge Graph。 [南洋理工大学] [[主页](https://blogs.ntu.edu.sg/chriskhoo/2023/06/polyglot-medicine-knowledge-graph/)] [[系统](https://kgraph.sg/polyglot/)] [[论文](https://doi.org/10.1007/978-981-99-8088-8_1)]
 
 ### 安顿健康（1）
 

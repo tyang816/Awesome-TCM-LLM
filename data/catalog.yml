@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-11-06'
+  updated_at: '2026-11-10'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -38,7 +38,7 @@ items:
   name: 上海市第七人民医院发布岐元中医大模型，支持名老中医Agent数字孪生
   type: news
   year: 2026
-  date: '2026.07'
+  date: '2026.07.24'
   summary_zh: 上海中医药大学附属第七人民医院正式发布**岐元大模型**，采用预训练+领域微调+专家强化学习，支持生成式病历与名老中医Agent数字孪生，并亮相WAIC
   tags:
   - product
@@ -46,12 +46,12 @@ items:
   links:
     链接: https://dwgk.shutcm.edu.cn/2026/0725/c1890a175544/page.htm
   status: published
-  verified_at: '2026-08-02'
+  verified_at: '2026-11-10'
 - id: news-202607-16
   name: 贵州医大等发布华族本草民族药AI大模型
   type: news
   year: 2026
-  date: '2026.07'
+  date: '2026.07.29'
   summary_zh: 贵州医科大学等在中国—东盟教育交流周发布全国首个民族药创制全域智能平台**华族本草**，以数智岐黄+Qwen为底座融汇多民族医药古籍
   tags:
   - product
@@ -102,7 +102,7 @@ items:
   name: 北京中医药大学牵头研发的薪火中国药中医药教育大模型通过国家生成式人工智能服务备案
   type: news
   year: 2026
-  date: '2026.04'
+  date: '2026.04.21'
   summary_zh: 北京中医药大学牵头研发的**薪火中国药**中医药教育大模型通过国家生成式人工智能服务备案，成为国内首个获批面向公众服务的中医药领域大模型
   tags:
   - product
@@ -139,7 +139,7 @@ items:
   name: 吉林发布众星·长白岐黄1.0 AI原生多模态中医药大模型
   type: news
   year: 2025
-  date: '2025.12'
+  date: '2025.12.20'
   summary_zh: 吉林发布**众星·长白岐黄1.0** AI原生多模态中医药大模型
   tags:
   - multimodal
@@ -212,7 +212,7 @@ items:
   name: 伊尹中医经典大模型在河南嵩县启用
   type: news
   year: 2025
-  date: '2025.09'
+  date: '2025.09.18'
   summary_zh: 中原药谷基层中医药振兴工程下，**伊尹中医经典大模型**在嵩县发布启用，融合中医教育与AI辅助诊疗服务县域基层
   tags:
   - product
@@ -224,7 +224,7 @@ items:
   name: 固生堂正式发布十大“国医AI分身”，专家模拟一致性达86%以上
   type: news
   year: 2025
-  date: '2025.08'
+  date: '2025.08.01'
   summary_zh: '**固生堂**正式发布十大“国医AI分身”，基于国医大师及名中医临床经验构建。页面写专家模拟一致性达86%以上，不是辨证准确率'
   tags:
   - product
@@ -236,7 +236,7 @@ items:
   name: 天河·灵枢中医药大模型2.0与智能模型评价体系发布
   type: news
   year: 2025
-  date: '2025.08'
+  date: '2025.08.09'
   summary_zh: 国家超算天津中心联合天津中医药大学等发布**天河·灵枢**2.0，由针灸专科扩展至20余科；同步启动中医药智能模型评价体系
   tags:
   - product
@@ -262,7 +262,7 @@ items:
   name: 中医横琴垂类大模型正式发布
   type: news
   year: 2025
-  date: '2025.06'
+  date: '2025.06.19'
   summary_zh: '**中医横琴**垂类大模型正式发布'
   tags:
   - product
@@ -274,7 +274,7 @@ items:
   name: 中国中医科学院发布中医药大模型评测标准
   type: news
   year: 2025
-  date: '2025.05'
+  date: '2025.05.10'
   summary_zh: 中国中医科学院发布中医药大模型评测标准
   tags:
   - benchmark
@@ -298,7 +298,7 @@ items:
   name: 广安门医院发布广医·岐智中医大模型，成为国内首家本地化部署“算力+模型+应用”一体化服务的中医医院
   type: news
   year: 2025
-  date: '2025.03'
+  date: '2025.03.28'
   summary_zh: 中国中医科学院广安门医院28日正式发布**广医·岐智**中医大模型，成为国内首家本地化部署”算力+模型+应用”一体化服务的中医医院
   tags:
   - product
@@ -334,7 +334,7 @@ items:
   name: 天士力与华为发布数智本草中医药语言与计算双模态大模型
   type: news
   year: 2024
-  date: '2024.05'
+  date: '2024.05.10'
   summary_zh: 天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型。本页没有信通院4+级评估
   tags:
   - product
@@ -358,7 +358,7 @@ items:
   name: 大经中医发布岐黄问道中医大模型
   type: news
   year: 2023
-  date: '2023.07'
+  date: '2023.07.29'
   summary_zh: 南京大经中医发布**岐黄问道·大模型**，基于千万级知识图谱与临床数据，面向医疗机构开放内测
   tags:
   - product
@@ -7545,7 +7545,7 @@ items:
   name: 天津中医药大学等发布中医药临床研究智能体CTA
   type: news
   year: 2025
-  date: '2025.10'
+  date: '2025.10.21'
   summary_zh: 科技日报报道CTA在中医药临床疗效评价大会发布，基于Qwen2.5-14B微调，面向临床试验方案、数据管理与统计
   tags:
   - product
@@ -7560,7 +7560,7 @@ items:
   name: 安贞医院与中国电子云发布中西医结合高血压大模型Idiom-Hypertension
   type: news
   year: 2025
-  date: '2025.10'
+  date: '2025.10.26'
   summary_zh: 中国经济网报道10月26日发布中西医结合高血压诊疗大模型Idiom-Hypertension，用于高血压规范管理
   tags:
   - product
@@ -7604,7 +7604,7 @@ items:
   name: 上海中医药大学与龙华医院方证大模型正式开放接入
   type: news
   year: 2026
-  date: '2026.09'
+  date: '2026.09.19'
   summary_zh: 中新网报道方证大模型9月19日开放接入，覆盖临床辅助诊疗、科研数据挖掘和人才培养，并计划部署到龙华医院及医联体
   tags:
   - product
@@ -7619,7 +7619,7 @@ items:
   name: 南京中医药大学发布灵素·艾护中医护理大模型
   type: news
   year: 2026
-  date: '2026.10'
+  date: '2026.10.09'
   summary_zh: 报道称徐桂华团队10月9日发布灵素·艾护中医护理大模型，面向辨证施护、科研与居家康养，27所加盟医院为首批应用单位
   tags:
   - product
@@ -8868,7 +8868,7 @@ items:
   name: 学校与河南中医药大学联合发布“中医药大模型”
   type: news
   year: 2025
-  date: '2025.01'
+  date: '2025.01.08'
   summary_zh: 2025年1月8日，北京科技大学联合河南中医药大学发布张仲景中医药大模型1.0，功能包括智能辨证、证素推荐、经方应用和方药分析。
   orgs:
   - 北京科技大学
@@ -8883,7 +8883,7 @@ items:
   name: “AI中医”开处方！南中医科研团队推出“黄煌经方AI辅助诊疗系统”
   type: news
   year: 2025
-  date: '2025.03'
+  date: '2025.03.13'
   summary_zh: 新华网报道，2025年3月13日南京中医药大学黄煌团队与杭州脉景健康发布黄煌经方AI辅助诊疗系统，用大语言模型与知识图谱把“方人相应”做成可计算诊疗流程。
   orgs:
   - 南京中医药大学
@@ -8914,7 +8914,7 @@ items:
   name: 九为健康联合华为云发布神农中医大模型智能体，解码如何用大模型重构“望闻问切”
   type: news
   year: 2025
-  date: '2025.04'
+  date: '2025.04.11'
   summary_zh: 凤凰网报道，2025年4月11日华为云生态大会上，九为健康发布基于盘古大模型的九为神农中医大模型智能体，覆盖药物研发、复方优化和辅助诊疗。
   orgs:
   - 浙江九为健康科技股份有限公司
@@ -8930,7 +8930,7 @@ items:
   name: 国内首个中药学科生成式人工智能教育专用大模型“薪火中国药”智思体1.0版正式发布
   type: news
   year: 2025
-  date: '2025.05'
+  date: '2025.05.10'
   summary_zh: 北京中医药大学官网称，2025年5月10日发布薪火中国药智思体1.0，依托讯飞星火与DeepSeek，参数超700亿，面向助学、助教、助研、助管和国际合作。
   orgs:
   - 北京中医药大学
@@ -8945,7 +8945,7 @@ items:
   name: 科技赋能中医药传承创新发展 南京中医药大学“灵山中医”“素山中药”大模型正式发布
   type: news
   year: 2025
-  date: '2025.06'
+  date: '2025.06.06'
   summary_zh: 南京中医药大学人工智能与信息技术学院页面称，2025年6月6日发布灵山中医大模型（小杏仁）和素山中药大模型（素山智思体），分别服务中医临床教学科研和中药学教学科研。
   orgs:
   - 南京中医药大学
@@ -8959,7 +8959,7 @@ items:
   name: 数据标注优秀案例集之四十六｜AI数据标注助力中医药领域高质量发展
   type: news
   year: 2025
-  date: '2025.06'
+  date: '2025.06.18'
   summary_zh: 国家数据局收录成都中医药大学案例：用大模型对996册中医古籍做自动分词和实体识别，并基于ChatGLM-6B关联中医术语、构建穴位-脏腑等知识图谱。
   orgs:
   - 成都中医药大学
@@ -8974,7 +8974,7 @@ items:
   name: 中医AI大模型问世，传神与湖北中医药大学、湖北时珍实验室合作
   type: news
   year: 2025
-  date: '2025.08'
+  date: '2025.08.06'
   summary_zh: 湖北日报报道，2025年8月6日湖北中医药大学、湖北时珍实验室与传神语联签约，以传神·素问中医大模型开展产学研用合作。
   orgs:
   - 湖北中医药大学
@@ -8990,7 +8990,7 @@ items:
   name: 服贸会｜广医·岐智2.0发布，中医最强大脑燃爆服贸会
   type: news
   year: 2025
-  date: '2025.09'
+  date: '2025.09.12'
   summary_zh: 广安门医院官网称，2025年9月12日服贸会论坛发布广医·岐智2.0，并推出AI医生安安，已出现在门诊导诊屏和预问诊界面。
   orgs:
   - 中国中医科学院广安门医院
@@ -9019,7 +9019,7 @@ items:
   name: 学校与郑州市卫健委、郑州市中医院、河南中医药大学数智中医药研究院联合发布“岐黄针灸”大模型
   type: news
   year: 2025
-  date: '2025.11'
+  date: '2025.11.02'
   summary_zh: 北京科技大学新闻网称，2025年11月2日郑州大会上，学校联合郑州市卫健委、郑州市中医院和河南中医药大学数智中医药研究院发布岐黄针灸大模型，四诊采集后生成针灸处方。
   orgs:
   - 北京科技大学
@@ -9051,7 +9051,7 @@ items:
   name: 人工智能+名老中医专家经验数字化传承工作研讨会召开
   type: news
   year: 2026
-  date: '2026.03'
+  date: '2026.03.17'
   summary_zh: 中国中医药报报道，2026年3月17日研讨会上，中医药信息研究所所长李海燕介绍医源中医大模型已用于医案结构化、智能问诊、处方推荐和中成药合理使用等场景。
   orgs:
   - 中国中医科学院中医药信息研究所
@@ -10671,7 +10671,7 @@ items:
   name: 广东省中医院启动名老中医辅助诊疗大模型矩阵
   type: news
   year: 2026
-  date: '2026.01'
+  date: '2026.01.09'
   summary_zh: 科技日报报道，1月9日广东省中医院启动名老中医辅助诊疗大模型矩阵；禤国维皮肤病诊疗大模型和心血管病诊疗大模型已投入临床。
   orgs:
   - 广东省中医院
@@ -10700,7 +10700,7 @@ items:
   name: 贵州中医药大学第一附属医院发布黔小杏医疗大模型
   type: news
   year: 2026
-  date: '2026.08'
+  date: '2026.08.27'
   summary_zh: 学校官网称，8月27日“黔小杏医疗大模型”在2026数博会发布，以中医药文献、名医经验和临床数据训练，用于辅助诊断、体质辨识、养生推荐和用药指导。
   orgs:
   - 贵州中医药大学
@@ -12980,7 +12980,7 @@ items:
     链接: https://finance.people.com.cn/n1/2026/1105/c1004-40828489.html
   status: published
   verified_at: '2026-11-05'
-  date: '2026.11'
+  date: '2026.11.05'
   access: news-only
   evidence_note: 核验到人民网原页的搜索索引内容；直连全文未成功。
   evidence_level: primary-index-or-landing-page
@@ -12996,7 +12996,7 @@ items:
     链接: https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202611/t20261104_4931739.html
   status: published
   verified_at: '2026-11-05'
-  date: '2026.11'
+  date: '2026.11.04'
   access: news-only
   evidence_level: primary-page
 - id: news-202611-traditional-medicine-ai-report
@@ -13011,7 +13011,7 @@ items:
     链接: https://www.digitalchina.gov.cn/2026/szzg/xyzx/202611/t20261103_5389002.htm
   status: published
   verified_at: '2026-11-05'
-  date: '2026.11'
+  date: '2026.11.03'
   access: news-only
   evidence_level: primary-page
 - id: news-202610-hanpai-data-trade
@@ -13026,7 +13026,7 @@ items:
     链接: https://www.cntcm.com.cn/content/202610/16/c505880.html
   status: published
   verified_at: '2026-11-05'
-  date: '2026.10'
+  date: '2026.10.16'
   access: news-only
   evidence_level: primary-page
 - id: news-202609-gam-data-registration
@@ -13041,7 +13041,7 @@ items:
     链接: https://www.cntcm.com.cn/content/202609/24/c505607.html
   status: published
   verified_at: '2026-11-05'
-  date: '2026.09'
+  date: '2026.09.24'
   access: news-only
   evidence_level: primary-page
 - id: tcm-qwen35-9b-sft-r2
@@ -20164,3 +20164,648 @@ items:
     主页: https://zxxy.sdutcm.edu.cn/info/1109/2432.htm
   status: published
   verified_at: '2026-11-06'
+
+- id: news-202611-ciie-qiyuan
+  name: 第九届进博会：上海市第七人民医院路演岐元大模型并展示教学机器人小柒
+  type: news
+  year: 2026
+  date: '2026.11.09'
+  summary_zh: 中新网11月9日报道，第九届进博会上，上海市第七人民医院完成进博会首秀，中医药人工智能中心主任赵铎路演**岐元**中医垂类大模型，现场还有AI面诊智能体与中医教学机器人「小柒」。岐元已于2026年7月发布，本报道写的是进博会展示与对口支援医院应用，不是首次发布。
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.chinanews.com.cn/jk/2026/11-09/10729099.shtml
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202611-tcm-best4sdt-scidata
+  name: 中科闻歌与中国中医科学院TCM-BEST4SDT评测基准论文在Scientific Data发表
+  type: news
+  year: 2026
+  date: '2026.11.05'
+  summary_zh: 中科闻歌11月5日称，其国科智医团队联合中国中医科学院构建的中医大模型辨证论治评测基准**TCM-BEST4SDT**，论文在Nature Portfolio旗下《Scientific Data》在线发表。报道称基准含600条样本、27个评测维度，数据集和评测代码已公开。本站已收录该基准条目，此为发表新闻。
+  tags:
+  - benchmark
+  links:
+    链接: https://www.wenge.com/site/a/202611/05/1070720261105103301.html
+    论文: https://doi.org/10.1038/s41597-026-07587-4
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202611-tcmqa-release
+  name: 问止中医在深圳临床学术会议上发布并开源TCMQA评测基准
+  type: news
+  year: 2026
+  date: '2026.11.05'
+  summary_zh: 新京报11月5日转载称，第五届问止中医临床学术会议于11月1日在深圳举行，会上正式发布中医评测基准**TCMQA**。报道称该基准含38279道执业医考选择题，并公布101位执业中医师作答形成的参考基线；题库与评测材料已在Hugging Face开源。本站已收录该基准条目，此为发布新闻。报道未把答题成绩等同于临床辨证能力。
+  tags:
+  - benchmark
+  links:
+    链接: https://www.bjnews.com.cn/detail/1793844088129508.html
+    论文: https://arxiv.org/abs/2609.33014
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202610-yiqi-ondevice
+  name: 报道称易岐中医AI端侧大模型上线，可在断网环境下本地运行
+  type: news
+  year: 2026
+  date: '2026.10.27'
+  summary_zh: 凤凰网财经10月31日报道，天纪易岐称其端侧模型**易岐中医AI**已于10月27日完成调试并上线，可在完全断网的本地终端推理，面向体质辨识、健康评估等场景。此为公司发布稿转载，本页未独立核验其临床效果或部署范围。该模型与古籍数据库ETCM不是同一事物。
+  tags:
+  - product
+  links:
+    链接: https://news.10jqka.com.cn/20261031/c681322899.shtml
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202610-sichuan-15th-plan
+  name: 四川印发中医药发展“十五五”规划，提出开发名中医智能化诊疗大模型
+  type: news
+  year: 2026
+  date: '2026.10.20'
+  summary_zh: 川观新闻10月20日报道，《四川省中医药发展“十五五”规划》印发，提出支持中医药数智创新平台建设，开发名中医智能化诊疗等大模型，开展基层中医智能辅助诊疗试点，并建设高质量数据集与数智中医药协同创新中心。这是规划部署，不是已经上线的模型发布。
+  tags:
+  - policy
+  links:
+    链接: https://cbgc.scol.com.cn/news/8074897
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202610-xiaohuangqi
+  name: 医渡科技在2026世界传统医药大会发布中医循证智能体小黄岐
+  type: news
+  year: 2026
+  date: '2026.10.21'
+  summary_zh: 智通财经10月21日报道，医渡科技在2026世界传统医药大会成果发布环节推出中医循证智能体**小黄岐**，面向古籍与指南检索、辅助辨证、方剂查询和中医术语中英互译，并称回答可追溯证据来源。报道中的知识条目数量与医院落地范围来自企业介绍，本页未独立核验。
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.zhitongcaijing.com/content/detail/1509924.html
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202610-fan-jiping-twin
+  name: 传神素问与名医在线在世界传统医药大会发布范吉平数字孪生
+  type: news
+  year: 2026
+  date: '2026.10.18'
+  summary_zh: 凤凰网科技10月19日转载称，传神素问与名医在线于10月18日在2026世界传统医药大会联合发布**范吉平数字孪生**，以传神素问中医大模型为底座，整理医案与诊疗资料后用于问诊、辨证和处方建议。这是名医数字孪生的单例发布，报道未给出可独立核验的临床对照结果。
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://tech.ifeng.com/c/8xLt1uquwDi
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202610-wtmc-exhibits
+  name: 世界传统医药大会上的中医AI展品：广医岐智、中医小安与妙悟岐黄
+  type: news
+  year: 2026
+  date: '2026.10.24'
+  summary_zh: 广安门医院10月24日报道，10月17日至18日的2026世界传统医药大会上，**广医·岐智**展示院内部署与病历生成，杭州市中医院具身智能机器人**中医小安**演示舌面象和脉象采集，中科云诊则展示**妙悟岐黄**辅助诊疗与可追溯辨证。报道中的分诊人次、书写时长和辨证一致率来自参展方介绍，不宜直接当成评测结论。
+  tags:
+  - product
+  - agent
+  - multimodal
+  links:
+    链接: https://www.gamyy.cn/gzb/news/trends/118061.html
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202609-xuan-guowei-model
+  name: 广东省中医院在人工智能大会介绍禤国维诊疗大模型临床应用进展
+  type: news
+  year: 2026
+  date: '2026.09.22'
+  summary_zh: 大洋网9月22日报道，第二届广东省人工智能应用对接大会上，广东省中医院介绍名老中医辅助诊疗大模型矩阵，并称**禤国维**皮肤病诊疗大模型已于2025年6月投用。报道写核心病种诊断准确率达95%以上、已辅助决策2917次，上述数字来自院方介绍，不是外部对照试验结论。该院矩阵启动此前已有报道。
+  tags:
+  - product
+  - clinical
+  links:
+    链接: https://news.dayoo.com/guangzhou/202609/22/139995_55006505.htm
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202609-chongqing-digital-tcm
+  name: 2026年数智中医药推进现场会在重庆召开
+  type: news
+  year: 2026
+  date: '2026.09.21'
+  summary_zh: 中国中医药报9月30日报道，9月20日至21日，2026年数智中医药推进现场会暨数据要素综合试验区现场会在重庆举行，交流人工智能赋能中医药、数据要素与应用场景。报道提到横琴垂类模型、中药工业大模型和各地智能体实践，是会议综述，不代表新的模型首发。
+  tags:
+  - policy
+  links:
+    链接: https://www.cntcm.com.cn/content/202609/30/c505658.html
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202609-baiyi-twins
+  name: 传神素问在杭州发布百医孪生计划，拟为百位名老中医打造数字分身
+  type: news
+  year: 2026
+  date: '2026.09.15'
+  summary_zh: 界面新闻报道，9月15日第七届馆交会暨中医药发展大会上，传神素问推出**百医孪生计划**，拟依托其「素问」中医大模型为全国100位名老中医打造数字分身。这是计划发布，报道未列出已完成的全部名单，也未提供可独立核验的一致率数据。
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.jiemian.com/article/15106308.html
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: news-202505-huanshu
+  name: 成都体育学院发布中医运动医学寰枢大模型与智能体
+  type: news
+  year: 2025
+  date: '2025.05.17'
+  summary_zh: 四川在线5月17日报道，成都体育学院联合中科视语发布中医运动医学**寰枢**大模型与智能体，定位竞技体育、大众健康和科教场景，可生成运动处方和节气养生方案。这是2025年的发布报道，本页未核验权重或对外接口是否公开。
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://sichuan.scol.com.cn/ggxw/202505/82968100.html
+  status: published
+  verified_at: '2026-11-10'
+  access: news-only
+  evidence_level: primary-page
+- id: person-zhang-wei-cqctcm
+  name: 张伟
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 重庆中医药学院通识学院医学信息教研室副教授，讲授智慧医学语言基础与中医药人工智能基础，研究方向包括中医药知识图谱与语言大模型理论与应用。
+  orgs:
+  - 重庆中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cqctcm.edu.cn/tsxy/2023/1220/c820a2307/page.htm
+  status: published
+  verified_at: '2026-11-10'
+- id: person-ye-huaqun
+  name: 叶华群
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 重庆中医药学院通识学院医学信息教研室高级工程师，讲授智慧医学语言基础，研究方向为中医药大数据及智能信息处理。
+  orgs:
+  - 重庆中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cqctcm.edu.cn/tsxy/2023/1220/c820a2307/page.htm
+  status: published
+  verified_at: '2026-11-10'
+- id: person-wang-qiujie
+  name: 王秋杰
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 重庆中医药学院通识学院医学信息教研室主任、正高级工程师，中国中医药信息学会人工智能分会理事，讲授中医药人工智能基础，研究方向包括医疗健康数据分析。
+  orgs:
+  - 重庆中医药学院
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.cqctcm.edu.cn/tsxy/2023/1220/c820a2307/page.htm
+  status: published
+  verified_at: '2026-11-10'
+- id: person-chen-hongkai
+  name: 陈鸿凯
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 香港中文大学信息工程系研究助理教授，OpenTCM（结合中医知识图谱与GraphRAG的检索与辅助诊断系统）通讯作者之一。
+  orgs:
+  - 香港中文大学
+  tags:
+  - mentor
+  - university
+  links:
+    主页: https://www.ie.cuhk.edu.hk/faculty/chen-hongkai/
+    论文: https://arxiv.org/abs/2504.20118
+  status: published
+  verified_at: '2026-11-10'
+- id: person-khoo-christopher
+  name: Christopher Khoo
+  type: person
+  year: 2026
+  section: 高校
+  summary_zh: 南洋理工大学黄金辉传播与信息学院副教授，主导面向东南亚传统与草药的多语医学知识图谱 Polyglot Medicine Knowledge Graph。
+  orgs:
+  - 南洋理工大学
+  tags:
+  - mentor
+  - university
+  - east-asian-tm
+  links:
+    主页: https://blogs.ntu.edu.sg/chriskhoo/2023/06/polyglot-medicine-knowledge-graph/
+    系统: https://kgraph.sg/polyglot/
+    论文: https://doi.org/10.1007/978-981-99-8088-8_1
+  status: published
+  verified_at: '2026-11-10'
+- id: fu-tcm-27b
+  name: Fu-TCM-27B
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 复旦大学
+  - 福建中医药大学附属人民医院
+  summary_zh: 复旦大学等发布的27B多模态中医大模型，在领域学习之外用辨证导向策略优化（BGPO）显式训练四诊证据到中间辨证字段再到证候的推理；Hugging Face 提供Apache-2.0的12个BF16权重分片。论文中的准确率为作者自报。
+  tags:
+  - model
+  - open-weights
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2610.38333
+    模型: https://huggingface.co/fudanxai/Fu-TCM-27B
+    数据集: https://huggingface.co/datasets/fudanxai/Fu_TCM
+  status: published
+  verified_at: '2026-11-10'
+- id: fu-tcm-bgpo-paper
+  name: 'Fu-TCM: a multimodal large language model that learns traditional Chinese medicine diagnostic reasoning'
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 复旦大学
+  - 福建中医药大学附属人民医院
+  summary_zh: 介绍 Fu-TCM 的多模态辨证推理框架与 Bianzheng-Grounded Policy Optimization；作者报告 27B 模型在六个中医文本、视觉与辨证基准上取得最高宏平均准确率。文中自建的 Fu-bianzheng 等评测集未见独立公开下载入口。
+  tags:
+  - multimodal
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/2610.38333
+  status: published
+  verified_at: '2026-11-10'
+- id: chattcm-yuan2025
+  name: 'ChatTCM（苑中旭等）：融合思维链与知识图谱的中医问答模型'
+  type: resource
+  year: 2025
+  venue: 计算机工程与应用
+  doi: 10.3778/j.issn.1002-8331.2408-0101
+  orgs:
+  - 西南科技大学
+  - 中国科学技术大学
+  summary_zh: 苑中旭等提出将大模型微调与中医书籍三元组知识图谱、思维链动态交互结合的中医问答方法 ChatTCM；与目录既有的 SylvanL/ChatTCM 权重不是同一条目。文中 BLEU/ROUGE 与准确率为作者自报。
+  tags:
+  - kg
+  - rag
+  links:
+    DOI: https://doi.org/10.3778/j.issn.1002-8331.2408-0101
+    论文: http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.2408-0101
+  status: published
+  verified_at: '2026-11-10'
+- id: tcm-evidence-kg-llm
+  name: 融合知识图谱与大语言模型的中医证据构建方法
+  type: resource
+  year: 2026
+  venue: 兰州大学学报(医学版)
+  doi: 10.13885/j.issn.2097-681X.T20260017
+  orgs:
+  - 中国中医科学院
+  summary_zh: 张雪芹、文天才等从数智循证视角提出融合知识图谱与大语言模型的中医多源证据结构化、分级整合与动态更新方法，并在既有证据生态系统平台上作可行性说明。
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.13885/j.issn.2097-681X.T20260017
+    论文: https://cjournal.hep.com.cn/1000-2812/CN/10.13885/j.issn.2097-681X.T20260017
+  status: published
+  verified_at: '2026-11-10'
+- id: surv-chen2025-pumch
+  name: '陈子佳 et al. 2025: 大语言模型在中医药领域的应用、挑战与前景'
+  type: survey
+  year: 2025
+  venue: 协和医学杂志
+  doi: 10.12290/xhyxzz.2024-0315
+  orgs:
+  - 中国中医科学院
+  summary_zh: 综述大语言模型与中医四诊合参、辨证诊疗和复方研究的结合，并讨论价值风险、可解释性、技术短板与政策准入等挑战。
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.12290/xhyxzz.2024-0315
+    论文: https://xhyxzz.pumch.cn/article/doi/10.12290/xhyxzz.2024-0315
+  status: published
+  verified_at: '2026-11-10'
+- id: surv-yang2025-outlook
+  name: '杨乐乐 et al. 2025: 大语言模型在中医药领域的应用展望思考'
+  type: survey
+  year: 2025
+  venue: 中华中医药学刊
+  doi: 10.13193/j.issn.1673-7717.2025.02.004
+  orgs:
+  - 中国中医科学院中医药信息研究所
+  - Leipzig University
+  summary_zh: 梳理医学大语言模型发展脉络，展望其在中医药研究、知识挖掘与辅助诊疗中的应用，并讨论风险、对策与发展方向。
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.13193/j.issn.1673-7717.2025.02.004
+  status: published
+  verified_at: '2026-11-10'
+- id: surv-ye2025-inheritance
+  name: '叶桦 et al. 2025: 大语言模型赋能中医药传承：前沿进展与应用展望'
+  type: survey
+  year: 2025
+  venue: 中华中医药学刊
+  orgs:
+  - 成都中医药大学智能医学学院
+  - 成都中医药大学基础医学院
+  summary_zh: 2025年11月11日网络首发的中文综述，系统梳理大语言模型在中医药数据挖掘、临床辅助决策与文化传承中的研究进展、挑战与展望。期刊页未提供DOI。
+  tags:
+  - survey
+  links:
+    论文: https://zyhs.cbpt.cnki.net/portal/journal/portal/client/paper/3e19461f3fb08c22b2659ea83eb41d5a
+  status: published
+  verified_at: '2026-11-10'
+- id: surv-xiao2024-zcy
+  name: '萧文科 et al. 2024: 中医药大语言模型的关键技术与构建策略'
+  type: survey
+  year: 2024
+  venue: 中草药
+  doi: 10.7501/j.issn.0253-2670.2024.17.001
+  orgs:
+  - 成都中医药大学
+  summary_zh: 专论梳理中医药大模型的数据存储与处理、RAG、MoE、RLHF、知识蒸馏及训练评测方法，并提出面向中医药数据特点的构建策略与应用场景。
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.7501/j.issn.0253-2670.2024.17.001
+    论文: http://www.tiprpress.com/zcy/article/pdf/20241701
+  status: published
+  verified_at: '2026-11-10'
+- id: surv-liu2025-std-gai
+  name: '刘嘉艺 et al. 2025: 生成式人工智能在中医药标准化研究中的应用前景与挑战'
+  type: survey
+  year: 2025
+  venue: 上海中医药杂志
+  doi: 10.16305/j.1007-1334.2025.z20241121005
+  orgs:
+  - 兰州大学
+  - 中国中医科学院中医临床基础医学研究所
+  - 广东省中医院
+  summary_zh: 综述生成式人工智能在中医药健康服务、质量提升、信息管理与智能诊疗等标准化相关场景中的应用现状、前景与挑战。
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.16305/j.1007-1334.2025.z20241121005
+    论文: https://shzyyzz.shzyyzz.com/zh/article/doi/10.16305/j.1007-1334.2025.z20241121005/
+  status: published
+  verified_at: '2026-11-10'
+- id: ds-dragontcm
+  name: DragonTCM
+  type: dataset
+  year: 2024
+  section: 知识图谱
+  doi: 10.57967/hf/3557
+  summary_zh: 由 American Dragon 及 Penner 著作整理的中医知识库，数据卡报告1,119条病证、2,580首方剂、1,044味中药与28,735条关系；作者说明由AI自动解析，可能含不准确处，许可为CC-BY-NC-4.0。
+  tags:
+  - kg
+  - herbal
+  - corpus
+  links:
+    数据: https://huggingface.co/datasets/f-galkin/DragonTCM
+  status: published
+  verified_at: '2026-11-10'
+- id: ds-polyglot-medicine-kg
+  name: Polyglot Asian Medicine Knowledge Graph
+  type: dataset
+  year: 2023
+  venue: ICADL
+  section: 东亚传统医学
+  doi: 10.1007/978-981-99-8088-8_1
+  orgs:
+  - 南洋理工大学
+  summary_zh: 2023年公开的多语亚洲传统与草药知识图谱门户，当前以中药为主并扩展至马来与东南亚药物，连接名称、学名、药用部位、文献出处与地理信息。
+  tags:
+  - kg
+  - herbal
+  - east-asian-tm
+  links:
+    数据: https://kgraph.sg/polyglot/
+    论文: https://doi.org/10.1007/978-981-99-8088-8_1
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202611-tcm-tk-ordinance
+  name: 李强签署国务院令公布《中医药传统知识保护条例》，自2027年1月1日起施行
+  type: news
+  year: 2026
+  date: '2026.11.09'
+  summary_zh: 新华社北京11月9日电，国务院总理李强签署国务院令（国令第850号），公布《中医药传统知识保护条例》。条例共32条，明确建立保护数据库与保护名录等制度，自2027年1月1日起施行。
+  tags:
+  - policy
+  links:
+    新华社: https://www.news.cn/politics/leaders/20261109/115bf875b154445787539419282ce542/c.html
+    中国政府网: https://www.gov.cn/yaowen/liebiao/202611/content_7085599.htm
+    条例全文: https://www.gov.cn/zhengce/zhengceku/202611/content_7085592.htm
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202609-classic-industries-opinion
+  name: 工信部等六部门印发《关于推动历史经典产业高质量发展的意见》，部署人工智能赋能中药等产业
+  type: news
+  year: 2026
+  date: '2026.09.07'
+  summary_zh: 工业和信息化部等六部门印发工信部联消费〔2026〕204号意见，将中药列为历史经典产业，并部署编制人工智能赋能实施指南、建设高质量数据集、用大模型解析传统工艺，以及发展智慧药房和产业工艺知识图谱。
+  tags:
+  - policy
+  links:
+    工信部: https://www.miit.gov.cn/jgsj/xfpgys/wjfb/art/2026/art_ece6902ba0b24ad2806e670618f17a9f.html
+    新华社: http://www.news.cn/politics/20260907/1d0ae2bfeb1f4d0fb58f7611ba77a3c3/c.html
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202610-shuxiaohe
+  name: 数智中医智能体“数小禾”在2026世界传统医药大会北京成果专场发布
+  type: news
+  year: 2026
+  date: '2026.10.18'
+  summary_zh: 北京市科技信息门户转载《北京日报》报道，10月18日在2026世界传统医药大会“北京成果”专场，北京数智中医产业发展研究院发布智能体“数小禾”，基于本地算力和自主知识产权知识库，提供中英文中医智能服务。
+  tags:
+  - product
+  - agent
+  links:
+    链接: https://www.ncsti.gov.cn/kjdt/xwjj/202610/t20261027_259363.html
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202407-digital-tcm-opinion
+  name: 国家中医药管理局和国家数据局印发《关于促进数字中医药发展的若干意见》
+  type: news
+  year: 2024
+  date: '2024.07.19'
+  summary_zh: 两部门印发国中医药综发〔2024〕6号意见，推动中医药数字化转型，提出加强数据要素开发利用、打造中医药大模型和智慧服务应用。文件成文日期为2024年7月19日。
+  tags:
+  - policy
+  links:
+    链接: http://www.natcm.gov.cn/bangongshi/zhengcewenjian/2024-08-14/34672.html
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202607-digital-tcm-forum
+  name: 2026全球数字经济大会数智中医药论坛在京举行
+  type: news
+  year: 2026
+  date: '2026.07.03'
+  summary_zh: 北京市卫生健康委网站转载《中国妇女报》报道，7月3日论坛以“数启岐黄·智赋本草”为主题在京举行，发布中医药智能体技术要求等标准、16项数字中医药应用场景案例，并启动“数据要素×”大赛北京分赛中医药赛道。
+  tags:
+  - policy
+  links:
+    链接: https://wjw.beijing.gov.cn/xwzx_20031/mtjj/202607/t20260706_4748255.html
+  status: published
+  verified_at: '2026-11-10'
+- id: surv-wang2026-tcm-rd-ai
+  name: 'Wang et al. 2026: 人工智能在中医药研发中的发展与应用综述'
+  type: survey
+  year: 2026
+  venue: Chinese Medicine
+  summary_zh: 2026年1月8日发表于 Chinese Medicine 的综述，梳理人工智能在中药研发设计、制药过程与市场准入等环节的应用与局限，并讨论与新兴技术结合的方向。
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.1186/s13020-025-01288-7
+    论文: https://link.springer.com/article/10.1186/s13020-025-01288-7
+  status: published
+  verified_at: '2026-11-10'
+- id: graphrag-tcm
+  name: 'GraphRAG-TCM: A Hybrid Retrieval-Augmented Generation System for Traditional Chinese Medicine Clinical Decision Support'
+  type: resource
+  year: 2026
+  venue: ISBCB 2026
+  doi: 10.1145/3820664.3820702
+  orgs:
+  - 河南工学院
+  - 中医药广东省实验室
+  summary_zh: Wang、Ren 等在 ISBCB 2026 提出面向中医临床决策支持的混合检索增强系统，结合向量检索、词法检索与知识图谱遍历。篇目与作者信息核验自 Crossref 与 DOI 登记。
+  tags:
+  - rag
+  - kg
+  links:
+    DOI: https://doi.org/10.1145/3820664.3820702
+    论文: https://dl.acm.org/doi/10.1145/3820664.3820702
+  status: published
+  verified_at: '2026-11-10'
+- id: graphrag-or-ft-tcm
+  name: 'GraphRAG or Fine-Tuning? Evaluating Knowledge Integration via Manually Extracted Graphs in Traditional Chinese Medicine'
+  type: resource
+  year: 2026
+  venue: ICIC 2026
+  doi: 10.1007/978-981-92-3495-0_22
+  summary_zh: Tong、Lin、Cai 在 ICIC 2026（LNCS）比较基于人工抽取中医知识图谱的 GraphRAG 与微调，评估知识注入效果。篇目、作者与 2026年7月15日在线出版信息核验自 Crossref。
+  tags:
+  - rag
+  - kg
+  - evaluation
+  links:
+    DOI: https://doi.org/10.1007/978-981-92-3495-0_22
+    论文: https://link.springer.com/10.1007/978-981-92-3495-0_22
+  status: published
+  verified_at: '2026-11-10'
+- id: tcm-sea
+  name: 'Learning from Expert-Corrected Misdiagnoses: A Self-Evolving Consultation Agent for Traditional Chinese Medicine after Failed Treatment'
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 中国中医科学院实验研究中心
+  - 北京科技大学
+  summary_zh: 提出误治后再诊互动基准 TCM-MisDx（820例）与自我演化问诊智能体 TCM-SEA；作者报告在封闭测试集上综合分由61.8提升至65.5，治疗惯性率有所下降。文中指标均为作者自报，未见独立数据集下载入口。
+  tags:
+  - agent
+  - benchmark
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/2610.40663
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202607-national-15th-plan
+  name: 国家中医药局、国家发展改革委印发《中医药振兴发展“十五五”规划》
+  type: news
+  year: 2026
+  date: 2026.07.23
+  summary_zh: 经国务院批复同意（国函〔2026〕71号），国家中医药局、国家发展改革委联合印发《中医药振兴发展“十五五”规划》（国中医药规财发〔2026〕8号）。规划提出到2030年实现人人享有中医药服务，并部署十个方面重点任务，其中包括加速中医药数智化赋能与标准化建设；政策解读明确提出运用人工智能等新技术挖掘和传承中医药宝库。这是国家层面的五年规划，不是单项产品发布。
+  tags:
+  - policy
+  links:
+    中国政府网: https://www.gov.cn/zhengce/zhengceku/202607/content_7076394.htm
+    国家中医药管理局: http://www.natcm.gov.cn/guicaisi/zhengcewenjian/2026-07-22/38398.html
+    新华社: https://www.news.cn/20260723/d6c2ca040e534b9186271da832c4ec6b/c.html
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202607-tcm-qiangji-action
+  name: 十一部门印发《医疗卫生强基工程中医药行动方案》
+  type: news
+  year: 2026
+  date: 2026.07.28
+  summary_zh: 国家中医药局等十一部门印发《医疗卫生强基工程中医药行动方案》（国中医药医政发〔2026〕6号，成文2026年7月11日）。方案提出到2030年基层中医药服务网络全面建立，基础设施和数智化条件明显改善，并部署七项行动；其中明确加快县级中医医院信息化、持续推进智慧中医医院建设，探索医学人工智能辅助诊疗在基层中医药服务和名中医经验传承等场景的应用。
+  tags:
+  - policy
+  links:
+    中国政府网: https://www.gov.cn/zhengce/zhengceku/202607/content_7076920.htm
+    国家中医药管理局: http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-07-28/38433.html
+  status: published
+  verified_at: '2026-11-10'
+- id: news-202611-shandong-15th-plan
+  name: 山东省人民政府印发《山东省中医药发展“十五五”规划》
+  type: news
+  year: 2026
+  date: 2026.11.03
+  summary_zh: 山东省人民政府印发《山东省中医药发展“十五五”规划》（鲁政发〔2026〕23号，成文2026年10月23日，2026年11月3日公布）。规划提出实施齐鲁中医药振兴发展“六名四化”战略，推动中医药现代化、产业化、智慧化、生活化，到2030年实现人人享有中医药服务；重点任务包括中医药古籍数字化、数字智能应用人才培养，以及推动中医药数智化赋能。这是省级规划部署，不是已经上线的模型发布。
+  tags:
+  - policy
+  links:
+    山东省人民政府: http://www.shandong.gov.cn/art/2026/11/3/art_267492_89889.html
+    政策解读: http://www.shandong.gov.cn/art/2026/11/3/art_306404_21741.html
+  status: published
+  verified_at: '2026-11-10'
+- id: acupuncturebench
+  name: AcupunctureBench
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 东北大学
+  - 天津中医药大学
+  - 广东工业大学
+  - 哈尔滨工业大学（深圳）
+  summary_zh: 东北大学谭文军等提出面向针灸领域的多模态大模型评测基准，覆盖文本、图像和视频，含58,526道题目与1,216条视频样本，并评测14个大语言模型、14个多模态大模型和4个视频基础模型。论文称另有专用评测网站。文中规模与结果均为作者自报；匿名Hugging Face仓库为手动门禁且无数据卡，本次未作为独立公开数据集收录。
+  tags:
+  - benchmark
+  - multimodal
+  - evaluation
+  links:
+    论文: https://arxiv.org/abs/2611.05399
+    评测: https://acupunctureeval.daytime001.xin
+  status: published
+  verified_at: '2026-11-10'
+- id: alpha-tcm
+  name: 'Alpha-TCM: A Nine-Layer Framework for TCM-Guided Multimodal Inference and Structured-Prior Auditing'
+  type: resource
+  year: 2026
+  venue: arXiv
+  orgs:
+  - 牛津大学
+  - 中国科学院北京纳米能源与系统研究所
+  summary_zh: 提出将语义、多模态采集、质量、知识先验、概率推断、时序更新、决策、语言交互与人工治理分开的九层中医系统架构，并在合成数据上对第1–5层的知识–证据接口做了可复核实验。作者明确这是系统设计与合成原型，不能用于验证中医理论，也不支持临床诊断或治疗主张。
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2610.38754
+  status: published
+  verified_at: '2026-11-10'

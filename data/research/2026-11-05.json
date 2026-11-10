@@ -194,7 +194,7 @@
       },
       "access": "news-only",
       "evidence_level": "primary-index-or-landing-page",
-      "evidence_note": "核验到人民网原页的搜索索引内容；直连全文未成功。"
+      "evidence_note": ""
     },
     {
       "id": "news-202611-ai-tcm-data-meeting",
@@ -356,7 +356,7 @@
       },
       "access": "public-portal",
       "evidence_level": "primary-index-or-landing-page",
-      "evidence_note": "门户HTTP可达；功能依据官方页面的搜索索引说明，未测试JS内操作。",
+      "evidence_note": "",
       "year_basis": "本轮核验年；页面未明确数字资源首发年"
     },
     {
@@ -366,7 +366,7 @@
       },
       "access": "public-reading",
       "evidence_level": "primary-index-or-landing-page",
-      "evidence_note": "依据原站搜索索引正文及章节信息；未验证批量接口。",
+      "evidence_note": "",
       "year_basis": "本轮核验年；页面未明确数字资源首发年"
     },
     {

@@ -4858,3 +4858,89 @@ person-li-ming-sdutcm:
   summary_en: "Jinan. Professor at Shandong University of Traditional Chinese Medicine and deputy director of the graduate office. Leads the discipline of healthcare big data."
   orgs_en:
   - "School of Medical Information Engineering, Shandong University of Traditional Chinese Medicine"
+
+news-202611-ciie-qiyuan:
+  summary_en: China News Service reported on 9 November 2026 that Shanghai Seventh People's Hospital made its first CIIE appearance and presented the Qiyuan TCM model, along with an AI face-diagnosis agent and the teaching robot Xiaoqi. Qiyuan was already released in July 2026; this item covers the exhibition, not a first launch.
+news-202611-tcm-best4sdt-scidata:
+  summary_en: Wenge announced on 5 November 2026 that TCM-BEST4SDT, a Bianzheng Lunzhi evaluation benchmark built with the China Academy of Chinese Medical Sciences, was published online in Scientific Data. The report describes 600 samples and 27 dimensions, with data and code released. This catalog already lists the benchmark; this entry is the publication notice.
+news-202611-tcmqa-release:
+  summary_en: Beijing News, carrying a 5 November 2026 report, said the fifth Wenzhi TCM clinical conference in Shenzhen on 1 November formally released TCMQA, a 38,279-item exam-style benchmark with a licensed-physician baseline. Materials are on Hugging Face. This catalog already lists the benchmark; this entry is the release notice. The report does not equate exam scores with clinical bianzheng skill.
+news-202610-yiqi-ondevice:
+  summary_en: Ifeng Finance reported on 31 October 2026 that Tianji Yiqi said its on-device model Yiqi TCM AI finished debugging and went live on 27 October, and can run fully offline for constitution assessment and similar uses. This is a company release reprinted by media; this page has not independently verified clinical effects or deployment scale. The model is not the ETCM herbal database.
+news-202610-sichuan-15th-plan:
+  summary_en: Sichuan Observation reported on 20 October 2026 that the province issued its 15th Five-Year TCM development plan, calling for TCM digital platforms, large models for renowned-physician intelligent diagnosis, grassroots decision-support pilots, and high-quality datasets. This is a planning document, not a model launch.
+news-202610-xiaohuangqi:
+  summary_en: Zhitong Finance reported on 21 October 2026 that Yidu Technology launched the evidence-based TCM agent Xiaohuangqi at the 2026 World Traditional Medicine Conference, covering guideline retrieval, assisted bianzheng, formula lookup and term translation, with answers said to cite sources. Item counts and hospital use come from the company and have not been independently verified here.
+news-202610-fan-jiping-twin:
+  summary_en: A 19 October 2026 Phoenix Tech reprint said Transn Suwen and Mingyi Online jointly released a Fan Jiping digital twin on 18 October at the World Traditional Medicine Conference, built on Transn's Suwen TCM model from cases and teaching materials. This is a single-physician twin launch; the report does not present independently verified clinical trial results.
+news-202610-wtmc-exhibits:
+  summary_en: Guang'anmen Hospital reported on 24 October 2026 on TCM AI exhibits at the 17-18 October World Traditional Medicine Conference, including Guangyi Qizhi, Hangzhou Hospital of TCM's embodied robot Xiao'an, and Zhongke Yunzhen's Miaowu Qihuang. Visit counts and agreement rates in the report come from exhibitors and should not be read as formal benchmark results.
+news-202609-xuan-guowei-model:
+  summary_en: Dayoo reported on 22 September 2026 that Guangdong Provincial Hospital of Chinese Medicine presented its veteran-physician model matrix at the second Guangdong AI application conference, saying the Xuan Guowei dermatology model had been in use since June 2025. Figures such as "over 95% accuracy" and 2,917 assisted decisions come from the hospital and are not external trial results. The matrix launch was reported earlier.
+news-202609-chongqing-digital-tcm:
+  summary_en: China Traditional Chinese Medicine News reported on 30 September 2026 that a digital TCM and data-element pilot meeting was held in Chongqing on 20-21 September. The piece is a meeting round-up covering AI, data elements and application scenarios, not a new model debut.
+news-202609-baiyi-twins:
+  summary_en: Jiemian reported that on 15 September, at the seventh pavilion-exchange and TCM development conference in Hangzhou, Transn Suwen launched a Hundred Physicians Twin plan to build digital twins for 100 veteran TCM doctors on its Suwen model. This is a plan announcement; the report does not list a complete roster or independently verified agreement rates.
+news-202505-huanshu:
+  summary_en: Sichuan Online reported on 17 May 2025 that Chengdu Sport University and Zhongke Shiyu released the Huanshu sports-medicine TCM model and agent, aimed at competitive sport, public health and teaching, including exercise prescriptions and seasonal health plans. This page has not verified weights or a public API.
+person-zhang-wei-cqctcm:
+  summary_en: Associate professor in the Medical Informatics teaching group at Chongqing College of Traditional Chinese Medicine; teaches foundations of TCM AI and works on TCM knowledge graphs and large language models.
+person-ye-huaqun:
+  summary_en: Senior engineer in the Medical Informatics teaching group at Chongqing College of Traditional Chinese Medicine; teaches foundations of smart medical language, with research in TCM big data and intelligent information processing.
+person-wang-qiujie:
+  summary_en: Director of the Medical Informatics teaching group at Chongqing College of Traditional Chinese Medicine and a council member of the CACMS Information Society AI branch; teaches foundations of TCM AI and works on healthcare data analysis.
+person-chen-hongkai:
+  summary_en: Research Assistant Professor in Information Engineering at CUHK and a corresponding author of OpenTCM, a GraphRAG-based TCM knowledge retrieval and diagnosis system.
+person-khoo-christopher:
+  summary_en: Associate professor at NTU's Wee Kim Wee School of Communication and Information; leads the Polyglot Asian Medicine Knowledge Graph of traditional and herbal medicines in maritime Southeast Asia.
+fu-tcm-27b:
+  summary_en: A 27B multimodal TCM LLM from Fudan University and collaborators, trained with Bianzheng-Grounded Policy Optimization so that four-examination evidence, intermediate bianzheng fields, and syndrome labels are explicit targets. Twelve Apache-2.0 BF16 shards are on Hugging Face; accuracy figures are author-reported.
+fu-tcm-bgpo-paper:
+  summary_en: Paper introducing the Fu-TCM multimodal diagnostic-reasoning framework and Bianzheng-Grounded Policy Optimization. The authors report that Fu-TCM-27B leads six TCM text, vision, and syndrome-differentiation benchmarks on macro-average accuracy. The internally built Fu-bianzheng and related benches are not independently released.
+chattcm-yuan2025:
+  summary_en: Yuan et al. present a TCM QA method that fine-tunes an LLM and couples it with a textbook-derived knowledge graph and chain-of-thought interaction. This is a distinct publication from the existing SylvanL/ChatTCM weights. BLEU, ROUGE, and accuracy figures are author-reported.
+tcm-evidence-kg-llm:
+  summary_en: Zhang, Wen, and colleagues propose a knowledge-graph and LLM method for structuring, grading, and dynamically updating multi-source TCM evidence in a digital evidence-based-medicine setting, with a feasibility check on an existing evidence-ecosystem platform.
+surv-chen2025-pumch:
+  summary_en: A 2025 review in Medical Journal of Peking Union Medical College Hospital on LLM applications in TCM diagnosis, consultation, and formula research, together with challenges in values and misuse, interpretability, technical gaps, and regulatory access.
+surv-yang2025-outlook:
+  summary_en: Yang, Zhu, and colleagues review medical LLMs and discuss potential TCM uses in research, knowledge mining, and assisted diagnosis, along with risks, countermeasures, and future directions.
+surv-ye2025-inheritance:
+  summary_en: A November 2025 online-first Chinese review of LLMs for TCM inheritance, covering data mining, clinical decision support, and cultural transmission, plus challenges and outlook. The journal page does not provide a DOI.
+surv-xiao2024-zcy:
+  summary_en: A 2024 monograph-style review in Chinese Traditional and Herbal Drugs on data handling, RAG, mixture of experts, RLHF, distillation, and training or evaluation methods for TCM LLMs, with construction strategies and application scenarios.
+surv-liu2025-std-gai:
+  summary_en: A 2025 review in Shanghai Journal of Traditional Chinese Medicine on generative AI for TCM standardization, covering health services, quality improvement, information management, and intelligent diagnosis, plus prospects and challenges.
+ds-dragontcm:
+  summary_en: A TCM knowledge base derived from American Dragon and Penner’s work. The card reports 1,119 conditions, 2,580 formulas, 1,044 herbs, and 28,735 relations. The authors note automatic AI parsing may introduce inaccuracies; license is CC-BY-NC-4.0.
+ds-polyglot-medicine-kg:
+  summary_en: A 2023 public knowledge-graph portal of Asian traditional and herbal medicines, currently focused on Chinese materia medica and expanding to Malay and Southeast Asian drugs, linking names, scientific names, plant parts, textual sources, and geography.
+
+news-202611-tcm-tk-ordinance:
+  summary_en: Xinhua reported from Beijing on 9 November 2026 that Premier Li Qiang signed a State Council decree (Guo Ling No. 850) promulgating the Regulation on the Protection of Traditional Chinese Medicine Traditional Knowledge. The regulation has 32 articles, including a protection database and a protection list, and takes effect on 1 January 2027.
+news-202609-classic-industries-opinion:
+  summary_en: MIIT and five other departments issued document 204 of 2026 on 7 September 2026, listing Chinese materia medica among historical classic industries and calling for an AI empowerment guide, high-quality datasets, large-model analysis of traditional crafts, smart pharmacies, and industrial process knowledge graphs.
+news-202610-shuxiaohe:
+  summary_en: A Beijing Daily report carried on 27 October 2026 by the Beijing science and technology portal said that on 18 October, at the Beijing outcomes session of the 2026 World Traditional Medicine Conference, the Beijing Digital TCM Industry Development Institute released the agent Shu Xiaohe, using local compute and a self-owned knowledge base for Chinese and English TCM services.
+news-202407-digital-tcm-opinion:
+  summary_en: The National Administration of Traditional Chinese Medicine and the National Data Administration issued document 6 of 2024 on promoting digital TCM, including data-element development, TCM large models, and smart services. The document is dated 19 July 2024.
+news-202607-digital-tcm-forum:
+  summary_en: A China Women's News report carried on 6 July 2026 by the Beijing Municipal Health Commission said the Digital TCM Forum of the 2026 Global Digital Economy Conference was held in Beijing on 3 July. The forum released agent technical requirements and related standards, 16 digital TCM application cases, and launched the Beijing TCM track of the Data Element competition.
+surv-wang2026-tcm-rd-ai:
+  summary_en: A review published on 8 January 2026 in Chinese Medicine by Wang, Luo, and colleagues on the development and application of AI in TCM research and development, covering drug design, manufacturing, and market access, plus limitations and future directions.
+graphrag-tcm:
+  summary_en: Wang, Ren, and colleagues present a hybrid retrieval-augmented generation system for TCM clinical decision support at ISBCB 2026, combining vector retrieval, lexical retrieval, and knowledge-graph traversal. Title, authors, and DOI were verified via Crossref.
+graphrag-or-ft-tcm:
+  summary_en: Tong, Lin, and Cai compare GraphRAG over a manually extracted TCM knowledge graph with fine-tuning at ICIC 2026 (LNCS). Title, authors, and the 15 July 2026 online publication date were verified via Crossref.
+tcm-sea:
+  summary_en: Wang, Lin, and colleagues introduce TCM-MisDx, an 820-case interactive benchmark of consultations after failed treatment, and TCM-SEA, a self-evolving consultation agent. The authors report a composite score rise from 61.8 to 65.5 on a sealed test set and a lower therapeutic-momentum rate. Figures are author-reported; no independent dataset download is provided in the paper.
+news-202607-national-15th-plan:
+  summary_en: After State Council approval (Guo Han [2026] No. 71), the National Administration of Traditional Chinese Medicine and the National Development and Reform Commission issued the 15th Five-Year Plan for the Revitalization and Development of Traditional Chinese Medicine (Guo Zhongyiyao Guicai Fa [2026] No. 8) on 23 July 2026. The plan sets the goal that everyone should have access to TCM services by 2030 and lists ten priority tasks, including accelerating digital and intelligent empowerment and standards. The official Q&A states that AI and other new technologies should be used to mine and transmit the TCM heritage. This is a national five-year plan, not a product launch.
+news-202607-tcm-qiangji-action:
+  summary_en: Eleven ministries, led by the National Administration of Traditional Chinese Medicine, issued the TCM Action Plan under the Healthcare Strengthening Program (Guo Zhongyiyao Yizheng Fa [2026] No. 6; dated 11 July 2026 and posted on official sites on 28 July). The plan aims, by 2030, to complete a grassroots TCM service network and improve digital and intelligent conditions. Among seven actions, it calls for faster hospital informatization, continued development of smart TCM hospitals, and exploratory use of medical AI for assisted diagnosis in grassroots TCM services and the inheritance of renowned physicians' experience.
+news-202611-shandong-15th-plan:
+  summary_en: The People's Government of Shandong Province issued the Shandong 15th Five-Year Plan for TCM Development (Lu Zheng Fa [2026] No. 23; dated 23 October 2026 and published on 3 November). The plan adopts a 'six names and four modernizations' strategy, including making TCM smarter, and aims for universal access to TCM services by 2030. Official tasks include digitizing ancient texts, training talent in digital and intelligent applications, and promoting digital and intelligent empowerment of TCM. This is a provincial plan, not a model release.
+acupuncturebench:
+  summary_en: Tan Wenjun and colleagues at Northeastern University introduce AcupunctureBench, a multimodal benchmark for generative models in acupuncture, covering text, image, and video, with 58,526 questions and 1,216 video samples. The authors report evaluating 14 large language models, 14 large multimodal models, and 4 video foundation models, and they released a dedicated evaluation website. Counts and scores are author-reported. An anonymous, manually gated Hugging Face repository without a dataset card was not added as a separate public dataset.
+alpha-tcm:
+  summary_en: Liu and Wang propose a nine-layer TCM-oriented system architecture that keeps semantics, multimodal acquisition, quality, knowledge priors, probabilistic inference, longitudinal updating, decisions, language interaction, and human governance distinct, and they audit the knowledge-evidence interface of layers 1-5 on synthetic data. The authors state that this is a system-design contribution and a synthetic prototype; it does not validate TCM theory or support clinical diagnostic or treatment claims.
