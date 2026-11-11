@@ -6,10 +6,10 @@
     "description_en": "Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.",
     "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
     "portal_url": "https://tyang816.github.io/projects/tcm/",
-    "updated_at": "2026-11-10",
+    "updated_at": "2026-11-11",
     "catalog_version": 1
   },
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "items": [
     {
       "id": "news-202609-27",
@@ -443,15 +443,15 @@
       "type": "news",
       "year": 2024,
       "date": "2024.05.10",
-      "summary_zh": "天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型。本页没有信通院4+级评估",
+      "summary_zh": "天士力与华为云联合发布**数智本草**大模型，基于盘古语言与药物分子模型。",
       "tags": [
         "product"
       ],
       "links": {
-        "链接": "https://news.pharmnet.com.cn/news/2024/05/10/591622.html"
+        "链接": "https://www.taslypharma.com/tsl/40931.jhtml"
       },
       "status": "published",
-      "verified_at": "2026-08-02"
+      "verified_at": "2026-11-11"
     },
     {
       "id": "news-202403-14",
@@ -27613,6 +27613,111 @@
       },
       "status": "published",
       "verified_at": "2026-11-10"
+    },
+    {
+      "id": "news-202611-guangdong-15th-plan",
+      "name": "广东省卫生健康委等印发《广东省中医药发展“十五五”规划》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.11.02",
+      "summary_zh": "广东省卫生健康委、广东省中医药局、广东省发展改革委印发《广东省中医药发展“十五五”规划》（粤卫〔2026〕4号，成文2026年10月8日，2026年11月2日在省中医药局官网公布）。规划以中西医协同、数智化转型、粤港澳联动为引领，提出到2030年全面实现人人享有优质中医药服务；并专章部署加速中医药数智化赋能，支持中医药大模型和智能体开发应用，探索建设高质量数据集、数字化平台与知识图谱，加强智慧中医医院建设。这是省级规划部署，不是已经上线的模型发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "广东省中医药局": "http://szyyj.gd.gov.cn/zwgk/gsgg/content/post_4974266.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "id": "news-202604-zhejiang-15th-plan",
+      "name": "浙江省人民政府办公厅印发《浙江省“十五五”中医药发展规划》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.04.24",
+      "summary_zh": "浙江省人民政府办公厅印发《浙江省“十五五”中医药发展规划》（浙政办发〔2026〕14号，2026年4月24日）。规划提出到2030年基本建成中医药现代化先行省，中医药人工智能应用水平全国领先，并统筹服务、产业、科技、人才、文化、治理、数智“七位一体”现代化；主要指标明确中医类医疗机构医学大模型应用率到2030年达到100%，同时提出推动浙江成为中医药人工智能发展的重要策源地。这是省级规划部署，不是已经上线的模型发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "浙江省政府公开文本": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/filemanager/1567290/attach/20266/054C52CACC6589E4F1917D8B993978B9.pdf",
+        "商务部转载": "https://tradeinservices.mofcom.gov.cn/article/zcfb/zcfg/202607/200234.html",
+        "浙江中医药大学转载": "https://itc.zcmu.edu.cn/202607132.pdf"
+      },
+      "status": "published",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "id": "news-202610-hunan-15th-plan",
+      "name": "湖南省人民政府办公厅印发《湖南省中医药发展“十五五”规划》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.10.09",
+      "summary_zh": "湖南省人民政府办公厅印发《湖南省中医药发展“十五五”规划》（湘政办发〔2026〕53号，发文日期2026年10月9日）。规划提出到2030年实现人人享有中医药服务，部署九个方面34项重点任务，其中包括加速中医药数智化赋能：建设智慧中医医院、探索处方共享与数据互联，加快中医药人工智能应用场景建设，扩大智能辅助诊疗和中药智能调配在基层的应用，并加强高质量数据集建设。省中医药管理局解读于2026年11月11日在省政府门户发布。这是省级规划部署，不是已经上线的模型发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "湖南省人民政府": "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfbgt/202610/t20261023_34087538.html",
+        "政策解读": "http://www.hunan.gov.cn/hnszf/xxgk/jd/bmjd/202611/t20261111_34099599.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "id": "news-202610-hubei-15th-plan",
+      "name": "湖北印发《湖北省中医药发展“十五五”规划》（官方解读）",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.10.22",
+      "summary_zh": "湖北省卫生健康委员会官网2026年10月22日发布政策解读称，经省人民政府同意后，省卫生健康委、省发展改革委、省中医药管理局于2026年9月19日联合印发《湖北省中医药发展“十五五”规划》。解读明确规划提出到2030年实现人人享有中医药服务，并部署数智赋能与标准化等重点任务，包括持续推进智慧医院建设、深化数据资源开发利用和推进中医药人工智能建设。本次打开了湖北省卫生健康委的官方解读页；官网列出的规划正文链接在本次核验中返回404，故不以正文页作为依据。这是省级规划部署，不是已经上线的模型发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "政策解读": "https://wjw.hubei.gov.cn/zfxxgk/zc/zcjd_1/202610/t20261022_6037633.shtml"
+      },
+      "status": "published",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "id": "news-202610-grassroots-tcm-tech",
+      "name": "国家中医药局综合司、国家卫生健康委办公厅印发《关于推进基层中医适宜技术推广应用的通知》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.10.28",
+      "summary_zh": "国家中医药局综合司、国家卫生健康委办公厅印发《关于推进基层中医适宜技术推广应用的通知》（国中医药综医政发〔2026〕8号，成文2026年10月14日，国家中医药管理局官网及中国政府网转载新华社稿2026年10月28日发布）。通知要求建设国家、省、市、县推广网络，到2030年县级推广中心基本全覆盖，优先推广6类15项以上中医适宜技术；并专章部署推广工作数智化支撑，探索应用人工智能辅助教学、辅助诊疗和质控分析工具。这是基层适宜技术推广政策，不是单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "国家中医药管理局": "http://www.natcm.gov.cn/yizhengsi/gongzuodongtai/2026-10-28/39042.html",
+        "中国政府网": "https://www.gov.cn/lianbo/202610/content_7084413.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "id": "tcmaster",
+      "name": "TCMaster: Confidence-Aware Querying and Workload-Guided Physical Design for Multi-Source Traditional Chinese Medicine Knowledge Graphs",
+      "type": "resource",
+      "year": 2026,
+      "venue": "arXiv",
+      "orgs": [
+        "清华大学",
+        "北京中医药大学",
+        "广东省中医药省实验室"
+      ],
+      "summary_zh": "清华大学、北京中医药大学与广东省中医药省实验室陈峥等提出面向多源中医药知识图谱的置信查询与物理设计方法 TCMaster，整合药典、方剂、分子数据和大模型抽取的微语义，构建约22.1万实体、72.3万条基础边的属性图，并在边上来源置信度约束下重写 Cypher 查询。作者报告在 Neo4j 上的检索加速，以及图谱检索使 TCMbench 问答准确率提高20.0个百分点。规模与结果均为作者自报。",
+      "tags": [
+        "kg"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2609.25712"
+      },
+      "status": "published",
+      "verified_at": "2026-11-11"
     }
   ]
 }
