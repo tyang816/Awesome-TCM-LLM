@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-11-11'
+  updated_at: '2026-11-12'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -20889,3 +20889,950 @@ items:
     论文: https://arxiv.org/abs/2609.25712
   status: published
   verified_at: '2026-11-11'
+- id: news-202611-shanxi-15th-plan
+  name: 山西省卫生健康委、山西省发展改革委印发《山西省“十五五”中医药发展规划》
+  type: news
+  year: 2026
+  date: '2026.11.03'
+  summary_zh: "山西省卫生健康委员会、山西省发展和改革委员会印发《山西省“十五五”中医药发展规划》（晋卫中医药科技发〔2026〕3号，成文2026年10月28日，省卫生健康委官网2026年11月3日公布）。规划提出到2030年中医药强省建设取得决定性进展，以科技创新、数智化转型、中西医协同为牵引，做大做强中医药“晋”字品牌；并专章部署加速中医药数智化赋能，包括建立中医药行业可信数据空间和人工智能高质量数据集，支持多模态大模型等技术用于中医辅助决策、病历质控、名老中医经验传承和中药新药研发，加强智慧中医医院建设并推动基层应用中医智能辅助诊疗。本次打开了山西省卫生健康委官方全文页。这是省级规划部署，不是已经上线的模型发布。"
+  tags:
+  - policy
+  links:
+    山西省卫生健康委: https://wjw.shanxi.gov.cn/tzgg/zcwj/202611/t20261103_10251747.shtml
+  status: published
+  verified_at: '2026-11-12'
+- id: news-202610-fujian-herb-quality
+  name: 福建省卫生健康委员会等十三部门印发《福建省提升中药质量促进中医药产业高质量发展的若干措施》
+  type: news
+  year: 2026
+  date: '2026.10.26'
+  summary_zh: "福建省卫生健康委员会、福建省中医药管理局等十三部门印发《福建省提升中药质量促进中医药产业高质量发展的若干措施》（闽卫规〔2026〕4号，成文2026年10月15日，省卫生健康委官网2026年10月26日公布，有效期至2030年12月31日）。措施落实国办发〔2025〕11号，部署闽产道地药材保护、规范化种植、产业集群和中药工业升级等，并明确引导中药企业加快智能化改造、梯度建设智能工厂，以及建设信息化追溯系统。本次打开了省政府卫生健康委官方页面和主动公开PDF。这是省级产业质量政策，不是单项产品发布。"
+  tags:
+  - policy
+  links:
+    福建省卫生健康委: https://wjw.fujian.gov.cn/xxgk/fgwj/zxwj/202610/t20261026_7240705.htm
+    官方PDF: https://wjw.fujian.gov.cn/xxgk/fgwj/zxwj/202610/P020261026658500638498.pdf
+  status: published
+  verified_at: '2026-11-12'
+- id: course-bucm-tcm-basics
+  name: 北京中医药大学《中医基础理论》中国大学MOOC课程（马淑然）
+  type: resource
+  year: 2019
+  date: '2026.09.14'
+  orgs:
+  - 北京中医药大学
+  summary_zh: "北京中医药大学马淑然主讲的《中医基础理论》公开课，在中国大学MOOC（爱课程/网易）开出，面向中医药专业学生和中医爱好者，系统讲授阴阳五行、藏象经络、气血津液、病因病机和治则治法。本次打开了课程一手页面。当前学期于2026年9月14日开课，至2027年1月20日结束；平台记录的较早开课可追溯至2019年10月。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/BUCM-1206410812
+  status: published
+  verified_at: '2026-11-12'
+- id: course-bucm-tcm-intro
+  name: 北京中医药大学《中医入门》中国大学MOOC课程（王彤）
+  type: resource
+  year: 2019
+  date: '2026.09.28'
+  orgs:
+  - 北京中医药大学
+  summary_zh: "北京中医药大学王彤主讲的《中医入门》公开课，在中国大学MOOC开出，从医话、医道、医理、医术四部分引导学习者认识中医理论与应用。本次打开了课程一手页面。当前学期于2026年9月28日开课，至2027年1月20日结束；平台记录的较早开课可追溯至2019年10月。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/BUCM-1206405809
+  status: published
+  verified_at: '2026-11-12'
+- id: course-bucm-herb-safety
+  name: 北京中医药大学《中药安全用药导论》中国大学MOOC课程（张冰等）
+  type: resource
+  year: 2015
+  date: '2026.09.07'
+  orgs:
+  - 北京中医药大学
+  summary_zh: "北京中医药大学张冰、林志健、张晓朦等主讲的《中药安全用药导论》公开课，在中国大学MOOC开出，介绍中药药物警戒、不良反应识别与常见中成药安全问题，课程说明称2017年被评为教育部精品在线开放课程。本次打开了课程一手页面。当前学期于2026年9月7日开课，至2026年12月14日结束；平台记录的较早开课可追溯至2015年10月。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/BUCM-387003
+  status: published
+  verified_at: '2026-11-12'
+- id: tonguenet
+  name: TongueNet：面向中医舌诊的多模态融合与多标签分类模型（Yang 等）
+  type: resource
+  year: 2025
+  date: '2025.04.25'
+  venue: Frontiers in Physiology
+  orgs:
+  - 内蒙古自治区中医医院风湿科
+  - 内蒙古医科大学中医学院
+  - 内蒙古大学数学科学学院
+  summary_zh: "Yang、Dong、Lin、Lü 通讯提出 TongueNet，融合舌象与文本并对病性、病位做多标签分类。训练使用 Roboflow 汇总的 4,815 张舌象。作者自报病性准确率 89.12%、F1 48.07%；正文未见代码仓库。须区分内蒙古自治区中医医院、内蒙古医科大学与内蒙古大学。"
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3389/fphys.2025.1527751
+    论文: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1527751/full
+  doi: 10.3389/fphys.2025.1527751
+  status: published
+  verified_at: '2026-11-12'
+- id: hist-2010-drugcipher
+  name: drugCIPHER（Zhao、李梢）：关联药理空间与基因组空间的药物靶点推断框架
+  type: resource
+  year: 2010
+  date: '2010.07.26'
+  venue: PLoS ONE
+  orgs:
+  - 清华大学自动化系
+  - 教育部生物信息学重点实验室
+  - 清华大学信息科学与技术国家实验室（TNLIST）
+  summary_zh: "Zhao、李梢提出 drugCIPHER，用线性回归把药物治疗／化学相似性与蛋白质相互作用网络上的接近度关联起来，以在全基因组尺度推断药物靶点。这是 2010 年一般药理学方法，被后续中医药综述引用，不能与本站 TCMSP 或 2026 年 DeepTCM 合并。"
+  tags:
+  - history
+  links:
+    DOI: https://doi.org/10.1371/journal.pone.0011764
+    论文: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011764
+  doi: 10.1371/journal.pone.0011764
+  status: published
+  verified_at: '2026-11-12'
+- id: chen2025-tongue-analysis
+  name: Chen 等：面向中医辅助诊断的深度学习自动化舌象分析系统
+  type: resource
+  year: 2025
+  date: '2025.04.28'
+  venue: Frontiers in Physiology
+  orgs:
+  - 四川大学生物医学工程学院
+  - 四川省第二中医医院
+  summary_zh: "Chen、Chen、Zhou、Zhu、He、Zhang 通讯提出采集硬件、半监督分割、颜色校正和特征分类一体的舌诊系统。临床样本 2,738 例。作者自报 U2net-MT 舌体分割 Dice 0.967；正文未见代码仓库，训练／测试张数未清楚给出。须与本站 tonguenet、TongueDx／TongueDx2 区分。"
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3389/fphys.2025.1559389
+    论文: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1559389/full
+  doi: 10.3389/fphys.2025.1559389
+  status: published
+  verified_at: '2026-11-12'
+- id: shi2023-tongue-lung-cancer
+  name: Shi 等：基于舌象的肺癌风险预警模型
+  type: resource
+  year: 2023
+  date: '2023.06.01'
+  venue: Frontiers in Physiology
+  orgs:
+  - 上海中医药大学实验教学中心
+  - 上海中医药大学基础医学院
+  - 上海中医药大学附属龙华医院
+  summary_zh: "Shi、Guo（共同第一）、Chun、Liu、Liu、Tu、Xu 通讯用 TFDA-1 舌象对 862 名参与者建立肺癌风险预警模型。仅用舌象时随机森林准确率 0.679±0.048、AUC 0.752±0.051，为作者自报；数据因项目保密不公开。须与本站其他舌诊条目区分，不修改人物页 person-xu-jiatuo。"
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3389/fphys.2023.1154294
+    论文: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1154294/full
+  doi: 10.3389/fphys.2023.1154294
+  status: published
+  verified_at: '2026-11-12'
+- id: li2025-acugraph-protocol
+  name: Li 等：计算机与手法选穴辅助膝骨关节炎物理治疗的随机对照试验方案
+  type: resource
+  year: 2025
+  date: '2025.01.13'
+  venue: PLoS ONE
+  orgs:
+  - 马来西亚国民大学健康科学学院康复与特殊需要研究中心物理治疗项目
+  - Grand Care Rehab Seremban（物理治疗与针灸）
+  summary_zh: "Li、Ahmad 通讯等发表的 STUDY PROTOCOL，比较 Acugraph 计算机选穴与手法选穴作为轻度至中度膝骨关节炎物理治疗辅助手段。计划纳入 50 例、12 次疗程。这是方案而不是试验结果，正文没有报告任何实测结局。本站综述 surv-acupoint-cad 已提示勿把该文献当成已完成试验。"
+  tags:
+  - clinical
+  links:
+    DOI: https://doi.org/10.1371/journal.pone.0313761
+    论文: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313761
+  doi: 10.1371/journal.pone.0313761
+  status: published
+  verified_at: '2026-11-12'
+- id: lai2022-voice-constitution
+  name: Lai 等：基于语音与 ResNet 识别气虚质与平和质
+  type: resource
+  year: 2022
+  date: '2022.12.05'
+  venue: Frontiers in Psychology
+  orgs:
+  - 广州中医药大学医学信息工程学院
+  - 北京中医药大学东直门医院教育部和北京市中医内科学重点实验室
+  summary_zh: "Lai、Guan、Men、Shang、Zhang 通讯用 48 名受试者的 720 条语音语谱图和 ResNet34 区分气虚质与平和质。作者自报准确率 81.5%、AUC 0.85；代码声明见 GitHub GYT0704/Voice_Classification。须与本站 voice-constitution-acoustic、constitution-tap 区分。"
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.3389/fpsyg.2022.1043955
+    论文: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1043955/full
+  doi: 10.3389/fpsyg.2022.1043955
+  status: published
+  verified_at: '2026-11-12'
+- id: liu2025-constitution-tongue
+  name: Liu 等：双中心舌象深度学习中医体质识别模型
+  type: resource
+  year: 2025
+  date: '2025.06.11'
+  venue: Chinese Medicine
+  orgs:
+  - 北京中医药大学生命科学学院
+  - 清华大学天津高端装备研究院
+  summary_zh: "Liu、Fan 共同第一、Zhang 通讯在东直门医院与广安门医院前瞻采集 1374 例舌象，融合传统特征与深度特征识别五种体质。摘要与表 5 的准确率印刷不一致，AUC 两处均为 0.948／0.898，须并记。正文未见代码仓库。须与本站 tonguenet、chen2025-tongue-analysis 及其他体质条目区分。"
+  tags:
+  - multimodal
+  links:
+    DOI: https://doi.org/10.1186/s13020-025-01126-w
+    论文: https://cmjournal.biomedcentral.com/articles/10.1186/s13020-025-01126-w
+  doi: 10.1186/s13020-025-01126-w
+  status: published
+  verified_at: '2026-11-12'
+- id: ahn2025-tci-research-priorities
+  name: Ahn 等：世卫组织传统、补充与整合医学全球研究优先领域及与大语言模型的对照
+  type: resource
+  year: 2025
+  date: '2025.11.11'
+  venue: Journal of Global Health
+  orgs:
+  - 韩国韩医学振兴院
+  - 浙江大学医学院附属第二医院公共卫生学院
+  - 浙江大学国际医学院
+  - 爱丁堡大学 Usher Institute
+  - 杭州师范大学信息科学与技术学院
+  - 牛津大学
+  summary_zh: "Ahn、Zhou、Jiang、Kerr、Zhu、Song 与 Rudan 共同资深，用 CHNRI 方法邀请专家为传统、补充与整合医学研究设想打分，并与 ChatGPT-4o、Claude 3.5、Grok 3 的清单对照。53 人回应、34 人打分、157 条设想。这是优先领域共识，不是试验疗效。"
+  tags:
+  - clinical
+  - general-medical
+  links:
+    DOI: https://doi.org/10.7189/jogh.15.04336
+    论文: https://jogh.org/2025/jogh-15-04336
+  doi: 10.7189/jogh.15.04336
+  status: published
+  verified_at: '2026-11-12'
+- id: dherbkb
+  name: DHerbKB：面向慢性肾脏病饮食管理与毒性中药控制的知识库
+  type: resource
+  year: 2025
+  date: '2025.10.12'
+  venue: Journal of Translational Medicine
+  orgs:
+  - 北京中医药大学王琦书院、国家中医体质与治未病研究院
+  - 北京中医药大学中医学院
+  - 南京中医药大学人工智能与信息技术学院
+  - 河海大学计算机与软件学院
+  - 中国中医科学院中药研究所
+  - 北京大学第一医院肾内科
+  - 浙江中医药大学附属宁波市中医院
+  - 香港大学玛丽医院肾脏科
+  summary_zh: "Wang、Yuan 通讯、Chen 通讯等构建 DHerbKB，整合慢性肾脏病饮食原则与毒性中药信息，并提供在线推荐系统。纳入 8,725 种食物营养数据和多类毒性中药条目。128 次非专业用户评估为作者自报的可用性检查。系统地址为 https://dherbkb.hywanglab.org.cn/。许可为 CC BY-NC-ND 4.0。"
+  tags:
+  - kg
+  links:
+    DOI: https://doi.org/10.1186/s12967-025-07178-8
+    论文: https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07178-8
+    系统: https://dherbkb.hywanglab.org.cn/
+  doi: 10.1186/s12967-025-07178-8
+  status: published
+  verified_at: '2026-11-12'
+- id: hist-2010-herb-network
+  name: DMIM 药物网络与共模块分析（李梢等）：揭示中医方剂组合规则
+  type: resource
+  year: 2010
+  date: '2010.12.14'
+  venue: BMC Bioinformatics
+  orgs:
+  - 清华大学自动化系
+  - 教育部生物信息学重点实验室
+  - 清华大学信息科学与技术国家实验室（TNLIST）
+  summary_zh: "李梢通讯、Zhang、Jiang、Wei、Zhang 提出 DMIM，从 3865 首络病相关方剂构建药物网络，并以六味地黄方为例讨论多层网络共模块。体外实验报告蔓荆子黄素 IC50 3.2 μM、知母皂苷 A-III IC50 3.4 μM，为作者自报。不能与同年 drugCIPHER、TCMSP、HERB 或本站 2026 年 DeepTCM 合并。人物页李梢未改。"
+  tags:
+  - history
+  - kg
+  links:
+    DOI: https://doi.org/10.1186/1471-2105-11-S11-S6
+    论文: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-S11-S6
+  doi: 10.1186/1471-2105-11-S11-S6
+  status: published
+  verified_at: '2026-11-12'
+- id: yu2025-ais-heat-syndrome
+  name: CNN 预测急性缺血性卒中中医热证类型（预试验）
+  type: resource
+  year: 2025
+  date: '2025.08.04'
+  venue: Frontiers in Pharmacology
+  orgs:
+  - 首都医科大学宣武医院神经内科
+  - 北京大学未来技术学院
+  - 约翰霍普金斯大学惠廷工程学院
+  summary_zh: "Yu、Zhu 通讯、Song 通讯等在宣武医院 193 例大动脉粥样硬化型急性缺血性卒中队列中，用卷积神经网络整合中医证候特征与实验室指标，预测热证或非热证。缺失删除后保留 123 条。综合特征测试集准确率和 F1 为 0.95，AUC 正文为 0.91、图 3C 为 0.90。作者自定位为预试验。数据不公开，未见代码。许可为 CC BY。"
+  tags:
+  - clinical
+  links:
+    DOI: https://doi.org/10.3389/fphar.2025.1601601
+    论文: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1601601/full
+  doi: 10.3389/fphar.2025.1601601
+  status: published
+  verified_at: '2026-11-12'
+- id: shen2022-tcm-injection-mitotox
+  name: 双路径体外试验评价中药注射剂线粒体毒性
+  type: resource
+  year: 2022
+  date: '2022.11.02'
+  venue: Frontiers in Pharmacology
+  orgs:
+  - 澳门科技大学中药质量研究国家重点实验室
+  - 五邑大学生物科技与健康学院
+  - 中国药科大学生命科学与技术学院
+  summary_zh: "Shen、Feng 通讯、Ma 通讯等用 HepG2 葡萄糖／半乳糖三磷酸腺苷试验和 HCT116 呼吸缺陷细胞增殖试验，筛查 35 种中药注射剂。喜炎平、灯盏花素、双黄连和茵栀黄达到作者设定的线粒体毒性标准，并提示芦丁、黄芩苷、野黄芩苷和连翘苷为候选成分。这是体外筛查，不是临床试验。许可为 CC BY。"
+  tags:
+  - herbal
+  links:
+    DOI: https://doi.org/10.3389/fphar.2022.1039235
+    论文: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.1039235/full
+  doi: 10.3389/fphar.2022.1039235
+  status: published
+  verified_at: '2026-11-12'
+- id: park2026-tkm-omop
+  name: 将韩医院电子病历转换到 OMOP CDM：方法与意义
+  type: resource
+  year: 2026
+  date: '2026.03.16'
+  venue: BMC Medical Informatics and Decision Making
+  orgs:
+  - 韩国韩医学研究院
+  - 韩国韩医药振兴院韩医药大数据中心
+  - 庆熙大学姜东医院
+  - 圆光大学韩医学院
+  summary_zh: "Park、Lee 通讯等把圆光大学光州韩医院电子病历转到 OMOP CDM 5.3，建成含 88,449 名患者的 WKTKM 库，并为韩医药特有概念扩展 KIOM 术语。患者数据不能公开；ETL 代码在 GitHub，映射规则在补充材料。这是方法学概念验证，不是疗效试验。许可为 CC BY 4.0。"
+  tags:
+  - kg
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.1186/s12911-026-03418-z
+    论文: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-026-03418-z
+    代码: https://github.com/ManYoungPark/KCDM_OMOP
+  doi: 10.1186/s12911-026-03418-z
+  status: published
+  verified_at: '2026-11-12'
+- id: ruan2017-chinese-symptom-kb
+  name: 自动构建中文症状知识库
+  type: resource
+  year: 2017
+  date: '2017.09.20'
+  venue: Journal of Biomedical Semantics
+  orgs:
+  - 华东理工大学
+  - 上海曙光医院
+  summary_zh: "Ruan 通讯等从八个医疗网站、三个中文百科站点和上海曙光医院 25 万份电子病历自动构建中文症状知识库，并链接到 UMLS。结果部分报告 135,485 个实体和 26,821 个症状（含 3,968 个中医症状）；结论写成 135,484。电子病历条件随机场只给出精确率。知识库以关联开放数据发布。许可为 CC BY 4.0。"
+  tags:
+  - kg
+  - history
+  links:
+    DOI: https://doi.org/10.1186/s13326-017-0145-x
+    论文: https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0145-x
+  doi: 10.1186/s13326-017-0145-x
+  status: published
+  verified_at: '2026-11-12'
+- id: surv-ma2023-chinmed-ml
+  name: 中医药与天然产物中的机器学习：现状与展望
+  type: survey
+  year: 2023
+  date: '2023.04.20'
+  venue: Chinese Medicine
+  orgs:
+  - 中国中医科学院广安门医院
+  - 天津中医药大学
+  summary_zh: "Ma、Liu、Li 共同第一，Li 与 Wang 通讯。这是发表于 Chinese Medicine 的叙述性综述，回顾中医药与天然产物研究中的机器学习，介绍团队的冠心病证素模型，并提出把机器学习、中医理论和计算生物学结合起来的展望。不是系统评价，表中准确率来自被引文献。未见新代码或新数据。许可为 CC BY 4.0。"
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.1186/s13020-023-00741-9
+    论文: https://cmjournal.biomedcentral.com/articles/10.1186/s13020-023-00741-9
+  doi: 10.1186/s13020-023-00741-9
+  status: published
+  verified_at: '2026-11-12'
+- id: he2022-hepatoprotective-tcm
+  name: 结构–活性与机器学习识别潜在保肝中药
+  type: resource
+  year: 2022
+  date: '2022.08.29'
+  venue: Frontiers in Pharmacology
+  orgs:
+  - 湖州师范学院医学院
+  - 湖州市中心医院
+  - 湖州学院理工学部
+  - 新疆维吾尔自治区中药民族药研究所
+  - 浙江药科职业大学中医学院
+  summary_zh: "He、Xie 通讯、Wang 通讯等用机器学习预测中药成分的保肝活性，并结合功效类别和药性聚类提出 12 味潜在保肝中药。投票模型在 178 个化合物的测试集上准确率为 0.871。12 味中有 9 味已有动物或细胞实验文献支持。这是计算预测和文献核对，不是新的临床试验。许可为 CC BY。"
+  tags:
+  - history
+  links:
+    DOI: https://doi.org/10.3389/fphar.2022.969979
+    论文: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.969979/full
+  doi: 10.3389/fphar.2022.969979
+  status: published
+  verified_at: '2026-11-12'
+- id: shi2021-tongue-pulse-fatigue
+  name: 用舌象和脉象区分疾病性与非疾病性疲劳
+  type: resource
+  year: 2021
+  date: '2022.02.07'
+  venue: Frontiers in Physiology
+  orgs:
+  - 上海中医药大学基础医学院
+  - 上海中医药大学中医健康服务协同创新中心
+  summary_zh: "Shi、Xu 通讯等在上海中医药大学附属曙光医院采集舌象和脉象，用四种分类器区分疾病性疲劳与非疾病性疲劳。摘要中约 85% 的准确率来自舌脉加上年龄和体重指数；仅舌脉联合时逻辑回归准确率约为 67%。数据不能公开，未见代码。许可为 CC BY。"
+  tags:
+  - history
+  links:
+    DOI: https://doi.org/10.3389/fphys.2021.708742
+    论文: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.708742/full
+  doi: 10.3389/fphys.2021.708742
+  status: published
+  verified_at: '2026-11-12'
+- id: chen2022-dili-ai
+  name: 用人工智能筛选中西药联用中的肝毒性化合物
+  type: resource
+  year: 2022
+  date: '2022.05.17'
+  venue: Chinese Medicine
+  orgs:
+  - 北京中医药大学东直门医院
+  - 复旦大学计算机科学技术学院
+  - 中国中医科学院临床基础医学研究所
+  summary_zh: "Chen、Zhao 通讯、Shang 通讯等收集 2035 个化合物，比较九种机器学习和深度信念网络，用于筛选中西药联用中单个化合物的肝毒性。随机森林训练集准确率 0.838，测试集为 0.767；深度信念网络测试集准确率 82.2%。数据需向作者索取，未见代码。许可为 CC BY 4.0。"
+  tags:
+  - history
+  links:
+    DOI: https://doi.org/10.1186/s13020-022-00617-4
+    论文: https://cmjournal.biomedcentral.com/articles/10.1186/s13020-022-00617-4
+  doi: 10.1186/s13020-022-00617-4
+  status: published
+  verified_at: '2026-11-12'
+- id: surv-chu2022-ai-cam-scoping
+  name: 人工智能在补充替代医学中的应用：系统性范围综述
+  type: survey
+  year: 2022
+  date: '2022.04.01'
+  venue: Frontiers in Pharmacology
+  orgs:
+  - 仁川 Daecheong Public Health Subcenter
+  - 庆熙大学研究生院
+  - 圆光大学韩医学院
+  - 韩国韩医药振兴院
+  - 庆熙大学韩医学院预防医学科
+  summary_zh: "Chu、Youn 通讯等按 JBI 和 PRISMA-ScR 梳理人工智能在补充替代医学中的应用，检索三个英文库，终选 32 篇，主要涉及针灸、舌唇诊和草药。这是系统性范围综述，不是元分析。正文、流程图和表 1 的计数不完全一致。未见新代码或新数据。许可为 CC BY。"
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.3389/fphar.2022.826044
+    论文: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.826044/full
+  doi: 10.3389/fphar.2022.826044
+  status: published
+  verified_at: '2026-11-12'
+- id: surv-wang2021-ai-ra
+  name: 人工智能、深度学习与云计算用于中西医诊治类风湿关节炎
+  type: survey
+  year: 2021
+  date: '2021.12.23'
+  venue: Frontiers in Pharmacology
+  orgs:
+  - 成都中医药大学民族医药学院
+  - 成都中医药大学药学院
+  - 成都市第二人民医院
+  - 西南特色中药资源国家重点实验室
+  - 成都中医药大学中医药创新研究院
+  summary_zh: "Wang、Hou 共同第一，Zhang 与 Wang 通讯。这是发表于 Frontiers in Pharmacology 的叙述性综述，讨论人工智能、深度学习和云计算在传统医学与西医诊治类风湿关节炎中的应用设想，并给出概念模型。不是系统评价，也不是已实现的诊疗系统。未见新代码或新数据。许可为 CC BY。"
+  tags:
+  - survey
+  links:
+    DOI: https://doi.org/10.3389/fphar.2021.765435
+    论文: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.765435/full
+  doi: 10.3389/fphar.2021.765435
+  status: published
+  verified_at: '2026-11-12'
+- id: wang2019-meridian-ml
+  name: 用机器学习预测中药归经
+  type: resource
+  year: 2019
+  date: '2019.11.25'
+  venue: PLOS Computational Biology
+  orgs:
+  - 赫尔辛基大学医学院
+  - 华东理工大学药学院
+  - 赫尔辛基大学生命科学研究所
+  summary_zh: "Wang、Tang 通讯等从 TCMID 收集 646 味中药及其成分的分子指纹和 ADME 特征，分别在中药水平和化合物水平预测归经。摘要最高准确率为 0.83；表 2 中化合物水平随机森林的最高平衡准确率为 0.67。代码印在 GitHub。许可为 CC BY。"
+  tags:
+  - history
+  - herbal
+  links:
+    DOI: https://doi.org/10.1371/journal.pcbi.1007249
+    论文: https://doi.org/10.1371/journal.pcbi.1007249
+    代码: https://github.com/herb-medicne/meridian-prediction
+  doi: 10.1371/journal.pcbi.1007249
+  status: published
+  verified_at: '2026-11-12'
+- id: tang2022-crc-tcm-prognosis
+  name: 机器学习预后模型：中药对Ⅰ–Ⅲ期结直肠癌复发转移的影响
+  type: resource
+  year: 2022
+  date: '2022.11.17'
+  venue: Frontiers in Oncology
+  orgs:
+  - 中国中医科学院西苑医院肿瘤科
+  - 百度智能城市事业部
+  summary_zh: "Tang、Gao 共同第一，Yang 通讯。回顾性纳入 558 例根治术后Ⅰ–Ⅲ期结直肠癌患者，比较四种机器学习方法对 3 年和 5 年复发转移的内部验证表现，并加入中药干预和证型。代码印在 Gitee。5 年干预模型的正文与表 3 数字不一致。许可为 CC BY。"
+  tags:
+  - history
+  - clinical
+  links:
+    DOI: https://doi.org/10.3389/fonc.2022.1044344
+    论文: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.1044344/full
+    代码: https://gitee.com/doctortangmo/TCM-CRC-prognostic-model
+  doi: 10.3389/fonc.2022.1044344
+  status: published
+  verified_at: '2026-11-12'
+- id: wang2014-cf-syndrome-cprf
+  name: 共形预测与随机森林用于慢性疲劳中医证素多标签学习
+  type: resource
+  year: 2014
+  date: '2014.06.11'
+  venue: PLOS ONE
+  orgs:
+  - 华侨大学计算机科学与技术学院
+  - 厦门大学信息科学与工程学院
+  - 厦门大学中医系
+  summary_zh: "Wang、Yang 通讯等在 736 例慢性疲劳数据上，用共形预测和随机森林做四个证素的多标签分类，并与共形朴素贝叶斯、共形 k 近邻和 ML-KNN 比较。最高子集准确率为 0.9959，但只做了留一交叉验证。补充材料提供数据。许可为 CC BY。"
+  tags:
+  - history
+  - clinical
+  links:
+    DOI: https://doi.org/10.1371/journal.pone.0099565
+    论文: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099565
+  doi: 10.1371/journal.pone.0099565
+  status: published
+  verified_at: '2026-11-12'
+- id: lee2015-pulse-htn-pilot
+  name: 腕部关脉物理量与高血压关联的预试验
+  type: resource
+  year: 2015
+  date: '2015.07.10'
+  venue: BMC Complementary and Alternative Medicine
+  orgs:
+  - 韩国韩医学研究院基础研究部
+  summary_zh: "Lee、Kim 通讯等在 393 名 46 至 73 岁韩国女性中分析关部脉波物理量与高血压的关联和预测。这是预试验：高血压仅 52 例，类别不均衡，高血压类别灵敏度很低。不能与本站其他脉搏高血压条目合并。许可为 CC BY 4.0。"
+  tags:
+  - history
+  - clinical
+  - multimodal
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.1186/s12906-015-0756-7
+    论文: https://bmccomplementalternmed.biomedcentral.com/articles/10.1186/s12906-015-0756-7
+  doi: 10.1186/s12906-015-0756-7
+  status: published
+  verified_at: '2026-11-12'
+- id: yu2020-pdm-acup-fc-predict
+  name: 静息态功能连接预测原发性痛经针刺疗效
+  type: resource
+  year: 2020
+  date: '2020.09.08'
+  venue: Frontiers in Neuroscience
+  orgs:
+  - 成都中医药大学针灸推拿学院脑研究中心
+  - 成都中医药大学附属医院放射科
+  summary_zh: "Yu、Xie 同等贡献，Liang 与 Yang 通讯。54 例原发性痛经随机真、假针刺，最终分析 35 例。真针刺显著止痛，假针刺不显著。用 8 条基线功能连接做留一回归预测。正文与图 5 对疼痛变化值和变化率的对应不一致。许可为 CC BY。"
+  tags:
+  - history
+  - clinical
+  links:
+    DOI: https://doi.org/10.3389/fnins.2020.559191
+    论文: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.559191/full
+    代码: https://github.com/cdutcmysy/ROIwise_FC_mancova
+  doi: 10.3389/fnins.2020.559191
+  status: published
+  verified_at: '2026-11-12'
+- id: chen2021-herbal-group-hann
+  name: 层次注意力网络检测中药处方中的功效特异药组
+  type: resource
+  year: 2021
+  date: '2021.02.18'
+  venue: BMC Medical Informatics and Decision Making
+  orgs:
+  - 四川大学计算机系
+  - 成都中医药大学基础医学院
+  summary_zh: "Chen、Liu 共同第一。用层次注意力网络蒸馏中药处方，再以 Apriori 挖掘功效特异药组。13 种测试功效上，蒸馏后整体平均准确率约 15.57%–23.83%，高于未蒸馏对照。金标准来自互联网并经一位专家确认。表 1 和表 2 下有无关脚注。许可为 CC BY 4.0。"
+  tags:
+  - history
+  - herbal
+  links:
+    DOI: https://doi.org/10.1186/s12911-021-01411-2
+    论文: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01411-2
+  doi: 10.1186/s12911-021-01411-2
+  status: published
+  verified_at: '2026-11-12'
+- id: chen2007-tcm-semantic-escience
+  name: 面向中医药的语义电子科研
+  type: resource
+  year: 2007
+  date: '2007.05.09'
+  venue: BMC Bioinformatics
+  orgs:
+  - 浙江大学计算机学院
+  - 中国中医科学院
+  summary_zh: "Chen 通讯等报告基于本体、语义视图和网格服务的中医药电子科研系统，工具包括 DartMapping、DartSearch、DartQuery 和 DartFlow。作者自报本体有两万余类、十万实例，系统接入 50 余个数据库和 800 个服务。这是系统描述，没有独立定量评测。许可为 CC BY 2.0。"
+  tags:
+  - history
+  - kg
+  links:
+    DOI: https://doi.org/10.1186/1471-2105-8-S3-S6
+    论文: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-S3-S6
+  doi: 10.1186/1471-2105-8-S3-S6
+  status: published
+  verified_at: '2026-11-12'
+- id: cheung2010-cm-semantic-web
+  name: 语义网用于中医药数据协调（社论）
+  type: resource
+  year: 2010
+  date: '2010.01.12'
+  venue: Chinese Medicine
+  orgs:
+  - 耶鲁大学医学院医学信息学中心
+  - 浙江大学计算机学院
+  summary_zh: "Cheung 通讯、Chen。2010 年发表于 Chinese Medicine 的社论，主张用语义网表示并协调中西医数据。文中引用 DartGrid，并写中国中医科学院本体有 8,000 余类、50,000 余实例，与本站已有 2007 年系统论文自报数字不同。这是短篇社论，没有新数据或评测。许可为 CC BY 2.0。"
+  tags:
+  - history
+  - kg
+  links:
+    DOI: https://doi.org/10.1186/1749-8546-5-2
+    论文: https://cmjournal.biomedcentral.com/articles/10.1186/1749-8546-5-2
+  doi: 10.1186/1749-8546-5-2
+  status: published
+  verified_at: '2026-11-12'
+- id: samwald2010-lod-tcm
+  name: 用关联开放数据整合传统医药与现代药学研究（评论）
+  type: resource
+  year: 2010
+  date: '2010.12.17'
+  venue: Chinese Medicine
+  orgs:
+  - 爱尔兰国立大学戈尔韦分校数字企业研究所
+  - 耶鲁大学医学院医学信息学中心
+  summary_zh: "Samwald 通讯等。2010 年发表于 Chinese Medicine 的评论，用寻找潜在抗抑郁中药植物的用例，讨论关联开放数据。作者手工编码 76 条断言，并与 TCMGeneDIT 的 RDF 版互链。这是评论兼小型原型，不是已完成的药物发现。许可为 CC BY 2.0。"
+  tags:
+  - history
+  - kg
+  links:
+    DOI: https://doi.org/10.1186/1749-8546-5-43
+    论文: https://cmjournal.biomedcentral.com/articles/10.1186/1749-8546-5-43
+  doi: 10.1186/1749-8546-5-43
+  status: published
+  verified_at: '2026-11-12'
+- id: jin2023-tcm-wm-cpg-method
+  name: 中西医有机结合临床实践指南编制方法（立场与指南）
+  type: resource
+  year: 2023
+  date: '2023.09.27'
+  venue: Military Medical Research
+  orgs:
+  - 武汉大学中南医院循证与转化医学中心
+  - 中国中医科学院中医临床基础医学研究所
+  - 北京中医药大学东直门医院
+  summary_zh: "Jin 等，Zeng 与 Shang 通讯。2023 年发表于 Military Medical Research 的立场文章兼指南方法标准，提出中西医“有机结合”临床实践指南的编制程序。对 54 份已发表中西医结合指南的盘点显示，仅 5.6% 按结合思路明确提出临床问题。这不是系统评价，也不是临床试验。许可为 CC BY 4.0。"
+  tags:
+  - clinical
+  links:
+    DOI: https://doi.org/10.1186/s40779-023-00481-9
+    论文: https://mmrjournal.biomedcentral.com/articles/10.1186/s40779-023-00481-9
+  doi: 10.1186/s40779-023-00481-9
+  status: published
+  verified_at: '2026-11-12'
+- id: galkin2026-precious3gpt
+  name: Precious3GPT 用于中药来源抗衰老配方的筛选与设计
+  type: resource
+  year: 2026
+  date: '2026.04'
+  venue: Aging and Disease
+  orgs:
+  - Insilico Medicine AI Limited（阿布扎比）
+  - Insilico Medicine Hong Kong Ltd.（香港科学园）
+  - Insilico Medicine Shanghai Ltd.（上海）
+  summary_zh: "Galkin、Ren、Zhavoronkov 通讯。发表于 Aging and Disease 的计算概念验证，用 Precious3GPT 生成的衰老组学签名与 BATMAN-TCM2 交叉，筛选或设计中药抗衰老配方，并公开多智能体流程与数据集。跨物种分析得到 13 个基因和 34 个多组织化合物，华山五子丹含其中 20 个。本文没有对这些配方做实验或临床验证。印刷本三幅图题注与图面错位。许可按 PDF 为 Creative Commons Attribution License。"
+  tags:
+  - method
+  - herbal
+  links:
+    DOI: https://doi.org/10.14336/AD.2024.1697
+    论文: https://www.aginganddisease.org/EN/10.14336/AD.2024.1697
+    代码: https://github.com/Insilico-org/TCMxPlore
+  doi: 10.14336/AD.2024.1697
+  status: published
+  verified_at: '2026-11-12'
+- id: liu2024-medbench
+  name: MedBench：中文医学大语言模型综合评测基准（相邻工作）
+  type: resource
+  year: 2024
+  date: '2024.12'
+  venue: Big Data Mining and Analytics
+  orgs:
+  - 上海人工智能实验室
+  - 上海交通大学医学院附属瑞金医院
+  - 香港中文大学（深圳）
+  - 四川大学华西医院
+  summary_zh: "Liu 与 Hu 共同第一，Zhang 通讯。2024 年发表于 Big Data Mining and Analytics 的中文医学大模型评测基准与云平台，含 300,901 题、43 个临床专科，并采用题答隔离和循环洗牌。这不是中医或中药专评。正确 DOI 为 10.26599/BDMA.2024.9020044，与清单中曾出现的 9020014 不是同一篇，也不是 LingLanMedBench 或 AAAI 同名基准。许可为 CC BY 4.0。"
+  tags:
+  - evaluation
+  - general-medical
+  - benchmark
+  links:
+    DOI: https://doi.org/10.26599/BDMA.2024.9020044
+    论文: https://www.sciopen.com/article/10.26599/BDMA.2024.9020044
+    评测: https://medbench.opencompass.org.cn
+  doi: 10.26599/BDMA.2024.9020044
+  status: published
+  verified_at: '2026-11-12'
+- id: surv-jing2018-hili
+  name: 中药肝损伤与药物性肝损伤的比较（叙述性综述）
+  type: survey
+  year: 2018
+  venue: Journal of Clinical and Translational Hepatology
+  orgs:
+  - 中国人民解放军医学院
+  - 解放军第302医院整合医学中心
+  - 哈瑙医院内科II消化与肝病科（歌德大学教学医院）
+  summary_zh: "Jing 与 Teschke 通讯。2018 年发表于 Journal of Clinical and Translational Hepatology 的叙述性综述，比较中药／草药性肝损伤与化学药物性肝损伤的流行病学、临床特征和 RUCAM 分级。不是系统评价，主要比较表转述既有队列。摘要与表 4、正文与表 6／图 2 存在文字和数字冲突。许可为 CC BY-NC 4.0。"
+  tags:
+  - survey
+  - herbal
+  - clinical
+  links:
+    DOI: https://doi.org/10.14218/JCTH.2017.00033
+    论文: https://www.xiahepublishing.com/ArticleFullText.aspx?sid=2&jid=1&id=10.14218%2fJCTH.2017.00033
+  doi: 10.14218/JCTH.2017.00033
+  status: published
+  verified_at: '2026-11-12'
+- id: tan2025-depression-kg-qa
+  name: 融合大语言模型与知识图谱的抑郁症中西医结合智能问答系统
+  type: resource
+  year: 2025
+  date: '2025.07'
+  venue: 上海中医药杂志
+  orgs:
+  - 湖南中医药大学信息科学与工程学院
+  - 湖南中医药大学医学院
+  - 湖南省智慧中医工程技术研究中心
+  summary_zh: "谭平、刘惠娜通讯、韦昌法通讯。发表于《上海中医药杂志》2025 年 59 卷第 7 期的方法论文，把《抑郁症中西医结合诊疗指南》做成 303 个实体、436 条关系的 Neo4j 知识图谱，再用模板匹配与 ChatGLM4 生成可溯源回答。20 道问题的 5 位专家总体评分为模板匹配 64.25、单独 ChatGLM4 80.25、融合系统 83.63。32 例门诊展示为定性描述，文中没有开放代码或图谱。官方期刊 PDF 可下载，未见印刷 Creative Commons 许可。"
+  tags:
+  - kg
+  - rag
+  - clinical
+  links:
+    DOI: https://doi.org/10.16305/j.1007-1334.2025.z20240925004
+    论文: https://shzyyzz.shzyyzz.com/zh/article/doi/10.16305/j.1007-1334.2025.z20240925004/
+  doi: 10.16305/j.1007-1334.2025.z20240925004
+  status: published
+  verified_at: '2026-11-12'
+- id: xue2023-tcm-strategy
+  name: 新时代中医药发展现状与思考（战略述评）
+  type: resource
+  year: 2023
+  date: '2023.11'
+  venue: 中国工程科学
+  orgs:
+  - 天津中医药大学文化与健康传播学院
+  - 天津中医药大学管理学院
+  - 天津中医药大学中医药研究院
+  - 中国医学科学院北京协和医学院药用植物研究所
+  - 浙江大学药学院
+  - 中国中医药科技发展中心
+  - 北京中医药大学东直门医院
+  - 北京中医药大学
+  summary_zh: "薛晓娟等，张伯礼通讯。发表于《中国工程科学》2023 年 25 卷第 5 期的战略述评与对策建议，出自工程院咨询项目“新时代中医药发展战略研究”。从理论、临床评价、资源、智能制造和国际推广五个方面梳理现状与问题，并提出六条对策。这不是系统评价，也不是新的算法或临床试验。许可据 Unpaywall 为 CC BY-NC-ND。"
+  tags:
+  - clinical
+  links:
+    DOI: https://doi.org/10.15302/J-SSCAE-2023.05.007
+    论文: https://www.engineering.org.cn/sscae/CN/10.15302/J-SSCAE-2023.05.007
+  doi: 10.15302/J-SSCAE-2023.05.007
+  status: published
+  verified_at: '2026-11-12'
+- id: li2023-transformer-chd
+  name: 改良 Transformer 的冠心病证候要素诊断与处方模型
+  type: resource
+  year: 2023
+  date: '2023.01'
+  venue: 中国实验方剂学杂志
+  orgs:
+  - 中国中医科学院广安门医院
+  - 清华大学信息科学技术学院
+  - 清华大学深圳国际研究生院
+  - 帝国理工学院
+  summary_zh: "李洪峥、王阶通讯等。发表于《中国实验方剂学杂志》2023 年 29 卷第 1 期的方法论文，以证候要素为中介，用多头注意力、复合词向量和随机失活构建改良 Transformer，在 8030 例王阶医案上训练，并对 100 例真实开方做定性比较。摘要未给出这 100 例的数值准确率；正文引用的 93% 和 96.46% 属于前期工作。Song 等综述曾把卷期误印为 9(1)，正式本为 29(1):148–154。官方期刊 PDF 可下载，未见印刷 Creative Commons 许可。"
+  tags:
+  - method
+  - herbal
+  - clinical
+  links:
+    DOI: https://doi.org/10.13422/j.cnki.syfjx.20221347
+    论文: https://www.syfjxzz.com/cn/article/doi/10.13422/j.cnki.syfjx.20221347
+    程序: https://aipresc.xiaobaishiji.com/
+  doi: 10.13422/j.cnki.syfjx.20221347
+  status: published
+  verified_at: '2026-11-12'
+- id: surv-zeng2024-sfdm
+  name: 系统论框架下整合人工智能与中医药整体物质基础研究（框架综述）
+  type: survey
+  year: 2024
+  date: '2024.09'
+  venue: Engineering
+  orgs:
+  - 中国药科大学中药学院
+  - 中国药科大学天然药物活性组分与药效国家重点实验室
+  summary_zh: "曾敬其、贾晓斌通讯。发表于 Engineering 2024 年 40 卷第 9 期的框架性综述，提出用系统功能解码模型（SFDM）把人工智能接到中医药整体物质基础研究，整理自上而下五个维度与自下而上的要素—结构—功能路径，并展望“组分-证候”端到端模型与口服制剂 IVIVC 机理模型。这不是系统评价，两种技术方案在本文中没有实现和定量评测。许可为 CC BY-NC-ND 4.0。中文正式本 25 页。"
+  tags:
+  - survey
+  - herbal
+  links:
+    DOI: https://doi.org/10.1016/j.eng.2024.04.009
+    论文: https://www.engineering.org.cn/engi/CN/10.1016/j.eng.2024.04.009
+  doi: 10.1016/j.eng.2024.04.009
+  status: published
+  verified_at: '2026-11-12'
+- id: chen2023-gpt4-prescription
+  name: 生成式人工智能 GPT-4 驱动的中药处方生成研究
+  type: resource
+  year: 2023
+  date: '2023.12'
+  venue: 中国药房
+  orgs:
+  - 三明市中西医结合医院药学部
+  summary_zh: "陈祺焘、夏丽珍通讯等。发表于《中国药房》2023 年 34 卷第 23 期的短篇方法论文，把药典和《中药学》文本发送给 GPT-4 及联网模型并生成 30 张中药处方，由同院 3 名专家盲评。表 2 平均分为专家共识 3.756、GPT-4 3.622、联网模型 3.501，两两比较均 P＞0.05；图灵测试按 138/270 记为 51.11%。正文中的“训练”不是参数更新或微调。未见代码或处方数据发布，也未见印刷 Creative Commons 许可。"
+  tags:
+  - method
+  - herbal
+  - clinical
+  links:
+    DOI: https://doi.org/10.6039/j.issn.1001-0408.2023.23.02
+    论文: https://journal.china-pharmacy.com/zh/article/doi/10.6039/j.issn.1001-0408.2023.23.02/
+  doi: 10.6039/j.issn.1001-0408.2023.23.02
+  status: published
+  verified_at: '2026-11-12'
+- id: wang2022-syndrome-element-ai
+  name: 利用证候要素架构中医人工智能诊疗模型（观点评论）
+  type: resource
+  year: 2022
+  date: '2022.01'
+  venue: Engineering
+  orgs:
+  - 中国中医科学院广安门医院
+  summary_zh: "王阶、段练、李洪峥、刘金垒、陈恒文。发表于 Engineering 2022 年 8 卷第 1 期的 Views & Comments 短文，主张以证候要素为枢纽，用规则集成、指南症状积分、图卷积知识图谱和小样本数据构建中医人工智能诊疗模型，并以冠心病八大证候要素为例。这不是系统评价，也没有报告训练集例数或测试准确率。许可为 CC BY-NC-ND 4.0。与后续同团队《中国实验方剂学杂志》改良 Transformer 论文不是同一篇。"
+  tags:
+  - history
+  - kg
+  - clinical
+  links:
+    DOI: https://doi.org/10.1016/j.eng.2021.06.014
+    论文: https://www.engineering.org.cn/engi/CN/10.1016/j.eng.2021.06.014
+  doi: 10.1016/j.eng.2021.06.014
+  status: published
+  verified_at: '2026-11-12'
+- id: he2024-gpts-kg-extract
+  name: 基于 GPTs 的中医知识图谱实体和关系抽取研究
+  type: resource
+  year: 2024
+  date: '2024.08'
+  venue: 上海中医药杂志
+  orgs:
+  - 上海中医药大学
+  - 佩珀代因大学
+  summary_zh: "何宇浩、李明通讯等。发表于《上海中医药杂志》2024 年 58 卷第 8 期的方法论文，用 ChatGPT 4.0 的自定义 GPTs 从《中华医方》351 首方剂抽取实体与关系并导入 neo4j，再与基于 bert-Chinese 的 CasRel、GPLinker 比较。GPTs 总计 P、R、F1 为 97.44%、98.09%、97.48%。实验由海外合作者完成，未见开放 GPTs、提示词或标注数据。正式本为 58(8):1–6，DOI 10.16305/j.1007-1334.2024.2401070。官方期刊 PDF 可下载，未见印刷 Creative Commons 许可。"
+  tags:
+  - kg
+  - method
+  - herbal
+  links:
+    DOI: https://doi.org/10.16305/j.1007-1334.2024.2401070
+    论文: https://shzyyzz.shzyyzz.com/zh/article/doi/10.16305/j.1007-1334.2024.2401070/
+  doi: 10.16305/j.1007-1334.2024.2401070
+  status: published
+  verified_at: '2026-11-12'
+- id: surv-tian2023-atm-four-dx
+  name: 中医四诊人工智能研究现状与趋势的科学计量研究
+  type: survey
+  year: 2023
+  date: '2023.02'
+  venue: Annals of Translational Medicine
+  orgs:
+  - 天津中医药大学健康科学与工程学院
+  - 华北理工大学中医学院
+  - 南京中医药大学研究生院
+  - 南京中医药大学附属医院高血压研究所
+  summary_zh: "Tian、Hongwu Wang 通讯等。发表于 Annals of Translational Medicine 2023 年 11 卷第 3 期的科学计量研究，用 Web of Science、VOSviewer 和 CiteSpace 分析中医四诊人工智能文献。正文写 2007–2022 年 136 篇有效研究，不是系统评价，也没有 PRISMA。许可为 CC BY-NC-ND 4.0。正式本 16 页，DOI 10.21037/atm-22-6431。与本站已有 surv-tian2024 不是同一篇。"
+  tags:
+  - survey
+  - multimodal
+  links:
+    DOI: https://doi.org/10.21037/atm-22-6431
+    论文: https://atm.amegroups.org/article/view/109099
+  doi: 10.21037/atm-22-6431
+  status: published
+  verified_at: '2026-11-12'
+- id: huang2020-pulse-highdim
+  name: 基于高维特征的高精度脉诊分类
+  type: resource
+  year: 2020
+  date: '2020.10'
+  venue: Mathematical Biosciences and Engineering
+  orgs:
+  - 台湾大学机械工程学系
+  summary_zh: "Ching-Han Huang、Yu-Min Wang、Shana Smith 通讯。发表于 Mathematical Biosciences and Engineering 2020 年 17 卷第 6 期的方法论文，从 ANSWatch 脉搏信号抽取 71 维特征，用主成分分析和人工神经网络区分 10 种脉型。解释 95% 方差的 27 个主成分平均准确率为 98.2%。正式本按 CC BY 4.0 可下载，未见代码或原始数据。DOI 10.3934/mbe.2020353。"
+  tags:
+  - history
+  - method
+  links:
+    DOI: https://doi.org/10.3934/mbe.2020353
+    论文: https://www.aimspress.com/article/doi/10.3934/mbe.2020353
+  doi: 10.3934/mbe.2020353
+  status: published
+  verified_at: '2026-11-12'
+- id: cha2024-omop-team
+  name: 将 OMOP 通用数据模型应用于传统东亚医学数据集的可行性
+  type: resource
+  year: 2024
+  date: '2024.01'
+  venue: Studies in Health Technology and Informatics
+  orgs:
+  - 韩国韩医学研究院
+  - 韩国韩医药振兴院
+  summary_zh: "Jiyun Cha、Eun Kyoung Ahn、Young-Heum Yoon、Man Young Park。发表于 Studies in Health Technology and Informatics 2024 年、MEDINFO 2023 论文集第 1349–1351 页的 3 页会议短文，从面瘫、痛经和中风的韩医临床指南抽取条目并映射到 OMOP CDM 6.0。52 个去重条目中 42 个为通用临床信息，10 个为 TEAM 特有；表级全部可映射，字段级有 3 个无法落入现有字段。许可为 CC BY-NC 4.0。DOI 10.3233/SHTI231189。与本站已有 park2026-tkm-omop 不是同一篇。"
+  tags:
+  - method
+  - clinical
+  - east-asian-tm
+  links:
+    DOI: https://doi.org/10.3233/SHTI231189
+    论文: https://ebooks.iospress.nl/doi/10.3233/SHTI231189
+  doi: 10.3233/SHTI231189
+  status: published
+  verified_at: '2026-11-12'
+- id: fu2025-bes-anemia-tongue-face
+  name: 贫血女性舌面图像特征分析与风险筛查模型构建
+  type: resource
+  year: 2025
+  date: '2025.08'
+  venue: Biomedical and Environmental Sciences
+  orgs:
+  - 上海中医药大学中医学院
+  - 上海中医药大学教务处
+  - 上海中医药大学中医健康服务协同创新中心
+  - 中国航天员科研训练中心航天员健康实验室
+  summary_zh: "Hongyuan Fu、Yi Chun、Yahan Zhang 同等贡献，Yongzhi Li 与许家佗通讯。发表于 Biomedical and Environmental Sciences 2025 年 38 卷第 8 期的方法论文，在曙光医院纳入 533 名 20–49 岁女性，用面舌图像颜色与纹理特征筛查贫血。LASSO 从 62 个指标中选出 19 个；ANN 测试集 AUC 0.849、准确率 0.781，ResNet50V2 融合模型 AUC 0.846、准确率 0.818。官方期刊 PDF 可下载，未见印刷 Creative Commons 许可，也未见代码或原始图像。DOI 10.3967/bes2025.047。"
+  tags:
+  - multimodal
+  - method
+  - clinical
+  links:
+    DOI: https://doi.org/10.3967/bes2025.047
+    论文: https://www.besjournal.com/en/article/doi/10.3967/bes2025.047
+  doi: 10.3967/bes2025.047
+  status: published
+  verified_at: '2026-11-12'
