@@ -61,6 +61,8 @@
 
 ## 评测与评估论文
 
+- [*Frontiers in Digital Health*] **Zhou 等：面向临床落地的中医大语言模型评价思考（Perspective）** Zhou、Wang、Zhang、Bai、Sun、Liu、Li 在 Frontiers in Digital Health 发表 Perspective，指出执业资格考题虽便于评测中医大模型，但不能单独证明其可支持临床推理或改善患者照护。文章讨论知识表征、专业能力覆盖、评测数据完整性、计分方式与中医实践匹配等四类潜在偏倚，并建议把动态临床情景、开放式生成、多模态评测、纵向复测和临床验证结合起来。这是评价框架评论，不是新的基准数据集或临床试验。本次打开了期刊全文页。 [中国中医科学院中医药信息研究所，北京中医药大学东方医院，国家中医药管理局监测统计中心] [[DOI](https://doi.org/10.3389/fdgth.2026.2009170)] [[论文](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.2009170/full)]
+- [*Frontiers in Medicine*] **LEAF：大模型抽取症状后的多目标进化特征选择与可解释中医呼吸系证候辨证基准（Luo 等）** Luo、Ding、Zhang、Miao、Shi 提出 LEAF 两阶段框架，在公开 TCM-SD 基准的 3,253 条记录、14 种呼吸系证候上，先用大模型抽取 35 项来自公开中医来源的症状本体，再比较 NSGA-II、SPEA2、CMOPSO、NSDE 等四种多目标进化算法做可解释特征选择。文中在三种可替换大模型里将 Qwen2.5-14B-Instruct 排在最前，其后为 Phi-4 和中医领域模型扁仓（BianCang）。这是可解释中间表示与算法比较研究，不是临床疗效试验。本次打开了期刊全文页。 [长春中医药大学，长春中医药大学附属医院肺病科] [[DOI](https://doi.org/10.3389/fmed.2026.1990580)] [[论文](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1990580/full)]
 - [*Future Internet (MDPI)*] **RAG+LoRA 中医执照考试推理架构** RAG+LoRA生成式架构，构建台湾中医师执照考试11,476题（2005–2025）数据集，准确率61.0%→89.0%+（Future Internet） [Chung Shan Medical University Hospital，Chung Shan Medical University] [[DOI](https://doi.org/10.3390/fi18060280)]
 - [*Scientific Data*] **辨证论治大模型基准数据集** Scientific Data发布的辨证论治基准，用来评估大模型在中医个体化、整体性临床任务上的能力 [中国中医科学院，中国科学院，天津大学] [[DOI](https://doi.org/10.1038/s41597-026-07587-4)]
 - [*arXiv*] **证伪导向的可审计辨证协议** 在公开TCMEval-SDT的200例辨证上，用与具体模型无关的证伪协议约束可审计决策，强调输出纪律而不只是换更大的模型 [[论文](https://arxiv.org/abs/2610.18298)]
