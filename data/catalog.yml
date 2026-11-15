@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -4055,6 +4055,23 @@ items:
     DOI: https://doi.org/10.1109/TKDE.2017.2787158
   status: published
   verified_at: '2026-09-13'
+- id: ds-acuiq
+  name: AcuiQ
+  type: dataset
+  year: 2025
+  section: 临床结构化 / 处方
+  summary_zh: 从已发表文献中抽取的针灸选穴索引，按症状检索。每条记录附出处和证据类型（研究、典籍、网页、无来源），并记录原文的施治方式（针刺、电针、艾灸、指压等）和疗程。匿名使用，无需账号，提供 MCP 服务器和 REST API。数据库对十一条规范的偏离率登记表以 CC BY 4.0 公开。站内另售付费指南。
+  tags:
+  - tool
+  - prescription
+  - product
+  links:
+    网站: https://acuiq.com
+    MCP: https://acuiq.com/api/mcp
+    API: https://acuiq.com/openapi.json
+    数据: https://acuiq.com/wiki/research/conformance
+  status: published
+  verified_at: '2026-11-14'
 - id: ds-tcm-qg
   name: TCM-QG
   type: dataset

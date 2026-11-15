@@ -4,7 +4,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 92 news items, 117 models, 90 surveys, 73 patents, 205 datasets, 467 method papers, and 452 TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).
+Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 92 news items, 117 models, 90 surveys, 73 patents, 206 datasets, 467 method papers, and 452 TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).
 
 [Project page](https://tyang816.github.io/projects/tcm/) · [Chinese catalog](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
@@ -3071,7 +3071,7 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 </details>
 
 <details>
-<summary>Clinical structured / prescription sets (12)</summary>
+<summary>Clinical structured / prescription sets (13)</summary>
 
 - **赵汉青门诊处方（2025）** — De-identified 2025 internal-medicine outpatient prescriptions from Zhao Hanqing: 122 patients, 335 prescriptions, and 5,951 herb rows with gram doses. 75 are initial visits and 260 are follow-ups. Routes: 315 oral decoctions, 8 oral dissolved, 8 external washes, and 4 external uses. Dosing is twice daily in 333 prescriptions and three times daily in 2. Herb-name rows containing processing marks, which can overlap: stir-fried 412, honey-fried 341, bran 289, vinegar 164, ginger 154, wine 89, calcined 67, prepared 63, and processed Pinellia (Fa Ban Xia) 99. CC BY 4.0. The repository describes the clinic as Beijing Heniantang Hospital. [[Dataset](https://doi.org/10.5281/zenodo.21947836)] [[Code](https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025)]
 - **胆石症中医证候代谢组** — Serum and urine metabolomics for two TCM syndromes in cholelithiasis: liver qi stagnation and liver-gallbladder damp-heat. [[Paper](https://doi.org/10.1038/s41597-025-06537-w)]
@@ -3081,6 +3081,7 @@ Grouped by use. Official sites that are down are marked “site down”; portals
 - **TCMCPD** — Structured case-derived tables: 4,895 patients, 12,900 visits, 703 herbs, 11,879 visit–syndrome links, and 63,192 visit–herb rows. Dose units are mostly grams (61,386), plus 1,067 qian, 364 pieces, 240 tablets, 69 liang, 64 fen, and 2 millilitres. Rows also link symptoms, ingredients, and targets, with Neo4j files. Full copyrighted case texts are not redistributed. The describing manuscript is a Research Square preprint. [[Dataset](https://doi.org/10.5281/zenodo.20929034)]
 - **TCM4NSCLC** — 3,790 non-small-cell lung cancer case records from one senior TCM physician, including repeat visits, for syndrome differentiation, prescription, and real-world research. [[Paper](https://doi.org/10.1038/s41597-026-07912-x)]
 - **TCM-Andrology-EMR** — The card reports 67,073 visits, 25,103 patients and 26,923 complete examples in patient-grouped JSONL splits. Doses are absent and tongue/pulse fields are sparse. The author states no IRB review or patient consent; this is a resource index entry with unresolved provenance and reuse grounds. [[Dataset](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR)]
+- **AcuiQ** — An index of acupuncture point selections extracted from published literature, searched by symptom. Each entry carries its citation and evidence kind (study, text, web, unsourced) and records how the source delivered the points (needling, electroacupuncture, moxibustion, acupressure) and the course it ran. Anonymous, no account; MCP server and REST API. Its register of how far the database deviates from eleven stated norms is published under CC BY 4.0. The site also sells paid guides. [[Website](https://acuiq.com)] [[MCP](https://acuiq.com/api/mcp)] [[API](https://acuiq.com/openapi.json)] [[Data](https://acuiq.com/wiki/research/conformance)]
 - **六经辨证数据集** — Traditional Chinese medicine dataset for six-meridian syndrome differentiation. [[Dataset](https://github.com/JustinWYJ/TCMdataset)]
 - **TCM-Lung** — Pulmonary-disease cases from FAH-HUCM (14,948 processed; 4,484 encoded public rows of symptom/syndrome/method/prescription IDs). Full names on request. Not the same resource as TCMNSCLC. [[Code](https://github.com/2020MEAI/PresRecST)] [[Paper](https://doi.org/10.1093/jamia/ocae066)]
 - **Famous Old TCM Doctors Cases** — Outpatient cases from Contemporary Famous Old Chinese Medicine Doctors' Typical Cases Collection; the card says each case includes the illness description, syndrome differentiation, and prescriptions. [[Dataset](https://huggingface.co/datasets/TCMLM/real_clinical_cases_of_Famous_Old_TCM_Doctors)]
