@@ -656,6 +656,9 @@ ds-tcm-lung:
 ds-tcm-pd:
   title_en: TCM-PD
   summary_en: Yao et al. TKDE 2018 prescription topic-model set (98,334 raw / 33,765 processed symptom–herb ID pairs). CKCEST copyright, research use only. PresRecST's prescript_1195.csv is a reproduction table.
+ds-acuiq:
+  title_en: AcuiQ
+  summary_en: An index of acupuncture point selections extracted from published literature, searched by symptom. Each entry carries its citation and evidence kind (study, text, web, unsourced) and records how the source delivered the points (needling, electroacupuncture, moxibustion, acupressure) and the course it ran. Anonymous, no account; MCP server and REST API. Its register of how far the database deviates from eleven stated norms is published under CC BY 4.0. The site also sells paid guides.
 ds-tcm-qg:
   title_en: TCM-QG
   summary_en: "Question-generation data from TCM texts: 3,500 documents, with one to four human-written question-answer pairs each. The license is CC BY-NC 2.0."

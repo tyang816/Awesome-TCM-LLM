@@ -70,6 +70,7 @@
 - **TCMCPD** — 从病案整理的结构化库：4895 名患者、12900 次就诊、703 味中药，就诊–证候 11879 条，就诊–药味 63192 条。剂量单位以克为主（61386），另有钱 1067、枚 364、片 240、两 69、分 64、毫升 2。并连接症状、成分和靶点，附 Neo4j 节点和边。作者说明不转发受版权限制的医案原文。描述稿目前是 Research Square 预印本。 [[数据集](https://doi.org/10.5281/zenodo.20929034)]
 - **TCM4NSCLC** — 来自一位资深中医门诊的 3,790 条非小细胞肺癌病例记录，包含重复就诊，用于辨证、处方及真实世界研究。 [[论文](https://doi.org/10.1038/s41597-026-07912-x)]
 - **TCM-Andrology-EMR** — 数据卡报告67,073次就诊、25,103名患者，金标准26,923条，提供按患者切分的JSONL；药味无剂量，舌脉字段稀缺。作者明确未做伦理审查与患者知情同意；仅作资源索引，数据来源与再利用依据需进一步核实。 [[数据集](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR)]
+- **AcuiQ** — 从已发表文献中抽取的针灸选穴索引，按症状检索。每条记录附出处和证据类型（研究、典籍、网页、无来源），并记录原文的施治方式（针刺、电针、艾灸、指压等）和疗程。匿名使用，无需账号，提供 MCP 服务器和 REST API。数据库对十一条规范的偏离率登记表以 CC BY 4.0 公开。站内另售付费指南。 [[网站](https://acuiq.com)] [[MCP](https://acuiq.com/api/mcp)] [[API](https://acuiq.com/openapi.json)] [[数据](https://acuiq.com/wiki/research/conformance)]
 - **六经辨证数据集** — 中医六经辨证数据集。 [[数据集](https://github.com/JustinWYJ/TCMdataset)]
 - **TCM-Lung 肺系病辨证处方编码集** — 河南中医药大学一附院肺系病案处理后 14948 条，仓库公开 4484 条编码（症状/证候/治法/处方 ID）；全名需邮件申请。与 TCMNSCLC 不是同一份数据 [[代码](https://github.com/2020MEAI/PresRecST)] [[论文](https://doi.org/10.1093/jamia/ocae066)]
 - **Famous Old TCM Doctors Cases** — 来源于《当代名老中医典型医案集》的当代名老中医门诊病案，数据卡写明每案含病情描述、辨证论治思路和治疗方药。 [[数据集](https://huggingface.co/datasets/TCMLM/real_clinical_cases_of_Famous_Old_TCM_Doctors)]
