@@ -5,7 +5,7 @@ meta:
   description_en: Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.
   repo_url: https://github.com/tyang816/Awesome-TCM-LLM
   portal_url: https://tyang816.github.io/projects/tcm/
-  updated_at: '2026-11-14'
+  updated_at: '2026-11-19'
   catalog_version: 1
 items:
 - id: news-202609-27
@@ -22602,3 +22602,213 @@ items:
     DOI: https://doi.org/10.5281/zenodo.23553718
   status: published
   verified_at: '2026-11-13'
+- id: news-202610-tcm-qc-center-rules
+  name: 国家中医药管理局印发《中医医疗质量控制中心管理规定》
+  type: news
+  year: 2026
+  date: 2026.10.14
+  summary_zh: "国家中医药管理局印发《中医医疗质量控制中心管理规定》（国中医药医政发〔2026〕10号，成文2026年10月8日，国家中医药管理局官网2026年10月14日公布全文，自印发之日起施行）。规定适用于各级中医质控中心建设与管理，明确国家级中心由国家中医药局设置管理，省级及以下参照执行；并规定质控中心应利用信息化手段开展质控，使用现有数据采集平台收集分析中医质控数据，落实网络和数据安全要求。本次打开了国家中医药管理局官方全文页及政策解读页。这是质控组织管理规定，不是单项产品发布。"
+  tags:
+  - policy
+  links:
+    国家中医药管理局: http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-10-14/38883.html
+    政策解读: http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-10-14/38884.html
+  status: published
+  verified_at: '2026-11-19'
+
+- id: news-202610-tcm-nursing-schemes
+  name: 国家中医药管理局医政司印发通知，推广中风等13个病种中医护理方案（2026年版）和护理人员中医技术使用手册（2026年版）
+  type: news
+  year: 2026
+  date: 2026.10.08
+  summary_zh: "国家中医药管理局医政司发布《关于做好中医护理方案和护理人员中医技术使用手册使用工作的通知》（国家中医药管理局官网标注时间2026年10月8日）。通知称，为提升中医护理能力、优化中医护理服务，国家中医药局委托中华中医药学会组织专家修订形成中风等13个病种中医护理方案（2026年版）和《护理人员中医技术使用手册（2026年版）》，并已在中华中医药学会网站发布，要求各级中医药主管部门组织相关医疗机构结合实际推广应用。本次打开了国家中医药管理局官方通知页。这是护理方案推广通知，不是单项产品发布。"
+  tags:
+  - policy
+  links:
+    国家中医药管理局: http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-10-08/38852.html
+  status: published
+  verified_at: '2026-11-19'
+
+- id: news-202607-guangxi-15th-plan
+  name: 广西壮族自治区人民政府办公厅印发《广西中医药（壮瑶医药）振兴发展“十五五”规划》
+  type: news
+  year: 2026
+  date: 2026.07.31
+  summary_zh: "广西壮族自治区人民政府办公厅印发《广西中医药（壮瑶医药）振兴发展“十五五”规划》（桂政办发〔2026〕50号，成文2026年7月24日，自治区人民政府门户网站2026年7月31日公布，刊于政府公报2026年第15期）。规划提出到2030年中医药传承创新发展机制更加完善，覆盖全民、全生命周期的中医药服务体系更加健全，基本形成服务惠民、产业兴旺、创新活跃、开放包容的中医药发展新格局；并专章部署加速中医药数智化赋能，实施“人工智能＋中医药”行动，建设智慧中医医院，支持基层配备中医智能辅助诊疗系统，建立中医药人工智能高质量数据集，推进人工智能在中医辅助决策、名老中医经验传承、诊疗康复等场景应用，支持自治区人工智能壮瑶医诊疗场景工程研究中心等项目。本次打开了自治区人民政府门户网站官方全文页。这是省级规划部署，不是已经上线的模型发布。"
+  tags:
+  - policy
+  links:
+    广西壮族自治区人民政府: http://www.gxzf.gov.cn/zfwj/zxwj/t27966422.shtml
+  status: published
+  verified_at: '2026-11-19'
+
+- id: news-202604-guangxi-industry-action
+  name: 广西卫生健康委、中医药局、工业和信息化厅印发《广西中医药产业高质量发展三年行动方案（2026—2028年）》
+  type: news
+  year: 2026
+  date: 2026.04.14
+  summary_zh: "广西壮族自治区卫生健康委员会、自治区中医药管理局、自治区工业和信息化厅印发《广西中医药产业高质量发展三年行动方案（2026—2028年）》（桂中医药发〔2026〕10号，成文2026年4月9日，经自治区人民政府同意，自治区卫生健康委官网2026年4月14日公布全文）。方案提出到2028年中医药全产业链总产值突破1100亿元；部署中药材种植养殖、中药制造数智化绿色化改造、质量追溯体系，以及拓展人工智能＋中医药诊疗服务应用场景，支持基层配备中医智能辅助诊疗系统、便携式智能理疗设备和远程会诊终端，并投入支持智慧中医医院建设。这与同日核验入库的《广西中医药（壮瑶医药）振兴发展“十五五”规划》不是同一份文件。本次打开了自治区卫生健康委官方全文页及政策解读页。这是省级产业行动方案，不是已经上线的模型发布。"
+  tags:
+  - policy
+  links:
+    广西卫生健康委: https://wsjkw.gxzf.gov.cn/xxgk_49493/fdzdgk/gkwj/zzqzcwj/t27468144.shtml
+    政策解读: https://wsjkw.gxzf.gov.cn/xxgk_49493/fdzdgk/gkwj/zcjd/t27468260.shtml
+  status: published
+  verified_at: '2026-11-19'
+
+- id: omnitongue
+  name: "OmniTongue: A Comprehensive MLLM Benchmark for Automated Tongue Diagnosis in Traditional Chinese Medicine"
+  type: resource
+  year: 2026
+  date: 2026.11.17
+  venue: arXiv
+  orgs:
+  - Northeastern University
+  summary_zh: "东北大学徐柳怡、郭云、李树生、张学文、钱一宁、卢安阳等提出面向中医舌诊的多模态大模型评测基准 OmniTongue。论文称其整合1351张经专家核验的舌象与21616条指令对，覆盖16个临床维度、分区标注和66个细粒度标签，用于考察多模态大模型对舌象全局与局部病理特征的理解。作者报告现有多模态大模型仍有明显差距，医学专用模型也未显示稳定的领域优势。代码与数据集页面写明将在后续公开发布。本次打开了arXiv摘要页（2611.22652，2026年11月17日提交）。规模与结果均为作者自报。"
+  tags:
+  - multimodal
+  - benchmark
+  links:
+    论文: https://arxiv.org/abs/2611.22652
+    PDF: https://arxiv.org/pdf/2611.22652
+  status: published
+  verified_at: '2026-11-19'
+
+- id: tcm-hplc-llm
+  name: "Development of an HPLC Analytical Method Based on Large Language Models: A Case Study of the Eczema External Wash Formula"
+  type: resource
+  year: 2026
+  date: 2026.11.16
+  venue: arXiv
+  orgs:
+  - Zhejiang University
+  - Tianjin University of Traditional Chinese Medicine
+  - Hangzhou Third People's Hospital
+  - Jinhua Institute of Zhejiang University
+  summary_zh: "浙江大学龚行楚等以湿疹外洗方为例，提出用人机协同、由大语言模型推荐色谱方案并经实验验证与迭代优化的中药复方HPLC方法开发流程。论文称在五种提示策略中，专家角色设定加结构化推理表现最好；最终方法采用SunShell C18柱和0.1%甲酸水–乙腈梯度，在55分钟内分离7个指标成分，并用LC-MS表征20个成分。配方由防风、黄柏、地肤子、白鲜皮、荆芥、苦参、蛇床子七味组成。本次打开了arXiv摘要页与PDF（2611.20994，2026年11月16日提交）。方法细节与结果均为作者自报。"
+  tags:
+  - herbal
+  - tool
+  links:
+    论文: https://arxiv.org/abs/2611.20994
+    PDF: https://arxiv.org/pdf/2611.20994
+  status: published
+  verified_at: '2026-11-19'
+
+- id: acusimnet
+  name: "acuSimNet: Multi-View Self-Occlusion-Awared Visibility Learning for Cranio-Cervical Acupuncture Points"
+  type: resource
+  year: 2026
+  date: 2026.11.15
+  venue: arXiv
+  orgs:
+  - Georgia Institute of Technology
+  - University of Derby
+  summary_zh: "佐治亚理工学院马佳涛与德比大学孙启磊提出面向头颈部穴位多视角、自遮挡可见性预测的多任务网络 acuSimNet。论文称穴位由抽象原则定义而非清晰解剖标志，现有方法多为单视角或依赖相对位置推算，对自身、毛发或衣物遮挡关注不足；该工作在174个头颈部穴位的高维分类设定下训练，作者报告验证集准确率达99.97%，并将达到99%准确率的训练轮次从既有方法的约3000轮降至86轮。标题按原文保留 Awared 拼写。本次打开了arXiv摘要页（2611.20025，2026年11月15日提交）。结果均为作者自报。"
+  tags:
+  - multimodal
+  links:
+    论文: https://arxiv.org/abs/2611.20025
+    PDF: https://arxiv.org/pdf/2611.20025
+  status: published
+  verified_at: '2026-11-19'
+
+- id: retcm
+  name: "ReTCM：融合反思机制与检索增强生成的中医问诊模型（向洋等）"
+  type: resource
+  year: 2026
+  date: 2026.11.01
+  venue: 计算机工程与应用
+  doi: 10.3778/j.issn.1002-8331.2601-0109
+  orgs:
+  - 西南科技大学
+  - 四川省工业自主可控人工智能工程技术研究中心
+  - 中国科学技术大学
+  summary_zh: "西南科技大学向洋、李理、韩东轩、苑中旭在《计算机工程与应用》发表ReTCM。论文提出融合中医知识图谱、对齐理论–证候–治疗过程的三层外部知识库、检索增强生成与证据驱动反思机制，用于中医问诊，以减少幻觉与推理偏差。作者报告其在ROUGE-L、METEOR、FactScore和CMB上优于多种基线，并称在CMB上较HuangDI和GPT-4o分别提高5.8和6.9个百分点。期刊页标注接收2026年1月8日、修回2026年4月2日、在线2026年11月1日、出版2026年10月30日，刊于2026年62卷21期114–125页。本次打开了期刊官方页面。指标为作者自报。"
+  tags:
+  - rag
+  - kg
+  links:
+    论文: http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.2601-0109
+    DOI: https://doi.org/10.3778/j.issn.1002-8331.2601-0109
+  status: published
+  verified_at: '2026-11-19'
+
+- id: surv-deng2026-tcm-cancer-ai
+  name: "Deng et al. 2026: 人工智能解码中药复方抗癌机制的进展、挑战与展望"
+  type: survey
+  year: 2026
+  date: 2026.11.04
+  venue: Frontiers in Pharmacology
+  doi: 10.3389/fphar.2026.1972299
+  orgs:
+  - Ganzhou People's Hospital
+  summary_zh: "赣州市人民医院邓永康、娄宗泽、李国政、黄苗、吴桂华在 Frontiers in Pharmacology 发表叙述性综述，系统整理人工智能用于解码中药复方抗癌机制的近期工作，重点覆盖多味复方及其组合机制，包括机器学习筛选、深度学习活性预测、文献挖掘、网络药理学、分子对接与虚拟筛选，以及多组学整合，并讨论数据不标准、模型可解释性不足、外部验证不够以及中医理论与生物医学计算框架衔接困难等瓶颈。页面标注日期为2026年8月19日与2026年11月4日。本次打开了期刊官方全文页。这是综述，不是新模型发布。"
+  tags:
+  - survey
+  - herbal
+  links:
+    论文: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1972299/full
+    DOI: https://doi.org/10.3389/fphar.2026.1972299
+  status: published
+  verified_at: '2026-11-19'
+
+- id: course-bucm-gynecology
+  name: 北京中医药大学《中医妇科学》中国大学MOOC课程（史云）
+  type: resource
+  year: 2025
+  date: 2026.09.07
+  orgs:
+  - 北京中医药大学
+  summary_zh: "北京中医药大学史云主讲的《中医妇科学》公开课，在中国大学MOOC开出。课程页面介绍其为中医临床医学的重要组成部分和中医学专业临床主干课，适用于中医学、针灸推拿学、中西医结合等专业本科生及中医妇科、中西医结合妇科学研究生，帮助学生巩固经带胎产常见病的基础理论、妇科四诊及外治法等知识。本次打开了课程一手页面。当前学期于2026年9月7日开课，至2027年1月10日结束；平台记录的较早开课可追溯至2025年3月15日。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/BUCM-1472333163
+  status: published
+  verified_at: '2026-11-19'
+
+- id: course-bucm-herb-identification
+  name: 北京中医药大学《中药鉴定学》中国大学MOOC课程（杨瑶珺）
+  type: resource
+  year: 2023
+  date: 2026.08.31
+  orgs:
+  - 北京中医药大学
+  summary_zh: "北京中医药大学杨瑶珺主讲的《中药鉴定学》公开课，在中国大学MOOC开出。页面介绍课程从中药质量问题入手，以中药材及饮片性状鉴别为核心，依据辨状论质，结合显微和理化特征评价真伪优劣；并写明课程依托国家中医药管理局中药鉴定学重点学科，为国家首批一流本科课程，课程团队介绍闫永红教授为学术带头人。本次打开了课程一手页面，页面显示的主讲教师为杨瑶珺。当前学期于2026年8月31日开课，至2027年1月9日结束；平台记录的较早开课可追溯至2023年11月10日。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/BUCM-1462115161
+  status: published
+  verified_at: '2026-11-19'
+
+- id: course-smu-surgery
+  name: 南方医科大学《中医外科学》诠说中国大学MOOC课程（邓燕等）
+  type: resource
+  year: 2020
+  date: 2026.09.07
+  orgs:
+  - 南方医科大学
+  summary_zh: "南方医科大学邓燕、杨柳、赖梅生、潘恩山、陈景良主讲的《中医外科学》诠说公开课，在中国大学MOOC开出。页面介绍课程覆盖皮肤与性传播疾病、乳房病、疮疡、肛门直肠病、男科病、周围血管病、甲状腺病、体表肿瘤及其他外科疾病等，以病例引入并提出问题，再在教学中解答。本次打开了课程一手页面。当前学期于2026年9月7日开课，至2027年1月10日结束；平台记录的较早开课可追溯至2020年12月1日。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/SMU-1461533168
+  status: published
+  verified_at: '2026-11-19'
+
+- id: course-hactcm-schools
+  name: 河南中医药大学《中医各家学说》中国大学MOOC课程（李丽等）
+  type: resource
+  year: 2022
+  date: 2026.08.28
+  orgs:
+  - 河南中医药大学
+  summary_zh: "河南中医药大学李丽、刘文礼、李成文、郭凤鹏、蔡丽娜、赵迪克、孔沈燕主讲的《中医各家学说》公开课，在中国大学MOOC开出。页面介绍课程研究历代名医学术思想、临证经验与特色，兼及中医学术流派与学说，帮助学生了解名医治学门径并评估取舍其学术思想。本次打开了课程一手页面。当前学期于2026年8月28日开课，至2027年1月3日结束；平台记录的较早开课可追溯至2022年2月21日。这是高校正规公开课，不是营销短视频。"
+  tags:
+  - course
+  links:
+    课程: https://www.icourse163.org/course/HACTCM-1465577165
+  status: published
+  verified_at: '2026-11-19'
