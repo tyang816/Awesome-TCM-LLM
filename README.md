@@ -4,7 +4,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。现在大概有 101 条新闻、117 个模型、91 篇综述、73 件专利、206 个数据集、478 篇方法论文，以及 452 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。
+开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。现在大概有 102 条新闻、117 个模型、91 篇综述、73 件专利、206 个数据集、478 篇方法论文，以及 452 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。
 
 [项目页](https://tyang816.github.io/projects/tcm/) · [中文项目页](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [主页](https://tyang816.github.io/zh/)
 
@@ -1923,7 +1923,7 @@
 ## 新闻
 
 <details>
-<summary>101 条，最近有：云南省人民政府办公厅印发《云南省中医药振 · 岐元 · 李强签署国务院令公布《中医药传统知识保护</summary>
+<summary>102 条，最近有：云南省人民政府办公厅印发《云南省中医药振 · 岐元 · 李强签署国务院令公布《中医药传统知识保护</summary>
 
 <details>
 <summary>2026 · 66</summary>
@@ -1998,7 +1998,7 @@
 </details>
 
 <details>
-<summary>2025 · 29</summary>
+<summary>2025 · 30</summary>
 
 - [2025.12.20] 吉林发布**众星·长白岐黄1.0** AI原生多模态中医药大模型 [[链接](https://www.chinanews.com.cn/cj/2025/12-20/10537422.shtml)]
 - [2025.12] **智明堂ZMT-M1**在国家中医执业医师资格考试模拟测试中以96.26分获得该领域最佳成绩，已在全国100余间诊室试点应用 [[链接](https://m.tech.china.com/redian/2025/1229/122025_1789291.html)]
@@ -2026,6 +2026,7 @@
 - [2025.04.11] 凤凰网报道，2025年4月11日华为云生态大会上，九为健康发布基于盘古大模型的九为神农中医大模型智能体，覆盖药物研发、复方优化和辅助诊疗。 [[链接](https://biz.ifeng.com/c/8iTNRXVw44k)]
 - [2025.04] 传神语联发布**任度·素问**中医大模型，基于全自研混合熵(moH)技术架构，支持智能问诊、辨证分析、方剂推荐 [[链接](https://www.transn.com/about_us/consult/article/1924766101036437505)]
 - [2025.03.28] 中国中医科学院广安门医院28日正式发布**广医·岐智**中医大模型，成为国内首家本地化部署”算力+模型+应用”一体化服务的中医医院 [[链接](https://www.xinhuanet.com/tech/20250328/8b1685ad8c6f48c9bdc2add1658edac3/c.html)]
+- [2025.03.20] 国务院办公厅印发《关于提升中药质量促进中医药产业高质量发展的意见》（国办发〔2025〕11号，成文2025年3月15日，中国政府网国务院文件栏目发布日期2025年3月20日）。意见经国务院同意，从中药资源保护利用、中药材产业发展、产业转型升级、药品价值评估和配备使用、科技创新、质量监管、开放发展和综合保障等方面提出措施。产业升级部分提出推进中药工业数字化智能化发展，运用数智技术、绿色技术赋能全产业链，建设数字化车间和智能工厂；临床价值评估部分提出利用循证医学等手段，开发中医药临床疗效评价大模型，促进人用经验向临床证据转化；并支持特色优势医疗机构中药制剂依法调剂使用，鼓励建设基层共享中药房。本次打开了中国政府网官方全文页。这是国务院办公厅产业质量政策，不是单项产品发布。目录此前仅有福建省落实该意见的若干措施，未收本文件本身。 [[中国政府网](https://www.gov.cn/zhengce/zhengceku/202503/content_7014717.htm)]
 - [2025.03.13] 新华网报道，2025年3月13日南京中医药大学黄煌团队与杭州脉景健康发布黄煌经方AI辅助诊疗系统，用大语言模型与知识图谱把“方人相应”做成可计算诊疗流程。 [[链接](http://www.js.xinhuanet.com/20250314/aa816bb98d1041afa0fa7bca45583d1b/c.html)]
 - [2025.03] 云诊科技官网称，公司基于自研舌诊多模态模型TongueLMM和DeepSeek-R1发布云诊华医大模型，用于辨证论治、体质辨识和诊疗报告生成。 [[链接](https://www.ai-tongue.com/pages/news/2025/04/9a6f1920-4819-406e-8d1f-6ba0b838a7f8.html)]
 - [2025.01.08] 2025年1月8日，北京科技大学联合河南中医药大学发布张仲景中医药大模型1.0，功能包括智能辨证、证素推荐、经方应用和方药分析。 [[链接](https://news.ustb.edu.cn/info/1087/67760.htm)]

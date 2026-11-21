@@ -4,7 +4,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 101 news items, 117 models, 91 surveys, 73 patents, 206 datasets, 478 method papers, and 452 TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).
+Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. Right now: 102 news items, 117 models, 91 surveys, 73 patents, 206 datasets, 478 method papers, and 452 TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).
 
 [Project page](https://tyang816.github.io/projects/tcm/) · [Chinese catalog](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [Homepage](https://tyang816.github.io/)
 
@@ -1923,7 +1923,7 @@ The table above is a shortlist. Expand the folds for public checkpoints, paper-o
 ## News
 
 <details>
-<summary>101 items; recent: 云南省人民政府办公厅印发《云南省中医药振 · 岐元 · 李强签署国务院令公布《中医药传统知识保护</summary>
+<summary>102 items; recent: 云南省人民政府办公厅印发《云南省中医药振 · 岐元 · 李强签署国务院令公布《中医药传统知识保护</summary>
 
 <details>
 <summary>2026 · 66</summary>
@@ -1998,7 +1998,7 @@ The table above is a shortlist. Expand the folds for public checkpoints, paper-o
 </details>
 
 <details>
-<summary>2025 · 29</summary>
+<summary>2025 · 30</summary>
 
 - [2025.12.20] Jilin releases **ZhongXing·Changbai Qihuang 1.0**, an AI-native multimodal TCM LLM. [[Link](https://www.chinanews.com.cn/cj/2025/12-20/10537422.shtml)]
 - [2025.12] **ZMT-M1** scores 96.26 on a simulated national TCM practitioner exam and is piloted in 100+ clinics. [[Link](https://m.tech.china.com/redian/2025/1229/122025_1789291.html)]
@@ -2026,6 +2026,7 @@ The table above is a shortlist. Expand the folds for public checkpoints, paper-o
 - [2025.04.11] Ifeng reported that on 11 April 2025, at the Huawei Cloud ecosystem conference, Jiuwei Health released the Jiuwei Shennong TCM agent on the Pangu model for drug R&D, formula optimization, and clinical support. [[Link](https://biz.ifeng.com/c/8iTNRXVw44k)]
 - [2025.04] Transn releases **RenDu·SuWen** TCM LLM (mixture-of-entropy architecture) for inquiry, pattern differentiation, and formula recommendation. [[Link](https://www.transn.com/about_us/consult/article/1924766101036437505)]
 - [2025.03.28] Guang'anmen Hospital releases **GuangYi·QiZhi**, described as the first TCM hospital with integrated local compute + model + application deployment. [[Link](https://www.xinhuanet.com/tech/20250328/8b1685ad8c6f48c9bdc2add1658edac3/c.html)]
+- [2025.03.20] The General Office of the State Council issued the Opinions on Improving the Quality of Traditional Chinese Medicines and Promoting High-Quality Development of the TCM Industry (Guo Ban Fa [2025] No. 11, dated 15 March 2025; posted on gov.cn on 20 March 2025). The opinions cover resource conservation, medicinal-material production, industrial upgrading, clinical-value assessment and supply, science and technology, regulation, and supporting measures. They call for digital and intelligent upgrading of TCM manufacturing and for developing a large model for evaluating clinical effectiveness of TCM, among other measures. This pass opened the official State Council document page on gov.cn. The catalog previously included only Fujian's implementing measures, not this State Council document itself. [[Link](https://www.gov.cn/zhengce/zhengceku/202503/content_7014717.htm)]
 - [2025.03.13] Xinhua reported that on 13 March 2025 Huang Huang's team at Nanjing University of Chinese Medicine and Hangzhou Maijing Health released an AI system that combines an LLM and a knowledge graph to operationalize formula-person matching. [[Link](http://www.js.xinhuanet.com/20250314/aa816bb98d1041afa0fa7bca45583d1b/c.html)]
 - [2025.03] Hefei Yunzhen said it released the Yunzhen Huayi TCM model on its TongueLMM tongue model and DeepSeek-R1 for syndrome differentiation, constitution assessment, and report generation. [[Link](https://www.ai-tongue.com/pages/news/2025/04/9a6f1920-4819-406e-8d1f-6ba0b838a7f8.html)]
 - [2025.01.08] On 8 January 2025, the University of Science and Technology Beijing and Henan University of Chinese Medicine released Zhang Zhongjing TCM Large Model 1.0 for syndrome differentiation, syndrome-element recommendation, classical formulas, and formula analysis. [[Link](https://news.ustb.edu.cn/info/1087/67760.htm)]
