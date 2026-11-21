@@ -30306,6 +30306,182 @@
       },
       "status": "published",
       "verified_at": "2026-11-21"
+    },
+    {
+      "id": "constcm",
+      "name": "ConsTCM: aligning fundus images with constitution differentiation in multimodal language model for Traditional Chinese Medicine",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.04.06",
+      "venue": "Health Information Science and Systems",
+      "doi": "10.1007/s13755-026-00442-1",
+      "orgs": [
+        "Tianjin University",
+        "Tianjin University of Traditional Chinese Medicine",
+        "La Trobe University",
+        "Institute of Science Tokyo"
+      ],
+      "summary_zh": "天津大学纪翔宇、饶国政等提出 ConsTCM，用两阶段监督微调把眼底影像与中医体质辨识对齐到多模态语言模型：先在通用眼底检查数据上做基础微调，再以医院真实自标注病例做面向体质任务的特定微调，并混合已有分类任务与医院数据构建微调集。作者报告相对基线提升 5.6%，消融中相对基础模型在客观评估上提升 47%。期刊页标注在线 2026年4月6日，刊于 Health Information Science and Systems 2026年14卷1期文章号 50，封面日期 2026年12月。本次打开了 Springer 官方文章页。页面版权为版权所有、非开放获取，官方 PDF 链路返回的是 HTML 而非 PDF。指标均为作者自报。",
+      "tags": [
+        "multimodal"
+      ],
+      "links": {
+        "论文": "https://link.springer.com/article/10.1007/s13755-026-00442-1",
+        "DOI": "https://doi.org/10.1007/s13755-026-00442-1"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "ldcomkg",
+      "name": "LDComKG: an LLM-powered dual-enhanced framework for community-aware knowledge graph completion in traditional Chinese medicine",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.02.18",
+      "venue": "Health Information Science and Systems",
+      "doi": "10.1007/s13755-026-00429-y",
+      "orgs": [
+        "Nanjing University of Chinese Medicine",
+        "Nanjing Hospital of Chinese Medicine affiliated to Nanjing University of Chinese Medicine"
+      ],
+      "summary_zh": "南京中医药大学曾星、王紫妍、柴静娴等提出 LDComKG，用大语言模型从中医古籍非结构化文本中自动抽取实体与关系以构建知识图谱，再结合 Leiden 社区发现和 GraphSAGE 节点表示，用于链接预测与图谱补全。作者报告在标注的古代医籍数据集上，GPT-4o-mini 配置下准确率 93.33%、F1 93.69%、AUC 95.87%，GPT-4o 配置下准确率 95.94%、F1 95.07%、AUC 97.72%，并与 KEPLER、CoLAKE 等做了比较。期刊页标注在线 2026年2月18日，刊于 Health Information Science and Systems 2026年14卷1期文章号 41，封面日期 2026年12月。本次打开了 Springer 官方文章页。页面版权为版权所有、非开放获取，官方 PDF 链路返回的是 HTML 而非 PDF。指标均为作者自报。",
+      "tags": [
+        "kg"
+      ],
+      "links": {
+        "论文": "https://link.springer.com/article/10.1007/s13755-026-00429-y",
+        "DOI": "https://doi.org/10.1007/s13755-026-00429-y"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "surv-chan2026-acu-ml",
+      "name": "Chan et al. 2026: Integrating machine learning into acupuncture research: a scoping review",
+      "type": "survey",
+      "year": 2026,
+      "date": "2026.01.14",
+      "venue": "Frontiers in Neurology",
+      "doi": "10.3389/fneur.2025.1689061",
+      "orgs": [
+        "China Medical University",
+        "An Nan Hospital, China Medical University"
+      ],
+      "summary_zh": "中国医药大学针灸研究所与附属安南医院 Chan Wancy、Huang Guan-Jun、Huang Chien-Chen、Chen Yi-Hung 在 Frontiers in Neurology 发表范围综述（期刊页标注文章类型为 Systematic Review），梳理 2011–2024 年 PubMed 中针灸与机器学习交叉文献。作者纳入 36 篇，称 2019 年后明显增加、多数来自中国；17 篇关注疗效预测且以疼痛相关病种为主，其余涉及手法识别、处方推荐、穴位敏化与特异性、使用频次预测、经脉传导以及针刺机器人定位等。疗效预测研究中支持向量机最常用，11 项中有 7 项将磁共振成像作为特征，并以治疗应答分类为标签。作者认为预测表现整体积极，但样本量小、方法异质、数据类型不一和缺乏标准化数据集限制了可泛化性。期刊页标注在线 2025年12月22日、发表 2026年1月14日，刊于第16卷，文章号 1689061。本次打开了 Frontiers 官方全文页并下载了官方 PDF。这是综述，不是新模型发布。",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1689061/full",
+        "PDF": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1689061/pdf",
+        "DOI": "https://doi.org/10.3389/fneur.2025.1689061"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "surv-nie2026-ai-acupuncture",
+      "name": "Nie et al. 2026: Artificial intelligence guided acupuncture decision making and treatment: a review of research",
+      "type": "survey",
+      "year": 2026,
+      "date": "2026.04.27",
+      "venue": "Frontiers in Medicine",
+      "doi": "10.3389/fmed.2026.1752082",
+      "orgs": [
+        "Changchun University of Chinese Medicine"
+      ],
+      "summary_zh": "长春中医药大学针灸推拿学院聂茹、邓凯月、何静、贾佳琳、王鸿烨、袁淑婷、李铁在 Frontiers in Medicine 发表综述，按临床流程回顾人工智能在针灸中的应用，覆盖穴位选择标准化、定位辅助、实时安全监测和个性化疗效预测四方面，并讨论现有工作与后续智能针灸系统发展建议。作者指出已有中医人工智能综述多为宽泛概览，较少直接对照针灸临床工作流。期刊页标注文章类型为 Review，在线 2026年4月13日、发表 2026年4月27日，刊于第13卷。本次打开了 Frontiers 官方全文页并下载了官方 PDF。这是综述，不是新模型发布。",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1752082/full",
+        "PDF": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1752082/pdf",
+        "DOI": "https://doi.org/10.3389/fmed.2026.1752082"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "surv-hou2025-ai-acupuncture",
+      "name": "Hou et al. 2025: Artificial intelligence in acupuncture: bridging traditional knowledge and precision integrative medicine",
+      "type": "survey",
+      "year": 2025,
+      "date": "2025.07.31",
+      "venue": "Frontiers in Medicine",
+      "doi": "10.3389/fmed.2025.1633416",
+      "orgs": [
+        "Liaoning University of Traditional Chinese Medicine"
+      ],
+      "summary_zh": "辽宁中医药大学针灸推拿学院侯国梁、董宝强、于本祥、戴建宇、林星星、程泽忠在 Frontiers in Medicine 发表综述，整理人工智能用于针灸疗效预测及相关技术的进展，覆盖深度学习、元分析建模、自然语言处理、计算机视觉和神经影像分析等，并举卷积神经网络用于舌象分类与证型识别、基于 Transformer 的模型从经典文献中自动抽取临床知识等例子。作者讨论数据有限且异质、标注不一致和临床验证不足，并建议建设联邦多模态数据平台、可解释框架和开放科学实践。期刊页标注文章类型为 Review，在线 2025年7月15日、发表 2025年7月31日，刊于第12卷。本次打开了 Frontiers 官方全文页并下载了官方 PDF。这是综述，不是新模型发布。",
+      "tags": [
+        "survey"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1633416/full",
+        "PDF": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1633416/pdf",
+        "DOI": "https://doi.org/10.3389/fmed.2025.1633416"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "course-njutcm-pediatric-tuina",
+      "name": "南京中医药大学《小儿推拿学》中国大学MOOC课程（吴云川等）",
+      "type": "resource",
+      "year": 2019,
+      "date": "2026.09.09",
+      "orgs": [
+        "南京中医药大学"
+      ],
+      "summary_zh": "南京中医药大学吴云川（教授）主讲的《小儿推拿学》公开课，在中国大学MOOC开出，课程团队还包括王建珠（副教授/主治中医师）、杨小存、王宇航、徐勰（讲师）。课程概述写明以中医学理论和临床知识为基础，讲解小儿推拿常用穴位、常用手法及常见疾病的保健推拿方法；大纲覆盖概述、上肢及头面颈项胸腹腰背下肢穴位、常用手法，以及肺系、脾系、肾系和其他疾病。本次打开了课程一手页面。当前学期于2026年9月9日开课，至2026年12月20日结束；平台记录的较早开课可追溯至2019年12月2日。页面显示选课人数 450。这是高校正规公开课，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.icourse163.org/course/NJUTCM-1207426810"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "course-gzucm-pediatrics",
+      "name": "广州中医药大学《中医儿科学》中国大学MOOC课程（许尤佳等）",
+      "type": "resource",
+      "year": 2019,
+      "date": "2026.08.24",
+      "orgs": [
+        "广州中医药大学"
+      ],
+      "summary_zh": "广州中医药大学许尤佳（教授/主任医师）主讲的《中医儿科学》公开课，在中国大学MOOC开出，课程团队还包括杨京华（主任中医师）和刘卓勋（副主任医师）。课程概述写明以中医学理论体系为指导，研究从胎儿至青少年的生长发育、生理病理及疾病防治，内容分总论（中医儿科学基础与各年龄期儿童保健）和各论（各系统常见病），面向医学类本科学生并兼顾社会学习者。本次打开了课程一手页面。当前学期于2026年8月24日开课，至2026年12月31日结束；平台记录的较早开课可追溯至2019年9月23日。页面显示选课人数 1374。这是高校正规公开课，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.icourse163.org/course/GZZYY-1206620837"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "course-ahtcm-yiguwen",
+      "name": "安徽中医药大学《医古文》智慧树课程（卜菲菲、张雪梅、王硕建）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "安徽中医药大学"
+      ],
+      "summary_zh": "安徽中医药大学卜菲菲、张雪梅、王硕建主讲的《医古文》公开课，在智慧树开出，并由国家高等教育智慧教育平台提供可核验的课程页。页面写明开课平台为智慧树，开课高校为安徽中医药大学，开课教师为上述三人，并显示1万+人选课。当前学期起止在平台数据中为 2026-07-20T16:00:00.000Z 至 2027-01-19T16:00:00.000Z，按东八区为 2026年7月21日至 2027年1月20日；页面还给出 2026/07/21 与 2027/01/20 的日期写法，更新日期为 2026/11/20。本次打开了智慧教育平台一手课程页（HTTPS 200）。智慧树课程首页会跳转到前端壳页，未再解析出可核验的学期或教师字段，故不以该壳页为唯一依据。平台页可见的学期仅此一轮，故将首次开课暂记为 2026年。这是高校正规公开课，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/671ad41616d8a05eedca3bca",
+        "智慧树": "https://coursehome.zhihuishu.com/courseHome/1000050200/455682/26"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
     }
   ]
 }

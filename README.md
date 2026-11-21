@@ -4,7 +4,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/tyang816/Awesome-TCM-LLM?color=yellow)  ![Forks](https://img.shields.io/github/forks/tyang816/Awesome-TCM-LLM?color=blue&label=Fork) [![中文门户](https://img.shields.io/badge/中医资源-门户-blue)](https://tyang816.github.io/zh/projects/tcm/) [![Project](https://img.shields.io/badge/Project-tyang816.github.io-informational)](https://tyang816.github.io/projects/tcm/)
 
-开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。现在大概有 102 条新闻、117 个模型、91 篇综述、73 件专利、206 个数据集、478 篇方法论文，以及 452 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。
+开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。现在大概有 102 条新闻、117 个模型、94 篇综述、73 件专利、206 个数据集、483 篇方法论文，以及 452 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。
 
 [项目页](https://tyang816.github.io/projects/tcm/) · [中文项目页](https://tyang816.github.io/zh/projects/tcm/) · [Wiki](wiki/Home.md) · [主页](https://tyang816.github.io/zh/)
 
@@ -2057,10 +2057,10 @@
 ## 综述
 
 <details>
-<summary>91 篇，按年收着</summary>
+<summary>94 篇，按年收着</summary>
 
 <details>
-<summary>2026 · 44</summary>
+<summary>2026 · 46</summary>
 
 - [*Frontiers in Pharmacology*] **Deng et al. 2026: 人工智能解码中药复方抗癌机制的进展、挑战与展望** 赣州市人民医院邓永康、娄宗泽、李国政、黄苗、吴桂华在 Frontiers in Pharmacology 发表叙述性综述，系统整理人工智能用于解码中药复方抗癌机制的近期工作，重点覆盖多味复方及其组合机制，包括机器学习筛选、深度学习活性预测、文献挖掘、网络药理学、分子对接与虚拟筛选，以及多组学整合，并讨论数据不标准、模型可解释性不足、外部验证不够以及中医理论与生物医学计算框架衔接困难等瓶颈。页面标注日期为2026年8月19日与2026年11月4日。本次打开了期刊官方全文页。这是综述，不是新模型发布。 [Ganzhou People's Hospital] [[论文](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1972299/full)] [[DOI](https://doi.org/10.3389/fphar.2026.1972299)]
 - [*Frontiers in Pharmacology*] **Huang 等：以代谢综合征为案例评估人工智能用于中医经典名方研发的技术成熟度** Huang、Jiang、Hu、Ye、Liu 等以代谢综合征为案例，回顾知识图谱、大语言模型和高通量验证三条技术线在中医经典名方精准研发中的就绪程度。作者引用《中医方剂大辞典》第二版约 99,584 个方名条目，并称 2013–2024 年国家药监局年均批准中药新药不足 10 个（合计 77 个）。文中评估知识图谱约处在技术成熟度等级（TRL）3–6，大语言模型约在 TRL 1–5，并指出三条技术线并不均衡。这是技术就绪度叙事综述，不是新药获批报告或疗效试验。本次打开了期刊全文页。 [中药经典名方现代化国家重点实验室，南昌大学第二附属医院江西省分子医学重点实验室，江西省科技基础条件平台中心江西省计算中心，江西中医药大学附属医院，中山大学深圳校区生物医学工程学院广东省传感技术与生物医学仪器重点实验室] [[DOI](https://doi.org/10.3389/fphar.2026.1970742)] [[论文](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1970742/full)]
@@ -2074,6 +2074,8 @@
 - **Agentic and Knowledge-Grounded LLMs in TCM（预注册）** 2026 年 7 月在 OSF 登记的综述计划，准备从证据图谱、文本挖掘和能不能用到临床上，看中医里的智能体和带知识的大模型。综述还在做。 [[预注册](https://doi.org/10.17605/osf.io/kq8jx)]
 - [*International Journal of Pattern Recognition and Artificial Intelligence*] **中医大模型关键技术综述（IJPRAI）** 系统综述中医大模型知识组织、辅助诊断与临床决策支持关键技术（World Scientific IJPRAI正式发表） [Guangdong Provincial Hospital of Traditional Chinese Medicine，Guangdong University Of Finances and Economics，Guangdong University of Finance] [[DOI](https://doi.org/10.1142/s0218001426590263)]
 - [*Journal of Traditional Chinese Medical Sciences*] **AI驱动中医诊断智能化综述（JTCMS）** 综述多模态融合与大模型在中医四诊智能化中的应用、挑战与展望（JTCMS正式发表） [暨南大学，北京中医药大学] [[DOI](https://doi.org/10.1016/j.jtcms.2026.05.002)]
+- [*Frontiers in Medicine*] **Nie et al. 2026: Artificial intelligence guided acupuncture decision making and treatment: a review of research** 长春中医药大学针灸推拿学院聂茹、邓凯月、何静、贾佳琳、王鸿烨、袁淑婷、李铁在 Frontiers in Medicine 发表综述，按临床流程回顾人工智能在针灸中的应用，覆盖穴位选择标准化、定位辅助、实时安全监测和个性化疗效预测四方面，并讨论现有工作与后续智能针灸系统发展建议。作者指出已有中医人工智能综述多为宽泛概览，较少直接对照针灸临床工作流。期刊页标注文章类型为 Review，在线 2026年4月13日、发表 2026年4月27日，刊于第13卷。本次打开了 Frontiers 官方全文页并下载了官方 PDF。这是综述，不是新模型发布。 [Changchun University of Chinese Medicine] [[论文](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1752082/full)] [[PDF](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1752082/pdf)] [[DOI](https://doi.org/10.3389/fmed.2026.1752082)]
+- [*Frontiers in Neurology*] **Chan et al. 2026: Integrating machine learning into acupuncture research: a scoping review** 中国医药大学针灸研究所与附属安南医院 Chan Wancy、Huang Guan-Jun、Huang Chien-Chen、Chen Yi-Hung 在 Frontiers in Neurology 发表范围综述（期刊页标注文章类型为 Systematic Review），梳理 2011–2024 年 PubMed 中针灸与机器学习交叉文献。作者纳入 36 篇，称 2019 年后明显增加、多数来自中国；17 篇关注疗效预测且以疼痛相关病种为主，其余涉及手法识别、处方推荐、穴位敏化与特异性、使用频次预测、经脉传导以及针刺机器人定位等。疗效预测研究中支持向量机最常用，11 项中有 7 项将磁共振成像作为特征，并以治疗应答分类为标签。作者认为预测表现整体积极，但样本量小、方法异质、数据类型不一和缺乏标准化数据集限制了可泛化性。期刊页标注在线 2025年12月22日、发表 2026年1月14日，刊于第16卷，文章号 1689061。本次打开了 Frontiers 官方全文页并下载了官方 PDF。这是综述，不是新模型发布。 [China Medical University，An Nan Hospital, China Medical University] [[论文](https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1689061/full)] [[PDF](https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1689061/pdf)] [[DOI](https://doi.org/10.3389/fneur.2025.1689061)]
 - [*上海中医药杂志*] **人工智能驱动下的中医智能诊疗研究进展与挑战** 以中医辨治六步程式为骨架的全链路（四诊-辨证-处方-疗效预测）中文综述，对照监督/无监督/强化/深度学习范式（上海中医药杂志 2026;60(1)） [[DOI](https://doi.org/10.16305/j.1007-1334.2026.z20250609004)]
 - [*Chinese Science Bulletin*] **面向临床的中西药联用安全性数智评价** 中西药联用的不良反应隐匿、机制复杂，且个体差异大。文章提出一条从智能预测、风险识别、机制验证到数智决策的评价路径，覆盖用药前预警和用药中识别。 [[DOI](https://doi.org/10.1360/csb-2026-0084)]
 - [*Communications in Computer and Information Science (Springer)*] **多模态大模型驱动舌脉面诊智能化综述（Springer 书章）** 唯一以「多模态LLM×四诊感知」为题的综述性文本，覆盖舌/脉/面诊智能化（Springer CCIS 会议书章，评审强度低于期刊） [Chinese Academy of Social Sciences，Institute of Ethnology and Anthropology，University of Chinese Academy of Social Sciences] [[DOI](https://doi.org/10.1007/978-981-95-7299-1_15)]
@@ -2110,8 +2112,9 @@
 </details>
 
 <details>
-<summary>2025 · 28</summary>
+<summary>2025 · 29</summary>
 
+- [*Frontiers in Medicine*] **Hou et al. 2025: Artificial intelligence in acupuncture: bridging traditional knowledge and precision integrative medicine** 辽宁中医药大学针灸推拿学院侯国梁、董宝强、于本祥、戴建宇、林星星、程泽忠在 Frontiers in Medicine 发表综述，整理人工智能用于针灸疗效预测及相关技术的进展，覆盖深度学习、元分析建模、自然语言处理、计算机视觉和神经影像分析等，并举卷积神经网络用于舌象分类与证型识别、基于 Transformer 的模型从经典文献中自动抽取临床知识等例子。作者讨论数据有限且异质、标注不一致和临床验证不足，并建议建设联邦多模态数据平台、可解释框架和开放科学实践。期刊页标注文章类型为 Review，在线 2025年7月15日、发表 2025年7月31日，刊于第12卷。本次打开了 Frontiers 官方全文页并下载了官方 PDF。这是综述，不是新模型发布。 [Liaoning University of Traditional Chinese Medicine] [[论文](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1633416/full)] [[PDF](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1633416/pdf)] [[DOI](https://doi.org/10.3389/fmed.2025.1633416)]
 - [*协和医学杂志*] **陈子佳 et al. 2025: 大语言模型在中医药领域的应用、挑战与前景** 综述大语言模型与中医四诊合参、辨证诊疗和复方研究的结合，并讨论价值风险、可解释性、技术短板与政策准入等挑战。 [中国中医科学院] [[DOI](https://doi.org/10.12290/xhyxzz.2024-0315)] [[论文](https://xhyxzz.pumch.cn/article/doi/10.12290/xhyxzz.2024-0315)]
 - [*Pharmaceuticals*] **评估药物–草药相互作用的人工智能工具** 综述用人工智能模型评估药物和草药相互作用的工具。 [[DOI](https://doi.org/10.3390/ph18030282)]
 - [*iScience*] **计算机辅助穴位定位系统综述** 系统综述用传统算法和深度学习在不同解剖区域做穴位定位的研究，并讨论效果和限制。 [[DOI](https://doi.org/10.1016/j.isci.2025.113708)]
@@ -2375,15 +2378,16 @@
 </details>
 
 <details>
-<summary>多模态 / 四诊（36）：舌、面、脉</summary>
+<summary>多模态 / 四诊（37）：舌、面、脉</summary>
 
 <details>
-<summary>2026 · 16</summary>
+<summary>2026 · 17</summary>
 
 - [*arXiv*] **Seeing Is Not Enough: Knowledge-Grounded Active Inquiry from Uncertain Visual Evidence** 牛津大学 Yucheng Liu 与中国科学院北京纳米能源与系统研究所 Everett X. Wang（通讯）提出，在中医舌诊中相似舌象可能对应不同证候，而关键症状并不出现在照片里，因此用舌象与脉象预测来引导针对性地问诊，并用获得的回答收窄证候清单后再报告。作者构建 2600 例由真实舌象照片、指定证候、模拟症状回答和生成脉象组成的病例，其中 2599 例进入来源不相交的五折评估。论文称在干净图像上，仅用舌象/脉象预测的细粒度证候准确率为 46.4%；在获取代价为 12 时，不问诊图像/脉象证据的问诊准确率为 34.4%，二者结合达到 65.8%，前三纳入率为 90.8%。本次打开了 arXiv 摘要页与真实 PDF（2610.38774，页面为 v2）。结果均为作者自报。 [University of Oxford，Beijing Institute of Nanoenergy and Nanosystems, Chinese Academy of Sciences] [[论文](https://arxiv.org/abs/2610.38774)] [[PDF](https://arxiv.org/pdf/2610.38774)]
 - [*arXiv*] **acuSimNet: Multi-View Self-Occlusion-Awared Visibility Learning for Cranio-Cervical Acupuncture Points** 佐治亚理工学院马佳涛与德比大学孙启磊提出面向头颈部穴位多视角、自遮挡可见性预测的多任务网络 acuSimNet。论文称穴位由抽象原则定义而非清晰解剖标志，现有方法多为单视角或依赖相对位置推算，对自身、毛发或衣物遮挡关注不足；该工作在174个头颈部穴位的高维分类设定下训练，作者报告验证集准确率达99.97%，并将达到99%准确率的训练轮次从既有方法的约3000轮降至86轮。标题按原文保留 Awared 拼写。本次打开了arXiv摘要页（2611.20025，2026年11月15日提交）。结果均为作者自报。 [Georgia Institute of Technology，University of Derby] [[论文](https://arxiv.org/abs/2611.20025)] [[PDF](https://arxiv.org/pdf/2611.20025)]
 - [*arXiv*] **SEAT: Sign-Type Evidence-Audited Transport for Multi-Label Tongue Diagnosis** 东北大学徐柳怡、王青、梁子凯、卢安阳与钱一宁（通讯，东北大学秦皇岛分校）提出面向多标签舌诊的证据审核框架 SEAT。论文称单张舌象常同时出现多种体征，证据类型包括局部形态、全局色度及标签共现，既有方法多用共享表征和统一多标签头，难以核验预测是否来自临床相关证据。SEAT 在冻结的 DINOv2 图像块特征上，分别用掩膜引导的体征特异注意力处理局部形态，用 LAB/HSV 颜色原型上的半松弛最优传输强化淡白舌识别，并用共现感知传输正则塑造批次级标签边际。作者报告在 TongueDx 基准上，六个随机种子的平均宏平均 F1 为 72.59（标准差 1.04），六模型集成达到 74.15。论文注明已投 IEEE。本次打开了 arXiv 摘要页与真实 PDF（2611.19748），并打开了作者给出的代码仓库页。结果均为作者自报。 [Northeastern University] [[论文](https://arxiv.org/abs/2611.19748)] [[PDF](https://arxiv.org/pdf/2611.19748)] [[代码](https://github.com/NEU-TCM-Lab/Sign-type-Evidence-Audited-Transport)]
 - [*Frontiers in Medicine*] **Cracks-YOLO：结合可切换空洞卷积与 Transformer 的舌裂纹 YOLOv5 检测方法（Ding 等）** Ding、Wu、Shen、Lin、Men 针对舌裂纹形态、尺度和分布多变、既有检测精度与速度不足的问题，在 YOLOv5 骨干中引入可切换空洞卷积以调整感受野，并加入 Transformer 编码器以捕捉长程依赖，用于中医舌裂纹检测。这是目标检测方法论文；本次打开的摘要未在提取范围内给出完整定量结果，故不转写具体准确率。不是临床疗效试验。本次打开了期刊全文页。 [广州中医药大学医药信息工程学院，香港城市大学商学院] [[DOI](https://doi.org/10.3389/fmed.2026.1901533)] [[论文](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1901533/full)]
+- [*Health Information Science and Systems*] **ConsTCM: aligning fundus images with constitution differentiation in multimodal language model for Traditional Chinese Medicine** 天津大学纪翔宇、饶国政等提出 ConsTCM，用两阶段监督微调把眼底影像与中医体质辨识对齐到多模态语言模型：先在通用眼底检查数据上做基础微调，再以医院真实自标注病例做面向体质任务的特定微调，并混合已有分类任务与医院数据构建微调集。作者报告相对基线提升 5.6%，消融中相对基础模型在客观评估上提升 47%。期刊页标注在线 2026年4月6日，刊于 Health Information Science and Systems 2026年14卷1期文章号 50，封面日期 2026年12月。本次打开了 Springer 官方文章页。页面版权为版权所有、非开放获取，官方 PDF 链路返回的是 HTML 而非 PDF。指标均为作者自报。 [Tianjin University，Tianjin University of Traditional Chinese Medicine，La Trobe University，Institute of Science Tokyo] [[论文](https://link.springer.com/article/10.1007/s13755-026-00442-1)] [[DOI](https://doi.org/10.1007/s13755-026-00442-1)]
 - [*BMC Medical Informatics and Decision Making*] **脉波与语音联合筛查冠心病和心衰** 上海中医药大学等把桡动脉脉搏波当作脉诊，把语音当作闻诊，用来筛查冠心病和心力衰竭。同步记了 553 人，包括健康人、冠心病和心衰，另有 194 人做外部验证。 [[DOI](https://doi.org/10.1186/s12911-026-03518-w)]
 - [*Sensors*] **红外热像面部穴位两级定位** 按骨度分寸和中医解剖规则整理多姿态红外面部热像，先检测人脸，再回归穴位位置。 [[DOI](https://doi.org/10.3390/s26144498)]
 - [*Journal of Traditional Chinese Medicine*] **空腹过程的寸关尺脉图定量** 51 名健康人在空腹前（第 0 天）、空腹中（第 4 天）和空腹后（第 7 天）采集左寸、右寸和右关脉图，比较与胃肠虚实有关的脉象参数。 [[DOI](https://doi.org/10.19852/j.cnki.jtcm.2026.02.019)]
@@ -2441,16 +2445,17 @@
 </details>
 
 <details>
-<summary>RAG / 知识图谱（71）：检索和医案、方剂图谱</summary>
+<summary>RAG / 知识图谱（72）：检索和医案、方剂图谱</summary>
 
 <details>
-<summary>2026 · 20</summary>
+<summary>2026 · 21</summary>
 
 - [*JMIR AI*] **儿童流感中成药知识图谱增强问答系统（KG+LLM）** 中国中医科学院中医临床基础医学研究所 Haoyuan Li、Guozhen Zhao 等与北京中医药大学针灸推拿学院合作，提出面向儿童流感中成药推荐的知识图谱增强问答系统，通讯作者为 Nannan Shi。页面作者名单为英文，未擅自音译中文名。该工作已于2026年11月13日正式发表于 JMIR AI 第5卷，DOI 为 10.2196/101648。论文称儿童流感中成药的临床证据分散在指南、专家共识和临床研究中，证候用药所需的多维知识增加了检索与标准化难度。本次打开了 JMIR AI 正式发表页；PMC 页面本轮返回 HTTP 500，故未作为已打开来源。保留原预印本链接。这是已有条目的正式发表更新，不是新条目。 [China Academy of Chinese Medical Sciences，Beijing University of Chinese Medicine] [[论文](https://ai.jmir.org/2026/1/e101648)] [[DOI](https://doi.org/10.2196/101648)] [[预印本](https://doi.org/10.2196/preprints.101648)]
 - [*计算机工程与应用*] **ReTCM：融合反思机制与检索增强生成的中医问诊模型（向洋等）** 西南科技大学向洋、李理、韩东轩、苑中旭在《计算机工程与应用》发表ReTCM。论文提出融合中医知识图谱、对齐理论–证候–治疗过程的三层外部知识库、检索增强生成与证据驱动反思机制，用于中医问诊，以减少幻觉与推理偏差。作者报告其在ROUGE-L、METEOR、FactScore和CMB上优于多种基线，并称在CMB上较HuangDI和GPT-4o分别提高5.8和6.9个百分点。期刊页标注接收2026年1月8日、修回2026年4月2日、在线2026年11月1日、出版2026年10月30日，刊于2026年62卷21期114–125页。本次打开了期刊官方页面。指标为作者自报。 [西南科技大学，四川省工业自主可控人工智能工程技术研究中心，中国科学技术大学] [[论文](http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.2601-0109)] [[DOI](https://doi.org/10.3778/j.issn.1002-8331.2601-0109)]
 - [*BMC Bioinformatics*] **LLM-H2G：融合大模型语义的超图对比学习草药–疾病关联预测（Zhang 等）** Zhang、Yin、Wu、Yao、Yang、Cui、Li、Hu Pengwei、Hu Lun 提出 LLM-H2G，把草药、化合物、蛋白质和疾病放入增强异构超图，用大模型对实体名做语义编码，再以 InfoNCE 目标与结构表示对齐。作者报告在 TCM-suite 与 Ethnobotany 基准上优于多种网络嵌入、图神经网络、图对比学习和超图基线，稀疏连接草药上的差距更大；消融显示语义增强与超图构建都必要。病例分析属于计算归因与文献支持的新关联提示。这是计算方法研究，不是临床试验。本次打开了 Springer / BMC Bioinformatics 论文页。 [中国科学院新疆理化技术研究所，中国科学院大学，新疆师范大学计算机科学技术学院] [[DOI](https://doi.org/10.1186/s12859-026-06652-4)] [[论文](https://link.springer.com/article/10.1186/s12859-026-06652-4)]
 - [*Communications in Computer and Information Science (Springer)*] **Hybrid Retrieval + Re-ranking TCM Prescription Generation** 混合检索+重排序增强LLM的中医处方生成（Springer CCIS会议论文） [齐鲁工业大学，Shandong University，Shandong Academy of Sciences，山东中医药大学] [[论文](https://doi.org/10.1007/978-981-92-3563-6_21)]
 - [*BMC Medical Informatics and Decision Making*] **将韩医院电子病历转换到 OMOP CDM：方法与意义** Park、Lee 通讯等把圆光大学光州韩医院电子病历转到 OMOP CDM 5.3，建成含 88,449 名患者的 WKTKM 库，并为韩医药特有概念扩展 KIOM 术语。患者数据不能公开；ETL 代码在 GitHub，映射规则在补充材料。这是方法学概念验证，不是疗效试验。许可为 CC BY 4.0。 [韩国韩医学研究院，韩国韩医药振兴院韩医药大数据中心，庆熙大学姜东医院，圆光大学韩医学院] [[DOI](https://doi.org/10.1186/s12911-026-03418-z)] [[论文](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-026-03418-z)] [[代码](https://github.com/ManYoungPark/KCDM_OMOP)]
+- [*Health Information Science and Systems*] **LDComKG: an LLM-powered dual-enhanced framework for community-aware knowledge graph completion in traditional Chinese medicine** 南京中医药大学曾星、王紫妍、柴静娴等提出 LDComKG，用大语言模型从中医古籍非结构化文本中自动抽取实体与关系以构建知识图谱，再结合 Leiden 社区发现和 GraphSAGE 节点表示，用于链接预测与图谱补全。作者报告在标注的古代医籍数据集上，GPT-4o-mini 配置下准确率 93.33%、F1 93.69%、AUC 95.87%，GPT-4o 配置下准确率 95.94%、F1 95.07%、AUC 97.72%，并与 KEPLER、CoLAKE 等做了比较。期刊页标注在线 2026年2月18日，刊于 Health Information Science and Systems 2026年14卷1期文章号 41，封面日期 2026年12月。本次打开了 Springer 官方文章页。页面版权为版权所有、非开放获取，官方 PDF 链路返回的是 HTML 而非 PDF。指标均为作者自报。 [Nanjing University of Chinese Medicine，Nanjing Hospital of Chinese Medicine affiliated to Nanjing University of Chinese Medicine] [[论文](https://link.springer.com/article/10.1007/s13755-026-00429-y)] [[DOI](https://doi.org/10.1007/s13755-026-00429-y)]
 - [*Frontiers in Medicine*] **靳三针知识图谱问答 (Jin San Zhen KG-QA)** 靳三针针灸流派知识图谱+大模型问答工具 [广州中医药大学] [[DOI](https://doi.org/10.3389/fmed.2026.1755583)]
 - [*兰州大学学报(医学版)*] **融合知识图谱与大语言模型的中医证据构建方法** 张雪芹、文天才等从数智循证视角提出融合知识图谱与大语言模型的中医多源证据结构化、分级整合与动态更新方法，并在既有证据生态系统平台上作可行性说明。 [中国中医科学院] [[DOI](https://doi.org/10.13885/j.issn.2097-681X.T20260017)] [[论文](https://cjournal.hep.com.cn/1000-2812/CN/10.13885/j.issn.2097-681X.T20260017)]
 - [*IEEE BigComp 2026*] **知识图谱增强的中医问答大模型** 用知识图谱增强大模型的中医问答，补辨证推理并降低多源数据带来的幻觉 [燕山大学，福建中医药大学，暨南大学] [[DOI](https://doi.org/10.1109/bigcomp68355.2026.00029)]
@@ -2756,14 +2761,15 @@
 </details>
 
 <details>
-<summary>其他方法（38）：对齐、提示、专科任务</summary>
+<summary>其他方法（39）：对齐、提示、专科任务</summary>
 
 <details>
-<summary>2026 · 11</summary>
+<summary>2026 · 12</summary>
 
 - [*Scientific Reports*] **Jiang、Liu、Han：用无监督聚类识别兼夹体质中的症状亚组** Jiang、Liu、Han 针对中医兼夹体质组合复杂（文中称 248 种可能组合）的问题，在《中医体质分类与判定》问卷（CCMQ）大规模问卷数据上比较 Likert 原始分与二值化编码，以及 UMAP、t-SNE、PCA 与 K-means、DBSCAN、高斯混合模型等组合。作者认为二值化编码、UMAP 与高斯混合模型的组合相对稳定，并给出十聚类解，各簇呈现偏热、偏寒和混合等可区分症状模式。这是问卷数据上的方法学探索，不是治疗试验。本次打开了 Nature Scientific Reports 论文页。 [北京中医药大学生命科学学院，北京中医药大学管理学院] [[DOI](https://doi.org/10.1038/s41598-026-74121-2)] [[论文](https://www.nature.com/articles/s41598-026-74121-2)]
 - [*Philosophy, Ethics, and Humanities in Medicine*] **Yu、Yap、Amirdabbaghian：世界卫生组织中医标准中脉诊术语的标准化与英译修订** Yu、Yap、Amirdabbaghian 比较世界卫生组织 2007 年西太平洋地区传统医学术语国际标准与 2022 年《WHO 中医药国际标准术语》中共有的 49 个中文脉诊术语的英译，将跨版本变化分为保留、扩展和替换三类，并做描述性计数：17 个术语（34.7%）无词汇改动，8 个（16.3%）通过增加英语变体而扩展，24 个被替换。作者认为这是概念标准化过程，而不只是语言翻译。研究未做推断性统计。这是术语与标准化研究，不是脉诊算法或临床试验。本次打开了 Springer / BMC 论文页。 [马来亚大学语言与语言学学院] [[DOI](https://doi.org/10.1186/s13010-026-00236-z)] [[论文](https://link.springer.com/article/10.1186/s13010-026-00236-z)]
 - **北京中医药大学《温病学》中国大学MOOC课程（谷晓红）** 北京中医药大学谷晓红主讲的《温病学》公开课，在中国大学MOOC开出。本次打开了课程一手页面。当前学期于2026年9月15日开课，至2026年12月31日结束；平台学期列表中目前仅见这一轮，故将首次开课记为2026年。这是高校正规公开课，不是营销短视频。 [北京中医药大学] [[课程](https://www.icourse163.org/course/BUCM-1474575165)]
+- **安徽中医药大学《医古文》智慧树课程（卜菲菲、张雪梅、王硕建）** 安徽中医药大学卜菲菲、张雪梅、王硕建主讲的《医古文》公开课，在智慧树开出，并由国家高等教育智慧教育平台提供可核验的课程页。页面写明开课平台为智慧树，开课高校为安徽中医药大学，开课教师为上述三人，并显示1万+人选课。当前学期起止在平台数据中为 2026-07-20T16:00:00.000Z 至 2027-01-19T16:00:00.000Z，按东八区为 2026年7月21日至 2027年1月20日；页面还给出 2026/07/21 与 2027/01/20 的日期写法，更新日期为 2026/11/20。本次打开了智慧教育平台一手课程页（HTTPS 200）。智慧树课程首页会跳转到前端壳页，未再解析出可核验的学期或教师字段，故不以该壳页为唯一依据。平台页可见的学期仅此一轮，故将首次开课暂记为 2026年。这是高校正规公开课，不是营销短视频。 [安徽中医药大学] [[课程](https://www.chinaooc.com.cn/course/671ad41616d8a05eedca3bca)] [[智慧树](https://coursehome.zhihuishu.com/courseHome/1000050200/455682/26)]
 - [*Translation Review*] **Beyond the Poetic Bard（中医AI翻译评论）** 讨论生成式AI翻译中医文本的精确性、认识论与医学语境局限（Translation Review） [[DOI](https://doi.org/10.1080/07374836.2026.2679929)]
 - [*生物化学与生物物理进展*] **病机推理CoT监督（脾胃病）** 以病机推理思维链监督替代固定标签分类，做脾胃病症候表现识别与多维评估（《生物化学与生物物理进展》） [[论文](https://www.pibb.ac.cn/pibbcn/article/abstract/20260141)]
 - [*Expert Systems with Applications*] **针灸临床决策中的大模型补偿机制** 分析大语言模型在针灸临床决策中的补偿机制 [[DOI](https://doi.org/10.1016/j.eswa.2025.130870)]
@@ -2824,7 +2830,7 @@
 </details>
 
 <details>
-<summary>更早的工作（171）：专家系统、舌脉、本体、早期编码器</summary>
+<summary>更早的工作（173）：专家系统、舌脉、本体、早期编码器</summary>
 
 <details>
 <summary>2020–2022 · 73</summary>
@@ -2906,15 +2912,17 @@
 </details>
 
 <details>
-<summary>2010s · 80</summary>
+<summary>2010s · 82</summary>
 
 - **北京中医药大学《中医内科学选讲》中国大学MOOC课程（赵进喜）** 北京中医药大学赵进喜主讲的《中医内科学选讲》公开课，在中国大学MOOC开出。本次打开了课程一手页面。当前学期自2026年10月22日起开放，平台将结束时间记为远期长期开放；较早开课可追溯至2019年12月31日。这是高校正规公开课，不是营销短视频。 [北京中医药大学] [[课程](https://www.icourse163.org/course/bucm-1206414807)]
 - **北京中医药大学《中医入门》中国大学MOOC课程（王彤）** 北京中医药大学王彤主讲的《中医入门》公开课，在中国大学MOOC开出，从医话、医道、医理、医术四部分引导学习者认识中医理论与应用。本次打开了课程一手页面。当前学期于2026年9月28日开课，至2027年1月20日结束；平台记录的较早开课可追溯至2019年10月。这是高校正规公开课，不是营销短视频。 [北京中医药大学] [[课程](https://www.icourse163.org/course/BUCM-1206405809)]
 - **福建中医药大学《中医运动疗法--易筋经》中国大学MOOC课程（鄢行辉）** 福建中医药大学鄢行辉主讲的《中医运动疗法--易筋经》公开课，在中国大学MOOC开出。本次打开了课程一手页面。当前学期于2026年9月15日开课，至2026年12月15日结束；平台记录的较早开课可追溯至2019年5月16日。这是高校正规公开课，不是营销短视频。 [福建中医药大学] [[课程](https://www.icourse163.org/course/FJZYY-1206075802)]
 - **北京中医药大学《中医基础理论》中国大学MOOC课程（马淑然）** 北京中医药大学马淑然主讲的《中医基础理论》公开课，在中国大学MOOC（爱课程/网易）开出，面向中医药专业学生和中医爱好者，系统讲授阴阳五行、藏象经络、气血津液、病因病机和治则治法。本次打开了课程一手页面。当前学期于2026年9月14日开课，至2027年1月20日结束；平台记录的较早开课可追溯至2019年10月。这是高校正规公开课，不是营销短视频。 [北京中医药大学] [[课程](https://www.icourse163.org/course/BUCM-1206410812)]
+- **南京中医药大学《小儿推拿学》中国大学MOOC课程（吴云川等）** 南京中医药大学吴云川（教授）主讲的《小儿推拿学》公开课，在中国大学MOOC开出，课程团队还包括王建珠（副教授/主治中医师）、杨小存、王宇航、徐勰（讲师）。课程概述写明以中医学理论和临床知识为基础，讲解小儿推拿常用穴位、常用手法及常见疾病的保健推拿方法；大纲覆盖概述、上肢及头面颈项胸腹腰背下肢穴位、常用手法，以及肺系、脾系、肾系和其他疾病。本次打开了课程一手页面。当前学期于2026年9月9日开课，至2026年12月20日结束；平台记录的较早开课可追溯至2019年12月2日。页面显示选课人数 450。这是高校正规公开课，不是营销短视频。 [南京中医药大学] [[课程](https://www.icourse163.org/course/NJUTCM-1207426810)]
 - **福建中医药大学《中医健康理念》中国大学MOOC课程（李灿东）** 福建中医药大学李灿东主讲的《中医健康理念》公开课，在中国大学MOOC开出。课程页面写明其为国家精品在线开放课程认定课程，以《黄帝内经》健康养生理论为指导，讲解健康原则、自我评价、气血阴阳与脏腑状态辨别及虚证调补等，属中医类通识课。本次打开了课程一手页面。当前学期于2026年9月1日开课，至2026年12月31日结束；平台记录的较早开课可追溯至2019年4月29日。这是高校正规公开课，不是营销短视频。 [福建中医药大学] [[课程](https://www.icourse163.org/course/FJZYY-1205912818)]
 - **河南中医药大学《中医诊断学》中国大学MOOC课程（车志英）** 河南中医药大学车志英主讲的《中医诊断学》公开课，在中国大学MOOC开出。本次打开了课程一手页面。当前学期于2026年8月28日开课，至2026年12月31日结束；平台记录的较早开课可追溯至2019年2月28日。这是高校正规公开课，不是营销短视频。 [河南中医药大学] [[课程](https://www.icourse163.org/course/HACTCM-1205691801)]
 - **南京中医药大学《伤寒论》中国大学MOOC课程（凌云）** 南京中医药大学凌云主讲的《伤寒论》公开课，在中国大学MOOC开出。本次打开了课程一手页面。当前学期于2026年8月28日开课，至2027年1月10日结束；平台记录的较早开课可追溯至2019年10月22日。这是高校正规公开课，不是营销短视频。 [南京中医药大学] [[课程](https://www.icourse163.org/course/NJUTCM-1207040811)]
+- **广州中医药大学《中医儿科学》中国大学MOOC课程（许尤佳等）** 广州中医药大学许尤佳（教授/主任医师）主讲的《中医儿科学》公开课，在中国大学MOOC开出，课程团队还包括杨京华（主任中医师）和刘卓勋（副主任医师）。课程概述写明以中医学理论体系为指导，研究从胎儿至青少年的生长发育、生理病理及疾病防治，内容分总论（中医儿科学基础与各年龄期儿童保健）和各论（各系统常见病），面向医学类本科学生并兼顾社会学习者。本次打开了课程一手页面。当前学期于2026年8月24日开课，至2026年12月31日结束；平台记录的较早开课可追溯至2019年9月23日。页面显示选课人数 1374。这是高校正规公开课，不是营销短视频。 [广州中医药大学] [[课程](https://www.icourse163.org/course/GZZYY-1206620837)]
 - **福建中医药大学《内经选读》中国大学MOOC课程（高嘉骏）** 福建中医药大学高嘉骏主讲的《内经选读》公开课，在中国大学MOOC开出。本次打开了课程一手页面。当前学期于2026年8月6日开课，至2026年12月31日结束；平台记录的较早开课可追溯至2019年9月9日。这是高校正规公开课，不是营销短视频。 [福建中医药大学] [[课程](https://www.icourse163.org/course/FJZYY-1206624802)]
 - **暨南大学《中医基础理论》中国大学MOOC课程（陈利国）** 暨南大学陈利国主讲的《中医基础理论》公开课，在中国大学MOOC开出。课程面向中医专业学生和中医爱好者，讲解中医理论体系的产生发展、整体观念与辨证论治、阴阳五行，以及对人体、疾病和养生防治的认识。本次打开了课程一手页面。当前学期于2026年8月3日开课，至2026年12月27日结束；平台记录的较早开课可追溯至2019年9月26日。这是高校正规公开课，不是营销短视频。 [暨南大学] [[课程](https://www.icourse163.org/course/JNU-1206450825)]
 - [*PLOS Computational Biology*] **用机器学习预测中药归经** Wang、Tang 通讯等从 TCMID 收集 646 味中药及其成分的分子指纹和 ADME 特征，分别在中药水平和化合物水平预测归经。摘要最高准确率为 0.83；表 2 中化合物水平随机森林的最高平衡准确率为 0.67。代码印在 GitHub。许可为 CC BY。 [赫尔辛基大学医学院，华东理工大学药学院，赫尔辛基大学生命科学研究所] [[DOI](https://doi.org/10.1371/journal.pcbi.1007249)] [[论文](https://doi.org/10.1371/journal.pcbi.1007249)] [[代码](https://github.com/herb-medicne/meridian-prediction)]
