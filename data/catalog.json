@@ -6,10 +6,10 @@
     "description_en": "Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.",
     "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
     "portal_url": "https://tyang816.github.io/projects/tcm/",
-    "updated_at": "2026-11-19",
+    "updated_at": "2026-11-21",
     "catalog_version": 1
   },
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-21",
   "items": [
     {
       "id": "news-202609-27",
@@ -6840,20 +6840,28 @@
     },
     {
       "id": "cpm-pediatric-influenza",
-      "name": "儿童流感中成药推荐系统（KG+LLM）",
+      "name": "儿童流感中成药知识图谱增强问答系统（KG+LLM）",
+      "type": "resource",
       "year": 2026,
-      "date": "2026.05",
-      "summary_zh": "整合权威指南构建儿童流感中成药知识图谱并与LLM集成（JMIR Preprints预印本）",
+      "date": "2026.11.13",
+      "venue": "JMIR AI",
+      "doi": "10.2196/101648",
+      "orgs": [
+        "China Academy of Chinese Medical Sciences",
+        "Beijing University of Chinese Medicine"
+      ],
+      "summary_zh": "中国中医科学院中医临床基础医学研究所 Haoyuan Li、Guozhen Zhao 等与北京中医药大学针灸推拿学院合作，提出面向儿童流感中成药推荐的知识图谱增强问答系统，通讯作者为 Nannan Shi。页面作者名单为英文，未擅自音译中文名。该工作已于2026年11月13日正式发表于 JMIR AI 第5卷，DOI 为 10.2196/101648。论文称儿童流感中成药的临床证据分散在指南、专家共识和临床研究中，证候用药所需的多维知识增加了检索与标准化难度。本次打开了 JMIR AI 正式发表页；PMC 页面本轮返回 HTTP 500，故未作为已打开来源。保留原预印本链接。这是已有条目的正式发表更新，不是新条目。",
       "tags": [
         "kg",
         "recommendation"
       ],
       "links": {
+        "论文": "https://ai.jmir.org/2026/1/e101648",
+        "DOI": "https://doi.org/10.2196/101648",
         "预印本": "https://doi.org/10.2196/preprints.101648"
       },
-      "type": "resource",
       "status": "published",
-      "verified_at": "2026-08-03"
+      "verified_at": "2026-11-21"
     },
     {
       "id": "survey-ai-tcm-diagnosis-jtcms",
@@ -30131,6 +30139,157 @@
       },
       "status": "published",
       "verified_at": "2026-11-19"
+    },
+    {
+      "id": "news-202610-grassroots-demo-standards",
+      "name": "国家中医药管理局综合司印发《2026—2028年周期全国基层中医药工作示范市（县）建设标准》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.10.28",
+      "summary_zh": "国家中医药管理局综合司印发《2026—2028年周期全国基层中医药工作示范市（县）建设标准》（国中医药综医政函〔2026〕225号，成文2026年10月10日，国家中医药管理局官网页面标注时间为2026年10月28日）。通知依据《全国基层中医药工作示范市（县）管理办法》（国中医药医政发〔2026〕5号），规范开展本周期示范市（县）创建工作，并废止2022年印发的示范市、示范县建设标准（国中医药医政发〔2022〕1号）。本次检索打开了湖南省人民政府门户网站转载的国家中医药管理局网站全文（该站标注发文日期2026-10-10、发布时间2026-11-03、信息来源为国家中医药管理局网站），并核到官网原链为http://www.natcm.gov.cn/yizhengsi/gongzuodongtai/2026-10-28/39041.html；本轮直接访问该官网地址返回超时或HTTP 500。这是示范创建标准，不是单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "国家中医药管理局": "http://www.natcm.gov.cn/yizhengsi/gongzuodongtai/2026-10-28/39041.html",
+        "湖南省人民政府转载": "http://www.hunan.gov.cn/zqt/zcsd/202611/t20261103_34093522.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "news-202604-grassroots-demo-measures",
+      "name": "国家中医药管理局印发《全国基层中医药工作示范市（县）管理办法》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.04.21",
+      "summary_zh": "国家中医药管理局印发《全国基层中医药工作示范市（县）管理办法》（国中医药医政发〔2026〕5号）。办法规定示范市（县）创建每3年为一个周期，由国家中医药管理局负责总体规划与组织管理；申报经市县级自评、省级审核推荐、国家局复核后确定为创建单位，创建周期结束前6个月开展省级和国家评估验收，合格后命名。中国中医药报官网全文页标注来源为国家中医药管理局、日期为2026年4月22日；官网原链为http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-04-21/37964.html。本次打开了中国中医药报全文页；本轮直接访问国家中医药管理局原页返回超时或HTTP 500。这是示范创建管理办法，不是单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "国家中医药管理局": "http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-04-21/37964.html",
+        "中国中医药报": "https://www.cntcm.com.cn/m/content/202604/22/c502106.html",
+        "政策解读": "http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-04-21/37965.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "news-202610-grassroots-demo-units",
+      "name": "国家中医药管理局综合司公布2026—2028年周期全国基层中医药工作示范市（县）创建单位名单",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.10.28",
+      "summary_zh": "国家中医药管理局综合司公布2026—2028年周期全国基层中医药工作示范市（县）创建单位名单（国中医药综医政函〔2026〕238号，成文2026年10月23日）。通知要求各创建单位对照本周期建设标准推进创建任务，省级中医药主管部门加强管理指导与日常监测，国家中医药管理局将在周期结束前组织评估验收，合格的正式命名。本次打开了湖南省人民政府门户网站转载的国家中医药管理局网站全文（该站标注发文日期2026-10-23、发布时间2026-11-03、信息来源为国家中医药管理局网站）；官网原链为http://www.natcm.gov.cn/yizhengsi/gongzuodongtai/2026-10-28/39040.html，本轮直接访问该官网地址返回超时或HTTP 500。这是创建单位名单公布，不是单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "国家中医药管理局": "http://www.natcm.gov.cn/yizhengsi/gongzuodongtai/2026-10-28/39040.html",
+        "湖南省人民政府转载": "http://www.hunan.gov.cn/zqt/zcsd/202611/t20261103_34093548.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "news-202603-tertiary-hospital-review-standards",
+      "name": "国家中医药管理局印发《三级中医医院评审标准（2026年版）》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.03.27",
+      "summary_zh": "国家中医药管理局印发《三级中医医院评审标准（2026年版）》（国中医药医政函〔2026〕39号，成文2026年3月13日）。通知提出，为落实“强基、稳二、控三”工作部署和分级诊疗制度要求，优化完善中医医院评审制度，该标准自通知印发之日起实施，2017年版三级中医医院、三级中西医结合医院、三级民族医医院评审标准及其实施细则等评审规定同时废止。本次打开了中国政府网国务院部门文件页（来源标注为国家中医药局网站）及可公开下载的官方PDF（政府网文件最后修改时间为2026年3月28日）。官网原链为http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-03-27/37885.html。这是医院评审标准，不是单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "中国政府网": "https://www.gov.cn/zhengce/zhengceku/202603/content_7064072.htm",
+        "官方PDF": "https://www.gov.cn/zhengce/zhengceku/202603/P020260328646933871054.pdf",
+        "国家中医药管理局": "http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-03-27/37885.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "news-202603-township-tcm-service-norms",
+      "name": "国家中医药局、国家卫生健康委、国家疾控局印发《乡镇卫生院 社区卫生服务中心中医药服务管理基本规范》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.03.23",
+      "summary_zh": "国家中医药局、国家卫生健康委、国家疾控局印发《乡镇卫生院 社区卫生服务中心中医药服务管理基本规范》（国中医药医政发〔2026〕2号，成文2026年3月11日），对2003年版乡镇卫生院、社区卫生服务中心两项基本规范进行合并修订。规范共六章，适用于依法设立的乡镇卫生院、社区卫生服务中心，明确中医科和中药房建设、人员配备、服务内容及业务指导等要求。本次打开了中国政府网国务院部门文件页全文（来源标注为国家中医药局网站），并核到新华社经中国政府网转发的报道（2026年3月24日）。官网原链为http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-03-23/37872.html。这是基层中医药服务管理规范，不是单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "中国政府网": "https://www.gov.cn/zhengce/zhengceku/202603/content_7063623.htm",
+        "国家中医药管理局": "http://www.natcm.gov.cn/yizhengsi/zhengcewenjian/2026-03-23/37872.html",
+        "新华社报道": "https://www.gov.cn/lianbo/202603/content_7063620.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "seat",
+      "name": "SEAT: Sign-Type Evidence-Audited Transport for Multi-Label Tongue Diagnosis",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.15",
+      "venue": "arXiv",
+      "orgs": [
+        "Northeastern University"
+      ],
+      "summary_zh": "东北大学徐柳怡、王青、梁子凯、卢安阳与钱一宁（通讯，东北大学秦皇岛分校）提出面向多标签舌诊的证据审核框架 SEAT。论文称单张舌象常同时出现多种体征，证据类型包括局部形态、全局色度及标签共现，既有方法多用共享表征和统一多标签头，难以核验预测是否来自临床相关证据。SEAT 在冻结的 DINOv2 图像块特征上，分别用掩膜引导的体征特异注意力处理局部形态，用 LAB/HSV 颜色原型上的半松弛最优传输强化淡白舌识别，并用共现感知传输正则塑造批次级标签边际。作者报告在 TongueDx 基准上，六个随机种子的平均宏平均 F1 为 72.59（标准差 1.04），六模型集成达到 74.15。论文注明已投 IEEE。本次打开了 arXiv 摘要页与真实 PDF（2611.19748），并打开了作者给出的代码仓库页。结果均为作者自报。",
+      "tags": [
+        "multimodal"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2611.19748",
+        "PDF": "https://arxiv.org/pdf/2611.19748",
+        "代码": "https://github.com/NEU-TCM-Lab/Sign-type-Evidence-Audited-Transport"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "seeing-is-not-enough",
+      "name": "Seeing Is Not Enough: Knowledge-Grounded Active Inquiry from Uncertain Visual Evidence",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.17",
+      "venue": "arXiv",
+      "orgs": [
+        "University of Oxford",
+        "Beijing Institute of Nanoenergy and Nanosystems, Chinese Academy of Sciences"
+      ],
+      "summary_zh": "牛津大学 Yucheng Liu 与中国科学院北京纳米能源与系统研究所 Everett X. Wang（通讯）提出，在中医舌诊中相似舌象可能对应不同证候，而关键症状并不出现在照片里，因此用舌象与脉象预测来引导针对性地问诊，并用获得的回答收窄证候清单后再报告。作者构建 2600 例由真实舌象照片、指定证候、模拟症状回答和生成脉象组成的病例，其中 2599 例进入来源不相交的五折评估。论文称在干净图像上，仅用舌象/脉象预测的细粒度证候准确率为 46.4%；在获取代价为 12 时，不问诊图像/脉象证据的问诊准确率为 34.4%，二者结合达到 65.8%，前三纳入率为 90.8%。本次打开了 arXiv 摘要页与真实 PDF（2610.38774，页面为 v2）。结果均为作者自报。",
+      "tags": [
+        "multimodal"
+      ],
+      "links": {
+        "论文": "https://arxiv.org/abs/2610.38774",
+        "PDF": "https://arxiv.org/pdf/2610.38774"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
+    },
+    {
+      "id": "course-bucm-orthopedics",
+      "name": "北京中医药大学《中医骨伤科学》中国大学MOOC课程（徐林）",
+      "type": "resource",
+      "year": 2021,
+      "date": "2026.01.27",
+      "orgs": [
+        "北京中医药大学"
+      ],
+      "summary_zh": "北京中医药大学徐林（二级教授）主讲的《中医骨伤科学》公开课，在中国大学MOOC（爱课程/网易）开出。课程页面写明北京中医药大学中医骨伤科学专业创建于2021年，课程概述强调中医骨伤学科相关学习与实践，培养中医骨伤临床实用复合型人才；大纲包括中医骨伤科发展简史、骨伤病的分类和病因病机、临床诊查、治疗方法、创伤急救、骨折、脱位、筋伤和骨病。本次打开了课程一手页面，页面学期数据为2026年1月27日至2026年12月31日（Asia/Shanghai）。未下载视频。这是高校正规公开课，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.icourse163.org/course/BUCM-1472329163"
+      },
+      "status": "published",
+      "verified_at": "2026-11-21"
     }
   ]
 }
