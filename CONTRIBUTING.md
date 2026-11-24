@@ -17,7 +17,7 @@ python3 scripts/build_readme.py
 
 - 中文 [`README.md`](README.md) 与英文 [`README_EN.md`](README_EN.md)（默认只展开开源模型表，其余栏目折叠）
 - [`data/catalog.json`](data/catalog.json)（项目页用）
-- Wiki 生成页 [`wiki/Models.md`](wiki/Models.md)、[`wiki/Datasets.md`](wiki/Datasets.md)、[`wiki/Benchmarks.md`](wiki/Benchmarks.md)
+- Wiki 生成页 [`wiki/Models.md`](wiki/Models.md)、[`wiki/Datasets.md`](wiki/Datasets.md)、[`wiki/Benchmarks.md`](wiki/Benchmarks.md)、[`wiki/People.md`](wiki/People.md)（导师完整名单在此，README 导师栏只保留概述和人数）
 
 英文摘要维护在 [`data/i18n_en.yml`](data/i18n_en.yml)（按条目 `id`），新增资源时请一并补上。**不要手改 README**，下次生成会被覆盖。
 
@@ -33,7 +33,7 @@ Wiki 手写页（导航、选型、分类法）在 [`wiki/`](wiki/)；如何发�
 |------|------|
 | `id` | 稳定唯一 ID（kebab-case） |
 | `name` | 显示名 |
-| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf` / `patent` / `person`。`resource` 若 `tags` 含 `course` 则进入 **学习资料**；仅当 `tags` 含 `model` 且不含 `plm` 时进入 **开源模型**（有核验权重进表，否则进折叠栏）。方法论文、NER/BERT、平台不要标 `model`，按 `agent` / `multimodal` / `rag`/`kg` / `prescription` / `extract` / `benchmark` / `tool` 分到「论文」。公开课不要写成论文。`patent` 进入 **专利**。`person` 进入 **导师**，`section` 只能是 `高校`、`产业`、`医院` |
+| `type` | `news` / `resource` / `survey` / `dataset` / `model_hf` / `patent` / `person`。`resource` 若 `tags` 含 `course` 则进入 **学习资料**；仅当 `tags` 含 `model` 且不含 `plm` 时进入 **开源模型**（有核验权重进表，否则进折叠栏）。方法论文、NER/BERT、平台不要标 `model`，按 `agent` / `multimodal` / `rag`/`kg` / `prescription` / `extract` / `benchmark` / `tool` 分到「论文」。公开课不要写成论文。`patent` 进入 **专利**。`person` 进入 Wiki [导师](wiki/People.md)（README 导师栏只保留概述和人数），`section` 只能是 `高校`、`产业`、`医院` |
 | `section` | 数据集分栏见下。导师用 `高校` / `产业` / `医院`。门户型方剂/成分库用 `中药组方 / 提取物`；症状–处方研究集用 `临床结构化 / 处方`；CMB / Huatuo-26M 等用 `通用中文医疗`；汉方/韩医用 `东亚传统医学`，都不要和中医大模型语料混栏 |
 | `year` | 年份 |
 | `summary_zh` | 一句话中文摘要 |

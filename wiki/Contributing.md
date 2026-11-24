@@ -12,7 +12,7 @@
 python3 scripts/build_readme.py
 ```
 
-4. 提交：`catalog.yml`、`i18n_en.yml`、`catalog.json`、`README.md`、`README_EN.md`，以及若有变更的 `wiki/Models.md`、`wiki/Datasets.md`、`wiki/Benchmarks.md`。
+4. 提交：`catalog.yml`、`i18n_en.yml`、`catalog.json`、`README.md`、`README_EN.md`，以及若有变更的 `wiki/Models.md`、`wiki/Datasets.md`、`wiki/Benchmarks.md`、`wiki/People.md`。
 
 不要只改 README。生成脚本会按 [[Taxonomy]] 重排专栏和折叠块。
 

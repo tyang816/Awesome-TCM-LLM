@@ -1,6 +1,6 @@
 # Awesome-TCM-LLM Wiki
 
-这份 Wiki 解释 **怎么读、怎么选、怎么贡献**。条目清单仍以仓库 [README](https://github.com/tyang816/Awesome-TCM-LLM) 为准，数据源是 [`data/catalog.yml`](https://github.com/tyang816/Awesome-TCM-LLM/blob/main/data/catalog.yml)。
+这份 Wiki 解释 **怎么读、怎么选、怎么贡献**，并收录导师完整名单。模型、数据、论文等条目清单以仓库 [README](https://github.com/tyang816/Awesome-TCM-LLM) 为准；导师完整名单以 [[People]] 为准。数据源都是 [`data/catalog.yml`](https://github.com/tyang816/Awesome-TCM-LLM/blob/main/data/catalog.yml)。
 
 ## 仓库地图
 
@@ -8,7 +8,7 @@
 想找模型 ──► README 开源模型表 / [[Models]]
 想找数据 ──► README 数据集 / [[Datasets]]
 想做评测 ──► [[Benchmarks]]
-想找导师 ──► README 导师 / [[People]]
+想找导师 ──► [[People]]（完整名单；README 导师栏仅概述）
 想找课程 ──► README 学习资料
 想入门    ──► [[Getting-Started]]
 想投稿条  ──► [[Contributing]] + 仓库 CONTRIBUTING.md

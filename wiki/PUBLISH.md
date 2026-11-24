@@ -28,6 +28,7 @@ git push
 - `wiki/Models.md`
 - `wiki/Datasets.md`
 - `wiki/Benchmarks.md`
+- `wiki/People.md`
 
 手写页（Home、Getting-Started、Taxonomy、FAQ 等）改完后，重复上面的 `rsync` + `commit` + `push`。
 
@@ -42,6 +43,7 @@ git push
 | `Models.md` | 脚本生成 | Models |
 | `Datasets.md` | 脚本生成 | Datasets |
 | `Benchmarks.md` | 脚本生成 | Benchmarks |
+| `People.md` | 脚本生成 | People |
 | `Taxonomy.md` | 手写 | Taxonomy |
 | `Contributing.md` | 手写 | Contributing |
 | `FAQ.md` | 手写 | FAQ |
@@ -53,6 +55,6 @@ git push
 
 | | README | Wiki |
 | --- | --- | --- |
-| 目标 | 发现：目录、折叠、专栏表 | 说明：选型、分类、流程 |
-| 长度 | 控制首屏，旧年折叠 | 可以铺开完整列表 |
-| 更新 | 每次改 catalog 必生成 | 生成三页 + 必要时手改其余 |
+| 目标 | 发现：目录、折叠、专栏表；导师栏只保留概述和人数 | 说明：选型、分类、流程；导师完整名单在 People |
+| 长度 | 控制在 GitHub 首页渲染上限以内，旧年折叠 | 可以铺开完整列表 |
+| 更新 | 每次改 catalog 必生成 | 生成 Models / Datasets / Benchmarks / People，必要时手改其余 |

@@ -7,8 +7,8 @@
 | 产物 | 角色 |
 | --- | --- |
 | `data/catalog.yml` | 唯一条目源 |
-| README / README_EN | 面向 GitHub 的发现页（目录、折叠、专栏） |
-| 本 Wiki | 面向使用者的说明页（选型、分类、贡献） |
+| README / README_EN | 面向 GitHub 的发现页（目录、折叠、专栏）；导师栏只保留概述 |
+| 本 Wiki | 面向使用者的说明页（选型、分类、贡献），以及导师完整名单（[[People]]） |
 | [项目页](https://tyang816.github.io/projects/tcm/) | 搜索与标签筛选 |
 | `survey/` | 学术综述手稿，独立于清单 |
 

@@ -757,7 +757,7 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
             f"| 做对比实验 | {ladder}、{linglan} | 任务说得比较清楚；更多在[数据集](#数据集) |",
             "| 写相关工作 | 近两年的 scoping review | 先翻[综述](#综述)，别从单篇模型论文起 |",
             "| 找公开课 | [学习资料](#学习资料) | 高校公开课和系列讲座，只收可核验的一手链接 |",
-            "| 找导师 | [导师](#导师) | 高校、产业、医院 |",
+            "| 找导师 | [导师](wiki/People.md) | 完整名单按高校、产业、医院和地区排列 |",
             "",
             "同名不一定是同一个东西。「仲景」至少有 ZhongJingGPT 和 AAAI 那条 CMtMedQA；TCM-Eval 也不止一套。说不清时看 [Getting Started](wiki/Getting-Started.md)。",
             "",
@@ -779,7 +779,7 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
         f"| Run a comparison | {ladder}, {linglan} | Tasks are spelled out; more under [Datasets](#datasets) |",
         "| Write related work | Recent scoping reviews | Skim [Surveys](#surveys) before individual model papers |",
         "| Find an open course | [Learning Materials](#learning-materials) | University courses and lecture series; first-hand links only |",
-        "| Find a supervisor | [Supervisors](#supervisors) | Universities, industry, and hospitals |",
+        "| Find a supervisor | [Supervisors](wiki/People.md) | Full list by university, industry, hospital, and region |",
         "",
         "Same name does not mean the same project. ZhongJingGPT is not the AAAI CMtMedQA line, and more than one benchmark is called TCM-Eval. [Getting Started](wiki/Getting-Started.md) if that is confusing.",
         "",
@@ -1124,39 +1124,75 @@ def _unit_label(entry: dict, unit_zh: str, lang: str) -> str:
     return parts[-1] if parts else unit_zh
 
 
+PERSON_SECTION_ORDER = ("高校", "产业", "医院")
+PERSON_SECTION_EN = {"高校": "Universities", "产业": "Industry", "医院": "Hospitals"}
+WIKI_PEOPLE = "wiki/People.md"
+
+
+def _person_counts(people: list[dict]) -> tuple[dict[str, int], dict[str, int]]:
+    by_section: dict[str, int] = defaultdict(int)
+    by_region: dict[str, int] = defaultdict(int)
+    for entry in people:
+        section = entry.get("section") or "其他"
+        by_section[section] += 1
+        region, _unit = _person_group(entry)
+        by_region[region] += 1
+    return by_section, by_region
+
+
 def build_person_section(people: list[dict], lang: str) -> list[str]:
     if not people:
         return []
-    grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
-    for entry in people:
-        region, unit = _person_group(entry)
-        grouped[region][unit].append(entry)
+    by_section, by_region = _person_counts(people)
+    sections = [name for name in PERSON_SECTION_ORDER if by_section.get(name)]
+    sections += [name for name in by_section if name not in sections]
+    regions = [name for name in REGION_ORDER if by_region.get(name)]
+    regions += [name for name in by_region if name not in regions]
     if lang == "zh":
         title = "## 导师"
-        intro = "先按地区，再按高校、医院或公司。"
-        count = lambda n: f"（{n}）"
+        intro = (
+            f"完整名单共 {len(people)} 位，写在 [Wiki · 导师]({WIKI_PEOPLE})，"
+            "先按地区，再按高校、医院或公司。这里只保留人数统计。"
+        )
+        section_head = "按单位类型"
+        region_head = "按地区"
+        col_type, col_n = "分类", "人数"
+        section_label = lambda name: name
+        region_label = lambda name: name
     else:
         title = "## Supervisors"
-        intro = "By region, then by university, hospital, or company."
-        count = lambda n: f" ({n})"
-    lines = [title, "", intro, ""]
-    regions = [name for name in REGION_ORDER if grouped.get(name)]
-    regions += [name for name in grouped if name not in regions]
-    for region in regions:
-        units = grouped[region]
-        region_entries = [entry for people_in_unit in units.values() for entry in people_in_unit]
-        region_name = region if lang == "zh" else REGION_EN.get(region, region)
-        unit_blocks: list[str] = []
-        ordered_units = sorted(units, key=lambda name: (-len(units[name]), name))
-        for unit in ordered_units:
-            members = units[unit]
-            labels = [_unit_label(entry, unit, lang) for entry in members]
-            label = sorted(labels, key=lambda text: (-labels.count(text), text))[0]
-            unit_blocks += fold(
-                f"{label}{count(len(members))}",
-                [format_resource_line(entry, lang) for entry in members],
-            )
-        lines += fold(f"{region_name}{count(len(region_entries))}", unit_blocks)
+        intro = (
+            f"The full list of {len(people)} people is on [Wiki · Supervisors]({WIKI_PEOPLE}), "
+            "grouped by region, then by university, hospital, or company. "
+            "Only counts are kept here."
+        )
+        section_head = "By organization type"
+        region_head = "By region"
+        col_type, col_n = "Category", "Count"
+        section_label = lambda name: PERSON_SECTION_EN.get(name, name)
+        region_label = lambda name: REGION_EN.get(name, name)
+    lines = [
+        title,
+        "",
+        intro,
+        "",
+        f"**{section_head}**",
+        "",
+        f"| {col_type} | {col_n} |",
+        "| --- | ---: |",
+    ]
+    for name in sections:
+        lines.append(f"| {section_label(name)} | {by_section[name]} |")
+    lines += [
+        "",
+        f"**{region_head}**",
+        "",
+        f"| {col_type} | {col_n} |",
+        "| --- | ---: |",
+    ]
+    for name in regions:
+        lines.append(f"| {region_label(name)} | {by_region[name]} |")
+    lines.append("")
     return lines
 
 
@@ -1307,7 +1343,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             f"开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。"
             f"现在大概有 {n['news']} 条新闻、{n['models']} 个模型、{n['surveys']} 篇综述、"
             f"{n['patents']} 件专利、{n['datasets']} 个数据集、{n['papers']} 篇方法论文、"
-            f"{n['courses']} 门公开课，以及 {n['people']} 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。",
+            f"{n['courses']} 门公开课，以及 [{n['people']} 位中医药人工智能导师](wiki/People.md)。[欢迎补条目](CONTRIBUTING.md)。",
             "",
             f"[项目页]({portal}) · [中文项目页]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [主页]({SITE_ZH})",
             "",
@@ -1323,7 +1359,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             f"Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. "
             f"Right now: {n['news']} news items, {n['models']} models, {n['surveys']} surveys, "
             f"{n['patents']} patents, {n['datasets']} datasets, {n['papers']} method papers, "
-            f"{n['courses']} open courses, and {n['people']} TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).",
+            f"{n['courses']} open courses, and [{n['people']} TCM–AI supervisors](wiki/People.md). [PRs welcome](CONTRIBUTING.md).",
             "",
             f"[Project page]({portal}) · [Chinese catalog]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
             "",
@@ -1483,7 +1519,8 @@ def build_wiki_people(buckets: dict[str, list[dict]]) -> str:
     lines = [
         "# 导师",
         "",
-        "先按地区，再按高校、医院或公司。与 README [导师](../README.md#导师) 同源。",
+        f"先按地区，再按高校、医院或公司。本页是 {len(people)} 位导师的完整名单，与 catalog 同源；"
+        "[README 导师栏](../README.md#导师) 只保留概述和人数统计。",
         "",
     ]
     regions = [name for name in REGION_ORDER if grouped.get(name)]
