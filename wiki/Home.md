@@ -9,6 +9,7 @@
 想找数据 ──► README 数据集 / [[Datasets]]
 想做评测 ──► [[Benchmarks]]
 想找导师 ──► README 导师 / [[People]]
+想找课程 ──► README 学习资料
 想入门    ──► [[Getting-Started]]
 想投稿条  ──► [[Contributing]] + 仓库 CONTRIBUTING.md
 想懂分类  ──► [[Taxonomy]]
@@ -27,7 +28,8 @@
 | 专栏 | 收什么 | 不收什么 |
 | --- | --- | --- |
 | 开源模型 | `type: resource` 且 `tags` 含 `model`（不含 `plm`），以及 HF 精选权重 | 纯方法论文、BERT 编码器、纯评测集 |
-| 论文 | Agent / 多模态 / RAG·图谱 / 处方 / 抽取 / 评测 / 平台 / 其他方法 | 已进开源模型栏的条目 |
+| 论文 | Agent / 多模态 / RAG·图谱 / 处方 / 抽取 / 评测 / 平台 / 其他方法 | 已进开源模型栏的条目；公开课进学习资料 |
+| 学习资料 | `type: resource` 且 `tags` 含 `course` | 无法核验来源的搬运或营销短视频 |
 | 数据集 | `type: dataset`（含独立栏 **中药组方 / 提取物**、**通用中文医疗**、**东亚传统医学**，与中医大模型语料分开） | HF 模型权重（回到开源模型栏）；组方/提取物**制剂专利全集** |
 | 综述 | `type: survey` | 单点技术论文 |
 | 专利 | `type: patent`（CN / US / EP / WO / JP / KR 等） | 与中医大模型 / KG-QA / RAG 问诊无关的中药组方、制剂专利 |

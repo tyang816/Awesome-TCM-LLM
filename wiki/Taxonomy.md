@@ -7,7 +7,7 @@
 | type | README 去向 | 说明 |
 | --- | --- | --- |
 | `news` | 新闻 | 产品发布、备案、政策 |
-| `resource` | 开源模型 **或** 论文 | 默认论文/系统；`tags` 含 `model` 则进开源模型栏 |
+| `resource` | 开源模型 **或** 论文 **或** 学习资料 | 默认论文/系统；`tags` 含 `course` 则进学习资料栏；`tags` 含 `model` 则进开源模型栏 |
 | `survey` | 综述 | 综述 / scoping review / 评论 |
 | `dataset` | 数据集 | 用 `section` 再分栏 |
 | `model_hf` | 开源模型 · HF 折叠 | 精选 Hugging Face 权重，可与 resource 模型互补 |
@@ -16,12 +16,13 @@
 
 ## 决定 resource 落点的顺序
 
-1. `history` 或 `year < 2023`，且不是命名大模型（无 `model`，或带 `plm`）→ **历史锚点**
-2. 含 `model`（且不含 `plm`）+ `east-asian-tm` → **日韩汉方 / 韩医**
-3. 含 `model` + `product` → **闭源中文医疗产品**
-4. 含 `model` + `general-medical` → **通用中文医疗模型**
-5. 含 `model`（且不含 `plm`）→ **中医专用模型**（有核验权重进表，否则进论文/产品折叠）
-6. 否则按第一个命中的方法标签：`agent` → `multimodal` → `rag`/`kg` → `prescription`/`herbal` → `extract`/`plm` → `benchmark`/`evaluation` → `tool` → **其他方法**
+1. 含 `course` → **学习资料**（公开课、系列讲座等，不进论文栏）
+2. `history` 或 `year < 2023`，且不是命名大模型（无 `model`，或带 `plm`）→ **历史锚点**
+3. 含 `model`（且不含 `plm`）+ `east-asian-tm` → **日韩汉方 / 韩医**
+4. 含 `model` + `product` → **闭源中文医疗产品**
+5. 含 `model` + `general-medical` → **通用中文医疗模型**
+6. 含 `model`（且不含 `plm`）→ **中医专用模型**（有核验权重进表，否则进论文/产品折叠）
+7. 否则按第一个命中的方法标签：`agent` → `multimodal` → `rag`/`kg` → `prescription`/`herbal` → `extract`/`plm` → `benchmark`/`evaluation` → `tool` → **其他方法**
 
 `model` 只给**发布了命名领域大模型**的条目（权重可有可无）。任务论文、BERT 编码器、平台工具不要标 `model`。一条只进一个论文子栏。模型不再重复出现在「论文」里。
 
@@ -47,6 +48,7 @@
 | `ancient-books` / `herbal` | 古籍或本草专项 |
 | `dead-site` | 成果已发表，但官网不可达或已改作他用；README 标「官网已挂」，仍收论文/镜像 |
 | `site-issue` | 官网还能打开，但检索/下载等核心功能不通；README 标「服务异常」 |
+| `course` | 公开课、系列讲座等教学资料，进「学习资料」，不进论文栏 |
 | `mentor` | 研究生导师，或企业、医院的研发负责人 |
 | `university` / `industry` / `hospital` | 导师所在的高校或科研机构、产业、医院。须与 `section` 一致 |
 

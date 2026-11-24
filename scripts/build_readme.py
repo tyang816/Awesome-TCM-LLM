@@ -84,6 +84,9 @@ LINK_LABEL_EN = {
     "正式发表": "Published",
     "arXiv": "arXiv",
     "预印本": "Preprint",
+    "课程": "Course",
+    "学院": "School",
+    "智慧树": "Zhihuishu",
     "专利": "Patent",
     "公开": "Publication",
     "授权": "Grant",
@@ -142,6 +145,7 @@ SEMANTIC_TAGS = {
     "dead-site",
     "site-issue",
     "east-asian-tm",
+    "course",
 }
 
 # First match wins for leftover papers. `model` is reserved for named LLMs / products.
@@ -161,6 +165,130 @@ WEIGHT_LINK_KEYS = ("模型", "Model", "GGUF")
 
 # Lists longer than this nest by year inside a section fold.
 FLAT_LIMIT = 12
+
+COURSE_PLATFORM_RULES = [
+    ("icourse163.org", "中国大学 MOOC", "China University MOOC"),
+    ("coursera.org", "Coursera", "Coursera"),
+    ("zhihuishu.com", "智慧树", "Zhihuishu"),
+    ("xuetangx.com", "学堂在线", "XuetangX"),
+    ("bilibili.com", "B站", "Bilibili"),
+    ("zhihu.com", "知乎", "Zhihu"),
+    ("youtube.com", "YouTube", "YouTube"),
+    ("youtu.be", "YouTube", "YouTube"),
+    ("chinaooc.com.cn", "中国高校在线开放课程", "ChinaOOC"),
+]
+
+ORG_EN = {
+    "北京中医药大学": "Beijing University of Chinese Medicine",
+    "河南中医药大学": "Henan University of Chinese Medicine",
+    "南京中医药大学": "Nanjing University of Chinese Medicine",
+    "广州中医药大学": "Guangzhou University of Chinese Medicine",
+    "福建中医药大学": "Fujian University of Traditional Chinese Medicine",
+    "香港中文大学": "The Chinese University of Hong Kong",
+    "南方医科大学": "Southern Medical University",
+    "安徽中医药大学": "Anhui University of Chinese Medicine",
+    "山东中医药大学": "Shandong University of Traditional Chinese Medicine",
+    "成都中医药大学": "Chengdu University of Traditional Chinese Medicine",
+    "暨南大学": "Jinan University",
+    "长春中医药大学": "Changchun University of Chinese Medicine",
+    "香港科技大学": "The Hong Kong University of Science and Technology",
+}
+
+
+def course_platform(entry: dict) -> tuple[str, str]:
+    urls = [u for u in (entry.get("links") or {}).values() if u]
+    for host, zh, en in COURSE_PLATFORM_RULES:
+        if any(host in u for u in urls):
+            return zh, en
+    return "其他平台", "Other platforms"
+
+
+def course_org_key(entry: dict) -> str:
+    orgs = entry.get("_orgs_zh") or entry.get("orgs") or []
+    return orgs[0] if orgs else ""
+
+
+def course_org_label(org_zh: str, lang: str) -> str:
+    if not org_zh:
+        return "其他机构" if lang == "zh" else "Other"
+    if lang == "zh":
+        return org_zh
+    return ORG_EN.get(org_zh, org_zh)
+
+
+def emit_courses_by_org(items: list[dict], lang: str) -> list[str]:
+    by_org: dict[str, list[dict]] = defaultdict(list)
+    for entry in items:
+        by_org[course_org_key(entry)].append(entry)
+    keys = sorted(by_org.keys(), key=lambda k: (-len(by_org[k]), k))
+    lines: list[str] = []
+    show_headings = len(keys) > 1 or (keys and keys[0])
+    for org in keys:
+        group = by_org[org]
+        group = sorted(group, key=lambda e: (display_name(e, lang), e.get("id") or ""))
+        if show_headings:
+            label = course_org_label(org, lang)
+            heading = (
+                f"**{label}（{len(group)}）**"
+                if lang == "zh"
+                else f"**{label} ({len(group)})**"
+            )
+            if lines:
+                lines.append("")
+            lines.append(heading)
+        lines.extend(format_resource_line(e, lang) for e in group)
+    return lines
+
+
+def build_course_section(courses: list[dict], lang: str) -> list[str]:
+    title = "## 学习资料" if lang == "zh" else "## Learning Materials"
+    intro = (
+        "本栏收公开课、系列讲座等可核验的一手链接，不下载视频。优先高校、医院、学会或体系完整的课程。"
+        if lang == "zh"
+        else "Open courses, lecture series, and other first-hand, verifiable learning links; videos are not downloaded. University, hospital, society, and other systematically organized courses are preferred."
+    )
+    lines = [title, "", intro, ""]
+    if not courses:
+        return lines
+
+    by_platform: dict[str, list[dict]] = defaultdict(list)
+    platform_en: dict[str, str] = {}
+    for entry in courses:
+        zh, en = course_platform(entry)
+        by_platform[zh].append(entry)
+        platform_en[zh] = en
+
+    known: list[str] = []
+    seen: set[str] = set()
+    for _host, zh, _en in COURSE_PLATFORM_RULES:
+        if zh not in seen:
+            seen.add(zh)
+            known.append(zh)
+    known.append("其他平台")
+
+    for zh in known:
+        items = by_platform.get(zh) or []
+        if not items:
+            continue
+        heading = zh if lang == "zh" else platform_en.get(zh, zh)
+        summary = (
+            f"{heading}（{len(items)}）"
+            if lang == "zh"
+            else f"{heading} ({len(items)})"
+        )
+        lines += fold(summary, emit_courses_by_org(items, lang))
+    for zh, items in by_platform.items():
+        if zh in known or not items:
+            continue
+        heading = zh if lang == "zh" else platform_en.get(zh, zh)
+        summary = (
+            f"{heading}（{len(items)}）"
+            if lang == "zh"
+            else f"{heading} ({len(items)})"
+        )
+        lines += fold(summary, emit_courses_by_org(items, lang))
+    return lines
+
 
 
 def strip_md_bold(text: str) -> str:
@@ -509,6 +637,9 @@ def classify_items(items: list[dict]) -> dict[str, list[dict]]:
         elif kind == "person":
             buckets["person"].append(entry)
         elif kind == "resource":
+            if "course" in tags:
+                buckets["course"].append(entry)
+                continue
             historical = "history" in tags or year < 2023
             named_llm = "model" in tags and "plm" not in tags
             if historical and not named_llm:
@@ -565,6 +696,7 @@ def count_pack(buckets: dict[str, list[dict]]) -> dict[str, int]:
                 "history",
             )
         ),
+        "courses": len(buckets["course"]),
         "open": sum(1 for e in buckets["model_tcm"] if is_open_weights(e)),
         "people": len(buckets["person"]),
     }
@@ -624,6 +756,7 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
             f"| 电脑比较一般 | {xinghe} | 9B，有 GGUF |",
             f"| 做对比实验 | {ladder}、{linglan} | 任务说得比较清楚；更多在[数据集](#数据集) |",
             "| 写相关工作 | 近两年的 scoping review | 先翻[综述](#综述)，别从单篇模型论文起 |",
+            "| 找公开课 | [学习资料](#学习资料) | 高校公开课和系列讲座，只收可核验的一手链接 |",
             "| 找导师 | [导师](#导师) | 高校、产业、医院 |",
             "",
             "同名不一定是同一个东西。「仲景」至少有 ZhongJingGPT 和 AAAI 那条 CMtMedQA；TCM-Eval 也不止一套。说不清时看 [Getting Started](wiki/Getting-Started.md)。",
@@ -645,6 +778,7 @@ def takeaway_block(buckets: dict[str, list[dict]], lang: str) -> list[str]:
         f"| Stay small | {xinghe} | 9B, GGUF available |",
         f"| Run a comparison | {ladder}, {linglan} | Tasks are spelled out; more under [Datasets](#datasets) |",
         "| Write related work | Recent scoping reviews | Skim [Surveys](#surveys) before individual model papers |",
+        "| Find an open course | [Learning Materials](#learning-materials) | University courses and lecture series; first-hand links only |",
         "| Find a supervisor | [Supervisors](#supervisors) | Universities, industry, and hospitals |",
         "",
         "Same name does not mean the same project. ZhongJingGPT is not the AAAI CMtMedQA line, and more than one benchmark is called TCM-Eval. [Getting Started](wiki/Getting-Started.md) if that is confusing.",
@@ -1172,8 +1306,8 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             "",
             f"开源中医模型、数据、论文、专利精选，也带一点相关中文医疗。"
             f"现在大概有 {n['news']} 条新闻、{n['models']} 个模型、{n['surveys']} 篇综述、"
-            f"{n['patents']} 件专利、{n['datasets']} 个数据集、{n['papers']} 篇方法论文，"
-            f"以及 {n['people']} 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。",
+            f"{n['patents']} 件专利、{n['datasets']} 个数据集、{n['papers']} 篇方法论文、"
+            f"{n['courses']} 门公开课，以及 {n['people']} 位中医药人工智能导师。[欢迎补条目](CONTRIBUTING.md)。",
             "",
             f"[项目页]({portal}) · [中文项目页]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [主页]({SITE_ZH})",
             "",
@@ -1189,7 +1323,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
             f"Open TCM models, datasets, papers, and patents, plus a few related Chinese medical resources. "
             f"Right now: {n['news']} news items, {n['models']} models, {n['surveys']} surveys, "
             f"{n['patents']} patents, {n['datasets']} datasets, {n['papers']} method papers, "
-            f"and {n['people']} TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).",
+            f"{n['courses']} open courses, and {n['people']} TCM–AI supervisors. [PRs welcome](CONTRIBUTING.md).",
             "",
             f"[Project page]({portal}) · [Chinese catalog]({PORTAL_ZH}) · [Wiki](wiki/Home.md) · [Homepage]({SITE_EN})",
             "",
@@ -1204,6 +1338,7 @@ def build_readme(catalog: dict, lang: str, i18n_en: dict | None = None) -> str:
     lines += build_patent_section(buckets["patent"], lang)
     lines += build_paper_section(buckets, lang)
     lines += build_dataset_section(buckets["dataset"], lang)
+    lines += build_course_section(buckets.get("course") or [], lang)
     lines += footer(lang, portal)
     return "\n".join(lines).rstrip() + "\n"
 
