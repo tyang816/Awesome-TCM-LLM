@@ -23,7 +23,7 @@
 - **Cross-linguistic TCM Formula Names** — 中医方剂名称的跨语言对照表，覆盖中文、日本汉方、韩国韩医和英文，Zenodo 说明依据台湾官方方剂书和常用临床文献整理，文件为 xlsx。 [[数据集](https://zenodo.org/records/18724305)]
 - **CHM-315** — 中药材细粒度图像集，DataCite 说明包含 315 类常用中药、共 126000 张图像，每类 400 张。 [[数据集](https://doi.org/10.6084/m9.figshare.32745123)]
 - **Baize TCM Botanical Origin Images** — 药用植物基原鉴定图像数据，DataCite 标题写明用于 Baize Traditional Chinese Medicine，包含生境、原植物和药用部位图像，以及依据中国药典、中国植物志和恩格勒系统的中文与拉丁文鉴定信息。 [[数据集](https://doi.org/10.57760/sciencedb.41638)]
-- **古代经典名方关键信息表** — 官方公布的经典名方关键信息，不是患者病历。三份通知分别是 2020 年 7 首、2023 年「竹叶石膏汤」等 25 首、2025 年「旋覆代赭汤」等 43 首。2025 年附表逐味给出基原、炮制规格和折算剂量。旋覆代赭汤中甘草为炒甘草 41.40 克、半夏为清半夏 34.50 克；全方以水 2000 毫升煮取 1200 毫升，去渣再煎至 600 毫升，每次温服 200 毫升、日三服。 [[2020通知](http://www.natcm.gov.cn/kejisi/zhengcewenjian/2020-11-10/18132.html)] [[2023通知](http://www.natcm.gov.cn/kejisi/gongzuodongtai/2023-07-28/31404.html)] [[2025通知](http://www.natcm.gov.cn/kejisi/gongzuodongtai/2025-02-12/35831.html)] [[2025PDF](https://www.nmpa.gov.cn/directory/web/nmpa/images/1739501159108056814.pdf)]
+- **古代经典名方关键信息表** — 官方公布的经典名方关键信息，不是患者病历。三份通知分别是 2020 年 7 首、2023 年「竹叶石膏汤」等 25 首、2025 年「旋覆代赭汤」等 43 首。2025 年附表逐味给出基原、炮制规格和折算剂量。旋覆代赭汤中甘草为炒甘草 41.40 克、半夏为清半夏 34.50 克。 [[2020通知](http://www.natcm.gov.cn/kejisi/zhengcewenjian/2020-11-10/18132.html)] [[2023通知](http://www.natcm.gov.cn/kejisi/gongzuodongtai/2023-07-28/31404.html)] [[2025通知](http://www.natcm.gov.cn/kejisi/gongzuodongtai/2025-02-12/35831.html)] [[2025PDF](https://www.nmpa.gov.cn/directory/web/nmpa/images/1739501159108056814.pdf)]
 - **传统方剂—疾病关系标注语料** — 从生物医学文献标注传统方剂与疾病关系的语料，方剂按传统医学原则配伍。 [[论文](https://doi.org/10.1038/s41597-025-04377-2)]
 - **TCMP-300** — 用于中药材植物识别的综合图像数据集。 [[论文](https://doi.org/10.1038/s41597-025-05522-7)] [[代码](https://github.com/winycg/TCMP-300)]
 - **NPASS** — 天然产物的实验活性库。这一版有天然产物 204023 个、来源生物 48940 个、靶点 8764 个、活性记录 1048756 条，活性数值来自 ChEMBL 和文献。物种来源接过 TCM-ID、TCMID、TCMSP、TM-MC 等库。2026 年更新的论文在 2025 年 11 月登在 Nucleic Acids Research。 [[网站](https://bidd.group/NPASS/)] [[说明](https://bidd.group/NPASS/about.php)] [[DOI](https://doi.org/10.1093/nar/gkaf1196)]
@@ -62,12 +62,12 @@
 
 ## 临床结构化 / 处方
 
-- **赵汉青门诊处方（2025）** — 赵汉青 2025 年中医内科门诊的去标识处方：122 名患者、335 张处方、5951 条药味记录，每味药有克剂量。初诊 75 张、复诊 260 张。给药途径以口服汤剂为主（315 张），另有冲服 8 张、外洗 8 张、外用 4 张。每日两次 333 张，每日三次 2 张。药名里能看到炮制写法，含「炒」412 行、「炙」341 行、「麸」289 行、「醋」164 行、「姜」154 行、「酒」89 行、「煅」67 行、「制」63 行，另有法半夏 99 行；同一行可以同时含多个字。CC BY 4.0。仓库说明就诊机构为 Beijing Heniantang Hospital。 [[数据集](https://doi.org/10.5281/zenodo.21947836)] [[代码](https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025)]
+- **赵汉青门诊处方（2025）** — 赵汉青 2025 年中医内科门诊的去标识处方：122 名患者、335 张处方、5951 条药味记录，每味药有克剂量。初诊 75 张、复诊 260 张。给药途径以口服汤剂为主（315 张），另有冲服 8 张、外洗 8 张、外用 4 张。每日两次 333 张，每日三次 2 张。 [[数据集](https://doi.org/10.5281/zenodo.21947836)] [[代码](https://github.com/zhhqtt/zhao-hanqing-tcm-dataset-2025)]
 - **胆石症中医证候代谢组** — 胆石症患者肝郁气滞与肝胆湿热两种证候的血清和尿液代谢组数据。 [[论文](https://doi.org/10.1038/s41597-025-06537-w)]
 - **汉派中医骨伤诊疗数据集** — 武汉市中医医院数据产品；报道包含16.8万条结构化诊疗数据、3600个经验方与汉派骨伤辨证思维链，已在湖北数据流通平台完成交易。仅核验发布报道，未发现可匿名批量下载的数据包。 [[新闻](https://www.cntcm.com.cn/content/202610/16/c505880.html)]
 - **广安门医院慢性胃炎数据集** — 2026年完成产权登记的中医专病数据集，用于科研与大模型领域适配。报道区分院内使用、院外协同科研和产品交易，未给本数据集规模或公开下载；医院总体资源量不能当作该集样本数。 [[新闻](https://www.cntcm.com.cn/content/202609/24/c505607.html)]
 - **古今医案云平台** — 中国中医科学院中医药信息研究所的医案检索、结构化与挖掘平台。该所2026年9月20日新闻写明，现行资源已形成110余万条高质量结构化古今医案，另有1963万条科研分析数据，注册用户约5.3万人。需注册或机构登录，未见公开批量下载。部分院校试用页仍写约50万条，与这一口径不同。 [[网站](https://www.yiankb.com/)]
-- **TCMCPD** — 从病案整理的结构化库：4895 名患者、12900 次就诊、703 味中药，就诊–证候 11879 条，就诊–药味 63192 条。剂量单位以克为主（61386），另有钱 1067、枚 364、片 240、两 69、分 64、毫升 2。并连接症状、成分和靶点，附 Neo4j 节点和边。作者说明不转发受版权限制的医案原文。描述稿目前是 Research Square 预印本。 [[数据集](https://doi.org/10.5281/zenodo.20929034)]
+- **TCMCPD** — 从病案整理的结构化库：4895 名患者、12900 次就诊、703 味中药，就诊–证候 11879 条，就诊–药味 63192 条。剂量单位以克为主（61386），另有钱 1067、枚 364、片 240、两 69、分 64、毫升 2。并连接症状、成分和靶点，附 Neo4j 节点和边。作者说明不转发受版权限制的医案原文。 [[数据集](https://doi.org/10.5281/zenodo.20929034)]
 - **TCM4NSCLC** — 来自一位资深中医门诊的 3,790 条非小细胞肺癌病例记录，包含重复就诊，用于辨证、处方及真实世界研究。 [[论文](https://doi.org/10.1038/s41597-026-07912-x)]
 - **TCM-Andrology-EMR** — 数据卡报告67,073次就诊、25,103名患者，金标准26,923条，提供按患者切分的JSONL；药味无剂量，舌脉字段稀缺。作者明确未做伦理审查与患者知情同意；仅作资源索引，数据来源与再利用依据需进一步核实。 [[数据集](https://huggingface.co/datasets/johnson/TCM-Andrology-EMR)]
 - **AcuiQ** — 从已发表文献中抽取的针灸选穴索引，按症状检索。每条记录附出处和证据类型（研究、典籍、网页、无来源），并记录原文的施治方式（针刺、电针、艾灸、指压等）和疗程。匿名使用，无需账号，提供 MCP 服务器和 REST API。数据库对十一条规范的偏离率登记表以 CC BY 4.0 公开。站内另售付费指南。 [[网站](https://acuiq.com)] [[MCP](https://acuiq.com/api/mcp)] [[API](https://acuiq.com/openapi.json)] [[数据](https://acuiq.com/wiki/research/conformance)]
@@ -139,7 +139,7 @@
 
 ## 评测基准
 
-- **TCM-EviSelect: Evidence Selection Labels for Chinese Traditional Medicine Question Answering** — TCM-EviSelect 是面向中医问答证据选择的公开标注数据集。Zenodo 记录页（v1）写明由 Zhang, Peihua（Hebei Finance University，联系人）、Li, Xiangmeng（Affiliated Hospital of Hebei University）与 Hao, Bin（College of traditional Chinese Medicine, Hebei University）发布，标注日期为 2026 年 11 月 7 日，资源类型为 Dataset，许可为 Creative Commons Attribution 4.0 International。页面说明该数据集提供 26432 条训练对和 4978 条开发对，带有二元相关与支持标签，衍生自 Lingdan 与 Hallu-TCM，并包含对 44 道留出题目的分层人工审阅汇总结果；发布内容为标注与标识符，源文本和条目级测试标签未公开，基于文本的模型训练需另行获取源文本并按标识符对齐。本次用 webFetch 打开了概念 DOI 10.5281/zenodo.24035357 与版本记录页 https://zenodo.org/records/24035357 的真实落地页（含作者、摘要、文件列表 tcm-qa-evidence-labels-v0.1.0.zip），并用 DataCite API 核验版本 DOI 10.5281/zenodo.24035358 的 Issued 日期为 2026-11-07、关系为 IsVersionOf 10.5281/zenodo.24035357。对 zenodo.org 的直接 curl 返回 403（WAF），未作为打开成功的正文页。这是公开数据集发布，不是模型权重下载入口。 [[Zenodo](https://zenodo.org/records/24035358)] [[概念DOI](https://doi.org/10.5281/zenodo.24035357)] [[版本DOI](https://doi.org/10.5281/zenodo.24035358)]
+- **TCM-EviSelect: Evidence Selection Labels for Chinese Traditional Medicine Question Answering** — TCM-EviSelect 是面向中医问答证据选择的公开标注数据集。Zenodo 记录页（v1）写明由 Zhang, Peihua（Hebei Finance University，联系人）、Li, Xiangmeng（Affiliated Hospital of Hebei University）与 Hao, Bin（College of traditio… [[Zenodo](https://zenodo.org/records/24035358)] [[概念DOI](https://doi.org/10.5281/zenodo.24035357)] [[版本DOI](https://doi.org/10.5281/zenodo.24035358)]
 - **TCM-RobustSDT** — 中医临床推理LLM鲁棒性基准数据集（Figshare） [[数据集](https://doi.org/10.6084/m9.figshare.33054974)]
 - **大模型辨证论治评测基准** — Scientific Data发布的辨证论治基准，用来评估大模型的中医临床应用能力 [[论文](https://doi.org/10.1038/s41597-026-07587-4)]
 - **病理标注舌象数据集** — 带病理标注的中医舌象图像集，用于降低人工舌诊的主观性。 [[论文](https://doi.org/10.62762/bish.2026.303296)]
@@ -239,7 +239,8 @@
 
 ## 其他
 
-- **TCM-Flow** — Ma Shaochen 与 li xiong 在 Zenodo 发布的 TCM-Flow: A Traditional Chinese Medicine Virtual Screening Dataset。记录页标明 2026年10月23日以 v1 公开发布，资源类型为 Dataset，提供 15.4 MB 的 TCM-Flow_Dataset.zip 下载，许可为 Creative Commons Attribution 4.0 International。版本 DOI 为 10.5281/zenodo.23600814。本次通过 DOI 解析打开了 Zenodo 一手记录页。页面未给出更细的化合物或筛选规模数字，故不另行补写。这是可公开下载的数据集落地页，不是内部评测集。 [[Zenodo](https://zenodo.org/records/23600813)] [[DOI](https://doi.org/10.5281/zenodo.23600814)]
-- **EthnoMedOne** — 贵州大学 Shuai Xiaomin 在 Zenodo 发布的 EthnoMedOne v1.0.0。记录页说明该数据集整合中国多种民族医药记载，并与标准化化合物、蛋白靶点、疾病、证候、症状及化合物属性等关联；提供 SQLite 库、对应 CSV、文档、来源与映射核查及示例查询。页面明确写明：所报告关联是标准化数据链接，不应理解为实验验证的机制或临床疗效。2026年10月22日以 v1 公开发布，许可为 CC BY 4.0，版本 DOI 为 10.5281/zenodo.23553718。本次通过 DOI 解析打开了 Zenodo 一手记录页。这是可公开下载的数据集落地页，不是内部评测集。 [[Zenodo](https://zenodo.org/records/23553717)] [[DOI](https://doi.org/10.5281/zenodo.23553718)]
+- **TCMNP（tcmnetpharma runtime dataset）** — tcmnetpharma 运行时数据集（TCMNP v1.3.0）。Zenodo 官方记录页写明 Published October 27, 2026，Version 1.3.0，作者为 Zheng, JianXiao，所属 Haihe Laboratory of Modern Chinese Medicine, Tianjin University of… [[Zenodo](https://zenodo.org/records/23681367)] [[DOI](https://doi.org/10.5281/zenodo.23681367)] [[Hugging Face](https://huggingface.co/datasets/Zenodo-ML/TCMNetPharma-TCMNP-Traditional-Chinese-Medicine-Network-Pharmacology-Data)] [[GitHub](https://github.com/271705024/tcmnetpharma)]
+- **TCM-Flow** — Ma Shaochen 与 li xiong 在 Zenodo 发布的 TCM-Flow: A Traditional Chinese Medicine Virtual Screening Dataset。记录页标明 2026年10月23日以 v1 公开发布，资源类型为 Dataset，提供 15.4 MB 的 TCM-Flow_Dataset。 [[Zenodo](https://zenodo.org/records/23600813)] [[DOI](https://doi.org/10.5281/zenodo.23600814)]
+- **EthnoMedOne** — 贵州大学 Shuai Xiaomin 在 Zenodo 发布的 EthnoMedOne v1.0.0。记录页说明该数据集整合中国多种民族医药记载，并与标准化化合物、蛋白靶点、疾病、证候、症状及化合物属性等关联；提供 SQLite 库、对应 CSV、文档、来源与映射核查及示例查询。页面明确写明：所报告关联是标准化数据链接，不应理解为实验验证的机制或临床疗效。 [[Zenodo](https://zenodo.org/records/23553717)] [[DOI](https://doi.org/10.5281/zenodo.23553718)]
 
 返回 [[Home]]。

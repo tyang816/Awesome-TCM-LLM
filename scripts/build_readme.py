@@ -357,10 +357,44 @@ def format_links(links: dict | None, lang: str = "zh") -> str:
     return (" " + " ".join(parts)) if parts else ""
 
 
+
+def compact_blurb(text: str | None, lang: str = "zh", max_len: int = 180) -> str:
+    """Shorten catalog summaries for README/wiki lines.
+
+    Keep the full text in catalog.yml and i18n_en.yml. README lines drop the
+    verification tail ("本次打开了…") and cap remaining length so the GitHub
+    homepage stays under the render limit.
+    """
+    if not text:
+        return ""
+    t = str(text).strip()
+    if lang == "zh":
+        t = re.split(r"本次(?:同时|再次|用[^。]{0,40})?打开了", t, maxsplit=1)[0].strip()
+        t = re.split(r"本次用\s*webFetch", t, maxsplit=1, flags=re.I)[0].strip()
+    else:
+        t = re.split(
+            r"(?:This (?:pass|round) |Tonight we )(?:opened|fetched)",
+            t,
+            maxsplit=1,
+        )[0].strip()
+        t = re.split(r"The official (?:landing )?page was opened", t, maxsplit=1)[0].strip()
+    t = t.rstrip("，,;； ")
+    if len(t) <= max_len:
+        return t
+    cut = t[:max_len]
+    match = re.search(r"(.*)[。．.；;]", cut)
+    if match and len(match.group(1)) >= int(max_len * 0.5):
+        end = "。" if lang == "zh" else "."
+        return match.group(1).rstrip("。．.") + end
+    return cut.rstrip() + "…"
+
+
 def entry_blurb(entry: dict, lang: str) -> str:
     if lang == "en":
-        return entry.get("summary_en") or entry.get("title_en") or ""
-    return entry.get("summary_zh") or entry.get("title_zh") or entry.get("name", "")
+        raw = entry.get("summary_en") or entry.get("title_en") or ""
+        return compact_blurb(raw, "en")
+    raw = entry.get("summary_zh") or entry.get("title_zh") or entry.get("name", "")
+    return compact_blurb(raw, "zh")
 
 
 def issue_mark(entry: dict, lang: str) -> str:
@@ -398,9 +432,9 @@ def format_resource_line(entry: dict, lang: str) -> str:
 def format_news_line(entry: dict, lang: str) -> str:
     date = entry.get("date") or str(entry.get("year", ""))
     if lang == "en":
-        text = entry.get("summary_en") or entry.get("name") or ""
+        text = compact_blurb(entry.get("summary_en") or entry.get("name") or "", "en")
     else:
-        text = entry.get("summary_zh", "")
+        text = compact_blurb(entry.get("summary_zh") or entry.get("name") or "", "zh")
     line = f"- [{date}] {text}"
     links = entry.get("links") or {}
     if lang == "zh" and links.get("链接"):
@@ -1461,11 +1495,7 @@ def build_wiki_datasets(buckets: dict[str, list[dict]]) -> str:
             continue
         lines += [f"## {section}", ""]
         for entry in entries:
-            blurb = entry.get("summary_zh") or ""
-            line = format_dataset_line(entry, "zh")
-            if blurb and blurb not in line:
-                line = f"{line} — {blurb}"
-            lines.append(line)
+            lines.append(format_dataset_line(entry, "zh"))
         lines.append("")
     extra = [s for s in by_section if s not in DATASET_SECTION_ORDER_ZH]
     for section in extra:

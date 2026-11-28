@@ -1,6 +1,6 @@
 # 导师
 
-先按地区，再按高校、医院或公司。本页是 456 位导师的完整名单，与 catalog 同源；[README 导师栏](../README.md#导师) 只保留概述和人数统计。
+先按地区，再按高校、医院或公司。本页是 487 位导师的完整名单，与 catalog 同源；[README 导师栏](../README.md#导师) 只保留概述和人数统计。
 
 ## 北京（80）
 
@@ -874,25 +874,45 @@
 
 - **王永华** 西北大学生物信息中心教授。建中药系统药理学数据库 TCMSP。 [西北大学] [[主页](https://life.nwafu.edu.cn/yjsjy/yjsgl/070cf28723284d418f42b14c1175437b.htm)]
 
-## 甘肃（2）
+## 甘肃（12）
 
-### 甘肃中医药大学药学院（1）
+### 甘肃中医药大学药学院（11）
 
 - **靳晓杰** 兰州。甘肃中医药大学药学院副教授、博士生导师。做中药化学信息学和计算机辅助药物发现。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/html/cid/83.html?page=1)]
+- **李成义** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：李成义，男，教授，博士/硕士研究生导师。1987年6月毕业于北京中医学院，获学士学位，同年7月在甘肃中医学院参加工作，2002年晋升为教授。主要讲授《中药鉴定学》《中医药拉丁语》等本科课程、《中药鉴定学专论》硕士研究生课程和《中药学专业课》博士研究生课程。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1376.html)]
+- **郭玫** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：女，教授，博士生导师，第十三届全国人大代表。1985年本科毕业于兰州大学药学院（原兰州医学院药学系），硕士毕业于成都中医药大学药学院中药学方向，自1985年参加工作。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1393.html)]
+- **邵晶** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：邵晶，博士，教授，博士研究生导师，甘肃省高校“教学名师”，甘肃省“飞天学者”青年学者，甘肃省青年教师成才奖获得者，甘肃省高校教师教学创新大赛一等奖获得者。该页写明现任药学院院长。从事中药化学、中药分析等课程教学工作24年，主要研究方向为中药药效物质基础及其质量控制与产品开发。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/2612.html)]
+- **任远** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：男，教授，博士/硕士研究生导师。1984年毕业于兰州医学院，获学士学位，同年于甘肃中医学院参加工作，任助教；1992年晋升讲师，1998年晋升副教授，2003年晋升教授。主要讲授《药理学》《药物毒理学与安全性评价》《中药药理学专论》等课程。研究方向为中药药理学与毒理学研究。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1315.html)]
+- **魏舒畅** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：教授，博士/硕士研究生导师，甘肃省中药制药工艺工程研究中心主任，世界中医药学会联合会经皮给药专业委员会理事。讲授《中药制药工艺学》《物理药剂学》《制药工程设计》《药用高分子材料学》《中药制药新技术》《新剂型设计》《生物药剂学与药物动力学》等课程。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1568.html)]
+- **晋玲** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：晋玲，理学博士，教授，博士/硕士研究生导师，“飞天学者”特聘教授，甘肃省教学名师，甘肃省高校青年教师成才奖获得者，药学院院长。长期从事《药用植物学》《中药资源学》等研究生与本科教学，并任中药学国家教指委《药用植物学》课程联盟副理事长、甘肃省精品资源共享课《药用植物学》课程负责人。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1339.html)]
+- **邓毅** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：男，教授，博士/硕士生导师。现为教育部高等学校中药学类专业《中药学》课程联盟副理事长，教育部高等学校中医学类专业核心课程《中药学》课程联盟理事，中华中医药学会中药基础理论分会常务委员、养生康复分会常务委员、继续教育分会委员，并任世界中医药学会联合会理事、世界中医药学会联合会敦煌医学研究及文化传承专业委员会副… [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1279.html)]
+- **王引权** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：王引权，男，教授，博士/硕士研究生导师。1986年毕业于甘肃农业大学，获学士学位；2005年毕业于甘肃农业大学，获博士学位；2018年晋升为教授。主要讲授《基础生物化学》《土壤肥料学》《土壤学》和《科研思维与方法论》等课程。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1362.html)]
+- **邸多隆** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：邸多隆，男，博士，研究员（二级）/教授，博士/硕士研究生导师。中科院“百人计划”学者，中科院“特聘研究员”，享受国务院特殊政府津贴。 [甘肃中医药大学药学院，中国科学院西北特色植物资源化学重点实验室] [[主页](https://yxx.gszy.edu.cn/show/id/1561.html)]
+- **李越峰** 兰州。甘肃中医药大学药学院官方博士生导师个人页写明：李越峰，教授，中药学博士，博士后，博士生导师，博士后合作导师，甘肃省拔尖领军人才，甘肃省“飞天学者”青年学者，甘肃省教学名师，甘肃省发明人奖获得者。页面写明2015–2017年挂职于甘肃省陇南市武都区副区长，现任甘肃中医药大学科研实验中心主任。 [甘肃中医药大学药学院] [[主页](https://yxx.gszy.edu.cn/show/id/1292.html)]
 
 ### 甘肃省中医院（1）
 
 - **张志明** 兰州。甘肃省中医院院长、博士生导师。推动数字化舌诊和人工智能辅助望诊。 [甘肃省中医院] [[主页](https://xxxy.xzhmu.edu.cn/info/1005/2985.htm)]
 
-## 青海（5）
+## 青海（15）
 
-### 青海大学（5）
+### 青海大学（15）
 
 - **周则** 西宁。青海大学藏医学院硕士生导师。主持藏药药用植物图像库和藏药方剂数据库。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29957.htm)]
 - **多杰** 西宁。青海大学藏医学院硕士生导师。参与藏医药文献数字化和传统医籍加工。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/kxyj/yjxm/27856.htm)]
-- **仁青东主** 西宁。青海大学藏医学院教授、博士生导师。学院青年教师团队官方简介页（发布日期2017年5月21日）写明：藏族，1973年生，博士；2017年于成都中医药大学民族医药学院获博士学位；为本科生讲授《藏医热病学》《藏医疫病学》《藏医外伤学》等课程；2001年7月至2024年3月任该院副教授，2024年4月至今任教授。本次打开了青海大学藏医学院官方师资页。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29952.htm)]
-- **李先加** 西宁。青海大学藏医学院院长、教授、博士生导师。学院青年教师团队官方简介页（发布日期2017年5月21日）写明：藏族，1966年生；曾任青海省海南州藏医院副院长、青海医学院藏医学系副主任、青海大学医学院藏医学系主任，2016年起任青海大学藏医学院院长、党委副书记。为研究生讲授藏医药核心理论研究进展、《四部医典》精选等课程，研究方向为藏医药医史文献与基础理论研究。本次打开了青海大学藏医学院官方师资页。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29964.htm)]
-- **尕藏多吉** 西宁。青海大学藏医学院教授、医学博士。学院青年教师团队官方简介页（发布日期2017年5月21日）写明：藏族，青海省循化县人，1978年6月出生；先后在西藏藏医学院获学士、硕士学位，2014年于青海大学获医学博士学位，2005年11月起在青海大学藏医学院工作。承担《藏医内科学》《三大基因学》《藏医外科学》《藏医热病学》等临床课程，研究方向为藏药药理机制与藏医临床诊疗标准化。页面写明指导毕业生论文设计80余篇，但未写明硕士或博士招生职务。本次打开了青海大学藏医学院官方师资页。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29958.htm)]
+- **仁青东主** 西宁。青海大学藏医学院教授、博士生导师。学院青年教师团队官方简介页（发布日期2017年5月21日）写明：藏族，1973年生，博士；2017年于成都中医药大学民族医药学院获博士学位；为本科生讲授《藏医热病学》《藏医疫病学》《藏医外伤学》等课程；2001年7月至2024年3月任该院副教授，2024年4月至今任教授。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29952.htm)]
+- **李先加** 西宁。青海大学藏医学院院长、教授、博士生导师。学院青年教师团队官方简介页（发布日期2017年5月21日）写明：藏族，1966年生；曾任青海省海南州藏医院副院长、青海医学院藏医学系副主任、青海大学医学院藏医学系主任，2016年起任青海大学藏医学院院长、党委副书记。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29964.htm)]
+- **尕藏多吉** 西宁。青海大学藏医学院教授、医学博士。学院青年教师团队官方简介页（发布日期2017年5月21日）写明：藏族，青海省循化县人，1978年6月出生；先后在西藏藏医学院获学士、硕士学位，2014年于青海大学获医学博士学位，2005年11月起在青海大学藏医学院工作。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29958.htm)]
+- **扎西东主** 西宁。青海大学藏医学院官方个人页（栏目为青年教师团队）写明：扎西东主，男，藏族，1982年生，博士，教授。教育经历写明：2003年青海医学院医学学士，2006年青海大学医学院医学硕士，2014年青海大学医学院医学博士。工作经历写明：2014年起任青海大学附属医院藏医门诊副主任，2017年起任该门诊主任。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29955.htm)]
+- **子巴** 西宁。青海大学藏医学院官方个人页写明：子巴，男，藏族，青海尖扎人，1967年6月出生，教授；青海省藏医药学会会员，青海大学藏医学院藏医药综合实验室主任。教育与研修经历写明：1992–1993年在拉萨西藏藏医学院学习，其后在青海医学院学习藏医专业，2007年在日本国阿如拉藏医学中心研修。工作经历写明：1998年4月至今在青海医学院藏医系任教。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29967.htm)]
+- **切羊让忠** 西宁。青海大学藏医学院官方个人页写明：切羊让忠，男，藏族，青海省贵德县人，1982年12月出生，教授、医学博士。教育经历写明：2001–2005年在青海医学院获学士学位；2007–2010年在青海大学藏医学院获硕士学位；2010–2011年在四川大学华西药学院国内访问学习。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29947.htm)]
+- **贡却坚赞** 西宁。青海大学藏医学院官方个人页写明：贡却坚赞，男，藏族，1965年出生，留美博士，副教授，硕博士生导师。教育经历写明：2000年获泰国玛希隆大学初级保健护理管理学硕士，2001年获美国佛蒙特国际研修学院国际及跨文化间管理学硕士，2010年获美国洛杉矶加州大学（UCLA）公共卫生学院公共卫生学博士。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29965.htm)]
+- **仁青多杰** 西宁。青海大学藏医学院官方个人页写明：仁青多杰，男，藏族，1987年出生，博士，副教授。页面写明其为青海省“高端创新人才千人计划：藏药防治重大疾病研究创新团队”培养团队成员，并曾为美国洛杉矶加州大学公卫学院、弗吉尼亚大学医学院访问学者，以及北京大学医学部医学人文研究院、中国中医科学院中国医史文献研究所访问学者。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29953.htm)]
+- **角巴加** 西宁。青海大学藏医学院官方个人页写明：角巴加，男，藏族，青海省尖扎县人，1979年4月出生，副教授、医学博士。教育经历写明：1998–2003年在青海医学院获学士学位；2006–2009年在青海大学藏医学院获硕士学位；2008–2009年在四川大学华西医学中心国内访问学习。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29959.htm)]
+- **赵成周** 西宁。青海大学藏医学院官方个人页页首写明：赵成周，男，汉族，1986年生，博士，副教授。教育经历写明：2006–2010年西南民族大学生命科学与技术学院学士，2010–2016年兰州大学生命科学学院植物学硕博连读。工作经历栏写明：“2016年9月至今，青海大学藏医学院，讲师”。教学栏写明，为本科生讲授药用植物学、生物化学、分子生物学等课程，并列出英文论文。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/29956.htm)]
+- **娘去先** 西宁。青海大学藏医学院官方个人页写明：娘去先，甘肃甘南人，中共党员，医学博士，副教授。页面写明其曾分别在甘肃中医药大学藏医学院、西藏藏医药大学、青海大学藏医学院攻读本科、硕士和博士学位；2013–2021年在基层担任藏医全科医生；2021年9月开始在青海大学藏医学院工作；2021年被评为青海省“昆仑英才·高端创新创业人才”计划直接认定拔尖人才。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/c30ecc94d98a4cec9096752f43f6cc26.htm)]
+- **普措多杰** 西宁。青海大学藏医学院官方个人页写明：普措多杰，男，博士，副教授，副主任医师，硕士研究生导师，青海省“昆仑英才·高端创新创业人才”拔尖人才；现任青海大学藏医学院研究生教育与学科建设办公室主任。研究方向写明为藏医人体学与内科学核心理论、藏医特色外治疗法，以及《四部医典》版本与语言学研究。教育与工作经历写明：在青海大学完成藏医学学士、硕士与藏医药学博士。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/4b5c32277b274851b046aec0a4fb6513.htm)]
+- **索南才旦** 西宁。青海大学藏医学院官方个人页写明：索南才旦，男，博士，副教授，藏医主治医师，硕士研究生导师。研究方向写明包括藏医核心理论、藏医医史文献、内生细菌促进植物生长机理，以及藏医内科学。教育与工作经历写明：2008–2019年在青海大学完成藏医学（藏西医结合）学士、民族医学（藏医学）硕士和民族医学（藏医藏药）博士，2019年9月至今在青海大学藏医学院任副教授。 [青海大学藏医学院] [[主页](https://zyxy.qhu.edu.cn/szdw/qnjstd/755bf599766f417bae86b785331feef4.htm)]
 
 ## 宁夏（3）
 
@@ -1008,16 +1028,32 @@
 
 - **Xian Zhou** 西悉尼大学 NICM 健康研究所高级研究员。用机器学习刻画草药活性分子的协同或拮抗，并指导研究生。 [西悉尼大学 NICM 健康研究所] [[主页](https://researchers.westernsydney.edu.au/en/persons/phoebe-zhou/)]
 
-## 其他（8）
+## 其他（19）
+
+### Western Sydney University（6）
+
+- **Xiaoshu Zhu** 悉尼。西悉尼大学官方研究者档案页写明：Xiaoshu Zhu 为教授，职务是 Head of Discipline, Health Sciences, Traditional Chinese Medicine, and Paramedicine，所属 School of Health Sciences。 [Western Sydney University] [[主页](https://researchers.westernsydney.edu.au/en/persons/xiaoshu-zhu)]
+- **Alan Bensoussan** 悉尼。西悉尼大学 NICM Health Research Institute 官方人员页写明：Alan Bensoussan 为整合医学荣休教授（Emeritus Professor of Integrative Medicine），学位包括 PhD、MSc、AdvCAc、DipAc、PG DipEd 与 BSc。 [Western Sydney University，NICM Health Research Institute] [[主页](https://www.westernsydney.edu.au/nicmhri/about-us/people/researchers/alan-bensoussan)]
+- **Dennis Chang** 悉尼。西悉尼大学 NICM Health Research Institute 官方人员页与学校 Pure 档案页均已打开。NICM 页写明：Dennis Chang 为研究所所长、执行委员会成员、药理学教授；研究兴趣包括草药及其他补充医学干预的临床与药理学研究。 [Western Sydney University，NICM Health Research Institute] [[主页](https://www.westernsydney.edu.au/nicmhri/about-us/people/researchers/dennis-chang)] [[研究者档案](https://researchers.westernsydney.edu.au/en/persons/dennis-chang)]
+- **Mike Armour** 悉尼。西悉尼大学官方研究者档案页写明：Mike Armour 的职务为 Principal Fellow - Reproductive Health，所属 NICM Health Research Institute；ORCID 为 0000-0001-7539-9851，接受 HDR 候选人。 [Western Sydney University，NICM Health Research Institute] [[主页](https://researchers.westernsydney.edu.au/en/persons/mike-armour)]
+- **Suzanne Grant** 悉尼。西悉尼大学官方研究者档案页写明：Suzanne Grant 所属 NICM Health Research Institute。简介写明她在该校主持整合肿瘤学与整合医学的临床嵌入式研究，并共同创立西悉尼整合健康诊所（Western Sydney Integrative Health, WSIH），领导其研究项目与长期战略。 [Western Sydney University，NICM Health Research Institute] [[主页](https://researchers.westernsydney.edu.au/en/persons/suzanne-grant)]
+- **Chun Guang Li** 悉尼。西悉尼大学官方研究者档案页写明：Professor Chun Guang Li 的职务为 Director - Higher Degree Research，所属 NICM Health Research Institute；ORCID 为 0000-0002-7789-2209。学历栏写明他拥有墨尔本大学哲学博士。 [Western Sydney University，NICM Health Research Institute] [[主页](https://researchers.westernsydney.edu.au/en/persons/chun-guang-li)]
+
+### RMIT University（4）
+
+- **Charlie C. Xue** 墨尔本。RMIT University 杰出教授、副校长（国际事务）协理。学校官方简介页写明：自1987年起在高等教育和健康产业工作；2021年1月起任 Associate Deputy Vice Chancellor (International)；杰出教授职务于2024年再获续聘至2028年。 [RMIT University] [[主页](https://www.rmit.edu.au/profiles/x/charlie-xue)]
+- **Angela Yang** 墨尔本。RMIT University 官方人员页写明：Angela Yang 为副教授（Associate Professor），职务是 Discipline Lead, Chinese Medicine，所属 School of Health and Biomedical Sciences，校区为 Bundoora West。 [RMIT University] [[主页](https://www.rmit.edu.au/profiles/y/angela-yang)]
+- **Zhen Zheng** 墨尔本。RMIT University 官方人员页写明：Zhen Zheng 为教授，所属 School of Health and Biomedical Sciences，校区为 Bundoora West；ORCID 为 0000-0001-6777-1166。 [RMIT University] [[主页](https://www.rmit.edu.au/profiles/z/zhen-zheng)]
+- **Tony Zhang** 墨尔本。RMIT University 官方人员页写明：Tony Zhang 为教授，现任健康与生物医学学院副院长（国际事务）（Deputy Dean, International），所属 School of Health and Biomedical Sciences，校区为 Bundoora West。 [RMIT University] [[主页](https://www.rmit.edu.au/profiles/z/tony-zhang)]
 
 ### 中医在线（2）
 
 - **何剑** 中医在线创始人、首席执行官。用名老中医课程数据推动伊尹中医大模型。 [中医在线] [[新闻](https://www.vbdata.cn/1519007974)]
 - **任毅** 中医在线首席技术官。带领团队部署并微调中医大模型。 [中医在线] [[新闻](https://www.vbdata.cn/1519007974)]
 
-### RMIT University（1）
+### University of California, Los Angeles（1）
 
-- **Charlie C. Xue** 墨尔本。RMIT University 杰出教授、副校长（国际事务）协理。学校官方简介页写明：自1987年起在高等教育和健康产业工作；2021年1月起任 Associate Deputy Vice Chancellor (International)；杰出教授职务于2024年再获续聘至2028年；曾担任该校中医学科负责人，2011–2021年任澳大利亚中医管理局国家主席，2007年起为世界卫生组织传统医学专家咨询小组成员，2005–2022年任 RMIT 世界卫生组织传统医学合作中心主任。研究兴趣包括循证医学和传统医药证据评价。本次打开了 RMIT 官方人员页。页面未见中文姓名，故条目沿用官方英文名。 [RMIT University] [[主页](https://www.rmit.edu.au/profiles/x/charlie-xue)]
+- **Kakit P. Hui** 洛杉矶。加州大学洛杉矶分校官方 UCLA Profiles 人员页写明：Kakit P. Hui 的职务为 Professor of Clinical, Medicine，所属医学院（School Medicine），邮箱为 khui@mednet.ucla.edu。页面概述写明：Dr. Kakit P。 [University of California, Los Angeles] [[主页](https://profiles.ucla.edu/kakit.hui)]
 
 ### 南洋理工大学（1）
 
@@ -1027,9 +1063,13 @@
 
 - **白伟民** 安顿健康创始人、董事长。发布七诊合参中医机器人和中医大模型。 [安顿健康] [[新闻](https://www.xinhuanet.com/finance/20260720/f6a8625c1be4412d9c311a232c7a35fa/c.html)]
 
+### 富山大学和漢医薬学総合研究所（1）
+
+- **小泉桂一** 富山。富山大学和汉医药学综合研究所教授。研究所官方个人页写明：英文名为 Koizumi Keiichi；所属研究開発部门・未病分野／产官学连携部门；专门分野为和汉医药学、生物制剂学、未病学；学位为博士（药学）。 [富山大学和漢医薬学総合研究所] [[主页](https://www.inm.u-toyama.ac.jp/resercher/koizumi/)] [[研究者档案](https://u-toyama.elsevierpure.com/ja/persons/keiichi-koizumi)]
+
 ### 広島大学病院漢方診療センター（1）
 
-- **小川恵子** 广岛。広島大学病院漢方診療センター教授，学位为名古屋大学博士（医学）。学校研究者総覧官方页写明英文名 KEIKO OGAWA，Last Updated :2026/11/05；页面列出2026年本科及硕士、博士课程授课任务。医学部漢方医学研究室页写明：2022年12月开设広島大学大学院医系科学研究科漢方医学讲座，并开展机器学习望诊自动化、难治性疾病漢方治疗临床试验等研究。本次打开了広島大学研究者総覧和医学部研究室官方页。 [広島大学病院漢方診療センター] [[主页](https://seeds.office.hiroshima-u.ac.jp/profile/ja.bae84918205fbaba520e17560c007669.html)] [[研究室](https://www.hiroshima-u.ac.jp/med/research/lab/hospital/Kampo_Medicine)]
+- **小川恵子** 广岛。広島大学病院漢方診療センター教授，学位为名古屋大学博士（医学）。学校研究者総覧官方页写明英文名 KEIKO OGAWA，Last Updated :2026/11/05；页面列出2026年本科及硕士、博士课程授课任务。 [広島大学病院漢方診療センター] [[主页](https://seeds.office.hiroshima-u.ac.jp/profile/ja.bae84918205fbaba520e17560c007669.html)] [[研究室](https://www.hiroshima-u.ac.jp/med/research/lab/hospital/Kampo_Medicine)]
 
 ### 智赋岐黄（1）
 
@@ -1037,6 +1077,6 @@
 
 ### 東海大学医学部（1）
 
-- **野上達也** 神奈川。東海大学医学部専門診療学系漢方医学教授、博士（医学）。学校官方教員・研究者ガイド写明：研究关键词为传统医学、漢方医学；日本东洋医学会理事、和汉医药学会理事。学部漢方医学科室介绍页写明：1973年生，1998年毕业于富山医科药科大学医学部，2010年获博士学位，2020年任准教授，2025年任教授；为日本东洋医学会漢方专门医・指导医。本次打开了东海大学官方教員指南页、医学研究科教員页和科室スタッフ页。教員指南页结构化数据的 dateModified 为 2026-11-02T23:05:29+00:00（2026年11月3日 07:05，Asia/Shanghai）。 [東海大学医学部] [[主页](https://www.u-tokai.ac.jp/facultyguide/faculty/4480/)] [[研究科](https://www.med.u-tokai.ac.jp/grad_school/teacher/nogami_tatsuya/)] [[科室](https://kampo.med.u-tokai.ac.jp/staff.html)]
+- **野上達也** 神奈川。東海大学医学部専門診療学系漢方医学教授、博士（医学）。学校官方教員・研究者ガイド写明：研究关键词为传统医学、漢方医学；日本东洋医学会理事、和汉医药学会理事。学部漢方医学科室介绍页写明：1973年生，1998年毕业于富山医科药科大学医学部，2010年获博士学位，2020年任准教授，2025年任教授；为日本东洋医学会漢方专门医・指导医。 [東海大学医学部] [[主页](https://www.u-tokai.ac.jp/facultyguide/faculty/4480/)] [[研究科](https://www.med.u-tokai.ac.jp/grad_school/teacher/nogami_tatsuya/)] [[科室](https://kampo.med.u-tokai.ac.jp/staff.html)]
 
 返回 [[Home]] · 分类法见 [[Taxonomy]]。

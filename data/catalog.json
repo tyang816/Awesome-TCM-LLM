@@ -6,10 +6,10 @@
     "description_en": "Curated open TCM models, datasets, papers, and patents, plus TCM–AI supervisors.",
     "repo_url": "https://github.com/tyang816/Awesome-TCM-LLM",
     "portal_url": "https://tyang816.github.io/projects/tcm/",
-    "updated_at": "2026-11-26",
+    "updated_at": "2026-11-28",
     "catalog_version": 1
   },
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-28",
   "items": [
     {
       "id": "news-202609-27",
@@ -32098,6 +32098,1765 @@
       },
       "status": "published",
       "verified_at": "2026-11-26"
+    },
+    {
+      "id": "news-202611-nmpa-tcm-injection-postmarketing",
+      "name": "国家药监局、国家卫生健康委、国家中医药局发布《关于推进药品上市许可持有人深入开展中药注射剂上市后研究和评价工作的公告》（2026年第112号）",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.11.20",
+      "summary_zh": "国家药品监督管理局、国家卫生健康委员会、国家中医药管理局联合发布《关于推进药品上市许可持有人深入开展中药注射剂上市后研究和评价工作的公告》（2026年第112号）。公告适用于《中华人民共和国药品管理法》（2019年修订）实施前已上市的中药注射剂，共十一条，落款日期为2026年11月20日，写明自发布之日起实施。公告要求药品上市许可持有人严格履行质量安全主体责任，依法主动开展上市后研究和评价，研究物质基础及与临床疗效相关的作用机制，围绕临床价值综合评价获益/风险；对风险大于获益的品种应当停止生产、销售；并应优先对《国家基本药物目录》和医保药品目录内品种开展有关工作。持有人须先评估品种是否达到预期临床安全性和有效性，未达到的应主动申请注销药品注册证书；研究应基于药监部门核准或符合《药品上市后变更管理办法》第二十三条规定而固定的生产工艺，临床研究原则上围绕已有功能主治或适应症范围开展。公告还规定与药审中心沟通交流和补充申请路径，对相关注册申请和沟通交流申请设立单独序列予以加快；对经审评获益大于风险的品种，在国家药监局网站药品查询专栏标注“已完成上市后研究和评价”，并优先将核准的药品注册标准转化为国家药品标准。对未按要求完成研究评价或存在安全风险、标准难以保证质量稳定可控的品种，可依法采取列入重点监管、不予再注册、注销注册证书、暂停生产或责令开展研究等措施。本次打开了中国食品药品网2026年11月27日20:23发布的全文页（HTTPS 200），页面完整转载该公告十一条正文、落款及政策解读；稿件写明三部门于11月27日联合发布实施该公告。直接访问国家药监局官网及药品公告通告栏目返回HTTP 412或504，未作为打开成功的正文页。这是国家层面推进已上市中药注射剂上市后研究和评价的正式公告，不是单项产品发布或征求意见稿。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "中国食品药品网": "https://www.cnpharm.com/c/2026-11-27/1111457.shtml"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "news-202611-cde-tcm-injection-eval-reqs",
+      "name": "国家药监局药审中心发布《中药注射剂上市后研究和评价基本技术要求》和《中药注射剂上市后研究和评价申报资料要求》（2026年第58号）",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.11.26",
+      "summary_zh": "国家药品监督管理局药品审评中心发布《中药注射剂上市后研究和评价基本技术要求》和《中药注射剂上市后研究和评价申报资料要求》的通告（2026年第58号）。通告写明：为贯彻落实《国家药监局 国家卫生健康委 国家中医药局关于推进药品上市许可持有人深入开展中药注射剂上市后研究和评价工作的公告》（2026年第112号），按照国家药监局部署，药审中心组织制定上述两份文件，经国家药监局审查同意后发布，自发布之日起施行；通告落款日期为2026年11月26日。药审中心官网首页将该通告列为2026年11月27日发布。《基本技术要求》提出以患者为中心、以临床价值为导向、坚持最严谨的标准等原则，要求持有人先评估注射给药必要性、功能主治和临床定位合理性及风险获益，再在固定生产工艺基础上开展药学研究、非临床安全性研究、临床有效性与安全性研究及作用机制研究，并完善说明书安全性信息。《申报资料要求》规定行政文件和药品信息、概要、药学、药理毒理、临床及其他研究资料的整理要求，并允许基于已上市品种情况简化或免于提供部分资料。本次打开了中国食品药品网2026年11月27日20:52全文转载页（来源标注为国家药监局药审中心网站，HTTPS 200），以及同站两份附件PDF（基本技术要求7页，HTTPS 200，320293字节；申报资料要求5页，HTTPS 200，266185字节）；同时经WebFetch打开了药审中心官网首页对通告标题、文号和20261127发布日期的官方列表。直接以curl访问药审中心首页返回HTTP 202及脚本验证页，未作为打开成功的正文页。这是落实第112号公告的国家级中药注射剂上市后评价技术文件，不是单项产品发布或征求意见稿。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "中国食品药品网": "https://www.cnpharm.com/c/2026-11-27/1111465.shtml",
+        "基本技术要求PDF": "https://www.cnpharm.com/upload/resources/file/2026/11/27/197188.pdf",
+        "申报资料要求PDF": "https://www.cnpharm.com/upload/resources/file/2026/11/27/197189.pdf"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "solid-tcm",
+      "name": "The SOLID-TCM statement: reporting guideline for real-world observational studies of traditional Chinese medicine formulas",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.27",
+      "venue": "BMC Medicine",
+      "doi": "10.1186/s12916-026-05443-1",
+      "orgs": [
+        "West China Hospital, Sichuan University"
+      ],
+      "summary_zh": "Qi Yana、Li Ling、Tan Jing 等与通讯作者 Yu Jiajie、Sun Xin 在 BMC Medicine 发表报告规范（Guideline），提出 SOLID-TCM Statement，用于规范中药方剂真实世界观察性研究的报告。官方文章页写明：现有规范分别覆盖观察性研究、常规收集健康数据或中医药干预研究，但缺乏针对中药方剂真实世界观察性研究的整合性指导。该声明按 EQUATOR Network 路径制定，经过对既有规范与方法框架的结构化回顾、两轮德尔菲、独立外部定性评议和终轮共识会，参与者包括临床、流行病学、真实世界数据、期刊编辑和监管等多学科国际专家。最终形成 6 个部分、25 个域、40 个报告条目，并整合证候辨识、方剂组成与加减、暴露定义、数据来源、链接与人群覆盖等中药方剂与真实世界数据要素；另有 Explanation and Elaboration 文件提供说明。官方页标注 Published: 27 November 2026，Open access，文章类型 Guideline。通讯作者邮箱域名与伦理声明均指向四川大学华西医院（伦理批件 No. 2023-2297）；官方页列出了很长的作者单位编号，但本次打开的页面摘录未完整展开全部单位名称，故单位仅收录页面上可直接核验的四川大学华西医院。本次通过 WebFetch 打开了 Springer Nature / BMC Medicine 官方文章页并读到标题、作者、摘要、发表日期与开放获取标识；curl 访问同一 URL 仍返回 Client Challenge，未能取得开放 PDF 文件。",
+      "tags": [
+        "method",
+        "herbal"
+      ],
+      "links": {
+        "论文": "https://link.springer.com/article/10.1186/s12916-026-05443-1",
+        "DOI": "https://doi.org/10.1186/s12916-026-05443-1"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "xu2026-dm3c-acu",
+      "name": "Xu et al. 2026: Dual-Model Collaboration with Consistency Calibration for Intelligent Acupuncture Prescription Recommendation",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.26",
+      "venue": "Chinese Journal of Integrative Medicine",
+      "doi": "10.1007/s11655-026-4182-0",
+      "orgs": [
+        "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine",
+        "Key Laboratory of Acupuncture and Medicine Research of Ministry of Education, Nanjing University of Chinese Medicine",
+        "Jiangsu Provincial Research Institute of Chinese Medicine Schools",
+        "Jiangsu Collaborative Innovation Centre for TCM Oncology Prevention and Treatment",
+        "Jiangsu Engineering Research Centre for Development and Application of External TCM",
+        "Tang Zhongying Centre for TCM Epidemic Disease Research, Nanjing University of Chinese Medicine"
+      ],
+      "summary_zh": "徐毅初（Yi-chu Xu）、彭晓倩、文静、王欣瑜、夏有兵、徐天成、杨涛与通讯作者胡孔法（Kong-fa Hu）在 Chinese Journal of Integrative Medicine 发表研究，提出用于智能针灸处方推荐的双模型协同与一致性校准方法 DM3C。官方摘要将症状到穴位映射表述为端到端文本生成任务，并写明该方法结合领域微调生成器、检索增强的大语言模型输出，以及经一致性校准的随机森林过滤器，以提升智能针灸处方推荐的泛化与召回，作者认为其可作为辅助穴位推荐工具。栏目为 AI Research in Chinese Medicine。官方页标注 Published: 26 November 2026。数据可用性声明写明病例来自若干已出版专著，因版权不能再分发原文，去标识注释与代码需向通讯作者合理申请。本次通过 WebFetch 打开了 Springer 官方文章页并读到标题、作者、摘要与发表日期。同一 DOI 的 PubMed 记录（PMID 43097059，PubDate 2026 Nov 26）提供了南京中医药大学等单位信息，与官方页作者名单一致。curl 访问同一官方 URL 仍返回 Client Challenge，官方页未提供可成功下载的开放 PDF。",
+      "tags": [
+        "rag",
+        "prescription"
+      ],
+      "links": {
+        "论文": "https://link.springer.com/article/10.1007/s11655-026-4182-0",
+        "DOI": "https://doi.org/10.1007/s11655-026-4182-0"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "wang2026-sdt-kd-dpo",
+      "name": "Wang et al. 2026: Construction and application of a traditional Chinese medicine syndrome differentiation and treatment model grounded in knowledge distillation and reinforcement learning",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.05.13",
+      "venue": "Health Information Science and Systems",
+      "doi": "10.1007/s13755-026-00451-0",
+      "orgs": [
+        "School of Artificial Intelligence and Information Technology, Nanjing University of Chinese Medicine",
+        "Jiangsu Engineering Research Center for Smart Traditional Chinese Medicine Health Services",
+        "Tang Zhongying Research Center for Traditional Chinese Medicine Epidemic Diseases, Nanjing University of Chinese Medicine",
+        "The First Clinical Medical College, Nanjing University of Chinese Medicine",
+        "Jiangsu Provincial Research Institute of Chinese Medicine Schools"
+      ],
+      "summary_zh": "王鑫宇（Xinyu Wang）、孙晓和（Xiaohe Sun）（并列）以及沈吉龙、谢佳栋、徐毅初、杨涛、程海波与胡孔法在 Health Information Science and Systems 发表研究，构建基于知识蒸馏与强化学习的中医辨证论治模型。官方摘要写明：以 GPT-4o 为教师模型对中医临床医案做知识蒸馏，生成辨证论治指令数据；再以 LoRA 对 Qwen2.5-7B 微调，并利用另一批医案、采用 Direct Policy Optimization（DPO）强化学习继续优化，以贴近专家诊疗偏好。作者报告蒸馏策略在增强可解释性与外部数据泛化的同时，处方推荐性能与直接训练相当，DPO 改善了外部数据集上预测结果的稳定性；并认为由此构建的中医大语言模型可增强诊疗推理与个性化辨证论治能力。官方文章页标注 Research、Published: 13 May 2026。Crossref 记录为 volume 14、article number 64。官方页同时提示 This is a preview of subscription content，本次打开了官方文章页并读到完整摘要与元数据，但未能取得开放 PDF。单位信息来自同一 DOI 的 PubMed 记录（PMID 42146318）。",
+      "tags": [
+        "reasoning",
+        "syndrome"
+      ],
+      "links": {
+        "论文": "https://link.springer.com/article/10.1007/s13755-026-00451-0",
+        "DOI": "https://doi.org/10.1007/s13755-026-00451-0"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "surv-wu2026-imr-tongue-cancer",
+      "name": "Wu et al.: Exploring traditional Chinese medicine tongue diagnosis in potential cancer identification: A scoping review",
+      "type": "survey",
+      "year": 2026,
+      "date": "2025.10.13",
+      "venue": "Integrative Medicine Research",
+      "doi": "10.1016/j.imr.2025.101265",
+      "orgs": [
+        "School of Health and Biomedical Sciences, STEM College, RMIT University",
+        "School of Computer Science, The University of Sydney",
+        "School of Veterinary Science, The University of Sydney",
+        "School of Science, STEM College, RMIT University",
+        "Nanjing University of Traditional Chinese Medicine"
+      ],
+      "summary_zh": "Wu Maria Benxia、Wu Yong-Kang、Chen Meng-Hua、Kimble Benjamin、May Brian、Chan Vincent、Stylianou Stella、Xu Bin、Sze Daniel Man-yuen 与通讯作者 Zheng Zhen（RMIT University School of Health and Biomedical Sciences）在 Integrative Medicine Research 发表关于中医舌诊用于潜在肿瘤识别的范围综述。官方 PMC 全文页摘要写明：检索排除个案报告后的临床研究，纳入 24 项研究（14 项病例对照、4 项横断面、5 项观察性、1 项前瞻性多中心队列），共 5458 例肿瘤患者和 7880 例对照。报告的舌象特征包括舌体侧缘凸起、舌下结节、舌下络脉怒张、紫暗舌及苔厚变化等，并与不同癌种及转移相关。作者用 QUADAS-2 评估后认为总体质量偏低，受试者选择和索引试验等关键域可能存在高偏倚风险，并强调尚不能据此用于临床，需要更多前瞻、盲法判读、预指定阈值和透明报告。PMC 页 citation_publication_date 为 2025 Oct 13，并写明 Received 2025 Apr 4、Revised/Accepted 2025 Oct 12、Issue date 2026 Jun；卷 15 期 2，文章编号 101265；PMID 41626136。本次打开了 PMC 官方全文 HTML 页（HTTP 200），该页提供官方 PDF 链接。ScienceDirect / IMR 期刊官网本次仍为 403，未作为打开依据。这是综述，不是新模型发布。",
+      "tags": [
+        "survey",
+        "multimodal"
+      ],
+      "links": {
+        "论文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12856187/",
+        "DOI": "https://doi.org/10.1016/j.imr.2025.101265"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "liang2026-stroke-syndrome-ml",
+      "name": "Liang et al. 2026: An interpretable machine-learning model for Traditional Chinese Medicine syndrome differentiation in ischemic stroke using integrated disease–syndrome features",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.12",
+      "venue": "Frontiers in Pharmacology",
+      "doi": "10.3389/fphar.2026.1983993",
+      "orgs": [
+        "Department of Neurology, Deyang Hospital Affiliated Hospital of Chengdu University of Traditional Chinese Medicine",
+        "Department of Oncology, Deyang Hospital Affiliated Hospital of Chengdu University of Traditional Chinese Medicine"
+      ],
+      "summary_zh": "梁任龙（Renlong Liang）、丁恒、简睿、贾迎欣与林敏在 Frontiers in Pharmacology 发表研究，构建并内部验证用于缺血性中风中医辨证的可解释机器学习模型，融合现代临床特征与中医四诊相关特征。官方全文页写明：纳入四川某三级中医医院 616 例缺血性中风患者，51 个候选预测变量覆盖人口学、卒中严重程度、实验室指标、梗死特征、病史以及中医症状、舌象和脉象，证型为五类；训练集 495 例、内部测试集 121 例。特征筛选采用分组多项 LASSO，并比较随机森林、SVM-RBF 与 XGBoost。作者报告在内部测试集上，随机森林准确率 0.752（95% CI 0.678–0.826）、Macro-F1 0.744（0.650–0.819），XGBoost 的 Macro AUC 0.945（0.916–0.970）、Hand-Till 多类 AUC 0.944（0.912–0.970）；三者总体正确率差异不显著，作者选择 XGBoost 作进一步分析，并报告多类 Brier 分数 0.358、Brier skill score 0.540。SHAP 提示 LDL-C、年龄、弦脉、BMI、腰膝酸软、红舌、胖大舌、同型半胱氨酸、甘油三酯和高血压等为主要全局贡献因素。作者明确这是单中心内部评价，不支持直接用于临床决策或处方指导，需外部验证和前瞻评价。官方页 citation_publication_date 为 2026/11/12，citation_online_date 为 2026/11/04，文章类型 Original Research。本次打开了 Frontiers 官方全文 HTML 页（HTTP 200），该页提供官方 PDF 链接。上述指标均为作者自报。",
+      "tags": [
+        "syndrome"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1983993/full",
+        "DOI": "https://doi.org/10.3389/fphar.2026.1983993",
+        "PDF": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1983993/pdf"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "liu2026-imcs-colorectal",
+      "name": "Liu et al. 2026: An Integrative Medicine Colorectal Screening (IMCS) Model for Predicting Colorectal Neoplasm: A Cross-Sectional Study of 2,047 Participants",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.05",
+      "venue": "International Journal of General Medicine",
+      "doi": "10.2147/IJGM.S640776",
+      "orgs": [
+        "Guangzhou University of Chinese Medicine",
+        "College of Basic Medical Science, Guangzhou University of Chinese Medicine",
+        "Shenzhen Longgang Second People's Hospital",
+        "The Second Clinical Medical College of Guangzhou University of Chinese Medicine",
+        "Department of Gastroenterology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine"
+      ],
+      "summary_zh": "刘畅（Chang Liu）、帅宇星（并列第一）以及叶惠珍、吴崇山、胡福斌、范龙秀、程绍瑜、张北平、张海燕、刘天文与通讯作者陈新林（Xin-Lin Chen，广州中医药大学基础医学院）、钟彩玲（Cailing Zhong，广州中医药大学第二附属医院脾胃病科）在 International Journal of General Medicine 发表横断面研究，构建整合医学结直肠肿瘤筛查模型 IMCS。官方 PDF 写明：2022年3月8日至2023年7月21日在广东省中医院招募拟行肠镜者，纳入 2,047 人，最终分析 1,814 人（结直肠肿瘤占比 39.25%）；采集问卷、舌面与面部照片并完成肠镜。作者报告显著预测因素包括男性、年龄、高血压、饮酒、舌象特征以及面口三角区色素痣；经单因素和多因素逻辑回归筛选 10 个特征，比较五种机器学习算法。作者自报：XGBoost 在训练集 AUC 为 0.817（95% CI 0.794–0.841），逻辑回归在验证集 AUC 为 0.690（95% CI 0.644–0.736）；作者称 IMCS（LR）优于 APCS、M-APCS、CNP 等既有模型（Delong 检验，均 P<0.05），校准均方误差 0.212（P=0.425），并给出净获益区间 0.144–0.265。官方 PDF 标注 Received: 21 July 2026、Accepted: 24 October 2026、Published: 5 November 2026，并声明 Creative Commons Attribution – Non Commercial 许可。本次打开了期刊官方文章页（含 citation 元数据，发表日期 2026/11/05）以及官方 PDF（HTTP 200，%PDF-1.5）。指标均为作者自报。",
+      "tags": [
+        "multimodal",
+        "clinical"
+      ],
+      "links": {
+        "论文": "https://doi.org/10.2147/IJGM.S640776",
+        "DOI": "https://doi.org/10.2147/IJGM.S640776",
+        "PDF": "https://www.dovepress.com/article/download/121889"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "lu2026-tongue-mafld-fusion",
+      "name": "Lu et al. 2026: Tongue Image Analysis and Clinical Data Fusion: A Novel Approach for Non-invasive Diagnosis of Metabolic Dysfunction-associated Fatty Liver Disease",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.04.08",
+      "venue": "Journal of Clinical and Translational Hepatology",
+      "doi": "10.14218/JCTH.2025.00631",
+      "orgs": [
+        "Institute of Liver Diseases, Hubei Provincial Hospital of Traditional Chinese Medicine",
+        "Guang’an men Hospital, China Academy of Chinese Medical Sciences",
+        "University of Electronic Science and Technology of China",
+        "Hubei Provincial Key Laboratory of Traditional Chinese Medicine for Kidney and Liver Diseases",
+        "Hubei Shizhen Laboratory",
+        "Department of Biomedical Engineering, City University of Hong Kong",
+        "Institute of Digital Medicine, City University of Hong Kong",
+        "City University of Hong Kong Futian-Shenzhen Research Institute"
+      ],
+      "summary_zh": "陆晨霞（Chen-Xia Lu）、田川溪（并列第一）以及焦一博、朱辉、余海燕、舒子欣、张凌涵、张家、王兰、郝琦、邹文斌、肖明中、刘成海、何秋阳与通讯作者 Khoo Bee Luan（香港城市大学数字医学研究所）、李晓东（Xiao-Dong Li，湖北省中医院）在 Journal of Clinical and Translational Hepatology 发表研究，构建融合舌象与常规临床数据的可解释多模态深度学习模型，用于代谢相关脂肪性肝病（MAFLD）筛查。官方文章页写明：904 名筛查对象中纳入 477 人（健康 157、MAFLD 320），按 8:1:1 随机分为训练、验证和测试集；舌象采用 CIE L*a*b 颜色特征，模型为 ConvNeXt-Tiny 与多层感知机的双流结构，并以 Dynamic Affine Feature Transformation 做特征融合。作者报告独立测试集（n=48）上多模态模型准确率 97.92%、Quadratic Weighted Kappa 0.9538、灵敏度 96.88%、特异度 100%，并称优于单模态及血清学模型；同时观察到舌黄（b* 值）随纤维化进展下降。官方“About this Article”写明 J Clin Transl Hepatol. 2026;14(4):416-429，Received November 24, 2025，Revised January 20, 2026，Accepted March 2, 2026，Published April 8, 2026。本次打开了 Xia & He Publishing 官方文章页（HTTP 200）并读到摘要、作者单位与日期。测试集仅 48 例，上述指标均为作者自报。该文与已待写入的舌象微生物组-MASLD 研究不是同一工作。",
+      "tags": [
+        "multimodal"
+      ],
+      "links": {
+        "论文": "https://www.xiahepublishing.com/2310-8819/JCTH-2025-00631",
+        "DOI": "https://doi.org/10.14218/JCTH.2025.00631"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "li2026-bingzheng-intelligent",
+      "name": "李新龙等 2026：从疾病“模糊性与精确性”再议病证结合模式下中医智能辨证的思路",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.04.02",
+      "venue": "中医杂志",
+      "doi": "10.13288/j.11-2166/r.2026.07.001",
+      "orgs": [
+        "北京中医药大学东直门医院",
+        "国家中医药管理局中医师资格认证中心",
+        "北京中医药大学东方医院"
+      ],
+      "summary_zh": "李新龙、王速临、闫东宁、赵欣然与张根明（邮箱 zhanggenming@163.com）在《中医杂志》发表论文，讨论病证结合模式下中医智能辨证的思路。期刊官方文章页摘要提出：症状信息的模糊性在缺乏约束的症证直接推理中易被放大，传统中医疾病概念难以作为高稳定性先验；作者主张以现代医学疾病作为结构性先验变量，重构病、症、证三层信息关系，通过疾病约束实现四诊信息筛选与推理空间压缩，并结合人工智能多模态融合、知识图谱等技术，构建先验知识与临床数据联合驱动的智能辨证模式。官方页标注 2026 年 67 卷 07 期，页码 705-709，DOI 10.13288/j.11-2166/r.2026.07.001，发布时间与出版时间均为 2026-04-02。基金项目包括国家自然科学基金（82305058）等。本次打开了《中医杂志》官方门户文章页（HTTP 200）并读到中英文关键词、摘要、作者、单位、DOI 与日期。",
+      "tags": [
+        "kg"
+      ],
+      "links": {
+        "论文": "https://zzyz.cbpt.cnki.net/portal/journal/portal/client/paper/8ec65e47df61cdcdb030992d9e33bbfe",
+        "DOI": "https://doi.org/10.13288/j.11-2166/r.2026.07.001"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "wu2026-chd-ai-cds",
+      "name": "吴文俊等 2026：冠心病中西医结合智能辅助诊疗系统的构建框架与实施路径",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.16",
+      "venue": "中医杂志",
+      "doi": "10.13288/j.11-2166/r.2026.22.005",
+      "orgs": [
+        "河南中医药大学第一附属医院心脏中心",
+        "河南省中医药科学院心血管疾病研究所",
+        "中西医防治重大疾病河南省协同创新中心",
+        "河南中医药大学第一临床医学院",
+        "河南中医药大学信息技术学院"
+      ],
+      "summary_zh": "吴文俊、王新陆、于瑞、李一卓、卫靖靖、李彬、许玉龙与朱明军（邮箱 zhumingjun317@163.com）在《中医杂志》发表论文，提出冠心病中西医结合智能辅助诊疗系统的构建框架与实施路径。期刊官方文章页摘要写明：针对诊断分型、危险分层、中医辨证、治疗推荐与随访管理协同不足，依据国内外冠心病诊疗指南、中医临床诊疗指南、专家共识及相关循证证据重构流程，系统设计包括西医诊断门控、中医证素辨识与证型候选生成、中西医融合知识图谱、指南规则引擎、模型研发与人机协同确认机制；数据框架以“病-证-症-诊-治-康-效”为核心，流程为“指南规则门控-证素辨识与证型候选生成-知识图谱推理-个体化推荐-医师确认-随访反馈”，并设定可解释性、安全性、临床可用性及分阶段验证路径。官方页标注 2026 年 67 卷 22 期，页码 2386-2396，DOI 10.13288/j.11-2166/r.2026.22.005，发布时间与出版时间均为 2026-11-16。基金包括国家科技重大专项（2024ZD0522000）和河南省中医药科研专项课题（2025ZKY009）。本次打开了《中医杂志》官方门户文章页（HTTP 200）并读到摘要、作者、单位、DOI 与日期。这是框架与方法学论文，不是已部署系统的效果评价。",
+      "tags": [
+        "kg"
+      ],
+      "links": {
+        "论文": "https://zzyz.cbpt.cnki.net/portal/journal/portal/client/paper/b6131b5bfe459f39449dd2a6c174ac68",
+        "DOI": "https://doi.org/10.13288/j.11-2166/r.2026.22.005"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "zhou2026-guideline-agent",
+      "name": "周峰等 2026：基于临床实践指南的中西医诊疗智能体构建的方法学思考",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.08.12",
+      "venue": "中医杂志",
+      "doi": "10.13288/j.11-2166/r.2026.17.009",
+      "orgs": [
+        "中国中医科学院中医临床基础医学研究所",
+        "首都医科大学附属北京中医医院"
+      ],
+      "summary_zh": "周峰、陈腾飞、张婉迪、李浩源、宗星煜、林甲昊、刘清泉与赵国桢在《中医杂志》发表论文，讨论基于临床实践指南构建中西医诊疗智能体的方法学问题。期刊官方文章页摘要提出：以指南为唯一数据源构建知识库，并梳理全流程五大核心方法学难题及对应方案，包括设计可区分中西医概念的本体框架、采用“算法提取-专家审核”闭环减少提取误差、依托专家共识弥补指南细分场景决策缺失、建立多阶段标准化智能体输出流程以减少幻觉，以及构建体现临床适用性的模型评价标准。作者还强调多学科专家全程参与、指南遴选与质量评价、智能体验证与迭代，并指出知识同步更新机制仍有局限，需大规模真实世界研究验证。官方页标注 2026 年 67 卷 17 期，页码 1853-1857，DOI 10.13288/j.11-2166/r.2026.17.009，发布时间、出版时间与网络发布时间均为 2026-08-12。基金项目包括国家自然科学基金（82505374）等。页面列有邮箱 dazhen2123@126.com，但未在摘录中明确标注对应哪一位作者。本次打开了《中医杂志》官方门户文章页（HTTP 200）。",
+      "tags": [
+        "agent"
+      ],
+      "links": {
+        "论文": "https://zzyz.cbpt.cnki.net/portal/journal/portal/client/paper/866cab845ebe6bf994dbec8596283d57",
+        "DOI": "https://doi.org/10.13288/j.11-2166/r.2026.17.009"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "zhangyr2026-ai-syndrome-threshold",
+      "name": "张瀛仁等 2026：基于认知主体性的人工智能中医诊断系统辨证能力阈值阐释与人机协同路径构建",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.10.14",
+      "venue": "中医杂志",
+      "doi": "10.13288/j.11-2166/r.2026.20.002",
+      "orgs": [
+        "暨南大学中医学院",
+        "北京中医药大学"
+      ],
+      "summary_zh": "张瀛仁、南楠、郝闻致与陈家旭（邮箱 chenjiaxu@hotmail.com）在《中医杂志》发表论文，讨论人工智能中医诊断系统的辨证能力阈值与人机协同路径。期刊官方文章页摘要提出：中医诊断的主体性与经验性决定 AI 中医诊断系统的辨证能力存在阈值，包括技术阈值和理论阈值，即系统因无法复刻医者主体认知、临证感知与人文关怀而形成的临界能力点；并据此提出人机协同实践路径，包括明确 AI 的辅助诊疗定位、优化算法以实现技术适配、强化医者主体素养培育、推进跨学科交叉协作。官方页标注 2026 年 67 卷 20 期，页码 2155-2160，DOI 10.13288/j.11-2166/r.2026.20.002，发布时间与出版时间均为 2026-10-14。基金项目包括国家重点研发计划（2023YFE0209500）、国家自然科学基金（82430126）等。本次打开了《中医杂志》官方门户文章页（HTTP 200）并读到摘要、作者、单位、DOI 与日期。这是理论与方法学讨论，不是新系统评测。",
+      "tags": [
+        "syndrome",
+        "method"
+      ],
+      "links": {
+        "论文": "https://zzyz.cbpt.cnki.net/portal/journal/portal/client/paper/b48bd0ddad3a85e5983c44cb07e79658",
+        "DOI": "https://doi.org/10.13288/j.11-2166/r.2026.20.002"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "liangjx2026-ai-tcm-heritage",
+      "name": "梁锦晓等 2026：人工智能应用与中医学术思想传承的冲突及策略研究",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.09.29",
+      "venue": "中医杂志",
+      "doi": "10.13288/j.11-2166/r.2026.19.001",
+      "orgs": [
+        "河南中医药大学",
+        "河南中医药大学第一附属医院"
+      ],
+      "summary_zh": "梁锦晓、栗蕊、赵瑞霞、崔鸿雁、杨星、王雪寒、任蕤、姜中旗与邵明义（邮箱 shmy1016@163.com）在《中医杂志》发表论文，讨论人工智能应用与中医学术思想传承的冲突及策略。期刊官方文章页摘要提出：现有 AI 模型基于形式逻辑与统计概率的“经典推理”模式，难以适配中医学以象思维、辨证论治为核心的非线性、整体性认知逻辑，可能导致数字化传承中核心精髓被误读；作者主张构建面向中医语境、基于语义映射与关系推理的辅助理解框架，将 AI 角色从知识“替代者”重构为临床“对话者”，并明确其在中医智慧传承中的应用边界。官方页标注 2026 年 67 卷 19 期，页码 2037-2041，DOI 10.13288/j.11-2166/r.2026.19.001，发布时间与出版时间均为 2026-09-29。基金项目包括国家自然科学基金（82474681）等。本次打开了《中医杂志》官方门户文章页（HTTP 200）。这是理论讨论，不是新模型或系统评测。",
+      "tags": [
+        "perspective"
+      ],
+      "links": {
+        "论文": "https://zzyz.cbpt.cnki.net/portal/journal/portal/client/paper/d36ef091dbf01c59fb077fe6ce4817c0",
+        "DOI": "https://doi.org/10.13288/j.11-2166/r.2026.19.001"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "zhoucy2026-tcm-plan-equity",
+      "name": "Zhou et al. 2026: Evidence and equity in implementing China’s traditional Chinese medicine plan for 2026–2030",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.27",
+      "venue": "Frontiers in Public Health",
+      "doi": "10.3389/fpubh.2026.2008413",
+      "orgs": [
+        "Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences",
+        "Dongfang Hospital, Beijing University of Chinese Medicine",
+        "Monitoring and Statistical Research Center, National Administration of Traditional Chinese Medicine"
+      ],
+      "summary_zh": "周崇云（Chongyun Zhou）、王一凡、张楚楚、白一晨、刘洋与李海燕在 Frontiers in Public Health 发表政策简报，讨论中国中医药发展“十五五”规划（2026—2030 年）落地中的证据与公平问题。官方全文页摘要写明：扩大供给本身不足以确立健康获益；作者比较了扩容、广泛报销，以及与证据、安全和公平挂钩的分阶段整合三条路径，并建议采取第三条，强调对资源不足县的针对性投入、按干预设定准入、共享临床路径，以及保护基本医疗服务。作者建议省级部门制定服务清单、为人力提供财政支持、监测患者结局与费用负担，并在推广前独立评估试点。摘要明确：所提措施是对国家指标的补充，并非既有强制要求，也不是该规划已被证实的效果。官方页 citation_publication_date 为 2026/11/27，citation_online_date 为 2026/11/17。本次打开了 Frontiers 官方文章页（HTTP 200）。这是期刊政策简报，不是政府文件全文，也不是疗效评价研究。",
+      "tags": [
+        "policy",
+        "perspective"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.2008413/full",
+        "DOI": "https://doi.org/10.3389/fpubh.2026.2008413"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-cdutcm-tcm-overview",
+      "name": "成都中医药大学《中医药学概论》国家高等教育智慧教育平台课程（黄立华等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.23",
+      "orgs": [
+        "成都中医药大学"
+      ],
+      "summary_zh": "成都中医药大学黄立华、蒋淼、戴鸥、陈林、宋聚先、王建、张廷模、邹文俊、秦旭华、唐怡、杨敏、马骁、闵志强主讲的《中医药学概论》公开课，在学堂在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明课程分上、中、下三篇，共计37类别：上篇为中医学基础，介绍中医药学的内涵与认知背景、中医学基本特点、阴阳五行、气血精津液、脏腑、病因病机以及诊断、辨证；中篇为中药学，介绍中药学基础理论及20类150余种常用单味中药；下篇为方剂学，介绍方剂学基础理论及10类近30首常用代表方剂，并配有测试题与讨论题。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为3万+。当前学期于2026年7月23日开课，至2026年12月6日结束，状态为开课中，课程周期20周；页面更新日期为2026年11月27日。页面只给出这一学期，首开年份暂记为2026。这是高校正规公开课。此前因无法核验当前学期而搁置，今夜已打开可核验的官方学期记录。学堂在线课程页为脚本壳，未单独作为核验依据。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/67883d34225d72705e64399c",
+        "智慧高教": "https://higher.smartedu.cn/course/67883d34225d72705e64399c"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-zjzyy-diagnostics",
+      "name": "浙江中医药大学《中医诊断学》国家高等教育智慧教育平台课程（周岳君等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "浙江中医药大学"
+      ],
+      "summary_zh": "浙江中医药大学周岳君、宋红、刘晓谷、韩进、余王琴、方传明、杨辉主讲的《中医诊断学》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是关于中医诊法技能和中医辨证思辨能力培养的重要基本学科，是中医理论与临床各科的桥梁学科；学习后可初步运用望、闻、问、切收集临床资料，并根据辨证理论与方法对常见病证作简单分析与判断，熟悉门诊病历书写。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。这是高校正规专业课，与已收录的北京、河南、南京中医药大学《中医诊断学》不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/66219fc4bb5c5a80256b10ad"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-csu-zoujin-tcm-upper",
+      "name": "中南大学《走近中医（上）》国家高等教育智慧教育平台课程（戴幸平等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "中南大学"
+      ],
+      "summary_zh": "中南大学戴幸平、唐涛、徐霞、张春虎主讲的《走近中医（上）》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是面向非中医专业的西医院校学生开设的中医课程，响应教育部、卫生部倡导的线上线下混合精品课程要求而打造，可供西医院校五年制、七年制、八年制及临床医学、麻醉、口腔等专业学生选用，也可供非医学专业学生和中医爱好者学习。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为2万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规系列课的上集，与《走近中医（下）》互为呼应。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/671ad4a616d8a05eedca4000"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-csu-zoujin-tcm-lower",
+      "name": "中南大学《走近中医（下）》国家高等教育智慧教育平台课程（戴幸平等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "中南大学"
+      ],
+      "summary_zh": "中南大学戴幸平、王杨、王东生、熊新贵、罗杰坤主讲的《走近中医（下）》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明本课与《走近中医（上）》互相呼应，同样面向非中医专业的西医院校学生打造。课程大纲包括防治原则和治法（未病先防、既病防变、治病求本、调整阴阳、扶正祛邪、因时因地因人制宜，以及汗吐下和温清补消八法）、中药性能与配伍、方剂组成及解表、清热、补益等常用剂类、八纲与卫气营血及脏腑辨证，以及针灸源流、经络腧穴与针法灸法。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。这是高校正规系列课的下集，与上集不是同一门课。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/671c1c6116d8a05eedd0728c",
+        "智慧高教": "https://higher.smartedu.cn/course/671c1c6116d8a05eedd0728c"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-shutcm-medical-history",
+      "name": "上海中医药大学《中国医学史》国家高等教育智慧教育平台课程（陈丽云等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "上海中医药大学"
+      ],
+      "summary_zh": "上海中医药大学陈丽云、杨奕望、胡蓉、严娜、宋神秘、孙增坤、周敏主讲的《中国医学史》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是初入中医者的必修课，通过学习可了解中医学的起源、形成和发展，掌握中医学术传承脉络，领略名医风采、树立医德医风，并把握医学发展与社会文化等因素的关系。大纲自绪章概述，经原始社会医疗活动、夏至春秋、战国至东汉（含马王堆医药帛书、《黄帝内经》等），至魏晋南北朝、隋唐五代、宋金元、明代等各时期医学。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。这是高校正规专业课。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/6621a0a6bb5c5a80256b17ce",
+        "智慧高教": "https://higher.smartedu.cn/course/6621a0a6bb5c5a80256b17ce"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-shutcm-tcm-thinking",
+      "name": "上海中医药大学《揭开中医思维之秘》国家高等教育智慧教育平台课程（张挺等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "上海中医药大学"
+      ],
+      "summary_zh": "上海中医药大学张挺、陈慧娟、朱凌凌主讲的《揭开中医思维之秘》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页介绍中医的历史贡献与当代意义，大纲包括绪论（中医学的概念及其学科属性）、元气论的起源与主要内容、阴阳学说、五行学说，以及中医学主要思维方法（含象思维、意象思维的起源和概念等）。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为3万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规公开课。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/671ad06916d8a05eedca2b5b"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-gsutcm-diagnostics",
+      "name": "甘肃中医药大学《中医诊断学》国家高等教育智慧教育平台课程（万生芳等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "甘肃中医药大学"
+      ],
+      "summary_zh": "甘肃中医药大学万生芳、贾育新、李荣科、王小荣、梁建庆、张磊主讲的《中医诊断学》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明中医诊断学是基础课与临床课之间的桥梁课程，主要包括四诊和辨证两大部分：四诊讲述望、闻、问、切四种诊法及由此收集的临床表现；辨证部分则讲述八纲辨证、病性辨证等。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。这是高校正规专业课，此前目录中甘肃中医药大学公开课几乎空白。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/66219f5fbb5c5a80256b0dcb"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-ynutcm-yangsheng",
+      "name": "云南中医药大学《中医养生学》国家高等教育智慧教育平台课程（周青等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "云南中医药大学"
+      ],
+      "summary_zh": "云南中医药大学周青、邰先桃、刘虹、潘灵、王进进、肖兵、左媛媛、万雪娇、邵梦秋主讲的《中医养生学》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明本课程在介绍中医学基本常识和相关中医传统文化的基础上，系统介绍中医养生理论原则及中医防治疾病重视养正的内在本质，并从精神养生、饮食养生、房事养生、运动养生、药物养生、经络养生、体质养生、日常起居养生等专题展开介绍具体方法和理念；页面同时写明该课程一直以来是深受学生喜爱的选修课之一。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为3万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规公开课，与已收录的四川大学《中医养生与健康》、湖北中医药大学《全生命周期养生》不是同一学校、同一课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/671acf0b16d8a05eedca27d1"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-gzutcm-herbal",
+      "name": "贵州中医药大学《临床中药学（中药学）》国家高等教育智慧教育平台课程（刘顶鼎等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.08.23",
+      "orgs": [
+        "贵州中医药大学"
+      ],
+      "summary_zh": "贵州中医药大学刘顶鼎、刘进哲、陈芳、李煦照、赵冉、梅颖、刘冬主讲的《临床中药学（中药学）》公开课，在学银在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明这既是中医学、中药学各专业的基础课程，又是专业课程，是中医理法方药的重要组成部分；教学视频内容包括中药与中药学的概念、中药的起源和发展、中药的产地与采集、药材的概念，以及在保证药效的前提下如何发展道地药材，每章配有章节测试。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1000+。当前学期于2026年8月23日开课，至2027年2月23日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规专业课，此前目录中贵州中医药大学公开课几乎空白。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/67b7b119225d72705e48e366"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-gzutcm-diet-tumor",
+      "name": "贵州中医药大学《中医食疗与肿瘤防治》国家高等教育智慧教育平台课程（唐东昕等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "贵州中医药大学"
+      ],
+      "summary_zh": "贵州中医药大学唐东昕、杨柱、吴文宇、于佳、叶涛、陈慧彬、杨兵、王定雪、王镜辉、黄雯琪、李娟主讲的《中医食疗与肿瘤防治》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是以中医基础理论结合营养学为指导的课程，将从中医辨体谈到合理施食，从饮食习惯谈到肿瘤康复，从常用食材谈到肿瘤防治，并从肿瘤的各种类别、各个阶段谈到不同的食疗方式，旨在传递中医食疗学的理论和方法，帮助学生学会辨证施膳、辨体施食。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为5000+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。这是高校正规专门课程，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/66219fa7bb5c5a80256b0fe6"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-hebtcm-herbal",
+      "name": "河北中医药大学《中药学》中国大学MOOC课程（张一昕）",
+      "type": "resource",
+      "year": 2020,
+      "date": "2026.08.24",
+      "orgs": [
+        "河北中医药大学"
+      ],
+      "summary_zh": "河北中医药大学张一昕教授主讲的《中药学》公开课，在中国大学MOOC开出。课程页写明中药学是在中医药理论指导下、以临床用药为核心，研究中药基本理论及各种中药临床应用规律的学科，是中医药院校面向各个专业的必修课，也是介于基础和临床之间的桥梁课程。课程系统讲解中药发展历史、常用中药的性能、功效、用法用量和使用注意，并融入燕赵医家用药经验、当代医家成果和安全合理用药警示；课程概述还写明要求掌握常用重点中药约130种、熟悉约90种。本次打开了课程一手页面。当前学期于2026年8月24日开课，至2026年12月31日结束；平台记录的较早开课可追溯至2020年12月29日。这是高校正规专业课，此前目录中河北中医药大学公开课几乎空白。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.icourse163.org/course/ZYXY-1461980164"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-ccucm-herb-pharmacology",
+      "name": "长春中医药大学《中药药理学》国家高等教育智慧教育平台课程（李丽静等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.08.27",
+      "orgs": [
+        "长春中医药大学"
+      ],
+      "summary_zh": "长春中医药大学李丽静、林喆、王楚盈、刘佳、李玉梅、韩冬、林贺、张亚杰、王雨辰、鲍惠玮主讲的《中药药理学》公开课，在学银在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是在中医药理论指导下、运用现代科学方法研究中药与机体（包括正常机体、病理机体和病原体）相互作用及其作用规律的学科。课程包括总论和各论：总论涵盖绪论、中药药性理论的现代研究、中药药效学、中药毒理学、中药药动学和影响中药药理作用的因素；各论按解表药、清热药等分类介绍常用中药的药理作用、药效物质基础及作用机制，并训练实验设计与文献检索能力。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1000+。当前学期于2026年8月27日开课，至2027年1月11日结束，状态为开课中，课程周期20周；页面更新日期为2026年11月24日。页面未见更早学期记录，年份暂记为2026。这是高校正规专业课，与已收录的南京中医药大学《中药药理学》、暨南大学《中药药理学-学做自己的调理师》不是同一学校、同一课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/67cf6c4d225d72705ebb53d6"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-swun-ethno-pharmacology",
+      "name": "西南民族大学《中国民族药物学》国家高等教育智慧教育平台课程（刘圆等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.09.01",
+      "orgs": [
+        "西南民族大学"
+      ],
+      "summary_zh": "西南民族大学刘圆、李莹、李文兵、黄艳菲、张绍山、杨正明、张志锋等主讲的《中国民族药物学》公开课，在学银在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明本课程研究各民族或部落的传统医药，特别是少数民族药物的名称、来源、性状、鉴别、含量测定、作用与用途、用法与用量、不良反应与注意事项、制剂与规格、贮藏等，课程中明确提到藏族、蒙古族、维吾尔族、傣族、苗族、彝族、壮族等民族传统医药。教学团队名单中也包括藏、蒙、维、傣等民族医药相关教师。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年9月1日开课，至2027年1月16日结束，状态为开课中，课程周期20周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规民族医药专业课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/68b0cd28d5f9b8b6cf7c981c"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-qhu-tibetan-overview",
+      "name": "青海大学《藏医药学概论》国家高等教育智慧教育平台课程（李啟恩等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.23",
+      "orgs": [
+        "青海大学"
+      ],
+      "summary_zh": "青海大学李啟恩、郭肖、周则主讲的《藏医药学概论》公开课，在学堂在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是我国首门以国家通用语言文字完整讲授藏医药学的课程，入选国家级一流课程，既是藏医药学专业的入门必修课，也是面向全校开设的通识课程。课程共十章，涵盖绪论、藏医药学的形成与发展、《四部医典》及其特点、哲学基础、理论体系、生理病理、诊断、疗法、树喻图等，引导学生建立“体–病–药”整体观与藏医辨证思维，并整合汉藏双语资源。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为3万+。当前学期于2026年7月23日开课，至2027年1月12日结束，状态为开课中，课程周期25周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规专业课。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/66a03209711dc30c34ab7921"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-cdutcm-tibetan-intro",
+      "name": "成都中医药大学《走进藏医药》国家高等教育智慧教育平台课程（王天虹、张丹）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.23",
+      "orgs": [
+        "成都中医药大学"
+      ],
+      "summary_zh": "成都中医药大学王天虹、张丹主讲的《走进藏医药》公开课，在学堂在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明本课是将该校藏药学专业所修《藏医药学》《藏医学基础》，以及藏医学专业所修《藏医人体学》《藏医伦理学》《天文历算学》《藏医人类学》等内容提炼总结后，面向全校开放的公共任选课；系统展现藏医药历史、理论、代表性人物、典籍和诊疗方法，并对普及藏医药知识、加强各民族医药文化交流有明确教学目的。页面同时说明这是国内第一个以汉语主讲的藏医药在线课程。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月23日开课，至2027年1月12日结束，状态为开课中，课程周期25周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规公开课，与青海大学《藏医药学概论》不是同一学校、同一课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/6786eceb225d72705e5dc493"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-bszy-gaoligong",
+      "name": "保山中医药高等专科学校《高黎贡山中医药食智慧》国家高等教育智慧教育平台课程（张尹等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "保山中医药高等专科学校"
+      ],
+      "summary_zh": "保山中医药高等专科学校张尹、殷建忠、王洪云、李智辉、段安、寸鹏飞、刘衡、董明会、丁国瑜、李青霞、马光宇、张腾、张霓裳、汪艳蛟、徐芳主讲的《高黎贡山中医药食智慧》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程大纲系统介绍高黎贡山中医药食文化，并分述傈僳族、傣族、阿昌族、景颇族、德昂族、怒族的民族医药发展、特色诊疗法、药浴及常用中草药，以及桑、糯橄榄、白花蛇舌草等地方药物的用药智慧。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为2万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是有明确区域和民族医药教学内容的正规专科院校公开课，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/6538482195ac7bc6588c9164"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "course-imust-intelligent-medicine",
+      "name": "内蒙古科技大学《智能医学导论》国家高等教育智慧教育平台课程（刘亮等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.23",
+      "orgs": [
+        "内蒙古科技大学"
+      ],
+      "summary_zh": "内蒙古科技大学刘亮、阿古拉、万智恒、包哈申、严泽、周海、张春红、唐烨霞、王佳主讲的《智能医学导论》公开课，在学堂在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明这是“新医科”背景下的医工交叉新课，融入地区特色——智能中蒙医药相关知识；教学团队包括国家级非物质文化遗产中蒙医温针火针代表性传承人、临床医生、计算机专业教师和IT企业工程师。大纲除智能医学概论、临床应用和数据科学外，专设“走进神奇的智能中蒙医药世界”等专题，内容包括人工智能与中蒙医学、传统中医、针灸诊疗，以及网络药理学、卫星遥感、追溯系统、VR/AR和植物智能识别在中（蒙）药研究中的应用。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为5万+。当前学期于2026年7月23日开课，至2027年1月12日结束，状态为开课中，课程周期25周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校正规交叉课程，对中医药与人工智能交叉有专门教学单元。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/687eb3f716c43a09c0e582ae"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-koizumi-keiichi",
+      "name": "小泉桂一",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "富山大学和漢医薬学総合研究所"
+      ],
+      "section": "高校",
+      "summary_zh": "富山。富山大学和汉医药学综合研究所教授。研究所官方个人页写明：英文名为 Koizumi Keiichi；所属研究開発部门・未病分野／产官学连携部门；专门分野为和汉医药学、生物制剂学、未病学；学位为博士（药学）。简历写明：1995年3月昭和药科大学药学部生物药学科毕业，1997年3月该校大学院药学研究科博士课程前期修了，2000年3月大阪大学大学院药学研究科博士课程后期修了；2000年8月任美国国立卫生研究院（NHLBI/NIH）博士研究员，2001年4月任富山医科药科大学和汉药研究所助手，2010年10月任富山大学和汉医药学综合研究所副教授，2020年12月任教授。研究概要写明，其目标是阐明未病的生物学机制，并开发以未病为靶点的先制医疗药，并引用中国最古医学书《黄帝内经》。页面关键词为未病、纳米体（ナノソーム）、BiND、漢方药、制剂。本次打开了该研究所官方个人主页。",
+      "tags": [
+        "mentor",
+        "university",
+        "east-asian-tm"
+      ],
+      "links": {
+        "主页": "https://www.inm.u-toyama.ac.jp/resercher/koizumi/",
+        "研究者档案": "https://u-toyama.elsevierpure.com/ja/persons/keiichi-koizumi"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-zhu-xiaoshu",
+      "name": "Xiaoshu Zhu",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "Western Sydney University"
+      ],
+      "section": "高校",
+      "summary_zh": "悉尼。西悉尼大学官方研究者档案页写明：Xiaoshu Zhu 为教授，职务是 Head of Discipline, Health Sciences, Traditional Chinese Medicine, and Paramedicine，所属 School of Health Sciences；ORCID 为 0000-0002-2909-5926，接受高等学位研究（HDR）候选人。学历栏写明有 Health 方向哲学博士（西悉尼大学）、医学学士与医学硕士。校外职务写明兼任北京中医药大学与南京中医药大学客座教授。研究关键词包括传统中医（页面拼写为 Taditional Chinese Medicine）、癌症支持、身心疗法、女性健康与患者报告结局；主题指纹含针灸与中药。页面显示研究活动年份为 2001–2026，并列出研究产出 79 项。本次打开了西悉尼大学官方个人档案页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://researchers.westernsydney.edu.au/en/persons/xiaoshu-zhu"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-yang-angela",
+      "name": "Angela Yang",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "RMIT University"
+      ],
+      "section": "高校",
+      "summary_zh": "墨尔本。RMIT University 官方人员页写明：Angela Yang 为副教授（Associate Professor），职务是 Discipline Lead, Chinese Medicine，所属 School of Health and Biomedical Sciences，校区为 Bundoora West；ORCID 为 0000-0001-9345-4607，接受硕士与博士指导。简介写明她在中医教育、专业认证与专业标准方面有二十年以上高等教育、临床与研究经验；为澳大利亚 Ahpra 注册中医师，注册范围包括针灸、中药与中药调剂；研究聚焦针灸和中药治疗慢性病、整合医疗，以及把研究证据转化为临床实践；已发表七十余篇同行评议论文。页面还写明她曾在国家中医认证委员会任职九年，长期协调本科与研究生中医课程，并讲授中医理论、经典文献、针灸、中药与方剂、临床推理与专业实践。指导课题日期可见至 2024 年 12 月 11 日。本次打开了 RMIT 官方人员页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://www.rmit.edu.au/profiles/y/angela-yang"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-zheng-zhen-rmit",
+      "name": "Zhen Zheng",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "RMIT University"
+      ],
+      "section": "高校",
+      "summary_zh": "墨尔本。RMIT University 官方人员页写明：Zhen Zheng 为教授，所属 School of Health and Biomedical Sciences，校区为 Bundoora West；ORCID 为 0000-0001-6777-1166。学术职务栏写明：2017 年 1 月 1 日至 2023 年 12 月 31 日任副教授，2024 年 1 月 1 日起任教授。页面写明她讲授中医理论、针灸神经生理学、整合疼痛管理与内科学；在澳大利亚教授中医课程二十余年；曾参与维多利亚州与新南威尔士州中医本科学位评估，担任维多利亚中医注册委员会课程审批与听证小组成员，现为澳大利亚中医委员会（Chinese Medicine Board of Australia）专业认证小组成员，并应世界卫生组织邀请就中医培训与实践文件提供意见。研究兴趣包括急性与慢性疼痛、睡眠与 Long COVID 的多学科方案。指导课题日期可见至 2026 年 8 月 5 日。本次打开了 RMIT 官方人员页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://www.rmit.edu.au/profiles/z/zhen-zheng"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-zhang-tony-rmit",
+      "name": "Tony Zhang",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "RMIT University"
+      ],
+      "section": "高校",
+      "summary_zh": "墨尔本。RMIT University 官方人员页写明：Tony Zhang 为教授，现任健康与生物医学学院副院长（国际事务）（Deputy Dean, International），所属 School of Health and Biomedical Sciences，校区为 Bundoora West；ORCID 为 0000-0002-0968-9380。职务栏写明：2011 年 2 月 14 日至 2021 年 1 月 1 日任学科负责人（Discipline Leader）；并写明其有十年世界卫生组织合作中心副主任经验，自 2013 年 9 月 11 日起任 China-Australia International Research Centre for Chinese Medicine 共同副主任。简介写明他从事随机对照试验、流行病学研究、系统评价、实施科学与质性研究等循证临床方法学，发表三十余部循证临床专著或章节及二百余篇同行评议论文，并担任《American Journal of Chinese Medicine》等期刊编委。页面列出多项中医药相关指导课题，例如“Systematic Evaluation of Chinese Medicine Evidence for Common Chronic Conditions”（日期可见 2024 年 11 月至 2025 年 2 月 13 日）以及针灸、中药临床评价课题。页面还写明他入选斯坦福大学 2023、2024 与 2025 年全球前 2% 科学家名单。本次打开了 RMIT 官方人员页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://www.rmit.edu.au/profiles/z/tony-zhang"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-hui-kakit",
+      "name": "Kakit P. Hui",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "University of California, Los Angeles"
+      ],
+      "section": "高校",
+      "summary_zh": "洛杉矶。加州大学洛杉矶分校官方 UCLA Profiles 人员页写明：Kakit P. Hui 的职务为 Professor of Clinical, Medicine，所属医学院（School Medicine），邮箱为 khui@mednet.ucla.edu。页面概述写明：Dr. Kakit P. Hui holds the Wallis Annenberg Endowed Chair in Integrative East-West Medicine。出版物列表由 MEDLINE/PubMed 等来源自动汇总，可见其参与耳针与针刺、东西方整合安宁疗护，以及中药相关论文。本次打开了 UCLA Profiles 官方个人页。页面未见中文姓名，故条目沿用该页所用英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://profiles.ucla.edu/kakit.hui"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-bensoussan-alan",
+      "name": "Alan Bensoussan",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "Western Sydney University",
+        "NICM Health Research Institute"
+      ],
+      "section": "高校",
+      "summary_zh": "悉尼。西悉尼大学 NICM Health Research Institute 官方人员页写明：Alan Bensoussan 为整合医学荣休教授（Emeritus Professor of Integrative Medicine），学位包括 PhD、MSc、AdvCAc、DipAc、PG DipEd 与 BSc。页面写明：他受政府委托审查澳大利亚中医执业，推动 2012 年引入全国中医师注册制度，为第一个这样做的西方国家；2007 年在西悉尼大学创立澳大利亚国家补充医学研究所（NICM），获联邦与州政府种子资助；发表 220 余篇科学论文、两部专著及若干章节，并主持多项草药临床试验与评价。曾任澳大利亚治疗用品管理局（TGA）补充药品咨询委员会主席（2011–2014 年），并任世界卫生组织顾问；2020–2024 年任 Natural Therapies Review Expert Advisory Panel 的部长任命成员。奖项栏写明：2013 年获中国科学技术部颁发的 International Award for Contribution to Chinese Medicine；2019 年与中国中医科学院同事共同获得中国科学技术部医学科学成就奖，同年获中华中医药学会国际岐黄奖；2024 年入选斯坦福大学全球前 2% 科学家名单。本次打开了 NICM 官方个人页。该校 Pure 档案页返回 HTTP 404，故以 NICM 官方人员页为一手主页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://www.westernsydney.edu.au/nicmhri/about-us/people/researchers/alan-bensoussan"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-chang-dennis",
+      "name": "Dennis Chang",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "Western Sydney University",
+        "NICM Health Research Institute"
+      ],
+      "section": "高校",
+      "summary_zh": "悉尼。西悉尼大学 NICM Health Research Institute 官方人员页与学校 Pure 档案页均已打开。NICM 页写明：Dennis Chang 为研究所所长、执行委员会成员、药理学教授；研究兴趣包括草药及其他补充医学干预的临床与药理学研究；主持过草药、瑜伽与太极治疗痴呆、轻度认知障碍、冠心病、代谢综合征与 2 型糖尿病的临床试验，并开展药代动力学与心脑保护机制的实验室研究。页面写明他于 2021 年 7 月出任所长，此前自 2020 年 5 月起任代理所长，并曾担任国际事务副所长，推动与大学、研究机构和制药／草药产业的国际合作。学历栏写明：1986 年中山大学医学学士，1993 年与 1998 年在悉尼大学分别获得药理学硕士与博士。奖项与任职包括广州医科大学访问教授，以及 Consortium for Globalisation of Chinese Medicine 南太平洋分会协调人。Pure 档案页写明职务为 Director, NICM Health Research Institute，ORCID 为 0000-0002-6584-738X，研究主题指纹含 Traditional Chinese Medicine，研究活动年份至 2026 年。本次打开了上述两处官方个人页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://www.westernsydney.edu.au/nicmhri/about-us/people/researchers/dennis-chang",
+        "研究者档案": "https://researchers.westernsydney.edu.au/en/persons/dennis-chang"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-armour-mike",
+      "name": "Mike Armour",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "Western Sydney University",
+        "NICM Health Research Institute"
+      ],
+      "section": "高校",
+      "summary_zh": "悉尼。西悉尼大学官方研究者档案页写明：Mike Armour 的职务为 Principal Fellow - Reproductive Health，所属 NICM Health Research Institute；ORCID 为 0000-0001-7539-9851，接受 HDR 候选人。个人简介写明：他在奥克兰大学完成本科荣誉学位后学习传统中医与针灸，2016 年以痛经研究获得博士学位；现为生殖健康副教授，并任 NICM Health Research Institute 研究主任，正在主持多项子宫内膜异位症、痛经与月经健康素养临床试验；已发表 110 余篇同行评议论文及若干教科书章节。页面显示研究活动年份为 2009–2026。本次打开了西悉尼大学官方个人档案页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://researchers.westernsydney.edu.au/en/persons/mike-armour"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-grant-suzanne",
+      "name": "Suzanne Grant",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "Western Sydney University",
+        "NICM Health Research Institute"
+      ],
+      "section": "高校",
+      "summary_zh": "悉尼。西悉尼大学官方研究者档案页写明：Suzanne Grant 所属 NICM Health Research Institute。简介写明她在该校主持整合肿瘤学与整合医学的临床嵌入式研究，并共同创立西悉尼整合健康诊所（Western Sydney Integrative Health, WSIH），领导其研究项目与长期战略；在其领导下该校建立了澳大利亚首个高校整合医学纵向患者登记。学历栏写明她在西悉尼大学获得传统中医方向哲学博士，以及 Bachelor of Applied Science (Trad. Chinese Medicine)；并在南京与北京进修中医。校外职务写明：自 2025 年 1 月 26 日起任 WHO Global Centre for Traditional, Complementary and Integrative Medicine 顾问。研究包括针灸、中药、瑜伽、正念等多模式干预与癌症生存期照护。本次打开了西悉尼大学官方个人档案页。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://researchers.westernsydney.edu.au/en/persons/suzanne-grant"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "person-li-chunguang-wsu",
+      "name": "Chun Guang Li",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "Western Sydney University",
+        "NICM Health Research Institute"
+      ],
+      "section": "高校",
+      "summary_zh": "悉尼。西悉尼大学官方研究者档案页写明：Professor Chun Guang Li 的职务为 Director - Higher Degree Research，所属 NICM Health Research Institute；ORCID 为 0000-0002-7789-2209。学历栏写明他拥有墨尔本大学哲学博士。页面列出研究产出 232 项、项目 33 项，研究活动年份为 1985–2026。主题指纹含中药（Chinese Herbal Medicine）、Salvia miltiorrhiza（丹参）与 tanshinone 等。本次打开了西悉尼大学官方个人档案页。该页未见完整叙述性简历，条目仅依据页面所载职务、学历与研究主题。页面未见中文姓名，故条目沿用官方英文名。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://researchers.westernsydney.edu.au/en/persons/chun-guang-li"
+      },
+      "status": "published",
+      "verified_at": "2026-11-27"
+    },
+    {
+      "id": "news-202611-beijing-influenza-tcm-scheme",
+      "name": "北京市中医药管理局印发《2026年北京冬季流感中医药防治方案（试行）》",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.11.20",
+      "orgs": [
+        "北京市中医药管理局"
+      ],
+      "summary_zh": "北京市中医药管理局印发《2026年北京冬季流感中医药防治方案（试行）》。官方通知页标注日期为2026-11-20，来源为北京市中医药管理局；通知主送各区卫生健康委、经开区社会事业局及各中医医疗机构，称近期受寒冷天气影响，本市以流感为主的呼吸道疾病发病率有所上升，部分医疗机构发热门诊诊疗压力增大，经北京市中医药管理局流感专家组讨论，制定印发该方案，请结合实际抓好贯彻落实。页面未刊载单独公文文号。本次打开了该局官网通知页（HTTPS 200）及同页可下载的方案正文附件DOCX（HTTPS 200，29056字节）。方案写明：2026年入冬以来北京地区流感样病例持续增多，已进入流感病毒感染活跃期并呈上升趋势，目前病例以甲型流感H1N1、H3N2亚型及乙型流感为主，三个类型各约占同期流行数量的1/3；受冬季气候及夏秋季雨水丰沛影响，今冬流感临床初期多见外寒里热、夹湿明显的表现，重症可发展至热毒壅肺，甚至出现毒热内陷、内闭外脱的危重型，后期常有气阴两虚和肺脾气虚表现。方案包括成人流感治疗方案、儿童流感治疗方案、中医适宜技术和预防方案，推荐的基础方可临证加减，供中医、中西医结合和西学中医务人员临床参考使用。成人汤剂按轻型（风寒束表、肺热夹湿）、中型（热毒壅肺）、危重型（毒热内陷、内闭外脱）和恢复期（气阴两虚、余邪未尽）辨证，并按中医证候和临床症状分别推荐通宣理肺丸（颗粒、口服液）、荆防颗粒（合剂）、金花清感颗粒、连花清瘟胶囊（颗粒）、疏风解毒胶囊、痰热清胶囊、安宫牛黄丸、紫雪丹、养阴清肺丸、生脉饮等中成药。儿童汤剂按轻型（风寒束表，郁热伤津）、中重型（痰热壅肺，郁热犯胃）和恢复期（气阴两虚，肺脾不足）分型，危重型明确转儿童专科医院或重症病房治疗，并推荐儿感清口服液、小儿豉翘清热颗粒、小儿肺热咳喘口服液、金振口服液等儿童中成药。中医适宜技术包括针刺、刮痧、拔罐、足浴、穴位贴敷和小儿推拿按摩。预防方案分别给出成人（金银花、桑叶、菊花、荆芥穗、青蒿、芦根、生甘草）和儿童（芦根、桑叶、菊花、陈皮）代茶饮，连服5天，并列出生活调护要求。中国中医药报2026年11月27日对印发该方案作了报道。这是面向全市中医医疗机构的正式季节性中医药防治技术方案，不是科普转载或会议通知。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "通知全文": "https://zyj.beijing.gov.cn/sy/tzgg/202611/t20261125_4957567.html",
+        "方案附件": "https://zyj.beijing.gov.cn/sy/tzgg/202611/P020261125405579780965.docx",
+        "中国中医药报": "https://www.cntcm.com.cn/content/202611/27/c506966.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "news-202611-hubei-hospital-prep-rules",
+      "name": "湖北省药品监督管理局印发《湖北省医疗机构制剂注册和备案管理细则》（鄂药监发〔2026〕41号）",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.11.10",
+      "orgs": [
+        "湖北省药品监督管理局"
+      ],
+      "summary_zh": "湖北省药品监督管理局印发《湖北省医疗机构制剂注册和备案管理细则》（鄂药监发〔2026〕41号）。官方信息公开页写明：发布机构为湖北省药品监督管理局，发文日期2026-11-10，发布日期2026-11-12，文号鄂药监发〔2026〕41号，效力状态为有效，索引号MB1529176/2026-35501。通知称该细则已经省局局长办公会审议通过，现予印发，请遵照执行；落款日期为2026年11月10日，公开属性为主动公开。细则共九章一百零三条，适用于湖北省内申请医疗机构制剂注册、应用传统工艺配制中药制剂备案、调剂使用、中药新制剂委托配制，以及相关审评、审批、检验和监督管理。省局负责全省制剂注册审批、制剂备案和相关监督管理，并发布湖北省医疗机构制剂标准。批准文号格式为鄂药制字H(Z)+4位年号+4位流水号，其中Z代表中药制剂。第四章专章规范传统工艺中药制剂备案，明确其系根据中医药理论组方、配制过程未使原组方治疗疾病的物质基础改变的中药制剂，范围包括饮片经粉碎或仅经水或油提取制成的传统剂型、水提颗粒剂、粉碎后胶囊剂以及传统方法提取的酒剂、酊剂，并对药典未收载但仍在中医临床使用的剂型按“传统工艺中药制剂非药典剂型”管理；中药配方颗粒、与已有供应品种相同处方的不同剂型等不得备案。第五章设立优先办理程序，列入湖北省“荆楚名方”、国家或省级科技重大专项和重点研发计划、突发重大公共卫生事件急需，以及具有临床创新和临床价值、满足尚未满足临床需求的制剂，可在沟通确认后纳入优先办理，形式审查为2个工作日，综合审评通过后5个工作日内作出许可决定。第六章规定省内调剂使用范围为已取得注册批件且临床使用2年以上（含2年）疗效确切、质量可靠的制剂，或取得传统工艺中药制剂备案件后临床使用2年以上、不少于300人次证明安全有效、质量可控的制剂；符合条件的中药制剂可在医联体、对口帮扶、区域医疗中心及省级及以上科研课题协作单位批准的医疗机构使用；省局应在资料受理之日起10个工作日内作出决定，调剂批件有效期一般为3年。第七章规范未取得相应剂型《医疗机构制剂许可证》的医疗机构申报中药新制剂时同步提出委托配制，受托方限于省内已取得相应剂型制剂许可证或通过相应剂型GMP符合性检查的药品生产企业，所配制剂应全部返回委托方。附则明确本细则由省局负责解释，自2027年3月1日起施行，有效期5年，同时废止《湖北省医疗机构制剂注册和备案管理细则》（鄂药监发〔2023〕26号）。官方同日发布的政策解读说明，修订旨在落实国家中医药和药品监管改革部署，解决注册慢、调剂难、变更繁琐等痛点，并新增制剂配制技术转让补充申请，打通注册文号在医疗机构间依法流转的通道。本次打开了湖北省药监局第一方法规文件全文页（HTTPS 200）及同站政策解读页（WebFetch成功打开）。这是省级医疗机构制剂（含传统工艺中药制剂）注册、备案、调剂和委托配制的正式规范性文件，不是征求意见稿或单项产品发布。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "湖北省药监局全文": "https://mpa.hubei.gov.cn/zfxxgk/zc/gfwj/202611/t20261112_6083969.shtml",
+        "政策解读": "https://mpa.hubei.gov.cn/zfxxgk/zc/zcjd_1/202611/t20261112_6083973.shtml"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "news-202610-hubei-jingchu-mingfang",
+      "name": "湖北省药监局、科技厅、卫生健康委、医保局、中医药管理局印发《湖北省“荆楚名方”遴选培育工作方案》（鄂药监发〔2026〕37号）",
+      "type": "news",
+      "year": 2026,
+      "date": "2026.10.14",
+      "orgs": [
+        "湖北省药品监督管理局",
+        "湖北省科学技术厅",
+        "湖北省卫生健康委员会",
+        "湖北省医疗保障局",
+        "湖北省中医药管理局"
+      ],
+      "summary_zh": "湖北省药品监督管理局、省科学技术厅、省卫生健康委员会、省医疗保障局、省中医药管理局联合印发《湖北省“荆楚名方”遴选培育工作方案》（鄂药监发〔2026〕37号）。官方通知页刊登时间为2026-10-23 15:25，通知正文落款日期为2026年10月14日，公开属性为主动公开。通知称，为贯彻落实党中央、国务院关于提升中药质量、促进中医药产业高质量发展的决策部署，助推湖北建成中部地区崛起重要战略支点，五部门联合制定该工作方案，现印发给各市州相关部门和有关单位，请认真组织实施。方案依据国办发〔2024〕53号、国办发〔2025〕11号等文件，提出聚焦荆楚中医药精华，深入挖掘临床疗效确切、具有独特优势的经方验方和医疗机构中药制剂品种，遴选“荆楚名方”，建设项目库，构建“名方—名制剂—名药”创新成果转化路径。遴选范围包括两类：一是具有荆楚地域特色、历史沿革清晰、临床疗效确切、方源资料完整、符合中医药理论、无明显安全风险、适合开发为医疗机构制剂或中药新药的院内方剂；二是具有5年以上临床使用历史、安全性好、临床用量大、疗效显著，且已取得医疗机构制剂注册文号或传统工艺中药制剂备案号、具备进一步研究开发和产业化前景的医疗机构制剂。工作安排包括项目申报、专家评审和培育孵化。政策措施包括：支持名老中医经验方和特色验方挖掘整理与临床验证；对符合条件申报医疗机构制剂注册或备案的开辟受理、检验、审评、核查和审批绿色通道；支持入选医疗机构制剂依托医联体、对口帮扶、区域医疗中心等开展多中心临床研究；“荆楚名方”医疗机构制剂办理省内调剂使用的，实施全程网办、随报随审、当日办结；对有新药转化意向的品种纳入全省生物医药领域重点研制品种项目储备清单；将符合条件的“荆楚名方”医疗机构制剂优先纳入全省基本医疗保险和生育保险支付范围，并由生产医疗机构自主定价；定点医疗机构可为符合条件的慢性病患者开具一般为4周以内、最长不超过12周的长期处方。本次打开了湖北省药监局第一方通知及方案全文页（HTTPS 200）。同站2026年11月27日另发鄂药监函〔2026〕87号，启动第一批遴选（申报期2026年11月26日至12月30日），属于该方案的实施性申报通知，不另作条目。这是五部门联合印发的省级中药名方遴选培育专项工作方案，不是会议通知或征求意见稿。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "湖北省药监局全文": "https://mpa.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/qtwj/202610/t20261022_6038015.shtml"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "surv-huang2026-joim-ml",
+      "name": "Huang et al. 2026: Integration of traditional Chinese medicine and machine learning: Opportunities, obstacles, and implications for future of healthcare",
+      "type": "survey",
+      "year": 2026,
+      "date": "2026.05",
+      "venue": "Journal of Integrative Medicine",
+      "doi": "10.1016/j.joim.2026.02.004",
+      "orgs": [
+        "First Affiliated Hospital of Guangxi University of Chinese Medicine",
+        "School of Engineering, Taylor's University",
+        "School of Basic Medical Sciences, Guangxi Medical University",
+        "School of Electrical Engineering, Guangxi University",
+        "School of Renewable Energy, Inner Mongolia University of Technology",
+        "College of the Environment and Ecology, Xiamen University",
+        "Department of Construction Management, Faculty of Technology Management and Business, Universiti Tun Hussein Onn Malaysia",
+        "Faculty of Engineering, Multimedia University",
+        "Faculty of Engineering and Built Environment, Universiti Kebangsaan Malaysia",
+        "Institute of High-end Equipment Manufacturing, Guangxi Academy of Science"
+      ],
+      "summary_zh": "Huang Xian、Goh Hui Hwang、He Ting-ting、Zhang Dong-dong、Dai Wei、Kurniawan Tonni Agustiono、Goh Kai Chen、Wong Hin Yong、Islam Mohammad Tariqul 与 Liang Xue 在 Journal of Integrative Medicine 发表综述，讨论中医药与机器学习的整合机会、障碍及对未来医疗的意义。 Multimedia University 机构仓储公开摘要页写明：知识图谱与深度学习可增强诊断、治疗规划与预后评价；该文回顾当前机器学习在中医药中的应用及与常规实践的整合策略，并对主要挑战与对策分类，重点讨论基于深度学习的算法；作者称机器学习已在自动化个性化中药处方、预测诊断结果和穴位识别方面显示成效，但数据标准化、伦理与法律框架以及跨学科合作仍是主要障碍，高质量、合乎伦理的人工智能需要监管支持并与中医师合作。该仓储页标注期刊 ISSN 2095-4964，PDF 标明为 Published Version 且 Restricted to Repository staff only，故未能合法取得全文 PDF。NLM PubMed 记录（PMID 41765716，eutils XML HTTP 200）与 Crossref 一致给出 2026 年 24 卷 3 期 295–309 页，电子出版日期 2026-02-17，印刷期次 2026 年 5 月；PubMed 将文章类型标为 Review，通讯邮箱域名指向 Taylor's University 的 Goh Hui Hwang。ScienceDirect / DOI 官方文章页今夜仍为挑战页或跳转页，不是可阅读正文；Unpaywall HTTP 422，EuropePMC 有书目记录但 isOpenAccess=N、不在 PMC。单位取自已打开的 PubMed 记录，摘要同时出现在 MMU 仓储公开页与 PubMed 摘要中。",
+      "tags": [
+        "method",
+        "survey"
+      ],
+      "links": {
+        "仓储摘要": "https://shdl.mmu.edu.my/15663/",
+        "DOI": "https://doi.org/10.1016/j.joim.2026.02.004"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "wu2026-community-tcm-ai",
+      "name": "Wu 2026: Community TCM AI health services for older adults: a public source analysis of three cases and a proposed adherence support framework",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.27",
+      "venue": "Frontiers in Public Health",
+      "doi": "10.3389/fpubh.2026.1994698",
+      "orgs": [
+        "The Fifth Clinical Medical College, Guangzhou University of Chinese Medicine"
+      ],
+      "summary_zh": "吴思彤（Sitong Wu）在 Frontiers in Public Health 发表政策与实践综述（Policy and Practice Reviews），分析社区面向老年人的中医人工智能健康服务，并提出依从性支持框架。官方全文页与开放获取 PDF 摘要写明：这是对三地（深圳、合肥、太和）社区服务在中医体质辨识之后持续照护安排的探索性多案例公开资料分析，每案仅依据一份公开来源；分析框架包括健康评估、个性化建议、任务执行监测、再评估与结局评价、方案调整五个维度。三份来源均描述了人工智能辅助的中医体质评估与个性化建议，但对随访、打卡、复诊提醒或个体方案调整的报告不一，均未提供针对老年人的系统纵向健康结局数据，日常任务核验规则、标准化再评估和方案调整的一般程序描述也不完整。作者据此提出包含一致记录定义、灵活支持渠道、专业审核，以及将可行性与探索性结局评价分开的依从性支持框架，并写明该框架旨在补充而非重复国家基本公共卫生服务中已有的老年人中医健康管理服务，其可行性、成本、测量属性与效果仍需社区试点。摘要明确：研究发现只刻画所纳入的公开报告，不能代表全国社区中医人工智能服务的总体发展。官方页 citation_publication_date 为 2026/11/27，citation_online_date 为 2026/11/06；PDF 记载 Received 10 September 2026，Accepted 06 November 2026。通讯作者为广州中医药大学第五临床医学院吴思彤。这是政策与实践综述，不是系统评价，也不是已部署系统的疗效试验。",
+      "tags": [
+        "policy"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1994698/full",
+        "DOI": "https://doi.org/10.3389/fpubh.2026.1994698",
+        "PDF": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1994698/pdf"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "huangxr2026-ict-tcm-platform",
+      "name": "Huang et al. 2026: Effectiveness of an ICT-based Traditional Chinese Medicine Nursing and Health Management Platform for community-dwelling older adults with chronic diseases: a real-world study",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.11.19",
+      "venue": "Frontiers in Public Health",
+      "doi": "10.3389/fpubh.2026.1983786",
+      "orgs": [
+        "Zhejiang Provincial Hospital of Chinese Medicine"
+      ],
+      "summary_zh": "黄欣蕊（Xin-Rui Huang）、倪飞林、黄璐伊、赵鹏坡与通讯作者徐敏（Min Xu）在 Frontiers in Public Health 报告信息化中医护理与健康管理平台（ICT-TCM）用于社区慢性病老年人的真实世界前瞻性队列研究。官方全文页与开放获取 PDF 写明：研究于 2024 年 12 月至 2026 年 2 月在社区卫生服务中心开展，纳入≥60 岁且至少患一种慢性病的社区老年人，按自我选择分为干预组（配戴腕带并使用 ICT-TCM，n=250）与常规护理对照组（n=250），基线与 12 个月随访评估日常生活能力、跌倒风险、营养风险和睡眠质量。1:1 倾向评分匹配后分析队列为每组 196 人（共 392 人）。官方 PDF 表 2 作者自报（均数±标准差；组间为 Mann–Whitney U 检验）：ADL 一年后对照组 91.81±11.90、干预组 97.02±7.67（p<0.001）；Morse 跌倒量表一年后对照组 11.56±15.84、干预组 4.01±8.85（p<0.001）；MNA-SF 一年后对照组 11.60±2.15、干预组 12.12±1.94（p=0.013）；Athens 失眠量表一年后对照组 4.22±4.10、干预组 3.26±3.22（p=0.048；该量表分数越低表示睡眠越好）。组内比较中，对照组 ADL 下降、跌倒风险上升，干预组 ADL 上升、跌倒风险下降（作者报告均 p<0.05）；干预组 MNA-SF 组内 p=0.055。研究经浙江中医药大学附属第一医院伦理批准（2025-KL-070-01），并注册 ChiCTR2500108075。作者在讨论中写明这是非随机、自我选择入组后再作倾向评分匹配的观察性研究，因果解释受限，仍需多中心随机试验。官方页发表日期 2026/11/19（online 2026/10/30）；PDF 记载 Received 31 August 2026，Accepted 30 October 2026。指标为作者自报。",
+      "tags": [
+        "method"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1983786/full",
+        "DOI": "https://doi.org/10.3389/fpubh.2026.1983786",
+        "PDF": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1983786/pdf"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "xu2026-digital-preventive",
+      "name": "Xu et al. 2026: Digitalized “preventive treatment” in chronic disease control and proactive health: a perspective on integrating TCM wisdom with digital intelligence",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.10.23",
+      "venue": "Frontiers in Digital Health",
+      "doi": "10.3389/fdgth.2026.1883420",
+      "orgs": [
+        "Quzhou Hospital of Traditional Chinese Medicine",
+        "School of Medicine, Quzhou College of Technology"
+      ],
+      "summary_zh": "徐慧、罗斌宇（并列第一作者）、胡芬芬、顾坚、沈桂林、徐金钗与通讯作者方芳、邱惠萍在 Frontiers in Digital Health 发表观点文章，讨论将中医“治未病”智慧与数智技术结合、用于慢性病防控与主动健康的数字化框架。官方全文页与开放获取 PDF 摘要写明：该观点提出一个可检验的概念框架，整合多维数据采集、双引擎分析、精准健康画像和个性化干预；作者明确指出这并不是一个已经过临床验证的系统，而只是整理已有组件级证据，并界定未来在可行性、有效性、安全性、公平性、实施和成本效果方面的评价路径。官方页 citation_publication_date 为 2026/10/23，citation_online_date 为 2026/10/08；PDF 记载 Received 17 May 2026，Accepted 08 October 2026。单位为衢州市中医医院和衢州职业技术学院医学院。这是 Perspective，不是疗效评价或系统综述。",
+      "tags": [
+        "perspective"
+      ],
+      "links": {
+        "论文": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1883420/full",
+        "DOI": "https://doi.org/10.3389/fdgth.2026.1883420",
+        "PDF": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1883420/pdf"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "surv-liangsb2026-opc-tcm",
+      "name": "Liang et al. 2026: Current practices and methodological challenges in establishing objective performance criteria for single-arm trials in traditional Chinese medicine: A scoping review",
+      "type": "survey",
+      "year": 2026,
+      "date": "2026.04.27",
+      "venue": "Integrative Medicine Research",
+      "doi": "10.1016/j.imr.2026.101346",
+      "orgs": [
+        "Clinical Study Center, Affiliated Hospital of Shandong University of Traditional Chinese Medicine",
+        "Centre for Evidence-Based Chinese Medicine, Shandong University of Traditional Chinese Medicine",
+        "Postdoctoral Research Station, Shandong University of Traditional Chinese Medicine",
+        "Department of Pain Management, The Second Qilu Hospital of Shandong University",
+        "Institute of Acupuncture and Moxibustion, China Academy of Chinese Medical Sciences",
+        "Centre for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine",
+        "School of Medicine, Shandong University of Traditional Chinese Medicine",
+        "School of Allied Health and Psychology, Cedarville University",
+        "Institute of Health and Social Care, London South Bank University",
+        "Centre for Evidence-Based Medicine, Hospital of Chengdu University of Traditional Chinese Medicine",
+        "Sichuan Provincial Centre for Evidence-Based Chinese Medicine, Hospital of Chengdu University of Traditional Chinese Medicine"
+      ],
+      "summary_zh": "梁诗斌（Shi-Bing Liang）、李赞华、柴倩云、韩梅、王一斐、王汉东、马芊悦、史怡红、Nicola Robinson 与通讯作者费宇彤（Yu-Tong Fei）、刘建平（Jian-Ping Liu）在 Integrative Medicine Research 发表范围综述，考察中医药单臂试验中客观绩效标准（OPC，亦称靶值）的现行做法与方法学挑战。官方 PMC 全文页（PMC13769208，PMID 43034758）摘要写明：检索 PubMed、Embase、Cochrane Library、CNKI、万方和维普，纳入截至 2026 年 12 月发表的使用 OPC 的中医药单臂试验；结果纳入 12 项研究（13 篇文献，1134 名参与者，2019–2025 年在中国开展），干预包括中药汤剂（n=9）、中成药（n=2）或针灸加康复（n=1）。OPC 来源为既往临床研究（n=6）、荟萃分析（n=5）或临床经验与文献综合（n=1）；仅 3 项报告 95% 置信区间，4 项论证了人群可比性，10 项因病程、严重程度或评估时点差异而可比性有限。11 项有明确主要结局，其中 10 项 OPC 与主要结局对齐，1 项基于次要结局；4 项 OPC 建立在非标准化复合结局（如缓解率）上。作者结论是：当前中医药单臂试验在 OPC 设定上存在报告不完整、人群可比性差、不确定度量化不足和非标准化终点等问题，未来应采用透明且符合情境的 OPC 规范。PMC 记载 Received 2026 Jan 3，Accepted 2026 Apr 26，citation_publication_date 2026 Apr 27，Issue date 2026 Dec，15 卷 4 期文章号 101346，开放获取 CC BY-NC-ND。ScienceDirect 官方页今夜仍为 HTTP 403 挑战页，故以已打开的 PMC 全文页为准。通讯作者邮箱域名指向北京中医药大学。",
+      "tags": [
+        "method"
+      ],
+      "links": {
+        "PMC": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13769208/",
+        "DOI": "https://doi.org/10.1016/j.imr.2026.101346"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-hljucm-herbal",
+      "name": "黑龙江中医药大学《中药学》好大学在线CNMOOC课程（常惟智等）",
+      "type": "resource",
+      "year": 2018,
+      "date": "2026.08.24",
+      "orgs": [
+        "黑龙江中医药大学"
+      ],
+      "summary_zh": "黑龙江中医药大学常惟智（教授）、隋方宇（副教授）、关子赫（副教授）、张淼（副教授）、吴鑫宇、李佳诺（讲师）、田洪昭、曲苗（副教授）、旺建伟（教授）、赵文静（教授）主讲的《中药学》公开课，在好大学在线CNMOOC开出。官方课程页写明中药学是中医学不可分割的一部分，学习须以中医药基础理论为指导、突出辨证用药特点；课程重点介绍中药基础理论和常用中药的性能特点、功效及临床应用，学习目标是掌握中药基本理论和常用中药的性能、功效及临床应用等知识技能，为学习方剂学及中医药各专业课奠定基础。页面列出的大纲包括总论（起源与发展、产地采集贮藏、炮制、性能、配伍、用药禁忌、剂量与用法）以及解表、清热、泻下、祛风湿、化湿、利水渗湿、温里、理气、消食、驱虫、止血、活血化瘀、化痰止咳平喘、安神、平肝息风等各论章节。教材包括全国中医药行业高等教育十四五规划教材《中药学》（钟赣生、杨柏灿主编）等。本次打开了好大学在线一手课程页，页面向加入课程人数记为981人，课程时长20周，语言为中文。页面列出的开课班次自2018春起，经多学期续开至2026秋；当前学期开课时间为2026年8月24日至2027年1月8日，选课时间为2026年8月24日至2026年12月31日。该校公开课此前在目录中为空白。这是高校正规专业课。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://cnmooc.sjtu.cn/portal/course/4279/28386.mooc"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-swmu-tcm",
+      "name": "西南医科大学《中医学》中国大学MOOC课程（江花）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.08.31",
+      "orgs": [
+        "西南医科大学"
+      ],
+      "summary_zh": "西南医科大学江花（副教授）主讲的《中医学》公开课，在中国大学MOOC开出。官方课程页写明中医药是中国文化的伟大宝库，包含完整的理论体系和丰富的临床经验，国际医学生有必要了解中医的基本理论和知识，也可丰富临床诊疗技术、拓宽视野，为进一步研究中医奠定基础；教材提及王新华《中医学（本科/双语教材）》。页面给出的英文大纲包括总论、阴阳五行、藏象、精气血津液、病因病机与体质、诊法、针灸推拿基础知识、中药以及方剂等章节。本次打开了中国大学MOOC一手课程页。页面termInfoList列出两期：2026年4月20日至2026年7月15日，以及当前学期2026年8月31日至2027年1月10日。当前学期页面选课人数记为316人，每周学时约3至5小时，价格为0。首开学期为2026年4月。这是西医院校面向国际医学生的正规双语中医学公开课，与已收录的中南大学《走近中医》不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.icourse163.org/course/SWMU-1472364161"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-swmu-zangxiang",
+      "name": "西南医科大学《中医藏象理论与临床》中国大学MOOC课程（罗永兵）",
+      "type": "resource",
+      "year": 2021,
+      "date": "2026.08.31",
+      "orgs": [
+        "西南医科大学"
+      ],
+      "summary_zh": "西南医科大学罗永兵（副教授）主讲的《中医藏象理论与临床》公开课，在中国大学MOOC开出。官方课程页写明藏象学既是中医理论体系的重要组成部分，也是临床各科辨证论治的理论基础；对该学科进行全面、系统、深入的学习，有助于深化藏象理论并提高中医诊疗水平。页面列出的大纲包括绪论（藏象学说是中医临床医学的基础、藏象的概念、脏腑分类及五脏精气阴阳理论）、五脏的生理与临床、六腑的生理与临床、奇恒之腑的生理与临床、脏腑之间的关系与临床。本次打开了中国大学MOOC一手课程页。页面termInfoList自2021年8月30日至2021年12月30日首开，其后按学期续开；当前学期为2026年8月31日至2027年1月10日，页面选课人数记为267人，每周学时约3至5小时，价格为0。这是高校正规专门课程，不是营销短视频。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.icourse163.org/course/SWMU-1464102180"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-shutcm-acu-classics",
+      "name": "上海中医药大学《针灸医籍选读》国家高等教育智慧教育平台课程（徐平等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "上海中医药大学"
+      ],
+      "summary_zh": "上海中医药大学徐平、王静、张潮、虎力主讲的《针灸医籍选读》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明《内经》和《难经》是中医学理论的奠基之作，也是针灸医学之大道；本课程选取其中有关经络腧穴、刺法灸法、经络调治等经典论述，阐明基于经络气血观察事物、认识生命、诊治疾病的针灸理论和临床思维，传授针灸基本规则、经络腧穴理论、针灸辨证治疗的原则和方法。课程要求掌握针刺补泻迎随、逆顺浅深与分层补泻、提插补泻、虚实补泻、寒热补泻、补泻方圆等基本原则和方法，并理解标本根结、六经皮部和腧穴在诊治上的意义。页面第一章为刺法灸法，列入针灸治则与针法补泻等节次。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月28日。页面未见更早学期记录，年份暂记为2026。该校公开课此前仅有待写入的《中国医学史》和《揭开中医思维之秘》。这是高校正规专业课。同课另一平台ID 66205415bb5c5a8025652927 打开后内容相同，只保留一条。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/671ad0d416d8a05eedca2ca7",
+        "智慧高教": "https://higher.smartedu.cn/course/671ad0d416d8a05eedca2ca7"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-shutcm-orthopedics",
+      "name": "上海中医药大学《中医骨伤科学》国家高等教育智慧教育平台课程（詹红生等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.09.15",
+      "orgs": [
+        "上海中医药大学"
+      ],
+      "summary_zh": "上海中医药大学詹红生、张琥、石瑛、郑昱新主讲的《中医骨伤科学》公开课，在人卫慕课开出，并由国家高等教育智慧教育平台收录。官方课程页写明中医骨伤科学主要研究防治人体筋骨、关节、皮肉、气血、经络、脏腑等各种损伤疾病，是中医临床专业课程之一；本课程以50个知识点的微课程引导学习，内容既包括骨伤科医生须掌握的基础知识和基本技能，也包括基层医疗机构可用的实用技术和筋骨保健常识。页面列出的知识点涵盖手法基本功、理筋与脊椎整复、专科体格检查、牵引与练功、石氏伤科强筋健脊功、夹板和石膏固定、读片基础，以及骨折、脱位、落枕、颈椎病、冻结肩、网球肘、腱鞘炎、椎间盘突出、腰部扭伤、膝骨关节炎、踝关节扭伤、跟痛症、骨质疏松等常见病证。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年9月15日开课，至2026年12月25日结束，状态为开课中，课程周期15周；页面更新日期为2026年11月28日。页面未见更早学期记录，年份暂记为2026。这是高校正规临床专业课，与已收录的北京中医药大学徐林《中医骨伤科学》不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/6a88d234b44e493c761b387e"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-shutcm-daoyin",
+      "name": "上海中医药大学《中医导引与易筋经》国家高等教育智慧教育平台课程（孙萍萍、严蔚冰等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "上海中医药大学"
+      ],
+      "summary_zh": "上海中医药大学孙萍萍等与古本易筋经国家级代表性传承人严蔚冰、严石卿，以及罗从风、刘苓霜、李殿友、王兴伊等主讲的《中医导引与易筋经》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明本课主要由严蔚冰主讲，是一门理论与实践兼修的课程；古本易筋经十二势导引法源于古代导引医学，以中医生命观为核心理论，2014年进入国家级非物质文化遗产传统医药类保护项目。大纲分三章：历史源流与基础理论（导引内涵、起源、创立与发展，易筋经的创立，导引学名著，经筋理论与精气神学说）、非遗传习与导引实践（十二势及预备势、收势的理论讲解与跟我学）、临床实践（帕金森病、肿瘤、脑卒中及慢性疲劳综合征等的导引康复，以及现代运动与中医导引的比较）。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月27日。页面未见更早学期记录，年份暂记为2026。这是高校联合医院与非遗传承人开设的正规系统课程，与已收录的福建中医药大学《中医运动疗法--易筋经》不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/6536f75695ac7bc6588c5dd3"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-hbucm-shanghan",
+      "name": "湖北中医药大学《伤寒论》国家高等教育智慧教育平台课程（李家庚、梅国强等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.07.21",
+      "orgs": [
+        "湖北中医药大学"
+      ],
+      "summary_zh": "湖北中医药大学李家庚、梅国强、成肇仁、邱明义、刘松林、樊讯、陶春晖、蒋跃文、陈雨、岳滢滢、许乐思、王慧如主讲的《伤寒论》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。官方课程页写明《伤寒论》是中医四大经典之一，也是我国现存最早的辨证论治专书，是中医专业主干必修课；湖北中医药大学伤寒学学科为国家中医药管理局局级重点学科，本课程为省级精品课程，教学团队为省级高校教学团队。大纲自绪论起，依次为辨太阳病、阳明病、少阳病、太阴病、少阴病、厥阴病脉证并治，以及霍乱病和阴阳易差后劳复病，列入桂枝汤、麻黄汤、白虎加人参汤、大承气汤、小柴胡汤、四逆汤、乌梅丸、当归四逆汤、白头翁汤等代表性条文与方证。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为2万+。当前学期于2026年7月21日开课，至2027年1月20日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月28日。页面未见更早学期记录，年份暂记为2026。该校公开课此前仅有《全生命周期养生》。这是高校正规经典课程，与已收录的南京中医药大学凌云《伤寒论》不是同一学校、同一主讲教师的课程。同课另一平台ID 64388557af1f1b5d3ed14f2e 打开后内容相同，只保留一条。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/671ad2d216d8a05eedca344d",
+        "智慧高教": "https://higher.smartedu.cn/course/671ad2d216d8a05eedca344d"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-lnutcm-formula",
+      "name": "辽宁中医药大学《方剂学》国家高等教育智慧教育平台课程（张林、范颖等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.08.28",
+      "orgs": [
+        "辽宁中医药大学"
+      ],
+      "summary_zh": "辽宁中医药大学张林、范颖、李然、张红梅、卢健、訾慧、于彩娜、刘倩、敖玉涵、王佳然、张展主讲的《方剂学》公开课，在学银在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明方剂学是中医药学的基础课程和主干课程，是研究药物配伍关系与配伍规律以及君臣佐使的知识体系，也是中医基础学科与临床学科之间的桥梁；通过本课可了解方剂学的性质和任务，掌握方剂的组成原则与变化，学习常用方剂的组成、用法、功用、主治、证治机理、方解、配伍特点、运用以及相似方剂的鉴别比较。页面列出的章节包括绪论、解表剂、泻下剂、和解剂、清热剂、温里剂、表里双解剂、补益剂、固涩剂、安神剂、开窍剂、理气剂、理血剂、治风剂、治燥剂、祛湿剂、祛痰剂、消食剂、治痈疡剂，并列举麻黄汤、桂枝汤、大承气汤、小柴胡汤、逍遥散、清营汤、理中丸、四君子汤、四物汤、六味地黄丸、血府逐瘀汤、补阳还五汤等常用方。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1万+。当前学期于2026年8月28日开课，至2027年2月28日结束，状态为开课中，课程周期27周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。该校公开课此前仅有《药事管理学》和《医古文》。这是高校正规专业课，与已收录的广州、浙江中医药大学方剂学课不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/66d0f730711dc30c3482e700",
+        "智慧高教": "https://higher.smartedu.cn/course/66d0f730711dc30c3482e700"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-hnucm-diagnostics",
+      "name": "湖南中医药大学《中医诊断学》国家高等教育智慧教育平台课程（胡志希等）",
+      "type": "resource",
+      "year": 2019,
+      "date": "2026.08.01",
+      "orgs": [
+        "湖南中医药大学"
+      ],
+      "summary_zh": "湖南中医药大学胡志希、刘旺华、简维雄、李琳、梁昊、李金霞、凌智、杜佳、曾逸笛、熊广华、向茗、肖莉、夏帅帅、魏佳明、伍紫炫、俞赟丰主讲的《中医诊断学》公开课，在智慧树开出，并由国家高等教育智慧教育平台收录。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为2万+。当前学期于2026年8月1日开课，至2026年12月31日结束，状态为开课中，课程周期22周；页面更新日期为2026年9月15日。国家平台课程页未给出更早学期，也未在本次打开的页面中提供可摘录的长篇课程简介。同校同名同主讲教师胡志希的中国大学MOOC课程页 https://www.icourse163.org/course/HNZYYDX-1207451802 今夜一并打开（HTTP 200），termInfoList自2019年12月25日首开，最晚学期仍为2022年3月11日至2022年5月31日，没有当前学期；该MOOC记录此前因此被搁置。因智慧树/国家平台现已开出可核验的2026年当前学期，予以收录。首开年份据已打开的中国大学MOOC学期记录记为2019。这是高校正规专业课，与已收录的北京、南京、河南、浙江以及待写入的甘肃《中医诊断学》不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://higher.smartedu.cn/course/671ad15816d8a05eedca2e4e"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "course-hbnu-shanghan",
+      "name": "河北北方学院《伤寒论》国家高等教育智慧教育平台课程（王莹等）",
+      "type": "resource",
+      "year": 2026,
+      "date": "2026.10.24",
+      "orgs": [
+        "河北北方学院"
+      ],
+      "summary_zh": "河北北方学院王莹、张永鹏、李刚、靳国印、赵宏照、赵坤主讲的《伤寒论》公开课，在学银在线开出，并由国家高等教育智慧教育平台收录。官方课程页写明教学内容分绪论、六经病、霍乱病、阴阳易差后劳复病等部分：绪论介绍《伤寒论》的地位、形成与发展、学术渊源与成就，及其与《内经》《金匮要略》《温病学》的关系，以及伤寒的涵义、病因发病与传变、辨证方法与治则治法；第1至8章分别论述六经病、霍乱病和阴阳易差后劳复病的病因病机与辨证论治，旨在掌握六经辨证体系和相关汤证辨治的基本理论、知识与技能。适宜中医类专业在校学生、中医临床专业人士和中医爱好者。本次打开了国家高等教育智慧教育平台一手课程页，页面向选课人数记为1000+。当前学期于2026年10月24日开课，至2027年1月1日结束，状态为开课中，课程周期10周；页面更新日期为2026年11月26日。页面未见更早学期记录，年份暂记为2026。这是公办本科院校的正规经典课程，与已收录的南京中医药大学《伤寒论》以及本路同批收录的湖北中医药大学《伤寒论》不是同一学校、同一主讲教师的课程。",
+      "tags": [
+        "course"
+      ],
+      "links": {
+        "课程": "https://www.chinaooc.com.cn/course/687ac2b216c43a09c0d1b18c",
+        "智慧高教": "https://higher.smartedu.cn/course/687ac2b216c43a09c0d1b18c"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-zhaxi-dongzhu",
+      "name": "扎西东主",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页（栏目为青年教师团队）写明：扎西东主，男，藏族，1982年生，博士，教授。教育经历写明：2003年青海医学院医学学士，2006年青海大学医学院医学硕士，2014年青海大学医学院医学博士。工作经历写明：2014年起任青海大学附属医院藏医门诊副主任，2017年起任该门诊主任；现任青海省藏医药学会会员，青海省藏医药学学会藏西医结合委员会委员。教学栏写明，给本科生讲授《藏医药学概论》《藏医人体学》《藏医预防保健学》《藏医身心概论》等藏医基础骨干课程，指导92名藏医学士，并两次获青海大学优秀指导老师奖。页面列出其藏医养生、藏药莪达夏及曼唐教学等论文与多部主编著作。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29955.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-ziba",
+      "name": "子巴",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：子巴，男，藏族，青海尖扎人，1967年6月出生，教授；青海省藏医药学会会员，青海大学藏医学院藏医药综合实验室主任。教育与研修经历写明：1992–1993年在拉萨西藏藏医学院学习，其后在青海医学院学习藏医专业，2007年在日本国阿如拉藏医学中心研修。工作经历写明：1998年4月至今在青海医学院藏医系任教。教学栏写明，近年来担任《藏医药理学》《藏医方剂学》《藏药植物学》等课程及野外认药实践教学。页面并列举其藏药提取与含量测定等论文。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29967.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-qieyang-rangzhong",
+      "name": "切羊让忠",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：切羊让忠，男，藏族，青海省贵德县人，1982年12月出生，教授、医学博士。教育经历写明：2001–2005年在青海医学院获学士学位；2007–2010年在青海大学藏医学院获硕士学位；2010–2011年在四川大学华西药学院国内访问学习；2011–2015年在青海大学藏医学院获博士学位（藏医藏药方向），其间赴北京中医药大学学习相关博士课程。工作经历写明：2005年9月至今在青海大学藏医学院工作。教学栏写明，承担《藏药方剂学》《藏药炮制学》《藏医药理学》《藏医药学史》《梵文》《藏医精神病学》等课程，指导本科毕业论文45篇余，并自2005年起担任野外认药实践教学指导老师。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29947.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-gongque-jianzan",
+      "name": "贡却坚赞",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：贡却坚赞，男，藏族，1965年出生，留美博士，副教授，硕博士生导师。教育经历写明：2000年获泰国玛希隆大学初级保健护理管理学硕士，2001年获美国佛蒙特国际研修学院国际及跨文化间管理学硕士，2010年获美国洛杉矶加州大学（UCLA）公共卫生学院公共卫生学博士。工作经历写明：2001–2005年担任青海省塔尔寺藏医院院长；2010年9月至今在青海大学藏医学院工作；2010年至今任美国阿如拉藏医药文化中心项目主任；2014年至今在美国弗吉尼亚大学开设并讲授《藏医概伦及藏医养生保健学》选修课。教学栏写明，2010年9月至今为硕士、博士讲授《藏医养生学专论》《藏医药梵文》《藏医药科研理论与设计》《藏医饮食学》《基础梵文》《藏医养生学》等课程。页面论文列表中可见英文名 Kunchok Gyaltsen。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29965.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-renqing-duojie",
+      "name": "仁青多杰",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：仁青多杰，男，藏族，1987年出生，博士，副教授。页面写明其为青海省“高端创新人才千人计划：藏药防治重大疾病研究创新团队”培养团队成员，并曾为美国洛杉矶加州大学公卫学院、弗吉尼亚大学医学院访问学者，以及北京大学医学部医学人文研究院、中国中医科学院中国医史文献研究所访问学者。教育经历写明：2005–2010年青海大学医学院学士，2010–2013年、2013–2016年在青海大学藏医学院分获硕士、博士学位。工作经历写明：2016年9月至今在青海大学藏医学院基础教研室任教，并任教学管理部教材编译办公室秘书。教学栏写明，给本科生讲授“藏医药学史”“藏医人体学”“藏医病机学”等课程。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。此条目与目录已有的“多杰”（person-duojie）不是同一人。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29953.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-jiaobajia",
+      "name": "角巴加",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：角巴加，男，藏族，青海省尖扎县人，1979年4月出生，副教授、医学博士。教育经历写明：1998–2003年在青海医学院获学士学位；2006–2009年在青海大学藏医学院获硕士学位；2008–2009年在四川大学华西医学中心国内访问学习；2012–2016年在青海大学藏医学院攻读民族医学（藏医藏药方向）获博士学位，其间在北京中医药大学学习相关博士课程。工作经历写明：2003年7月至今在青海大学藏医学院工作。教学栏写明，承担《藏医人体学》《天文历算》《藏医治疗学》《藏医药学史》《梵文》《藏医精神病学》等课程，指导本科毕业论文50篇余。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29959.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-zhao-chengzhou",
+      "name": "赵成周",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页页首写明：赵成周，男，汉族，1986年生，博士，副教授。教育经历写明：2006–2010年西南民族大学生命科学与技术学院学士，2010–2016年兰州大学生命科学学院植物学硕博连读。工作经历栏写明：“2016年9月至今，青海大学藏医学院，讲师”。教学栏写明，为本科生讲授药用植物学、生物化学、分子生物学等课程，并列出英文论文。页首职称与工作经历栏表述并不一致，此处均按页面原文记录，不以推测裁定。页面发布日期为2017-05-21。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/29956.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-niangquxian",
+      "name": "娘去先",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：娘去先，甘肃甘南人，中共党员，医学博士，副教授。页面写明其曾分别在甘肃中医药大学藏医学院、西藏藏医药大学、青海大学藏医学院攻读本科、硕士和博士学位；2013–2021年在基层担任藏医全科医生；2021年9月开始在青海大学藏医学院工作；2021年被评为青海省“昆仑英才·高端创新创业人才”计划直接认定拔尖人才。页面还写明其在《中国藏学》《青海社会科学》《世界科学技术-中医药现代化》等核心期刊发表4篇论文，并在《中国藏医药》等刊物发表7篇省级论文。页面发布日期为2023-06-01。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/c30ecc94d98a4cec9096752f43f6cc26.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-pucuo-duojie",
+      "name": "普措多杰",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：普措多杰，男，博士，副教授，副主任医师，硕士研究生导师，青海省“昆仑英才·高端创新创业人才”拔尖人才；现任青海大学藏医学院研究生教育与学科建设办公室主任。研究方向写明为藏医人体学与内科学核心理论、藏医特色外治疗法，以及《四部医典》版本与语言学研究。教育与工作经历写明：在青海大学完成藏医学学士、硕士与藏医药学博士；2012–2013年为美国洛杉矶加州大学访问学者；2013年12月任讲师，2014年12月至今任副教授。页面列出其主持的国家社会科学基金项目“基于《四部医典》诸版本比较的藏语语音及词汇史研究”（21XYY012，2021.09–2024.12）等课题。页面发布日期为2023-07-20。本次打开了该学院官方个人主页。此条目与目录已有的“多杰”（person-duojie）不是同一人。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/4b5c32277b274851b046aec0a4fb6513.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-suonan-caidan",
+      "name": "索南才旦",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "青海大学藏医学院"
+      ],
+      "section": "高校",
+      "summary_zh": "西宁。青海大学藏医学院官方个人页写明：索南才旦，男，博士，副教授，藏医主治医师，硕士研究生导师。研究方向写明包括藏医核心理论、藏医医史文献、内生细菌促进植物生长机理，以及藏医内科学。教育与工作经历写明：2008–2019年在青海大学完成藏医学（藏西医结合）学士、民族医学（藏医学）硕士和民族医学（藏医藏药）博士，2019年9月至今在青海大学藏医学院任副教授。页面列出其主持的“昆仑英才·高端创新创业人才”引进拔尖人才项目（2020/12–2023.12）及青海大学青年科研基金项目《基于历史时间轴的藏医“昌狄”学派传承脉络考证及学术思想研究》。论文列表包括在《中国藏学》《中国中医基础医学杂志》等发表的藏医“昌狄”学派与世系研究。页面发布日期为2023-06-01。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://zyxy.qhu.edu.cn/szdw/qnjstd/755bf599766f417bae86b785331feef4.htm"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-li-chengyi",
+      "name": "李成义",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：李成义，男，教授，博士/硕士研究生导师。1987年6月毕业于北京中医学院，获学士学位，同年7月在甘肃中医学院参加工作，2002年晋升为教授。主要讲授《中药鉴定学》《中医药拉丁语》等本科课程、《中药鉴定学专论》硕士研究生课程和《中药学专业课》博士研究生课程。研究方向为中药品种与质量研究，对象包括甘草、红芪、党参、当归、板蓝根、黄花菜等陇药。页面写明其获全国中医药高等学校教学名师、国家中医药管理局重点学科中药鉴定学学科带头人、甘肃省领军人才等称号，并兼任教育部高等学校中药学类专业教学指导委员会委员等职。页面还写明其主持完成20余项科研项目，研发的“宣肺止嗽合剂”已转化上市并被2015版《中国药典》收载。页面发布日期为2021-12-30。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1376.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-guo-mei",
+      "name": "郭玫",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：女，教授，博士生导师，第十三届全国人大代表。1985年本科毕业于兰州大学药学院（原兰州医学院药学系），硕士毕业于成都中医药大学药学院中药学方向，自1985年参加工作。页面写明现为甘肃省领军人才（2010年）、甘肃中医药大学药学院中药学学科（省级重点学科）带头人、国家中医药管理局中药化学重点学科带头人、国家中医药管理局中药化学三级实验室主任，并担任“中药化学”省级精品课程与省级教学团队等负责人。致力于西北地区中藏药物质基础与质量控制方法研究。页面写明培养硕士、博士研究生20余名，主编、副主编或参编教材与专著10余部，发表SCI及国家级论文90余篇。页面发布日期为2021-12-29。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1393.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-shao-jing",
+      "name": "邵晶",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：邵晶，博士，教授，博士研究生导师，甘肃省高校“教学名师”，甘肃省“飞天学者”青年学者，甘肃省青年教师成才奖获得者，甘肃省高校教师教学创新大赛一等奖获得者。该页写明现任药学院院长。从事中药化学、中药分析等课程教学工作24年，主要研究方向为中药药效物质基础及其质量控制与产品开发。页面写明其为国家级一流课程《中药化学》及甘肃省一流课程《中药分析》负责人，国家中管局中药化学重点学科负责人。近年主持及参与完成各类项目16项，第一及通讯作者发表论文50余篇，副主编及编委教材15部。页面发布日期为2021-12-28。同日发布的晋玲个人页亦写明“药学院院长”，此处只按本页原文记录，不以推测裁定现任院长。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/2612.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-ren-yuan",
+      "name": "任远",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：男，教授，博士/硕士研究生导师。1984年毕业于兰州医学院，获学士学位，同年于甘肃中医学院参加工作，任助教；1992年晋升讲师，1998年晋升副教授，2003年晋升教授。主要讲授《药理学》《药物毒理学与安全性评价》《中药药理学专论》等课程。研究方向为中药药理学与毒理学研究。页面写明曾获甘肃省科技进步二等奖、三等奖及中华中医药学会科技成果三等奖等。页面发布日期为2021-12-28。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1315.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-wei-shuchang",
+      "name": "魏舒畅",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：教授，博士/硕士研究生导师，甘肃省中药制药工艺工程研究中心主任，世界中医药学会联合会经皮给药专业委员会理事。讲授《中药制药工艺学》《物理药剂学》《制药工程设计》《药用高分子材料学》《中药制药新技术》《新剂型设计》《生物药剂学与药物动力学》等课程。从事中药制药新技术、中药新剂型创制及中药制药技术的工业转化研究。页面写明主持国家自然科学基金项目3项，主持完成省部级课题14项，以第一及通讯作者在EI及CSCD源期刊发表论文60余篇，获发明专利授权6项。页面发布日期为2021-12-28。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1568.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-jin-ling",
+      "name": "晋玲",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：晋玲，理学博士，教授，博士/硕士研究生导师，“飞天学者”特聘教授，甘肃省教学名师，甘肃省高校青年教师成才奖获得者，药学院院长。长期从事《药用植物学》《中药资源学》等研究生与本科教学，并任中药学国家教指委《药用植物学》课程联盟副理事长、甘肃省精品资源共享课《药用植物学》课程负责人。页面写明其担任第四次全国中药资源普查甘肃省技术负责人及国家专家组成员，甘肃中医药大学中（藏）药资源研究所所长，甘肃省中药原料质量与技术服务省级中心主任。研究特长为当归、大黄等甘肃道地药材资源开发利用及珍稀濒危中藏药资源的评估、保护与可持续利用。页面写明公开出版学术专著8部，发表论文150余篇。页面发布日期为2021-12-28。同日发布的邵晶个人页亦写明“现任药学院院长”，此处只按本页原文记录。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1339.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-deng-yi",
+      "name": "邓毅",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：男，教授，博士/硕士生导师。现为教育部高等学校中药学类专业《中药学》课程联盟副理事长，教育部高等学校中医学类专业核心课程《中药学》课程联盟理事，中华中医药学会中药基础理论分会常务委员、养生康复分会常务委员、继续教育分会委员，并任世界中医药学会联合会理事、世界中医药学会联合会敦煌医学研究及文化传承专业委员会副会长兼秘书长。页面写明从事教学工作35年以来一直承担本科教学与研究，主编或参编“十二五”至“十四五”高等学校规划教材《中药学》《临床中药学》《中成药学》《中药材加工与养护学》等多部教材。页面发布日期为2021-12-27。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1279.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-wang-yinquan",
+      "name": "王引权",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：王引权，男，教授，博士/硕士研究生导师。1986年毕业于甘肃农业大学，获学士学位；2005年毕业于甘肃农业大学，获博士学位；2018年晋升为教授。主要讲授《基础生物化学》《土壤肥料学》《土壤学》和《科研思维与方法论》等课程。页面写明承担完成各类科研项目8项，获国家发明专利3项，在国内外学术期刊发表论文120余篇，其中SCI收录20篇，并作为副主编或参编学术专著4部、教材3部。页面发布日期为2021-12-27。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1362.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-di-duolong",
+      "name": "邸多隆",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院",
+        "中国科学院西北特色植物资源化学重点实验室"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：邸多隆，男，博士，研究员（二级）/教授，博士/硕士研究生导师。中科院“百人计划”学者，中科院“特聘研究员”，享受国务院特殊政府津贴。现任中国科学院西北特色植物资源化学重点实验室主任、特色药用植物资源高值化利用国家地方联合工程研究中心主任、甘肃省天然药物重点实验室主任，并写明为中国科学院大学教授，兰州大学、甘肃中医药大学、宁波大学等兼职教授。主要研究领域包括复杂体系分离分析新方法，以及基于中药传统功效的药物分子发现和创新药物研发。页面写明发表论文近300篇，申请国内发明专利70余件（其中授权18件），并以第一完成人获省级科技进步一、二、三等奖各1项。页面发布日期为2021-12-26。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1561.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "person-li-yuefeng",
+      "name": "李越峰",
+      "type": "person",
+      "year": 2026,
+      "orgs": [
+        "甘肃中医药大学药学院"
+      ],
+      "section": "高校",
+      "summary_zh": "兰州。甘肃中医药大学药学院官方博士生导师个人页写明：李越峰，教授，中药学博士，博士后，博士生导师，博士后合作导师，甘肃省拔尖领军人才，甘肃省“飞天学者”青年学者，甘肃省教学名师，甘肃省发明人奖获得者。页面写明2015–2017年挂职于甘肃省陇南市武都区副区长，现任甘肃中医药大学科研实验中心主任；并为2020版《中国药典》中药饮片标准制定专家、中华中医药学会中药炮制分会副主任委员等。主持国家自然科学基金5项及省部级等主要项目40余项，为省级教学团队和省级一流课程《中药炮制学》负责人。页面写明以第一作者或通讯作者发表主要学术论文400余篇，获批国家标准1项、团体标准4项、省级标准4项和国家发明专利10项。页面发布日期为2021-12-26。本次打开了该学院官方个人主页。",
+      "tags": [
+        "mentor",
+        "university"
+      ],
+      "links": {
+        "主页": "https://yxx.gszy.edu.cn/show/id/1292.html"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "ds-tcmnp",
+      "name": "TCMNP（tcmnetpharma runtime dataset）",
+      "type": "dataset",
+      "year": 2026,
+      "date": "2026.10.27",
+      "doi": "10.5281/zenodo.23681367",
+      "orgs": [
+        "天津中医药大学海河实验室"
+      ],
+      "summary_zh": "tcmnetpharma 运行时数据集（TCMNP v1.3.0）。Zenodo 官方记录页写明 Published October 27, 2026，Version 1.3.0，作者为 Zheng, JianXiao，所属 Haihe Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine。页面与 DataCite（Issued 2026-10-27，DOI 10.5281/zenodo.23681367）写明：数据版本 TCMNP_1.3.0（2026-10-21）提供供 R 包 tcmnetpharma 使用的 19 个 Apache Parquet 表；整合 TCMSP、HERB 2.0、BATMAN-TCM 2.0、ETCM2、ChEMBL 37、STRING 12、TRRUST v2、Open Targets Platform 25.06 与 SymMap V2，并以 2025 年版《中国药典》作为命名与性味归经参照但不重分发。标准药材–分子–靶点宽表为 16,269,134 行、33 列。许可为 CC BY-NC-SA 4.0。该记录是已有上游库的新汇编运行时数据集，不是目录中某一已有数据集的版本更新。本次用 webFetch 打开了 Zenodo 一手落地页，并用 DataCite API 与 Hugging Face 镜像页核验。",
+      "tags": [
+        "herbal",
+        "database",
+        "open-data"
+      ],
+      "links": {
+        "Zenodo": "https://zenodo.org/records/23681367",
+        "DOI": "https://doi.org/10.5281/zenodo.23681367",
+        "Hugging Face": "https://huggingface.co/datasets/Zenodo-ML/TCMNetPharma-TCMNP-Traditional-Chinese-Medicine-Network-Pharmacology-Data",
+        "GitHub": "https://github.com/271705024/tcmnetpharma"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
+    },
+    {
+      "id": "hf-deeppulse",
+      "name": "深度把脉 (DeepPulse)",
+      "type": "model_hf",
+      "year": 2025,
+      "date": "2025.12.23",
+      "orgs": [
+        "心语心言",
+        "PneumaAI"
+      ],
+      "summary_zh": "心语心言开源中医大模型系列 DeepPulse（深度把脉）。本次打开了 Hugging Face 官方模型页与 README：PneumaAI/DeepPulse-80B-Instruct-V0.1 与 PneumaAI/DeepPulse-80B-Thinking-V0.1。模型卡写明该系列以 Qwen3-Next-80B 为基座，使用自建高质量中医临床数据集深度微调，许可为 Apache-2.0。发布包含两个版本：DeepPulse-80B-Thinking-V0.1 侧重复杂临床推理与辅助诊断；DeepPulse-80B-Instruct-V0.1 侧重中医指令跟随与问答。模型卡所附 MedBench TCM-5CEval 对照表写明发布日期为 2025/12/23，组织/团队为心语心言；Thinking 版总分 71.3（表中列第一），Instruct 版总分 66.2（表中列第六）。Hugging Face API 显示 Instruct 版 createdAt 为 2025-12-24，lastModified 为 2025-12-25。这是独立的官方中医模型项目，不是已有目录模型的量化或普通衍生微调。本次未将 GGUF 量化版作为新条目。",
+      "tags": [
+        "model",
+        "open-weights"
+      ],
+      "links": {
+        "Instruct": "https://huggingface.co/PneumaAI/DeepPulse-80B-Instruct-V0.1",
+        "Thinking": "https://huggingface.co/PneumaAI/DeepPulse-80B-Thinking-V0.1"
+      },
+      "status": "published",
+      "verified_at": "2026-11-28"
     }
   ]
 }
