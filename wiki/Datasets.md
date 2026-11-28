@@ -139,6 +139,7 @@
 
 ## 评测基准
 
+- **TCM-EviSelect: Evidence Selection Labels for Chinese Traditional Medicine Question Answering** — TCM-EviSelect 是面向中医问答证据选择的公开标注数据集。Zenodo 记录页（v1）写明由 Zhang, Peihua（Hebei Finance University，联系人）、Li, Xiangmeng（Affiliated Hospital of Hebei University）与 Hao, Bin（College of traditional Chinese Medicine, Hebei University）发布，标注日期为 2026 年 11 月 7 日，资源类型为 Dataset，许可为 Creative Commons Attribution 4.0 International。页面说明该数据集提供 26432 条训练对和 4978 条开发对，带有二元相关与支持标签，衍生自 Lingdan 与 Hallu-TCM，并包含对 44 道留出题目的分层人工审阅汇总结果；发布内容为标注与标识符，源文本和条目级测试标签未公开，基于文本的模型训练需另行获取源文本并按标识符对齐。本次用 webFetch 打开了概念 DOI 10.5281/zenodo.24035357 与版本记录页 https://zenodo.org/records/24035357 的真实落地页（含作者、摘要、文件列表 tcm-qa-evidence-labels-v0.1.0.zip），并用 DataCite API 核验版本 DOI 10.5281/zenodo.24035358 的 Issued 日期为 2026-11-07、关系为 IsVersionOf 10.5281/zenodo.24035357。对 zenodo.org 的直接 curl 返回 403（WAF），未作为打开成功的正文页。这是公开数据集发布，不是模型权重下载入口。 [[Zenodo](https://zenodo.org/records/24035358)] [[概念DOI](https://doi.org/10.5281/zenodo.24035357)] [[版本DOI](https://doi.org/10.5281/zenodo.24035358)]
 - **TCM-RobustSDT** — 中医临床推理LLM鲁棒性基准数据集（Figshare） [[数据集](https://doi.org/10.6084/m9.figshare.33054974)]
 - **大模型辨证论治评测基准** — Scientific Data发布的辨证论治基准，用来评估大模型的中医临床应用能力 [[论文](https://doi.org/10.1038/s41597-026-07587-4)]
 - **病理标注舌象数据集** — 带病理标注的中医舌象图像集，用于降低人工舌诊的主观性。 [[论文](https://doi.org/10.62762/bish.2026.303296)]
